@@ -183059,6 +183059,26 @@
       "verified_via": "review",
       "verified_by": "review"
     },
+    "wangjianghu/dsh-composer-lists": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-composer-lists",
+          "source": "npm:dsh-composer-lists",
+          "command": "dsh plugin --profile web add dsh-composer-lists"
+        },
+        {
+          "profile": "desktop",
+          "install": "dsh-composer-lists",
+          "source": "npm:dsh-composer-lists",
+          "command": "dsh plugin --profile desktop add dsh-composer-lists"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-23",
+      "verified_via": "manifest@3d72f33cc8fb",
+      "note": "作者提交：npm 包 dsh-composer-lists@1.4.0 的 package.json repository 指向本仓库，包内含 dsh.bundle.patch 与 cordis.patch.yml（name=dsh-composer-lists）；README 目前只写 npm install -g，未给出 dsh plugin add 命令，故记为 repo-fallback。命令未在全新 profile 实测安装，不是实机兼容验收。"
+    },
     "dennisonbertram/dsh-free-pi-official": {
       "packages": [
         {
