@@ -1,68 +1,120 @@
 {
-  "generated_at": "2026-11-23T02:03:05.985Z",
-  "snapshot_date": "2026-11-22",
-  "pending": [
-    {
-      "first_seen": "2026-11-23",
-      "full_name": "xuanqing-lab/dsh-personal-workbench",
-      "html_url": "https://github.com/xuanqing-lab/dsh-personal-workbench",
-      "description": "DeepSeek Harness 的个人 AI 工作台。集中查看今天的计划、AI 已交付的成果和等你处理的事项，点开成果或原对话继续跟进。",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "NOASSERTION",
-      "created_at": "2026-11-14T03:55:15Z",
-      "pushed_at": "2026-11-22T10:01:06Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "personal-dashboard"
-      ]
-    }
-  ],
-  "missing": [
-    "xuanqing-lab/dsh-personal-workbench-xuanqing"
-  ],
+  "generated_at": "2026-11-24T01:59:51.779Z",
+  "snapshot_date": "2026-11-24",
+  "pending": [],
+  "missing": [],
   "star_anomalies": {
-    "snapshot_date": "2026-11-22",
-    "previous_snapshot_date": "2026-11-21",
+    "snapshot_date": "2026-11-24",
+    "previous_snapshot_date": "2026-11-22",
     "alerts": [
       {
-        "full_name": "Fanqi89/dsh-craft-anything",
-        "html_url": "https://github.com/Fanqi89/dsh-craft-anything",
-        "description": "Craft Anything for DeepSeek Harness: mcp__craft__* MCP bridge to the local craft-anything CLI, with a clean-room/deep mode switch in the composer, a status page, a CLI runner and a SHA256-verified installer. 把 Craft Anything 接入 DSH 的插件。",
+        "full_name": "Fei-Craft/DS-Bot",
+        "html_url": "https://github.com/Fei-Craft/DS-Bot",
+        "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
         "queue": "pending",
-        "stars": 427,
-        "previous_stars": null,
-        "delta": null,
-        "forks": 93,
-        "created_at": "2026-11-06T05:05:10Z",
-        "age_days": 15,
-        "star_fork_ratio": 4.6,
+        "stars": 8791,
+        "previous_stars": 8698,
+        "delta": 93,
+        "forks": 891,
+        "created_at": "2026-10-07T15:37:36Z",
+        "age_days": 47,
+        "star_fork_ratio": 9.9,
         "rank": null,
         "previous_rank": null,
-        "would_rank": 75,
+        "would_rank": 1,
         "already_board_excluded": false,
         "signals": [
           "pending_high"
         ],
         "hints": [
-          "核准即榜 #75"
+          "核准即 Top 1"
         ],
-        "reviewer_note": "Pending: 427 stars. approving would place it around rank 75 of the Top 200. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Pending: 8791 stars. +93 vs previous snapshot. approving would place it around Top 1. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+      },
+      {
+        "full_name": "mvanhorn/last30days-skill",
+        "html_url": "https://github.com/mvanhorn/last30days-skill",
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "queue": "pending",
+        "stars": 73443,
+        "previous_stars": null,
+        "delta": null,
+        "forks": 6479,
+        "created_at": "2026-01-23T20:37:37Z",
+        "age_days": 304,
+        "star_fork_ratio": 11.3,
+        "rank": null,
+        "previous_rank": null,
+        "would_rank": 1,
+        "already_board_excluded": false,
+        "signals": [
+          "pending_high"
+        ],
+        "hints": [
+          "核准即 Top 1"
+        ],
+        "reviewer_note": "Pending: 73443 stars. approving would place it around Top 1. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+      },
+      {
+        "full_name": "lennney/stop-that-shit",
+        "html_url": "https://github.com/lennney/stop-that-shit",
+        "description": "Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平台 Hook + Skill Guard：拦截 AI coding agent 无需求的哈希、校验和与任务范围膨胀。 A multi-platform Hook + Skill Guard for AI coding agents in Codex/GPT workflows: stop unrequested hashes, checksums, and task-scope creep.",
+        "queue": "pending",
+        "stars": 4079,
+        "previous_stars": null,
+        "delta": null,
+        "forks": 87,
+        "created_at": "2026-08-11T15:31:45Z",
+        "age_days": 104,
+        "star_fork_ratio": 46.9,
+        "rank": null,
+        "previous_rank": null,
+        "would_rank": 9,
+        "already_board_excluded": false,
+        "signals": [
+          "pending_high"
+        ],
+        "hints": [
+          "核准即 Top 9"
+        ],
+        "reviewer_note": "Pending: 4079 stars. approving would place it around Top 9. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+      },
+      {
+        "full_name": "Minglink/dsh-jailbreak-workflow",
+        "html_url": "https://github.com/Minglink/dsh-jailbreak-workflow",
+        "description": "可视化破甲制作工作流---Visual soft-workflow plugin for DeepSeek Harness (dsh-workflow-lite 0.11.0): canvas-to-plan-prompt engine paired with Minglink/dsh-workflows for LLM red-teaming & safety research.",
+        "queue": "pending",
+        "stars": 1232,
+        "previous_stars": null,
+        "delta": null,
+        "forks": 403,
+        "created_at": "2026-11-01T04:50:41Z",
+        "age_days": 22,
+        "star_fork_ratio": 3.1,
+        "rank": null,
+        "previous_rank": null,
+        "would_rank": 24,
+        "already_board_excluded": false,
+        "signals": [
+          "pending_high"
+        ],
+        "hints": [
+          "核准即榜 #24"
+        ],
+        "reviewer_note": "Pending: 1232 stars. approving would place it around rank 24 of the Top 200. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       },
       {
         "full_name": "Ebony-Vinyl/dsh-our-free-model",
         "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
         "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
         "queue": "approved",
-        "stars": 83919,
-        "previous_stars": 83055,
-        "delta": 864,
-        "forks": 2348,
+        "stars": 85060,
+        "previous_stars": 83919,
+        "delta": 1141,
+        "forks": 2392,
         "created_at": "2026-09-24T16:17:19Z",
-        "age_days": 58,
-        "star_fork_ratio": 35.7,
+        "age_days": 60,
+        "star_fork_ratio": 35.6,
         "rank": null,
         "previous_rank": null,
         "would_rank": null,
@@ -71,22 +123,47 @@
           "star_surge"
         ],
         "hints": [
-          "日增 +864★",
+          "日增 +1141★",
           "已不进榜单"
         ],
-        "reviewer_note": "Approved: 83919 stars. +864 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Approved: 85060 stars. +1141 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+      },
+      {
+        "full_name": "kunkundi/crossdesk",
+        "html_url": "https://github.com/kunkundi/crossdesk",
+        "description": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
+        "queue": "approved",
+        "stars": 6672,
+        "previous_stars": 5984,
+        "delta": 688,
+        "forks": 686,
+        "created_at": "2023-11-20T06:31:52Z",
+        "age_days": 1099,
+        "star_fork_ratio": 9.7,
+        "rank": null,
+        "previous_rank": null,
+        "would_rank": null,
+        "already_board_excluded": true,
+        "signals": [
+          "star_surge"
+        ],
+        "hints": [
+          "日增 +688★",
+          "已不进榜单"
+        ],
+        "reviewer_note": "Approved: 6672 stars. +688 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       },
       {
         "full_name": "nexu-io/openmotion",
         "html_url": "https://github.com/nexu-io/openmotion",
         "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
         "queue": "approved",
-        "stars": 15253,
-        "previous_stars": 14632,
-        "delta": 621,
-        "forks": 1509,
+        "stars": 15717,
+        "previous_stars": 15253,
+        "delta": 464,
+        "forks": 1563,
         "created_at": "2026-05-11T09:40:38Z",
-        "age_days": 194,
+        "age_days": 196,
         "star_fork_ratio": 10.1,
         "rank": null,
         "previous_rank": null,
@@ -96,73 +173,22 @@
           "star_surge"
         ],
         "hints": [
-          "日增 +621★",
+          "日增 +464★",
           "已不进榜单"
         ],
-        "reviewer_note": "Approved: 15253 stars. +621 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "dataelement/dsh-desktop",
-        "html_url": "https://github.com/dataelement/dsh-desktop",
-        "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
-        "queue": "approved",
-        "stars": 20709,
-        "previous_stars": 20489,
-        "delta": 220,
-        "forks": 704,
-        "created_at": "2026-08-13T13:45:50Z",
-        "age_days": 100,
-        "star_fork_ratio": 29.4,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": null,
-        "already_board_excluded": true,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +220★",
-          "已不进榜单"
-        ],
-        "reviewer_note": "Approved: 20709 stars. +220 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "JimLiu/open-artifact",
-        "html_url": "https://github.com/JimLiu/open-artifact",
-        "description": "Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.",
-        "queue": "approved",
-        "stars": 348,
-        "previous_stars": 131,
-        "delta": 217,
-        "forks": 47,
-        "created_at": "2026-11-17T02:25:25Z",
-        "age_days": 4,
-        "star_fork_ratio": 7.4,
-        "rank": 91,
-        "previous_rank": null,
-        "would_rank": null,
-        "already_board_excluded": false,
-        "signals": [
-          "star_surge",
-          "board_entry"
-        ],
-        "hints": [
-          "日增 +217★",
-          "新入 Top 200 #91"
-        ],
-        "reviewer_note": "Approved: 348 stars. +217 vs previous snapshot. now on the board at rank 91. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Approved: 15717 stars. +464 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       },
       {
         "full_name": "alchaincyf/huashu-design",
         "html_url": "https://github.com/alchaincyf/huashu-design",
         "description": "Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
         "queue": "approved",
-        "stars": 30393,
-        "previous_stars": 30223,
-        "delta": 170,
-        "forks": 3232,
+        "stars": 30675,
+        "previous_stars": 30393,
+        "delta": 282,
+        "forks": 3260,
         "created_at": "2026-04-19T14:42:06Z",
-        "age_days": 216,
+        "age_days": 218,
         "star_fork_ratio": 9.4,
         "rank": null,
         "previous_rank": null,
@@ -172,23 +198,23 @@
           "star_surge"
         ],
         "hints": [
-          "日增 +170★",
+          "日增 +282★",
           "已不进榜单"
         ],
-        "reviewer_note": "Approved: 30393 stars. +170 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Approved: 30675 stars. +282 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       },
       {
-        "full_name": "kunkundi/crossdesk",
-        "html_url": "https://github.com/kunkundi/crossdesk",
-        "description": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
+        "full_name": "dataelement/dsh-desktop",
+        "html_url": "https://github.com/dataelement/dsh-desktop",
+        "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
         "queue": "approved",
-        "stars": 5984,
-        "previous_stars": 5824,
-        "delta": 160,
-        "forks": 598,
-        "created_at": "2023-11-20T06:31:52Z",
-        "age_days": 1097,
-        "star_fork_ratio": 10,
+        "stars": 20953,
+        "previous_stars": 20709,
+        "delta": 244,
+        "forks": 713,
+        "created_at": "2026-08-13T13:45:50Z",
+        "age_days": 102,
+        "star_fork_ratio": 29.4,
         "rank": null,
         "previous_rank": null,
         "would_rank": null,
@@ -197,23 +223,23 @@
           "star_surge"
         ],
         "hints": [
-          "日增 +160★",
+          "日增 +244★",
           "已不进榜单"
         ],
-        "reviewer_note": "Approved: 5984 stars. +160 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Approved: 20953 stars. +244 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       },
       {
         "full_name": "helloHub1212/dsh-windows-mcp",
         "html_url": "https://github.com/helloHub1212/dsh-windows-mcp",
         "description": "Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.",
         "queue": "approved",
-        "stars": 2185,
-        "previous_stars": 2081,
-        "delta": 104,
-        "forks": 10,
+        "stars": 2308,
+        "previous_stars": 2185,
+        "delta": 123,
+        "forks": 11,
         "created_at": "2026-10-11T02:20:53Z",
-        "age_days": 41,
-        "star_fork_ratio": 218.5,
+        "age_days": 43,
+        "star_fork_ratio": 209.8,
         "rank": null,
         "previous_rank": null,
         "would_rank": null,
@@ -222,57 +248,97 @@
           "star_surge"
         ],
         "hints": [
-          "日增 +104★",
-          "★/fork 218.5",
+          "日增 +123★",
+          "★/fork 209.8",
           "已不进榜单"
         ],
-        "reviewer_note": "Approved: 2185 stars. +104 vs previous snapshot. star/fork 218.5. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Approved: 2308 stars. +123 vs previous snapshot. star/fork 209.8. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+      },
+      {
+        "full_name": "tw93/Mole",
+        "html_url": "https://github.com/tw93/Mole",
+        "description": "🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps.",
+        "queue": "approved",
+        "stars": 75969,
+        "previous_stars": 75856,
+        "delta": 113,
+        "forks": 2726,
+        "created_at": "2025-09-23T06:38:40Z",
+        "age_days": 426,
+        "star_fork_ratio": 27.9,
+        "rank": null,
+        "previous_rank": null,
+        "would_rank": null,
+        "already_board_excluded": true,
+        "signals": [
+          "star_surge"
+        ],
+        "hints": [
+          "日增 +113★",
+          "已不进榜单"
+        ],
+        "reviewer_note": "Approved: 75969 stars. +113 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       },
       {
         "full_name": "elysia395/dsh-wallpaper-engine",
         "html_url": "https://github.com/elysia395/dsh-wallpaper-engine",
         "description": "把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL 渲染（粒子 / puppet 骨骼 / SceneScript / 音频反应 / 鼠标交互），失败自动降级内嵌 MP4 与场景静态帧；Web 壁纸严格沙箱 + WE API；iOS 风格液态玻璃 UI 高度自定义，遮挡暂停省电、ffmpeg 帧率上限转码、系统音频频谱与 Now Playing、自定义上传与自动轮播；设置存宿主端，对 agent 零 token 开销。Windows / macOS / Linux 三平台原生（同一个包、同一条命令）。",
         "queue": "approved",
-        "stars": 7882,
-        "previous_stars": 7781,
-        "delta": 101,
+        "stars": 7982,
+        "previous_stars": 7882,
+        "delta": 100,
         "forks": 123,
         "created_at": "2026-08-16T16:04:08Z",
-        "age_days": 97,
-        "star_fork_ratio": 64.1,
-        "rank": 3,
-        "previous_rank": 3,
+        "age_days": 99,
+        "star_fork_ratio": 64.9,
+        "rank": 2,
+        "previous_rank": 2,
         "would_rank": null,
         "already_board_excluded": false,
         "signals": [
           "star_surge"
         ],
         "hints": [
-          "日增 +101★"
+          "日增 +100★"
         ],
-        "reviewer_note": "Approved: 7882 stars. +101 vs previous snapshot. board 3 → 3. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Approved: 7982 stars. +100 vs previous snapshot. board 2 → 2. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       }
     ]
   },
   "rename_reviews": [
     {
-      "from": "tangweiwei227/dsh-asc",
-      "to": "Tangwei227/dsh-asc",
+      "from": "dtxovo/dsh-plugin-session-spend",
+      "to": "mixcclf/dsh-plugin-session-spend",
       "reason": "owner changed — transfer needs review"
     },
     {
-      "from": "tangweiwei227/dsh-mediaops",
-      "to": "Tangwei227/DSH-MediaOps",
+      "from": "Fei2411/DS-Bot",
+      "to": "Fei-Craft/DS-Bot",
       "reason": "owner changed — transfer needs review"
     },
     {
-      "from": "xuanqing-95/dsh-personal-workbench",
-      "to": "xuanqing-lab/dsh-personal-workbench",
+      "from": "lhy220402/traceless",
+      "to": "idealismo10/traceless",
       "reason": "owner changed — transfer needs review"
     },
     {
-      "from": "xuanqing-95/pipeline-xhs-harness-downloads",
-      "to": "xuanqing-lab/pipeline-xhs-harness-downloads",
+      "from": "lighghteeloo/dsh-next-actions",
+      "to": "miorin-chan/dsh-next-actions",
+      "reason": "owner changed — transfer needs review"
+    },
+    {
+      "from": "LighghtEeloo/dsh-vcs-panel",
+      "to": "miorin-chan/dsh-vcs-panel",
+      "reason": "owner changed — transfer needs review"
+    },
+    {
+      "from": "nonenameless/dsh-a2a",
+      "to": "Jasper-Alaric/dsh-a2a",
+      "reason": "owner changed — transfer needs review"
+    },
+    {
+      "from": "nonenameless/dsh-hybrid-memory",
+      "to": "Jasper-Alaric/dsh-hybrid-memory",
       "reason": "owner changed — transfer needs review"
     },
     {
@@ -386,6 +452,11 @@
       "reason": "target slug already exists with different data — needs review"
     },
     {
+      "from": "wangchengxin666/dsh-dock",
+      "to": "wangchengxin666/metis",
+      "reason": "target slug already exists with different data — needs review"
+    },
+    {
       "from": "weshopai/weshop-skill-pakage",
       "to": "weshopai/weshop-skill-package",
       "reason": "target slug already exists with different data — needs review"
@@ -411,9 +482,14 @@
       "reason": "target slug already exists with different data — needs review"
     },
     {
-      "from": "1250589385/dsh-stall-guard",
-      "to": "Raysnows/dsh-stall-guard",
-      "reason": "owner changed — transfer needs review"
+      "from": "hzlm124/humanities-workbench",
+      "to": "hzlm124/humanities-workbench",
+      "reason": "identity change: repository id 1467925472 → 1468737611 under the same slug — approval needs review"
+    },
+    {
+      "from": "qikairo7/dsh-web-search",
+      "to": "qikairo7/dsh-web-search",
+      "reason": "identity change: repository id 1457496008 → 1468118327 under the same slug — approval needs review"
     }
   ]
 }

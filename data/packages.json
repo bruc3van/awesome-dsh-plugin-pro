@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23",
+  "updated_at": "2026-11-24",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -4150,26 +4150,6 @@
       "status": "readme-verified",
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
-    },
-    "fei2411/ds-bot": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:ds-bot",
-          "install": "ds-bot",
-          "command": "dsh plugin --profile web add ds-bot"
-        },
-        {
-          "profile": "web",
-          "source": "npm:ds-bot",
-          "install": "ds-bot",
-          "command": "dsh plugin --profile web add \"ds-bot\""
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-11-17",
-      "verified_via": "manifest@ae63b45c0d0e",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
     "feibi-mochi/deepseek-harness-control-center": {
       "packages": [
@@ -38917,20 +38897,6 @@
           "source": "github:qwert702/dsh-auto-translate",
           "command": "dsh plugin --profile web add github:qwert702/dsh-auto-translate",
           "install": "https://github.com/qwert702/dsh-auto-translate"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-18",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
-    "regrevia/dsh-mobile-use": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-mobile-use",
-          "command": "dsh plugin --profile web add dsh-mobile-use",
-          "install": "dsh-mobile-use"
         }
       ],
       "status": "readme-verified",
@@ -83986,19 +83952,6 @@
       "verified_date": "2026-11-21",
       "verified_via": "README@main"
     },
-    "aorucshiea/dsh-safe-tui": {
-      "packages": [
-        {
-          "profile": "safe",
-          "install": "https://github.com/aorucshiea/dsh-safe-tui",
-          "source": "github:aorucshiea/dsh-safe-tui",
-          "command": "dsh plugin --profile safe add github:aorucshiea/dsh-safe-tui"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
     "miaoxintechnology/dsh-workbuddy-files": {
       "packages": [
         {
@@ -85415,19 +85368,6 @@
       "status": "readme-verified",
       "verified_date": "2026-11-21",
       "verified_via": "README@main"
-    },
-    "satan9394/dsh-skills-bundle": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/satan9394/dsh-skills-bundle#path:plugins/dsh-code-reviewer",
-          "source": "github:satan9394/dsh-skills-bundle#path:plugins/dsh-code-reviewer",
-          "command": "dsh plugin --profile web add github:satan9394/dsh-skills-bundle#path:plugins/dsh-code-reviewer"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@master"
     },
     "francesco502/dsh-quota": {
       "packages": [
@@ -127075,19 +127015,6 @@
       "verified_date": "2026-11-21",
       "verified_via": "README@main"
     },
-    "yixin2021/dsh-skills": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "https://github.com/yixin2021/dsh-skills",
-          "source": "github:yixin2021/dsh-skills",
-          "command": "dsh plugin --profile desktop add github:yixin2021/dsh-skills"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
     "zzz234234234/dsh-workbuddy-cny": {
       "packages": [
         {
@@ -140592,19 +140519,6 @@
       "verified_date": "2026-11-21",
       "verified_via": "README@main"
     },
-    "yuaneen/dsh-ai-gateway": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/Yuaneen/dsh-ai-gateway",
-          "source": "github:Yuaneen/dsh-ai-gateway",
-          "command": "dsh plugin --profile web add github:Yuaneen/dsh-ai-gateway"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
     "anheon/dsh-sift-kb": {
       "packages": [
         {
@@ -150089,20 +150003,6 @@
           "install": "dsh-reminder",
           "source": "npm:dsh-reminder",
           "command": "dsh plugin --profile web add dsh-reminder"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
-    "ringclaw/dsh-ringcentral": {
-      "packages": [
-        {
-          "profile": "ringcentral",
-          "install": "dsh-ringcentral",
-          "source": "npm:dsh-ringcentral",
-          "command": "npx @deepseek-ai/dsh plugin --profile ringcentral add dsh-ringcentral"
         }
       ],
       "status": "readme-verified",
@@ -177818,20 +177718,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "bushizhanghan/dsh-arg-guard": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "@bushizhanghan/dsh-arg-guard",
-          "source": "npm:@bushizhanghan/dsh-arg-guard",
-          "command": "dsh plugin --profile desktop add @bushizhanghan/dsh-arg-guard"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "zhileyo/dsh-workbase": {
       "packages": [
         {
@@ -180115,20 +180001,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "lighghteeloo/dsh-next-actions": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "dsh-next-actions",
-          "source": "npm:dsh-next-actions",
-          "command": "dsh plugin --profile desktop add dsh-next-actions"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "wilshi/dsh-plugin-inspiration-workbench": {
       "packages": [
         {
@@ -181122,20 +180994,6 @@
           "install": "dsh-evokit",
           "source": "npm:dsh-evokit",
           "command": "dsh plugin --profile evokit add dsh-evokit"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
-    "nonenameless/dsh-hybrid-memory": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "@jasper_alaric/dsh-hybrid-memory",
-          "source": "npm:@jasper_alaric/dsh-hybrid-memory",
-          "command": "dsh plugin --profile web add @jasper_alaric/dsh-hybrid-memory"
         }
       ],
       "status": "readme-verified",
@@ -184716,20 +184574,6 @@
           "install": "dsh-plugin-demo",
           "source": "npm:dsh-plugin-demo",
           "command": "dsh plugin add dsh-plugin-demo"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
-    "329604421/dsh-tiny-aquarium": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "dsh-tiny-aquarium",
-          "source": "npm:dsh-tiny-aquarium",
-          "command": "dsh plugin --profile desktop add dsh-tiny-aquarium"
         }
       ],
       "status": "readme-verified",
@@ -192124,15 +191968,6 @@
       "install_mode": "manual",
       "manual_instructions": "README 安装命令含 shell 语法、非逐字可粘贴形式；转人工安装说明。"
     },
-    "runfali/dsh-web-search-custom": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "npm 名 dsh-web-search-custom 的 registry repository 指向 puciguala/dsh-web-search-custom（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
-    },
     "harzva/dsh-maclens": {
       "packages": [],
       "status": "readme-verified",
@@ -192647,15 +192482,6 @@
       "verified_by": "review",
       "install_mode": "manual",
       "manual_instructions": "npm 名 @changfenhuang/dsh-genui 的 registry repository 指向 omdsh-dev/dsh-genui（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
-    },
-    "runfali/dsh-web-fetch": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "npm 名 dsh-web-fetch 的 registry repository 指向 alice-marx/dsh-web-fetch（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
     },
     "taot/dsh-better-model-picker": {
       "packages": [],
@@ -213380,20 +213206,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "aily-dsh/dsh-superagent-manager": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "git+https://github.com/Aily-DSH/dsh-superagent-manager.git",
-          "source": "url:git+https://github.com/Aily-DSH/dsh-superagent-manager.git",
-          "command": "dsh plugin --profile desktop add git+https://github.com/Aily-DSH/dsh-superagent-manager.git"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "aily-dsh/dsh-session-usage": {
       "packages": [
         {
@@ -218073,20 +217885,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "lornatang/dsh-frontgate": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/Lornatang/dsh-frontgate/releases/download/v0.1.13/lornatang-dsh-frontgate-0.1.13.tgz",
-          "source": "url:https://github.com/Lornatang/dsh-frontgate/releases/download/v0.1.13/lornatang-dsh-frontgate-0.1.13.tgz",
-          "command": "dsh plugin --profile web add https://github.com/Lornatang/dsh-frontgate/releases/download/v0.1.13/lornatang-dsh-frontgate-0.1.13.tgz"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "silasvanceneo/dsh-dynamic-multiagent": {
       "packages": [],
       "status": "readme-verified",
@@ -219204,15 +219002,6 @@
       "install_mode": "manual",
       "manual_instructions": "README 文档化 npm 名 dsh-skill-radar，registry 404（corpus sweep 2026-11-21 核验）；发布后可恢复 npm 映射。"
     },
-    "lornatang/dsh-atlassian": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "npm 名 @lornatang/dsh-atlassian 的 registry repository 指向 lornatang/dsh-plugin（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
-    },
     "gongyansong760-byte/dsh-model-autofetch": {
       "packages": [
         {
@@ -219651,15 +219440,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "lornatang/dsh-notion": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "npm 名 @lornatang/dsh-notion 的 registry repository 指向 lornatang/dsh-plugin（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
-    },
     "anon1009/dsh-ppt-studio": {
       "packages": [
         {
@@ -219897,15 +219677,6 @@
       "verified_by": "review",
       "install_mode": "manual",
       "manual_instructions": "README 文档化 npm 名 dsh-pushover-notify，registry 404（corpus sweep 2026-11-21 核验）；发布后可恢复 npm 映射。"
-    },
-    "lornatang/dsh-codex-security": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "npm 名 @lornatang/dsh-codex-security 的 registry repository 指向 lornatang/dsh-plugin（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
     },
     "helloqingtao/dsh-webseek": {
       "packages": [],
@@ -221193,15 +220964,6 @@
       "install_mode": "manual",
       "manual_instructions": "README 安装命令含 shell 语法、非逐字可粘贴形式；转人工安装说明。"
     },
-    "lornatang/dsh-github": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "npm 名 @lornatang/dsh-github 的 registry repository 指向 lornatang/dsh-plugin（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
-    },
     "coldgust/dsh-proxy-manager": {
       "packages": [],
       "status": "readme-verified",
@@ -221496,15 +221258,6 @@
       "install_mode": "manual",
       "manual_instructions": "README 文档化 npm 名 dsh-skill-board，registry 404（corpus sweep 2026-11-21 核验）；发布后可恢复 npm 映射。"
     },
-    "lornatang/dsh-caveman": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "npm 名 @lornatang/dsh-caveman 的 registry repository 指向 lornatang/dsh-plugin（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
-    },
     "yidawuyi/dsh-manga-workflow": {
       "packages": [],
       "status": "readme-verified",
@@ -221554,15 +221307,6 @@
       "verified_by": "review",
       "install_mode": "manual",
       "manual_instructions": "README 安装目标未能通过自动核验；转人工说明。"
-    },
-    "lornatang/dsh-security-audit": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "npm 名 @lornatang/dsh-security-audit 的 registry repository 指向 lornatang/dsh-plugin（他人包，corpus sweep 2026-11-21 核验）——同名不同主，不录。"
     },
     "pengtang1024/dsh-quick-phrases": {
       "packages": [],
@@ -231806,20 +231550,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "mypanda-hash/chengxiao": {
-      "packages": [
-        {
-          "profile": "default",
-          "install": "https://github.com/MyPanda-Hash/CHENGXIAO",
-          "source": "github:MyPanda-Hash/CHENGXIAO",
-          "command": "dsh plugin --profile default add github:MyPanda-Hash/CHENGXIAO"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "wenbuer/dsh-readme-writer": {
       "packages": [
         {
@@ -241952,6 +241682,121 @@
           "install": "https://github.com/zbh13782-lang/dsh-pin-bookmarks",
           "source": "github:zbh13782-lang/dsh-pin-bookmarks",
           "command": "dsh plugin --profile default add github:zbh13782-lang/dsh-pin-bookmarks"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "329604421/dsh-tiny-fish": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "dsh-tiny-aquarium",
+          "source": "npm:dsh-tiny-aquarium",
+          "command": "dsh plugin --profile desktop add dsh-tiny-aquarium"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "aorucshiea/dsh-safe-cli": {
+      "packages": [
+        {
+          "profile": "safe",
+          "install": "https://github.com/aorucshiea/dsh-safe-cli",
+          "source": "github:aorucshiea/dsh-safe-cli",
+          "command": "dsh plugin --profile safe add github:aorucshiea/dsh-safe-cli"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "README@main"
+    },
+    "regrevia/adb-mobile-use": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-mobile-use",
+          "command": "dsh plugin --profile web add dsh-mobile-use",
+          "install": "dsh-mobile-use"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-18",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "yixin2021/dsh-skill-manager": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/yixin2021/dsh-skill-manager",
+          "source": "github:yixin2021/dsh-skill-manager",
+          "command": "dsh plugin --profile desktop add github:yixin2021/dsh-skill-manager"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "README@main"
+    },
+    "yuaneen/dsh-token-gateway": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/Yuaneen/dsh-token-gateway",
+          "source": "github:Yuaneen/dsh-token-gateway",
+          "command": "dsh plugin --profile web add github:Yuaneen/dsh-token-gateway"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "README@main"
+    },
+    "fei-craft/ds-bot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:ds-bot",
+          "install": "ds-bot",
+          "command": "dsh plugin --profile web add ds-bot"
+        },
+        {
+          "profile": "web",
+          "source": "npm:ds-bot",
+          "install": "ds-bot",
+          "command": "dsh plugin --profile web add \"ds-bot\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-17",
+      "verified_via": "manifest@ae63b45c0d0e",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "miorin-chan/dsh-next-actions": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "dsh-next-actions",
+          "source": "npm:dsh-next-actions",
+          "command": "dsh plugin --profile desktop add dsh-next-actions"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "jasper-alaric/dsh-hybrid-memory": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@jasper_alaric/dsh-hybrid-memory",
+          "source": "npm:@jasper_alaric/dsh-hybrid-memory",
+          "command": "dsh plugin --profile web add @jasper_alaric/dsh-hybrid-memory"
         }
       ],
       "status": "readme-verified",

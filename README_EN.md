@@ -35,48 +35,48 @@ No extra plugin required — add the curated index directly to DSH's built-in Di
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-11-22 the catalog lists **30,236** verified repositories. Here is the shape of it:
+As of 2026-11-24 the catalog lists **30,605** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 30236))
-    UI and experience · 8478
+  root((DSH ecosystem 30605))
+    UI and experience · 8614
       Usage and billing panels
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Agents automation workflows · 3568
+    Utilities and more · 3637
+      Files and encodings
+      Format conversion
+    Agents automation workflows · 3588
       Session and context management
       Scheduled loops and event wakeups
       Approval budget and checkpoints
-    Utilities and more · 3537
-      Files and encodings
-      Format conversion
-    Developer tools · 3248
+    Developer tools · 3261
       Git and diff
       Model gateways and keys
       Debugging and diagnostics
-    Web and browser · 2897
+    Web and browser · 2929
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Integrations and sharing · 2148
+    Integrations and sharing · 2161
       Chat import and sharing
       Remote access
       IM and external integrations
-    Knowledge and research · 2123
+    Knowledge and research · 2144
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Design media and vision · 2103
+    Design media and vision · 2116
       Image understanding and OCR
       Design canvas and UI restoration
       Speech synthesis and recognition
-    Ecosystem and resources · 1279
+    Ecosystem and resources · 1288
       Plugin markets and registries
       Skill libraries and plugin managers
       Templates and scaffolds
-    Multi-agent orchestration · 855
+    Multi-agent orchestration · 867
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
@@ -280,60 +280,60 @@ You do not need to install everything. Start with the kit closest to the problem
 
 ## 🏆 Community leaderboard
 
-Community popularity by stars, from the 2026-11-22 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after review ([data/approved.json](./data/approved.json)). The home page shows the Top 50; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
+Community popularity by stars, from the 2026-11-24 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after review ([data/approved.json](./data/approved.json)). The home page shows the Top 50; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
 
 <!-- dsh:leaderboard:start -->
 | # | Project | Description | ⭐ Stars | License |
 | ---: | --- | --- | ---: | --- |
-| 1 | [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | A team of long-lived bots for DeepSeek Harness: main bots, bot-to-bot m… | 8698 | Apache-2.0 |
-| 2 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | Claude Code-style full-screen terminal TUI: whale top bar, live status,… | 8108 | MIT |
-| 3 | [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | Turn local Wallpaper Engine wallpapers into the DSH web background: dyn… | 7882 | MIT |
-| 4 | [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | A bouncy whale-girl widget in the bottom-right corner of the DSH UI tra… | 7426 | MIT |
-| 5 | [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | DSH desktop pet: a transparent animated companion installed in one comm… | 6622 | MIT |
-| 6 | [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) | Windows token-efficiency toolkit: bundled bash 5.3 and PowerShell 7 tak… | 5976 | MIT |
-| 7 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | One-stop context visualizer for DSH: a Context panel and commands for c… | 5419 | Apache-2.0 |
-| 8 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | Open sidebar foundation that lets third parties register new tabs; bund… | 5284 | MIT |
-| 9 | [liustack/modlens](https://github.com/liustack/modlens) | External vision for text-only models: paste an image and get structured… | 5057 | MIT |
-| 10 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | Wire IM bots into DSH via QR code or credentials: Feishu, WeChat, DingT… | 3760 | MIT |
-| 11 | [liguobao/ds-harness-remote](https://github.com/liguobao/ds-harness-remote) | Multi-device remote access built on the DSH plugin system: P2P-first, e… | 3558 | MIT |
-| 12 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Whale-girl skin series for DeepSeek Harness. | 3136 | NOASSERTION |
-| 13 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | Put DSH in your pocket: run dsh web on the computer, scan a QR code fro… | 3120 | GPL-2.0 |
-| 14 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | AgentTeams multi-agent collaboration plugin for DeepSeek Harness. | 3065 | MIT |
-| 15 | [sixtysevenlf/dsh-blender-plugin](https://github.com/sixtysevenlf/dsh-blender-plugin) | Direct real-time Blender bridge for DSH over TCP: 16 tools across 186 o… | 2239 | BSD-3-Clause |
-| 16 | [Devin-AXIS/deepseek-design](https://github.com/Devin-AXIS/deepseek-design) | Editable design system for DSH: AI generation, visual editing, a templa… | 2006 | NOASSERTION |
-| 17 | [dingminhua/dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) | Connect locally signed-in WorkBuddy models to DeepSeek Harness with a r… | 1916 | MIT |
-| 18 | [flizzywine/dsh-tavern](https://github.com/flizzywine/dsh-tavern) | SillyTavern-style text-game agent on DSH: candidate-turn generation, co… | 1731 | AGPL-3.0 |
-| 19 | [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) | Lightweight plugin that generates images right inside the DSH conversat… | 1677 | Apache-2.0 |
-| 20 | [DDDMUC/dsh-free-search](https://github.com/DDDMUC/dsh-free-search) | Free web-search provider: DuckDuckGo backend, no API key. | 1597 | MIT |
-| 21 | [Miaotofu01/Study-Mate](https://github.com/Miaotofu01/Study-Mate) | AI study partner that plans, explains, and builds projects with you — l… | 1519 | MIT |
-| 22 | [c1overzz/dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll) | A DSH plugin that scrolls Bilibili for you daily: searches videos, read… | 1466 | MIT |
-| 23 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | Eyes for text-only DSH agents: a free vision chain (no key) plus pixel-… | 1296 | MIT |
+| 1 | [Fei-Craft/DS-Bot](https://github.com/Fei-Craft/DS-Bot) | A team of long-lived bots for DeepSeek Harness: main bots, bot-to-bot m… | 8791 | Apache-2.0 |
+| 2 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | Claude Code-style full-screen terminal TUI: whale top bar, live status,… | 8157 | MIT |
+| 3 | [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | Turn local Wallpaper Engine wallpapers into the DSH web background: dyn… | 7982 | MIT |
+| 4 | [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | A bouncy whale-girl widget in the bottom-right corner of the DSH UI tra… | 7445 | MIT |
+| 5 | [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | DSH desktop pet: a transparent animated companion installed in one comm… | 6658 | MIT |
+| 6 | [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) | Windows token-efficiency toolkit: bundled bash 5.3 and PowerShell 7 tak… | 5989 | MIT |
+| 7 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | One-stop context visualizer for DSH: a Context panel and commands for c… | 5452 | Apache-2.0 |
+| 8 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | Open sidebar foundation that lets third parties register new tabs; bund… | 5298 | MIT |
+| 9 | [liustack/modlens](https://github.com/liustack/modlens) | External vision for text-only models: paste an image and get structured… | 5069 | MIT |
+| 10 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | Wire IM bots into DSH via QR code or credentials: Feishu, WeChat, DingT… | 3779 | MIT |
+| 11 | [liguobao/ds-harness-remote](https://github.com/liguobao/ds-harness-remote) | Multi-device remote access built on the DSH plugin system: P2P-first, e… | 3640 | MIT |
+| 12 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Whale-girl skin series for DeepSeek Harness. | 3141 | NOASSERTION |
+| 13 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | Put DSH in your pocket: run dsh web on the computer, scan a QR code fro… | 3135 | GPL-2.0 |
+| 14 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | AgentTeams multi-agent collaboration plugin for DeepSeek Harness. | 3075 | MIT |
+| 15 | [sixtysevenlf/dsh-blender-plugin](https://github.com/sixtysevenlf/dsh-blender-plugin) | Direct real-time Blender bridge for DSH over TCP: 16 tools across 186 o… | 2257 | BSD-3-Clause |
+| 16 | [Devin-AXIS/deepseek-design](https://github.com/Devin-AXIS/deepseek-design) | Editable design system for DSH: AI generation, visual editing, a templa… | 2038 | NOASSERTION |
+| 17 | [dingminhua/dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) | Connect locally signed-in WorkBuddy models to DeepSeek Harness with a r… | 1949 | MIT |
+| 18 | [flizzywine/dsh-tavern](https://github.com/flizzywine/dsh-tavern) | SillyTavern-style text-game agent on DSH: candidate-turn generation, co… | 1742 | AGPL-3.0 |
+| 19 | [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) | Lightweight plugin that generates images right inside the DSH conversat… | 1707 | Apache-2.0 |
+| 20 | [DDDMUC/dsh-free-search](https://github.com/DDDMUC/dsh-free-search) | Free web-search provider: DuckDuckGo backend, no API key. | 1641 | MIT |
+| 21 | [Miaotofu01/Study-Mate](https://github.com/Miaotofu01/Study-Mate) | AI study partner that plans, explains, and builds projects with you — l… | 1528 | MIT |
+| 22 | [c1overzz/dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll) | A DSH plugin that scrolls Bilibili for you daily: searches videos, read… | 1471 | MIT |
+| 23 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | Eyes for text-only DSH agents: a free vision chain (no key) plus pixel-… | 1297 | MIT |
 | 24 | [mem9-ai/mem9](https://github.com/mem9-ai/mem9) | Unlimited memory for OpenClaw. | 1236 | Apache-2.0 |
-| 25 | [omdsh-dev/dsh-browser](https://github.com/omdsh-dev/dsh-browser) | Let DSH drive the browser you are already using: pages become structure… | 1120 | MIT |
-| 26 | [beiyege-01/dsh-voice-ai-girlfriend](https://github.com/beiyege-01/dsh-voice-ai-girlfriend) | Voice AI companion plugin for DSH: Whisper voice input, Qwen3-TTS voice… | 1104 | NOASSERTION |
-| 27 | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Composable three-layer memory control plane for DSH: persistent runtime… | 1091 | MIT |
-| 28 | [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) | Inline interactive UI inside assistant replies via dsh-ui fences: layou… | 1046 | MIT |
-| 29 | [liustack/modsearch](https://github.com/liustack/modsearch) | Free web search for DSH: no signup, no API key — brings structured JSON… | 1029 | MIT |
-| 30 | [op7418/dsh-guizang-design](https://github.com/op7418/dsh-guizang-design) | Guizang design suite: four skills — web slides, image-text cards, web t… | 1025 | AGPL-3.0 |
-| 31 | [Alice-Marx/dsh-model-router](https://github.com/Alice-Marx/dsh-model-router) | A cost-aware model-routing workbench for DSH Desktop: plan locally, com… | 1014 | MIT |
-| 32 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | A stronger vision toolkit for text-only models: one-line install, paste… | 951 | MIT |
-| 33 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | Local security audit for AI API relays and LLM proxies: prompt injectio… | 925 | AGPL-3.0 |
-| 34 | [saya-ch/dsh-mobile](https://github.com/saya-ch/dsh-mobile) | Android client and secure remote access for DSH: LAN/remote connections… | 911 | Apache-2.0 |
-| 35 | [SeaOf0/dsh-redteam-model](https://github.com/SeaOf0/dsh-redteam-model) | Multi-mode red-team workbench on dsh web: authorized security research… | 906 | MIT |
-| 36 | [Aisland-SJL/dsh-worktable](https://github.com/Aisland-SJL/dsh-worktable) | Agent project management console for DSH: sidebar app drawer, dockable… | 892 | MIT |
-| 37 | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | Cross-session long-term memory + background self-evolution: five-track… | 884 | MIT |
-| 38 | [6shenhonghong9/dsh-startup-screen](https://github.com/6shenhonghong9/dsh-startup-screen) | Startup animation plugin: studio logo, whiteout, warm technical-file ba… | 872 | MIT |
-| 39 | [Yu-tao-Li/dsh-computer-use-win](https://github.com/Yu-tao-Li/dsh-computer-use-win) | Windows computer-use plugin: lets the agent see and drive real Windows… | 853 | MIT |
-| 40 | [fourzkw/dsh-drawai](https://github.com/fourzkw/dsh-drawai) | DrawAI canvas: an editable drawing canvas in the DSH right sidebar, wit… | 837 | NOASSERTION |
-| 41 | [zenstory-ai/oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh) | Novel-writing and short-drama production plugin powered by Oh Story and… | 816 | MIT |
-| 42 | [ZSeven-W/dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio) | Describe a small game in one sentence and play it in the DSH sidebar: 1… | 815 | MIT |
-| 43 | [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) | Real Office for DSH: the Univer runtime brings spreadsheets, docs, slid… | 747 | Apache-2.0 |
-| 44 | [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | Session cost meter: per-session and daily costs, budgets, provider bala… | 746 | MIT |
-| 45 | [liangmianya/dsh-synapse](https://github.com/liangmianya/dsh-synapse) | Visual non-linear conversation workspace: canvas-style session explorat… | 743 | MIT |
-| 46 | [SAOS-3624/dsh-see-now](https://github.com/SAOS-3624/dsh-see-now) | See Now real-time vision plugin: lets the AI actually see your screen,… | 740 | Apache-2.0 |
-| 47 | [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) | White-box AGI architecture exploration: metacognition loop, knowledge f… | 737 | MIT |
+| 25 | [omdsh-dev/dsh-browser](https://github.com/omdsh-dev/dsh-browser) | Let DSH drive the browser you are already using: pages become structure… | 1127 | MIT |
+| 26 | [beiyege-01/dsh-voice-ai-girlfriend](https://github.com/beiyege-01/dsh-voice-ai-girlfriend) | Voice AI companion plugin for DSH: Whisper voice input, Qwen3-TTS voice… | 1106 | NOASSERTION |
+| 27 | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Composable three-layer memory control plane for DSH: persistent runtime… | 1103 | MIT |
+| 28 | [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) | Inline interactive UI inside assistant replies via dsh-ui fences: layou… | 1049 | MIT |
+| 29 | [op7418/dsh-guizang-design](https://github.com/op7418/dsh-guizang-design) | Guizang design suite: four skills — web slides, image-text cards, web t… | 1037 | AGPL-3.0 |
+| 30 | [liustack/modsearch](https://github.com/liustack/modsearch) | Free web search for DSH: no signup, no API key — brings structured JSON… | 1034 | MIT |
+| 31 | [Alice-Marx/dsh-model-router](https://github.com/Alice-Marx/dsh-model-router) | A cost-aware model-routing workbench for DSH Desktop: plan locally, com… | 1018 | MIT |
+| 32 | [saya-ch/dsh-mobile](https://github.com/saya-ch/dsh-mobile) | Android client and secure remote access for DSH: LAN/remote connections… | 965 | Apache-2.0 |
+| 33 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | A stronger vision toolkit for text-only models: one-line install, paste… | 950 | MIT |
+| 34 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | Local security audit for AI API relays and LLM proxies: prompt injectio… | 929 | AGPL-3.0 |
+| 35 | [SeaOf0/dsh-redteam-model](https://github.com/SeaOf0/dsh-redteam-model) | Multi-mode red-team workbench on dsh web: authorized security research… | 913 | MIT |
+| 36 | [Aisland-SJL/dsh-worktable](https://github.com/Aisland-SJL/dsh-worktable) | Agent project management console for DSH: sidebar app drawer, dockable… | 896 | MIT |
+| 37 | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | Cross-session long-term memory + background self-evolution: five-track… | 889 | MIT |
+| 38 | [6shenhonghong9/dsh-startup-screen](https://github.com/6shenhonghong9/dsh-startup-screen) | Startup animation plugin: studio logo, whiteout, warm technical-file ba… | 874 | MIT |
+| 39 | [Yu-tao-Li/dsh-computer-use-win](https://github.com/Yu-tao-Li/dsh-computer-use-win) | Windows computer-use plugin: lets the agent see and drive real Windows… | 868 | MIT |
+| 40 | [fourzkw/dsh-drawai](https://github.com/fourzkw/dsh-drawai) | DrawAI canvas: an editable drawing canvas in the DSH right sidebar, wit… | 854 | NOASSERTION |
+| 41 | [ZSeven-W/dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio) | Describe a small game in one sentence and play it in the DSH sidebar: 1… | 853 | MIT |
+| 42 | [zenstory-ai/oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh) | Novel-writing and short-drama production plugin powered by Oh Story and… | 824 | MIT |
+| 43 | [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | Session cost meter: per-session and daily costs, budgets, provider bala… | 751 | MIT |
+| 44 | [SAOS-3624/dsh-see-now](https://github.com/SAOS-3624/dsh-see-now) | See Now real-time vision plugin: lets the AI actually see your screen,… | 751 | Apache-2.0 |
+| 45 | [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) | Real Office for DSH: the Univer runtime brings spreadsheets, docs, slid… | 749 | Apache-2.0 |
+| 46 | [liangmianya/dsh-synapse](https://github.com/liangmianya/dsh-synapse) | Visual non-linear conversation workspace: canvas-style session explorat… | 747 | MIT |
+| 47 | [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) | White-box AGI architecture exploration: metacognition loop, knowledge f… | 743 | MIT |
 | 48 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | Turn DSH into a 2005 web portal: parody ads, fake games, and pop-ups. | 736 | BSD-3-Clause |
-| 49 | [aureth-labs/dsh-aurabot-qq](https://github.com/aureth-labs/dsh-aurabot-qq) | Aurabot (Big Fat Fish): moves the AI in DSH into QQ as a persona with m… | 718 | MIT |
+| 49 | [aureth-labs/dsh-aurabot-qq](https://github.com/aureth-labs/dsh-aurabot-qq) | Aurabot (Big Fat Fish): moves the AI in DSH into QQ as a persona with m… | 726 | MIT |
 | 50 | [anysearch-team/anysearch-dsh](https://github.com/anysearch-team/anysearch-dsh) | AnySearch web-search provider and advanced search tools for DeepSeek Ha… | 707 | MIT |
 <!-- dsh:leaderboard:end -->
 
@@ -345,14 +345,14 @@ Screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
-| [Fanqi89/dsh-craft-anything](https://github.com/Fanqi89/dsh-craft-anything) | Bring the Craft Anything reverse-engineering engine into DSH: `mcp__craft__*` toolsets, a clean-room/deep mode switch, a status page and a SHA256-verified installer. | 2026-11-06 |
-| [2019wakeup/dsh-reader](https://github.com/2019wakeup/dsh-reader) | A reading workbench: word-level explanations and translation for PDF/EPUB/Markdown, persistent concept cards, layered guides and mind maps — reading stays continuous. | 2026-11-22 |
-| [Liang-HZ/dsh-acp-hub](https://github.com/Liang-HZ/dsh-acp-hub) | Delegate tasks asynchronously to external ACP agents (MiniMax, OpenCode, Codex, Claude Code…), with native child-session streaming and per-step token accounting. | 2026-11-22 |
-| [soffits/dsh-matrix-bot](https://github.com/soffits/dsh-matrix-bot) | An end-to-end encrypted Matrix bot: a private Space per person, one room per session — secure remote conversations. | 2026-11-16 |
-| [klaus-2/dsh-orchestrator-kit](https://github.com/klaus-2/dsh-orchestrator-kit) | An orchestrator console: per-role model routing across a 20-role dev-flow pipeline with staged handoffs. | 2026-11-19 |
-| [zirscard/dsh-project-memory](https://github.com/zirscard/dsh-project-memory) | Cross-session project memory: fact/decision/constraint entries with mandatory source and asOf, dedupe on write, supersede-not-overwrite conflicts, keyword + CJK retrieval. | 2026-11-22 |
-| [atorber/dsh-hitrading](https://github.com/atorber/dsh-hitrading) | HiTrading A-share assistant: 11 agent tools plus an interactive console, SQLite persistence, analysis only — no order placement. | 2026-11-09 |
-| [iuhgnauh/dsh-chatgpt](https://github.com/iuhgnauh/dsh-chatgpt) | An unofficial plugin that connects a ChatGPT subscription to DSH via Codex OAuth. | 2026-11-22 |
+| [Nimbus318/dsh-niuma-broker](https://github.com/Nimbus318/dsh-niuma-broker) | A personal career broker for DSH: job tracking, a pipeline board and application management. | 2026-11-23 |
+| [daijiaoshou-ds/Accounting-Entry-Test](https://github.com/daijiaoshou-ds/Accounting-Entry-Test) | Accounting workbench (source): journal cleaning, cash-flow statement drafting, contra-account analysis and entry testing — DSH plugin + Python engine. | 2026-03-24 |
+| [linhuanwen/dsh-plugin-agent-browser](https://github.com/linhuanwen/dsh-plugin-agent-browser) | A real browser in the right sidebar: 11 browser_* tools let the agent drive pages, with human takeover during CAPTCHA checks. | 2026-11-23 |
+| [han0han0le0ni/dsh-comfyui-desk](https://github.com/han0han0le0ni/dsh-comfyui-desk) | Local ComfyUI workbench: system and queue status, generation progress, a local image library and a two-way workflow canvas, plus 9 agent tools. | 2026-11-23 |
+| [saya-ch/dsh-verbatim](https://github.com/saya-ch/dsh-verbatim) | Verbatim long-term memory: SQLite + FTS5 + hybrid vector search that keeps the conversation text itself. | 2026-11-19 |
+| [liaoyuqing/model-failover-manager](https://github.com/liaoyuqing/model-failover-manager) | Model failover manager: routing groups with automatic failover and a usage panel priced by peak/off-peak windows. | 2026-10-08 |
+| [shizihu7-create/dsh-feishu-bridge](https://github.com/shizihu7-create/dsh-feishu-bridge) | A Feishu bot two-way bridge: message, watch streaming cards and tap approvals from your phone over official long connections — no public IP or tunnel needed. | 2026-11-19 |
+| [STARDUSTLC666/dsh-blender-studio](https://github.com/STARDUSTLC666/dsh-blender-studio) | Blender 3D studio: headless CLI + Live Bridge add-on, an interactive Canvas 3D stage and 8 bpy skills. | 2026-11-23 |
 
 ## 📣 Author showcase
 
@@ -379,11 +379,11 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Layered: curated picks + full index:** the front page carries curated featured picks and the showcase preview; [CATALOG.md](./CATALOG.md) and its per-category volumes list every reviewed repository; new repositories first enter the [review queue](./data/review/pending.md) and appear after review and merge (convention: [data/review/README.md](./data/review/README.md)).
 - **Automated data, curated recommendations:** the raw snapshot and the review queue refresh daily by script; the catalog and Top 200 leaderboard are regenerated only after a review merge (generators: [scripts/merge.mjs](./scripts/merge.mjs), [scripts/top.mjs](./scripts/top.mjs), switchable back to Top 100); the home-page featured picks, showcase, and recently-joined sections are maintained separately, so polluted API data (star inflation, topic riders) never rewrites recommendations automatically.
 - **Riders removed:** repositories carrying the `dsh-plugin` topic without being DSH plugins (the platform itself, other agent tools, competing catalogs) and blacklisted repositories are excluded from the catalog and leaderboard, with per-repo reasons recorded in [data/curated.json](./data/curated.json) (the leaderboard additionally honors `leaderboard_exclusions` for repos that stay in the catalog but do not rank) — auditable and contestable at any time.
-- **Auditable review trail:** every inclusion decision can be checked — approval dates live in [data/approved.json](./data/approved.json), and each removal or leaderboard exclusion carries its reason in [data/curated.json](./data/curated.json); bulk reviews additionally keep a narrative record (e.g. the [2026-11-22 review log](./data/review/2026-11-22.md)), and the whole workflow is documented in [data/review/README.md](./data/review/README.md).
+- **Auditable review trail:** every inclusion decision can be checked — approval dates live in [data/approved.json](./data/approved.json), and each removal or leaderboard exclusion carries its reason in [data/curated.json](./data/curated.json); bulk reviews additionally keep a narrative record (e.g. the [2026-11-24 review log](./data/review/2026-11-24.md)), and the whole workflow is documented in [data/review/README.md](./data/review/README.md).
 - **Market data (npm feed):** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) publishes `market-catalog.json` (schema 3: the complete reviewed catalog, each row carrying `install_status` and its install mapping, plus the official subscription and the editorial picks) and `packages.json` (the install-mapping source). It is projected by `scripts/safe-market-catalog.mjs`, packaged by `publish-npm-feed.mjs`, and mirrored through npmmirror.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-11-22, the catalog lists **30,236** repositories across **41** primary languages; **27,829** declare a license and **29,905** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-11-24, the catalog lists **30,605** repositories across **41** primary languages; **28,184** declare a license and **30,267** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

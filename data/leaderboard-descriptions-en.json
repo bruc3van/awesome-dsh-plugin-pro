@@ -9,7 +9,6 @@
   "Devin-AXIS/deepseek-design": "Editable design system for DSH: AI generation, visual editing, a template market, and PPT.",
   "EthanYoQ/Invoice-Downloader": "Invoice tidy-up and expense prep: batch-collect PDF/OFD invoices from mailboxes, OCR them into an archive, and summarize into Excel.",
   "FSMargoo/dsh-at-file": "Codex-style @file references for DSH: search workspace files from the input box and attach their paths to the prompt.",
-  "Fei2411/DS-Bot": "A team of long-lived bots for DeepSeek Harness: main bots, bot-to-bot messages and group chats, all running in one host.",
   "Fei2411/DeepSeek-Bot": "Turns DSH into a team of long-lived bots: build bots with their own models and memory, let them message each other and work in group chats, with a chief bot orchestrating.",
   "FuRongJun-1999/dsh-memory": "White-box AGI architecture exploration: metacognition loop, knowledge flywheel, and world model, with auditable trust guardrails.",
   "Han-1413141/dsh-cost-meter": "Session cost meter: per-session and daily costs, budgets, provider balances, a token heatmap, and peak/off-peak pricing alerts.",
@@ -69,5 +68,6 @@
   "aureth-labs/dsh-aurabot-qq": "Aurabot (Big Fat Fish): moves the AI in DSH into QQ as a persona with moods and memory — chat, image understanding, voice, stickers, singing, QZone posts, Bilibili; every capability is a pluggable module and all are off by default — not a word goes out until you switch them on.",
   "fourzkw/dsh-drawai": "DrawAI canvas: an editable drawing canvas in the DSH right sidebar, with two extra tools that let the model redraw and edit images directly.",
   "Nwflower/dsh-claude-style": "Theme plugin that recreates the Claude Code Desktop look and interaction feel inside DeepSeek Harness.",
-  "ZSeven-W/dsh-game-studio": "Describe a small game in one sentence and play it in the DSH sidebar: 15 agent tools for DSH, buildable in Codex / Claude Code / Antigravity, with AI art and export to Web, GitHub Pages or WeChat Mini Games."
+  "ZSeven-W/dsh-game-studio": "Describe a small game in one sentence and play it in the DSH sidebar: 15 agent tools for DSH, buildable in Codex / Claude Code / Antigravity, with AI art and export to Web, GitHub Pages or WeChat Mini Games.",
+  "Fei-Craft/DS-Bot": "A team of long-lived bots for DeepSeek Harness: main bots, bot-to-bot messages and group chats, all running in one host."
 }

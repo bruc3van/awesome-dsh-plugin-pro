@@ -4,12 +4,12 @@
 >
 > Repositories newly added to the `dsh-plugin` topic that the maintainer has not verified yet. Refreshed daily by `scripts/update.mjs`; review-only, not a user-facing page.
 
-- 生成时间 / Generated: **2026-11-23**
-- 快照日期 / Snapshot date: **2026-11-22 (UTC)**
-- 待审核 / Pending: **1**
-- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **1**
-- Star 异常增长 / Star-growth alerts: **9** — 先看下方告警节 / see the alert section first
-- 改名/身份待复核 / Renames pending review: **32**
+- 生成时间 / Generated: **2026-11-24**
+- 快照日期 / Snapshot date: **2026-11-24 (UTC)**
+- 待审核 / Pending: **0**
+- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **0**
+- Star 异常增长 / Star-growth alerts: **12** — 先看下方告警节 / see the alert section first
+- 改名/身份待复核 / Renames pending review: **37**
 
 审核决定记到数据文件后运行 `node scripts/merge.mjs` 生效：
 
@@ -43,7 +43,7 @@ See [data/review/README.md](./README.md) for the full convention.
 
 **Reviewers: start here.** Repositories that gained ≥100 stars in one snapshot interval, that lost ≥100 stars in one interval (GitHub clawing back farmed stars), or that would suddenly appear on / leap up the star board. Do extra analysis before approving them onto the board — a README check is not enough.
 
-对比上一份快照 **2026-11-21** / vs previous snapshot **2026-11-21**。规则：日增 ≥100★；单日净减 ≥100★（GitHub 批量清号回收的签名——被回收的星通常是刷的，余下星数也应视为虚高）；已核准仓新入 Top 200（且 Δ≥50）/ 名次跃升 ≥50 / 冲入 Top 20；待审仓 ≥100★ 且核准后将进入 Top 200。
+对比上一份快照 **2026-11-22** / vs previous snapshot **2026-11-22**。规则：日增 ≥100★；单日净减 ≥100★（GitHub 批量清号回收的签名——被回收的星通常是刷的，余下星数也应视为虚高）；已核准仓新入 Top 200（且 Δ≥50）/ 名次跃升 ≥50 / 冲入 Top 20；待审仓 ≥100★ 且核准后将进入 Top 200。
 
 - 看 Star 是否与 fork、提交活跃度、仓库年龄匹配（高星零 fork、创建当天几百星，多为刷星）
 - 单日大幅掉星 = 此前刷星被官方回收；刷星常贴着 +100★/日阈值之下滴灌增长，掉星往往是我们能机器检出的唯一痕迹
@@ -53,19 +53,22 @@ See [data/review/README.md](./README.md) for the full convention.
 
 Check stars against forks, commit activity and age (hundreds of stars on day one, or high stars with zero forks, usually look bought). A generic high-star project that only just tagged `dsh-plugin` can stay in the catalog but should go to `leaderboard_exclusions` (reason: stars accrued as …). If approving a pending repo would drop it into Top 20 / Top 200, confirm the audience is the DSH plugin itself.
 
-- 告警数 / Alerts: **9**
+- 告警数 / Alerts: **12**
 
 | Project | Queue | Stars | Δ | Forks | Age | Signals | 审核提示 / Hint |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| ⚠️ [Fanqi89/dsh-craft-anything](https://github.com/Fanqi89/dsh-craft-anything) | 待审 / pending | 427 | — | 93 | 15d | 待审高星 | 核准即榜 #75 |
-| ⚠️ [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 已核准 / approved | 83919 | +864 | 2348 | 58d | 日增百星 | 日增 +864★；已不进榜单 |
-| ⚠️ [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | 已核准 / approved | 15253 | +621 | 1509 | 194d | 日增百星 | 日增 +621★；已不进榜单 |
-| ⚠️ [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | 已核准 / approved | 20709 | +220 | 704 | 100d | 日增百星 | 日增 +220★；已不进榜单 |
-| ⚠️ [JimLiu/open-artifact](https://github.com/JimLiu/open-artifact) | 已核准 / approved | 348 | +217 | 47 | 4d | 日增百星、新入 Top 200 | 日增 +217★；新入 Top 200 #91 |
-| ⚠️ [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 已核准 / approved | 30393 | +170 | 3232 | 216d | 日增百星 | 日增 +170★；已不进榜单 |
-| ⚠️ [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk) | 已核准 / approved | 5984 | +160 | 598 | 1097d | 日增百星 | 日增 +160★；已不进榜单 |
-| ⚠️ [helloHub1212/dsh-windows-mcp](https://github.com/helloHub1212/dsh-windows-mcp) | 已核准 / approved | 2185 | +104 | 10 | 41d | 日增百星 | 日增 +104★；★/fork 218.5；已不进榜单 |
-| ⚠️ [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 已核准 / approved | 7882 | +101 | 123 | 97d | 日增百星 | 日增 +101★ |
+| ⚠️ [Fei-Craft/DS-Bot](https://github.com/Fei-Craft/DS-Bot) | 待审 / pending | 8791 | +93 | 891 | 47d | 待审高星 | 核准即 Top 1 |
+| ⚠️ [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 待审 / pending | 73443 | — | 6479 | 304d | 待审高星 | 核准即 Top 1 |
+| ⚠️ [lennney/stop-that-shit](https://github.com/lennney/stop-that-shit) | 待审 / pending | 4079 | — | 87 | 104d | 待审高星 | 核准即 Top 9 |
+| ⚠️ [Minglink/dsh-jailbreak-workflow](https://github.com/Minglink/dsh-jailbreak-workflow) | 待审 / pending | 1232 | — | 403 | 22d | 待审高星 | 核准即榜 #24 |
+| ⚠️ [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 已核准 / approved | 85060 | +1141 | 2392 | 60d | 日增百星 | 日增 +1141★；已不进榜单 |
+| ⚠️ [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk) | 已核准 / approved | 6672 | +688 | 686 | 1099d | 日增百星 | 日增 +688★；已不进榜单 |
+| ⚠️ [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | 已核准 / approved | 15717 | +464 | 1563 | 196d | 日增百星 | 日增 +464★；已不进榜单 |
+| ⚠️ [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 已核准 / approved | 30675 | +282 | 3260 | 218d | 日增百星 | 日增 +282★；已不进榜单 |
+| ⚠️ [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | 已核准 / approved | 20953 | +244 | 713 | 102d | 日增百星 | 日增 +244★；已不进榜单 |
+| ⚠️ [helloHub1212/dsh-windows-mcp](https://github.com/helloHub1212/dsh-windows-mcp) | 已核准 / approved | 2308 | +123 | 11 | 43d | 日增百星 | 日增 +123★；★/fork 209.8；已不进榜单 |
+| ⚠️ [tw93/Mole](https://github.com/tw93/Mole) | 已核准 / approved | 75969 | +113 | 2726 | 426d | 日增百星 | 日增 +113★；已不进榜单 |
+| ⚠️ [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 已核准 / approved | 7982 | +100 | 123 | 99d | 日增百星 | 日增 +100★ |
 
 ## 改名与身份变化待复核 / Renames pending review
 
@@ -77,10 +80,13 @@ Check stars against forks, commit activity and age (hundreds of stars on day one
 
 Same-owner, same-repository-id renames were synced automatically across approved.json / curated.json / packages.json / leaderboard descriptions / featured picks, with the original approval date kept. The entries below could not be handled safely and need manual review.
 
-- `tangweiwei227/dsh-asc` → `Tangwei227/dsh-asc` — owner changed — transfer needs review
-- `tangweiwei227/dsh-mediaops` → `Tangwei227/DSH-MediaOps` — owner changed — transfer needs review
-- `xuanqing-95/dsh-personal-workbench` → `xuanqing-lab/dsh-personal-workbench` — owner changed — transfer needs review
-- `xuanqing-95/pipeline-xhs-harness-downloads` → `xuanqing-lab/pipeline-xhs-harness-downloads` — owner changed — transfer needs review
+- `dtxovo/dsh-plugin-session-spend` → `mixcclf/dsh-plugin-session-spend` — owner changed — transfer needs review
+- `Fei2411/DS-Bot` → `Fei-Craft/DS-Bot` — owner changed — transfer needs review
+- `lhy220402/traceless` → `idealismo10/traceless` — owner changed — transfer needs review
+- `lighghteeloo/dsh-next-actions` → `miorin-chan/dsh-next-actions` — owner changed — transfer needs review
+- `LighghtEeloo/dsh-vcs-panel` → `miorin-chan/dsh-vcs-panel` — owner changed — transfer needs review
+- `nonenameless/dsh-a2a` → `Jasper-Alaric/dsh-a2a` — owner changed — transfer needs review
+- `nonenameless/dsh-hybrid-memory` → `Jasper-Alaric/dsh-hybrid-memory` — owner changed — transfer needs review
 - `acryldev/dsh-cordis` → `cordisplugins/dsh-cordis` — owner changed — transfer needs review
 - `acryldev/pi-cordis` → `cordisplugins/pi-cordis` — owner changed — transfer needs review
 - `AdamPlatin123/awesome-dsh-plugins` → `AdamPlatin123/dsh-plugin-radar` — target slug already exists with different data — needs review
@@ -103,17 +109,19 @@ Same-owner, same-repository-id renames were synced automatically across approved
 - `Tiger3807861189/J-Space-Cognition-Suite-V3.6` → `Tiger3807861189/J-Space-Cognition-Suite` — target slug already exists with different data — needs review
 - `Tiger3807861189/J-Space-Cognition-Suite-V3.7` → `Tiger3807861189/J-Space-Cognition-Suite` — target slug already exists with different data — needs review
 - `TNJ2026/orbit-runtime` → `TNJ2026/promptaflow` — target slug already exists with different data — needs review
+- `wangchengxin666/dsh-dock` → `wangchengxin666/metis` — target slug already exists with different data — needs review
 - `weshopai/weshop-skill-pakage` → `weshopai/weshop-skill-package` — target slug already exists with different data — needs review
 - `wgd753/awesome-dsh-plugin` → `Wenston-dev/awesome-dsh-plugin` — owner changed — transfer needs review
 - `xiaoxianxian/multi-proxy` → `sif-king/costgate` — owner changed — transfer needs review
 - `zendev-lab/cogfold` → `zendev-lab/ulota` — target slug already exists with different data — needs review
 - `zendev-lab/spark` → `zendev-lab/ulota` — target slug already exists with different data — needs review
-- `1250589385/dsh-stall-guard` → `Raysnows/dsh-stall-guard` — owner changed — transfer needs review
+- `hzlm124/humanities-workbench` — identity change: repository id 1467925472 → 1468737611 under the same slug — approval needs review
+- `qikairo7/dsh-web-search` — identity change: repository id 1457496008 → 1468118327 under the same slug — approval needs review
 
 
 | # | Project | Stars | Created | First seen | Description |
 | ---: | --- | ---: | ---: | ---: | --- |
-| 1 | [xuanqing-lab/dsh-personal-workbench](https://github.com/xuanqing-lab/dsh-personal-workbench) | 0 | 2026-11-14 | 2026-11-23 | DeepSeek Harness 的个人 AI 工作台。集中查看今天的计划、AI 已交付的成果和等你处理的事项，点开成果或原对话继续跟进。 |
+
 
 ## 从快照消失的已核准仓库 / Approved repositories missing from the snapshot
 
@@ -121,4 +129,4 @@ Same-owner, same-repository-id renames were synced automatically across approved
 
 Approved but no longer present in the current snapshot. Same-owner renames were already synced automatically, so what remains is mostly deletion, privating, or a recycled slug — after checking, remove them from [data/approved.json](../approved.json) or handle them via the renames-pending-review section above.
 
-- xuanqing-lab/dsh-personal-workbench-xuanqing
+- （无 / none）

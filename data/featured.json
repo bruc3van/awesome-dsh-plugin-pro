@@ -205,7 +205,7 @@
       "description": "用于授权安全研究的 DeepSeek Harness 红队工作台，整合渗透测试、红队评估和代码审计工作模式。"
     },
     {
-      "full_name": "Fei2411/DS-Bot",
+      "full_name": "Fei-Craft/DS-Bot",
       "description": "创建长期运行的 DSH Bot 团队，支持主 Bot、Bot 之间互发消息以及群聊。"
     },
     {
