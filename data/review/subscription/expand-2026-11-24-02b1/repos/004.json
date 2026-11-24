@@ -1,0 +1,51 @@
+{
+  "full_name": "bingshang04/history-axis",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-24T02:32:41.683Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a3d83fedd189547b58ce7b9e05bd473e305d539ad868518827481618466a7a5e",
+      "url": "https://github.com/bingshang04/history-axis/blob/49c5de2d9bad789940deddbe399194b863acf0b2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-history-axis-viz",
+      "version": "1.1.0",
+      "path": "ds-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bingshang04/history-axis",
+        "commit": "49c5de2d9bad789940deddbe399194b863acf0b2",
+        "path": "ds-plugin"
+      },
+      "manifestSha256": "a093ed5db86782c7251644d8ed919627aba33b34cedfaabd357330fbd2e7f28d",
+      "manifestUrl": "https://github.com/bingshang04/history-axis/blob/49c5de2d9bad789940deddbe399194b863acf0b2/ds-plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bingshang04/history-axis",
+    "commit": "49c5de2d9bad789940deddbe399194b863acf0b2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-24T02:32:43.914Z"
+}

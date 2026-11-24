@@ -1,0 +1,91 @@
+{
+  "full_name": "lennney/stop-that-shit",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 4080,
+  "startedAt": "2026-11-24T02:32:41.671Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bda1c6e3e1fec1830cadee0a775a4f237c741aa39dfac254f1cfe966378f26ed",
+      "url": "https://github.com/lennney/stop-that-shit/blob/7fd4056030cb6c573e2fd3f37f58819c3269c922/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "85209a4e9425db5336652f93783c0b8ca6842580f9ca53cc675d73d5e79569b2",
+      "url": "https://github.com/lennney/stop-that-shit/blob/7fd4056030cb6c573e2fd3f37f58819c3269c922/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "10dc4f49e0e17a18197a2b705f0a07ad7eb32066fd26b386394879afbb266a94",
+      "url": "https://github.com/lennney/stop-that-shit/blob/7fd4056030cb6c573e2fd3f37f58819c3269c922/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "cases/README_CN.md",
+      "sha256": "2f5b8989e1d50d0bc9caa74fbbbadfc96b0bab1b9512884250056d81ac0628fd",
+      "url": "https://github.com/lennney/stop-that-shit/blob/7fd4056030cb6c573e2fd3f37f58819c3269c922/cases/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "evals/codex-paired/README.md",
+      "sha256": "04f9a790465243082d8e6b89d63e09c54bed19b389682d9fe8fc2f0ed0f71c94",
+      "url": "https://github.com/lennney/stop-that-shit/blob/7fd4056030cb6c573e2fd3f37f58819c3269c922/evals/codex-paired/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "cases/README.md",
+      "sha256": "69cf1c9e0eff21021fc5f2eb79f33d2a8383ce2ea03881d36983af3aaaa06d6f",
+      "url": "https://github.com/lennney/stop-that-shit/blob/7fd4056030cb6c573e2fd3f37f58819c3269c922/cases/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "stop-that-shit-dsh",
+      "version": "0.0.0-development",
+      "path": "dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lennney/stop-that-shit",
+        "commit": "7fd4056030cb6c573e2fd3f37f58819c3269c922",
+        "path": "dsh"
+      },
+      "manifestSha256": "8867af17a7be9d4424657f4fdac6b90b5c7b7bda809cd515c3a5b91044ded46c",
+      "manifestUrl": "https://github.com/lennney/stop-that-shit/blob/7fd4056030cb6c573e2fd3f37f58819c3269c922/dsh/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lennney/stop-that-shit",
+    "commit": "7fd4056030cb6c573e2fd3f37f58819c3269c922",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-24T02:32:45.446Z"
+}

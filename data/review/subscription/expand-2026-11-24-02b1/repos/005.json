@@ -1,0 +1,71 @@
+{
+  "full_name": "ccsert/dsh-subagent-hub",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-24T02:32:41.686Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "038d3e68e49c4316b30458c0fee5ad370a663b75fe13a68b848777d1b1bd02e9",
+      "url": "https://github.com/ccsert/dsh-subagent-hub/blob/2db393382245d73867886e67c10bc182c3e4584a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-subagent-hub",
+      "version": "0.14.0",
+      "path": "packages/subagent-hub",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ccsert/dsh-subagent-hub",
+        "commit": "2db393382245d73867886e67c10bc182c3e4584a",
+        "path": "packages/subagent-hub"
+      },
+      "manifestSha256": "a2b75ac3254ff0c3fb2790827120921afd277eb48e1733dfd2b3aa922c6db645",
+      "manifestUrl": "https://github.com/ccsert/dsh-subagent-hub/blob/2db393382245d73867886e67c10bc182c3e4584a/packages/subagent-hub/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-subagent-hub",
+        "versions": [
+          {
+            "version": "0.14.0",
+            "publishTimestamp": 1794497375,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ccsert/dsh-subagent-hub",
+              "commit": "2db393382245d73867886e67c10bc182c3e4584a",
+              "path": "packages/subagent-hub"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ccsert/dsh-subagent-hub",
+    "commit": "2db393382245d73867886e67c10bc182c3e4584a",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-24T02:32:44.116Z"
+}

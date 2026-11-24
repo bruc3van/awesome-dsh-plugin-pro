@@ -1,167 +1,317 @@
 {
-  "generated_at": "2026-11-22T21:12:42.031Z",
+  "generated_at": "2026-11-24T02:32:40.504Z",
   "min_stars": 5,
-  "scanned": 13,
+  "scanned": 26,
   "applied": [
     {
-      "slug": "mochi-fish/dsh-fish",
-      "stars": 176,
+      "slug": "Fanqi89/dsh-craft-anything",
+      "stars": 441,
       "branches": "main",
       "packages": [
         {
-          "profile": "web",
-          "source": "npm:@ssamurias/dsh-fish",
-          "command": "dsh plugin --profile web add @ssamurias/dsh-fish",
-          "install": "@ssamurias/dsh-fish"
-        }
-      ],
-      "via": "manifest",
-      "evidence": "manifest@package.json (npm repository match)"
-    },
-    {
-      "slug": "JimLiu/open-artifact",
-      "stars": 131,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-open-artifact",
-          "command": "dsh plugin --profile web add dsh-open-artifact",
-          "install": "dsh-open-artifact"
+          "profile": "desktop",
+          "source": "github:Fanqi89/dsh-craft-anything",
+          "command": "dsh plugin --profile desktop add github:Fanqi89/dsh-craft-anything",
+          "install": "https://github.com/Fanqi89/dsh-craft-anything"
         }
       ],
       "via": "readme"
     },
     {
-      "slug": "thePlannerIvan/planners-form",
-      "stars": 27,
+      "slug": "Nimbus318/dsh-niuma-broker",
+      "stars": 37,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-niuma-broker",
+          "command": "dsh plugin --profile desktop add dsh-niuma-broker",
+          "install": "dsh-niuma-broker"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-niuma-broker",
+          "command": "dsh plugin --profile web add dsh-niuma-broker",
+          "install": "dsh-niuma-broker"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "deemo0666/pallas-phone-control",
+      "stars": 22,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "github:theplannerivan/planners-form",
-          "command": "dsh plugin --profile web add github:theplannerivan/planners-form",
-          "install": "https://github.com/theplannerivan/planners-form"
+          "source": "npm:pallas-phone-control",
+          "command": "dsh plugin --profile web add pallas-phone-control",
+          "install": "pallas-phone-control"
         }
       ],
       "via": "manifest",
-      "evidence": "manifest@package.json#dsh"
+      "evidence": "manifest@package.json (npm repository match)"
     },
     {
-      "slug": "fengshiyangrouguan/dsh-closure-pet",
+      "slug": "CM-Silence/dsh-mo-image",
       "stars": 20,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-mo-image",
+          "command": "dsh plugin --profile desktop add dsh-mo-image",
+          "install": "dsh-mo-image"
+        },
+        {
+          "profile": "desktop",
+          "source": "github:CM-Silence/dsh-mo-image",
+          "command": "dsh plugin --profile desktop add github:CM-Silence/dsh-mo-image",
+          "install": "https://github.com/CM-Silence/dsh-mo-image"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-mo-image",
+          "command": "dsh plugin --profile web add dsh-mo-image --registry=https://registry.npmmirror.com",
+          "install": "dsh-mo-image"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "Wasabi2575/dsh-workflow-canvas",
+      "stars": 19,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "github:fengshiyangrouguan/dsh-closure-pet",
-          "command": "dsh plugin --profile web add github:fengshiyangrouguan/dsh-closure-pet",
-          "install": "https://github.com/fengshiyangrouguan/dsh-closure-pet"
+          "source": "npm:dsh-workflow-canvas",
+          "command": "dsh plugin --profile web add dsh-workflow-canvas",
+          "install": "dsh-workflow-canvas"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "ASER-ho/Loji-skill",
+      "stars": 13,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "default",
+          "source": "github:ASER-ho/Loji-skill",
+          "command": "dsh plugin add github:ASER-ho/Loji-skill",
+          "install": "https://github.com/ASER-ho/Loji-skill"
+        }
+      ],
+      "via": "readme",
+      "note": "unsupported source url:https://github.com/ASER-ho/Loji-skill"
+    },
+    {
+      "slug": "liangdabiao/dsh-interactive-courseware",
+      "stars": 8,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:liangdabiao/dsh-interactive-courseware",
+          "command": "dsh plugin --profile web add github:liangdabiao/dsh-interactive-courseware",
+          "install": "https://github.com/liangdabiao/dsh-interactive-courseware"
         }
       ],
       "via": "manifest",
       "evidence": "manifest@package.json#dsh"
     },
     {
-      "slug": "holosama212/dsh-rinko-nai",
-      "stars": 6,
+      "slug": "dtyg123/dsh-oh-my-token",
+      "stars": 7,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-rinko-nai",
-          "command": "dsh plugin --profile web add dsh-rinko-nai",
-          "install": "dsh-rinko-nai"
+          "source": "npm:dsh-oh-my-token",
+          "command": "dsh plugin --profile web add dsh-oh-my-token",
+          "install": "dsh-oh-my-token"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "3418244301q-star/dsh-session-log-upload",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-session-log-upload",
+          "command": "dsh plugin --profile web add dsh-session-log-upload",
+          "install": "dsh-session-log-upload"
         }
       ],
       "via": "manifest",
       "evidence": "manifest@package.json (npm repository match)"
     },
     {
-      "slug": "jinchezuo/dsh-interpret",
-      "stars": 6,
+      "slug": "bychance6600/dsh-perch",
+      "stars": 5,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "github:jinchezuo/dsh-interpret",
-          "command": "dsh plugin --profile web add github:jinchezuo/dsh-interpret",
-          "install": "https://github.com/jinchezuo/dsh-interpret"
+          "source": "npm:dsh-perch",
+          "command": "dsh plugin --profile web add dsh-perch",
+          "install": "dsh-perch"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "Destinhue/dsh-better-ears",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:destinhue/dsh-better-ears",
+          "command": "dsh plugin --profile web add github:destinhue/dsh-better-ears",
+          "install": "https://github.com/destinhue/dsh-better-ears"
         }
       ],
       "via": "manifest",
       "evidence": "manifest@package.json#dsh"
     },
     {
-      "slug": "XLNC-L/dsh-connect-madao",
-      "stars": 6,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-connect-madao",
-          "command": "dsh plugin --profile web add dsh-connect-madao",
-          "install": "dsh-connect-madao"
-        }
-      ],
-      "via": "manifest",
-      "evidence": "manifest@package.json (npm repository match)"
-    },
-    {
-      "slug": "AIcivilization/dsh-her",
+      "slug": "hzwym8912-code/dsh-everything-down",
       "stars": 5,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-her",
-          "command": "dsh plugin --profile web add dsh-her",
-          "install": "dsh-her"
-        }
-      ],
-      "via": "manifest",
-      "evidence": "manifest@package.json (npm repository match)"
-    },
-    {
-      "slug": "gaoqiaoliangjie666/dsh-qwen-connect",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:gaoqiaoliangjie666/dsh-qwen-connect",
-          "command": "dsh plugin --profile web add github:gaoqiaoliangjie666/dsh-qwen-connect",
-          "install": "https://github.com/gaoqiaoliangjie666/dsh-qwen-connect"
+          "source": "github:hzwym8912-code/dsh-everything-down",
+          "command": "dsh plugin --profile web add github:hzwym8912-code/dsh-everything-down",
+          "install": "https://github.com/hzwym8912-code/dsh-everything-down"
         }
       ],
       "via": "manifest",
       "evidence": "manifest@package.json#dsh"
     },
     {
-      "slug": "nerv-base/dsh-theme-eva",
+      "slug": "KUN-NNN/deepclear-ui",
       "stars": 5,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-theme-eva",
-          "command": "dsh plugin --profile web add dsh-theme-eva",
-          "install": "dsh-theme-eva"
+          "source": "npm:deepclear-ui",
+          "command": "dsh plugin --profile web add deepclear-ui",
+          "install": "deepclear-ui"
         }
       ],
       "via": "manifest",
       "evidence": "manifest@package.json (npm repository match)"
     },
     {
-      "slug": "rinDBeans/dsh-nocturne",
+      "slug": "liaoyuqing/model-failover-manager",
       "stars": 5,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "github:rindbeans/dsh-nocturne",
-          "command": "dsh plugin --profile web add github:rindbeans/dsh-nocturne",
-          "install": "https://github.com/rindbeans/dsh-nocturne"
+          "source": "github:liaoyuqing/model-failover-manager",
+          "command": "dsh plugin --profile web add github:liaoyuqing/model-failover-manager",
+          "install": "https://github.com/liaoyuqing/model-failover-manager"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "S0ra233/DSH-game-translate",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:s0ra233/dsh-game-translate",
+          "command": "dsh plugin --profile web add github:s0ra233/dsh-game-translate",
+          "install": "https://github.com/s0ra233/dsh-game-translate"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "sunx16963-design/dsh-web-search-thirdparty",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:sunx16963-design/dsh-web-search-thirdparty",
+          "command": "dsh plugin --profile web add github:sunx16963-design/dsh-web-search-thirdparty",
+          "install": "https://github.com/sunx16963-design/dsh-web-search-thirdparty"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "vb2250158/dsh-waimai",
+      "stars": 5,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:vb2250158/dsh-waimai",
+          "command": "dsh plugin --profile web add github:vb2250158/dsh-waimai",
+          "install": "https://github.com/vb2250158/dsh-waimai"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "wakeupnotfound/dsh-rsi",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:wakeupnotfound/dsh-rsi",
+          "command": "dsh plugin --profile web add github:wakeupnotfound/dsh-rsi",
+          "install": "https://github.com/wakeupnotfound/dsh-rsi"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "wjj865-code/dsh-orchestrator",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@wjj865-code/dsh-orchestrator",
+          "command": "dsh plugin --profile web add @wjj865-code/dsh-orchestrator",
+          "install": "@wjj865-code/dsh-orchestrator"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "zeki520/dsh-boot-nexus",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zeki520/dsh-boot-nexus",
+          "command": "dsh plugin --profile web add github:zeki520/dsh-boot-nexus",
+          "install": "https://github.com/zeki520/dsh-boot-nexus"
         }
       ],
       "via": "manifest",
@@ -170,17 +320,45 @@
   ],
   "review": [
     {
-      "slug": "kaust-ark/ARK",
-      "stars": 38,
+      "slug": "lennney/stop-that-shit",
+      "stars": 4080,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile web add ./stop-that-shit-dsh-0.2.6.tgz",
+      "candidates": []
+    },
+    {
+      "slug": "hemu996/smart-ppt-designer",
+      "stars": 31,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "daijiaoshou-ds/Accounting-Entry-Test",
+      "stars": 18,
       "reason": "no install command extracted; no package.json",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "BB-84C/deepseek-harness-mobile-solution",
+      "slug": "bingshang04/history-axis",
       "stars": 5,
       "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "dsh plugin --profile mobile add @bb-84c/dsh-mobile-cli",
+      "hint": "dsh plugin --profile desktop add link:\"$PWD/ds-plugin\"",
+      "candidates": []
+    },
+    {
+      "slug": "ccsert/dsh-subagent-hub",
+      "stars": 5,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "shuishuipingan/InkWeaver",
+      "stars": 5,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile web add '<path-to-inkweaver-dsh-tarball.tgz>'",
       "candidates": []
     }
   ]
