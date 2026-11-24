@@ -6,10 +6,10 @@
 
 - 生成时间 / Generated: **2026-11-24**
 - 快照日期 / Snapshot date: **2026-11-24 (UTC)**
-- 待审核 / Pending: **0**
-- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **0**
-- Star 异常增长 / Star-growth alerts: **12** — 先看下方告警节 / see the alert section first
-- 改名/身份待复核 / Renames pending review: **37**
+- 待审核 / Pending: **13**
+- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **54**
+- Star 异常增长 / Star-growth alerts: **13** — 先看下方告警节 / see the alert section first
+- 改名/身份待复核 / Renames pending review: **38**
 
 审核决定记到数据文件后运行 `node scripts/merge.mjs` 生效：
 
@@ -53,22 +53,23 @@ See [data/review/README.md](./README.md) for the full convention.
 
 Check stars against forks, commit activity and age (hundreds of stars on day one, or high stars with zero forks, usually look bought). A generic high-star project that only just tagged `dsh-plugin` can stay in the catalog but should go to `leaderboard_exclusions` (reason: stars accrued as …). If approving a pending repo would drop it into Top 20 / Top 200, confirm the audience is the DSH plugin itself.
 
-- 告警数 / Alerts: **12**
+- 告警数 / Alerts: **13**
 
 | Project | Queue | Stars | Δ | Forks | Age | Signals | 审核提示 / Hint |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| ⚠️ [Fei-Craft/DS-Bot](https://github.com/Fei-Craft/DS-Bot) | 待审 / pending | 8791 | +93 | 891 | 47d | 待审高星 | 核准即 Top 1 |
-| ⚠️ [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 待审 / pending | 73443 | — | 6479 | 304d | 待审高星 | 核准即 Top 1 |
-| ⚠️ [lennney/stop-that-shit](https://github.com/lennney/stop-that-shit) | 待审 / pending | 4079 | — | 87 | 104d | 待审高星 | 核准即 Top 9 |
-| ⚠️ [Minglink/dsh-jailbreak-workflow](https://github.com/Minglink/dsh-jailbreak-workflow) | 待审 / pending | 1232 | — | 403 | 22d | 待审高星 | 核准即榜 #24 |
-| ⚠️ [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 已核准 / approved | 85060 | +1141 | 2392 | 60d | 日增百星 | 日增 +1141★；已不进榜单 |
-| ⚠️ [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk) | 已核准 / approved | 6672 | +688 | 686 | 1099d | 日增百星 | 日增 +688★；已不进榜单 |
-| ⚠️ [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | 已核准 / approved | 15717 | +464 | 1563 | 196d | 日增百星 | 日增 +464★；已不进榜单 |
-| ⚠️ [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 已核准 / approved | 30675 | +282 | 3260 | 218d | 日增百星 | 日增 +282★；已不进榜单 |
-| ⚠️ [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | 已核准 / approved | 20953 | +244 | 713 | 102d | 日增百星 | 日增 +244★；已不进榜单 |
-| ⚠️ [helloHub1212/dsh-windows-mcp](https://github.com/helloHub1212/dsh-windows-mcp) | 已核准 / approved | 2308 | +123 | 11 | 43d | 日增百星 | 日增 +123★；★/fork 209.8；已不进榜单 |
-| ⚠️ [tw93/Mole](https://github.com/tw93/Mole) | 已核准 / approved | 75969 | +113 | 2726 | 426d | 日增百星 | 日增 +113★；已不进榜单 |
-| ⚠️ [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 已核准 / approved | 7982 | +100 | 123 | 99d | 日增百星 | 日增 +100★ |
+| ⚠️ [Fei-Craft/DS-Bot](https://github.com/Fei-Craft/DS-Bot) | 待审 / pending | 8792 | +94 | 891 | 47d | 待审高星 | 核准即 Top 1 |
+| ⚠️ [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 待审 / pending | 73462 | — | 6480 | 304d | 待审高星 | 核准即 Top 1 |
+| ⚠️ [lennney/stop-that-shit](https://github.com/lennney/stop-that-shit) | 待审 / pending | 4080 | — | 87 | 104d | 待审高星 | 核准即 Top 9 |
+| ⚠️ [Minglink/dsh-jailbreak-workflow](https://github.com/Minglink/dsh-jailbreak-workflow) | 待审 / pending | 1233 | — | 403 | 22d | 待审高星 | 核准即榜 #24 |
+| ⚠️ [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 已核准 / approved | 85097 | +1178 | 2393 | 60d | 日增百星 | 日增 +1178★；已不进榜单 |
+| ⚠️ [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk) | 已核准 / approved | 6705 | +721 | 690 | 1099d | 日增百星 | 日增 +721★；已不进榜单 |
+| ⚠️ [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | 已核准 / approved | 15724 | +471 | 1564 | 196d | 日增百星 | 日增 +471★；已不进榜单 |
+| ⚠️ [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 已核准 / approved | 30679 | +286 | 3260 | 218d | 日增百星 | 日增 +286★；已不进榜单 |
+| ⚠️ [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | 已核准 / approved | 20970 | +261 | 713 | 102d | 日增百星 | 日增 +261★；已不进榜单 |
+| ⚠️ [helloHub1212/dsh-windows-mcp](https://github.com/helloHub1212/dsh-windows-mcp) | 已核准 / approved | 2312 | +127 | 11 | 43d | 日增百星 | 日增 +127★；★/fork 210.2；已不进榜单 |
+| ⚠️ [tw93/Mole](https://github.com/tw93/Mole) | 已核准 / approved | 75974 | +118 | 2727 | 426d | 日增百星 | 日增 +118★；已不进榜单 |
+| ⚠️ [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 已核准 / approved | 7988 | +106 | 123 | 99d | 日增百星 | 日增 +106★ |
+| ⚠️ [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 已核准 / approved | 13336 | +102 | 509 | 101d | 日增百星 | 日增 +102★；已不进榜单 |
 
 ## 改名与身份变化待复核 / Renames pending review
 
@@ -115,13 +116,26 @@ Same-owner, same-repository-id renames were synced automatically across approved
 - `xiaoxianxian/multi-proxy` → `sif-king/costgate` — owner changed — transfer needs review
 - `zendev-lab/cogfold` → `zendev-lab/ulota` — target slug already exists with different data — needs review
 - `zendev-lab/spark` → `zendev-lab/ulota` — target slug already exists with different data — needs review
+- `ferrisching/dsh-reakit` — identity change: repository id 1452501971 → 1469538116 under the same slug — approval needs review
 - `hzlm124/humanities-workbench` — identity change: repository id 1467925472 → 1468737611 under the same slug — approval needs review
 - `qikairo7/dsh-web-search` — identity change: repository id 1457496008 → 1468118327 under the same slug — approval needs review
 
 
 | # | Project | Stars | Created | First seen | Description |
 | ---: | --- | ---: | ---: | ---: | --- |
-
+| 1 | [gcggcg/dsh-plugin-dingtalk-bridge](https://github.com/gcggcg/dsh-plugin-dingtalk-bridge) | 6 | 2026-11-17 | 2026-11-24 | 对接钉钉平台的 DSH 插件：一键授权后实时接收私信与群 @ 我的消息，按发送人记录来源，用 AI 生成建议回复；开启自动回复后，达到可信度阈值就直接回复，不确定时在 DSH 主界面弹框请你确认。 |
+| 2 | [regrevia/lite-memory](https://github.com/regrevia/lite-memory) | 4 | 2026-10-25 | 2026-11-24 | Zero resident memory for the DeepSeek Harness: reads only on a hit, costs nothing when nothing matches. |
+| 3 | [AyaseMinami/dsh-whale-widget-planbar](https://github.com/AyaseMinami/dsh-whale-widget-planbar) | 0 | 2026-11-24 | 2026-11-24 | dsh-whale-widget 的非官方本地补丁：订阅额度卡片（剩余百分比 + 进度条 + 重置倒计时），适用于 0.4.2 |
+| 4 | [Bert0000000000/dsh-rsi](https://github.com/Bert0000000000/dsh-rsi) | 0 | 2026-11-23 | 2026-11-24 | dsh-rsi |
+| 5 | [hefeng1910/dsh-model-tree-menu](https://github.com/hefeng1910/dsh-model-tree-menu) | 0 | 2026-11-24 | 2026-11-24 | DSH 模型选择多级菜单：中转站→模型，iOS18 磨砂玻璃质感。 |
+| 6 | [heiyedehen/dsh-self-clock](https://github.com/heiyedehen/dsh-self-clock) | 0 | 2026-11-24 | 2026-11-24 | Heartbeat for DeepSeek Harness: the model sets its own timers, and you get one quiet notice in the same conversation when it is time. |
+| 7 | [hua-ri/dsh-ops](https://github.com/hua-ri/dsh-ops) | 0 | 2026-11-22 | 2026-11-24 | DSH 一体化运维插件：SSH / K8s / Helm / ArgoCD / Argo Workflows |
+| 8 | [huihui308/dsh-sound-picture-desk](https://github.com/huihui308/dsh-sound-picture-desk) | 0 | 2026-11-20 | 2026-11-24 | 声画工作台 · DeepSeek Harness（DSH）插件：一个主题或一本书，在面板里走完选题 → 写稿 → 定人物 → 配音 → 分镜 → 合成，产出 1080×1920 竖屏 mp4 与 SRT 字幕。旁白支持 MiMo 多音色，分镜接任意 OpenAI 兼容生图；每段都能改，改完只重做该段。 |
+| 9 | [lukysoda/dsh-session-search-zh](https://github.com/lukysoda/dsh-session-search-zh) | 0 | 2026-11-24 | 2026-11-24 | 在 DeepSeek Harness 左侧栏按原文搜索全部会话的用户发言与模型回复，中文整段可命中｜Exact-text (Chinese-friendly) conversation search across every DSH session |
+| 10 | [solgridai/dsh-plugin](https://github.com/solgridai/dsh-plugin) | 0 | 2026-11-24 | 2026-11-24 | Official DeepSeek Harness (dsh) plugin for Solgrid — discover and run paid third-party tools and skills with zero setup. |
+| 11 | [This-is-XiaoDeng/dsh-web-search-tavily](https://github.com/This-is-XiaoDeng/dsh-web-search-tavily) | 0 | 2026-11-24 | 2026-11-24 | Tavily-backed web search provider for the DeepSeek Harness (DSH) web capability seam (ctx.web) — provider id tavily, zero dependencies, MIT |
+| 12 | [YeYirp/dsh-wechat-kb](https://github.com/YeYirp/dsh-wechat-kb) | 0 | 2026-11-24 | 2026-11-24 | 微信 + 本地知识库的 DSH 插件：群里只认真 @，回答只来自知识库，查不到/出错只发固定拒答语。停用≈卸载，零依赖。 |
+| 13 | [yib0601/dsh-session-insight](https://github.com/yib0601/dsh-session-insight) | 0 | 2026-11-18 | 2026-11-24 | DSH 插件：会话洞察 —— 逐轮/会话费用（官方单价 CNY/USD + 峰谷分时）、上下文明细与用量总览、订阅额度与重置倒计时、自建网关模型目录同步、跨会话项目记忆与笔记检索 |
 
 ## 从快照消失的已核准仓库 / Approved repositories missing from the snapshot
 
@@ -129,4 +143,57 @@ Same-owner, same-repository-id renames were synced automatically across approved
 
 Approved but no longer present in the current snapshot. Same-owner renames were already synced automatically, so what remains is mostly deletion, privating, or a recycled slug — after checking, remove them from [data/approved.json](../approved.json) or handle them via the renames-pending-review section above.
 
-- （无 / none）
+- dsh-external/chat-width
+- dsh-external/dsh-agent-teams
+- dsh-external/dsh-at-file
+- dsh-external/dsh-automation
+- dsh-external/dsh-bash-encoding
+- dsh-external/dsh-better-browser
+- dsh-external/dsh-book2skill
+- dsh-external/dsh-browser4
+- dsh-external/dsh-computer-use
+- dsh-external/dsh-custom-tool
+- dsh-external/dsh-cyber-sec
+- dsh-external/dsh-daily-fortune
+- dsh-external/dsh-deepcel
+- dsh-external/dsh-deeplink
+- dsh-external/dsh-doctor
+- dsh-external/dsh-easy-ctx-manager
+- dsh-external/dsh-file-trace
+- dsh-external/dsh-fun-ticker
+- dsh-external/dsh-fun-typewriter
+- dsh-external/dsh-fun-weather
+- dsh-external/dsh-genui
+- dsh-external/dsh-handoff
+- dsh-external/dsh-input-history
+- dsh-external/dsh-island
+- dsh-external/dsh-minigames
+- dsh-external/dsh-notification
+- dsh-external/dsh-nowledge-mem
+- dsh-external/dsh-open-in-vscode
+- dsh-external/dsh-openmaic
+- dsh-external/dsh-paste-input
+- dsh-external/dsh-pet
+- dsh-external/dsh-pet-corner
+- dsh-external/dsh-pi-adapter
+- dsh-external/dsh-plan-execute
+- dsh-external/dsh-plannotator
+- dsh-external/dsh-qq2006
+- dsh-external/dsh-revive
+- dsh-external/dsh-session-hub
+- dsh-external/dsh-spotlight
+- dsh-external/dsh-tps
+- dsh-external/dsh-turn-rewind
+- dsh-external/dsh-ui-progress
+- dsh-external/dsh-ui-whale
+- dsh-external/dsh-vision-toolkit
+- dsh-external/dsh-visualize
+- dsh-external/dsh-web-workbench
+- dsh-external/dsh-webui-live-html
+- dsh-external/oh-my-dsh
+- elviass/dsh-cost-insights
+- GUGUQ1/dsh-todo
+- Na2Cr2O7/dsh-qq-automate
+- regrevia/dsh-lite-memory
+- yib0601/dsh-turn-cost
+- zmaa0061-coder/feishu-publish
