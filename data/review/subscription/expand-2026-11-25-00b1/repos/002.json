@@ -1,0 +1,67 @@
+{
+  "full_name": "daijiaoshou-ds/Accounting-Entry-Test",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-25T00:04:32.762Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "68c9c4e2d6275c3945d670827c6e2fe53029693c0a60202524c6f190f66c9190",
+      "url": "https://github.com/daijiaoshou-ds/Accounting-Entry-Test/blob/781c2257082eaf8adec91337a73b00ab9f2327f2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh_plugin/journal-workbench/README.md",
+      "sha256": "0d87e532f878fd58f0c89ae821187887f753e4d1b9139f41e62655730acb7ceb",
+      "url": "https://github.com/daijiaoshou-ds/Accounting-Entry-Test/blob/781c2257082eaf8adec91337a73b00ab9f2327f2/dsh_plugin/journal-workbench/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "efda22a71cf08571088da4b3dc0625be2be0c360c35e23cb45236484cb7dcba2",
+      "url": "https://github.com/daijiaoshou-ds/Accounting-Entry-Test/blob/781c2257082eaf8adec91337a73b00ab9f2327f2/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-journal-workbench",
+      "version": "0.2.0",
+      "path": "dsh_plugin/journal-workbench",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/daijiaoshou-ds/Accounting-Entry-Test",
+        "commit": "781c2257082eaf8adec91337a73b00ab9f2327f2",
+        "path": "dsh_plugin/journal-workbench"
+      },
+      "manifestSha256": "eb5dc94f1922f40b41199901dc85af7ce89f2cef589ea00ef3d16b7c9ed61492",
+      "manifestUrl": "https://github.com/daijiaoshou-ds/Accounting-Entry-Test/blob/781c2257082eaf8adec91337a73b00ab9f2327f2/dsh_plugin/journal-workbench/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/daijiaoshou-ds/Accounting-Entry-Test",
+    "commit": "781c2257082eaf8adec91337a73b00ab9f2327f2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-25T00:04:35.581Z"
+}
