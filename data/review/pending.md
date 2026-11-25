@@ -7,7 +7,7 @@
 - 生成时间 / Generated: **2026-11-25**
 - 快照日期 / Snapshot date: **2026-11-24 (UTC)**
 - 待审核 / Pending: **0**
-- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **0**
+- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **1**
 - Star 异常增长 / Star-growth alerts: **8** — 先看下方告警节 / see the alert section first
 - 改名/身份待复核 / Renames pending review: **35**
 
@@ -123,4 +123,4 @@ Same-owner, same-repository-id renames were synced automatically across approved
 
 Approved but no longer present in the current snapshot. Same-owner renames were already synced automatically, so what remains is mostly deletion, privating, or a recycled slug — after checking, remove them from [data/approved.json](../approved.json) or handle them via the renames-pending-review section above.
 
-- （无 / none）
+- officesdk/officesdk-plugin-dsh

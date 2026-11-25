@@ -346,6 +346,7 @@ mindmap
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
+| [officesdk/officesdk-plugin-dsh](https://github.com/officesdk/officesdk-plugin-dsh) | 在 DSH 里原生打开、编辑并保存 Word / Excel / PPT：AI 逐步创建与修改、确认后应用，改完在原位置核对。 | 2026-11-16 |
 | [yb-zhai/agent-memory](https://github.com/yb-zhai/agent-memory) | 零依赖本地优先的 Agent 记忆系统：四路召回 + 星云可视化面板 + MCP。 | 2026-11-21 |
 | [renjiegod/dsh-godbot](https://github.com/renjiegod/dsh-godbot) | 把 Claude Code、Codex、Antigravity 与 DSH 编成一队：委派任务、验收结果、接管原生会话。 | 2026-11-21 |
 | [gcggcg/dsh-plugin-dingtalk-bridge](https://github.com/gcggcg/dsh-plugin-dingtalk-bridge) | 钉钉双向桥：一键授权实时收私信与群 @，按发送人记录来源，AI 生成建议回复，可信即自动回复。 | 2026-11-17 |

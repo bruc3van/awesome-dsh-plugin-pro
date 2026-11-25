@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-11-25T01:14:43.200Z",
+  "generated_at": "2026-11-25T10:54:15.703Z",
   "snapshot_date": "2026-11-24",
   "pending": [],
-  "missing": [],
+  "missing": [
+    "officesdk/officesdk-plugin-dsh"
+  ],
   "star_anomalies": {
     "snapshot_date": "2026-11-24",
     "previous_snapshot_date": "2026-11-24",

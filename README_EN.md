@@ -345,6 +345,7 @@ Screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
+| [officesdk/officesdk-plugin-dsh](https://github.com/officesdk/officesdk-plugin-dsh) | Open, edit and save Word, Excel and PowerPoint files natively in DSH: the AI builds and revises documents step by step with your confirmation, reviewed in place. | 2026-11-16 |
 | [yb-zhai/agent-memory](https://github.com/yb-zhai/agent-memory) | Zero-dependency local-first agent memory: 4-arm recall, a nebula visualization panel and MCP. | 2026-11-21 |
 | [renjiegod/dsh-godbot](https://github.com/renjiegod/dsh-godbot) | Run Claude Code, Codex, Antigravity and DSH as one team: delegate tasks, review results, take over native agent sessions. | 2026-11-21 |
 | [gcggcg/dsh-plugin-dingtalk-bridge](https://github.com/gcggcg/dsh-plugin-dingtalk-bridge) | Two-way DingTalk bridge: real-time DMs and group mentions after one-click auth, AI-drafted replies, auto-send above a confidence threshold. | 2026-11-17 |
