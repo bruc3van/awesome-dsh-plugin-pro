@@ -242109,6 +242109,242 @@
       "verified_date": "2026-11-18",
       "verified_via": "review",
       "verified_by": "review"
+    },
+    "yb-zhai/agent-memory": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:yb-zhai/agent-memory",
+          "command": "dsh plugin --profile desktop add github:yb-zhai/agent-memory",
+          "install": "https://github.com/yb-zhai/agent-memory"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-25",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "renjiegod/dsh-godbot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:renjiegod/dsh-godbot",
+          "command": "dsh plugin --profile web add github:renjiegod/dsh-godbot",
+          "install": "https://github.com/renjiegod/dsh-godbot"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "zman406986/agent-memory-cremator": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:cremator-dsh",
+          "command": "dsh plugin --profile web add cremator-dsh",
+          "install": "cremator-dsh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "2019wakeup/dsh-reader": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@2019wakeup/dsh-reader@latest",
+          "command": "dsh plugin --profile web add @2019wakeup/dsh-reader@latest",
+          "install": "@2019wakeup/dsh-reader@latest"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-25",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "gcggcg/dsh-plugin-dingtalk-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-dingtalk-bridge",
+          "command": "dsh plugin --profile web add dsh-plugin-dingtalk-bridge",
+          "install": "dsh-plugin-dingtalk-bridge"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "gcggcg/dsh-plugin-wechat-dingtalk": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-wechat-dingtalk-bridge",
+          "command": "dsh plugin --profile web add dsh-plugin-wechat-dingtalk-bridge",
+          "install": "dsh-plugin-wechat-dingtalk-bridge"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "aiohow/dsh-prompt-wall": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-prompt-wall",
+          "command": "dsh plugin --profile web add dsh-prompt-wall",
+          "install": "dsh-prompt-wall"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "alexbu512/milancat-bot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:alexbu512/milancat-bot",
+          "command": "dsh plugin --profile web add github:alexbu512/milancat-bot",
+          "install": "https://github.com/alexbu512/milancat-bot"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "drscrewdriver/dsh-patch-edit-plus": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-patch-edit-plus",
+          "command": "dsh plugin --profile web add dsh-patch-edit-plus",
+          "install": "dsh-patch-edit-plus"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "hentai-joshu/dsh-narration-policy": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:hentai-joshu/dsh-narration-policy",
+          "command": "dsh plugin --profile web add github:hentai-joshu/dsh-narration-policy",
+          "install": "https://github.com/hentai-joshu/dsh-narration-policy"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "monkeyin92/ds-pstack": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:monkeyin92/ds-pstack",
+          "command": "dsh plugin --profile web add github:monkeyin92/ds-pstack",
+          "install": "https://github.com/monkeyin92/ds-pstack"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "orphbladean/dsh-nahida-theme": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-nahida-theme",
+          "command": "dsh plugin --profile web add dsh-nahida-theme",
+          "install": "dsh-nahida-theme"
+        },
+        {
+          "profile": "web",
+          "source": "github:OrphBladean/dsh-nahida-theme",
+          "command": "dsh plugin --profile web add github:OrphBladean/dsh-nahida-theme",
+          "install": "https://github.com/OrphBladean/dsh-nahida-theme"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-25",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "pugyy/dxkjailbreak": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:pugyy/dxkjailbreak",
+          "command": "dsh plugin --profile web add github:pugyy/dxkjailbreak",
+          "install": "https://github.com/pugyy/dxkjailbreak"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "zelystaric/dsh-council": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zelystaric/dsh-council",
+          "command": "dsh plugin --profile web add github:zelystaric/dsh-council",
+          "install": "https://github.com/zelystaric/dsh-council"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "linhuanwen/dsh-plugin-agent-browser": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:linhuanwen/dsh-plugin-agent-browser#path:/dist/dsh-plugin-agent-browser",
+          "install": "https://github.com/linhuanwen/dsh-plugin-agent-browser#path:/dist/dsh-plugin-agent-browser",
+          "command": "dsh plugin --profile web add \"github:linhuanwen/dsh-plugin-agent-browser#path:/dist/dsh-plugin-agent-browser\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@a982a23bf8f6",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "weiwenhao/dudu": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:weiwenhao/dudu#path:/host/dudu-plugin",
+          "install": "https://github.com/weiwenhao/dudu#path:/host/dudu-plugin",
+          "command": "dsh plugin --profile web add \"github:weiwenhao/dudu#path:/host/dudu-plugin\""
+        },
+        {
+          "profile": "web",
+          "source": "github:weiwenhao/dudu#path:/host/plugin",
+          "install": "https://github.com/weiwenhao/dudu#path:/host/plugin",
+          "command": "dsh plugin --profile web add \"github:weiwenhao/dudu#path:/host/plugin\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-25",
+      "verified_via": "manifest@633fe5f49458",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
     }
   }
 }
