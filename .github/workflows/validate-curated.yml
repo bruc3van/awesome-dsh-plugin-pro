@@ -57,6 +57,7 @@ jobs:
         run: >-
           node --test
           scripts/test-safe-market-catalog.mjs
+          scripts/test-await-npm-mirror-sync.mjs
           scripts/test-catalog-mappings.mjs
           scripts/test-mapping-gate.mjs
           scripts/test-publish-npm-feed.mjs

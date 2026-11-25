@@ -56,7 +56,8 @@ jobs:
     # spawned by publish-npm-feed.mjs) and the npm publish run here. The heavy
     # regression suite (~14 mocked npm publishes, ~20 min) gates code changes in
     # validate-curated.yml on PRs and on pushes to scripts/** and workflows.
-    timeout-minutes: 10
+    # The mirror-sync verification poll dominates the budget when cnpmcore is slow.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -71,8 +72,9 @@ jobs:
       # validate-market-catalog) and then decides whether anything needs
       # publishing: same feedDigest as the registry's latest → "nothing to do".
       - name: Build and publish the feed package
+        id: publish
         run: node scripts/publish-npm-feed.mjs --publish
-      - name: Refresh jsDelivr feed aliases and trigger npmmirror sync
+      - name: Refresh jsDelivr feed aliases
         timeout-minutes: 2
         run: |
           for feed_alias in awesome-dsh-plugin-feed@latest awesome-dsh-plugin-feed; do
@@ -80,9 +82,12 @@ jobs:
               curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/$feed_file"
             done
           done
-          # Best-effort sync ping so China consumers on registry.npmmirror.com get the
-          # new release immediately (cnpmcore's sync-task route). npmmirror also syncs
-          # on its own schedule, so a failure only warns, but it is never silent.
-          if ! curl --fail --silent --show-error -X PUT "https://registry-direct.npmmirror.com/-/package/awesome-dsh-plugin-feed/syncs"; then
-            echo "::warning::npmmirror sync request failed; registry.npmmirror.com will pick the release up on its own schedule."
-          fi
+      # A single fire-and-forget sync ping is not enough: on 2026-11-25 it ran
+      # eleven seconds after npm publish, before the registry propagated, synced
+      # zero versions, and the mirror served the previous feed for nearly an
+      # hour. Verify the exact endpoint consumers read until it serves the
+      # published version, re-firing the sync task — and fail loudly if the
+      # budget runs out, because silent staleness strands China users on old data.
+      - name: Verify npmmirror serves the published feed
+        timeout-minutes: 14
+        run: node scripts/await-npm-mirror-sync.mjs "${{ steps.publish.outputs.feed_version }}"

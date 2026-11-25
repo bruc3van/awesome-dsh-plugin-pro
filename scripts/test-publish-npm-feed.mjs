@@ -81,6 +81,13 @@ test('first publication, version bump and digest no-op', async (t) => {
   assert.equal(catalog.schema_version, 4);
   assert.equal(catalog.subscription?.plugins?.length, index.plugins.length);
   assert.ok(catalog.entries.length > 1000);
+  // The shipped catalog carries its publish identity so consumers can compare
+  // freshness across mirrors even when two publishes share one crawl snapshot.
+  assert.equal(catalog.feed_version, next.version);
+  assert.ok(Number.isFinite(Date.parse(catalog.published_at)), 'published_at must be an ISO timestamp');
+  // Note the digest's volatility gate is already proven by the no-op above:
+  // every run stamps a fresh published_at, so a digest that included it could
+  // never have matched the registry's feedDigest.
 });
 
 test('a subscription-only publication changes the npm digest and retains its logos', async t => {
@@ -140,4 +147,8 @@ test('an E409 version collision retries once with a bumped patch', async (t) => 
   assert.match(result.stderr, new RegExp(`already published by a concurrent run; retrying once as 0\\.${day}\\.1`));
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   assert.equal(manifest.version, `0.${day}.1`);
+  // The retry must restamp the shipped catalog: a file written for the
+  // colliding version would publish a feed_version that names nobody.
+  const catalog = JSON.parse(await readFile(resolve(root, 'dist-npm/data/market-catalog-v4.json'), 'utf8'));
+  assert.equal(catalog.feed_version, `0.${day}.1`);
 });

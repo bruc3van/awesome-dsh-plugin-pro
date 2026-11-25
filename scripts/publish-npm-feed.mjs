@@ -21,6 +21,7 @@
 
 import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
+import { appendFileSync } from 'node:fs';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -41,14 +42,29 @@ for (const script of ['validate-packages.mjs', 'validate-market-catalog.mjs']) {
 const files = ['data/packages.json', 'data/market-catalog-v4.json'];
 const catalog = await readSafeMarketCatalog(new URL('../', import.meta.url));
 const compactCatalog = buildCompactMarketCatalog(catalog);
-const reads = [
-  await readFile(resolve(root, 'data/packages.json'), 'utf8'),
-  `${JSON.stringify(compactCatalog)}\n`,
-];
+const packagesRaw = await readFile(resolve(root, 'data/packages.json'), 'utf8');
+// The digest certifies the data content alone: feed_version/published_at are
+// volatile publish metadata stamped into the shipped catalog only after the
+// digest is fixed — including them here would make every rebuild a new
+// version even when nothing in the data changed.
+const catalogContentRaw = `${JSON.stringify(compactCatalog)}\n`;
+const reads = [packagesRaw, catalogContentRaw];
 const digest = createHash('sha256').update(reads.join('\n')).digest('hex');
 
 const generatedAt = new Date().toISOString();
 const day = generatedAt.slice(0, 10).replaceAll('-', '');
+
+// The workflow's mirror-sync verification step needs the exact version that
+// should now be live — re-resolving it from the registry afterwards would
+// race the packument's own propagation and could verify the previous latest.
+function emitGitHubOutput(version, published) {
+  if (!process.env.GITHUB_OUTPUT) return;
+  try {
+    appendFileSync(process.env.GITHUB_OUTPUT, `feed_version=${version}\nfeed_published=${published}\n`);
+  } catch {
+    // Best effort: output capture must never turn a good publish into a failure.
+  }
+}
 
 async function latestInfo() {
   try {
@@ -80,6 +96,7 @@ if (info.error) {
 }
 if (info.published && info.feedDigest === digest) {
   console.log(`feed already published as ${info.latest} (digest ${digest.slice(0, 12)}…) — nothing to do.`);
+  emitGitHubOutput(info.latest, false);
   process.exit(0);
 }
 
@@ -98,7 +115,22 @@ function firstFreePatch(versions, extra = []) {
 
 await rm(DIST, { recursive: true, force: true });
 await mkdir(resolve(DIST, 'data'), { recursive: true });
-await Promise.all(files.map((f, i) => writeFile(resolve(DIST, f), reads[i])));
+
+// The shipped catalog carries its own publish identity so consumers can
+// compare freshness across mirrors that answer at different times
+// (source_fetched_at cannot: it only changes when the crawl snapshot moves,
+// so two publishes sharing one snapshot are indistinguishable without it).
+// Stamped per attempt because an E409 retry bumps the version.
+function stampedCatalogRaw(version) {
+  return `${JSON.stringify({ schema_version: 4, feed_version: version, published_at: generatedAt, ...compactCatalog })}\n`;
+}
+
+async function writeDataFiles(version) {
+  await Promise.all([
+    writeFile(resolve(DIST, 'data/packages.json'), packagesRaw),
+    writeFile(resolve(DIST, 'data/market-catalog-v4.json'), stampedCatalogRaw(version)),
+  ]);
+}
 
 function writeDist(version) {
   const packageJson = {
@@ -145,7 +177,7 @@ async function writeReadme(version) {
     'npm view awesome-dsh-plugin-feed dist.tarball --registry=https://registry.npmmirror.com',
     '```',
     '',
-    'Check freshness with `npm view awesome-dsh-plugin-feed feedDigest feedGeneratedAt` and compare against this repo\u2019s latest commit.',
+    'Check freshness with `npm view awesome-dsh-plugin-feed feedDigest feedGeneratedAt` and compare against this repo\u2019s latest commit. The catalog itself carries `feed_version` and `published_at` in its envelope, so a consumer holding responses from several mirrors can tell which one serves the newer publish even when the underlying crawl snapshot (`source_fetched_at`) is the same.',
     '',
     'Data is generated and validated in [bruc3van/awesome-dsh-plugin-pro](https://github.com/bruc3van/awesome-dsh-plugin-pro); see data/review/README.md there for schemas and curation rules.',
     '',
@@ -161,10 +193,12 @@ async function writeReadme(version) {
 let version = `0.${day}.${info.published ? firstFreePatch(info.versions) : 0}`;
 
 for (let attempt = 1; ; attempt++) {
+  await writeDataFiles(version);
   await writeDist(version);
   await writeReadme(version);
   console.log(`built ${PKG_NAME}@${version} in dist-npm/ — digest ${digest.slice(0, 12)}…`);
-  for (const [i, f] of files.entries()) console.log(`  ${f}: ${Buffer.byteLength(reads[i])} bytes`);
+  console.log(`  ${files[0]}: ${Buffer.byteLength(packagesRaw)} bytes`);
+  console.log(`  ${files[1]}: ${Buffer.byteLength(stampedCatalogRaw(version))} bytes`);
 
   if (!PUBLISH) {
     console.log('dry run only — pass --publish (requires npm auth, e.g. NODE_AUTH_TOKEN) to release.');
@@ -179,6 +213,7 @@ for (let attempt = 1; ; attempt++) {
   });
   if (result.status === 0) {
     console.log(`published ${PKG_NAME}@${version}. npmmirror mirrors npmjs.org within minutes.`);
+    emitGitHubOutput(version, true);
     break;
   }
 
