@@ -822,7 +822,6 @@
     "Calliope-Nicles/technical-english-companion": "knowledge-research",
     "callmenightmare/dsh-work-log": "utilities",
     "calmzealA/dsh-decide": "developer-tools",
-    "Calvin-Xia/my-dsh-plugins": "ecosystem-resources",
     "caly250/dsh-copy-file-button": "ui-experience",
     "cander0815/dsh-computer-mcp": "developer-tools",
     "CanGeng/llm-fallback": "developer-tools",
@@ -2216,7 +2215,6 @@
     "JasperPengC/dsh-agent-blackbox": "ui-experience",
     "java-hue/dsh-census": "ecosystem-resources",
     "jaxhu1108/dsh-code-intelligence": "developer-tools",
-    "JayC-L/dsh-skills-management": "ecosystem-resources",
     "JAYCou/codex-history-rail": "ui-experience",
     "Jaylor-Wang/dsh-tool-ast-grep": "developer-tools",
     "Jaylor-Wang/dsh-tool-lsp": "developer-tools",
@@ -2702,7 +2700,6 @@
     "liceses/dsh-showme-html": "ui-experience",
     "Lichen455/band-notify": "integrations-sharing",
     "lichufeng123/dsh-zentao-ledger": "integrations-sharing",
-    "lidaiyue/dsh-database": "developer-tools",
     "lidaiyue/dsh-idea": "ui-experience",
     "lidaqi001/dsh-codex-claude-pipeline": "multi-agents",
     "lifangjin/dsh-maoying": "media-vision",
@@ -3796,7 +3793,6 @@
     "RayzPub/dsh-plugin-garmin": "media-vision",
     "Rcyc-1025/dsh-lit-filecheck": "developer-tools",
     "Rcyc-1025/dsh-mlir-toolchain": "developer-tools",
-    "re-ITRT/dsh-file-fix": "ui-experience",
     "Re5tart/dsh-netqos": "developer-tools",
     "realchenwenqiao/dash": "developer-tools",
     "Rebebberd/dsh-notebook": "knowledge-research",
@@ -4079,8 +4075,6 @@
     "simular-ai/box-plugin": "integrations-sharing",
     "sinvacn/dsh-conversation-find": "ui-experience",
     "SiriusWJ/dsh-screenshot-button": "media-vision",
-    "SiriusWJ/dsh-skills": "agents-workflows",
-    "SiriusWJ/dsh-updater-npm": "developer-tools",
     "Siselea/dsh-motrix-download": "integrations-sharing",
     "sishuai33-commits/dsh-anchored-standard-1024": "agents-workflows",
     "SisyphusSQ/dsh-plugins": "ecosystem-resources",
@@ -5555,7 +5549,6 @@
     "zaxx2006/dsh-legal": "knowledge-research",
     "zayyehtut/dsh-secret-ask": "developer-tools",
     "zbc0315/dsh-jargon-list": "knowledge-research",
-    "Zci514/dsh-nightwatch": "agents-workflows",
     "zczgagat/token2rice": "utilities",
     "zd5610982/dsh-prompt-enhancer-pro": "agents-workflows",
     "Zding89/dsh-model-presets": "ui-experience",
@@ -7075,7 +7068,6 @@
     "regrevia/dsh-inner-browser-use": "web-browser",
     "TINGOD2006/dsh-um-proxy-ondemand": "developer-tools",
     "aleksvega/dsh-tg-bridge": "integrations-sharing",
-    "regrevia/dsh-lite-memory": "knowledge-research",
     "erty3244/dsh-feishu-bridge": "integrations-sharing",
     "kx2398/dsh-session-mesh": "agents-workflows",
     "harm-m422/dsh-memory": "knowledge-research",
@@ -8291,7 +8283,6 @@
     "ddwolf715/dsh-plugin-session-manager": "agents-workflows",
     "YunongDai2005/dsh-thetwo": "agents-workflows",
     "1Tohka0/dsh-session-wrapup": "agents-workflows",
-    "DuncanLii/dsh-context-kernel": "knowledge-research",
     "jidekaixin2dian/dsh-run-receipt": "agents-workflows",
     "tomcatle/dsh-stock-probability-chart": "knowledge-research",
     "GxyFly/dsh-session-delete-menu": "agents-workflows",
@@ -9106,7 +9097,6 @@
     "dingchenhui0618-arch/dsh-in-hand": "agents-workflows",
     "rrcover0/dsh-webnovel-writer": "media-vision",
     "lantiosity/dsh-token-fee": "agents-workflows",
-    "bay-zeddie/dsh-agent-instructions": "integrations-sharing",
     "wepoi9/dsh-max-token-auto-continue": "agents-workflows",
     "konglong87/dsh-input-list": "ui-experience",
     "goodandready/dsh-github-ops": "developer-tools",
@@ -10035,7 +10025,9 @@
     "TwinsEarth/fang-dsh-plugin": "agents-workflows",
     "yixin2021/dsh-skill-manager": "ui-experience",
     "Yuaneen/dsh-token-gateway": "developer-tools",
-    "miorin-chan/dsh-vcs-panel": "ui-experience"
+    "miorin-chan/dsh-vcs-panel": "ui-experience",
+    "MaoZhiqin/dsh-file-fix": "ui-experience",
+    "regrevia/lite-memory": "knowledge-research"
   },
   "description_overrides": {
     "43456-awa/dsh-notepad": "钉在 DeepSeek Harness Web GUI 的常驻记事本插件，可拖动、可固定。",
@@ -10177,7 +10169,9 @@
     "Nikolors/dsh-eyes-ru": "DSH 视觉工具集：屏幕与摄像头采集、OCR、本地帧描述与俄语语气标注（Windows）。",
     "Nikolors/dsh-local-voice": "本地俄语 TTS 插件：基于 Qwen3-TTS 的声音克隆、流式合成与本地/云端切换（Windows + CUDA）。",
     "Nikolors/dsh-screen-memory": "滚动屏幕记忆插件：开启短帧缓冲后可随时询问一分钟前屏幕上显示的内容（Windows）。",
-    "LTSapling/genshin-daily": "原神每日任务自动化 DSH 插件：封装 BetterGI 脚本完成每日委托与领取，自动安装依赖并带任务日志面板。"
+    "LTSapling/genshin-daily": "原神每日任务自动化 DSH 插件：封装 BetterGI 脚本完成每日委托与领取，自动安装依赖并带任务日志面板。",
+    "zijunyu81-source/dsh-deepseek-toolbox": "DSH 插件：把 DeepSeek 官方 Tool API 注册成三个面向模型的工具——OCR 文字识别、deepseek_search 联网搜索、deepseek_fetch 网页抓取，零依赖、按量计费。",
+    "mumu1001ai-jpg/dsh-mysql-data-recovery": "MySQL 数据恢复 DeepSeek Harness 插件：按时间窗口或已执行 SQL 读取 binlog 生成回滚 SQL 文件（只生成不执行），带扫描进度与 SQL 预览。"
   },
   "leaderboard_exclusions": {
     "091022yyj/deepseek-harness-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -10700,7 +10694,6 @@
     "onblog/dsh-ready": "Kept out of the star board: a desktop launcher/installer window for DSH (install, run, upgrade), not an installable DSH plugin. Stays in the catalog.",
     "oneclickvirt/ecs": "Kept out of the star board: stars accrued as the general-purpose VPS benchmarking suite (GoECS, 873 days old); the dsh-plugin-goecs adapter bundle is a recent add-on wrapper. Stays in the catalog.",
     "oneclickvirt/oneclickvirt": "Kept out of the star board: stars accrued as a standalone universal virtualization-management platform (Proxmox VE / LXD / Incus / Docker / QEMU / KubeVirt, 421 days old, 1,258 commits, Docker/binary/1Panel installs); the DSH plugin panel landed 2026-11-17 and fronts an existing deployment. Stays in the catalog.",
-    "onehumanbeing/esp32-iphone-agent": "Kept out of the star board: stars accrued as a standalone iPhone-automation hardware product (Manina AI, ESP32-based); the DSH adapter is secondary. Restored repository, verdict of 2026-11-06 reaffirmed.",
     "Onenightcarnival/deepseek-harness-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "oodzchen/deepseek-harness-gui": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "op7418/pilot-harness": "Kept out of the star board: a desktop client/shell for DeepSeek Harness. Stays in the catalog.",
@@ -11025,8 +11018,13 @@
     "lennney/stop-that-shit": "Kept out of the star board: stars accrued as a multi-host agent hook/skill guard (Claude Code / Codex-first audience, ~47:1 star-to-fork ratio); the DSH adapter is one of several hosts. Stays in the catalog and market.",
     "omnimux-ai/omnimux-client": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog.",
     "IKEASven69/AnyFind": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog.",
-    "dsh-external/dsh-pet": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog.",
-    "dsh-external/dsh-island": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog."
+    "ximizhou/convenient_window_free": "stars accrued as a standalone Windows 11 window tool: 142 of 200 stars landed in the 2026-09 desktop-release burst, before any DSH-plugin code existed (apps/dsh-plugin first committed 2026-11-22); the DSH plugin itself is genuine (npm dsh-convenient-window), so it stays in the catalog and market, off the Star board",
+    "LingMowen/dsh-magpie-hub": "内嵌插件市场（market.js），the market cannot include another market",
+    "beicaiai/dsh-magpie": "内嵌插件商店，the market cannot include another market",
+    "sakanamaru/dsh-minato-legacy": "本机部署运维套件（安装包分发），沿 dsh-minato 先例双记",
+    "Fox1990125/dsh-radar-workbench": "插件/技能发现+一键装商店，the market cannot include another market",
+    "solgridai/dsh-plugin": "付费第三方工具/技能商城，the market cannot include another market",
+    "zoeyzhang233666/chemclaw-bot": "主体为桌面 App（安装包为推荐分发），DSH 插件仅次要入口，双记"
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -12720,7 +12718,17 @@
     "dsh-external/dsh-deeptag": "Not a DSH plugin — an archived design-phase documentation repo that states no installable plugin exists yet.",
     "dsh-external/dsh-grok-tui": "Not a DSH plugin — an external TUI launcher that fronts the dsh engine with grok-build's TUI; a companion front-end, not an installable plugin.",
     "dsh-external/dsh-sentinel": "Stale mirror — this deprecated copy declares it has moved to fuhefei/dsh-sentinel (already in the catalog); kept out to avoid double-listing the same plugin.",
-    "dsh-plugins/dsh-model-selector": "Not a DSH plugin — an empty repository with no code, manifest, or install path."
+    "dsh-plugins/dsh-model-selector": "Not a DSH plugin — an empty repository with no code, manifest, or install path.",
+    "HometownVoyager/DSH-OrcaMind": "不是 DSH 插件：个人自用工作区存档（源码克隆+Electron 壳+文档）",
+    "Travis13197/NatSci-Writing-skills": "不是 DSH 插件：通用 agent 技能包（装 ~/.agents/skills，无 DSH 路径）",
+    "fubai-fenzhi/dsh-procedures-community": "不是 DSH 插件：dsh-procedures 的社区经验卡库，自身无 dsh 清单",
+    "AyaseMinami/dsh-whale-widget-planbar": "不是 DSH 插件：给已装挂件打补丁的 PowerShell 外部脚本",
+    "HometownVoyager/dsh-image-mcp": "不是 DSH 插件：自述非 cordis 插件的独立 MCP 脚本，仅配置接入",
+    "Sealkeeper/dsh-purge": "自述破甲越狱插件，YuJunZhiXue/dsh-purge fork 全族剔除",
+    "cauthy12/research-paradigm-by-wtd-kit": "不是 DSH 插件：通用研究工作区脚手架，作者自述非插件，无 dsh 安装路径",
+    "idvwork/dsh-purge": "自述破甲：59 项引擎补丁绕审批/破沙箱，YuJunZhiXue 家族包装",
+    "idvwork/dsh-purge-llm-security": "同 dsh-purge@1.6.1 破甲补丁包的马甲仓，家族剔除",
+    "jszjdyt/dsh-bioinformatics-plugins": "不是 DSH 插件：本体为 9 个子插件仓的文档总览站"
   },
   "market_exclusions": {
     "0326/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -13646,19 +13654,12 @@
     "240xu/dsh-nightly-automation": "Excluded from the downstream market: author-archived plugin superseded by the built-in Automation tasks page. Stays in the catalog and leaderboard.",
     "omnimux-ai/omnimux-client": "A desktop application — a local AI video studio (native macOS/Windows installers) whose DSH plugin is a companion connector. Excluded from the downstream market.",
     "IKEASven69/AnyFind": "A desktop application — a Windows full-disk instant-search tool (Tauri desktop shell) whose DSH plugin is the agent query end. Excluded from the downstream market.",
-    "dsh-external/dsh-pet": "A standalone desktop app (Electron floating pet) that watches DSH session state from outside the host. Excluded from the downstream market.",
-    "dsh-external/dsh-island": "A standalone macOS Swift notch panel that mirrors DSH task state. Excluded from the downstream market."
+    "LingMowen/dsh-magpie-hub": "内嵌插件市场（market.js），the market cannot include another market",
+    "beicaiai/dsh-magpie": "内嵌插件商店，the market cannot include another market",
+    "sakanamaru/dsh-minato-legacy": "本机部署运维套件（安装包分发），沿 dsh-minato 先例双记",
+    "Fox1990125/dsh-radar-workbench": "插件/技能发现+一键装商店，the market cannot include another market",
+    "solgridai/dsh-plugin": "付费第三方工具/技能商城，the market cannot include another market",
+    "zoeyzhang233666/chemclaw-bot": "主体为桌面 App（安装包为推荐分发），DSH 插件仅次要入口，双记"
   },
-  "updated_at": {
-    "0": "2",
-    "1": "0",
-    "2": "2",
-    "3": "6",
-    "4": "-",
-    "5": "1",
-    "6": "1",
-    "7": "-",
-    "8": "2",
-    "9": "3"
-  }
+  "updated_at": "2026-11-25"
 }

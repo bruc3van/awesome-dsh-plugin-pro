@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21",
+  "updated_at": "2026-11-25",
   "entries": {
     "daha1216/dsh-adult-tension": {
       "reason": "Agent Skill（原生 SKILL）：`skill/adult-tension/` 含 SKILL.md + references + 运行时，安装方式是把该目录复制进 ~/.dsh/skills/，没有 cordis 插件或 dsh bundle 清单",
@@ -221,6 +221,10 @@
     "ai4xe/ai4ai": {
       "reason": "多宿主扩展套件：`npx ai4ai init` CLI 检测并注册本地 harness（DSH 为注册目标之一），非 dsh plugin 安装目标",
       "date": "2026-11-21"
+    },
+    "daijiaoshou-ds/accounting-entry-test": {
+      "reason": "插件安装目标在同作者的 npm 包 dsh-auditor（仓库 daijiaoshou-ds/dsh-auditor）；本仓是 Python 引擎与训练源码，README 无指向本仓的 dsh plugin add 路径",
+      "date": "2026-11-25"
     }
   }
 }
