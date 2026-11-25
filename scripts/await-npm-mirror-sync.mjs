@@ -21,7 +21,13 @@ const NPMJS_PACKUMENT = `https://registry.npmjs.org/${PKG_NAME}`;
 const MIRROR_LATEST = `https://registry.npmmirror.com/${PKG_NAME}/latest`;
 const SYNC_ROUTE = `https://registry-direct.npmmirror.com/-/package/${PKG_NAME}/syncs`;
 
-const BUDGET_MS = Number(process.env.MIRROR_SYNC_BUDGET_MS ?? 12 * 60 * 1_000);
+// The end-to-end chain has four hops, three of them outside anyone's control:
+// npm CLI success → the registry's own published timestamp (observed +4 min),
+// → the sync worker's upstream r.cnpmjs.org picking the version up (observed
+// +5-10 min), → the sync task itself (seconds once the upstream has it). The
+// budget must cover the sum or every publish fails the run while nothing is
+// actually wrong.
+const BUDGET_MS = Number(process.env.MIRROR_SYNC_BUDGET_MS ?? 20 * 60 * 1_000);
 const POLL_MS = 45 * 1_000;
 const SYNC_EVERY_MS = 4 * 60 * 1_000;
 const TARGET_LOOKUP_RETRIES = 5;
@@ -36,8 +42,13 @@ async function fetchJson(url, fetchImpl, init) {
 
 // The /latest document doubles as the consumer's probe: it carries the
 // version cnpmcore currently serves a client asking for the newest release.
-export async function mirrorServedVersion(fetchImpl = fetch) {
-  const doc = await fetchJson(MIRROR_LATEST, fetchImpl);
+// Two readings of it matter: the edge-cached one is what consumers actually
+// see, while `?cache=0` reaches the origin and proves whether the sync task
+// has landed the version at all. The verdict probes the origin — the edge
+// TTL is outside anyone's control and heals itself, so it is reported for
+// information but never fails the run.
+export async function mirrorServedVersion(fetchImpl = fetch, { bypassCache = false } = {}) {
+  const doc = await fetchJson(bypassCache ? `${MIRROR_LATEST}?cache=0` : MIRROR_LATEST, fetchImpl);
   return typeof doc?.version === 'string' ? doc.version : '';
 }
 
@@ -69,25 +80,37 @@ export async function awaitMirrorSync({
   let checks = 0;
   for (;;) {
     checks += 1;
-    let served = '';
+    let origin = '';
     try {
-      served = await mirrorServedVersion(fetchImpl);
+      origin = await mirrorServedVersion(fetchImpl, { bypassCache: true });
     } catch (error) {
-      log(`mirror probe failed (${error.message}); retrying`);
+      log(`origin probe failed (${error.message}); retrying`);
     }
-    if (served === targetVersion) {
-      return { checks, elapsedMs: now() - started };
+    if (origin === targetVersion) {
+      let edge = '';
+      try {
+        edge = await mirrorServedVersion(fetchImpl);
+      } catch {
+        // Informational only — the edge cache is not part of the verdict.
+      }
+      if (edge !== targetVersion) {
+        log(`origin synced; the consumer-facing edge cache still serves ${edge || 'nothing'} and will catch up on its own TTL`);
+      }
+      return { checks, elapsedMs: now() - started, edgeVersion: edge };
     }
     if (now() - lastSyncAt >= syncEveryMs) {
       lastSyncAt = now();
       try {
-        await fetchImpl(SYNC_ROUTE, { method: 'PUT', signal: AbortSignal.timeout(20000) });
-        log(`sync task re-fired; mirror serves ${served || 'nothing'}, want ${targetVersion}`);
+        const res = await fetchImpl(SYNC_ROUTE, { method: 'PUT', signal: AbortSignal.timeout(20000) });
+        const ack = await res.json?.().catch(() => null) ?? null;
+        // The log id is the only handle into cnpmcore's queue when a task
+        // never lands — keep it in the run log.
+        log(`sync task re-fired (id ${ack?.id ?? 'unknown'}, state ${ack?.state ?? '?'}); origin serves ${origin || 'nothing'}, want ${targetVersion}`);
       } catch (error) {
         log(`sync request failed (${error.message}); the mirror's own schedule may still catch up`);
       }
     } else {
-      log(`mirror serves ${served || 'nothing'}, want ${targetVersion}; waiting`);
+      log(`origin serves ${origin || 'nothing'}, want ${targetVersion}; waiting`);
     }
     if (now() + pollMs > deadline) break;
     await sleep(pollMs);

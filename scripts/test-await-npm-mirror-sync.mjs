@@ -14,7 +14,7 @@ function fakeTransport({ target, syncsNeeded = 0, failProbes = 0 } = {}) {
       if (state.syncs >= syncsNeeded) state.served = target;
       return { ok: true, status: 200, json: async () => ({ ok: true }) };
     }
-    if (url.endsWith('/latest')) {
+    if (url.includes('/latest')) {
       state.probes += 1;
       if (state.probes <= failProbes) throw new Error('mirror unreachable');
       return { ok: true, status: 200, json: async () => ({ version: state.served }) };
@@ -94,4 +94,24 @@ test('transient probe failures do not abort the wait', async () => {
     budgetMs: 12 * 60 * 1000, pollMs: 45 * 1000, syncEveryMs: 4 * 60 * 1000,
   });
   assert.ok(result.checks >= 3, 'the failing probes are retried, not fatal');
+});
+
+test('the verdict follows the origin: a lagging consumer-facing edge cache is reported but never fails the run', async () => {
+  // The 2026-11-25 shape: the sync task lands at the origin within minutes,
+  // while the edge-cached /latest consumers read keeps serving the previous
+  // version for one more TTL — outside anyone's control, so it cannot be a
+  // failure condition.
+  const target = '0.20261125.5';
+  const fetchImpl = async (url, init) => {
+    if (url.includes('/syncs')) return { ok: true, status: 200, json: async () => ({ ok: true, id: 'x', state: 'waiting' }) };
+    if (url.includes('cache=0')) return { ok: true, status: 200, json: async () => ({ version: target }) };
+    if (url.includes('/latest')) return { ok: true, status: 200, json: async () => ({ version: '0.20261125.4' }) };
+    throw new Error(`unexpected fetch ${url}`);
+  };
+  const clock = fakeClock();
+  const result = await awaitMirrorSync({
+    targetVersion: target, fetchImpl, now: clock.now, sleep: clock.sleep, budgetMs: 1000, pollMs: 100,
+  });
+  assert.equal(result.checks, 1, 'the origin already serves the target — no waiting on the edge');
+  assert.equal(result.edgeVersion, '0.20261125.4', 'the lagging edge reading is reported for information');
 });

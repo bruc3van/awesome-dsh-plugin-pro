@@ -56,8 +56,10 @@ jobs:
     # spawned by publish-npm-feed.mjs) and the npm publish run here. The heavy
     # regression suite (~14 mocked npm publishes, ~20 min) gates code changes in
     # validate-curated.yml on PRs and on pushes to scripts/** and workflows.
-    # The mirror-sync verification poll dominates the budget when cnpmcore is slow.
-    timeout-minutes: 25
+    # The mirror-sync verification poll dominates the budget: npm's own
+    # published-timestamp lag plus the r.cnpmjs.org upstream hop were observed
+    # costing 10-15 minutes before the sync task could even see the version.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -89,5 +91,5 @@ jobs:
       # published version, re-firing the sync task — and fail loudly if the
       # budget runs out, because silent staleness strands China users on old data.
       - name: Verify npmmirror serves the published feed
-        timeout-minutes: 14
+        timeout-minutes: 22
         run: node scripts/await-npm-mirror-sync.mjs "${{ steps.publish.outputs.feed_version }}"
