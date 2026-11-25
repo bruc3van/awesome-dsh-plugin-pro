@@ -85,7 +85,15 @@ test('the feed publisher runs only fast data gates; the heavy regression suite g
   for (const file of heavy) assert.ok(!runs.includes(file), `${file} must not run inside the npm publish job`)
   assert.doesNotMatch(runs, /node --test/, 'no regression suite inside the npm publish job')
   assert.match(runs, /publish-npm-feed\.mjs --publish/, 'the publisher (which spawns validate-packages / validate-market-catalog) still runs')
-  assert.ok(publish['timeout-minutes'] <= 10, 'without the regression suite the publish job needs a short cap')
+  // The cap exists to bound a stuck job; it is wider than the old 10 minutes
+  // because the npmmirror verification poll legitimately needs its budget.
+  assert.ok(publish['timeout-minutes'] <= 30, 'the publish job cap must stay bounded even with the mirror-sync poll')
+  const verify = publish.steps.find((step) => step.name === 'Verify npmmirror serves the published feed')
+  assert.ok(verify, 'the mirror verification step must exist')
+  assert.ok(
+    verify['timeout-minutes'] < publish['timeout-minutes'],
+    'the verification step timeout must sit strictly below the job timeout so a stuck poll fails the step rather than cancelling the job',
+  )
 
   const curated = workflows.get('validate-curated.yml')
   const suite = curated.jobs.validate.steps.map((step) => step.run ?? '').join('\n')
@@ -96,11 +104,28 @@ test('the feed publisher runs only fast data gates; the heavy regression suite g
   }
 })
 
-test('the npmmirror sync ping uses the sync-task route and never fails silently', () => {
-  const runs = workflows.get('publish-npm-feed.yml').jobs.publish.steps.map((step) => step.run ?? '').join('\n')
-  assert.match(runs, /registry-direct\.npmmirror\.com\/-\/package\/awesome-dsh-plugin-feed\/syncs/)
-  assert.doesNotMatch(runs, /npmmirror[^\n]*\|\| true/, 'a failed sync must surface as a warning')
-  assert.match(runs, /::warning::npmmirror sync request failed/)
+test('npmmirror sync verification polls the consumer-facing endpoint and fails loudly instead of warning', () => {
+  // Fire-and-forget pings were silent in the worst way: the 2026-11-25 sync
+  // ran seconds after npm publish, synced zero versions, and the mirror served
+  // stale data for nearly an hour with a green workflow. The contract now:
+  // the publisher names its target version as a step output, a verification
+  // step polls the mirror's consumer endpoint until it serves that version,
+  // and the await script — not the YAML — owns the sync-task re-firing.
+  const publish = workflows.get('publish-npm-feed.yml').jobs.publish
+  const publishStep = publish.steps.find((step) => step.run?.includes('publish-npm-feed.mjs --publish'))
+  assert.equal(publishStep?.id, 'publish', 'the publish step must export its outputs for the verification step')
+  const runs = publish.steps.map((step) => step.run ?? '').join('\n')
+  assert.match(
+    runs,
+    /await-npm-mirror-sync\.mjs "\$\{\{ steps\.publish\.outputs\.feed_version \}\}"/,
+    'the verification step polls for the exact version the publisher reported',
+  )
+  const script = readFileSync(new URL('../await-npm-mirror-sync.mjs', import.meta.url), 'utf8')
+  assert.match(script, /PKG_NAME = 'awesome-dsh-plugin-feed'/, 'the script targets the feed package')
+  assert.match(script, /registry-direct\.npmmirror\.com\/-\/package\/\$\{PKG_NAME\}\/syncs/, 'the sync-task route is re-fired while the mirror lags')
+  assert.match(script, /registry\.npmmirror\.com\/\$\{PKG_NAME\}\/latest/, 'the consumer-facing /latest endpoint is what gets polled')
+  assert.match(script, /process\.exit\(1\)/, 'an exhausted budget fails the workflow — silent staleness is worse than a red run')
+  assert.doesNotMatch(runs, /npmmirror[^\n]*\|\| true/, 'mirror verification must never be silenced')
 })
 
 test('host index generation step times out before its job so downstream feed publish is not skipped as cancelled', () => {
