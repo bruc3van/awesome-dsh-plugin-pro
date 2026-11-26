@@ -27,7 +27,7 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { npmRepositorySlug } from './catalog-mapping-rules.mjs';
+import { canonicalGitHubPayload, canonicalNpmSpec, npmRepositorySlug } from './catalog-mapping-rules.mjs';
 import { installRef, isPasteSafeCommand } from './readme-install.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -180,12 +180,6 @@ for (const decision of decisions) {
       valid = false;
       continue;
     }
-    const install = installRef(source);
-    if (typeof pkg?.install === 'string' && pkg.install !== install) {
-      errors.push(`${at}: install must be ${JSON.stringify(install)}, got ${JSON.stringify(pkg.install)}`);
-      valid = false;
-      continue;
-    }
     if (match[1] === 'github') {
       const target = match[2].split('#')[0].toLowerCase();
       if (!snapshotNames.has(target)) errors.push(`${at}: github source ${target} is not in the snapshot`);
@@ -194,7 +188,20 @@ for (const decision of decisions) {
       const check = await checkNpm(match[2], slug);
       if (!check.ok) { errors.push(`${at}: ${check.reason}`); valid = false; continue; }
     }
-    pkgs.push({ profile: typeof pkg.profile === 'string' && pkg.profile.trim() !== '' ? pkg.profile.trim() : 'web', source, command, install });
+    const canonicalPayload = match[1] === 'npm'
+      ? canonicalNpmSpec(match[2])
+      : match[1] === 'github'
+        ? canonicalGitHubPayload(match[2])
+        : match[2];
+    const canonicalSource = `${match[1]}:${canonicalPayload}`;
+    const canonicalCommand = canonicalPayload === match[2] ? command : command.replace(match[2], canonicalPayload);
+    const install = installRef(canonicalSource);
+    if (typeof pkg?.install === 'string' && pkg.install !== installRef(source) && pkg.install !== install) {
+      errors.push(`${at}: install must be ${JSON.stringify(install)}, got ${JSON.stringify(pkg.install)}`);
+      valid = false;
+      continue;
+    }
+    pkgs.push({ profile: typeof pkg.profile === 'string' && pkg.profile.trim() !== '' ? pkg.profile.trim() : 'web', source: canonicalSource, command: canonicalCommand, install });
   }
   if (!valid || pkgs.length === 0) continue;
   accepted.push({ slug, record: { packages: pkgs, status: 'readme-verified', verified_date: TODAY, verified_via: 'review', verified_by: 'review' } });

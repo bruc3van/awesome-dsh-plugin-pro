@@ -90,10 +90,11 @@ export function buildSafeMarketCatalog(state, packages, index, report, indexRaw,
     const categoryTitle = index.metadata?.categories?.[row.category]?.title
     const titleZh = plugin?.titleZh || plugin?.titleEn || ''
     const titleEn = plugin?.titleEn || plugin?.titleZh || ''
-    // Schema 3 is what every released dsh-market-pro (<= 1.2.4) reads: the row
-    // shape — including the per-row `icon` and `keywords` those clients render
-    // and search from — must stay exactly as it was. Slimming lives in schema 4
-    // (buildCompactMarketCatalog), which drops the duplicated icons/keywords.
+    // Schema 3 is the compatibility-shaped intermediate from which schema 4 is
+    // projected: repository rows keep their icon/keywords here, while schema 4
+    // deduplicates them into the subscription payload. Install mappings are
+    // lean in both projections — the client only reads mode/targets.install/
+    // profile/note plus prose, and the full evidence stays in packages.json.
     entries.push({
       ...row,
       // A repository that publishes a subscription plugin is a plugin first

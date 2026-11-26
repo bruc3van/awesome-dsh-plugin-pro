@@ -23,7 +23,8 @@ test('a github target is auto-mapped only for this exact repository', () => {
   const self = pick({ source: 'github:acme/widget#main', command: 'dsh plugin --profile web add github:acme/widget#main' })
   const decision = decideMapping('acme/widget', [self])
   assert.equal(decision.verdict, 'auto')
-  assert.equal(decision.accepted[0].install, 'https://github.com/acme/widget#main')
+  assert.equal(decision.accepted[0].source, 'github:acme/widget')
+  assert.equal(decision.accepted[0].install, 'https://github.com/acme/widget')
 
   const other = pick({ source: 'github:acme/other', command: 'dsh plugin --profile web add github:acme/other' })
   const refused = decideMapping('acme/widget', [other])
@@ -61,6 +62,26 @@ test('one repository documented under several refs collapses to the unpinned tar
 
   const otherProfile = decideMapping('acme/widget', [pick(), pick({ profile: 'desktop' })], ok)
   assert.equal(otherProfile.accepted.length, 2, 'distinct profiles stay distinct targets')
+})
+
+test('npm latest and numeric pins normalize away while channel tags survive', () => {
+  const latest = decideMapping('acme/widget', [
+    pick({ source: 'npm:acme-widget@latest', command: 'dsh plugin --profile web add acme-widget@latest' }),
+  ], new Map([['npm:acme-widget@latest', { ok: true }]]))
+  assert.equal(latest.verdict, 'auto')
+  assert.equal(latest.accepted[0].source, 'npm:acme-widget')
+  assert.equal(latest.accepted[0].install, 'acme-widget')
+  assert.equal(latest.accepted[0].command, 'dsh plugin --profile web add acme-widget')
+
+  const pinned = decideMapping('acme/widget', [
+    pick({ source: 'npm:acme-widget@1.2.3', command: 'dsh plugin --profile web add acme-widget@1.2.3' }),
+  ], new Map([['npm:acme-widget@1.2.3', { ok: true }]]))
+  assert.equal(pinned.accepted[0].source, 'npm:acme-widget')
+
+  const next = decideMapping('acme/widget', [
+    pick({ source: 'npm:acme-widget@next', command: 'dsh plugin --profile web add acme-widget@next' }),
+  ], new Map([['npm:acme-widget@next', { ok: true }]]))
+  assert.equal(next.accepted[0].source, 'npm:acme-widget@next')
 })
 
 test('the manifest fallback maps a published package, else the repository itself', async () => {

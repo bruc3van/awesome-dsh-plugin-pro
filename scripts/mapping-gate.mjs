@@ -1,10 +1,13 @@
 // The single gate every automatic install-mapping path shares (the daily
-// catalog fill and the subscription expansion): a repository below
-// MAPPING_MIN_STARS, or with no push for more than MAPPING_MAX_IDLE_DAYS before
-// the snapshot it was read from, is not worth a new mapping. Existing mappings
-// are never touched by this gate — it only decides what gets added.
+// catalog fill and the subscription expansion): there is no star minimum, but
+// a repository with no push for more than MAPPING_MAX_IDLE_DAYS before the
+// snapshot it was read from is not worth a new mapping. Existing mappings are
+// never touched by this gate — it only decides what gets added.
 
-export const MAPPING_MIN_STARS = 5;
+// Kept as the shared policy floor so manual batch runs can still choose a
+// higher priority tier with --min-stars. Zero means stars no longer gate
+// automatic mapping eligibility.
+export const MAPPING_MIN_STARS = 0;
 export const MAPPING_MAX_IDLE_DAYS = 90;
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -15,7 +18,8 @@ const DAY_MS = 24 * 60 * 60 * 1000;
  */
 export function mappingGate(repo, referenceIso) {
   const stars = Number(repo?.stargazers_count);
-  if (!Number.isFinite(stars) || stars < MAPPING_MIN_STARS) {
+  if (!Number.isFinite(stars)) return { ok: false, reason: 'missing star count' };
+  if (stars < MAPPING_MIN_STARS) {
     return { ok: false, reason: `below ${MAPPING_MIN_STARS} stars` };
   }
   const reference = Date.parse(referenceIso);

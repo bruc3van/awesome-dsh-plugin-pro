@@ -12,6 +12,48 @@ import { installRef, isPasteSafeCommand, npmBase } from './readme-install.mjs';
 const AUTO_SOURCES = /^(npm|github):/;
 
 /**
+ * Canonical npm target policy for packages.json: numeric pins and `@latest`
+ * are registry-resolution details, so they are stripped; real channel tags
+ * such as `@next` / `@beta` survive because they name a different upstream
+ * release line rather than one immutable version.
+ */
+export function canonicalNpmSpec(spec) {
+  const text = String(spec ?? '').trim();
+  const at = text.lastIndexOf('@');
+  if (at <= 0) return text;
+  const tag = text.slice(at + 1);
+  return tag === 'latest' || /^\d/.test(tag) ? text.slice(0, at) : text;
+}
+
+/** Bare GitHub repository target, preserving only monorepo `path:` selectors. */
+export function canonicalGitHubPayload(payload) {
+  const text = String(payload ?? '').trim();
+  const hash = text.indexOf('#');
+  if (hash === -1) return text;
+  const base = text.slice(0, hash);
+  const paths = text.slice(hash + 1).split('&').filter((part) => /^path:/i.test(part));
+  return paths.length === 0 ? base : `${base}#${paths.join('&')}`;
+}
+
+function canonicalizePick(pkg) {
+  const prefix = pkg.source.startsWith('npm:') ? 'npm' : pkg.source.startsWith('github:') ? 'github' : '';
+  if (prefix === '') return pkg;
+  const spec = pkg.source.slice(prefix.length + 1);
+  const canonical = prefix === 'npm' ? canonicalNpmSpec(spec) : canonicalGitHubPayload(spec);
+  if (canonical === spec) return pkg;
+  const source = `${prefix}:${canonical}`;
+  return {
+    ...pkg,
+    source,
+    // The exact payload is known to occur in the paste-safe command (checked
+    // below), so replacing it keeps the command concrete while canonicalizing
+    // only the add target, never a runner/host compatibility pin elsewhere.
+    command: pkg.command.replace(spec, canonical),
+    install: installRef(source),
+  };
+}
+
+/**
  * @param slug - lowercase `owner/repo` the mapping would be recorded under.
  * @param picks - `extractInstallTargets(...).picks` entries.
  * @param checks - npm source → { ok, reason } already verified against the registry.
@@ -56,7 +98,7 @@ export function decideMapping(slug, picks, checks = new Map()) {
         continue;
       }
     }
-    accepted.push({ profile: pick.profile || 'web', source, command, install: installRef(source) });
+    accepted.push(canonicalizePick({ profile: pick.profile || 'web', source, command, install: installRef(source) }));
   }
   // One repository may be documented under several refs (an unpinned repo URL
   // and a release tag, or an unversioned npm name and a pinned one) or several

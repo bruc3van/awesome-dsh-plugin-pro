@@ -1,7 +1,8 @@
 /** Propose and append install mappings for subscription candidates. Never edits an
  * existing packages.json key: appended auto targets are tracked items (unversioned
- * npm / Git repo pointer) that daily regeneration keeps pinned to the exact
- * upstream version or commit, while manually pinned targets keep their intent. */
+ * npm, except documented channel tags / bare Git repo pointer) that daily
+ * regeneration resolves and pins to the exact upstream version or commit in
+ * the published index. */
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import semver from 'semver'
@@ -70,14 +71,13 @@ function commandFor(source) {
   return `dsh plugin --profile web add ${quoted}`
 }
 
-// Tracked vs manually pinned, per upstream intent: a README that documents the
-// unversioned (or @latest) npm form marks a tracked item — daily regeneration
-// re-resolves and re-verifies the newest exact version — and a README-documented
-// Git ref is recorded verbatim as upstream states it. Everything else keeps the
-// verified exact version (npm) or tracks the repository itself (Git, repo-
-// fallback: daily regeneration pins the verified head commit). Map-time evidence
-// keeps its pinned commit in the evidence records and verified_via; existing
-// packages.json keys are never rewritten, so manually pinned targets stay pins.
+// Git refs follow upstream intent: a README-documented Git ref is recorded
+// verbatim, while a repo-fallback tracks the bare repository and daily
+// regeneration pins the verified head commit. npm targets are canonicalized
+// separately by npmSource: numeric pins and @latest never enter packages.json;
+// only documented channel tags such as @next survive. Map-time evidence keeps
+// its exact version/commit in the evidence records and verified_via; existing
+// packages.json keys are never rewritten.
 function gitSource(plugin, record, readmeTargets = []) {
   const version = plugin?.versions?.[0]
   const source = version?.source
@@ -93,11 +93,13 @@ function gitSource(plugin, record, readmeTargets = []) {
       )
     : null
   if (match) {
-    const ref = match[2] && !/^path:/i.test(match[2]) ? `#${match[2]}` : ''
     const path = (match[2] && /^path:/i.test(match[2]) ? match[2].slice('path:'.length) : match[3])
       ?? (source.path ? `/${source.path.replace(/^\//, '')}` : '')
-    const selector = path ? `${ref ? '&' : '#'}path:${path}` : ''
-    return `github:${match[1]}${ref}${selector}`
+    const selector = path ? `#path:${path}` : ''
+    // Branch/tag/SHA fragments are upstream transport details, not install
+    // policy: packages.json tracks the bare repository and only preserves the
+    // monorepo path selector.
+    return `github:${match[1]}${selector}`
   }
   const path = source.path ? `#path:/${source.path.replace(/^\//, '')}` : ''
   return `github:${fullName}${path}`
@@ -107,11 +109,22 @@ function npmSource(plugin, readmeTargets = []) {
   const version = plugin?.versions?.[0]
   if (!plugin?.name || version?.source?.type !== 'npm' || !version.version) return null
   const base = plugin.name.toLowerCase()
-  const tracks = readmeTargets.some((target) => {
+  // packages.json records release lines, not immutable npm versions: latest
+  // and numeric pins both normalize to the bare package, while an explicitly
+  // documented channel tag (@next/@beta/…) survives because it selects a
+  // different upstream line. Daily index generation still verifies and pins
+  // the exact resolved version in its output.
+  let channel = ''
+  for (const target of readmeTargets) {
     const item = target.toLowerCase()
-    return item === base || item === `${base}@latest`
-  })
-  return tracks ? `npm:${plugin.name}` : `npm:${plugin.name}@${version.version}`
+    if (!item.startsWith(`${base}@`)) continue
+    const tag = item.slice(base.length + 1)
+    if (tag !== '' && tag !== 'latest' && !/^\d/.test(tag)) {
+      channel = tag
+      break
+    }
+  }
+  return `npm:${plugin.name}${channel === '' ? '' : `@${channel}`}`
 }
 
 function documented(record, source) {
@@ -247,14 +260,14 @@ export function proposeRecord(record) {
   }
 }
 
-/** Approved pool repositories that pass the shared mapping gate (>=5 stars, pushed within 90 days). */
+/** Approved pool repositories that pass the shared mapping gate (any star count, pushed within 90 days). */
 export function gatedPool(snapshot, curated, approved) {
   return filterPool(snapshot, curated, approved).repos
     .filter(({ repo }) => mappingGate(repo, snapshot.fetched_at).ok)
 }
 
 export function planOutsidePool(
-  { snapshot, curated, approved, packages, skipNames },
+  { snapshot, curated, approved, packages, skipNames, deferredNames },
   size = 200,
 ) {
   const mapped = new Set(
@@ -270,7 +283,13 @@ export function planOutsidePool(
         right.repo.stargazers_count - left.repo.stargazers_count ||
         (left.repo.full_name < right.repo.full_name ? -1 : 1),
     )
-  return pending.slice(0, size).map(({ repo }, index) => ({
+  // Deep inspection is the expensive step. While the backlog still contains
+  // never-inspected repositories, they win the batch budget; repositories with
+  // stored evidence form the deferred tail and are re-probed only once the
+  // fresh backlog no longer fills the batch.
+  const fresh = pending.filter(({ repo }) => !deferredNames?.has(String(repo.full_name).toLowerCase()))
+  const deferred = pending.filter(({ repo }) => deferredNames?.has(String(repo.full_name).toLowerCase()))
+  return [...fresh, ...deferred].slice(0, size).map(({ repo }, index) => ({
     full_name: repo.full_name,
     originalPosition: index + 1,
     inputMode: 'unmapped',
@@ -376,8 +395,9 @@ async function evidenceRecords() {
 // Same-day terminal outcomes: evidence gathered today concluded these repos
 // cannot be mapped today. Re-inspecting them within the same day wastes the
 // batch budget on identical probes, so the plan digs past them into fresh
-// repositories. Tomorrow's evidence starts clean — upstream READMEs change,
-// and the daily crawl is what lets skipped repos come back.
+// repositories. Older successful evidence is not hard-skipped: it forms the
+// deferred tail in planOutsidePool, so untouched backlog wins first and old
+// outcomes are re-probed once fresh repositories no longer fill the batch.
 const TERMINAL_SKIP_OUTCOMES = new Set([
   'no_eligible_bundle_found',
   'manual_install_review',
@@ -455,8 +475,9 @@ async function main() {
   // Reviewed skips bind every path that can add a mapping: stored evidence
   // predates a skip decision, so replaying it must not undo that decision.
   const mappingSkips = await catalogMappingSkipNames()
+  const storedEvidence = await evidenceRecords()
   if (args.includes('--from-evidence') || args.includes('--fill')) {
-    proposals.push(...evidenceProposals(await evidenceRecords(), { mapped, eligible, skipNames: mappingSkips }))
+    proposals.push(...evidenceProposals(storedEvidence, { mapped, eligible, skipNames: mappingSkips }))
   }
   const inspect = args.includes('--inspect') || args.includes('--fill')
   if (inspect && indexCount < MAX_PLUGINS) {
@@ -464,6 +485,16 @@ async function main() {
       ...(await sameDaySkipNames(date)),
       ...mappingSkips,
     ])
+    // A successful evidence record means this repository has already consumed
+    // deep-inspection budget. Defer it while never-inspected repositories can
+    // still fill the batch; records with fetch errors stay in the fresh tier
+    // so transient failures are retried normally.
+    const deferredNames = new Set(
+      storedEvidence
+        .filter((record) => !(record.errors?.length))
+        .map((record) => String(record.full_name || '').toLowerCase())
+        .filter(Boolean),
+    )
     const plan = planOutsidePool(
       {
         snapshot,
@@ -471,6 +502,7 @@ async function main() {
         approved,
         packages: { entries: Object.fromEntries([...mapped].map((key) => [key, true])) },
         skipNames,
+        deferredNames,
       },
       size,
     )

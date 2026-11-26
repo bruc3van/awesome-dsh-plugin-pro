@@ -106,6 +106,12 @@ for (const [index, row] of catalog.entries.entries()) {
       } else if (row.install_status === 'command' && (!Array.isArray(packages.targets) || packages.targets.length === 0)) {
         errors.push(`${where}: command install carries no targets`);
       }
+      if (packages.verification !== undefined) errors.push(`${where}: packages.verification must stay in packages.json, not the catalog`);
+      for (const [targetIndex, target] of (Array.isArray(packages.targets) ? packages.targets : []).entries()) {
+        if (target?.source !== undefined || target?.command !== undefined) {
+          errors.push(`${where}: packages.targets[${targetIndex}] must be lean (source/command stay in packages.json)`);
+        }
+      }
     }
   }
   for (const [field, limit] of [['description', TEXT_LIMITS.description], ['title_zh', TEXT_LIMITS.title],

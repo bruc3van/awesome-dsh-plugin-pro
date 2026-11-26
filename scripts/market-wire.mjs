@@ -66,9 +66,12 @@ function stringList(values, limit, where) {
 }
 
 // The wire shape of one entry's install mapping: { mode, targets | manual_
-// instructions, requirements?, tasks?, note?, verification }. Empty optional
-// arrays and notes are omitted to keep the payload lean; key order is fixed
-// by construction so regeneration is byte-stable.
+// instructions, requirements?, tasks?, note? }. Targets carry only what the
+// market client reads (profile / install / note); source, command and the
+// verification evidence remain available in the packages.json sidecar instead
+// of being duplicated into every catalog row. Empty optional arrays and notes
+// are omitted to keep the payload lean; key order is fixed by construction so
+// regeneration is byte-stable.
 export function packagesBlockFor(record) {
   if (record === null || typeof record !== 'object' || Array.isArray(record)) {
     throw new Error('mapping record must be an object');
@@ -92,7 +95,7 @@ export function packagesBlockFor(record) {
       if (!SOURCE_KIND.test(source)) {
         throw new Error(`${where}.source must look like npm:… / github:… / url:… / link:…`);
       }
-      const target = {
+      const checked = {
         profile: prose(pkg.profile, WIRE_TEXT_LIMITS.profile, `${where}.profile`),
         install: prose(pkg.install, WIRE_TEXT_LIMITS.source, `${where}.install`),
         source: prose(source, WIRE_TEXT_LIMITS.source, `${where}.source`),
@@ -103,9 +106,9 @@ export function packagesBlockFor(record) {
       // enforces the same equation offline, but the wire transform cannot
       // assume that pass ran — a wrong name must not be able to ride into
       // the feed just because the command happens to contain it.
-      const expectedInstall = installRef(target.source);
-      if (target.install !== expectedInstall) {
-        throw new Error(`${where}.install must be ${JSON.stringify(expectedInstall)} (the installRef of ${JSON.stringify(target.source)}), got ${JSON.stringify(target.install)}`);
+      const expectedInstall = installRef(checked.source);
+      if (checked.install !== expectedInstall) {
+        throw new Error(`${where}.install must be ${JSON.stringify(expectedInstall)} (the installRef of ${JSON.stringify(checked.source)}), got ${JSON.stringify(checked.install)}`);
       }
       // And the command must carry it as a standalone token — a bare
       // substring test lets `install "foo"` ride a `foo-bar` command token.
@@ -115,20 +118,21 @@ export function packagesBlockFor(record) {
       // github CLI refs a #ref suffix. For github sources the box takes the
       // repo URL while the command keeps the CLI ref
       // (github:owner/repo[#ref]) — agreeing on the slug is enough.
-      const tokens = target.command.split(' ').map((token) => token.replace(/^["']+|["']+$/g, ''));
+      const tokens = checked.command.split(' ').map((token) => token.replace(/^["']+|["']+$/g, ''));
       const addAt = tokens.indexOf('add');
       const candidates = (addAt === -1 ? tokens : tokens.slice(addAt + 1)).filter((token) => !token.startsWith('-'));
       const agrees =
-        candidates.some((token) => token === target.install) ||
-        (target.source.startsWith('npm:') && candidates.some((token) => token.startsWith(`${target.install}@`))) ||
+        candidates.some((token) => token === checked.install) ||
+        (checked.source.startsWith('npm:') && candidates.some((token) => token.startsWith(`${checked.install}@`))) ||
         (() => {
-          if (!target.source.startsWith('github:')) return false;
-          const ref = `github:${target.source.slice(7).split('#')[0]}`;
+          if (!checked.source.startsWith('github:')) return false;
+          const ref = `github:${checked.source.slice(7).split('#')[0]}`;
           return candidates.some((token) => token === ref || token.startsWith(`${ref}#`));
         })();
       if (!agrees) {
-        throw new Error(`${where}.command must reference install (${target.install}) — the paste-ready name and the terminal command must agree`);
+        throw new Error(`${where}.command must reference install (${checked.install}) — the paste-ready name and the terminal command must agree`);
       }
+      const target = { profile: checked.profile, install: checked.install };
       const note = fold(pkg.note ?? '');
       if (note !== '') target.note = prose(note, WIRE_TEXT_LIMITS.note, `${where}.note`);
       return target;
@@ -142,18 +146,18 @@ export function packagesBlockFor(record) {
   const note = fold(record.note ?? '');
   if (note !== '') block.note = prose(note, WIRE_TEXT_LIMITS.note, 'note');
 
+  // Verification evidence is validated here but deliberately not copied into
+  // the catalog rows. It is audit metadata, not something the install UI
+  // consumes; data/packages.json remains the complete sidecar record.
   const status = record.status;
   if (!STATUSES.has(status)) {
     throw new Error(`status must be one of ${[...STATUSES].join(' / ')}, got ${JSON.stringify(status)}`);
   }
-  const verification = { status };
   if (status !== 'unverified') {
     if (!DATE_PATTERN.test(record.verified_date ?? '')) {
       throw new Error('verified_date must be YYYY-MM-DD when status is not "unverified"');
     }
-    verification.date = record.verified_date;
-    verification.via = prose(record.verified_via, WIRE_TEXT_LIMITS.verified_via, 'verified_via');
+    prose(record.verified_via, WIRE_TEXT_LIMITS.verified_via, 'verified_via');
   }
-  block.verification = verification;
   return block;
 }

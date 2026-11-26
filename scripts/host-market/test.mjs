@@ -236,7 +236,10 @@ test('npm tarball verification checks integrity, identity and declared compatibi
     delete manifest.engines
     await mkdir(join(dir, 'package'))
     await writeFile(join(dir, 'package/package.json'), JSON.stringify(manifest))
-    execFileSync('tar', ['-czf', join(dir, 'test.tgz'), '-C', dir, 'package'])
+    // GNU tar parses a drive-letter colon in the archive name as a remote
+    // host ("Cannot connect to C:"). Run inside the temp dir with a relative
+    // archive name so the test passes on Windows too.
+    execFileSync('tar', ['-czf', 'test.tgz', '-C', '.', 'package'], { cwd: dir })
     let bytes = await readFile(join(dir, 'test.tgz'))
     server = createServer((req, res) => {
       res.end(bytes)
@@ -266,7 +269,10 @@ test('npm tarball verification checks integrity, identity and declared compatibi
     manifest.dist.integrity = 'sha512-' + Buffer.alloc(64).toString('base64')
     await assert.rejects(verifyNpmPlugin(plugin, p), /integrity/)
     await writeFile(join(dir, 'package/package.json'), JSON.stringify({ ...manifest, private: true }))
-    execFileSync('tar', ['-czf', join(dir, 'test.tgz'), '-C', dir, 'package'])
+    // GNU tar parses a drive-letter colon in the archive name as a remote
+    // host ("Cannot connect to C:"). Run inside the temp dir with a relative
+    // archive name so the test passes on Windows too.
+    execFileSync('tar', ['-czf', 'test.tgz', '-C', '.', 'package'], { cwd: dir })
     bytes = await readFile(join(dir, 'test.tgz'))
     manifest.dist.integrity = 'sha512-' + createHash('sha512').update(bytes).digest('base64')
     const privateTarball = await verifyNpmPlugin(plugin, p)

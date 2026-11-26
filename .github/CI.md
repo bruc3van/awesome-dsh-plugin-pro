@@ -22,9 +22,9 @@ flowchart TD
 | 工作流文件 | 触发 | 职责 |
 | --- | --- | --- |
 | `update-catalog.yml` | 每日 22:17、手动 | 更新快照、待审核队列；同 owner 改名触及策展时自动同步目录页面；不自动审批 |
-| `fill-catalog-mappings.yml` | 每日 23:40、手动 | 唯一的映射任务：先按 README 补齐目录安装映射，再跑 1 批订阅扩容（重放证据 + 核验下一批未映射仓库）；两条路径共用 `scripts/mapping-gate.mjs`——**少于 5★ 或快照前 90 天内无 push 的仓库不新增映射**，已有映射不改；一次提交，成功后衔接宿主索引（原每 3 小时的 `expand-subscription-mappings.yml` 已并入） |
+| `fill-catalog-mappings.yml` | 每日 23:40、手动 | 唯一的映射任务：先按 README 扫描 200 个未映射目录仓库并补齐高置信安装映射，再跑 1 批订阅扩容（重放证据 + 优先核验尚未取证的未映射仓库）；两条路径共用 `scripts/mapping-gate.mjs`——**星级不再是资格门槛，但快照前 90 天内无 push 的仓库不新增映射**，已有映射不改；一次提交，成功后衔接宿主索引（原每 3 小时的 `expand-subscription-mappings.yml` 已并入） |
 | `refresh-host-market.yml` | 快照/映射任务成功、策展/映射/宿主代码变更、每日 22:47、手动 | 重建紧凑格式官方索引；独立 publish job 验证 artifact 后原子发布 `main` 与 `market-release`，随后 `publish-r2` 推送 index、audit、release 快照至 Cloudflare R2（网页 catalog 由网关派生） |
-| `publish-npm-feed.yml` | 宿主索引成功、feed 脚本变更、手动 | 仅跑快速数据校验（validate-packages / validate-market-catalog）、digest 去重、OIDC 发布（含 schema 4 精简版与 schema 3 兼容版），刷新 jsDelivr 缓存并触发 npmmirror 同步（失败只告警）；超时 10 分钟。重型回归测试只在 `validate-curated.yml` 中运行 |
+| `publish-npm-feed.yml` | 宿主索引成功、feed 脚本变更、手动 | 仅跑快速数据校验（validate-packages / validate-market-catalog）、digest 去重、OIDC 发布（schema 4 目录 + packages.json sidecar），刷新 jsDelivr 缓存并触发 npmmirror 同步（失败只告警）；超时 10 分钟。重型回归测试只在 `validate-curated.yml` 中运行 |
 | `refresh-showcase.yml` | SHOWCASE.md 变更、手动 | 更新中英文 README 展示区 |
 | `reverify-packages.yml` | 每周一 23:33、手动 | 在线复核映射；仅报告，不改映射 |
 | `validate-pr.yml` | PR 打开、更新、改标题/标签等 | 从 base 执行规则校验，不执行 PR 代码 |

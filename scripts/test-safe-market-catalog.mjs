@@ -81,7 +81,16 @@ test('every row carries an install_status consistent with its packages block', a
     if (row.packages === undefined) assert.equal(row.install_status, 'none', `${row.full_name}: packages missing but status is ${row.install_status}`)
     else {
       assert.equal(row.packages.mode, row.install_status, `${row.full_name}: packages.mode ${row.packages.mode} vs ${row.install_status}`)
-      if (row.install_status === 'command') assert.ok(row.packages.targets.length > 0, `${row.full_name}: command mode without targets`)
+      assert.equal(row.packages.verification, undefined, `${row.full_name}: verification evidence belongs in packages.json, not catalog rows`)
+      if (row.install_status === 'command') {
+        assert.ok(row.packages.targets.length > 0, `${row.full_name}: command mode without targets`)
+        for (const target of row.packages.targets) {
+          assert.equal(target.source, undefined, `${row.full_name}: target source belongs in packages.json, not catalog rows`)
+          assert.equal(target.command, undefined, `${row.full_name}: target command belongs in packages.json, not catalog rows`)
+          assert.equal(typeof target.install, 'string', `${row.full_name}: target install must survive slimming`)
+          assert.equal(typeof target.profile, 'string', `${row.full_name}: target profile must survive slimming`)
+        }
+      }
     }
     for (const field of ['title_zh', 'title_en', 'description_en']) {
       if (row[field] === undefined) continue

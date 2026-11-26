@@ -29,7 +29,7 @@ test('one daily mapping job feeds the host index once, then the npm feed', () =>
   assert.ok(!fill.on.workflow_run, 'the mapping job must not form a publication feedback loop')
   assert.deepEqual(fill.on.schedule.map((entry) => entry.cron), ['40 15 * * *'], 'mapping runs once a day, after the snapshot')
   const runs = fill.jobs.fill.steps.map((step) => step.run ?? '').join('\n')
-  assert.match(runs, /catalog-mappings\.mjs/)
+  assert.match(runs, /catalog-mappings\.mjs [^\n]*--limit 200/)
   assert.match(runs, /expand-mappings\.mjs --fill --size 200/)
   assert.doesNotMatch(runs, /for batch in/, 'one expansion batch per day')
   assert.match(runs, /git add [^\n]*data\/review\/subscription/, 'the subscription review queue is committed with the mappings')

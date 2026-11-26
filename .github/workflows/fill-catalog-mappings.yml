@@ -1,15 +1,16 @@
 name: Fill catalog install mappings
 
 # The single daily install-mapping job. It closes catalog gaps from upstream
-# READMEs (catalog-mappings.mjs: the documented `dsh plugin … add` command, an
-# npm package that provably belongs to the repository) and then runs one
-# subscription-expansion batch (expand-mappings.mjs: stored evidence plus the
-# next unmapped approved repositories, identity-checked) — then commits once,
-# so refresh-host-market follows exactly once via workflow_run.
+# READMEs in a bounded 200-repository batch (catalog-mappings.mjs: the
+# documented `dsh plugin … add` command, an npm package that provably belongs
+# to the repository) and then runs one subscription-expansion batch
+# (expand-mappings.mjs: stored evidence plus the next never-inspected unmapped
+# approved repositories, identity-checked) — then commits once, so
+# refresh-host-market follows exactly once via workflow_run.
 #
-# Both paths share scripts/mapping-gate.mjs: a repository with fewer than 5
-# stars or no push in the 90 days before the snapshot gets no new mapping.
-# Existing mappings are never rewritten. Ambiguous catalog cases go to
+# Both paths share scripts/mapping-gate.mjs: stars no longer gate eligibility,
+# but a repository with no push in the 90 days before the snapshot gets no new
+# mapping. Existing mappings are never rewritten. Ambiguous catalog cases go to
 # data/review/catalog-mapping.md and identity-opaque subscription candidates to
 # data/review/subscription/mapping-pending.md, both for the daily AI review.
 #
@@ -25,9 +26,9 @@ on:
   workflow_dispatch:
     inputs:
       min_stars:
-        description: 'Only map repositories at or above this star count (never below the 5-star gate)'
+        description: 'Optional priority floor for the README scan (0 disables the star floor)'
         required: false
-        default: '5'
+        default: '0'
 
 permissions:
   contents: write
@@ -54,20 +55,24 @@ jobs:
           node --import ./scripts/host-market/node_modules/tsx/dist/loader.mjs --test scripts/host-market/expand-mappings.test.mjs
       - name: Map catalog gaps and expand subscription candidates
         env:
-          MIN_STARS: ${{ github.event.inputs.min_stars || '5' }}
+          MIN_STARS: ${{ github.event.inputs.min_stars || '0' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           map_all() {
-            node scripts/catalog-mappings.mjs --min-stars "$MIN_STARS" --apply --write-report
+            node scripts/catalog-mappings.mjs --min-stars "$MIN_STARS" --limit 200 --apply --write-report
             node --import ./scripts/host-market/node_modules/tsx/dist/loader.mjs               scripts/host-market/expand-mappings.mjs --fill --size 200 --github-api               --write-pending --label "-$(date -u +%H)b1"
+            # The deep pass may have mapped entries the README scan just queued
+            # for review; prune those rows immediately instead of carrying a
+            # stale queue overnight. This refresh does no scanning/network.
+            node scripts/catalog-mappings.mjs --refresh-report --write-report
             node scripts/validate-packages.mjs
           }
           map_all
           declare -f map_all > "$RUNNER_TEMP/map_all.sh"
       - name: Commit the new mappings and the review queues
         env:
-          MIN_STARS: ${{ github.event.inputs.min_stars || '5' }}
+          MIN_STARS: ${{ github.event.inputs.min_stars || '0' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -81,7 +86,7 @@ jobs:
               echo "No mapping changed this run — every confident target was already recorded."
               return 1
             fi
-            git commit -m "data: fill catalog and subscription install mappings (>=${MIN_STARS} stars, pushed within 90 days)"
+            git commit -m "data: fill catalog and subscription install mappings (pushed within 90 days)"
           }
           if ! stage; then exit 0; fi
           for attempt in 1 2 3; do

@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 
-// Progressive install-mapping coverage for the schema-3 market catalog.
+// Progressive install-mapping coverage for the market catalog.
 //
-// The catalog keeps ~25k reviewed repositories that have no install target
-// yet; the client marks them `install_status: none` and hides them behind its
-// "not yet mapped" toggle. This script closes that gap from the upstream
-// READMEs, tier by tier, starting with the repositories that carry stars:
+// The catalog keeps a long tail of reviewed repositories that have no install
+// target yet; the client marks them `install_status: none` and hides them
+// behind its "not yet mapped" toggle. This script closes that gap from the
+// upstream READMEs in bounded batches, ordered by stars but not gated by them:
 //
 //   1. Read the catalog projection (same source the npm feed ships) and take
-//      the unmapped rows at or above --min-stars (default 10).
+//      the unmapped rows at or above --min-stars (default 0 — stars are only a
+//      manual prioritization floor, not an eligibility gate).
 //   2. Fetch each repository's README, run the shared extractor
 //      (readme-install.mjs — the same rules behind packages.json).
 //   3. Verify every npm target against the registry: the package must exist,
@@ -18,10 +19,11 @@
 //      path, a poisoned bare-name npm package, an ambiguous multi-package
 //      page — and is never written automatically.
 //   4. --apply appends the confident mappings to data/packages.json (it never
-//      rewrites an existing entry), then the market workflows rebuild both
-//      feeds. --write-report always emits the applied set and the exception
+//      rewrites an existing entry), then the market workflows rebuild the feed.
+//      --write-report always emits the applied set and the durable exception
 //      queue to data/review/catalog-mapping.{md,json} so the daily AI review
-//      has an exact work list.
+//      has an exact work list; unresolved exceptions carry forward instead of
+//      consuming the next batch's scan budget.
 //
 // Report-only by default: run without --apply to inspect a tier first.
 
@@ -43,8 +45,24 @@ const valueOf = (flag, fallback) => {
 
 const APPLY = has('--apply');
 const WRITE_REPORT = has('--write-report');
-const MIN_STARS = Number(valueOf('--min-stars', '10'));
+// Rebuild the durable review queue without scanning anything: used right
+// after the subscription deep-pass, which may have mapped entries the earlier
+// README scan had just queued for review.
+const REFRESH_REPORT = has('--refresh-report');
+const MIN_STARS = Number(valueOf('--min-stars', '0'));
 const LIMIT = Number(valueOf('--limit', '0')) || Infinity;
+const ONLY = new Set(
+  valueOf('--only', '')
+    .split(',')
+    .map((slug) => slug.trim().toLowerCase())
+    .filter(Boolean),
+);
+for (const slug of ONLY) {
+  if (!/^[a-z0-9._-]+\/[a-z0-9._-]+$/.test(slug)) {
+    console.error(`--only entries must look like owner/repo, got ${JSON.stringify(slug)}`);
+    process.exit(1);
+  }
+}
 const CONCURRENCY = 10;
 const TODAY = new Date().toISOString().slice(0, 10);
 const README_NAMES = ['README.md', 'readme.md', 'README.zh-CN.md', 'README_zh.md', 'README_CN.md', 'README.zh.md', 'README-EN.md', 'README_EN.md'];
@@ -75,6 +93,18 @@ try {
 }
 const skipped = new Map(Object.entries(skips.entries ?? {}).map(([slug, record]) => [slug.toLowerCase(), record]));
 
+// The review report is a durable queue, not a one-run log. Batches deliberately
+// move on to fresh repositories, so unresolved exceptions from earlier batches
+// are carried forward until a reviewed mapping/skip decision removes them.
+const REPORT_JSON_PATH = resolve(root, 'data/review/catalog-mapping.json');
+let previousReview = [];
+try {
+  const previous = JSON.parse(await readFile(REPORT_JSON_PATH, 'utf8'));
+  if (Array.isArray(previous?.review)) previousReview = previous.review;
+} catch (error) {
+  if (error?.code !== 'ENOENT') throw error;
+}
+
 const SHARD = valueOf('--shard', '');
 const SHARD_OUT = valueOf('--out', '');
 let shardIndex = 0;
@@ -93,13 +123,34 @@ if (SHARD !== '') {
   }
 }
 
-const allGaps = catalog.entries
+const catalogRowBySlug = new Map(catalog.entries.map((row) => [row.full_name.toLowerCase(), row]));
+const stillOpenPreviousReview = (item) => {
+  const slug = typeof item?.slug === 'string' ? item.slug.toLowerCase() : '';
+  const row = catalogRowBySlug.get(slug);
+  return row !== undefined
+    && row.install_status === 'none'
+    && !row.archived
+    && !row.disabled
+    && packages.entries[slug] === undefined
+    && !skipped.has(slug)
+    && mappingGate(row, catalog.source_fetched_at).ok;
+};
+const openReviewNames = new Set(
+  previousReview.filter(stillOpenPreviousReview).map((item) => item.slug.toLowerCase()),
+);
+
+const allGaps = (REFRESH_REPORT ? [] : catalog.entries)
   .filter((row) => row.install_status === 'none' && !row.archived && !row.disabled)
-  .filter((row) => row.stargazers_count >= Math.max(MIN_STARS, MAPPING_MIN_STARS))
-  // Shared gate: <5 stars or no push in the 90 days before the snapshot → no new mapping.
+  .filter((row) => ONLY.size === 0 || ONLY.has(row.full_name.toLowerCase()))
+  .filter((row) => ONLY.size > 0 || row.stargazers_count >= Math.max(MIN_STARS, MAPPING_MIN_STARS))
+  // Shared gate: no push in the 90 days before the snapshot → no new mapping.
+  // Stars only order the backlog (or narrow a manual run); they no longer exclude it.
   .filter((row) => mappingGate(row, catalog.source_fetched_at).ok)
   .filter((row) => packages.entries[row.full_name.toLowerCase()] === undefined)
   .filter((row) => !skipped.has(row.full_name.toLowerCase()))
+  // Open exceptions belong to the durable review queue. Do not spend the next
+  // batch's scan budget rediscovering the same ambiguity before it is adjudicated.
+  .filter((row) => ONLY.size > 0 || !openReviewNames.has(row.full_name.toLowerCase()))
   .sort((a, b) => b.stargazers_count - a.stargazers_count || a.full_name.localeCompare(b.full_name))
   .slice(0, LIMIT);
 // Sharded runs exist because one Node process serializes on the shared
@@ -107,9 +158,16 @@ const allGaps = catalog.entries
 // star-descending order inside every shard and overlaps nothing.
 const gaps = shardCount === 1 ? allGaps : allGaps.filter((_, index) => index % shardCount === shardIndex);
 
+if (ONLY.size > 0) {
+  const present = new Set(allGaps.map((row) => row.full_name.toLowerCase()));
+  for (const slug of ONLY) {
+    if (!present.has(slug)) console.log(`  … requested ${slug} is outside the scan scope (already mapped/skipped, inactive, or absent from the catalog)`);
+  }
+}
+
 console.log(
   `catalog mapping: ${catalog.entries.length} rows, ${catalog.entries.filter((row) => row.install_status === 'none').length} unmapped; ` +
-    `${allGaps.length} in scope at >=${MIN_STARS} stars${Number.isFinite(LIMIT) ? ` (limit ${LIMIT})` : ''}` +
+    `${allGaps.length} in scope ${ONLY.size > 0 ? 'targeted by --only' : `at >=${MIN_STARS} stars`}${Number.isFinite(LIMIT) ? ` (limit ${LIMIT})` : ''}` +
     (shardCount === 1 ? '' : ` — shard ${SHARD} carries ${gaps.length}`),
 );
 
@@ -218,18 +276,18 @@ async function checkNpm(spec, slug) {
 
 const applied = [];
 let processed = 0;
-const review = [];
+const scanReview = [];
 const queue = [...gaps];
 const workers = Array.from({ length: CONCURRENCY }, async () => {
   while (queue.length) {
     const row = queue.shift();
     processed += 1;
-    if (processed % 50 === 0) console.log(`  … ${processed}/${gaps.length} scanned (${applied.length} auto, ${review.length} review)`);
+    if (processed % 50 === 0) console.log(`  … ${processed}/${gaps.length} scanned (${applied.length} auto, ${scanReview.length} review)`);
     const slug = row.full_name.toLowerCase();
     const branch = branchBySlug.get(slug) ?? 'main';
     const text = await fetchReadme(slug);
     if (text === null) {
-      review.push({ slug: row.full_name, stars: row.stargazers_count, reason: `README unreachable on ${branch}`, hint: '' });
+      scanReview.push({ slug: row.full_name, stars: row.stargazers_count, reason: `README unreachable on ${branch}`, hint: '' });
       continue;
     }
     const [owner, repo] = slug.split('/');
@@ -272,7 +330,7 @@ const workers = Array.from({ length: CONCURRENCY }, async () => {
         ...(decision.reason ? { note: decision.reason } : {}),
       });
     } else {
-      review.push({
+      scanReview.push({
         slug: row.full_name,
         stars: row.stargazers_count,
         reason: [decision.reason, manifestNote].filter(Boolean).join('; '),
@@ -285,20 +343,27 @@ const workers = Array.from({ length: CONCURRENCY }, async () => {
 await Promise.all(workers);
 
 applied.sort((a, b) => b.stars - a.stars || a.slug.localeCompare(b.slug));
-review.sort((a, b) => b.stars - a.stars || a.slug.localeCompare(b.slug));
+scanReview.sort((a, b) => b.stars - a.stars || a.slug.localeCompare(b.slug));
 
-console.log(`auto-mappable: ${applied.length}, needs review: ${review.length}`);
+if (shardCount > 1) {
+  await writeFile(resolve(root, SHARD_OUT), `${JSON.stringify({ shard: SHARD, generated_at: new Date().toISOString(), applied, review: scanReview })}\n`);
+  console.log(`shard ${SHARD}: wrote ${applied.length} mappings and ${scanReview.length} review entries to ${SHARD_OUT}`);
+  process.exit(0);
+}
+
+const scanReviewNames = new Set(scanReview.map((item) => item.slug.toLowerCase()));
+const carriedReview = previousReview
+  .filter(stillOpenPreviousReview)
+  .filter((item) => !scanReviewNames.has(item.slug.toLowerCase()));
+const review = [...scanReview, ...carriedReview]
+  .sort((a, b) => b.stars - a.stars || a.slug.localeCompare(b.slug));
+
+console.log(`auto-mappable: ${applied.length}, needs review: ${scanReview.length} new + ${carriedReview.length} carried = ${review.length}`);
 for (const item of applied) {
   console.log(`  ✓ ${item.slug} (${item.stars}★) → ${item.packages.map((pkg) => pkg.source).join(', ')} [${item.via}]${item.note ? `  [dropped: ${item.note}]` : ''}`);
 }
 for (const item of review.slice(0, 20)) console.log(`  ? ${item.slug} (${item.stars}★) — ${item.reason}`);
 if (review.length > 20) console.log(`  … ${review.length - 20} more in the review report`);
-
-if (shardCount > 1) {
-  await writeFile(resolve(root, SHARD_OUT), `${JSON.stringify({ shard: SHARD, generated_at: new Date().toISOString(), applied, review })}\n`);
-  console.log(`shard ${SHARD}: wrote ${applied.length} mappings and ${review.length} review entries to ${SHARD_OUT}`);
-  process.exit(0);
-}
 
 if (APPLY && applied.length > 0) {
   const added = [];
@@ -338,11 +403,13 @@ if (WRITE_REPORT) {
     '',
     `由 \`node scripts/catalog-mappings.mjs --min-stars ${MIN_STARS}${APPLY ? ' --apply' : ''} --write-report\` 生成于 ${TODAY}。`,
     '',
-    '范围：schema 3 市场目录中尚无安装映射、且 ≥ 该星级门槛的仓库（`data/catalog-mapping-skips.json` 已裁决过的除外）。自动补充只接受「命令逐字来自 README」或「manifest 证明是本仓库插件」的条目：npm 包的 registry `repository` 必须指向本仓库；README 没有可复制命令时，以根 `package.json` / `cordis.patch.yml` 的 dsh 声明作为证据（npm 包存在则用包名，否则用仓库地址）。其余进入下方待裁决清单，供每日 AI 审核补齐。',
+    '范围：市场目录中尚无安装映射、快照前 90 天内有 push、且满足本轮 `--min-stars` 优先级的仓库（`data/catalog-mapping-skips.json` 已裁决过的除外；星级不再作为资格门槛）。自动补充只接受「命令逐字来自 README」或「manifest 证明是本仓库插件」的条目：npm 包的 registry `repository` 必须指向本仓库；README 没有可复制命令时，以根 `package.json` / `cordis.patch.yml` 的 dsh 声明作为证据（npm 包存在则用包名，否则用仓库地址）。其余进入下方待裁决清单，供每日 AI 审核补齐；未裁决条目会逐日结转，不会因为下一批扫描而丢失。',
     '',
     `- 本次扫描 / scanned: **${gaps.length}**`,
     `- 自动补充 / auto-applied: **${applied.length}**（manifest 证据 ${applied.filter((item) => item.via === 'manifest').length}）`,
-    `- 待裁决 / needs review: **${review.length}**`,
+    `- 本轮新增待裁决 / new review: **${scanReview.length}**`,
+    `- 结转待裁决 / carried forward: **${carriedReview.length}**`,
+    `- 待裁决总计 / total review: **${review.length}**`,
     '',
     `## 自动补充 / Auto-applied（${applied.length}）`,
     '',
@@ -360,7 +427,15 @@ if (WRITE_REPORT) {
   await writeFile(resolve(root, 'data/review/catalog-mapping.md'), `${page}\n`);
   await writeFile(
     resolve(root, 'data/review/catalog-mapping.json'),
-    `${JSON.stringify({ generated_at: new Date().toISOString(), min_stars: MIN_STARS, scanned: gaps.length, applied, review }, null, 2)}\n`,
+    `${JSON.stringify({
+      generated_at: new Date().toISOString(),
+      min_stars: MIN_STARS,
+      scanned: gaps.length,
+      scan_review: scanReview.length,
+      carried_forward: carriedReview.length,
+      applied,
+      review,
+    }, null, 2)}\n`,
   );
   console.log('wrote data/review/catalog-mapping.md and .json');
 }

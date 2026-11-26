@@ -123,10 +123,31 @@ test('unconstrained Git and matching npm become applyable mappings; incompatible
     outcome: 'mapping_can_be_added',
   })
   assert.equal(pinned.decision, 'apply')
-  // The README only pins a version, so the mapping keeps the verified exact
-  // version — a manually pinned item keeps its intent.
-  assert.equal(pinned.packages[0].source, 'npm:demo@1.2.3')
-  assert.equal(pinned.packages[0].install, 'demo@1.2.3')
+  // Even when the README pins a version, packages.json records the release
+  // line: numeric pins normalize to the bare package and the published index
+  // pins the verified exact version downstream.
+  assert.equal(pinned.packages[0].source, 'npm:demo')
+  assert.equal(pinned.packages[0].install, 'demo')
+
+  const channel = proposeRecord({
+    full_name: 'Owner/Demo',
+    errors: [],
+    readmes: [{ targets: [{ install: 'demo@next' }] }],
+    candidates: [
+      {
+        origin: 'npm',
+        name: 'demo',
+        status: 'eligible_metadata',
+        compatibilityUnconstrained: true,
+        declaredCompatibleWithHost: null,
+        plugin: npmPlugin('demo', { repository: { url: 'https://github.com/Owner/Demo' } }),
+      },
+    ],
+    outcome: 'mapping_can_be_added',
+  })
+  assert.equal(channel.decision, 'apply')
+  assert.equal(channel.packages[0].source, 'npm:demo@next')
+  assert.equal(channel.packages[0].install, 'demo@next')
 
   const documentedGit = proposeRecord({
     full_name: 'Owner/Demo',
@@ -146,8 +167,9 @@ test('unconstrained Git and matching npm become applyable mappings; incompatible
     outcome: 'mapping_can_be_added',
   })
   assert.equal(documentedGit.decision, 'apply')
-  // A README-documented ref is recorded verbatim — upstream states the target.
-  assert.equal(documentedGit.packages[0].source, 'github:Owner/Demo#main')
+  // A README-documented branch/tag/SHA ref is normalized to the bare
+  // repository; only monorepo path selectors survive in packages.json.
+  assert.equal(documentedGit.packages[0].source, 'github:Owner/Demo')
   assert.equal(documentedGit.status, 'readme-verified')
 
   const unpinned = proposeRecord({
@@ -273,8 +295,8 @@ test('outside pool is star-ranked unmapped approved plugins', () => {
     },
     10,
   )
-  // <5 stars (a/low) and no push in the 90 days before the snapshot (a/stale) never get a new mapping.
-  assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/five'])
+  // Stars only rank the backlog now; no push in the 90 days before the snapshot (a/stale) is what still blocks a new mapping.
+  assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/five', 'a/low'])
 })
 
 test('same-day terminal skips leave the plan so batches dig into fresh repositories', () => {
@@ -296,6 +318,24 @@ test('same-day terminal skips leave the plan so batches dig into fresh repositor
     10,
   )
   assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/next'])
+})
+
+test('fresh repositories outrank deferred evidence until the fresh backlog is exhausted', () => {
+  const input = {
+    snapshot: {
+      fetched_at: SNAPSHOT,
+      repositories: [
+        { id: 1, full_name: 'a/deferred-high', description: 'plugin', stargazers_count: 100, pushed_at: FRESH },
+        { id: 2, full_name: 'a/fresh-low', description: 'plugin', stargazers_count: 1, pushed_at: FRESH },
+      ],
+    },
+    curated: {},
+    approved: { 'a/deferred-high': '2026-10-01', 'a/fresh-low': '2026-10-01' },
+    packages: { entries: {} },
+    deferredNames: new Set(['a/deferred-high']),
+  }
+  assert.deepEqual(planOutsidePool(input, 10).map((row) => row.full_name), ['a/fresh-low', 'a/deferred-high'])
+  assert.deepEqual(planOutsidePool(input, 1).map((row) => row.full_name), ['a/fresh-low'])
 })
 
 test('replaying stored evidence never re-adds a reviewed catalog-mapping skip', () => {
