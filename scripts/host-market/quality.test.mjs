@@ -12,12 +12,13 @@ test('compatibility coverage distinguishes current and older supported hosts wit
     { name: 'unconstrained', versions: [{ version: '1.0.0' }] },
   ] }
   const result = presentationQuality(index)
-  assert.equal(result.targetHostVersion, '0.2.2-rc.3')
-  assert.equal(result.withoutMatchingVersion, 0)
+  assert.equal(result.targetHostVersion, '0.2.2-rc.5')
+  assert.equal(result.withoutMatchingVersion, 2)
   assert.deepEqual(result.compatibilityByHost, {
     '0.2.1-rc.2': { withoutMatchingVersion: 1 },
     '0.2.2-rc.1': { withoutMatchingVersion: 2 },
     '0.2.2-rc.3': { withoutMatchingVersion: 0 },
+    '0.2.2-rc.5': { withoutMatchingVersion: 2 },
   })
   assert.equal(result.withMultipleVersions, 1)
 })

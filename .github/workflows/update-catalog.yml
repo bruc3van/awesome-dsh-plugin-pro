@@ -40,6 +40,15 @@ jobs:
       # collapses below 80% of the previous one, so a half-failed crawl keeps
       # yesterday's data instead of publishing a truncated one; a crawl
       # identical to yesterday's is flagged as a warning by update.mjs.
+      # Non-blocking probe: warns as a CI annotation when the npm `@deepseek-ai/dsh`
+      # latest has moved past the tail of DISCOVERY_HOST_VERSIONS, so the
+      # compatibility baseline can never again silently lag the host for days
+      # (rc.3 vs rc.5, 2026-11). Exit code is always zero — drift is a review
+      # decision, never a pipeline failure.
+      - name: Probe host-baseline drift
+        run: |
+          npm ci --ignore-scripts --prefix scripts/host-market
+          node scripts/host-market/check-host-drift.mjs
       - name: Refresh snapshot and review queue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

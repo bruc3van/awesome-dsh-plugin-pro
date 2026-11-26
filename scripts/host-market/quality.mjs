@@ -2,7 +2,13 @@
 import semver from 'semver'
 import { VALUE_LABELS } from './value-labels.mjs'
 
-export const DISCOVERY_HOST_VERSIONS = ['0.2.1-rc.2', '0.2.2-rc.1', '0.2.2-rc.3']
+// Supported host line for compatibility computation. Tracks the released
+// `@deepseek-ai/dsh` latest with two deliberate omissions: short-lived
+// intermediate rcs (0.2.2-rc.2/rc.4, each latest for about a day) and the
+// next minor's alpha line (0.2.3-alpha.x — no user on the release line can
+// install plugins that only declare it). check-host-drift.mjs warns daily
+// when npm latest moves past the tail of this list.
+export const DISCOVERY_HOST_VERSIONS = ['0.2.1-rc.2', '0.2.2-rc.1', '0.2.2-rc.3', '0.2.2-rc.5']
 export const DISCOVERY_HOST_VERSION = DISCOVERY_HOST_VERSIONS.at(-1)
 
 export function presentationQuality(index) {

@@ -125,8 +125,10 @@ test('latest feeds keep verified host fallbacks while excluding private and depr
     registry.time[version] = '2026-11-14T00:00:00Z'
   }
   const result = projectPackage(name, ['latest'], registry)
-  assert.deepEqual(result.plugin.versions.map(v => v.version), ['3.0.0', '2.0.0', '1.0.0'])
-  assert.equal(result.diagnostics.filter(d => d.code === 'compatibility_version_added').length, 2)
+  // 0.9.0 declares `*` — it is the only release line covering host 0.2.2-rc.5,
+  // so it is retained beside the exact-pin fallbacks for the older hosts.
+  assert.deepEqual(result.plugin.versions.map(v => v.version), ['3.0.0', '2.0.0', '1.0.0', '0.9.0'])
+  assert.equal(result.diagnostics.filter(d => d.code === 'compatibility_version_added').length, 3)
   assert.deepEqual(projectPackage(name, ['3.0.0'], registry).plugin.versions.map(v => v.version), ['3.0.0'])
   for (const [version, code] of [['4.0.0', 'private_package'], ['3.1.0', 'deprecated_version']]) {
     const excluded = projectPackage(name, [version], registry)

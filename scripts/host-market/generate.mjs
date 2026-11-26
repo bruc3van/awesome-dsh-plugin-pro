@@ -745,7 +745,7 @@ async function main() {
         'Windows 临时目录清理被文件锁打断；该条 Git 核验结果作废，不因此冻结整份索引。Linux CI 通常不会出现。',
     },
     generator: {
-      hostVersion: '0.2.2-rc.3',
+      hostVersion: DISCOVERY_HOST_VERSION,
       discoveryHostVersion: DISCOVERY_HOST_VERSION,
       discoveryHostVersions: DISCOVERY_HOST_VERSIONS,
       compatibilityPolicy: 'official-dshRange-v1',
