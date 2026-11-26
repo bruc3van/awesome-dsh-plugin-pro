@@ -256,7 +256,10 @@ async function checkNpm(spec, slug) {
     else if (!res.ok) result = { ok: false, reason: `npm registry HTTP ${res.status} for ${name}` };
     else {
       const doc = await res.json();
-      const repo = npmRepositorySlug(doc);
+      // The packument often omits the top-level repository field while the
+      // latest version manifest carries it — same ownership evidence, since
+      // only the package owner can publish that manifest.
+      const repo = npmRepositorySlug(doc) || npmRepositorySlug(doc.versions?.[doc['dist-tags']?.latest] ?? {});
       if (pin !== null) {
         const resolved = /^\d+\.\d+\.\d+/.test(pin) ? doc.versions?.[pin] : doc['dist-tags']?.[pin];
         if (!resolved) result = { ok: false, reason: `npm ${spec} pins a ${/^\d/.test(pin) ? 'version' : 'dist-tag'} that was never published` };

@@ -1,10 +1,223 @@
 {
-  "generated_at": "2026-11-26T07:24:38.331Z",
-  "min_stars": 0,
-  "scanned": 0,
-  "scan_review": 0,
-  "carried_forward": 29,
-  "applied": [],
+  "generated_at": "2026-11-25T23:46:30.671Z",
+  "min_stars": 5,
+  "scanned": 18,
+  "applied": [
+    {
+      "slug": "yb-zhai/agent-memory",
+      "stars": 54,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:yb-zhai/agent-memory",
+          "command": "dsh plugin --profile desktop add github:yb-zhai/agent-memory",
+          "install": "https://github.com/yb-zhai/agent-memory"
+        }
+      ],
+      "via": "readme",
+      "note": "command is not a concrete paste-safe `dsh plugin` invocation"
+    },
+    {
+      "slug": "renjiegod/dsh-godbot",
+      "stars": 21,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:renjiegod/dsh-godbot",
+          "command": "dsh plugin --profile web add github:renjiegod/dsh-godbot",
+          "install": "https://github.com/renjiegod/dsh-godbot"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "zman406986/Agent-Memory-CREMATOR",
+      "stars": 13,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:cremator-dsh",
+          "command": "dsh plugin --profile web add cremator-dsh",
+          "install": "cremator-dsh"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "2019wakeup/dsh-reader",
+      "stars": 11,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@2019wakeup/dsh-reader@latest",
+          "command": "dsh plugin --profile web add @2019wakeup/dsh-reader@latest",
+          "install": "@2019wakeup/dsh-reader@latest"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "gcggcg/dsh-plugin-dingtalk-bridge",
+      "stars": 6,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-dingtalk-bridge",
+          "command": "dsh plugin --profile web add dsh-plugin-dingtalk-bridge",
+          "install": "dsh-plugin-dingtalk-bridge"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "gcggcg/dsh-plugin-wechat-dingtalk",
+      "stars": 6,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-wechat-dingtalk-bridge",
+          "command": "dsh plugin --profile web add dsh-plugin-wechat-dingtalk-bridge",
+          "install": "dsh-plugin-wechat-dingtalk-bridge"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "aiohow/dsh-prompt-wall",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-prompt-wall",
+          "command": "dsh plugin --profile web add dsh-prompt-wall",
+          "install": "dsh-prompt-wall"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "alexbu512/milancat-bot",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:alexbu512/milancat-bot",
+          "command": "dsh plugin --profile web add github:alexbu512/milancat-bot",
+          "install": "https://github.com/alexbu512/milancat-bot"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "drscrewdriver/dsh-patch-edit-plus",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-patch-edit-plus",
+          "command": "dsh plugin --profile web add dsh-patch-edit-plus",
+          "install": "dsh-patch-edit-plus"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "hentai-joshu/dsh-narration-policy",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:hentai-joshu/dsh-narration-policy",
+          "command": "dsh plugin --profile web add github:hentai-joshu/dsh-narration-policy",
+          "install": "https://github.com/hentai-joshu/dsh-narration-policy"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "monkeyin92/ds-pstack",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:monkeyin92/ds-pstack",
+          "command": "dsh plugin --profile web add github:monkeyin92/ds-pstack",
+          "install": "https://github.com/monkeyin92/ds-pstack"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "OrphBladean/dsh-nahida-theme",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-nahida-theme",
+          "command": "dsh plugin --profile web add dsh-nahida-theme",
+          "install": "dsh-nahida-theme"
+        },
+        {
+          "profile": "web",
+          "source": "github:OrphBladean/dsh-nahida-theme",
+          "command": "dsh plugin --profile web add github:OrphBladean/dsh-nahida-theme",
+          "install": "https://github.com/OrphBladean/dsh-nahida-theme"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "pugyy/dxkjailbreak",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:pugyy/dxkjailbreak",
+          "command": "dsh plugin --profile web add github:pugyy/dxkjailbreak",
+          "install": "https://github.com/pugyy/dxkjailbreak"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "ZelyStaric/dsh-council",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zelystaric/dsh-council",
+          "command": "dsh plugin --profile web add github:zelystaric/dsh-council",
+          "install": "https://github.com/zelystaric/dsh-council"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    }
+  ],
   "review": [
     {
       "slug": "ximizhou/convenient_window_free",
@@ -16,197 +229,22 @@
       ]
     },
     {
+      "slug": "weiwenhao/dudu",
+      "stars": 13,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "linhuanwen/dsh-plugin-agent-browser",
+      "stars": 7,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
       "slug": "anweat/dsh-plugin-dev-guide",
       "stars": 5,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "21hbguo/dsh-feishu-bridge-plugin",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "AllDurham/foreman-dsh",
-      "stars": 4,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "ciceroyang/dsh-plugin-starter",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "coderPerseus/dsh-hub",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "jerryxff26-alt/delivery-board",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "jonah791/dsh-agent-compact",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "kelai141/dsh-host-web-compat",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "kirbylynx/dsh-hub",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "Lukeknow0/dsh-side-chat",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "dsh plugin --profile web add /absolute/path/lukeknow0-dsh-side-chat-1.0.0-rc.1.tgz",
-      "candidates": []
-    },
-    {
-      "slug": "MagicalYuYu/agent-operating-system",
-      "stars": 4,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "Mikuzjc/dsh-office-for-mso",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "niushuanan/dsh-chat-migration",
-      "stars": 4,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "QinLuza/dsh-aisketch",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "dsh plugin --profile <profile> add link:<repo>/packages/sketch-bundle",
-      "candidates": []
-    },
-    {
-      "slug": "slinxiaosun-blip/dsh-ai-passport-plugin",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "WhichWitchWin/character-archives",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "wuliLiuyue/wxpilot",
-      "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "dsh plugin --profile demo add ./packages/dsh",
-      "candidates": []
-    },
-    {
-      "slug": "yanwenzong1-pixel/xinlan-dsh-plugin",
-      "stars": 4,
-      "reason": "no install command extracted; no package.json",
-      "hint": "dsh plugin --profile web add ./dsh-quick-append",
-      "candidates": []
-    },
-    {
-      "slug": "AaronKal-ECU/offline-ai-agent",
-      "stars": 3,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "acus9345/dsh-guard-pack",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "dsh plugin --profile web add \"$p\"",
-      "candidates": []
-    },
-    {
-      "slug": "alexdoandev/jev-laya-dsh",
-      "stars": 3,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "AntheaLaffy/dsh-plugin-tomato-todo",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "bagpipe1289/dsh-paperflight",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "baiyun200/dsh-dashboard",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "ciceroyang/dsh-trajectory",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "davidalmeida90/finance-agent-kit",
-      "stars": 3,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "DEVbyQIN/dsh-plugin-kit",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "divisioncassini05-lab/find-nyaa-anime-release",
-      "stars": 3,
       "reason": "no install command extracted; no package.json",
       "hint": "",
       "candidates": []
