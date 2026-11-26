@@ -1,0 +1,40 @@
+{
+  "full_name": "AaronKal-ECU/offline-ai-agent",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:01.421Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1f60b01eec1aa15e6471c19a0cb28fa10d333f2ccc7bf8aecacd58b57c70474d",
+      "url": "https://github.com/AaronKal-ECU/offline-ai-agent/blob/052f4feab2c6dd5b3820cc2ab5d19829d128012f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AaronKal-ECU/offline-ai-agent",
+    "commit": "052f4feab2c6dd5b3820cc2ab5d19829d128012f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T07:22:22.021Z"
+}

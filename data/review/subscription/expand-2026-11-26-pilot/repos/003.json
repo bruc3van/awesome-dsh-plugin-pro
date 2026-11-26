@@ -1,0 +1,103 @@
+{
+  "full_name": "linhuanwen/dsh-plugin-agent-browser",
+  "originalPosition": 3,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 3,
+  "batch": 1,
+  "stargazers_count": 6,
+  "startedAt": "2026-11-26T07:20:58.654Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "239da1400ef080166efe69d1b85f436fb577429a992e7d0180433f9cfb4a0037",
+      "url": "https://github.com/linhuanwen/dsh-plugin-agent-browser/blob/a982a23bf8f65d0ca6186404e3623f8eabc07507/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dist/dsh-plugin-agent-browser/README.md",
+      "sha256": "aa69fedad2ff005262dea9b945defee5dd1f08899aa3e0b93e18d8b23f86047c",
+      "url": "https://github.com/linhuanwen/dsh-plugin-agent-browser/blob/a982a23bf8f65d0ca6186404e3623f8eabc07507/dist/dsh-plugin-agent-browser/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/decisions/README.md",
+      "sha256": "db382edfbde6eb390b3e8622e74e9b165f6ff52e867e1ef85b17e265f6cb8d47",
+      "url": "https://github.com/linhuanwen/dsh-plugin-agent-browser/blob/a982a23bf8f65d0ca6186404e3623f8eabc07507/docs/decisions/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-agent-browser",
+      "version": "1.4.24",
+      "path": "dist/dsh-plugin-agent-browser",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linhuanwen/dsh-plugin-agent-browser",
+        "commit": "a982a23bf8f65d0ca6186404e3623f8eabc07507",
+        "path": "dist/dsh-plugin-agent-browser"
+      },
+      "manifestSha256": "6386f00166901ba7dd0be47ab994559e1209e6f2fd99d71cee135672c51da617",
+      "manifestUrl": "https://github.com/linhuanwen/dsh-plugin-agent-browser/blob/a982a23bf8f65d0ca6186404e3623f8eabc07507/dist/dsh-plugin-agent-browser/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-agent-browser",
+        "versions": [
+          {
+            "version": "1.4.24",
+            "publishTimestamp": 1795484026,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/linhuanwen/dsh-plugin-agent-browser",
+              "commit": "a982a23bf8f65d0ca6186404e3623f8eabc07507",
+              "path": "dist/dsh-plugin-agent-browser"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-agent-browser-probe",
+      "version": "0.0.1",
+      "path": "tools/probe",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linhuanwen/dsh-plugin-agent-browser",
+        "commit": "a982a23bf8f65d0ca6186404e3623f8eabc07507",
+        "path": "tools/probe"
+      },
+      "manifestSha256": "61193ef3e16206f3b57dd7cf4c0c6041fc1b9ac11210022a2fa299be31cb3427",
+      "manifestUrl": "https://github.com/linhuanwen/dsh-plugin-agent-browser/blob/a982a23bf8f65d0ca6186404e3623f8eabc07507/tools/probe/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/linhuanwen/dsh-plugin-agent-browser",
+    "commit": "a982a23bf8f65d0ca6186404e3623f8eabc07507",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:21:15.169Z"
+}

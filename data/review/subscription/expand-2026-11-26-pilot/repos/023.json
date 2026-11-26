@@ -1,0 +1,76 @@
+{
+  "full_name": "Asif2BD/JARVIS-Mission-Control-DeepSeek",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:13.493Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f34b9a92b2d3221d53beaf6773fc000c0738db555a699533f5fd6661d790dda5",
+      "url": "https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek/blob/6d36641f08c6e8b493a17584c12e88a0da947b0c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/deepseek-harness/README.md",
+      "sha256": "623e8d6e2383ed8d432ca665b18a54e6b25f647b72d3227df7819dbcc734a2e8",
+      "url": "https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek/blob/6d36641f08c6e8b493a17584c12e88a0da947b0c/integrations/deepseek-harness/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-mission-control",
+      "version": "0.2.1",
+      "path": "integrations/deepseek-harness/dsh-plugin-mission-control",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek",
+        "commit": "6d36641f08c6e8b493a17584c12e88a0da947b0c",
+        "path": "integrations/deepseek-harness/dsh-plugin-mission-control"
+      },
+      "manifestSha256": "883120c410602efdd73d89bd436a29dfad32dd9f6534c464a7beb9311e0bde7f",
+      "manifestUrl": "https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek/blob/6d36641f08c6e8b493a17584c12e88a0da947b0c/integrations/deepseek-harness/dsh-plugin-mission-control/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-mission-control",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787250106,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek",
+              "commit": "6d36641f08c6e8b493a17584c12e88a0da947b0c",
+              "path": "integrations/deepseek-harness/dsh-plugin-mission-control"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek",
+    "commit": "6d36641f08c6e8b493a17584c12e88a0da947b0c",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:28.494Z"
+}

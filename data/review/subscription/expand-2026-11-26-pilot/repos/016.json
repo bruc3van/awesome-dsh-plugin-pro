@@ -1,0 +1,51 @@
+{
+  "full_name": "slinxiaosun-blip/dsh-ai-passport-plugin",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:46.909Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3c7725579fd3a98d6130d8b3e8a2600d14db5f1752132fe6637aa37366a61726",
+      "url": "https://github.com/slinxiaosun-blip/dsh-ai-passport-plugin/blob/321e432e8a2484563d7a8b1a80a0c28f64e091b2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ai-passport",
+      "version": "1.4.0",
+      "path": "packages/dsh-ai-passport",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/slinxiaosun-blip/dsh-ai-passport-plugin",
+        "commit": "321e432e8a2484563d7a8b1a80a0c28f64e091b2",
+        "path": "packages/dsh-ai-passport"
+      },
+      "manifestSha256": "a14105e87ba0c1b6a89c1e30ff5598ceb765ef84daee4fff1287af0721018d8b",
+      "manifestUrl": "https://github.com/slinxiaosun-blip/dsh-ai-passport-plugin/blob/321e432e8a2484563d7a8b1a80a0c28f64e091b2/packages/dsh-ai-passport/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/slinxiaosun-blip/dsh-ai-passport-plugin",
+    "commit": "321e432e8a2484563d7a8b1a80a0c28f64e091b2",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T07:22:01.420Z"
+}

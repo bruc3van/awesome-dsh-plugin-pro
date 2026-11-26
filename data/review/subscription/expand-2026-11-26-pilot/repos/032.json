@@ -1,0 +1,69 @@
+{
+  "full_name": "FantasyStarry/dsh-todo-time-log",
+  "originalPosition": 32,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 32,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:31.296Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f540d3c712d174b59684547589506b89bf9fa837a83931761c83d1fe6398bfa",
+      "url": "https://github.com/FantasyStarry/dsh-todo-time-log/blob/1ed7c46447961a297f9efdbf9584811b588caaa1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-todo-time-log",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FantasyStarry/dsh-todo-time-log",
+        "commit": "1ed7c46447961a297f9efdbf9584811b588caaa1"
+      },
+      "manifestSha256": "307e0d7257242e8808daa1c7bf68c1befb5025f8032f976b0b7c9f27d2a068e5",
+      "manifestUrl": "https://github.com/FantasyStarry/dsh-todo-time-log/blob/1ed7c46447961a297f9efdbf9584811b588caaa1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-todo-time-log",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1795226637,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FantasyStarry/dsh-todo-time-log",
+              "commit": "1ed7c46447961a297f9efdbf9584811b588caaa1"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FantasyStarry/dsh-todo-time-log",
+    "commit": "1ed7c46447961a297f9efdbf9584811b588caaa1",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:38.857Z"
+}

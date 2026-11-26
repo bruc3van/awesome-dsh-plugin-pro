@@ -1,0 +1,797 @@
+{
+  "full_name": "PerryLink/dsh-os-suite",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:20:58.665Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "abe82e80133ecad08a5c1c030bcdf303c044557456228ac480e1eb7afadae898",
+      "url": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-os-trace",
+          "command": "dsh plugin --profile web add dsh-os-trace",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-lease",
+          "command": "dsh plugin --profile web add dsh-os-lease",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-quota",
+          "command": "dsh plugin --profile web add dsh-os-quota",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-eval",
+          "command": "dsh plugin --profile web add dsh-os-eval",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-catalog",
+          "command": "dsh plugin --profile web add dsh-os-catalog",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-registry",
+          "command": "dsh plugin --profile web add dsh-os-registry",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "e252eb947e4648f9b8fa18bd64d1fa7fe3fa224dabedc8f0e718a3a313f9a12d",
+      "url": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/README-zh.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-os-trace",
+          "command": "dsh plugin --profile web add dsh-os-trace",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-lease",
+          "command": "dsh plugin --profile web add dsh-os-lease",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-quota",
+          "command": "dsh plugin --profile web add dsh-os-quota",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-eval",
+          "command": "dsh plugin --profile web add dsh-os-eval",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-catalog",
+          "command": "dsh plugin --profile web add dsh-os-catalog",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-registry",
+          "command": "dsh plugin --profile web add dsh-os-registry",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "c9f27e23bcfae2dc59bcc075289bb4976a001c3440ee0e55fa1a6c84d0335acc",
+      "url": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/README-es.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-os-trace",
+          "command": "dsh plugin --profile web add dsh-os-trace",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-lease",
+          "command": "dsh plugin --profile web add dsh-os-lease",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-quota",
+          "command": "dsh plugin --profile web add dsh-os-quota",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-eval",
+          "command": "dsh plugin --profile web add dsh-os-eval",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-catalog",
+          "command": "dsh plugin --profile web add dsh-os-catalog",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-registry",
+          "command": "dsh plugin --profile web add dsh-os-registry",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "836656398e93d09e3f0a1b5879e00ee53b9b4134aff46d9a2a01fe3ee80653be",
+      "url": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/README-pt.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-os-trace",
+          "command": "dsh plugin --profile web add dsh-os-trace",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-lease",
+          "command": "dsh plugin --profile web add dsh-os-lease",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-quota",
+          "command": "dsh plugin --profile web add dsh-os-quota",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-eval",
+          "command": "dsh plugin --profile web add dsh-os-eval",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-catalog",
+          "command": "dsh plugin --profile web add dsh-os-catalog",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-registry",
+          "command": "dsh plugin --profile web add dsh-os-registry",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "6fe2cfadcab9cdf8d59840cb2839300a7b68618e2a78275739b5398d5eb563eb",
+      "url": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/README-hi.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-os-trace",
+          "command": "dsh plugin --profile web add dsh-os-trace",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-lease",
+          "command": "dsh plugin --profile web add dsh-os-lease",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-quota",
+          "command": "dsh plugin --profile web add dsh-os-quota",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-eval",
+          "command": "dsh plugin --profile web add dsh-os-eval",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-catalog",
+          "command": "dsh plugin --profile web add dsh-os-catalog",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-os-registry",
+          "command": "dsh plugin --profile web add dsh-os-registry",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-os-catalog",
+      "version": "0.2.5",
+      "path": "packages/dsh-os-catalog",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-os-suite",
+        "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+        "path": "packages/dsh-os-catalog"
+      },
+      "manifestSha256": "f03ad5321d91860349171e688494d1db305a29fd9137b181b7ddfdb131f51798",
+      "manifestUrl": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/packages/dsh-os-catalog/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-os-catalog",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795256787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-os-suite",
+              "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+              "path": "packages/dsh-os-catalog"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-os-eval",
+      "version": "0.2.5",
+      "path": "packages/dsh-os-eval",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-os-suite",
+        "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+        "path": "packages/dsh-os-eval"
+      },
+      "manifestSha256": "a8e2dee37a08d92d5bac037f7cc75d57525186e1ba4ded4224a89884fcedd2af",
+      "manifestUrl": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/packages/dsh-os-eval/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-os-eval",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795256787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-os-suite",
+              "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+              "path": "packages/dsh-os-eval"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-os-lease",
+      "version": "0.2.5",
+      "path": "packages/dsh-os-lease",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-os-suite",
+        "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+        "path": "packages/dsh-os-lease"
+      },
+      "manifestSha256": "e643e46bae0f2855643fccf0435088bdf45f86efa244cdddcb0eec9e55d639a9",
+      "manifestUrl": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/packages/dsh-os-lease/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-os-lease",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795256787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-os-suite",
+              "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+              "path": "packages/dsh-os-lease"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-os-quota",
+      "version": "0.2.5",
+      "path": "packages/dsh-os-quota",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-os-suite",
+        "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+        "path": "packages/dsh-os-quota"
+      },
+      "manifestSha256": "f6d4e4a9d868175ac9648ec07515ae1c2c29b3cf2c4fd2ec1770f6845803f4fb",
+      "manifestUrl": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/packages/dsh-os-quota/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-os-quota",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795256787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-os-suite",
+              "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+              "path": "packages/dsh-os-quota"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-os-registry",
+      "version": "0.2.5",
+      "path": "packages/dsh-os-registry",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-os-suite",
+        "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+        "path": "packages/dsh-os-registry"
+      },
+      "manifestSha256": "0ab4d06c967c24b1eea534e15e73a57e8f4ac7a5bdda3fd798ace4d8952c19ce",
+      "manifestUrl": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/packages/dsh-os-registry/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-os-registry",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795256787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-os-suite",
+              "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+              "path": "packages/dsh-os-registry"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-os-trace",
+      "version": "0.2.5",
+      "path": "packages/dsh-os-trace",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-os-suite",
+        "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+        "path": "packages/dsh-os-trace"
+      },
+      "manifestSha256": "24a4d093f9844e73559f6be20e8973a0e187edc43cd727de0f3f5226db3dea2c",
+      "manifestUrl": "https://github.com/PerryLink/dsh-os-suite/blob/ffdf4c9ae77de5419054f5e9c78674e455998583/packages/dsh-os-trace/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-os-trace",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795256787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-os-suite",
+              "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+              "path": "packages/dsh-os-trace"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-os-trace",
+      "origin": "npm",
+      "name": "dsh-os-trace",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-os-trace",
+        "title": "dsh-os-trace",
+        "description": "Causal audit and tamper-evident evidence bundles for DSH agent runs.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-os-suite/tree/main/packages/dsh-os-trace#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-os-suite",
+          "directory": "packages/dsh-os-trace"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "agent",
+            "audit",
+            "observability",
+            "evidence",
+            "trace"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795179521,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "99b5bbd0712daee3a2307f1c6a49c95de5b6881544bdaf3328dffe9cab91e470",
+      "evidence": [
+        {
+          "name": "dsh-os-trace",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/dsh-os-trace/-/dsh-os-trace-0.2.5.tgz",
+          "integrity": "sha512-yEeedkG7xIv9I/KyXjbJda/IZKUf27M8HRUeWmb1FVFGmRffq9JnFQzJuLwSt0e3Hz1qEjgi8N8V1yWi1KarVw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-os-lease",
+      "origin": "npm",
+      "name": "dsh-os-lease",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-os-lease",
+        "title": "dsh-os-lease",
+        "description": "Workspace lease intents, pluggable locks, and multi-file transaction plans for parallel DSH agents.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-os-suite/tree/main/packages/dsh-os-lease#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-os-suite",
+          "directory": "packages/dsh-os-lease"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "agent",
+            "workspace",
+            "lease",
+            "transaction",
+            "concurrency",
+            "lock",
+            "locking",
+            "distributed-lock"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795179463,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "27fd6a51a895162be191a9b86a91cf6808ad5b46837d927d9bf5d7243e1a5fc4",
+      "evidence": [
+        {
+          "name": "dsh-os-lease",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/dsh-os-lease/-/dsh-os-lease-0.2.5.tgz",
+          "integrity": "sha512-kN0cNNHcQ9xqHopYXZjDDs0Ab+p3sSPpjTntSW/HNhXNEIyBu+fG1r6gjqe2QXyX69GZT7NseKyvpq/49ZA9bQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-os-quota",
+      "origin": "npm",
+      "name": "dsh-os-quota",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-os-quota",
+        "title": "dsh-os-quota",
+        "description": "Token, job and disk budgets with admission decisions and opt-in pre-execute enforcement for DSH agents.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-os-suite/tree/main/packages/dsh-os-quota#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-os-suite",
+          "directory": "packages/dsh-os-quota"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "agent",
+            "budget",
+            "quota",
+            "admission",
+            "enforcement",
+            "cost"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795179534,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3a9f21567a56ffe31c13ab3978a74fa50ac12ff45951704845d97a987659e01d",
+      "evidence": [
+        {
+          "name": "dsh-os-quota",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/dsh-os-quota/-/dsh-os-quota-0.2.5.tgz",
+          "integrity": "sha512-7HEPazELQxwHGG72fXPu+z4JvXWLHnXneteebqpYZNLsdw0jM959HnBnlzw3HbENR4Uzp0chLKZ8zLWuUHf/KQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-os-eval",
+      "origin": "npm",
+      "name": "dsh-os-eval",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-os-eval",
+        "title": "dsh-os-eval",
+        "description": "Regression eval gates for DSH agents: case definitions, baseline comparison and CI verdicts.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-os-suite/tree/main/packages/dsh-os-eval#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-os-suite",
+          "directory": "packages/dsh-os-eval"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "agent",
+            "evaluation",
+            "regression",
+            "ci",
+            "testing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795179485,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f98e8b0247745591c0dfd527b9e904c9ce71c0f8790808734910ecf78ac2ff54",
+      "evidence": [
+        {
+          "name": "dsh-os-eval",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/dsh-os-eval/-/dsh-os-eval-0.2.5.tgz",
+          "integrity": "sha512-DOGzkiekTPvduQvqmGYcQj2SQPuNpuQefzGxDxFFZhrVKuxfo40vg0WOzk5sRhjl8bGOl4WhSHnTVs7ggLvqOw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-os-catalog",
+      "origin": "npm",
+      "name": "dsh-os-catalog",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-os-catalog",
+        "title": "dsh-os-catalog",
+        "description": "Intent-based capability catalog for DSH tools, plugins and MCP servers.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-os-suite/tree/main/packages/dsh-os-catalog#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-os-suite",
+          "directory": "packages/dsh-os-catalog"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "agent",
+            "capability",
+            "catalog",
+            "discovery",
+            "tools"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795179503,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3916876b147e198906be7d815b4156b38d75f1a9451c87b69d40af4f0d0af8d9",
+      "evidence": [
+        {
+          "name": "dsh-os-catalog",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/dsh-os-catalog/-/dsh-os-catalog-0.2.5.tgz",
+          "integrity": "sha512-4And7jhb0WoaqPJOIEOnumnsstNcl5x0cXkBfqQxXwlxTTpwoEodMIZBKh/fGq7mzjnUmwB3Y//FFMB+1b5u5Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-os-registry",
+      "origin": "npm",
+      "name": "dsh-os-registry",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-os-registry",
+        "title": "dsh-os-registry",
+        "description": "Local service and port registry for dev servers started by DSH agents.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-os-suite/tree/main/packages/dsh-os-registry#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-os-suite",
+          "directory": "packages/dsh-os-registry"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "agent",
+            "service",
+            "registry",
+            "port",
+            "devserver"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795179483,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4800a396accdb05a2a28397d9cd30d621a2acdc2b7969f8b444ed947ac7a5717",
+      "evidence": [
+        {
+          "name": "dsh-os-registry",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/dsh-os-registry/-/dsh-os-registry-0.2.5.tgz",
+          "integrity": "sha512-FgYoVllwU85wCcP3wG6AyLc8oBgb1y98WDVEwdRfwmxZZwhdzIMQx2qFQv44KEdqGH4g17R0YITJCwcLOp2Wew=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-os-trace",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-os-lease",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-os-quota",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-os-eval",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-os-catalog",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-os-registry",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-os-suite",
+    "commit": "ffdf4c9ae77de5419054f5e9c78674e455998583",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:21:39.195Z"
+}

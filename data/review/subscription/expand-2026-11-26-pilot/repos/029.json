@@ -1,0 +1,66 @@
+{
+  "full_name": "Echo-Cry/dsh-intel-pulse",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:27.443Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f1e2da2443bcb4292ea4cdee0da01e13a592a2e8d7308d5d1e91b96bc6ed3ad3",
+      "url": "https://github.com/Echo-Cry/dsh-intel-pulse/blob/a334921e59dd01edac1bc8c38abbc7a6a6c6cd60/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-intel-pulse",
+      "version": "0.9.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Echo-Cry/dsh-intel-pulse",
+        "commit": "a334921e59dd01edac1bc8c38abbc7a6a6c6cd60"
+      },
+      "manifestSha256": "3ee70080a4dc4f6030128bb57515b5109cb5bfd62da855c3f09ea6824f4ea015",
+      "manifestUrl": "https://github.com/Echo-Cry/dsh-intel-pulse/blob/a334921e59dd01edac1bc8c38abbc7a6a6c6cd60/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-intel-pulse",
+        "versions": [
+          {
+            "version": "0.9.3",
+            "publishTimestamp": 1793131501,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Echo-Cry/dsh-intel-pulse",
+              "commit": "a334921e59dd01edac1bc8c38abbc7a6a6c6cd60"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Echo-Cry/dsh-intel-pulse",
+    "commit": "a334921e59dd01edac1bc8c38abbc7a6a6c6cd60",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:33.888Z"
+}

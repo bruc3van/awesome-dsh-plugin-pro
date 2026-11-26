@@ -1,0 +1,123 @@
+{
+  "full_name": "weiwenhao/dudu",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-26T07:20:58.648Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1df2feb744f22a1bd32ba3f1216feed0563cd9e86098409e9e88a8c2b8975a98",
+      "url": "https://github.com/weiwenhao/dudu/blob/becd18d8bf1955c9cf26393ff828442f65679d7e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "56d10930e02fda4d6542d4f4fe212f7a6a5324cac88278a150fdc4ecacdf7bc4",
+      "url": "https://github.com/weiwenhao/dudu/blob/becd18d8bf1955c9cf26393ff828442f65679d7e/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/dudu-widget/README.md",
+      "sha256": "c23a65ba2ad1c53182780f1c51d71fe16ab666f45186456648780e2a74fa60b2",
+      "url": "https://github.com/weiwenhao/dudu/blob/becd18d8bf1955c9cf26393ff828442f65679d7e/examples/dudu-widget/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dudu",
+      "version": "0.2.1",
+      "path": "host/dudu-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weiwenhao/dudu",
+        "commit": "becd18d8bf1955c9cf26393ff828442f65679d7e",
+        "path": "host/dudu-plugin"
+      },
+      "manifestSha256": "8ad7928322f27548df158f75756aad480876f0f1e3f829a450ef7d57353e21b4",
+      "manifestUrl": "https://github.com/weiwenhao/dudu/blob/becd18d8bf1955c9cf26393ff828442f65679d7e/host/dudu-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-dudu",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795677223,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/weiwenhao/dudu",
+              "commit": "becd18d8bf1955c9cf26393ff828442f65679d7e",
+              "path": "host/dudu-plugin"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@harness-mobile/desktop",
+      "version": "0.2.1",
+      "path": "host/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weiwenhao/dudu",
+        "commit": "becd18d8bf1955c9cf26393ff828442f65679d7e",
+        "path": "host/plugin"
+      },
+      "manifestSha256": "2ba66d2d4217bee3f30233fc057e0a28fc9367ae14e137552ebad980235ccafe",
+      "manifestUrl": "https://github.com/weiwenhao/dudu/blob/becd18d8bf1955c9cf26393ff828442f65679d7e/host/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@harness-mobile/desktop",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795677223,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/weiwenhao/dudu",
+              "commit": "becd18d8bf1955c9cf26393ff828442f65679d7e",
+              "path": "host/plugin"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weiwenhao/dudu",
+    "commit": "becd18d8bf1955c9cf26393ff828442f65679d7e",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:21:18.476Z"
+}

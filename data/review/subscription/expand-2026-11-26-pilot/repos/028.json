@@ -1,0 +1,186 @@
+{
+  "full_name": "Easyhoov/deepseek-harness-desktop-windows",
+  "originalPosition": 28,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:25.533Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0697923f0d15d54b84924fb275e63f76ae484f39d846de5fee52b6eb232073b6",
+      "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows/blob/89bf6cc176d005a88afdaeae30547436b5e9ada7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "0697923f0d15d54b84924fb275e63f76ae484f39d846de5fee52b6eb232073b6",
+      "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows/blob/89bf6cc176d005a88afdaeae30547436b5e9ada7/README_zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_en.md",
+      "sha256": "e9bbaa0da5b7678da278536968e86fc5f0eeadfd448888aebffb53ae90eec9ca",
+      "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows/blob/89bf6cc176d005a88afdaeae30547436b5e9ada7/README_en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-desktop/balance",
+      "version": "0.2.1",
+      "path": "plugins/desktop-balance",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+        "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+        "path": "plugins/desktop-balance"
+      },
+      "manifestSha256": "fcb4702715616f5f81e33c89b79db15967cc12fd0c1f1a4571e3a32f28e6fe49",
+      "manifestUrl": "https://github.com/Easyhoov/deepseek-harness-desktop-windows/blob/89bf6cc176d005a88afdaeae30547436b5e9ada7/plugins/desktop-balance/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-desktop/balance",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795443097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+              "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+              "path": "plugins/desktop-balance"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-desktop/file-changes",
+      "version": "0.2.0",
+      "path": "plugins/desktop-file-changes",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+        "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+        "path": "plugins/desktop-file-changes"
+      },
+      "manifestSha256": "1149a65639f3ec66fa7c10a9145b6dae9c702e99ba6ca4577d791b135e1e0940",
+      "manifestUrl": "https://github.com/Easyhoov/deepseek-harness-desktop-windows/blob/89bf6cc176d005a88afdaeae30547436b5e9ada7/plugins/desktop-file-changes/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-desktop/file-changes",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795443097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+              "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+              "path": "plugins/desktop-file-changes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-desktop/marketplace",
+      "version": "0.2.1",
+      "path": "plugins/desktop-marketplace",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+        "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+        "path": "plugins/desktop-marketplace"
+      },
+      "manifestSha256": "6e9041547c04d197bc4295e6e19fb135f274d4a59d4a85d81c295a6ae254b745",
+      "manifestUrl": "https://github.com/Easyhoov/deepseek-harness-desktop-windows/blob/89bf6cc176d005a88afdaeae30547436b5e9ada7/plugins/desktop-marketplace/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-desktop/marketplace",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795443097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+              "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+              "path": "plugins/desktop-marketplace"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-sidebar",
+      "version": "0.12.2",
+      "path": "plugins/dsh-better-sidebar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+        "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+        "path": "plugins/dsh-better-sidebar"
+      },
+      "manifestSha256": "bfb1898819154bcc5fe5327b2d1e0c1e239a863fcefb96b1aef81cf835203a7a",
+      "manifestUrl": "https://github.com/Easyhoov/deepseek-harness-desktop-windows/blob/89bf6cc176d005a88afdaeae30547436b5e9ada7/plugins/dsh-better-sidebar/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-better-sidebar",
+        "versions": [
+          {
+            "version": "0.12.2",
+            "publishTimestamp": 1795443097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+              "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+              "path": "plugins/dsh-better-sidebar"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+    "commit": "89bf6cc176d005a88afdaeae30547436b5e9ada7",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:45.549Z"
+}

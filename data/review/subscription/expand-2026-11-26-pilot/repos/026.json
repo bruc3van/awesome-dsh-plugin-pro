@@ -1,0 +1,66 @@
+{
+  "full_name": "Domush/dsh-plugin-context-mode",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:22.023Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fced304f23b741490efc39fc407658bf25e9bd0ce6b6b744fbba6e6828cecf4e",
+      "url": "https://github.com/Domush/dsh-plugin-context-mode/blob/f2ae0b7a0dcff2997b57876bae1339c152831788/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-context-mode",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Domush/dsh-plugin-context-mode",
+        "commit": "f2ae0b7a0dcff2997b57876bae1339c152831788"
+      },
+      "manifestSha256": "5cc00fe1a2126d3da4d9115af42f9af0e31e50b3b0fd39b2ad1bd64538ca11c2",
+      "manifestUrl": "https://github.com/Domush/dsh-plugin-context-mode/blob/f2ae0b7a0dcff2997b57876bae1339c152831788/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-context-mode",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1794515226,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Domush/dsh-plugin-context-mode",
+              "commit": "f2ae0b7a0dcff2997b57876bae1339c152831788"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Domush/dsh-plugin-context-mode",
+    "commit": "f2ae0b7a0dcff2997b57876bae1339c152831788",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:32.407Z"
+}

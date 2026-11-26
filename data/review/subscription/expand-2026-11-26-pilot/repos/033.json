@@ -1,0 +1,101 @@
+{
+  "full_name": "Fantety/dsh-pixel-studio",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:32.408Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4dbaed95649753c51ed1f026488c7ac4874110ff5c600506a2e917da1b770433",
+      "url": "https://github.com/Fantety/dsh-pixel-studio/blob/cd6d97c64d8323ee217c52f81772be83e886dec8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Fantety/dsh-pixel-studio/releases/latest/download/dsh-pixel-studio.tgz",
+          "command": "dsh plugin --profile my-profile add \"https://github.com/Fantety/dsh-pixel-studio/releases/latest/download/dsh-pixel-studio.tgz\"",
+          "profile": "my-profile"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b1a791b2d87e8d8e2be8ae93c73655d162d027f96ca59b02dde006a9d3dc3c18",
+      "url": "https://github.com/Fantety/dsh-pixel-studio/blob/cd6d97c64d8323ee217c52f81772be83e886dec8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Fantety/dsh-pixel-studio/releases/latest/download/dsh-pixel-studio.tgz",
+          "command": "dsh plugin --profile my-profile add \"https://github.com/Fantety/dsh-pixel-studio/releases/latest/download/dsh-pixel-studio.tgz\"",
+          "profile": "my-profile"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pixel-studio",
+      "version": "1.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fantety/dsh-pixel-studio",
+        "commit": "cd6d97c64d8323ee217c52f81772be83e886dec8"
+      },
+      "manifestSha256": "342aa897432e21a2f77dc6c0358d234135f3c9ba518cda8556c5a38e07e23a5e",
+      "manifestUrl": "https://github.com/Fantety/dsh-pixel-studio/blob/cd6d97c64d8323ee217c52f81772be83e886dec8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-pixel-studio",
+        "versions": [
+          {
+            "version": "1.3.1",
+            "publishTimestamp": 1792633739,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fantety/dsh-pixel-studio",
+              "commit": "cd6d97c64d8323ee217c52f81772be83e886dec8"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Fantety/dsh-pixel-studio/releases/latest/download/dsh-pixel-studio.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Fantety/dsh-pixel-studio/releases/latest/download/dsh-pixel-studio.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fantety/dsh-pixel-studio",
+    "commit": "cd6d97c64d8323ee217c52f81772be83e886dec8",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:42.926Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "DandanLLab/dsh-plugin-team-group",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:21.039Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eee55b2ded54877c569fa5a091ce3de3becf9d192f89340f8eb72810c087c471",
+      "url": "https://github.com/DandanLLab/dsh-plugin-team-group/blob/89fa2ecdc191cf5a8ae897e011214a335324c515/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-team-group",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DandanLLab/dsh-plugin-team-group",
+        "commit": "89fa2ecdc191cf5a8ae897e011214a335324c515"
+      },
+      "manifestSha256": "4ebd3228a6926771d962b9ffda885a5ff5f63db4740b5430047c89b9de70703c",
+      "manifestUrl": "https://github.com/DandanLLab/dsh-plugin-team-group/blob/89fa2ecdc191cf5a8ae897e011214a335324c515/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-team-group",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794301217,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DandanLLab/dsh-plugin-team-group",
+              "commit": "89fa2ecdc191cf5a8ae897e011214a335324c515"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DandanLLab/dsh-plugin-team-group",
+    "commit": "89fa2ecdc191cf5a8ae897e011214a335324c515",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:28.707Z"
+}

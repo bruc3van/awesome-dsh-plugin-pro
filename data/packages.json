@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25",
+  "updated_at": "2026-11-26",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -242109,6 +242109,2698 @@
       "verified_date": "2026-11-18",
       "verified_via": "review",
       "verified_by": "review"
+    },
+    "007350/dsh-screenshot-board": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:007350/dsh-screenshot-board",
+          "command": "dsh plugin --profile web add github:007350/dsh-screenshot-board",
+          "install": "https://github.com/007350/dsh-screenshot-board"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "00wz/dsh-subagent-forge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:00wz/dsh-subagent-forge",
+          "command": "dsh plugin --profile web add github:00wz/dsh-subagent-forge",
+          "install": "https://github.com/00wz/dsh-subagent-forge"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "0345-0433/dsh-continue-cost": {
+      "packages": [
+        {
+          "profile": "default",
+          "source": "npm:dsh-continue-cost",
+          "command": "dsh plugin add dsh-continue-cost",
+          "install": "dsh-continue-cost"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "yb-zhai/agent-memory": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:yb-zhai/agent-memory",
+          "command": "dsh plugin --profile desktop add github:yb-zhai/agent-memory",
+          "install": "https://github.com/yb-zhai/agent-memory"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "renjiegod/dsh-godbot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:renjiegod/dsh-godbot",
+          "command": "dsh plugin --profile web add github:renjiegod/dsh-godbot",
+          "install": "https://github.com/renjiegod/dsh-godbot"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "2019wakeup/dsh-reader": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@2019wakeup/dsh-reader",
+          "command": "dsh plugin --profile web add @2019wakeup/dsh-reader",
+          "install": "@2019wakeup/dsh-reader"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "gcggcg/dsh-plugin-dingtalk-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-dingtalk-bridge",
+          "command": "dsh plugin --profile web add dsh-plugin-dingtalk-bridge",
+          "install": "dsh-plugin-dingtalk-bridge"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "gcggcg/dsh-plugin-wechat-dingtalk": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-wechat-dingtalk-bridge",
+          "command": "dsh plugin --profile web add dsh-plugin-wechat-dingtalk-bridge",
+          "install": "dsh-plugin-wechat-dingtalk-bridge"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "zman406986/agent-memory-cremator": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:cremator-dsh",
+          "command": "dsh plugin --profile web add cremator-dsh",
+          "install": "cremator-dsh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "aiohow/dsh-prompt-wall": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-prompt-wall",
+          "command": "dsh plugin --profile web add dsh-prompt-wall",
+          "install": "dsh-prompt-wall"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "alexbu512/milancat-bot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:alexbu512/milancat-bot",
+          "command": "dsh plugin --profile web add github:alexbu512/milancat-bot",
+          "install": "https://github.com/alexbu512/milancat-bot"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "zelystaric/dsh-council": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zelystaric/dsh-council",
+          "command": "dsh plugin --profile web add github:zelystaric/dsh-council",
+          "install": "https://github.com/zelystaric/dsh-council"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "17-qxm/dsh-virtual-coding-plan": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:17-qxm/dsh-virtual-coding-plan",
+          "command": "dsh plugin --profile web add github:17-qxm/dsh-virtual-coding-plan",
+          "install": "https://github.com/17-qxm/dsh-virtual-coding-plan"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "1parado/dsh-deepseek-web-search": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:1parado/dsh-deepseek-web-search",
+          "command": "dsh plugin --profile web add github:1parado/dsh-deepseek-web-search",
+          "install": "https://github.com/1parado/dsh-deepseek-web-search"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "2006spy/dsh-token-billing": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:2006spy/dsh-token-billing",
+          "command": "dsh plugin --profile web add github:2006spy/dsh-token-billing",
+          "install": "https://github.com/2006spy/dsh-token-billing"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "456erddgr/dsh-boo550wt-animation": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:456erddgr/dsh-boo550wt-animation",
+          "command": "dsh plugin --profile web add github:456erddgr/dsh-boo550wt-animation",
+          "install": "https://github.com/456erddgr/dsh-boo550wt-animation"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "a740411040/dsh-assist": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:a740411040/dsh-assist",
+          "command": "dsh plugin --profile web add github:a740411040/dsh-assist",
+          "install": "https://github.com/a740411040/dsh-assist"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "aaz111/dsh-nx": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:aaz111/dsh-nx",
+          "command": "dsh plugin --profile web add github:aaz111/dsh-nx",
+          "install": "https://github.com/aaz111/dsh-nx"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "ai4paper/apaper-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@ai4paper/apaper-plugin",
+          "command": "dsh plugin --profile web add @ai4paper/apaper-plugin",
+          "install": "@ai4paper/apaper-plugin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "airainal/dsh-codex-mode": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:airainal/dsh-codex-mode",
+          "command": "dsh plugin --profile web add github:airainal/dsh-codex-mode",
+          "install": "https://github.com/airainal/dsh-codex-mode"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "airainal/dsh-edge-companion": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:airainal/dsh-edge-companion",
+          "command": "dsh plugin --profile web add github:airainal/dsh-edge-companion",
+          "install": "https://github.com/airainal/dsh-edge-companion"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "atul-8/ai-coordination": {
+      "packages": [
+        {
+          "profile": "default",
+          "source": "github:Atul-8/ai-coordination",
+          "command": "dsh plugin add github:Atul-8/ai-coordination",
+          "install": "https://github.com/Atul-8/ai-coordination"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README@dsh",
+      "verified_by": "ci-auto"
+    },
+    "bamboosir1109/dsh-lanya": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:bamboosir1109/dsh-lanya",
+          "command": "dsh plugin --profile web add github:bamboosir1109/dsh-lanya",
+          "install": "https://github.com/bamboosir1109/dsh-lanya"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "baobaolaodie/flow-comet": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:flow-comet",
+          "command": "dsh plugin --profile web add flow-comet",
+          "install": "flow-comet"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "bigm4ngo/dsh-oh-my-gravity": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:bigm4ngo/dsh-oh-my-gravity",
+          "command": "dsh plugin --profile web add github:bigm4ngo/dsh-oh-my-gravity",
+          "install": "https://github.com/bigm4ngo/dsh-oh-my-gravity"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "coii08o0o/dsh-bot-board": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-bot-board",
+          "command": "dsh plugin --profile web add dsh-bot-board",
+          "install": "dsh-bot-board"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "cyanseek/dsh-tool-chaos": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:cyanseek/dsh-tool-chaos",
+          "command": "dsh plugin --profile web add github:cyanseek/dsh-tool-chaos",
+          "install": "https://github.com/cyanseek/dsh-tool-chaos"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "dengluliang/dsh-meetclip": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:dengluliang/dsh-meetclip",
+          "command": "dsh plugin --profile web add github:dengluliang/dsh-meetclip",
+          "install": "https://github.com/dengluliang/dsh-meetclip"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "dinjufen/dsh-suggest": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-suggest",
+          "command": "dsh plugin --profile web add dsh-suggest",
+          "install": "dsh-suggest"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "dreamrift/dsh-memory-context-lab": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:dreamrift/dsh-memory-context-lab",
+          "command": "dsh plugin --profile web add github:dreamrift/dsh-memory-context-lab",
+          "install": "https://github.com/dreamrift/dsh-memory-context-lab"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "drscrewdriver/dsh-patch-edit-plus": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-patch-edit-plus",
+          "command": "dsh plugin --profile web add dsh-patch-edit-plus",
+          "install": "dsh-patch-edit-plus"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "eons2long/dsh-codex-oauth": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-codex-oauth",
+          "command": "dsh plugin --profile web add dsh-codex-oauth",
+          "install": "dsh-codex-oauth"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "eridani075/deepseek-harness-antigravity-oauth": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:eridani075/deepseek-harness-antigravity-oauth",
+          "command": "dsh plugin --profile web add github:eridani075/deepseek-harness-antigravity-oauth",
+          "install": "https://github.com/eridani075/deepseek-harness-antigravity-oauth"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "frog755/dsh-client-auto-retry": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@frog755/dsh-client-auto-retry",
+          "command": "dsh plugin --profile web add @frog755/dsh-client-auto-retry",
+          "install": "@frog755/dsh-client-auto-retry"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "full-aigc-plugins/blender-design-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:full-aigc-plugins/blender-design-plugin",
+          "command": "dsh plugin --profile web add github:full-aigc-plugins/blender-design-plugin",
+          "install": "https://github.com/full-aigc-plugins/blender-design-plugin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "full-aigc-plugins/photocraft-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:full-aigc-plugins/photocraft-plugin",
+          "command": "dsh plugin --profile web add github:full-aigc-plugins/photocraft-plugin",
+          "install": "https://github.com/full-aigc-plugins/photocraft-plugin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "gaoyian7251/dsh-window-state": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:gaoyian7251/dsh-window-state",
+          "command": "dsh plugin --profile web add github:gaoyian7251/dsh-window-state",
+          "install": "https://github.com/gaoyian7251/dsh-window-state"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "guhanfei-ai/dsh-mindmap": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-mindmap",
+          "command": "dsh plugin --profile web add dsh-mindmap",
+          "install": "dsh-mindmap"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "gulagala001/oh-my-agents-above-all": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:gulagala001/oh-my-agents-above-all",
+          "command": "dsh plugin --profile web add github:gulagala001/oh-my-agents-above-all",
+          "install": "https://github.com/gulagala001/oh-my-agents-above-all"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "hangdingding/breezetts-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:hangdingding/breezetts-dsh",
+          "command": "dsh plugin --profile web add github:hangdingding/breezetts-dsh",
+          "install": "https://github.com/hangdingding/breezetts-dsh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "houdinicc/dsh-todos": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-todos",
+          "command": "dsh plugin --profile web add dsh-todos",
+          "install": "dsh-todos"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "hxxhxhxx/ieee-weekly": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-ieee-weekly",
+          "command": "dsh plugin --profile web add dsh-ieee-weekly",
+          "install": "dsh-ieee-weekly"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "inmny/dsh-continue": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:inmny/dsh-continue",
+          "command": "dsh plugin --profile web add github:inmny/dsh-continue",
+          "install": "https://github.com/inmny/dsh-continue"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "isheng-eqi/dsh-educoder": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-educoder",
+          "command": "dsh plugin --profile web add dsh-educoder",
+          "install": "dsh-educoder"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "jackuh105/dsh-message-edit": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:jackuh105/dsh-message-edit",
+          "command": "dsh plugin --profile web add github:jackuh105/dsh-message-edit",
+          "install": "https://github.com/jackuh105/dsh-message-edit"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "jafewff/dsh-vdesktop": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:jafewff/dsh-vdesktop",
+          "command": "dsh plugin --profile web add github:jafewff/dsh-vdesktop",
+          "install": "https://github.com/jafewff/dsh-vdesktop"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "jcs130/dsh-minecraft-agent": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@jcs130/dsh-minecraft-agent",
+          "command": "dsh plugin --profile web add @jcs130/dsh-minecraft-agent",
+          "install": "@jcs130/dsh-minecraft-agent"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "joeseesun/qiaomu-subcast-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:joeseesun/qiaomu-subcast-dsh",
+          "command": "dsh plugin --profile web add github:joeseesun/qiaomu-subcast-dsh",
+          "install": "https://github.com/joeseesun/qiaomu-subcast-dsh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "juliiiiiiiu/my-cozy-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:my-cozy-dsh",
+          "command": "dsh plugin --profile web add my-cozy-dsh",
+          "install": "my-cozy-dsh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "kasaki002/dsh-latex-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kasaki002/dsh-latex-studio",
+          "command": "dsh plugin --profile web add github:kasaki002/dsh-latex-studio",
+          "install": "https://github.com/kasaki002/dsh-latex-studio"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "kelai141/dsh-client-ui-responsive": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kelai141/dsh-client-ui-responsive",
+          "command": "dsh plugin --profile web add github:kelai141/dsh-client-ui-responsive",
+          "install": "https://github.com/kelai141/dsh-client-ui-responsive"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "kingsznhone/dsh-plugin-orca-pod": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-plugin-orca-pod",
+          "command": "dsh plugin --profile desktop add dsh-plugin-orca-pod",
+          "install": "dsh-plugin-orca-pod"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-orca-pod",
+          "command": "dsh plugin --profile web add dsh-plugin-orca-pod",
+          "install": "dsh-plugin-orca-pod"
+        },
+        {
+          "profile": "acp",
+          "source": "npm:dsh-plugin-orca-pod",
+          "command": "dsh plugin --profile acp add dsh-plugin-orca-pod",
+          "install": "dsh-plugin-orca-pod"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "kobenfang/biglead": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kobenfang/biglead",
+          "command": "dsh plugin --profile web add github:kobenfang/biglead",
+          "install": "https://github.com/kobenfang/biglead"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "kolawong/fast-compaction-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kolawong/fast-compaction-dsh",
+          "command": "dsh plugin --profile web add github:kolawong/fast-compaction-dsh",
+          "install": "https://github.com/kolawong/fast-compaction-dsh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "kongbaiwin/dsh-paint": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kongbaiwin/dsh-paint",
+          "command": "dsh plugin --profile web add github:kongbaiwin/dsh-paint",
+          "install": "https://github.com/kongbaiwin/dsh-paint"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "konnga/dsh-hud": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@konnga/dsh-hud",
+          "command": "dsh plugin --profile web add @konnga/dsh-hud",
+          "install": "@konnga/dsh-hud"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "kovey/dsh-nvim-tui": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kovey/dsh-nvim-tui",
+          "command": "dsh plugin --profile web add github:kovey/dsh-nvim-tui",
+          "install": "https://github.com/kovey/dsh-nvim-tui"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "leoan698-tom/dsh-sessivra": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-sessivra",
+          "command": "dsh plugin --profile web add dsh-plugin-sessivra",
+          "install": "dsh-plugin-sessivra"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "liangheovo/dsh-zh-cn": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:liangheovo/dsh-zh-cn",
+          "command": "dsh plugin --profile web add github:liangheovo/dsh-zh-cn",
+          "install": "https://github.com/liangheovo/dsh-zh-cn"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "ling-long-ling/dsh-novel-writer": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ling-long-ling/dsh-novel-writer",
+          "command": "dsh plugin --profile web add github:ling-long-ling/dsh-novel-writer",
+          "install": "https://github.com/ling-long-ling/dsh-novel-writer"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "liweitan2046-cyber/dsh-wanfeng-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-wanfeng-studio",
+          "command": "dsh plugin --profile web add dsh-wanfeng-studio",
+          "install": "dsh-wanfeng-studio"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "lo2589/deepseek-harness-media": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lo2589/deepseek-harness-media",
+          "command": "dsh plugin --profile web add github:lo2589/deepseek-harness-media",
+          "install": "https://github.com/lo2589/deepseek-harness-media"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "lohana20061023-29/dsh-media-downloader": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lohana20061023-29/dsh-media-downloader",
+          "command": "dsh plugin --profile web add github:lohana20061023-29/dsh-media-downloader",
+          "install": "https://github.com/lohana20061023-29/dsh-media-downloader"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "lolitakawayi/dsh-harness-autostart": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-harness-autostart",
+          "command": "dsh plugin --profile web add dsh-harness-autostart",
+          "install": "dsh-harness-autostart"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "loyalchiiina/dsh-font-enhancer": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-font-enhancer",
+          "command": "dsh plugin --profile web add dsh-font-enhancer",
+          "install": "dsh-font-enhancer"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "lsmax-72/dsh-rsi": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lsmax-72/dsh-rsi",
+          "command": "dsh plugin --profile web add github:lsmax-72/dsh-rsi",
+          "install": "https://github.com/lsmax-72/dsh-rsi"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "lulu23316/dsh-mood": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lulu23316/dsh-mood",
+          "command": "dsh plugin --profile web add github:lulu23316/dsh-mood",
+          "install": "https://github.com/lulu23316/dsh-mood"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "maptec-api/agent-plugins": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:maptec-api/agent-plugins",
+          "command": "dsh plugin --profile web add github:maptec-api/agent-plugins",
+          "install": "https://github.com/maptec-api/agent-plugins"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "memories-coder/dsh-plugin-android-apk": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:memories-coder/dsh-plugin-android-apk",
+          "command": "dsh plugin --profile web add github:memories-coder/dsh-plugin-android-apk",
+          "install": "https://github.com/memories-coder/dsh-plugin-android-apk"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "monkeyin92/ds-pstack": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:monkeyin92/ds-pstack",
+          "command": "dsh plugin --profile web add github:monkeyin92/ds-pstack",
+          "install": "https://github.com/monkeyin92/ds-pstack"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "mutualgaze/dsh-desktop-notify": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:mutualgaze/dsh-desktop-notify",
+          "command": "dsh plugin --profile web add github:mutualgaze/dsh-desktop-notify",
+          "install": "https://github.com/mutualgaze/dsh-desktop-notify"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "myth929/dsh-roles": {
+      "packages": [
+        {
+          "profile": "default",
+          "source": "npm:dsh-roles",
+          "command": "dsh plugin add dsh-roles",
+          "install": "dsh-roles"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "nagi-ovo/dsh-music-tui": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:nagi-ovo/dsh-music-tui",
+          "command": "dsh plugin --profile web add github:nagi-ovo/dsh-music-tui",
+          "install": "https://github.com/nagi-ovo/dsh-music-tui"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "nothree-code/folder-tree-sh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:nothree-code/folder-tree-sh",
+          "command": "dsh plugin --profile web add github:nothree-code/folder-tree-sh",
+          "install": "https://github.com/nothree-code/folder-tree-sh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "omdsh-dev/dsh-fusion": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:omdsh-dev/dsh-fusion",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-fusion",
+          "install": "https://github.com/omdsh-dev/dsh-fusion"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "opensaozi/dsh-antigravity": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:opensaozi/dsh-antigravity",
+          "command": "dsh plugin --profile web add github:opensaozi/dsh-antigravity",
+          "install": "https://github.com/opensaozi/dsh-antigravity"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "orphbladean/dsh-nahida-theme": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-nahida-theme",
+          "command": "dsh plugin --profile web add dsh-nahida-theme",
+          "install": "dsh-nahida-theme"
+        },
+        {
+          "profile": "web",
+          "source": "github:OrphBladean/dsh-nahida-theme",
+          "command": "dsh plugin --profile web add github:OrphBladean/dsh-nahida-theme",
+          "install": "https://github.com/OrphBladean/dsh-nahida-theme"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "otsffs/dsh-best-ip": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-best-ip",
+          "command": "dsh plugin --profile web add dsh-best-ip",
+          "install": "dsh-best-ip"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "oumaekumiko0821/dsh-splash-gojo": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:oumaekumiko0821/dsh-splash-gojo",
+          "command": "dsh plugin --profile web add github:oumaekumiko0821/dsh-splash-gojo",
+          "install": "https://github.com/oumaekumiko0821/dsh-splash-gojo"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "paleech0/dsh-notify-desktop": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-notify-desktop",
+          "command": "dsh plugin --profile web add dsh-notify-desktop",
+          "install": "dsh-notify-desktop"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "peterhuazai/dsh-xiaofeiyu-memory": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:peterhuazai/dsh-xiaofeiyu-memory",
+          "command": "dsh plugin --profile web add github:peterhuazai/dsh-xiaofeiyu-memory",
+          "install": "https://github.com/peterhuazai/dsh-xiaofeiyu-memory"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "pugyy/dxkjailbreak": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:pugyy/dxkjailbreak",
+          "command": "dsh plugin --profile web add github:pugyy/dxkjailbreak",
+          "install": "https://github.com/pugyy/dxkjailbreak"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "qrxf/dsh-workspace-graph": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-workspace-graph",
+          "command": "dsh plugin --profile web add dsh-workspace-graph",
+          "install": "dsh-workspace-graph"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "qulierm/orbital-agents": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-orbital-agents",
+          "command": "dsh plugin --profile web add dsh-orbital-agents",
+          "install": "dsh-orbital-agents"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @master",
+      "verified_by": "ci-auto"
+    },
+    "qwert702/dsh-commander": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:qwert702/dsh-commander",
+          "command": "dsh plugin --profile web add github:qwert702/dsh-commander",
+          "install": "https://github.com/qwert702/dsh-commander"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "regrevia/dsh-inner-browser-use": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-inner-browser-use",
+          "command": "dsh plugin --profile web add dsh-inner-browser-use",
+          "install": "dsh-inner-browser-use"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "regrevia/lite-memory": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:regrevia/lite-memory",
+          "command": "dsh plugin --profile web add github:regrevia/lite-memory",
+          "install": "https://github.com/regrevia/lite-memory"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "rindbeans/codex-ui": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:rindbeans/codex-ui",
+          "command": "dsh plugin --profile web add github:rindbeans/codex-ui",
+          "install": "https://github.com/rindbeans/codex-ui"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "royenheart/dsh-plugin-opencode-omo": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:royenheart/dsh-plugin-opencode-omo",
+          "command": "dsh plugin --profile web add github:royenheart/dsh-plugin-opencode-omo",
+          "install": "https://github.com/royenheart/dsh-plugin-opencode-omo"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "sailoumili/dsh-session-remover": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-session-remover",
+          "command": "dsh plugin --profile web add dsh-session-remover",
+          "install": "dsh-session-remover"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "sanser9/dsh-opencode-connect": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-opencode-connect",
+          "command": "dsh plugin --profile web add dsh-opencode-connect",
+          "install": "dsh-opencode-connect"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "shawnren57/dsh-whale-trail": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:shawnren57/dsh-whale-trail",
+          "command": "dsh plugin --profile web add github:shawnren57/dsh-whale-trail",
+          "install": "https://github.com/shawnren57/dsh-whale-trail"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "stallenlu/dsh-wsl-suite": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-wsl-suite",
+          "command": "dsh plugin --profile web add dsh-wsl-suite",
+          "install": "dsh-wsl-suite"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "stylejeke/dsh-tunnel-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:stylejeke/dsh-tunnel-plugin",
+          "command": "dsh plugin --profile web add github:stylejeke/dsh-tunnel-plugin",
+          "install": "https://github.com/stylejeke/dsh-tunnel-plugin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "summersummer-liu/dsh-su": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:summersummer-liu/dsh-su",
+          "command": "dsh plugin --profile web add github:summersummer-liu/dsh-su",
+          "install": "https://github.com/summersummer-liu/dsh-su"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "superboy911/dsh-model-router": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:superboy911/dsh-model-router",
+          "command": "dsh plugin --profile web add github:superboy911/dsh-model-router",
+          "install": "https://github.com/superboy911/dsh-model-router"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "theyoungchen/dsh-annotate": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:theyoungchen/dsh-annotate",
+          "command": "dsh plugin --profile web add github:theyoungchen/dsh-annotate",
+          "install": "https://github.com/theyoungchen/dsh-annotate"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "tk553521/dsh-tavern": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:tk553521/dsh-tavern",
+          "command": "dsh plugin --profile web add github:tk553521/dsh-tavern",
+          "install": "https://github.com/tk553521/dsh-tavern"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "tritiumwang/dsh-universal-worldbook": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:tritiumwang/dsh-universal-worldbook",
+          "command": "dsh plugin --profile web add github:tritiumwang/dsh-universal-worldbook",
+          "install": "https://github.com/tritiumwang/dsh-universal-worldbook"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "twoyoung91/dsh-memoknow": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:twoyoung91/dsh-memoknow",
+          "command": "dsh plugin --profile web add github:twoyoung91/dsh-memoknow",
+          "install": "https://github.com/twoyoung91/dsh-memoknow"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "violetdream/dsh-officecli": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-officecli",
+          "command": "dsh plugin --profile web add dsh-officecli",
+          "install": "dsh-officecli"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "w3967/dsh-workflow-form": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:w3967/dsh-workflow-form",
+          "command": "dsh plugin --profile web add github:w3967/dsh-workflow-form",
+          "install": "https://github.com/w3967/dsh-workflow-form"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "winddreamboat/dsh_laap": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:winddreamboat/dsh_laap",
+          "command": "dsh plugin --profile web add github:winddreamboat/dsh_laap",
+          "install": "https://github.com/winddreamboat/dsh_laap"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "wqx11235/dsh-upgrade-guard": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:wqx11235/dsh-upgrade-guard",
+          "command": "dsh plugin --profile web add github:wqx11235/dsh-upgrade-guard",
+          "install": "https://github.com/wqx11235/dsh-upgrade-guard"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "wzn16/dsh-task-capsule": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:wzn16/dsh-task-capsule",
+          "command": "dsh plugin --profile web add github:wzn16/dsh-task-capsule",
+          "install": "https://github.com/wzn16/dsh-task-capsule"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "xiaxi626/dsh-skills-nexus": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-skills-nexus",
+          "command": "dsh plugin --profile web add dsh-skills-nexus",
+          "install": "dsh-skills-nexus"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @master",
+      "verified_by": "ci-auto"
+    },
+    "xinstart-1/dsh-connect-meoo": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-connect-meoo",
+          "command": "dsh plugin --profile web add dsh-connect-meoo",
+          "install": "dsh-connect-meoo"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "xlennart/dsh-goal-mode-enhance": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:xlennart/dsh-goal-mode-enhance",
+          "command": "dsh plugin --profile web add github:xlennart/dsh-goal-mode-enhance",
+          "install": "https://github.com/xlennart/dsh-goal-mode-enhance"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "ylight-cpu/dsh-creative-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ylight-cpu/dsh-creative-studio",
+          "command": "dsh plugin --profile web add github:ylight-cpu/dsh-creative-studio",
+          "install": "https://github.com/ylight-cpu/dsh-creative-studio"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "yuanawaqwq/dsh-columbina-pet": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-columbina-pet",
+          "command": "dsh plugin --profile web add dsh-columbina-pet",
+          "install": "dsh-columbina-pet"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "yuanc1204/dsh-multi-selection-comments": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:yuanc1204/dsh-multi-selection-comments",
+          "command": "dsh plugin --profile web add github:yuanc1204/dsh-multi-selection-comments",
+          "install": "https://github.com/yuanc1204/dsh-multi-selection-comments"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "zdjmrq/dsh-pluginmanager": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zdjmrq/dsh-pluginmanager",
+          "command": "dsh plugin --profile web add github:zdjmrq/dsh-pluginmanager",
+          "install": "https://github.com/zdjmrq/dsh-pluginmanager"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "zhongyiss/body-of-fish": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zhongyiss/body-of-fish",
+          "command": "dsh plugin --profile web add github:zhongyiss/body-of-fish",
+          "install": "https://github.com/zhongyiss/body-of-fish"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "zhu755873628/intent-navigator-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zhu755873628/intent-navigator-dsh",
+          "command": "dsh plugin --profile web add github:zhu755873628/intent-navigator-dsh",
+          "install": "https://github.com/zhu755873628/intent-navigator-dsh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "0131kikimy/dsh-ima": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:0131kikimy/dsh-ima",
+          "command": "dsh plugin --profile web add github:0131kikimy/dsh-ima",
+          "install": "https://github.com/0131kikimy/dsh-ima"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "133563825as-ai/dsh-asmrone": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:133563825as-ai/dsh-asmrone",
+          "command": "dsh plugin --profile web add github:133563825as-ai/dsh-asmrone",
+          "install": "https://github.com/133563825as-ai/dsh-asmrone"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "1azybug/dsh-real-time-computer-use": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:1azybug/dsh-real-time-computer-use",
+          "command": "dsh plugin --profile web add github:1azybug/dsh-real-time-computer-use",
+          "install": "https://github.com/1azybug/dsh-real-time-computer-use"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "1jaron/dsh-tongji-agi": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-tongji-agi",
+          "command": "dsh plugin --profile web add dsh-tongji-agi",
+          "install": "dsh-tongji-agi"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @master",
+      "verified_by": "ci-auto"
+    },
+    "2307918080lmx-lang/dsh-cover-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:2307918080lmx-lang/dsh-cover-studio",
+          "command": "dsh plugin --profile web add github:2307918080lmx-lang/dsh-cover-studio",
+          "install": "https://github.com/2307918080lmx-lang/dsh-cover-studio"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "66rapper/dsh-model-auto-enricher": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:66rapper/dsh-model-auto-enricher",
+          "command": "dsh plugin --profile web add github:66rapper/dsh-model-auto-enricher",
+          "install": "https://github.com/66rapper/dsh-model-auto-enricher"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "745403lkh/dsh-ai-search": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-ai-search",
+          "command": "dsh plugin --profile web add dsh-ai-search",
+          "install": "dsh-ai-search"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "a1swg1159-pixel/dsh-arcaea-theme": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:a1swg1159-pixel/dsh-arcaea-theme",
+          "command": "dsh plugin --profile web add github:a1swg1159-pixel/dsh-arcaea-theme",
+          "install": "https://github.com/a1swg1159-pixel/dsh-arcaea-theme"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "a2d2-dev/dsh-workbuddy": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:a2d2-dev/dsh-workbuddy",
+          "command": "dsh plugin --profile web add github:a2d2-dev/dsh-workbuddy",
+          "install": "https://github.com/a2d2-dev/dsh-workbuddy"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "aadmin61-design/dsh-codex-dots": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:aadmin61-design/dsh-codex-dots",
+          "command": "dsh plugin --profile web add github:aadmin61-design/dsh-codex-dots",
+          "install": "https://github.com/aadmin61-design/dsh-codex-dots"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "across2005/harness-self-evolution-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:across2005/harness-self-evolution-plugin",
+          "command": "dsh plugin --profile web add github:across2005/harness-self-evolution-plugin",
+          "install": "https://github.com/across2005/harness-self-evolution-plugin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "adamplatin123/dsh-tonghuashun": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:adamplatin123/dsh-tonghuashun",
+          "command": "dsh plugin --profile web add github:adamplatin123/dsh-tonghuashun",
+          "install": "https://github.com/adamplatin123/dsh-tonghuashun"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @master",
+      "verified_by": "ci-auto"
+    },
+    "aki2253/sidor_ui": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:aki2253/sidor_ui",
+          "command": "dsh plugin --profile web add github:aki2253/sidor_ui",
+          "install": "https://github.com/aki2253/sidor_ui"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "akiyuki1130/dsh-ark-coding-provider": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:akiyuki1130/dsh-ark-coding-provider",
+          "command": "dsh plugin --profile web add github:akiyuki1130/dsh-ark-coding-provider",
+          "install": "https://github.com/akiyuki1130/dsh-ark-coding-provider"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "alantaoex/dsh-claw-mesh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:alantaoex/dsh-claw-mesh",
+          "command": "dsh plugin --profile web add github:alantaoex/dsh-claw-mesh",
+          "install": "https://github.com/alantaoex/dsh-claw-mesh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "altairpaca/dsh-computer-use-windows": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:altairpaca/dsh-computer-use-windows",
+          "command": "dsh plugin --profile web add github:altairpaca/dsh-computer-use-windows",
+          "install": "https://github.com/altairpaca/dsh-computer-use-windows"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "andrewhmir/dsh-btw": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:andrewhmir/dsh-btw",
+          "command": "dsh plugin --profile web add github:andrewhmir/dsh-btw",
+          "install": "https://github.com/andrewhmir/dsh-btw"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "angel2518975237/captain-ai": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:angel2518975237/captain-ai",
+          "command": "dsh plugin --profile web add github:angel2518975237/captain-ai",
+          "install": "https://github.com/angel2518975237/captain-ai"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "apageoflove/dsh-arena": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:apageoflove/dsh-arena",
+          "command": "dsh plugin --profile web add github:apageoflove/dsh-arena",
+          "install": "https://github.com/apageoflove/dsh-arena"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "arrosam/dsh-better-workspace-file-manager": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-better-workspace-file-manager",
+          "command": "dsh plugin --profile web add dsh-better-workspace-file-manager",
+          "install": "dsh-better-workspace-file-manager"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "ashenseeker/agent-web-sandbox": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ashenseeker/agent-web-sandbox",
+          "command": "dsh plugin --profile web add github:ashenseeker/agent-web-sandbox",
+          "install": "https://github.com/ashenseeker/agent-web-sandbox"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "ashenseeker/lit-report-ppt": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ashenseeker/lit-report-ppt",
+          "command": "dsh plugin --profile web add github:ashenseeker/lit-report-ppt",
+          "install": "https://github.com/ashenseeker/lit-report-ppt"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "ashuai/dsh-s2s": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ashuai/dsh-s2s",
+          "command": "dsh plugin --profile web add github:ashuai/dsh-s2s",
+          "install": "https://github.com/ashuai/dsh-s2s"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "aujurd22/dsh-flymemory": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-flymemory",
+          "command": "dsh plugin --profile web add dsh-flymemory",
+          "install": "dsh-flymemory"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "azazo1/dsh-fork-inbox-guard": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:azazo1/dsh-fork-inbox-guard",
+          "command": "dsh plugin --profile web add github:azazo1/dsh-fork-inbox-guard",
+          "install": "https://github.com/azazo1/dsh-fork-inbox-guard"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "baisama-cloud/dsh-composer-history": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:baisama-cloud/dsh-composer-history",
+          "command": "dsh plugin --profile web add github:baisama-cloud/dsh-composer-history",
+          "install": "https://github.com/baisama-cloud/dsh-composer-history"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "baisama-cloud/dsh-stt-input": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:baisama-cloud/dsh-stt-input",
+          "command": "dsh plugin --profile web add github:baisama-cloud/dsh-stt-input",
+          "install": "https://github.com/baisama-cloud/dsh-stt-input"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "baojingyu/dsh-superagent-multi-channel": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-superagent-multi-channel",
+          "command": "dsh plugin --profile web add dsh-superagent-multi-channel",
+          "install": "dsh-superagent-multi-channel"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "becomingw/dsh-orca": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:becomingw/dsh-orca",
+          "command": "dsh plugin --profile web add github:becomingw/dsh-orca",
+          "install": "https://github.com/becomingw/dsh-orca"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "beijingwahw/dsh-usage-ledger": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:beijingwahw/dsh-usage-ledger",
+          "command": "dsh plugin --profile web add github:beijingwahw/dsh-usage-ledger",
+          "install": "https://github.com/beijingwahw/dsh-usage-ledger"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "blaxel-ai/deepseek-harness-blaxel-sandbox": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@blaxel/dsh-sandbox",
+          "command": "dsh plugin --profile web add @blaxel/dsh-sandbox",
+          "install": "@blaxel/dsh-sandbox"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "blueziii/dsh-peakvalley": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:blueziii/dsh-peakvalley",
+          "command": "dsh plugin --profile web add github:blueziii/dsh-peakvalley",
+          "install": "https://github.com/blueziii/dsh-peakvalley"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "cai-mh/dsh-gpt-image": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:cai-mh/dsh-gpt-image",
+          "command": "dsh plugin --profile web add github:cai-mh/dsh-gpt-image",
+          "install": "https://github.com/cai-mh/dsh-gpt-image"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "chameleonn4/dsh-codex-history": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:chameleonn4/dsh-codex-history",
+          "command": "dsh plugin --profile web add github:chameleonn4/dsh-codex-history",
+          "install": "https://github.com/chameleonn4/dsh-codex-history"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "chanhaoxian5-ship-it/dsh-nature-skills": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:chanhaoxian5-ship-it/dsh-nature-skills",
+          "command": "dsh plugin --profile web add github:chanhaoxian5-ship-it/dsh-nature-skills",
+          "install": "https://github.com/chanhaoxian5-ship-it/dsh-nature-skills"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "chenyiming-aaa/dsh-github": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:chenyiming-aaa/dsh-github",
+          "command": "dsh plugin --profile web add github:chenyiming-aaa/dsh-github",
+          "install": "https://github.com/chenyiming-aaa/dsh-github"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "coderkuo/dsh-mcp-console": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-mcp-console",
+          "command": "dsh plugin --profile web add dsh-mcp-console",
+          "install": "dsh-mcp-console"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "cresbigb/dsh-oracle-gate": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-oracle-gate",
+          "command": "dsh plugin --profile web add dsh-oracle-gate",
+          "install": "dsh-oracle-gate"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "csahuan/dsh-klbq": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-klbq",
+          "command": "dsh plugin --profile web add dsh-klbq",
+          "install": "dsh-klbq"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "csuwzw/dsh-restart": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:csuwzw/dsh-restart",
+          "command": "dsh plugin --profile web add github:csuwzw/dsh-restart",
+          "install": "https://github.com/csuwzw/dsh-restart"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "cubiczns/dsh-plugin-paper-fetch": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:cubiczns/dsh-plugin-paper-fetch",
+          "command": "dsh plugin --profile web add github:cubiczns/dsh-plugin-paper-fetch",
+          "install": "https://github.com/cubiczns/dsh-plugin-paper-fetch"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "cyuni1996/dsh-watch": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:cyuni1996/dsh-watch",
+          "command": "dsh plugin --profile web add github:cyuni1996/dsh-watch",
+          "install": "https://github.com/cyuni1996/dsh-watch"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "czhmisaka/dsh-fleet": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:czhmisaka/dsh-fleet",
+          "command": "dsh plugin --profile web add github:czhmisaka/dsh-fleet",
+          "install": "https://github.com/czhmisaka/dsh-fleet"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "dalld/dsh-ssh-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-ssh-plugin",
+          "command": "dsh plugin --profile web add dsh-ssh-plugin",
+          "install": "dsh-ssh-plugin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "danshuyue/dsh-agent-soul": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-agent-soul",
+          "command": "dsh plugin --profile web add dsh-agent-soul",
+          "install": "dsh-agent-soul"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "daodishisha28/dsh-sidechat-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:daodishisha28/dsh-sidechat-plugin",
+          "command": "dsh plugin --profile web add github:daodishisha28/dsh-sidechat-plugin",
+          "install": "https://github.com/daodishisha28/dsh-sidechat-plugin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "ddndles/dsh-study": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ddndles/dsh-study",
+          "command": "dsh plugin --profile web add github:ddndles/dsh-study",
+          "install": "https://github.com/ddndles/dsh-study"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "dedseclemon/dsh-obsidian": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:dedseclemon/dsh-obsidian",
+          "command": "dsh plugin --profile web add github:dedseclemon/dsh-obsidian",
+          "install": "https://github.com/dedseclemon/dsh-obsidian"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "dehong831-arch/dsh-fish-home": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:dehong831-arch/dsh-fish-home",
+          "command": "dsh plugin --profile web add github:dehong831-arch/dsh-fish-home",
+          "install": "https://github.com/dehong831-arch/dsh-fish-home"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "developerdh/dsh-jenkins-panel": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:developerdh/dsh-jenkins-panel",
+          "command": "dsh plugin --profile web add github:developerdh/dsh-jenkins-panel",
+          "install": "https://github.com/developerdh/dsh-jenkins-panel"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "dhdbvcg/dsh-workbuddy-console": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-workbuddy-console",
+          "command": "dsh plugin --profile web add dsh-workbuddy-console",
+          "install": "dsh-workbuddy-console"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "linhuanwen/dsh-plugin-agent-browser": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:linhuanwen/dsh-plugin-agent-browser#path:/dist/dsh-plugin-agent-browser",
+          "install": "https://github.com/linhuanwen/dsh-plugin-agent-browser#path:/dist/dsh-plugin-agent-browser",
+          "command": "dsh plugin --profile web add \"github:linhuanwen/dsh-plugin-agent-browser#path:/dist/dsh-plugin-agent-browser\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@a982a23bf8f6",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "weiwenhao/dudu": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:weiwenhao/dudu#path:/host/dudu-plugin",
+          "install": "https://github.com/weiwenhao/dudu#path:/host/dudu-plugin",
+          "command": "dsh plugin --profile web add \"github:weiwenhao/dudu#path:/host/dudu-plugin\""
+        },
+        {
+          "profile": "web",
+          "source": "github:weiwenhao/dudu#path:/host/plugin",
+          "install": "https://github.com/weiwenhao/dudu#path:/host/plugin",
+          "command": "dsh plugin --profile web add \"github:weiwenhao/dudu#path:/host/plugin\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@becd18d8bf19",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "perrylink/dsh-os-suite": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-os-catalog",
+          "install": "dsh-os-catalog",
+          "command": "dsh plugin --profile web add dsh-os-catalog"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-os-eval",
+          "install": "dsh-os-eval",
+          "command": "dsh plugin --profile web add dsh-os-eval"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-os-lease",
+          "install": "dsh-os-lease",
+          "command": "dsh plugin --profile web add dsh-os-lease"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-os-quota",
+          "install": "dsh-os-quota",
+          "command": "dsh plugin --profile web add dsh-os-quota"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-os-registry",
+          "install": "dsh-os-registry",
+          "command": "dsh plugin --profile web add dsh-os-registry"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-os-trace",
+          "install": "dsh-os-trace",
+          "command": "dsh plugin --profile web add dsh-os-trace"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README + npm registry"
+    },
+    "atlasmarkz/loopprism": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:atlasmarkz/LoopPrism#path:/plugins/dsh-loopprism",
+          "install": "https://github.com/atlasmarkz/LoopPrism#path:/plugins/dsh-loopprism",
+          "command": "dsh plugin --profile web add \"github:atlasmarkz/LoopPrism#path:/plugins/dsh-loopprism\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@504ff0b163ae",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "converk/dsh-tweaks": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-tweaks-git-bash-terminal-tool",
+          "install": "dsh-tweaks-git-bash-terminal-tool",
+          "command": "dsh plugin --profile web add dsh-tweaks-git-bash-terminal-tool"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-tweaks-prompt-history",
+          "install": "dsh-tweaks-prompt-history",
+          "command": "dsh plugin --profile web add dsh-tweaks-prompt-history"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-tweaks-smart-list",
+          "install": "dsh-tweaks-smart-list",
+          "command": "dsh plugin --profile web add dsh-tweaks-smart-list"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zhangguitao666/meeting-suite": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zhangguitao666/meeting-suite#path:/dsh-plugin-meeting-minutes",
+          "install": "https://github.com/zhangguitao666/meeting-suite#path:/dsh-plugin-meeting-minutes",
+          "command": "dsh plugin --profile web add \"github:zhangguitao666/meeting-suite#path:/dsh-plugin-meeting-minutes\""
+        },
+        {
+          "profile": "web",
+          "source": "github:zhangguitao666/meeting-suite#path:/dsh-plugin-task-calendar",
+          "install": "https://github.com/zhangguitao666/meeting-suite#path:/dsh-plugin-task-calendar",
+          "command": "dsh plugin --profile web add \"github:zhangguitao666/meeting-suite#path:/dsh-plugin-task-calendar\""
+        },
+        {
+          "profile": "web",
+          "source": "github:zhangguitao666/meeting-suite#path:/meeting-suite",
+          "install": "https://github.com/zhangguitao666/meeting-suite#path:/meeting-suite",
+          "command": "dsh plugin --profile web add \"github:zhangguitao666/meeting-suite#path:/meeting-suite\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@08b8f2fdb6bf",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "yangjili6/video-understanding-kit": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:yangjili6/video-understanding-kit#path:/dsh-plugin",
+          "install": "https://github.com/yangjili6/video-understanding-kit#path:/dsh-plugin",
+          "command": "dsh plugin --profile web add \"github:yangjili6/video-understanding-kit#path:/dsh-plugin\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@06b3df7bf58f",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "asif2bd/jarvis-mission-control-deepseek": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Asif2BD/JARVIS-Mission-Control-DeepSeek#path:/integrations/deepseek-harness/dsh-plugin-mission-control",
+          "install": "https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek#path:/integrations/deepseek-harness/dsh-plugin-mission-control",
+          "command": "dsh plugin --profile web add \"github:Asif2BD/JARVIS-Mission-Control-DeepSeek#path:/integrations/deepseek-harness/dsh-plugin-mission-control\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@6d36641f08c6",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "dandanllab/dsh-plugin-team-group": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:DandanLLab/dsh-plugin-team-group",
+          "install": "https://github.com/DandanLLab/dsh-plugin-team-group",
+          "command": "dsh plugin --profile web add github:DandanLLab/dsh-plugin-team-group"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@89fa2ecdc191",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "eason-22/dsh-autorestart": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Eason-22/dsh-autorestart",
+          "install": "https://github.com/Eason-22/dsh-autorestart",
+          "command": "dsh plugin --profile web add github:Eason-22/dsh-autorestart"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@9ab329f5e061",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "domush/dsh-plugin-context-mode": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Domush/dsh-plugin-context-mode",
+          "install": "https://github.com/Domush/dsh-plugin-context-mode",
+          "command": "dsh plugin --profile web add github:Domush/dsh-plugin-context-mode"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@f2ae0b7a0dcf",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "echo-cry/dsh-intel-pulse": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Echo-Cry/dsh-intel-pulse",
+          "install": "https://github.com/Echo-Cry/dsh-intel-pulse",
+          "command": "dsh plugin --profile web add github:Echo-Cry/dsh-intel-pulse"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@a334921e59dd",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "elgwia-dsh/dsh-comfy-suite": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Elgwia-dsh/dsh-comfy-suite",
+          "install": "https://github.com/Elgwia-dsh/dsh-comfy-suite",
+          "command": "dsh plugin --profile web add github:Elgwia-dsh/dsh-comfy-suite"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@003c6cf4008f",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "fantasystarry/dsh-todo-time-log": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:FantasyStarry/dsh-todo-time-log",
+          "install": "https://github.com/FantasyStarry/dsh-todo-time-log",
+          "command": "dsh plugin --profile web add github:FantasyStarry/dsh-todo-time-log"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@1ed7c4644796",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "fleey/deepseek-harness-acp": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Fleey/deepseek-harness-acp",
+          "install": "https://github.com/Fleey/deepseek-harness-acp",
+          "command": "dsh plugin --profile web add github:Fleey/deepseek-harness-acp"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@f562687f27a8",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "fantety/dsh-pixel-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Fantety/dsh-pixel-studio",
+          "install": "https://github.com/Fantety/dsh-pixel-studio",
+          "command": "dsh plugin --profile web add github:Fantety/dsh-pixel-studio"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README + Git commit"
+    },
+    "easyhoov/deepseek-harness-desktop-windows": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-balance",
+          "install": "https://github.com/Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-balance",
+          "command": "dsh plugin --profile web add \"github:Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-balance\""
+        },
+        {
+          "profile": "web",
+          "source": "github:Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-file-changes",
+          "install": "https://github.com/Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-file-changes",
+          "command": "dsh plugin --profile web add \"github:Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-file-changes\""
+        },
+        {
+          "profile": "web",
+          "source": "github:Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-marketplace",
+          "install": "https://github.com/Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-marketplace",
+          "command": "dsh plugin --profile web add \"github:Easyhoov/deepseek-harness-desktop-windows#path:/plugins/desktop-marketplace\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@89bf6cc176d0",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "fleey/deepseek-harness-trae": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Fleey/deepseek-harness-trae",
+          "install": "https://github.com/Fleey/deepseek-harness-trae",
+          "command": "dsh plugin --profile web add github:Fleey/deepseek-harness-trae"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@2a5a55b3c63e",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "ghjivhidd/dsh-plugin-vm-sandbox": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:GHJIVHIDD/dsh-plugin-vm-sandbox",
+          "install": "https://github.com/GHJIVHIDD/dsh-plugin-vm-sandbox",
+          "command": "dsh plugin --profile web add github:GHJIVHIDD/dsh-plugin-vm-sandbox"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@36a490010520",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "geekricardo/claude-in-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:GeekRicardo/claude-in-dsh",
+          "install": "https://github.com/GeekRicardo/claude-in-dsh",
+          "command": "dsh plugin --profile web add github:GeekRicardo/claude-in-dsh"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@d6f1367fa0ba",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "ethanzhu-07/capability-value-test": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:EthanZhu-07/capability-value-test",
+          "install": "https://github.com/EthanZhu-07/capability-value-test",
+          "command": "dsh plugin --profile web add github:EthanZhu-07/capability-value-test"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-26",
+      "verified_via": "manifest@ece391d1da77",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
     }
   }
 }

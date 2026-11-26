@@ -1,0 +1,40 @@
+{
+  "full_name": "jonah791/dsh-agent-compact",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:34.258Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5cc69ecff0d7b78ce42f1db3c809c1b196982971519fc71352eaf5766cd6ae37",
+      "url": "https://github.com/jonah791/dsh-agent-compact/blob/61cdede3aa9acc760ce69742da196b53599df00e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jonah791/dsh-agent-compact",
+    "commit": "61cdede3aa9acc760ce69742da196b53599df00e",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-agent-compact",
+    "version": "0.3.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T07:21:44.076Z"
+}

@@ -1,0 +1,103 @@
+{
+  "full_name": "kirbylynx/dsh-hub",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:43.651Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44ce8848ef99cc1a4bdbe9b9c1f43dde778ec01236b39f22eba5d63a22a3f01b",
+      "url": "https://github.com/kirbylynx/dsh-hub/blob/27807fccf7d18272e80d8e0221a13aa030c5c9ae/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b13beaec95c94f0bf9386c15dc1636c9835dcfcba0c13225b5469647234a5544",
+      "url": "https://github.com/kirbylynx/dsh-hub/blob/27807fccf7d18272e80d8e0221a13aa030c5c9ae/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deploy/m3-observability/README.md",
+      "sha256": "086357cb3a6bf799d180236995be184adaced24d6187cd654b65cb8be374c3ee",
+      "url": "https://github.com/kirbylynx/dsh-hub/blob/27807fccf7d18272e80d8e0221a13aa030c5c9ae/deploy/m3-observability/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deploy/m3-recovery/README.md",
+      "sha256": "e8324534b373260e97971b29ae4672a23d2bdc2c65639da8475c69e96d0eae4d",
+      "url": "https://github.com/kirbylynx/dsh-hub/blob/27807fccf7d18272e80d8e0221a13aa030c5c9ae/deploy/m3-recovery/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deploy/hosted-dsh/README.md",
+      "sha256": "44f5d58f12fb1a35adc003fcfa964c42be94d4e8f3bdae964f477abdcd3779ce",
+      "url": "https://github.com/kirbylynx/dsh-hub/blob/27807fccf7d18272e80d8e0221a13aa030c5c9ae/deploy/hosted-dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-hub-plugin",
+      "version": "0.1.7",
+      "path": "packages/dsh-hub-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kirbylynx/dsh-hub",
+        "commit": "27807fccf7d18272e80d8e0221a13aa030c5c9ae",
+        "path": "packages/dsh-hub-plugin"
+      },
+      "manifestSha256": "4461fa9e3b97c57b3539ee4d084b5f286d4ee2d2c8470eb9cb2eae2275df0538",
+      "manifestUrl": "https://github.com/kirbylynx/dsh-hub/blob/27807fccf7d18272e80d8e0221a13aa030c5c9ae/packages/dsh-hub-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-hub-plugin",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1788668148,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kirbylynx/dsh-hub",
+              "commit": "27807fccf7d18272e80d8e0221a13aa030c5c9ae",
+              "path": "packages/dsh-hub-plugin"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kirbylynx/dsh-hub",
+    "commit": "27807fccf7d18272e80d8e0221a13aa030c5c9ae",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:15.284Z"
+}

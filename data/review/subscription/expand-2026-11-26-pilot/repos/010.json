@@ -1,0 +1,303 @@
+{
+  "full_name": "converk/dsh-tweaks",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:24.513Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b669ec89afde0cb0412fda6934d5e85119cd6cf6b9121a72494dbe126939ca20",
+      "url": "https://github.com/converk/dsh-tweaks/blob/b807001b97514497caac151986ec86dd6c0530e9/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "plugins/prompt-history/README.md",
+      "sha256": "921b4545e32e364412226b89c5d201f5d773c905c886dc8e1386be4ba8dded57",
+      "url": "https://github.com/converk/dsh-tweaks/blob/b807001b97514497caac151986ec86dd6c0530e9/plugins/prompt-history/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tweaks-prompt-history",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-tweaks-prompt-history",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/smart-list/README.md",
+      "sha256": "414c5d569c38b0c5e96752de0f23d4257bbff03a7f087dde5d135e8514a68241",
+      "url": "https://github.com/converk/dsh-tweaks/blob/b807001b97514497caac151986ec86dd6c0530e9/plugins/smart-list/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tweaks-smart-list",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-tweaks-smart-list",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/git-bash-terminal-tool/README.md",
+      "sha256": "d49f85b0e13cbcfd44614f0a2ecbe86b5ac6c7fe6e4161607af0e3693ff32da7",
+      "url": "https://github.com/converk/dsh-tweaks/blob/b807001b97514497caac151986ec86dd6c0530e9/plugins/git-bash-terminal-tool/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tweaks-git-bash-terminal-tool",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-tweaks-git-bash-terminal-tool",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tweaks-git-bash-terminal-tool",
+      "version": "0.5.1",
+      "path": "plugins/git-bash-terminal-tool",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/converk/dsh-tweaks",
+        "commit": "b807001b97514497caac151986ec86dd6c0530e9",
+        "path": "plugins/git-bash-terminal-tool"
+      },
+      "manifestSha256": "5f15d890fe6ef6b35f8afaf04737e00b61daf4637ab5d756673bfb78e884ed86",
+      "manifestUrl": "https://github.com/converk/dsh-tweaks/blob/b807001b97514497caac151986ec86dd6c0530e9/plugins/git-bash-terminal-tool/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tweaks-git-bash-terminal-tool",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792249519,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/converk/dsh-tweaks",
+              "commit": "b807001b97514497caac151986ec86dd6c0530e9",
+              "path": "plugins/git-bash-terminal-tool"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tweaks-prompt-history",
+      "version": "0.1.2",
+      "path": "plugins/prompt-history",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/converk/dsh-tweaks",
+        "commit": "b807001b97514497caac151986ec86dd6c0530e9",
+        "path": "plugins/prompt-history"
+      },
+      "manifestSha256": "c76496d28fec4c1fac2bc94709a1675c81622241afd01288189efe9d919cb016",
+      "manifestUrl": "https://github.com/converk/dsh-tweaks/blob/b807001b97514497caac151986ec86dd6c0530e9/plugins/prompt-history/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tweaks-prompt-history",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792249519,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/converk/dsh-tweaks",
+              "commit": "b807001b97514497caac151986ec86dd6c0530e9",
+              "path": "plugins/prompt-history"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tweaks-smart-list",
+      "version": "0.1.1",
+      "path": "plugins/smart-list",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/converk/dsh-tweaks",
+        "commit": "b807001b97514497caac151986ec86dd6c0530e9",
+        "path": "plugins/smart-list"
+      },
+      "manifestSha256": "d4f2716fdc394b2cd6b469e54caaca4d2ca255dfa27d12e3b6846719e8ff5d71",
+      "manifestUrl": "https://github.com/converk/dsh-tweaks/blob/b807001b97514497caac151986ec86dd6c0530e9/plugins/smart-list/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tweaks-smart-list",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1792249519,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/converk/dsh-tweaks",
+              "commit": "b807001b97514497caac151986ec86dd6c0530e9",
+              "path": "plugins/smart-list"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tweaks-prompt-history",
+      "origin": "npm",
+      "name": "dsh-tweaks-prompt-history",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tweaks-prompt-history",
+        "title": "dsh-tweaks-prompt-history",
+        "description": "在会话输入框中用 ↑/↓ 方向键召回本会话已发送的历史提示词",
+        "repository": {
+          "url": "https://github.com/converk/dsh-tweaks",
+          "directory": "plugins/prompt-history"
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792249626,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0998824611ffe87335497c00393da163bd4c9a125ef71cff757f2710c1cf0a01",
+      "evidence": [
+        {
+          "name": "dsh-tweaks-prompt-history",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-tweaks-prompt-history/-/dsh-tweaks-prompt-history-0.1.2.tgz",
+          "integrity": "sha512-DjuY0MG+6tG1x3Clx7ojOf6eiv48dJ7RNkYV1W6g9RFnDaHgWupgZS1NN4gI48tggLfHp0ojjMUrr0k/eC+TPg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-tweaks-smart-list",
+      "origin": "npm",
+      "name": "dsh-tweaks-smart-list",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tweaks-smart-list",
+        "title": "dsh-tweaks-smart-list",
+        "description": "在 DSH 输入框中自动续写列表：Shift+Enter 换行后自动补上下一个编号（1. → 2.）或项目符号",
+        "repository": {
+          "url": "https://github.com/converk/dsh-tweaks",
+          "directory": "plugins/smart-list"
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1792249649,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e7fae259cb0dcbcb85cf13ad112fa578bee4d868a3438b8fe86004c2bfbde203",
+      "evidence": [
+        {
+          "name": "dsh-tweaks-smart-list",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-tweaks-smart-list/-/dsh-tweaks-smart-list-0.1.1.tgz",
+          "integrity": "sha512-J03uZcb4KTQpXyn6ePh87U+ISPMleDnxFpVy9lrwPRVagVnRCAL3tJbdYLYJtvEIvW1gZbtOIQlBJWuYIbtd9w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-tweaks-git-bash-terminal-tool",
+      "origin": "npm",
+      "name": "dsh-tweaks-git-bash-terminal-tool",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tweaks-git-bash-terminal-tool",
+        "title": "dsh-tweaks-git-bash-terminal-tool",
+        "description": "可将 Windows 环境下的终端工具替换为 Git Bash",
+        "repository": {
+          "url": "https://github.com/converk/dsh-tweaks",
+          "directory": "plugins/git-bash-terminal-tool"
+        },
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792249626,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7fc67d9a904d12d5e0d4f17be9101adcb7c75e275c5074971cc1c4264c467c87",
+      "evidence": [
+        {
+          "name": "dsh-tweaks-git-bash-terminal-tool",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-tweaks-git-bash-terminal-tool/-/dsh-tweaks-git-bash-terminal-tool-0.5.1.tgz",
+          "integrity": "sha512-+dMOvjdBGagWx4ILtbym68NuZFhj6dCXD3GIIdrgWTDFsymvZrvSnEiR4yQ48u1GeM/GJ6jbd/+6ZbOSDV/Qjw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tweaks-prompt-history",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tweaks-smart-list",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tweaks-git-bash-terminal-tool",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/converk/dsh-tweaks",
+    "commit": "b807001b97514497caac151986ec86dd6c0530e9",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:21:51.971Z"
+}

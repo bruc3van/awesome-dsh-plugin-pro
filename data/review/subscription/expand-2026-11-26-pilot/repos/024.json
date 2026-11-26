@@ -1,0 +1,59 @@
+{
+  "full_name": "DEVbyQIN/dsh-plugin-kit",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:15.285Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "91ef7135d34c896414bdb7e8bf52e98c26d07933b6755dfa7e92210d4ea4b2f8",
+      "url": "https://github.com/DEVbyQIN/dsh-plugin-kit/blob/df421b3ef1c4d34da246b44a19243015056aff48/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "053441cd4b6e77befc1f0a1b5c35e0a108f603b24414c58b771673ce29861989",
+      "url": "https://github.com/DEVbyQIN/dsh-plugin-kit/blob/df421b3ef1c4d34da246b44a19243015056aff48/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "__PKG__",
+      "version": "0.1.0",
+      "path": "dsh-plugin-authoring/template",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DEVbyQIN/dsh-plugin-kit",
+        "commit": "df421b3ef1c4d34da246b44a19243015056aff48",
+        "path": "dsh-plugin-authoring/template"
+      },
+      "manifestSha256": "dd2a0d9d1757270d847172608191b41a3761641950e6d4eca51980560c5820a8",
+      "manifestUrl": "https://github.com/DEVbyQIN/dsh-plugin-kit/blob/df421b3ef1c4d34da246b44a19243015056aff48/dsh-plugin-authoring/template/package.json",
+      "status": "invalid_manifest",
+      "reason": "$.plugins[0].name must be a valid npm package name"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DEVbyQIN/dsh-plugin-kit",
+    "commit": "df421b3ef1c4d34da246b44a19243015056aff48",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T07:22:27.442Z"
+}

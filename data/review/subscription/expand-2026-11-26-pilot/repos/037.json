@@ -1,0 +1,69 @@
+{
+  "full_name": "GHJIVHIDD/dsh-plugin-vm-sandbox",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:40.171Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cc98442969fd784c369470f221c00bd0aff597e153e75a66a05717f03a6486ed",
+      "url": "https://github.com/GHJIVHIDD/dsh-plugin-vm-sandbox/blob/36a4900105202134bb36b9c2b755bb4d3c19c14e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-plugin-vm-sandbox",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GHJIVHIDD/dsh-plugin-vm-sandbox",
+        "commit": "36a4900105202134bb36b9c2b755bb4d3c19c14e"
+      },
+      "manifestSha256": "4bd53ca4a30b5bd07f906bbc7bd77e432b006203bacae84cea53f942dc6733be",
+      "manifestUrl": "https://github.com/GHJIVHIDD/dsh-plugin-vm-sandbox/blob/36a4900105202134bb36b9c2b755bb4d3c19c14e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-plugin-vm-sandbox",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1790771185,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GHJIVHIDD/dsh-plugin-vm-sandbox",
+              "commit": "36a4900105202134bb36b9c2b755bb4d3c19c14e"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GHJIVHIDD/dsh-plugin-vm-sandbox",
+    "commit": "36a4900105202134bb36b9c2b755bb4d3c19c14e",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:48.433Z"
+}

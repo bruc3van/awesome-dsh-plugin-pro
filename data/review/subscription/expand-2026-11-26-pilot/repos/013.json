@@ -1,0 +1,48 @@
+{
+  "full_name": "kelai141/dsh-host-web-compat",
+  "originalPosition": 13,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 13,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:39.201Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6cdd887040bd90a65c037a980d264d8eff072e0641780d80576f0ef5ba8a411c",
+      "url": "https://github.com/kelai141/dsh-host-web-compat/blob/26512689d4e44c5ec124a37b362e42463442b478/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "4cf1ba6ab5de761874fc5adfb89526de1f221db35a6e102edf9c0f9fc79a03e7",
+      "url": "https://github.com/kelai141/dsh-host-web-compat/blob/26512689d4e44c5ec124a37b362e42463442b478/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kelai141/dsh-host-web-compat",
+    "commit": "26512689d4e44c5ec124a37b362e42463442b478",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@dsh-android/dsh-host-web-compat",
+    "version": "0.1.14",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T07:21:51.601Z"
+}

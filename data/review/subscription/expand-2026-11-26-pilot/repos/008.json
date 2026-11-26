@@ -1,0 +1,59 @@
+{
+  "full_name": "ciceroyang/dsh-plugin-starter",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:16.962Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a135a7c954ce515e74443c7d246fab77289df7911f05b36d590f5b2098c584d6",
+      "url": "https://github.com/ciceroyang/dsh-plugin-starter/blob/a1a222e2c0b9882179e248e13a0d789a5af4cd2c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dfe0e8d3ca60ca38d1a560d5f12062d7a226cf3191bfaa614c86d123db0ebdac",
+      "url": "https://github.com/ciceroyang/dsh-plugin-starter/blob/a1a222e2c0b9882179e248e13a0d789a5af4cd2c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "{{PKG_NAME}}",
+      "version": "0.1.0",
+      "path": "templates",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ciceroyang/dsh-plugin-starter",
+        "commit": "a1a222e2c0b9882179e248e13a0d789a5af4cd2c",
+        "path": "templates"
+      },
+      "manifestSha256": "12d973817c6326f1edd8a0f94356119f90cae54443f44671e98b6423c2625dcb",
+      "manifestUrl": "https://github.com/ciceroyang/dsh-plugin-starter/blob/a1a222e2c0b9882179e248e13a0d789a5af4cd2c/templates/package.json",
+      "status": "invalid_manifest",
+      "reason": "$.plugins[0].name must be a valid npm package name"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ciceroyang/dsh-plugin-starter",
+    "commit": "a1a222e2c0b9882179e248e13a0d789a5af4cd2c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T07:21:34.256Z"
+}

@@ -1,0 +1,163 @@
+{
+  "full_name": "yanwenzong1-pixel/xinlan-dsh-plugin",
+  "originalPosition": 19,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:53.370Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3c9dc56fc20732ba7cd4b88d0cf0e61f76bfb3542009128ed2fbb89141b85b4b",
+      "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "194c9daf53ad5b5e9232f0bdab830af5f8f55b1e9564050738b17e8e7ee3bf9d",
+      "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-auto-dispatch-specification/README.md",
+      "sha256": "645cba51e486c3babcebd7ae92fbf08de6ea20cbc7a16832756116b7786b558d",
+      "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-auto-dispatch-specification/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-quick-append/README.md",
+      "sha256": "7f32b8a231a298285cdb1b8ad48930e7cecc6adcc8e8a684a85534a9bf8b50b1",
+      "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-quick-append/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-ptc-task/README.md",
+      "sha256": "f3367236a8254dc64205bb2b21eccc95f03fe70599534f289ba090d963797653",
+      "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-ptc-task/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-dialogue-alert-message/README.md",
+      "sha256": "62a64a2334d8e97be3800ebab2cf8e7d988fbd9e3dc4d8990d02ab2e720dbd16",
+      "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-dialogue-alert-message/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-anime-desktop-pet/README.md",
+      "sha256": "74f3aa9c009773cd9e2b8117a91e230ab0f49163771d66da3655da589cc39cb9",
+      "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-anime-desktop-pet/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-anime-desktop-pet",
+      "version": "0.9.8",
+      "path": "dsh-anime-desktop-pet",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin",
+        "commit": "d27c949ede79f990784b4359d310a7c38489004e",
+        "path": "dsh-anime-desktop-pet"
+      },
+      "manifestSha256": "099267edd528b725490d5dd45fbf38c67a66530623102de929054110f769e0d1",
+      "manifestUrl": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-anime-desktop-pet/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-dialogue-alert-message",
+      "version": "0.2.4",
+      "path": "dsh-dialogue-alert-message",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin",
+        "commit": "d27c949ede79f990784b4359d310a7c38489004e",
+        "path": "dsh-dialogue-alert-message"
+      },
+      "manifestSha256": "35950861b14a7320235c6180038cb6ee0f0ebdf1e4318756dba93079b802ad12",
+      "manifestUrl": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-dialogue-alert-message/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-ptc-task",
+      "version": "0.1.0",
+      "path": "dsh-ptc-task",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin",
+        "commit": "d27c949ede79f990784b4359d310a7c38489004e",
+        "path": "dsh-ptc-task"
+      },
+      "manifestSha256": "bbcdd94143efc6544aaf496aa45c9c2ae1b58d5647109a5aca29f63105d5fed3",
+      "manifestUrl": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-ptc-task/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-quick-append",
+      "version": "0.6.0",
+      "path": "dsh-quick-append",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin",
+        "commit": "d27c949ede79f990784b4359d310a7c38489004e",
+        "path": "dsh-quick-append"
+      },
+      "manifestSha256": "4ee27f547dc2c97d2c97ab529e74f00efe8d4f6d7434f191ed68c661076dbe79",
+      "manifestUrl": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-quick-append/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-relay-watch",
+      "version": "0.6.1",
+      "path": "dsh-relay-watch",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin",
+        "commit": "d27c949ede79f990784b4359d310a7c38489004e",
+        "path": "dsh-relay-watch"
+      },
+      "manifestSha256": "08fc164efe48759b2d49a4f2db295ae77956cdafae313ffd4fc1d8eacf1e713a",
+      "manifestUrl": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin/blob/d27c949ede79f990784b4359d310a7c38489004e/dsh-relay-watch/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin",
+    "commit": "d27c949ede79f990784b4359d310a7c38489004e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T07:22:23.058Z"
+}

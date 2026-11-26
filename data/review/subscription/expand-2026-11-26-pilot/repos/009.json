@@ -1,0 +1,79 @@
+{
+  "full_name": "coderPerseus/dsh-hub",
+  "originalPosition": 9,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 9,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:18.478Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "96a165e422dc6f2c7bf31ccf1de9094c53b585ace8317ac6f495ecde339ba43c",
+      "url": "https://github.com/coderPerseus/dsh-hub/blob/2d9991aace97a054a36ea5fe61e2d5e2747e628b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "cf26a9528fc16912489e4394f237d4aecf6f8c1232651bf9894b0b51bdaab87b",
+      "url": "https://github.com/coderPerseus/dsh-hub/blob/2d9991aace97a054a36ea5fe61e2d5e2747e628b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dshhubs/plugin-search",
+      "version": "0.2.0",
+      "path": "packages/dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/coderPerseus/dsh-hub",
+        "commit": "2d9991aace97a054a36ea5fe61e2d5e2747e628b",
+        "path": "packages/dsh-plugin"
+      },
+      "manifestSha256": "47fcb66751d5ed76f1cea3c445ed2af2357584aa063d341eed546cd2e99e8cbd",
+      "manifestUrl": "https://github.com/coderPerseus/dsh-hub/blob/2d9991aace97a054a36ea5fe61e2d5e2747e628b/packages/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || 0.2.2-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dshhubs/plugin-search",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795572357,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/coderPerseus/dsh-hub",
+              "commit": "2d9991aace97a054a36ea5fe61e2d5e2747e628b",
+              "path": "packages/dsh-plugin"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || 0.2.2-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/coderPerseus/dsh-hub",
+    "commit": "2d9991aace97a054a36ea5fe61e2d5e2747e628b",
+    "releaseTags": 129,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:21:53.369Z"
+}

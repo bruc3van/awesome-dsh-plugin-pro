@@ -1,0 +1,157 @@
+{
+  "full_name": "EthanZhu-07/capability-value-test",
+  "originalPosition": 31,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 31,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:28.708Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97fff4707e0cd325df21910f39ed67f3496d83488fe7b78e4a281933e31eff5c",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b5a2e5ebc374f6c86251a668ae8f5adb4e534bc1e47d4df7a7091eaa70a523ad",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-TW.md",
+      "sha256": "4884f63376c58a678ce0cee2a835de87cf38d3247b907d157bab9e0d5bfaffe5",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.zh-TW.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "3e28dede2c189b9a688e9fd610574f704dd1923c0db41a0e684351a600ddc3e1",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "5cb4eb6dc59a29436a740416c7e23770ca016ae5086a9649fdfd6aa1d5a911db",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "d0d6176d4ce99a8e9f6ec2cfe1fa66057803c79e73c23014d00ead302832f8f6",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.hi.md",
+      "sha256": "3908e9d4512f3393b177ed5df35f334ee3792b147c9c26ca41d7515e707d32d8",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "90cedf3d4d036ebc54257b691b2c40226031de9264691c298db38d8ff2770dd1",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "8ef346fd7aaa361a22b949563d8ce9118148fbca4dc4c996ac8e32c0179234a3",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "107da526bbc4b9ed902d12ba5849981fd881ef80fe90c7f50418cdcecc580f03",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "663b40bc00a633008e5b5d29c843cbe6024fb57f044755f9343efc02b7f2df95",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ar.md",
+      "sha256": "34d2d323ede673ae8ef56098c963b1ccb1c9558d762a30cc7167974824dae7f9",
+      "url": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/README.ar.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-capability-value-test",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EthanZhu-07/capability-value-test",
+        "commit": "ece391d1da77f90dfa3ba956be6ce43cca7558f8"
+      },
+      "manifestSha256": "9c5890249d1e8ac9ac985cf238427e8523315881206451672c27560dc77c8ea2",
+      "manifestUrl": "https://github.com/EthanZhu-07/capability-value-test/blob/ece391d1da77f90dfa3ba956be6ce43cca7558f8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-capability-value-test",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795274163,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EthanZhu-07/capability-value-test",
+              "commit": "ece391d1da77f90dfa3ba956be6ce43cca7558f8"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EthanZhu-07/capability-value-test",
+    "commit": "ece391d1da77f90dfa3ba956be6ce43cca7558f8",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:54.889Z"
+}

@@ -1,0 +1,50 @@
+{
+  "full_name": "jerryxff26-alt/delivery-board",
+  "originalPosition": 11,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 11,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:33.079Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aed0fd3decd6c2fdb21d239dca57226234dbfc2071d1449927f8fca07463c88b",
+      "url": "https://github.com/jerryxff26-alt/delivery-board/blob/31cdb0ee12a2e34ffe682beea1bb3e7d5ddda446/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "affe3099552029523fbd8c5386777f061ce92368db7903405023f9bc59834bfd",
+      "url": "https://github.com/jerryxff26-alt/delivery-board/blob/31cdb0ee12a2e34ffe682beea1bb3e7d5ddda446/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jerryxff26-alt/delivery-board",
+    "commit": "31cdb0ee12a2e34ffe682beea1bb3e7d5ddda446",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-delivery-board",
+    "version": "0.5.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=20"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T07:21:46.908Z"
+}

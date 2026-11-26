@@ -1,0 +1,66 @@
+{
+  "full_name": "Fleey/deepseek-harness-trae",
+  "originalPosition": 35,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 35,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:38.215Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "553f2b6465337f693057c5202a6fa493614ca4ec933834b950424cee8b63156e",
+      "url": "https://github.com/Fleey/deepseek-harness-trae/blob/2a5a55b3c63e8559662993331c32743e1f3e2def/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-trae2api",
+      "version": "0.12.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fleey/deepseek-harness-trae",
+        "commit": "2a5a55b3c63e8559662993331c32743e1f3e2def"
+      },
+      "manifestSha256": "2a2a534e0e4f98ab53aa0d2de5437bf70f9837dab2d393d3b9e91c9d0d53f79c",
+      "manifestUrl": "https://github.com/Fleey/deepseek-harness-trae/blob/2a5a55b3c63e8559662993331c32743e1f3e2def/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-trae2api",
+        "versions": [
+          {
+            "version": "0.12.1",
+            "publishTimestamp": 1793955732,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fleey/deepseek-harness-trae",
+              "commit": "2a5a55b3c63e8559662993331c32743e1f3e2def"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fleey/deepseek-harness-trae",
+    "commit": "2a5a55b3c63e8559662993331c32743e1f3e2def",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:46.405Z"
+}

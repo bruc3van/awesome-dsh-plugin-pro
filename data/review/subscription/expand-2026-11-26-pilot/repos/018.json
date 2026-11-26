@@ -1,0 +1,84 @@
+{
+  "full_name": "yangjili6/video-understanding-kit",
+  "originalPosition": 18,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:51.973Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "36c449e88662b93653f25744d2b188380e313a8031c39118ae92a036521627a5",
+      "url": "https://github.com/yangjili6/video-understanding-kit/blob/06b3df7bf58fd5a842697096ad8e6898c8207728/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "sha256": "32e19a06c6fde83cec82a4aefca332472b6c4b6a2d77abb13a03fd4db18a9eee",
+      "url": "https://github.com/yangjili6/video-understanding-kit/blob/06b3df7bf58fd5a842697096ad8e6898c8207728/dsh-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "8f563bb976add01e7379c7a65b7a3621699cdeb4d6d79ca4b7b467ee44ded392",
+      "url": "https://github.com/yangjili6/video-understanding-kit/blob/06b3df7bf58fd5a842697096ad8e6898c8207728/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video-kit",
+      "version": "0.3.2",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yangjili6/video-understanding-kit",
+        "commit": "06b3df7bf58fd5a842697096ad8e6898c8207728",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "04ac1d42ee2abe2e76d0564516a63077ba3a057f007f804ea54e3b89a9e93534",
+      "manifestUrl": "https://github.com/yangjili6/video-understanding-kit/blob/06b3df7bf58fd5a842697096ad8e6898c8207728/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-video-kit",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1794948920,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yangjili6/video-understanding-kit",
+              "commit": "06b3df7bf58fd5a842697096ad8e6898c8207728",
+              "path": "dsh-plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yangjili6/video-understanding-kit",
+    "commit": "06b3df7bf58fd5a842697096ad8e6898c8207728",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:13.492Z"
+}

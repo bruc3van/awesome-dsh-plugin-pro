@@ -1,0 +1,66 @@
+{
+  "full_name": "GeekRicardo/claude-in-dsh",
+  "originalPosition": 38,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 38,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:42.927Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "71f960b4975ad494dc47d6e9dac36b4703f69be233114bc0114725733841a7bf",
+      "url": "https://github.com/GeekRicardo/claude-in-dsh/blob/d6f1367fa0baaaefa8f657229163786c86bb00f9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "claude-in-dsh",
+      "version": "1.13.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GeekRicardo/claude-in-dsh",
+        "commit": "d6f1367fa0baaaefa8f657229163786c86bb00f9"
+      },
+      "manifestSha256": "0386f45d00d272b63902820317b3d121fa8745543067684d93a8fb139eb68a01",
+      "manifestUrl": "https://github.com/GeekRicardo/claude-in-dsh/blob/d6f1367fa0baaaefa8f657229163786c86bb00f9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "claude-in-dsh",
+        "versions": [
+          {
+            "version": "1.13.0",
+            "publishTimestamp": 1794388596,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GeekRicardo/claude-in-dsh",
+              "commit": "d6f1367fa0baaaefa8f657229163786c86bb00f9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GeekRicardo/claude-in-dsh",
+    "commit": "d6f1367fa0baaaefa8f657229163786c86bb00f9",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:54.107Z"
+}

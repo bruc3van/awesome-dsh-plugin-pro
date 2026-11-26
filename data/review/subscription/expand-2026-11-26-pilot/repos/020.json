@@ -1,0 +1,134 @@
+{
+  "full_name": "zhangguitao666/meeting-suite",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 20,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:54.232Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0077ac33840d8642223216a37facfa1e26a338f9c401aee7298ec4e8558e34d4",
+      "url": "https://github.com/zhangguitao666/meeting-suite/blob/08b8f2fdb6bf57236f14945e9043ec4106500e01/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-meeting-minutes",
+      "version": "1.1.0",
+      "path": "dsh-plugin-meeting-minutes",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhangguitao666/meeting-suite",
+        "commit": "08b8f2fdb6bf57236f14945e9043ec4106500e01",
+        "path": "dsh-plugin-meeting-minutes"
+      },
+      "manifestSha256": "869ccc3161d843d0fb73770f013a0bc88709ff131b7b9c042999e9ec0f6a03b4",
+      "manifestUrl": "https://github.com/zhangguitao666/meeting-suite/blob/08b8f2fdb6bf57236f14945e9043ec4106500e01/dsh-plugin-meeting-minutes/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-meeting-minutes",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1792661410,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhangguitao666/meeting-suite",
+              "commit": "08b8f2fdb6bf57236f14945e9043ec4106500e01",
+              "path": "dsh-plugin-meeting-minutes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-task-calendar",
+      "version": "1.0.0",
+      "path": "dsh-plugin-task-calendar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhangguitao666/meeting-suite",
+        "commit": "08b8f2fdb6bf57236f14945e9043ec4106500e01",
+        "path": "dsh-plugin-task-calendar"
+      },
+      "manifestSha256": "909d26dfbea2ef92ee8c75ae59298f40248e9942cd2d1f8dc2935c035c6cb359",
+      "manifestUrl": "https://github.com/zhangguitao666/meeting-suite/blob/08b8f2fdb6bf57236f14945e9043ec4106500e01/dsh-plugin-task-calendar/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-task-calendar",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792661410,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhangguitao666/meeting-suite",
+              "commit": "08b8f2fdb6bf57236f14945e9043ec4106500e01",
+              "path": "dsh-plugin-task-calendar"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@zhangguitao666/meeting-suite",
+      "version": "1.1.0",
+      "path": "meeting-suite",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhangguitao666/meeting-suite",
+        "commit": "08b8f2fdb6bf57236f14945e9043ec4106500e01",
+        "path": "meeting-suite"
+      },
+      "manifestSha256": "e3ca132f631db2df817e4397a8ee4e4bebb797a44109f6cb1630a9c13d15c6ea",
+      "manifestUrl": "https://github.com/zhangguitao666/meeting-suite/blob/08b8f2fdb6bf57236f14945e9043ec4106500e01/meeting-suite/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@zhangguitao666/meeting-suite",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1792661410,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhangguitao666/meeting-suite",
+              "commit": "08b8f2fdb6bf57236f14945e9043ec4106500e01",
+              "path": "meeting-suite"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhangguitao666/meeting-suite",
+    "commit": "08b8f2fdb6bf57236f14945e9043ec4106500e01",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:11.100Z"
+}

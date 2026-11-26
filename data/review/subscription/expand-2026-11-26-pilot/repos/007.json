@@ -1,0 +1,95 @@
+{
+  "full_name": "atlasmarkz/LoopPrism",
+  "originalPosition": 7,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 7,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:15.171Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7e48b778c8078e74660829d050e89212d20619ef3349cc5a259433c868eb59a2",
+      "url": "https://github.com/atlasmarkz/LoopPrism/blob/504ff0b163ae6dafd118e72090b0fb46060d43bc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "879ad1044fefbf75c965c4cae4434e1ba9d94694ce5b3ad8de42b532cdc1e70a",
+      "url": "https://github.com/atlasmarkz/LoopPrism/blob/504ff0b163ae6dafd118e72090b0fb46060d43bc/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "desktop/README.md",
+      "sha256": "9b457d7131ec49a873b2d7266acd75eaff1e8c3bc81205b76aebc5b9c58a87ec",
+      "url": "https://github.com/atlasmarkz/LoopPrism/blob/504ff0b163ae6dafd118e72090b0fb46060d43bc/desktop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "npm/README.md",
+      "sha256": "6fea46573877ae2a1b55e18d1b1790507db1033d5327d92637b1169b30149f89",
+      "url": "https://github.com/atlasmarkz/LoopPrism/blob/504ff0b163ae6dafd118e72090b0fb46060d43bc/npm/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-loopprism",
+      "version": "0.1.0",
+      "path": "plugins/dsh-loopprism",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/atlasmarkz/LoopPrism",
+        "commit": "504ff0b163ae6dafd118e72090b0fb46060d43bc",
+        "path": "plugins/dsh-loopprism"
+      },
+      "manifestSha256": "80c7c973ebcd558450cf27b50eb1e08fd49707b02bdf651d86342865d3d960d9",
+      "manifestUrl": "https://github.com/atlasmarkz/LoopPrism/blob/504ff0b163ae6dafd118e72090b0fb46060d43bc/plugins/dsh-loopprism/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-loopprism",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795002458,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/atlasmarkz/LoopPrism",
+              "commit": "504ff0b163ae6dafd118e72090b0fb46060d43bc",
+              "path": "plugins/dsh-loopprism"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/atlasmarkz/LoopPrism",
+    "commit": "504ff0b163ae6dafd118e72090b0fb46060d43bc",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:21:43.649Z"
+}

@@ -1,0 +1,48 @@
+{
+  "full_name": "niushuanan/dsh-chat-migration",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:44.078Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3b95b6b1d685bf8eff4d097d8435035268964840ee1c93685d1bfaf831edccc4",
+      "url": "https://github.com/niushuanan/dsh-chat-migration/blob/6c0e1724f321b611adce04ebe44adc10dca42eac/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a80250ec6773dadecd6c749ccfe648fda44af5f4d1b4f4f6af7e6559db67b1ea",
+      "url": "https://github.com/niushuanan/dsh-chat-migration/blob/6c0e1724f321b611adce04ebe44adc10dca42eac/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/niushuanan/dsh-chat-migration",
+    "commit": "6c0e1724f321b611adce04ebe44adc10dca42eac",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T07:21:54.231Z"
+}

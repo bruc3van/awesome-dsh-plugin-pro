@@ -1,0 +1,69 @@
+{
+  "full_name": "Elgwia-dsh/dsh-comfy-suite",
+  "originalPosition": 30,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 30,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:28.496Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "869f343dc18549b40dbc63aeddaa2bd2111854dbb04a7ff77e695f4f11e4672a",
+      "url": "https://github.com/Elgwia-dsh/dsh-comfy-suite/blob/003c6cf4008f6dacb36a97b8aa6b857310e9b208/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comfy-suite",
+      "version": "1.6.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Elgwia-dsh/dsh-comfy-suite",
+        "commit": "003c6cf4008f6dacb36a97b8aa6b857310e9b208"
+      },
+      "manifestSha256": "ccf6c9dcea010c26f14d1f5838b0a07f19ea695d9053ec858a9c2b466e10568f",
+      "manifestUrl": "https://github.com/Elgwia-dsh/dsh-comfy-suite/blob/003c6cf4008f6dacb36a97b8aa6b857310e9b208/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-comfy-suite",
+        "versions": [
+          {
+            "version": "1.6.4",
+            "publishTimestamp": 1795597288,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Elgwia-dsh/dsh-comfy-suite",
+              "commit": "003c6cf4008f6dacb36a97b8aa6b857310e9b208"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Elgwia-dsh/dsh-comfy-suite",
+    "commit": "003c6cf4008f6dacb36a97b8aa6b857310e9b208",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:38.213Z"
+}

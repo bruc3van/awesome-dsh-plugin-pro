@@ -1,0 +1,111 @@
+{
+  "full_name": "wuliLiuyue/wxpilot",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T07:21:51.603Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d29ecc7453eef0b6fc5b243440d5a6a7c3d3c6ea11e107972ce023778686468e",
+      "url": "https://github.com/wuliLiuyue/wxpilot/blob/6165ac44a8c63e8e01f505df25683f9abf426139/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ddce0571bf4eab221e18dc5868d97077169c6b8430932308cbc17e271845cd37",
+      "url": "https://github.com/wuliLiuyue/wxpilot/blob/6165ac44a8c63e8e01f505df25683f9abf426139/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/mcp/README.md",
+      "sha256": "bae3debcf93a7dd76c4ec0838d654fcd7597acf961358e88193425563e6ff250",
+      "url": "https://github.com/wuliLiuyue/wxpilot/blob/6165ac44a8c63e8e01f505df25683f9abf426139/packages/mcp/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/mcp/README.zh-CN.md",
+      "sha256": "f29bf3dcf789f1eabe889e218f3546752a328939475548caa92ee6fee847ac11",
+      "url": "https://github.com/wuliLiuyue/wxpilot/blob/6165ac44a8c63e8e01f505df25683f9abf426139/packages/mcp/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/dsh/README.md",
+      "sha256": "30f116ac16adb48516ae9105a95c823a611061b09029ae122460c826686f8687",
+      "url": "https://github.com/wuliLiuyue/wxpilot/blob/6165ac44a8c63e8e01f505df25683f9abf426139/packages/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/dsh/README.zh-CN.md",
+      "sha256": "b74dc948593a636cea0a375b4bfd118103e1244a0756fdb34e3ce6588996ea7e",
+      "url": "https://github.com/wuliLiuyue/wxpilot/blob/6165ac44a8c63e8e01f505df25683f9abf426139/packages/dsh/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wxpilot/dsh",
+      "version": "0.2.0",
+      "path": "packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wuliLiuyue/wxpilot",
+        "commit": "6165ac44a8c63e8e01f505df25683f9abf426139",
+        "path": "packages/dsh"
+      },
+      "manifestSha256": "1fd9541d457205c2960811619f9fab9b6c0600c356ffce6deb5f42c1bd9a9806",
+      "manifestUrl": "https://github.com/wuliLiuyue/wxpilot/blob/6165ac44a8c63e8e01f505df25683f9abf426139/packages/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@wxpilot/dsh",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787371626,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wuliLiuyue/wxpilot",
+              "commit": "6165ac44a8c63e8e01f505df25683f9abf426139",
+              "path": "packages/dsh"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wuliLiuyue/wxpilot",
+    "commit": "6165ac44a8c63e8e01f505df25683f9abf426139",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:25.532Z"
+}

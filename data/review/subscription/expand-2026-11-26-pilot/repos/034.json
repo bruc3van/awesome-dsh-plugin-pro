@@ -1,0 +1,66 @@
+{
+  "full_name": "Fleey/deepseek-harness-acp",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T07:22:33.889Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "41620909eff6308edc4b0972dd6f164a60ec85e57da2d07a87ff2876b74515ba",
+      "url": "https://github.com/Fleey/deepseek-harness-acp/blob/f562687f27a84b4a28d9fd26387a999d7de13bf3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tauri-acp",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fleey/deepseek-harness-acp",
+        "commit": "f562687f27a84b4a28d9fd26387a999d7de13bf3"
+      },
+      "manifestSha256": "317fb5a03adca23e738a07c7ee522fcc8bb8e2d9a361687622c15fcd96d720bf",
+      "manifestUrl": "https://github.com/Fleey/deepseek-harness-acp/blob/f562687f27a84b4a28d9fd26387a999d7de13bf3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tauri-acp",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1793693609,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fleey/deepseek-harness-acp",
+              "commit": "f562687f27a84b4a28d9fd26387a999d7de13bf3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fleey/deepseek-harness-acp",
+    "commit": "f562687f27a84b4a28d9fd26387a999d7de13bf3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T07:22:40.170Z"
+}
