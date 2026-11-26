@@ -244624,6 +244624,20 @@
       "verified_date": "2026-11-26",
       "verified_via": "manifest@ece391d1da77",
       "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "officesdk/officesdk-plugin-dsh": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:@officesdk/officesdk-plugin-dsh",
+          "command": "dsh plugin --profile desktop add @officesdk/officesdk-plugin-dsh",
+          "install": "@officesdk/officesdk-plugin-dsh"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
     }
   }
 }
