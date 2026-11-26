@@ -1,0 +1,7608 @@
+[
+ {
+  "full_name": "01Virex/dsh-status-rotator",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.975,
+  "path": "agreement"
+ },
+ {
+  "full_name": "1306693274/dsh-knowledge-base",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "1624318455/dsh-plugin-tts",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "1692775560/dsh-Mimir-Academic-research",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "1731988818/dsh-lan-remote",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "19949522365-dot/dsh-netease-player",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.6950000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "2-qing/dsh-aftermath",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.525,
+  "path": "agreement"
+ },
+ {
+  "full_name": "20100803Kyle/dsh-cookie-guard-mac",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.5,
+  "path": "agreement"
+ },
+ {
+  "full_name": "2332239652/dsh-bilibili-retrieval",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.7050000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "2507483326/dsh-eteams",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "2710586329/dsh-qq",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "439436269-ctrl/dsh-session-path",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "43aquarius/luna-sincerity-lens",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "6shenhonghong9/dsh-startup-screen",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "7dgroup-ai/dsh-skill-7d-code-reviewer",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "904915452/dsh-editor-launcher",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.76,
+  "path": "agreement"
+ },
+ {
+  "full_name": "9087/dsh-diff-approval",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "a1exsun/dsh-council",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.8500000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "a86582751/dsh-nexttavern",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified",
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.475,
+  "path": "agreement"
+ },
+ {
+  "full_name": "a903067276-rgb/dsh-file-mentions",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "aaa8leitingpifa/dsh-daily-push",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "abbaababa/dsh-workplan",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "adithyanraj03/dsh-blender-preview",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.685,
+  "path": "agreement"
+ },
+ {
+  "full_name": "adsorgcn/dsh-plugin-seo",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.5900000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "AIcivilization/dsh-model",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "AK-blank/dsh-plugin-auto-answer",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.885,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Alail691/dsh-plugins-in-settings",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.4,
+  "path": "agreement"
+ },
+ {
+  "full_name": "alchaincyf/huashu-design",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.895,
+  "path": "agreement"
+ },
+ {
+  "full_name": "aleksvega/dsh-tg-bridge",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "AlfredChaos/dsh-usage-panel",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Alice-Marx/dsh-model-router",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.71,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Alice39s/agent-stash",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.62,
+  "path": "agreement"
+ },
+ {
+  "full_name": "AllDurham/foreman-dsh",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Allenyou1126/dsh-mobile-notify",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.575,
+  "path": "agreement"
+ },
+ {
+  "full_name": "alpacachen/dsh-kanban",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.73,
+  "path": "agreement"
+ },
+ {
+  "full_name": "amlyczz/dsh-agy-link",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "AndVoido/dsh-deepseek-exporter",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8300000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Andy-scy/harmonyos-ui-icons",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "angelky7/dsh-browser-control",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Angelyeye/dsh-cost-tracker",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "anhaoXie/dsh-plugin-obsidian",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Anionex/dsh-turn-rewind",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.91,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Anionex/dsh-vision-toolkit",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Anlerway/dsh-session-navigator",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.835,
+  "path": "agreement"
+ },
+ {
+  "full_name": "anweat/dsh-browser",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "anysearch-team/anysearch-dsh",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.9099999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "appthin/dsh-mcp-manager-plus",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ArvinQi/dsh-mcp",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "asdasdsdsdasdasdasd/dsh-computer-use",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "AskTheWay/dsh-auto-memory",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "AskTheWay/dsh-jev-interceptor",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Asuta/dsh-cdx-plus",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.65,
+  "path": "agreement"
+ },
+ {
+  "full_name": "atorber/dsh-connect-godagent",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.815,
+  "path": "agreement"
+ },
+ {
+  "full_name": "awa-123-cw/dsh-ui-polish",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "awaYFawa/dsh-plugins-folders",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Axiaohungry/dsh-llm-workbuddy",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.9199999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Bai-Ziyi/dsh-proxy-control",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "baisama-cloud/dsh-custom-brand",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "baldovinmarques391-design/dsh-compact",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "BananaSoldier01/dsh-tidychat",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ben7am1n/dsh-claude-marketplace",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "bfzdhld/dsh-allinstar",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.475,
+  "path": "agreement"
+ },
+ {
+  "full_name": "BH8GCJ/dsh-xp-luna",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9450000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "bingshang04/history-axis",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "BioAIEvolu/dsh-md-studio",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "BiXianGoGo/dsh-ESPemotion-pool",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.605,
+  "path": "agreement"
+ },
+ {
+  "full_name": "blackCatYoung/dsh-night-museum",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "bloodarea/dsh-agent-team-presets",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "bowenliang123/dsh-context",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.6,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Britneycode/dsh-fish-soul",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.76,
+  "path": "agreement"
+ },
+ {
+  "full_name": "bruc3van/bruce-md2word",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "bruc3van/dsh-market-pro",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.98,
+  "path": "agreement"
+ },
+ {
+  "full_name": "btspoony/mstar-harness",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "buger-gif/cyber-im-avatar",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.935,
+  "path": "agreement"
+ },
+ {
+  "full_name": "bychv/dsh-preset-enhance",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.8300000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "c1overzz/dsh-bili-scroll",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "callaumyan-design/dshx-loop-guard",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "callaumyan-design/dshx-multi-ask",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.45,
+  "path": "agreement"
+ },
+ {
+  "full_name": "CanglongCl/dsh-web-review",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.525,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Cassius0924/dsh-usage-dashboard",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.865,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ccbili30-collab/dsh-plugin-rollback-whale",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.63,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ccccwwwxx/dsh-gui-control",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.905,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ccch1mneyyy/dsh-TUI",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.735,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cccjdbvn/dsh-qq-bridge",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Cerbur/clutch-dsh",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.69,
+  "path": "agreement"
+ },
+ {
+  "full_name": "CharlesKeeling65/dsh-photo-workbench",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ChenJun25/dsh-console-hm",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cherrchen/dsh-plugin-multi-root-workspace",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.745,
+  "path": "agreement"
+ },
+ {
+  "full_name": "CheshireJCat/blender",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.86,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ChinXavier/dsh-gui-agent",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "chromoany/dsh-notify-me",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "chumingjun/dsh-harness-one",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cirelir/dsh-change-review",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ckanner/dsh-plugin-chatgpt",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Clarklevis1995/dsh-plugin-mobile-gateway",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Clizo1209/dsh-playwright-browser",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cloader/dsh-taskboard",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.6799999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cmukanisa/dsh-remote-ssh",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.6000000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cocofhu/anime-find",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.6799999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "codetime-dev/dsh-codetime",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.5549999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Contexera/dsh-agent-team",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "copylee711/dsh-office",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8300000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "CSAHuan/dsh-klbq",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "CyberFox-lab/dsh-rss",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cycocyco/alice-memory-llm",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cyh3436332528/dsh-float-chat",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.895,
+  "path": "agreement"
+ },
+ {
+  "full_name": "cypher-yht/dsh-plugins-market-board",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "czcdr/dsh-plugin-rea",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "d-dev0101/open-sea-skin",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Da0Mine/dsh-talk-map",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.525,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dannndouglas/dsh-antigravity-acp",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dat-lequoc/dsh-opinionated-subagent",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.72,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DayuanJiang/next-ai-draw-io",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dbcaskml183-dotcom/dsh-prelude",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.775,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DDDFXYqiming/dsh-vision-skill",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DDDMUC/dsh-delete-session",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DDDMUC/dsh-delete-turn",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.7250000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DeepLifeStudio/dsh-lark-studio",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DevinMx520/dsh-selection-translator",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dhicoc/dsh-chinese-traditional-wisdom-skill",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dhicoc/dsh-reverse-skill",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.64,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dhr2333/dsh-ledger",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dickpy/dsh-imagegen",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.965,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dingminhua/dsh-connect-qoder",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dingminhua/dsh-connect-trae",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dingminhua/dsh-connect-workbuddy",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.765,
+  "path": "agreement"
+ },
+ {
+  "full_name": "diqierjia/StrataGate-AgentMemory",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DmitPerson42/dsh-yandex-browser",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DNAlec/dsh-auto-approve",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.9099999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DONGBIN007/dsh-sidebar-restart",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dream-num/dsh-univer-office",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DreamAlone666/dsh-gemini-native",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.765,
+  "path": "agreement"
+ },
+ {
+  "full_name": "drscrewdriver/dsh-context-compression-improved",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "drscrewdriver/dsh-input-traffic",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.71,
+  "path": "agreement"
+ },
+ {
+  "full_name": "drscrewdriver/dsh-search-index",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.55,
+  "path": "agreement"
+ },
+ {
+  "full_name": "drscrewdriver/dsh-thinking-levels",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.73,
+  "path": "agreement"
+ },
+ {
+  "full_name": "drscrewdriver/dsh-tidy-display",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "DrWang1/dsh-plugin-mode-cycle",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dsh-plugin-lab/dsh-workbuddy-bridge",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dsh-publish/dsh-pair-quick",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.625,
+  "path": "agreement"
+ },
+ {
+  "full_name": "dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Duskriver/dsh-opencode-go",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.55,
+  "path": "agreement"
+ },
+ {
+  "full_name": "EasonMWS/dsh-plugin-health",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.895,
+  "path": "agreement"
+ },
+ {
+  "full_name": "elves-ai/dsh-web-search-firecrawl",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "elysia395/dsh-wallpaper-engine",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.975,
+  "path": "agreement"
+ },
+ {
+  "full_name": "enkolesnikov/MaxDSHBot",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "EricWang1358/dsh-web-studyhub",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.9099999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "EternalNight996/memory-eternal",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d",
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "EthanYoQ/Invoice-Downloader",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.86,
+  "path": "agreement"
+ },
+ {
+  "full_name": "fan56/dsh-dcp",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "fandc520/dsh-comfyui",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "FanFFF/dsh-qqbot-plus",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "FeatherHunter/dsh-im-companion",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "FeatherHunter/dsh-mattpocock-skills-deck",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.5,
+  "path": "agreement"
+ },
+ {
+  "full_name": "FeatherHunter/dsh-prompt",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.83,
+  "path": "agreement"
+ },
+ {
+  "full_name": "feely0208/dsh-tool-schema-lint",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.76,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Fei-Craft/DS-Bot",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "feigo313/dsh-structured",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.8500000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ffyfox/dsh-desktop-linux",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.47,
+  "path": "agreement"
+ },
+ {
+  "full_name": "fish9988/dsh-supermemory",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "FishBottle7/opencode2dsh",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.81,
+  "path": "agreement"
+ },
+ {
+  "full_name": "fjzzwxp/dsh-mnemosyne-memory",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.9099999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "flizzywine/dsh-tavern",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8400000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "flymysql/dsh-remote",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Flyvhidbwo/dsh-vision-proxy",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "fourzkw/dsh-drawai",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "franksong2702/dsh-codex-connect",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.765,
+  "path": "agreement"
+ },
+ {
+  "full_name": "fredgeoO/dsh-screenshot",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.685,
+  "path": "agreement"
+ },
+ {
+  "full_name": "fsrmqi/dsh-research-kit",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "fujingzhai/youxia-dsh-plugins",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback",
+   "featured"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "functy23/dsh-mcp-studio",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.755,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Funny1Potato/dsh-outsourcing-expert",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "FuRongJun-1999/dsh-memory",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified",
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.685,
+  "path": "agreement"
+ },
+ {
+  "full_name": "futuretea/dsh-project-models",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "FylarOpen/dsh-fylar-office-editor",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.91,
+  "path": "agreement"
+ },
+ {
+  "full_name": "gabrielbav/dsh-workspace",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.66,
+  "path": "agreement"
+ },
+ {
+  "full_name": "gaolvsuan/dsh-badge",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "gaor0605-kq/dsh-dialogue-mindmap",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.635,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Genesis-ly/dsh-auto-review-fix",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "gengwg/dsh-agent-router",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "gezi-wen/sage-mem",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GGboya/dsh-paper-reader",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "gh-gongjin/dsh-plugin-appearance",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Goku-Raku/dsh-appearance-studio",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.965,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GooDAnDReaDY/dsh-agent-loop-guard",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GooDAnDReaDY/dsh-cron",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GooDAnDReaDY/dsh-goal",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GooDAnDReaDY/dsh-messenger-gateway",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GooDAnDReaDY/dsh-subscriptions",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GooDAnDReaDY/dsh-voice",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.745,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GraySilver/dsh-evolve-modes",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Greatbeing/Aesthetics-OS",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.76,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GreenLiuRK/dsh-session-trash",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "GULI-lab/DSH-element-source",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.775,
+  "path": "agreement"
+ },
+ {
+  "full_name": "gxpppp/dsh-search-mcp",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.9099999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "gychen-NJU/dsh-game-daily",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Han-1413141/dsh-cost-meter",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.76,
+  "path": "agreement"
+ },
+ {
+  "full_name": "HanaAyane/dsh-reasoning-effort",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.845,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hanhan9999999999999999999/dsh-memory-nebula",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hanjixin/dsh-finance-plugins",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.865,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hanshenmesen/dsh-turn-delete",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.73,
+  "path": "agreement"
+ },
+ {
+  "full_name": "HaoyanZhang123/dsh-plugin-control-your-capture",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.755,
+  "path": "agreement"
+ },
+ {
+  "full_name": "harryopo/dsh-cloud-workspaces",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "harveyzhang/dsh-appearance-media",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "havingautism/dsh-deepresearch",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "HCY7757/dsh-lexiforge",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hesiwen66/OctoOps",
+  "current_category": "multi-agents",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "HildebrandYu/dsh-session-chains",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.82,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hongyue0721/dsh-kimicode-swarm",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "horrorguitarmutsumi/dsh-github-first-search",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.6599999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hoshinoick811/dsh-tool-ssh",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "houyanchao/dsh-open-model",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "HsiangNianian/dsh-auto-continue",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.815,
+  "path": "agreement"
+ },
+ {
+  "full_name": "HuaLQIn/dsh-sidebar-annotate",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.855,
+  "path": "agreement"
+ },
+ {
+  "full_name": "huangziyuan-general/dsh-novel-forge",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.64,
+  "path": "agreement"
+ },
+ {
+  "full_name": "huihui3488/dsh-native-toast",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.625,
+  "path": "agreement"
+ },
+ {
+  "full_name": "huiliyi37/dsh-tianshu-tui",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hunmer/dsh-team-control",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.905,
+  "path": "agreement"
+ },
+ {
+  "full_name": "huuthuan-nguyen/dsh-knowcode",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.845,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hyqhyq3/dsh-mcp-manager",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "hyzyn/dsh-plugin-kit",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.74,
+  "path": "agreement"
+ },
+ {
+  "full_name": "i-curve/dsh-omega",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "IceApriler/dsh-remote-mobile",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.86,
+  "path": "agreement"
+ },
+ {
+  "full_name": "icrefin/dsh-mcp-mgr",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8300000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "iiiweiii/dsh-guardwall",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.69,
+  "path": "agreement"
+ },
+ {
+  "full_name": "iJetLi/dsh-providers-hub",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "InariNGT-Ofiicial/dsh-bili-humanism",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.5,
+  "path": "agreement"
+ },
+ {
+  "full_name": "IRdotAI/dsh-studio",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "jackfengzhao/dsh-session-inject",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "JasonChenccc/dsh-relaydeck",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.735,
+  "path": "agreement"
+ },
+ {
+  "full_name": "JayCRL/MobileVC",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Jeremyly/dsh-plugin-offline-sync",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.575,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Jestions-dev/dsh-download-server",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.565,
+  "path": "agreement"
+ },
+ {
+  "full_name": "JialaoLiu/dsh-baton",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.865,
+  "path": "agreement"
+ },
+ {
+  "full_name": "jiangliuhong/dsh-gpt-oauth",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.755,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Jing494/dsh-mcp-hub",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "jingyi0605/Codingns4DSH",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.68,
+  "path": "agreement"
+ },
+ {
+  "full_name": "jjjhrl/dsh-session-trash",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.74,
+  "path": "agreement"
+ },
+ {
+  "full_name": "joeseesun/qiaomu-rss-dsh",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "JohnXu22786/session-export",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "JOJO-Adam/dsh-memory",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.905,
+  "path": "agreement"
+ },
+ {
+  "full_name": "jonah791/dsh-agent-evolve",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "joxmx/dsh-usage",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "jozhn/dsh-webmate",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.81,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Junlet/dsh-turn-prompt",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Jyleaves/dsh-win-bash-fix",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kaecho/dsh-nezha",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kagurazakayashi/dsh-delete-session",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "KAIROSLLL/dsh-users-open-source",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.665,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Kanadego/dsh-heartbeat",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.65,
+  "path": "agreement"
+ },
+ {
+  "full_name": "KannaKuron/dsh-gitbash-shell",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "KannaKuron/dsh-ide-git",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kanneiren/dsh-network-settings",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.66,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kazari-qwp/dsh-temporary-messages",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kelunisi/dsh-neocortex",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.93,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kendu76/dsh-music-player",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.735,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kenneth-kun/dsh-one-click-launcher",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.45,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kenryu42/cc-safety-net",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kenz1117/dsh-engram",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Kevoyuan/prism-latex",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.6399999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "keyblues/dsh-icp",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kingOfSoySauce/dsh-liang-skin",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kingsznhone/dsh-plugin-orca-pod",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.665,
+  "path": "agreement"
+ },
+ {
+  "full_name": "klarkxy/dsh-plugins",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.6799999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "klaus-2/dsh-redline",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.5800000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Komorebi-Nine/dsh-inline-pi-agent",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.665,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kunkundi/crossdesk",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "kw78/dsh-office-tools",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Kxiaoguai3/dsh-visual-safety-control",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.8300000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "KyoMio/dsh-zen-remote",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "l246804/dsh-pstack",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.905,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lain-in-coding/dsh-grok-search",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d",
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lamost423/dsh-maze",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.72,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lanlandeli/dsh-usage-stats",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "LanluZ/dsh-marisa-ui-plugin",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "LaoYueHanNi/dsh-token-usage",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lasdrder0705/dsh-pro-vision",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.81,
+  "path": "agreement"
+ },
+ {
+  "full_name": "LayneChai/superpowers-dsh",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lcestou/dsh-oh-my-claude",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lcx19970714/dsh-git-panel",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lee2277-t/dsh-repo-audit",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lee2277-t/dsh-resolve",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lee2277-t/pbip-forge",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.62,
+  "path": "agreement"
+ },
+ {
+  "full_name": "LeeRolling/dsh-boot-suite",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "LemRic1117/dsh-download-dashboard",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lennon-lylt/dsh-agnes",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.965,
+  "path": "agreement"
+ },
+ {
+  "full_name": "leoan698-tom/dsh-sessivra",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.6499999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Leonlee114514/dsh-local-trim",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lexleizou/dsh-codex-inline",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.8500000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lhh010/dsh-paste-input",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lhjlol/dsh-whale-avatar",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lhuans/dsh-genui",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.885,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lhy723/dsh-neu-theme",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.975,
+  "path": "agreement"
+ },
+ {
+  "full_name": "liangdabiao/dsh-a-stock-analysis",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.71,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lightsifter/sift-light",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.6499999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "liguobao/ds-harness-remote",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lijiaqi-AI-Product-Manager/dsh-agent-compare",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "limbo947/dsh-recall-plugin",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.8500000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Limsanity/dsh-video-summary",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "linhut/gongwen-skill",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.855,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lion-1209/aurora-studio",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "LiranHuang/dsh-roleplay-engine",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.855,
+  "path": "agreement"
+ },
+ {
+  "full_name": "literaf/dsh-ai4scholar",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.935,
+  "path": "agreement"
+ },
+ {
+  "full_name": "liujiangnanchenjbguo/dsh-gufa-code",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.74,
+  "path": "agreement"
+ },
+ {
+  "full_name": "liujiesmart/dsh-kiro-proxy",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "liustack/modlens",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "liustack/modsearch",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "liuyun847/dsh-client-ui-peak-valley",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lixiuxiu559/AgentForge",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.525,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lizi600jin/dsh-ensp",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.835,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lmzhen/dsh-evolution",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ln123456789100ln-collab/dsh-remote-kit",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Lng-ux/dsh-nebula-mind",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "loaf/dsh-resource-radar",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lof6yo/dsh-opencode-live",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Longxiangjunlin/dsh-endfield-theme",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lsit27/dsh-footer-buttons",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lukeinx/cursor-to-dsh",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lusblead/dsh-Kingdom",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "luxus0946/dsh-uuyc",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "LXinH3RT/dsh-auto-relay",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lxj5820/dsh-boot-animation",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "lxl8182/dsh-session-ops",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ma-pony/deepspider",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.865,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MacilyDots/dsh-mobile-access",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Mamihlapinatapaiooo/dsh-plugin-inventory-groups",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.765,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Manbaout-08/dsh-purge",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.65,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MarioZZJ/cc-notify-hooks",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Mars-Sea/dsh-commandcode-provider",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.92,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Max-Samson/dsh-usage-chart",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.885,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Maybe-Zero-not-one/dsh-daily-backup",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.525,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Meqjn-Ousapva/pyforai-dsh-plugin",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "mexiaosqwq/dsh-web-mobile",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Miaotofu01/Study-Mate",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.905,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MichengAI/dsh-agency-agents",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.74,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MichengAI/dsh-archive-manager",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MichengAI/dsh-automation",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MichengAI/dsh-code-review",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.9199999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MichengAI/dsh-codex-ui",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MichengAI/dsh-im-connect",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MichengAI/dsh-pua",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.865,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MichengAI/dsh-simplify",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.855,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Microqian2th/dsh-codex-effort-slider",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.71,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MindLab-Research/dsh-generative-ui",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MingGH/dsh-pin-top",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "mingzeng21/dsh-obsidian",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.625,
+  "path": "agreement"
+ },
+ {
+  "full_name": "miorin-chan/dsh-composer-queue-indicator",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.965,
+  "path": "agreement"
+ },
+ {
+  "full_name": "miorin-chan/dsh-plugin-panel-toggle",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "mirakyux/dsh-gensokyo-status",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MochiNek0/dsh-web-search-free",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MoFeng2223/dsh-claude-provider",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MoonGlassKitty/dsh-tailscale-sync",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "morehao/dsh-github-trending",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.72,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MrWeiCodes/dsh-loop-guard",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MrXiongBear/dsh-settings-hub",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "mrzturn/dsh-switchman",
+  "current_category": "multi-agents",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.605,
+  "path": "agreement"
+ },
+ {
+  "full_name": "my-dsh-plugin/dsh-skill-manager",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.8600000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "MYCF711/dsh-session-superagent",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "mycherish/dsh-deepseek-companion",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.52,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Nagi-ovo/dsh-ads",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.7250000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Nagi-ovo/dsh-visualize",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.6699999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "NanmiCoder/dsh-agent-teams",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.985,
+  "path": "agreement"
+ },
+ {
+  "full_name": "nanrener/dsh-plugin-qiyao",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "NeevCloudAI/dsh-neev-sandbox",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "nexu-io/openmotion",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "NightPainters/DSH-Ling",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.8300000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "nineberg/dsh-plugin-stock",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.775,
+  "path": "agreement"
+ },
+ {
+  "full_name": "NoneadChina/dsh-nonead-ursim",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.575,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Nono-neko/dsh-browser",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.6950000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Nwflower/dsh-chat-import",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.5,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Nwflower/dsh-claude-style",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "oioiphainon/dsh-widget",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "oliblue-evan/dsh-liao-models",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-dev/dsh-annotation",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-dev/DSH-better-sidebar",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.8400000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-dev/dsh-data-agent",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.855,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-dev/dsh-ego-browser",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.9199999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-dev/dsh-genui",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-dev/dsh-llm-fallbacks",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.7150000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-dev/dsh-mnemon",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.81,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-dev/dsh-plugin-skills",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "omdsh-plugins/registry",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "oneclickvirt/oneclickvirt",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "onion716/Copyright-Risk-Detector",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "op7418/dsh-guizang-design",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.93,
+  "path": "agreement"
+ },
+ {
+  "full_name": "oriliz/agent-crop",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.7150000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Oscar-Williams/dsh-deepcanary",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ouli-1242/dsh-plugin-tool-management",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.6799999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "pan17/dsh-wechat",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.975,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ParticleLight/dsh-all-usage",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PC2005-cloud/dsh-pet",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "peijiping/dsh-plugin-zotero",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.635,
+  "path": "agreement"
+ },
+ {
+  "full_name": "peiyucn/dsh-sparrow",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.5800000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PensiveFei/dsh-voice-scribe",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-auto-review",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-click",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-data-quality",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.91,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-dmp",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.645,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-doublecheck",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.625,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-emergency-plan",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.575,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-famling",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-industry-research",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-lsp-actions",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-mask",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-mcp-panel",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-memento",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.895,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-os",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.71,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-permission-rules",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.675,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-plugin-guide",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-qms-capa",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-research-report",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PerryLink/dsh-session-sync",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Phant0Meow/dsh-meow-memory",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.905,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Picea-Q/dsh-preset-Prism",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "pinion05/dsh-local-wispr",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.845,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PKUfudawei/dsh-capability-menu",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "platonai/dsh-browser4",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.885,
+  "path": "agreement"
+ },
+ {
+  "full_name": "poco-ai/agentero-dsh-plugin",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.98,
+  "path": "agreement"
+ },
+ {
+  "full_name": "PolinniZhong/dsh-omi-voice",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Pondsi/dsh-diwen",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.565,
+  "path": "agreement"
+ },
+ {
+  "full_name": "q253595422/dsh-imagegen-video",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "qianxi-00/dsh-paper-workbench",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "qishuilalala/dsh-voice-mode",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "qkycir-123/dsh-run2skill",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.675,
+  "path": "agreement"
+ },
+ {
+  "full_name": "R1145141919810/dsh-vulnclaw-pentest",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.6599999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ratio-dd/dsh-compaction-instruct",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "reactive-resume/reactive-resume",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.535,
+  "path": "agreement"
+ },
+ {
+  "full_name": "regrevia/Envoy",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.76,
+  "path": "agreement"
+ },
+ {
+  "full_name": "reliable-ly0411/babeldoc-pdf-translate",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "RestRegular/dsh-memory",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ReWebaiyu/dsh-qq",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Rianico/dsh-better-edit",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.63,
+  "path": "agreement"
+ },
+ {
+  "full_name": "roost-qq/dsh-roost",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Roxy-gl373/dsh-desktop",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.64,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Ryan-G-Rolling/dsh-memory-feeder",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "rzcdz/dsh-sidebar-pins-persist",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sagirimo/BioDSH",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.535,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SAI-h/dsh-mood-dj",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.6,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SAOS-3624/dsh-see-now",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.7150000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SAOS-3624/dsh-video-storyboard",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sayzwx/dsh-custom-model",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.81,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sazzadurrahmaan/dsh-telegram",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Scorp1o117/dsh-soul-md",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.91,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SeekAfterSeek/dsh-chrome-only",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.7649999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Senguk520/dsh-multitask",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "shanliuling/dsh-image-gen",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "shaobeichen/dsh-pocket",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sharewiner/dsh-model-management",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ShawThua/dsh-web-updater",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.61,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ShikangPang/jizuo-creator-account",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "shiliman/dsh-bppv",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.45,
+  "path": "agreement"
+ },
+ {
+  "full_name": "siweina/dsh-novel-writer",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.625,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sixtysevenlf/dsh-blender-plugin",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "drift-30d",
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sjh9714/dsh-win32",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SJTUMalPan/dsh-usage-dashboard",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "skillre/dsh-bundle-vision",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.865,
+  "path": "agreement"
+ },
+ {
+  "full_name": "skyrocks/dsh-news-digest",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SkyWingDN/dsh-fairy-zzz",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "slow-stack/mneme",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Small-tailqwq/dsh-deep-whale",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.985,
+  "path": "agreement"
+ },
+ {
+  "full_name": "snnh/dsh-llm-service-lite",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "snow-The/dsh-plugin-guide",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "songoao25/dsh-bottom-info-bar",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "songoao25/dsh-chatgpt-sub",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.78,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sparkwj/dsh-magpie-loader",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.375,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ssstry2635/sry-research-atlas",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified",
+   "post-recalibration"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-calendar",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-cite",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "drift-30d",
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-dream",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.92,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-email",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "drift-30d",
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-ffmpeg",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.965,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-hyperframes",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-ppt",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.8799999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-remotion",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d",
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "STARDUSTLC666/dsh-sql",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SteelUnion/dsh-confirm-gate",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.955,
+  "path": "agreement"
+ },
+ {
+  "full_name": "stevenwang15/dsh-taste-skill",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.83,
+  "path": "agreement"
+ },
+ {
+  "full_name": "stvlynn/dsh.fish",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sueccku/dsh-plugin-wps-office-next",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "suifei/dsh-ai-team",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "suj1e/dsh-anvil",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.685,
+  "path": "agreement"
+ },
+ {
+  "full_name": "summer1238/dsh-remote-web-gateway",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sunchendd/dsh-config-export",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.71,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SunlitCrack/dsh-compaction-threshold",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "suntianc/dsh-antigravity-auth",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "sunwindy91/spa-api-extract",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.845,
+  "path": "agreement"
+ },
+ {
+  "full_name": "superltmajor-pixel/dsh-structured-output",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "SuperWheel/dsh-cliworker-now",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.72,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Sur-Cai/macos-computer-use-kit",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Sutera-Diffusus/dsh-whale-musume",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "syncable-dev/dsh-plugin-memtrace",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.575,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Tabbit-Browser/dsh-tabbit",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.875,
+  "path": "agreement"
+ },
+ {
+  "full_name": "tao1020/dsh-chrome-use",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "tencent-connect/dsh-qqbot",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified",
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "terry2010/dsh-rss-news-zhuikan",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "TGYD-helige/dsh-plugins",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.605,
+  "path": "agreement"
+ },
+ {
+  "full_name": "thegabopacheco-sudo/dsh-plugin-clipboard-history",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ThinkofRain1213/dsh-smooth-cursor-patched",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "thissensen/dsh-agent-studio",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "thuCGRA/dsh-quick-invoke",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.635,
+  "path": "agreement"
+ },
+ {
+  "full_name": "TianzeLuo/dsh-btw-sidebar",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.67,
+  "path": "agreement"
+ },
+ {
+  "full_name": "titanwings/dsh-automation",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.9450000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "titanwings/dsh-better-browser",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Tkingxiao/dsh-memu-memory",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "TMAX-2026/dsh-sidebar-menu-order",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.97,
+  "path": "agreement"
+ },
+ {
+  "full_name": "toby-bridges/api-relay-audit",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "TOBYCAI/dsh-sessions-manager",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.815,
+  "path": "agreement"
+ },
+ {
+  "full_name": "tonyzdev/dsh-session-messaging",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.625,
+  "path": "agreement"
+ },
+ {
+  "full_name": "toolclub/dsh-agent-team-gui",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Totoro-qaq/dsh-plugin-bridge",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Tranquillitatis-Lab/dsh-live-compact",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "triagmas/smart-dictation-dsh",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.755,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Tsurukyuha/dsh-mihealthlink",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "tuojc/dsh-browser-firefox",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "tw93/Mole",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "featured",
+   "presentation-reviewed",
+   "suspect"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.98,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-cake-recipe",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.6,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-clamp",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.375,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-conflict-deal",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.4,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-flower-color",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.45,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-hair-dryer",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-image-uckkk",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-item-route",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.865,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-jordan",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.35,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-json5",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.935,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-midpoint",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-mortgage-equal-installment",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.9450000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-mover-pick",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.53,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-muscle-diet",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-pet-trip",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8600000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-portugal",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-pose-pick",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.885,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-protein-intake",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-saving-goal",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.935,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-swapcase",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "uckkk/dsh-trim",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.525,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Ultroncn/dsh-archived-chats",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "UncleK/dsh-think-translate",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8200000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "universe-st/dsh-game-material-master",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "UnknowCao/dsh-dock",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "suspect"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "unStone/dsh-xray-plugin",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.8400000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "V1ki/dsh-plugin-subscriptions",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.91,
+  "path": "agreement"
+ },
+ {
+  "full_name": "v587d/capital-generation",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.85,
+  "path": "agreement"
+ },
+ {
+  "full_name": "vEvergarden/dsh-plugin-token-audit",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.7350000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Vhow123/dsh-drawcraft",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.91,
+  "path": "agreement"
+ },
+ {
+  "full_name": "vibe-any/dsh-plugin-save-token",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.925,
+  "path": "agreement"
+ },
+ {
+  "full_name": "violetdream/dsh-officecli",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8500000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "vlln/whale-girl",
+  "current_category": "ui-experience",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "weft-audit/dsh-dod",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.8049999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "weijiafu14/pi2dsh",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.775,
+  "path": "agreement"
+ },
+ {
+  "full_name": "weiweisudo/juzi-remote-shell",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.625,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Wenaixi/dsh-plugin-dev",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Wenaixi/dsh-superpower",
+  "current_category": "multi-agents",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.6599999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "wenbin-wb/dsh-bridge",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.98,
+  "path": "agreement"
+ },
+ {
+  "full_name": "WhitePlusMS/dsh-git-graph",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.945,
+  "path": "agreement"
+ },
+ {
+  "full_name": "whoisDDD/dsh-approval-notify",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.8500000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "winston-zhang-orz/dsh-voice-push-to-talk",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.74,
+  "path": "agreement"
+ },
+ {
+  "full_name": "WJXAICT/dsh-model-latency-badge",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.8500000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "wqty123/dsh-browser",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.815,
+  "path": "agreement"
+ },
+ {
+  "full_name": "WSL043/dsh-codex-subscription",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.7250000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "wxy123-ctrl/dsh-desktop-notify",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.92,
+  "path": "agreement"
+ },
+ {
+  "full_name": "WYH66666666/DSH-Transparent-UI-Plugin",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "x2it/dsh-memory-panel",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xbzbing/dsh-git-panel",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.9450000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "XDTrees/dsh-xdpool",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8999999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Xenia0922/dsh-opencode-go-usage",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xiaijianghe/dsh-serial-monitor",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xiajiajun516/dsh-config-manager",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.66,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xiaoso456/dsh-workflow-lite",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xiaoyuqinA/dsh-vercel-agent-browser",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.8,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xiaoyuyu6420/dsh-backup",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.6799999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "XiaoZheBrother/dsh-agent-growth",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.5650000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "XiaoZheBrother/dsh-reaction-studio",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xinchen03/minta",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.9,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xingxingbk-git/dsh-deepseek-chat",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.42500000000000004,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xinspark/dsh-win-pwsh7",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.88,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xiseliuli/dsh-as-mcp",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.83,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xmanrui/dsh-im",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.99,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xrn1997/dsh-session-delete",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.7,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xsllo425/dsh-agent-menu",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xsy822/dsh-emotion-memory",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.64,
+  "path": "agreement"
+ },
+ {
+  "full_name": "xuzhougeng/ScientificFigureLibrary",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.6,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Y1X1n/dsh-prompt-optimizer",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.64,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yan-Zero/dsh-codex",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.845,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yangdongzhen590/dsh-knj-prompts",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.64,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yanggaihao5-sys/dsh-artifact-stamp",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.685,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yanggaihao5-sys/dsh-sci-figures",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.7350000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yangjili6/video-understanding-kit",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yangyongzhen/dsh-notify",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "YaoleWu/dsh-fleet-audit",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.87,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Ycet/dsh-my-plugins",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.79,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Ychris12138/dsh-usage-stats",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.725,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yembors64632/dsh-workbuddy-connect",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.8200000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yhx19960607-max/dsh-memory-nebula",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.675,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yitian951012/dsh-project-dev-flow",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.775,
+  "path": "agreement"
+ },
+ {
+  "full_name": "youbaiyun/dsh-browser-crossplatform",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.9299999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "youdotcom-oss/agent-skills",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": 0.75,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ysr666/dsh-vision-router",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.915,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yu-tao-Li/dsh-computer-use-win",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.895,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yuanstarstar/dsh-scribble",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.94,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yum-wu/dsh-plugin-codemode",
+  "current_category": "developer-tools",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.69,
+  "path": "agreement"
+ },
+ {
+  "full_name": "YunaAloft/dsh-rtk-workbench",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.675,
+  "path": "agreement"
+ },
+ {
+  "full_name": "YunzhouLi-hub/dsh-overall-mcp",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.635,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yurzi/dsh-pdf-mineru",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.825,
+  "path": "agreement"
+ },
+ {
+  "full_name": "YUsaltyfish/dsh-onebot-qq",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yuuyuko-uu/dsh-feiyu-mood",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.77,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yuuyuko-uu/dsh-fish-home",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.62,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yuuyuko-uu/dsh-fish-memory",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.935,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yuuyuko-uu/dsh-qq-link",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yuuyuko-uu/dsh-speak-up",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.865,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yuuyuko-uu/dsh-tts-bridge",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.81,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Yuuyuko-uu/dsh-xingxi",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.55,
+  "path": "agreement"
+ },
+ {
+  "full_name": "YUXI-Dev/dsh-motion-plugin",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.98,
+  "path": "agreement"
+ },
+ {
+  "full_name": "yyh-001/dsh-meme",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zangxx66/dsh-prompt-setting",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.89,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zaofan-make/dsh-qqbot",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.935,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zeasonvan/Days-Are-Yours",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.8400000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Zenjibad/dsh-drop-any-file",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.83,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zero360-TYN/dsh-sage-mode",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.81,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zeroandcat/dsh-plugin-deposon",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.55,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zexadev/dsh-tether",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zhang-guo-wen/dsh-drawioedit",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.92,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zhang1024899756/dsh-voice-master",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.95,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ZhaoChongyan/dsh-markdown-export",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.65,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zhengqiuyang/dsh-mcp-test",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.625,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zhu1090093659/dsh-skins",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zhukunpenglinyutong/dsh-ccgui",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.66,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zi7tian/dsh-keep-awake",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": 0.835,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zingzheng/dsh-gb",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": 0.93,
+  "path": "agreement"
+ },
+ {
+  "full_name": "zixiaog/dsh-harmony-dev",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.3,
+  "path": "agreement"
+ },
+ {
+  "full_name": "Zn-Dk/dsh-session-repair",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": 0.615,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ZSeven-W/dsh-crew",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "multi-agents",
+  "confidence": 0.91,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ZSeven-W/dsh-game-studio",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.5700000000000001,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ZSeven-W/dsh-ios",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "developer-tools",
+  "confidence": 0.655,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ZSeven-W/dsh-noema",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": 0.96,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ZSeven-W/dsh-openpencil",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": 0.845,
+  "path": "agreement"
+ },
+ {
+  "full_name": "ZttsZfts/dsh-window-wallpaper",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "ui-experience",
+  "confidence": 0.9199999999999999,
+  "path": "agreement"
+ },
+ {
+  "full_name": "0x7A7A6572/dsh-forge-studio",
+  "current_category": "utilities",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "1475505/miliastra-beyond-simulator",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "Alpha961/gd-product-kit",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "media-vision",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "atirutw/dsh-npm-update-notifier",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "brody715/dsh-skincare",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "BullyHigh/dsh-side-ask",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "codeh007/mtmdsh",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "d86e/dsh-doctor",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "eeyzs1/dsh-plugins",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "feiyang-dev/dsh-usage-plugin",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "ui-experience",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "Fishquito7/dsh-skill-mcp-panel",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "GDWhisper/dsh-ntr",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "hongcha-dsh/dsh-dev-plan-presets",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "multi-agents",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "hxlog/dsh-skills-tools",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "IvesCheung/dsh-search-everything",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "fallback"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "IYIcode/dsh-ctx-probe",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "jitianjiyan/dsh-auth-cookie-guard",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "joeseesun/qiaomu-reader-dsh",
+  "current_category": "knowledge-research",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "kagurazakayashi/dsh-startup-command",
+  "current_category": "web-browser",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "labmimors/dsh-mcp-lens",
+  "current_category": "integrations-sharing",
+  "category_source": "override",
+  "strata": [
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "lire1131/dsh-undo-savepoint",
+  "current_category": "developer-tools",
+  "category_source": "rule-single",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "LockyBee/dsh-douyin-agent",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "web-browser",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "men-qingzheng/dsh-bili-creator",
+  "current_category": "web-browser",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "web-browser",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "MichengAI/dsh-btw",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "MichengAI/dsh-skills-manager",
+  "current_category": "ecosystem-resources",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "ecosystem-resources",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "MKibera/dsh-show-image",
+  "current_category": "media-vision",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "ui-experience",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "MorseWayne/dsh-agy-acp",
+  "current_category": "integrations-sharing",
+  "category_source": "rule-single",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "developer-tools",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "Mt-Youya/dsh-plugins",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "octormandelyonma/dsh-thesis-editor",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "omdsh-dev/dsh-advisor",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "PensiveFei/dsh-secure-audit",
+  "current_category": "agents-workflows",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "Sacredbluedragon/dsh-bili-watch",
+  "current_category": "media-vision",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "media-vision",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "SeaOf0/dsh-redteam-model",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "featured",
+   "presentation-reviewed"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "soffits/dsh-subagent-model",
+  "current_category": "web-browser",
+  "category_source": "rule-multi",
+  "strata": [
+   "drift-30d"
+  ],
+  "consensus": "ui-experience",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "srt180/icloud-calendar-plugin",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "Suguyun/dsh-bili-miniplay",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "suyukun/dsh-tech-selection",
+  "current_category": "knowledge-research",
+  "category_source": "rule-multi",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "T-Auto/dsh-ops",
+  "current_category": "developer-tools",
+  "category_source": "override",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "taskschd1145/deepseek-harness-clean",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "TSOFTP-afk/deepseek-harness-personal-plugins",
+  "current_category": "ecosystem-resources",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "ui-experience",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "wfz2006/dsh-agent-bridge",
+  "current_category": "multi-agents",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "integrations-sharing",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "WJZ-P/dsh-model-capabilities",
+  "current_category": "media-vision",
+  "category_source": "override",
+  "strata": [
+   "category-stratified"
+  ],
+  "consensus": "developer-tools",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "xby-skill/xby-fund-knowledge-query",
+  "current_category": "knowledge-research",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "utilities",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "Z06528/dsh-tutorflow",
+  "current_category": "utilities",
+  "category_source": "fallback",
+  "strata": [
+   "post-recalibration"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "zhouzhou5210/dsh-star-prompt-enhance",
+  "current_category": "ui-experience",
+  "category_source": "rule-single",
+  "strata": [
+   "control-single"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "zhy451/dsh-prompt-natural",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "agents-workflows",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "ZK-Andy/dsh-continual-evolve",
+  "current_category": "agents-workflows",
+  "category_source": "rule-single",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "knowledge-research",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ },
+ {
+  "full_name": "zmq6931/dsh-voice-ptt",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "rule-multi"
+  ],
+  "consensus": "media-vision",
+  "confidence": null,
+  "path": "adjudicated-blind"
+ },
+ {
+  "full_name": "ZSeven-W/dsh-android",
+  "current_category": "ui-experience",
+  "category_source": "rule-multi",
+  "strata": [
+   "featured"
+  ],
+  "consensus": "developer-tools",
+  "confidence": null,
+  "path": "adjudicated-informed"
+ }
+]
