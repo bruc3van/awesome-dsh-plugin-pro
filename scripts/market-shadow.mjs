@@ -12,6 +12,9 @@ export function buildMarketShadow({ snapshot, curated, approved, packages, featu
   const mappings = new Map(
     Object.entries(packages.entries ?? {}).map(([key, value]) => [key.toLowerCase(), value]),
   );
+  // filterPool applies curated.description_overrides internally (membership,
+  // categories, and the returned rows), keeping this projection byte-identical
+  // to what the catalog volumes and the schema-4 feed derive.
   const { repos } = filterPool(snapshot, curated, approved);
   const entries = repos
     .map(({ repo, category }) => {

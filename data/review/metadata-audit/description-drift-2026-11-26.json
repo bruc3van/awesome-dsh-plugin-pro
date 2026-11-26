@@ -1,0 +1,2568 @@
+{
+  "generated_at": "2026-11-26T12:19:19.033Z",
+  "window": {
+    "since": "2026-08-28",
+    "commits": 95,
+    "first": "2026-08-28T23:43:04Z",
+    "last": "2026-11-25T23:45:02Z"
+  },
+  "totals": {
+    "approved_repos_changed": 2335,
+    "approved_repos_changed_30d": 1232,
+    "change_events": 3352,
+    "regex_flip_events": 855,
+    "regex_flip_events_30d_unpinned_rows": 236,
+    "subscription_changed_30d": 256,
+    "featured_changed_30d": 51,
+    "override_rows_upstream_changed_30d": 24,
+    "descriptions_appeared_from_null": 463,
+    "descriptions_vanished_to_null": 8
+  },
+  "intervals": [
+    {
+      "from": "2026-08-28",
+      "to": "2026-08-29",
+      "changed": 2,
+      "appeared": 72,
+      "vanished": 1
+    },
+    {
+      "from": "2026-08-29",
+      "to": "2026-08-29",
+      "changed": 43,
+      "appeared": 211,
+      "vanished": 91
+    },
+    {
+      "from": "2026-08-29",
+      "to": "2026-08-30",
+      "changed": 57,
+      "appeared": 190,
+      "vanished": 30
+    },
+    {
+      "from": "2026-08-30",
+      "to": "2026-08-31",
+      "changed": 46,
+      "appeared": 245,
+      "vanished": 21
+    },
+    {
+      "from": "2026-08-31",
+      "to": "2026-09-01",
+      "changed": 42,
+      "appeared": 193,
+      "vanished": 29
+    },
+    {
+      "from": "2026-09-01",
+      "to": "2026-09-02",
+      "changed": 206,
+      "appeared": 179,
+      "vanished": 15
+    },
+    {
+      "from": "2026-09-02",
+      "to": "2026-09-03",
+      "changed": 46,
+      "appeared": 158,
+      "vanished": 25
+    },
+    {
+      "from": "2026-09-03",
+      "to": "2026-09-04",
+      "changed": 25,
+      "appeared": 145,
+      "vanished": 19
+    },
+    {
+      "from": "2026-09-04",
+      "to": "2026-09-05",
+      "changed": 39,
+      "appeared": 118,
+      "vanished": 9
+    },
+    {
+      "from": "2026-09-05",
+      "to": "2026-09-06",
+      "changed": 29,
+      "appeared": 131,
+      "vanished": 24
+    },
+    {
+      "from": "2026-09-06",
+      "to": "2026-09-07",
+      "changed": 49,
+      "appeared": 150,
+      "vanished": 16
+    },
+    {
+      "from": "2026-09-07",
+      "to": "2026-09-08",
+      "changed": 35,
+      "appeared": 117,
+      "vanished": 10
+    },
+    {
+      "from": "2026-09-08",
+      "to": "2026-09-09",
+      "changed": 28,
+      "appeared": 125,
+      "vanished": 19
+    },
+    {
+      "from": "2026-09-09",
+      "to": "2026-09-10",
+      "changed": 41,
+      "appeared": 151,
+      "vanished": 33
+    },
+    {
+      "from": "2026-09-10",
+      "to": "2026-09-11",
+      "changed": 29,
+      "appeared": 184,
+      "vanished": 33
+    },
+    {
+      "from": "2026-09-11",
+      "to": "2026-09-12",
+      "changed": 36,
+      "appeared": 190,
+      "vanished": 17
+    },
+    {
+      "from": "2026-09-12",
+      "to": "2026-09-13",
+      "changed": 33,
+      "appeared": 143,
+      "vanished": 24
+    },
+    {
+      "from": "2026-09-13",
+      "to": "2026-09-14",
+      "changed": 31,
+      "appeared": 192,
+      "vanished": 29
+    },
+    {
+      "from": "2026-09-14",
+      "to": "2026-09-15",
+      "changed": 34,
+      "appeared": 132,
+      "vanished": 24
+    },
+    {
+      "from": "2026-09-15",
+      "to": "2026-09-16",
+      "changed": 31,
+      "appeared": 144,
+      "vanished": 25
+    },
+    {
+      "from": "2026-09-16",
+      "to": "2026-09-17",
+      "changed": 24,
+      "appeared": 163,
+      "vanished": 16
+    },
+    {
+      "from": "2026-09-17",
+      "to": "2026-09-18",
+      "changed": 59,
+      "appeared": 152,
+      "vanished": 14
+    },
+    {
+      "from": "2026-09-18",
+      "to": "2026-09-19",
+      "changed": 23,
+      "appeared": 109,
+      "vanished": 16
+    },
+    {
+      "from": "2026-09-19",
+      "to": "2026-09-20",
+      "changed": 24,
+      "appeared": 140,
+      "vanished": 15
+    },
+    {
+      "from": "2026-09-20",
+      "to": "2026-09-21",
+      "changed": 27,
+      "appeared": 129,
+      "vanished": 19
+    },
+    {
+      "from": "2026-09-21",
+      "to": "2026-09-21",
+      "changed": 1,
+      "appeared": 29,
+      "vanished": 7
+    },
+    {
+      "from": "2026-09-21",
+      "to": "2026-09-22",
+      "changed": 33,
+      "appeared": 145,
+      "vanished": 23
+    },
+    {
+      "from": "2026-09-22",
+      "to": "2026-09-23",
+      "changed": 18,
+      "appeared": 144,
+      "vanished": 18
+    },
+    {
+      "from": "2026-09-23",
+      "to": "2026-09-24",
+      "changed": 19,
+      "appeared": 122,
+      "vanished": 30
+    },
+    {
+      "from": "2026-09-24",
+      "to": "2026-09-25",
+      "changed": 28,
+      "appeared": 109,
+      "vanished": 33
+    },
+    {
+      "from": "2026-09-25",
+      "to": "2026-09-26",
+      "changed": 26,
+      "appeared": 132,
+      "vanished": 31
+    },
+    {
+      "from": "2026-09-26",
+      "to": "2026-09-27",
+      "changed": 45,
+      "appeared": 164,
+      "vanished": 18
+    },
+    {
+      "from": "2026-09-27",
+      "to": "2026-09-28",
+      "changed": 34,
+      "appeared": 147,
+      "vanished": 35
+    },
+    {
+      "from": "2026-09-28",
+      "to": "2026-09-29",
+      "changed": 41,
+      "appeared": 181,
+      "vanished": 36
+    },
+    {
+      "from": "2026-09-29",
+      "to": "2026-09-30",
+      "changed": 50,
+      "appeared": 259,
+      "vanished": 40
+    },
+    {
+      "from": "2026-09-30",
+      "to": "2026-10-01",
+      "changed": 54,
+      "appeared": 203,
+      "vanished": 25
+    },
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-02",
+      "changed": 46,
+      "appeared": 222,
+      "vanished": 26
+    },
+    {
+      "from": "2026-10-02",
+      "to": "2026-10-03",
+      "changed": 23,
+      "appeared": 223,
+      "vanished": 29
+    },
+    {
+      "from": "2026-10-03",
+      "to": "2026-10-04",
+      "changed": 17,
+      "appeared": 200,
+      "vanished": 31
+    },
+    {
+      "from": "2026-10-04",
+      "to": "2026-10-05",
+      "changed": 38,
+      "appeared": 193,
+      "vanished": 43
+    },
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-06",
+      "changed": 26,
+      "appeared": 131,
+      "vanished": 29
+    },
+    {
+      "from": "2026-10-06",
+      "to": "2026-10-07",
+      "changed": 32,
+      "appeared": 228,
+      "vanished": 23
+    },
+    {
+      "from": "2026-10-07",
+      "to": "2026-10-08",
+      "changed": 93,
+      "appeared": 193,
+      "vanished": 28
+    },
+    {
+      "from": "2026-10-08",
+      "to": "2026-10-09",
+      "changed": 55,
+      "appeared": 227,
+      "vanished": 21
+    },
+    {
+      "from": "2026-10-09",
+      "to": "2026-10-10",
+      "changed": 28,
+      "appeared": 234,
+      "vanished": 37
+    },
+    {
+      "from": "2026-10-10",
+      "to": "2026-10-11",
+      "changed": 37,
+      "appeared": 167,
+      "vanished": 30
+    },
+    {
+      "from": "2026-10-11",
+      "to": "2026-10-12",
+      "changed": 30,
+      "appeared": 201,
+      "vanished": 19
+    },
+    {
+      "from": "2026-10-12",
+      "to": "2026-10-13",
+      "changed": 79,
+      "appeared": 209,
+      "vanished": 58
+    },
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-14",
+      "changed": 22,
+      "appeared": 216,
+      "vanished": 23
+    },
+    {
+      "from": "2026-10-14",
+      "to": "2026-10-15",
+      "changed": 39,
+      "appeared": 224,
+      "vanished": 22
+    },
+    {
+      "from": "2026-10-15",
+      "to": "2026-10-16",
+      "changed": 31,
+      "appeared": 307,
+      "vanished": 28
+    },
+    {
+      "from": "2026-10-16",
+      "to": "2026-10-17",
+      "changed": 42,
+      "appeared": 374,
+      "vanished": 27
+    },
+    {
+      "from": "2026-10-17",
+      "to": "2026-10-18",
+      "changed": 43,
+      "appeared": 544,
+      "vanished": 48
+    },
+    {
+      "from": "2026-10-18",
+      "to": "2026-10-19",
+      "changed": 56,
+      "appeared": 519,
+      "vanished": 59
+    },
+    {
+      "from": "2026-10-19",
+      "to": "2026-10-20",
+      "changed": 61,
+      "appeared": 446,
+      "vanished": 138
+    },
+    {
+      "from": "2026-10-20",
+      "to": "2026-10-21",
+      "changed": 53,
+      "appeared": 410,
+      "vanished": 301
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-10-22",
+      "changed": 40,
+      "appeared": 365,
+      "vanished": 58
+    },
+    {
+      "from": "2026-10-22",
+      "to": "2026-10-23",
+      "changed": 40,
+      "appeared": 410,
+      "vanished": 32
+    },
+    {
+      "from": "2026-10-23",
+      "to": "2026-10-24",
+      "changed": 39,
+      "appeared": 369,
+      "vanished": 37
+    },
+    {
+      "from": "2026-10-24",
+      "to": "2026-10-25",
+      "changed": 57,
+      "appeared": 437,
+      "vanished": 43
+    },
+    {
+      "from": "2026-10-25",
+      "to": "2026-10-26",
+      "changed": 47,
+      "appeared": 397,
+      "vanished": 36
+    },
+    {
+      "from": "2026-10-26",
+      "to": "2026-10-27",
+      "changed": 45,
+      "appeared": 375,
+      "vanished": 42
+    },
+    {
+      "from": "2026-10-27",
+      "to": "2026-10-28",
+      "changed": 63,
+      "appeared": 472,
+      "vanished": 31
+    },
+    {
+      "from": "2026-10-28",
+      "to": "2026-10-29",
+      "changed": 56,
+      "appeared": 409,
+      "vanished": 37
+    },
+    {
+      "from": "2026-10-29",
+      "to": "2026-10-30",
+      "changed": 68,
+      "appeared": 451,
+      "vanished": 52
+    },
+    {
+      "from": "2026-10-30",
+      "to": "2026-10-31",
+      "changed": 92,
+      "appeared": 456,
+      "vanished": 43
+    },
+    {
+      "from": "2026-10-31",
+      "to": "2026-11-01",
+      "changed": 49,
+      "appeared": 361,
+      "vanished": 25
+    },
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-02",
+      "changed": 54,
+      "appeared": 392,
+      "vanished": 42
+    },
+    {
+      "from": "2026-11-02",
+      "to": "2026-11-03",
+      "changed": 54,
+      "appeared": 506,
+      "vanished": 52
+    },
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-04",
+      "changed": 86,
+      "appeared": 526,
+      "vanished": 40
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-05",
+      "changed": 64,
+      "appeared": 507,
+      "vanished": 53
+    },
+    {
+      "from": "2026-11-05",
+      "to": "2026-11-06",
+      "changed": 63,
+      "appeared": 522,
+      "vanished": 67
+    },
+    {
+      "from": "2026-11-06",
+      "to": "2026-11-07",
+      "changed": 47,
+      "appeared": 470,
+      "vanished": 38
+    },
+    {
+      "from": "2026-11-07",
+      "to": "2026-11-08",
+      "changed": 86,
+      "appeared": 470,
+      "vanished": 50
+    },
+    {
+      "from": "2026-11-08",
+      "to": "2026-11-09",
+      "changed": 66,
+      "appeared": 523,
+      "vanished": 69
+    },
+    {
+      "from": "2026-11-09",
+      "to": "2026-11-10",
+      "changed": 67,
+      "appeared": 519,
+      "vanished": 62
+    },
+    {
+      "from": "2026-11-10",
+      "to": "2026-11-11",
+      "changed": 66,
+      "appeared": 557,
+      "vanished": 49
+    },
+    {
+      "from": "2026-11-11",
+      "to": "2026-11-12",
+      "changed": 58,
+      "appeared": 475,
+      "vanished": 49
+    },
+    {
+      "from": "2026-11-12",
+      "to": "2026-11-13",
+      "changed": 56,
+      "appeared": 437,
+      "vanished": 43
+    },
+    {
+      "from": "2026-11-13",
+      "to": "2026-11-14",
+      "changed": 70,
+      "appeared": 434,
+      "vanished": 37
+    },
+    {
+      "from": "2026-11-14",
+      "to": "2026-11-16",
+      "changed": 0,
+      "appeared": 1,
+      "vanished": 1
+    },
+    {
+      "from": "2026-11-16",
+      "to": "2026-11-15",
+      "changed": 57,
+      "appeared": 407,
+      "vanished": 30
+    },
+    {
+      "from": "2026-11-15",
+      "to": "2026-11-16",
+      "changed": 55,
+      "appeared": 423,
+      "vanished": 39
+    },
+    {
+      "from": "2026-11-16",
+      "to": "2026-11-17",
+      "changed": 0,
+      "appeared": 2,
+      "vanished": 2
+    },
+    {
+      "from": "2026-11-17",
+      "to": "2026-11-17",
+      "changed": 92,
+      "appeared": 380,
+      "vanished": 55
+    },
+    {
+      "from": "2026-11-17",
+      "to": "2026-11-18",
+      "changed": 63,
+      "appeared": 373,
+      "vanished": 41
+    },
+    {
+      "from": "2026-11-18",
+      "to": "2026-11-19",
+      "changed": 58,
+      "appeared": 387,
+      "vanished": 34
+    },
+    {
+      "from": "2026-11-19",
+      "to": "2026-11-20",
+      "changed": 49,
+      "appeared": 389,
+      "vanished": 39
+    },
+    {
+      "from": "2026-11-20",
+      "to": "2026-11-21",
+      "changed": 45,
+      "appeared": 311,
+      "vanished": 35
+    },
+    {
+      "from": "2026-11-21",
+      "to": "2026-11-22",
+      "changed": 48,
+      "appeared": 325,
+      "vanished": 23
+    },
+    {
+      "from": "2026-11-22",
+      "to": "2026-11-24",
+      "changed": 54,
+      "appeared": 492,
+      "vanished": 50
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "changed": 1,
+      "appeared": 13,
+      "vanished": 70
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-25",
+      "changed": 70,
+      "appeared": 292,
+      "vanished": 43
+    },
+    {
+      "from": "2026-11-25",
+      "to": "2026-11-25",
+      "changed": 67,
+      "appeared": 368,
+      "vanished": 52
+    }
+  ],
+  "churning_top": [
+    {
+      "full_name": "stardustlc666/dsh-email",
+      "changes": 18,
+      "flip_events": 7,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-ppt",
+      "changes": 15,
+      "flip_events": 2,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-hyperframes",
+      "changes": 14,
+      "flip_events": 2,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-remotion",
+      "changes": 14,
+      "flip_events": 0,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "stardustlc666/dsh-cite",
+      "changes": 13,
+      "flip_events": 2,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-ffmpeg",
+      "changes": 13,
+      "flip_events": 1,
+      "last_change": "2026-11-17T22:52:48Z",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-dream",
+      "changes": 12,
+      "flip_events": 5,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "stardustlc666/dsh-calendar",
+      "changes": 12,
+      "flip_events": 2,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-voice",
+      "changes": 11,
+      "flip_events": 4,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "stardustlc666/dsh-sql",
+      "changes": 11,
+      "flip_events": 2,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-flakefinder",
+      "changes": 11,
+      "flip_events": 2,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-code-security",
+      "changes": 11,
+      "flip_events": 2,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "stardustlc666/dsh-rss",
+      "changes": 11,
+      "flip_events": 1,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-docker",
+      "changes": 11,
+      "flip_events": 0,
+      "last_change": "2026-11-17T22:52:48Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "lishize20040802-rgb/dsh-deep-ptc-mode",
+      "changes": 10,
+      "flip_events": 4,
+      "last_change": "2026-11-19T22:46:35Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "fyjgtddco/dsh-sw-and-cad",
+      "changes": 10,
+      "flip_events": 2,
+      "last_change": "2026-11-25T00:08:51Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-slack",
+      "changes": 10,
+      "flip_events": 1,
+      "last_change": "2026-11-17T22:52:48Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-codex-port",
+      "changes": 10,
+      "flip_events": 1,
+      "last_change": "2026-11-17T22:52:48Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-suite",
+      "changes": 10,
+      "flip_events": 0,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "stardustlc666/dsh-dingtalk",
+      "changes": 9,
+      "flip_events": 4,
+      "last_change": "2026-11-17T22:52:48Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "stardustlc666/dsh-minimal-ptc",
+      "changes": 9,
+      "flip_events": 3,
+      "last_change": "2026-11-17T22:52:48Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "lhh010/dsh-minigames",
+      "changes": 9,
+      "flip_events": 1,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "omdsh-dev/dsh-minigames",
+      "changes": 9,
+      "flip_events": 1,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "featherhunter/dsh-mattpocock-skills-deck",
+      "changes": 8,
+      "flip_events": 3,
+      "last_change": "2026-11-01T19:17:10Z",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "goodandready/dsh-russian-lang",
+      "changes": 8,
+      "flip_events": 1,
+      "last_change": "2026-09-22T18:18:27Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "gzx2211/dsh-visual-workflow",
+      "changes": 8,
+      "flip_events": 0,
+      "last_change": "2026-10-09T19:49:17Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "jackxiao17/dsh-session-cleaner",
+      "changes": 7,
+      "flip_events": 1,
+      "last_change": "2026-11-25T00:08:51Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "eternalnight996/memory-eternal",
+      "changes": 6,
+      "flip_events": 2,
+      "last_change": "2026-11-12T21:58:53Z",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "siweina/dsh-novel-writer",
+      "changes": 6,
+      "flip_events": 1,
+      "last_change": "2026-11-13T21:23:19Z",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "tobycai/dsh-sessions-manager",
+      "changes": 6,
+      "flip_events": 1,
+      "last_change": "2026-11-14T19:36:51Z",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/deepseek-computer-use",
+      "changes": 6,
+      "flip_events": 0,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "zenstory-ai/oh-story-dsh",
+      "changes": 5,
+      "flip_events": 2,
+      "last_change": "2026-11-19T22:46:35Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "polinnizhong/dsh-knit",
+      "changes": 5,
+      "flip_events": 2,
+      "last_change": "2026-10-07T20:15:42Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "yanfei0725/dsh-qwen-paint",
+      "changes": 5,
+      "flip_events": 2,
+      "last_change": "2026-11-16T23:52:19Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "bowenliang123/dsh-context",
+      "changes": 5,
+      "flip_events": 1,
+      "last_change": "2026-11-25T00:08:51Z",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "stardustlc666/dsh-review",
+      "changes": 5,
+      "flip_events": 1,
+      "last_change": "2026-11-17T22:52:48Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "re3uofall/dsh-persona-framework",
+      "changes": 5,
+      "flip_events": 1,
+      "last_change": "2026-11-09T23:51:26Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "chillizu/miopiik-iui",
+      "changes": 5,
+      "flip_events": 1,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "daha1216/dsh-adult-tension",
+      "changes": 5,
+      "flip_events": 0,
+      "last_change": "2026-10-12T22:24:15Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "ruisenbai/dsh-annotation",
+      "changes": 5,
+      "flip_events": 0,
+      "last_change": "2026-11-18T22:30:34Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "perrylink/dsh-kit",
+      "changes": 5,
+      "flip_events": 0,
+      "last_change": "2026-11-04T21:15:29Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "leifdai/mackorn-hydraulic-cone-crusher",
+      "changes": 5,
+      "flip_events": 0,
+      "last_change": "2026-11-21T21:05:56Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "llifco/dsh-plugin-reverse-proxy",
+      "changes": 5,
+      "flip_events": 0,
+      "last_change": "2026-11-25T23:45:02Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "omsociety/dsh-fishpai",
+      "changes": 4,
+      "flip_events": 3,
+      "last_change": "2026-11-22T21:18:24Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "hope2023dcr/dsh-gallery",
+      "changes": 4,
+      "flip_events": 3,
+      "last_change": "2026-11-13T21:23:19Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "gluztm/dsh-chief",
+      "changes": 4,
+      "flip_events": 3,
+      "last_change": "2026-11-22T21:18:24Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "hkkz9522/dsh-session-manager",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-10-15T18:36:19Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "01virex/dsh-status-rotator",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-10-22T18:52:42Z",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "bowluna/dsh-custom-mode",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-10-05T21:45:54Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "ltmroberthk915/dsh-computer-use",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-11-24T10:04:22+08:00",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "xiaxi626/dsh-skills-nexus",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-11-01T19:17:10Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "pavel-logachev/dsh-mobile",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-10-22T18:52:42Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "lcy0121/dsh-plugin-compat-check",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-10-28T19:56:50Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "sixtysevenlf/dsh-blender-plugin",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-11-05T21:30:45Z",
+      "in_subscription": true,
+      "in_featured": true,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "leawind/dsh-rice-on-a-stick",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-11-07T19:09:57Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "gaudi-xix/dsh-agy-cli",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-11-20T22:26:22Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "wqx11235/dsh-experience",
+      "changes": 4,
+      "flip_events": 2,
+      "last_change": "2026-11-19T22:46:35Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": true
+    },
+    {
+      "full_name": "telosmaylx/dsh-session-notify",
+      "changes": 4,
+      "flip_events": 1,
+      "last_change": "2026-09-08T18:06:36Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "zeng6125-rgb/dsh-llm-retry-settings",
+      "changes": 4,
+      "flip_events": 1,
+      "last_change": "2026-09-15T18:24:09Z",
+      "in_subscription": true,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    },
+    {
+      "full_name": "yyh-001/dsh-x",
+      "changes": 4,
+      "flip_events": 1,
+      "last_change": "2026-11-11T21:53:36Z",
+      "in_subscription": false,
+      "in_featured": false,
+      "has_description_override": false,
+      "has_category_override": false
+    }
+  ],
+  "high_impact_changed_30d": {
+    "subscription": [
+      "stardustlc666/dsh-email",
+      "stardustlc666/dsh-ppt",
+      "stardustlc666/dsh-hyperframes",
+      "stardustlc666/dsh-remotion",
+      "stardustlc666/dsh-cite",
+      "stardustlc666/dsh-ffmpeg",
+      "stardustlc666/dsh-dream",
+      "stardustlc666/dsh-calendar",
+      "stardustlc666/dsh-voice",
+      "stardustlc666/dsh-sql",
+      "stardustlc666/dsh-rss",
+      "stardustlc666/dsh-docker",
+      "lishize20040802-rgb/dsh-deep-ptc-mode",
+      "fyjgtddco/dsh-sw-and-cad",
+      "stardustlc666/dsh-codex-port",
+      "stardustlc666/dsh-suite",
+      "featherhunter/dsh-mattpocock-skills-deck",
+      "eternalnight996/memory-eternal",
+      "siweina/dsh-novel-writer",
+      "tobycai/dsh-sessions-manager",
+      "stardustlc666/deepseek-computer-use",
+      "yanfei0725/dsh-qwen-paint",
+      "bowenliang123/dsh-context",
+      "omsociety/dsh-fishpai",
+      "gluztm/dsh-chief",
+      "ltmroberthk915/dsh-computer-use",
+      "xiaxi626/dsh-skills-nexus",
+      "sixtysevenlf/dsh-blender-plugin",
+      "gaudi-xix/dsh-agy-cli",
+      "duoasa/dsh-to-figma",
+      "jidekaixin2dian/dsh-file-actions",
+      "ltxlong/dsh-session-kit",
+      "lovedolove/veyra",
+      "leisureyu/dsh-smart-download",
+      "spookywaste/dsh-bash-native",
+      "lw24-1936/dsh-agent-prompts",
+      "yangjili6/video-understanding-kit",
+      "lemonxiny55/dsh-code-index",
+      "perrylink/dsh-plugin-guide",
+      "peiyucn/dsh-sparrow",
+      "perrylink/dsh-memento",
+      "easonmws/dsh-plugin-health",
+      "eileenes/dsh-reel",
+      "qishuilalala/dsh-voice-mode",
+      "artlexyoung/dsh-super-code",
+      "ryuu-64/dsh-find-all",
+      "larrye135/dsh-flash-presets",
+      "britneycode/dsh-fish-soul",
+      "aik358/dsh-auto-memory",
+      "9931666/dsh-plugin-roundtable",
+      "rezon-aki/dsh-streamfold",
+      "perrylink/dsh-eia-guide-check",
+      "perrylink/dsh-gongwen-word-check",
+      "perrylink/dsh-nsfc-form-check",
+      "perrylink/dsh-ppap-check",
+      "perrylink/dsh-spc-gbt-adapter",
+      "hoyyang/dsh-project-manager",
+      "jadpp/dsh-whale-galgame",
+      "fzqxdedafeiyu/dsh-approval-reason-dock",
+      "xhr666/dsh-mpkg-wallpaper",
+      "alice39s/agent-stash",
+      "fujingzhai/youxia-dsh-plugins",
+      "ppy-web/dsh-plugin-xiaomi-mimo-tts",
+      "pasumao/dsh-plugin-notify",
+      "cerbur/clutch-dsh",
+      "latte03/dsh-select-quote",
+      "kyomio/dsh-zen-remote",
+      "slow-stack/mneme",
+      "monagisa/dsh-plugin-shop-accounts",
+      "agi-fans/oh-my-dsh",
+      "sacredbluedragon/dsh-bili-watch",
+      "gongfpp/dsh-novel-fish",
+      "saya-ch/dsh-mobile",
+      "modesthub/dsh-sensenova-freeapi",
+      "orderg-x/dsh-design-studio",
+      "dddmuc/dsh-delete-session",
+      "haoyanzhang123/dsh-plugin-control-your-development",
+      "dbcaskml183-dotcom/dsh-prelude",
+      "realchendahuang/dsh-provider-studio",
+      "lijiaqi-ai-product-manager/dsh-agent-compare",
+      "goatliamia/trajectory-tree",
+      "surfishs/dsh-prompt-enhance",
+      "sweet560/dsh-plugin-deepseek-chat",
+      "tm5452/dsh-workspace-explorer",
+      "bruc3van/dsh-market-pro",
+      "angel291592/dsh-submodel",
+      "kirkchinese/citeciter",
+      "hsiangnianian/dsh-auto-continue",
+      "tingfeng347/dsh-vscode-workbench",
+      "kkl08/dsh-plastic-memory",
+      "zexadev/dsh-tether",
+      "tecfancy/dsh-auth-gate",
+      "iasiv5/dsh-skins",
+      "huangziyuan-general/dsh-novel-forge",
+      "orderg-x/dsh-chrome-bridge",
+      "hanaayane/dsh-reasoning-effort",
+      "v587d/capital-generation",
+      "1015677515/dsh-theme-holo",
+      "flymysql/dsh-remote",
+      "kyoukisu/dsh-rich-ui",
+      "crisvollerei/dsh-persona-shell",
+      "leoan698-tom/dsh-sessivra",
+      "haoyanzhang123/dsh-plugin-control-your-schedule",
+      "dddmuc/dsh-as-aistudio",
+      "natsubrei/dsh-comfyui-panel",
+      "thawline/dsh-memewiki",
+      "minedalang/dsh-dafeiyu-life",
+      "wyf-yfw/dsh-creation-mode",
+      "kazari-qwp/dsh-tiered-plugin-menu",
+      "bloodarea/dsh-agent-team-ui-testing",
+      "znlgis/dsh-video-studio-skill",
+      "27painter/dsh-moli",
+      "viy1204/recruiting-copilot",
+      "onlyqzq/dsh-riskproof",
+      "sucriss/dsh-leekbox",
+      "jaylor-wang/dsh-tool-antigravity",
+      "kevinwu901113/dsh-dot",
+      "ziminli/dsh-session-search",
+      "zalpha263/dsh-file-explorer",
+      "harryopo/dsh-cloud-workspaces",
+      "contexera/dsh-agent-team",
+      "lixiuxiu559/agentforge",
+      "anlerway/dsh-session-navigator",
+      "mrkennyhungry/dsh-cua",
+      "perrylink/dsh-github",
+      "fishquito7/dsh-skill-mcp-panel",
+      "cjylzs/dsh-browser",
+      "xiseliuli/dsh-as-mcp",
+      "leolourson/macrostress-dsh",
+      "tasuma-qwq/baifanyu-ofm-bridge",
+      "feigo313/dsh-structured",
+      "saos-3624/dsh-watch-together",
+      "whitequeen306/dsh-logistics",
+      "wqx11235/dsh-upgrade-guard",
+      "kmyy350234-dz/dsh-tool-drawer",
+      "suifei/dsh-market-lens",
+      "hijoelee/dsh-suggest-actions",
+      "perrylink/dsh-translate",
+      "liang-today/dsh-liangxiang",
+      "7starsseeker/dsh-fact-check",
+      "hoyyang/dsh-smart-compact",
+      "mengwex/dsh-block-ptc",
+      "acanzaima/dsh-code-review",
+      "aoilang/dsh-english-cards",
+      "regrevia/envoy",
+      "yunaaloft/dsh-rtk-workbench",
+      "linyanzhi/dsh-mesh",
+      "ultroncn/dsh-liquid-glass",
+      "wzn16/dsh-task-capsule",
+      "lichadai/dsh-we-need-plugin",
+      "asuta/dsh-cdx-plus",
+      "zzimar/dsh-yanfield",
+      "lingyingaojue/dsh-dev-mode",
+      "klaus-2/dsh-redline",
+      "keli-wen/cospan",
+      "wanqiu12345/dsh-session-matrix",
+      "yinkaiyu/chat-in-dsh",
+      "mrmolabs/dsh-mermaid",
+      "taxueseek/dsh-suggestion-chips",
+      "mari23333/dsh-subagent-library",
+      "lain-in-coding/dsh-grok-search",
+      "mt-youya/dsh-plugins",
+      "airainal/dsh-edge-companion",
+      "marsken88/dsh-studio",
+      "napstablooky233/dsh-agent-dispatch",
+      "funny1potato/dsh-onebot-hub",
+      "haoyanzhang123/dsh-plugin-control-your-capture",
+      "abbccdd/dsh-localtts",
+      "lohana20061023-29/dsh-media-downloader",
+      "gdwhisper/dsh-ntr",
+      "dsh-plugin-lab/dsh-workbuddy-bridge",
+      "berhbro/dsh-cyrene-theme",
+      "prgrmrwy/dsh-magpie-connector",
+      "pensivefei/dsh-voice-scribe",
+      "rosynb666/dsh-whale-catch",
+      "joz739/dsh-workflow-map",
+      "eason-0712/dsh-zotero-skill",
+      "anarrogantcat/dsh-identity",
+      "zhang66633/dsh-pixel-ui",
+      "guli-lab/dsh-element-source",
+      "perrylink/dsh-autotier",
+      "huanlin-labs/dsh-skill-cockpit",
+      "huanlin-labs/dsh-isolation-gate",
+      "skywingdn/dsh-fairy-zzz",
+      "1129742588/dsh-memory-tiers",
+      "fangchenghao/dsh-web-search",
+      "huaguoxingkong/dsh-prompt-rewriter",
+      "herenfor/dsh-runtime-tuning",
+      "streamfish-lab/dsh-splash-fish",
+      "dryw/dsh-egm",
+      "sikadi233-hub/minecraft-dev",
+      "hongyue0721/dsh-kimicode-swarm",
+      "longmiaoo/dsh-native-browser",
+      "ws1234567891011/dsh-interim-narration",
+      "qiuyedx/dsh-bili-eyes",
+      "aitabby/dockyard-dsh",
+      "wang1299/dsh-reforge",
+      "wattson-law/xiaobai-reasearch",
+      "hongdougao111/dsh-bagu",
+      "ultroncn/dsh-archived-chats",
+      "taoziliyouchong/dsh-plc-decode",
+      "suliucanying/dsh-billing-statistics",
+      "asktheway/dsh-auto-memory",
+      "perrylink/dsh-qms-capa",
+      "hyun20202023-ui/dsh-qfish",
+      "linsport/dsh-persona-manager",
+      "agentic-control-plane/dsh-acp-plugin",
+      "wloops/dsh-git-worktree",
+      "xuanyuanchumo/dsh-kaogong",
+      "zseven-w/dsh-game-studio",
+      "liangdabiao/dsh-ecom-agent",
+      "yuna78/dsh-plugin-yushe",
+      "lipu-jpg/openwrite",
+      "zaofan-make/dsh-qqbot",
+      "huliux/dsh-asr-plugin",
+      "hyclub/deepseek-harness-game-studios",
+      "user-mrz/dsh-system-prompt-studio",
+      "alice-marx/dsh-model-router",
+      "drscrewdriver/dsh-browser-cdp",
+      "panther-w/dsh-opencode-go-usage-badge",
+      "lizi600jin/dsh-ensp",
+      "jaylor-wang/dsh-awesome-optimizer",
+      "kookoolive/dsh-plugin-telleru",
+      "omsociety/dsh-git-forge",
+      "omsociety/dsh-ssh-tunnel",
+      "omsociety/dsh-xiaoai-bridge",
+      "lukeinx/dsh-workboard",
+      "iasiv5/dsh-skip-browser-auth",
+      "mr54233/dsh-restart-now",
+      "ikevss/dsh-ima",
+      "vikrant-aleph/dsh-opencode-bridge",
+      "voyager77twt/dsh-folder-search",
+      "lng-ux/dsh-nebula-mind",
+      "xdtrees/dsh-xdpool",
+      "jiamingshi-jsphys/chelate-shell",
+      "mariozzj/cc-notify-hooks",
+      "omdsh-dev/dsh-better-dsh",
+      "qtaik/dsh-noname-kit",
+      "oriliz/agent-crop",
+      "ai4xe/parallax",
+      "anonyjcy/dsh-j-space",
+      "ziye1208/dsh-github-mcp",
+      "paleech0/dsh-notify-desktop",
+      "waterdjiang/wtt-dsh-plugin",
+      "alchaincyf/huashu-design",
+      "alibaba-damo-academy/yugoo-design",
+      "bioaievolu/dsh-md-studio",
+      "1624318455/dsh-plugin-tts",
+      "wsk-build/dsh-plugin-my-deepseek",
+      "wasabi2575/dsh-workflow-canvas",
+      "yicun0316/dsh-claude-slider",
+      "27painter/dsh-sw-cad",
+      "yuaneen/dsh-token-gateway",
+      "benz-ai-x/dsh-research-graph",
+      "dannndouglas/dsh-antigravity-acp",
+      "chenkezhen480/dsh-world"
+    ],
+    "featured": [
+      "stardustlc666/dsh-email",
+      "stardustlc666/dsh-ppt",
+      "stardustlc666/dsh-hyperframes",
+      "stardustlc666/dsh-remotion",
+      "stardustlc666/dsh-cite",
+      "stardustlc666/dsh-ffmpeg",
+      "stardustlc666/dsh-dream",
+      "stardustlc666/dsh-calendar",
+      "stardustlc666/dsh-sql",
+      "featherhunter/dsh-mattpocock-skills-deck",
+      "eternalnight996/memory-eternal",
+      "siweina/dsh-novel-writer",
+      "tobycai/dsh-sessions-manager",
+      "bowenliang123/dsh-context",
+      "sixtysevenlf/dsh-blender-plugin",
+      "perrylink/dsh-plugin-guide",
+      "perrylink/dsh-memento",
+      "easonmws/dsh-plugin-health",
+      "qishuilalala/dsh-voice-mode",
+      "britneycode/dsh-fish-soul",
+      "fujingzhai/youxia-dsh-plugins",
+      "cerbur/clutch-dsh",
+      "kyomio/dsh-zen-remote",
+      "slow-stack/mneme",
+      "sacredbluedragon/dsh-bili-watch",
+      "dbcaskml183-dotcom/dsh-prelude",
+      "lijiaqi-ai-product-manager/dsh-agent-compare",
+      "hsiangnianian/dsh-auto-continue",
+      "zexadev/dsh-tether",
+      "hanaayane/dsh-reasoning-effort",
+      "v587d/capital-generation",
+      "flymysql/dsh-remote",
+      "contexera/dsh-agent-team",
+      "fishquito7/dsh-skill-mcp-panel",
+      "xiseliuli/dsh-as-mcp",
+      "feigo313/dsh-structured",
+      "yunaaloft/dsh-rtk-workbench",
+      "asuta/dsh-cdx-plus",
+      "lain-in-coding/dsh-grok-search",
+      "mt-youya/dsh-plugins",
+      "gdwhisper/dsh-ntr",
+      "dsh-plugin-lab/dsh-workbuddy-bridge",
+      "ultroncn/dsh-archived-chats",
+      "asktheway/dsh-auto-memory",
+      "zseven-w/dsh-game-studio",
+      "zaofan-make/dsh-qqbot",
+      "alice-marx/dsh-model-router",
+      "lizi600jin/dsh-ensp",
+      "lng-ux/dsh-nebula-mind",
+      "oriliz/agent-crop",
+      "1624318455/dsh-plugin-tts"
+    ],
+    "override_upstream_changed": [
+      "perrylink/dsh-eia-guide-check",
+      "perrylink/dsh-hazplan-check",
+      "perrylink/dsh-hs-classify",
+      "perrylink/dsh-icd-rule-check",
+      "perrylink/dsh-lawcite-adapter",
+      "perrylink/dsh-lc-doc-check",
+      "perrylink/dsh-medrec-qc",
+      "perrylink/dsh-nsfc-form-check",
+      "perrylink/dsh-nurse-record-check",
+      "perrylink/dsh-ota-review-check",
+      "perrylink/dsh-paper-doc-adapter",
+      "perrylink/dsh-pipeline-check",
+      "perrylink/dsh-ppap-check",
+      "perrylink/dsh-repair-order-qc",
+      "perrylink/dsh-spc-gbt-adapter",
+      "perrylink/dsh-tender-matrix",
+      "zijunyu81-source/dsh-deepseek-toolbox",
+      "pandablessing/dsh-user-sync",
+      "chenlaoshiyf/dsh-mcpguard",
+      "whoishuhu/dsh-chat-plus",
+      "dichi123456/dsh-molingtex",
+      "sushuoran/dsh-wechat-135",
+      "jiaxusummer/dsh-window-mem",
+      "muninn-and-zmx/dsh-subtext"
+    ],
+    "unpinned_regex_flips": [
+      {
+        "full_name": "stardustlc666/dsh-dream",
+        "flips": 5
+      },
+      {
+        "full_name": "stardustlc666/dsh-voice",
+        "flips": 4
+      },
+      {
+        "full_name": "stardustlc666/dsh-code-security",
+        "flips": 2
+      },
+      {
+        "full_name": "lishize20040802-rgb/dsh-deep-ptc-mode",
+        "flips": 4
+      },
+      {
+        "full_name": "stardustlc666/dsh-dingtalk",
+        "flips": 4
+      },
+      {
+        "full_name": "stardustlc666/dsh-minimal-ptc",
+        "flips": 3
+      },
+      {
+        "full_name": "lhh010/dsh-minigames",
+        "flips": 1
+      },
+      {
+        "full_name": "omdsh-dev/dsh-minigames",
+        "flips": 1
+      },
+      {
+        "full_name": "eternalnight996/memory-eternal",
+        "flips": 2
+      },
+      {
+        "full_name": "yanfei0725/dsh-qwen-paint",
+        "flips": 2
+      },
+      {
+        "full_name": "stardustlc666/dsh-review",
+        "flips": 1
+      },
+      {
+        "full_name": "chillizu/miopiik-iui",
+        "flips": 1
+      },
+      {
+        "full_name": "omsociety/dsh-fishpai",
+        "flips": 3
+      },
+      {
+        "full_name": "hope2023dcr/dsh-gallery",
+        "flips": 3
+      },
+      {
+        "full_name": "gluztm/dsh-chief",
+        "flips": 3
+      },
+      {
+        "full_name": "lcy0121/dsh-plugin-compat-check",
+        "flips": 2
+      },
+      {
+        "full_name": "yyh-001/dsh-x",
+        "flips": 1
+      },
+      {
+        "full_name": "duoasa/dsh-to-figma",
+        "flips": 1
+      },
+      {
+        "full_name": "jidekaixin2dian/dsh-file-actions",
+        "flips": 1
+      },
+      {
+        "full_name": "gxinnnnnn/dsh-sao",
+        "flips": 1
+      },
+      {
+        "full_name": "lemonxiny55/dsh-code-index",
+        "flips": 3
+      },
+      {
+        "full_name": "perrylink/dsh-plugin-guide",
+        "flips": 3
+      },
+      {
+        "full_name": "winlin926/dsh-roam",
+        "flips": 3
+      },
+      {
+        "full_name": "wuwo1979/dsh-qqbot-muu",
+        "flips": 3
+      },
+      {
+        "full_name": "pgmi-builds/better-dsh",
+        "flips": 2
+      },
+      {
+        "full_name": "peiyucn/dsh-sparrow",
+        "flips": 2
+      },
+      {
+        "full_name": "perrylink/dsh-memento",
+        "flips": 2
+      },
+      {
+        "full_name": "easonmws/dsh-plugin-health",
+        "flips": 2
+      },
+      {
+        "full_name": "wodaimnd/market-lens",
+        "flips": 2
+      },
+      {
+        "full_name": "qishuilalala/dsh-voice-mode",
+        "flips": 1
+      },
+      {
+        "full_name": "kk3ya03-star/dsh-lcx-codex",
+        "flips": 1
+      },
+      {
+        "full_name": "artlexyoung/dsh-super-code",
+        "flips": 1
+      },
+      {
+        "full_name": "ikeasven69/dsh-takeover",
+        "flips": 1
+      },
+      {
+        "full_name": "larrye135/dsh-flash-presets",
+        "flips": 1
+      },
+      {
+        "full_name": "exoticknight/dsh-system1",
+        "flips": 1
+      },
+      {
+        "full_name": "cqxsg/dsh-recollection",
+        "flips": 1
+      },
+      {
+        "full_name": "xhr666/dsh-mpkg-wallpaper",
+        "flips": 2
+      },
+      {
+        "full_name": "sivan757/dsh-agent-plugins-market",
+        "flips": 2
+      },
+      {
+        "full_name": "jameswatt139240-crypto/dsh-atlas",
+        "flips": 2
+      },
+      {
+        "full_name": "twinsearth/dsh-windows2macos",
+        "flips": 2
+      },
+      {
+        "full_name": "evomap/evolver-dsh-plugin",
+        "flips": 2
+      },
+      {
+        "full_name": "yogemow/dsh-cyrene",
+        "flips": 2
+      },
+      {
+        "full_name": "abbaababa/dsh-workplan",
+        "flips": 2
+      },
+      {
+        "full_name": "379385796-sys/dsh-environment-packer",
+        "flips": 2
+      },
+      {
+        "full_name": "nocandles/dsh-stock-bar",
+        "flips": 2
+      },
+      {
+        "full_name": "enkolesnikov/maxdshbot",
+        "flips": 2
+      },
+      {
+        "full_name": "wodaimnd/multi-platform-releaser",
+        "flips": 2
+      },
+      {
+        "full_name": "fujingzhai/youxia-dsh-plugins",
+        "flips": 2
+      },
+      {
+        "full_name": "asteme/asteme",
+        "flips": 2
+      },
+      {
+        "full_name": "pasumao/dsh-plugin-notify",
+        "flips": 1
+      },
+      {
+        "full_name": "cerbur/clutch-dsh",
+        "flips": 1
+      },
+      {
+        "full_name": "lenonss/dsh_vscodemode",
+        "flips": 1
+      },
+      {
+        "full_name": "daha1216/dsh-pocket",
+        "flips": 1
+      },
+      {
+        "full_name": "kyomio/dsh-zen-remote",
+        "flips": 1
+      },
+      {
+        "full_name": "slow-stack/mneme",
+        "flips": 1
+      },
+      {
+        "full_name": "lyaxz/dsh-goodies",
+        "flips": 1
+      },
+      {
+        "full_name": "agi-fans/oh-my-dsh",
+        "flips": 1
+      },
+      {
+        "full_name": "sacredbluedragon/dsh-bili-watch",
+        "flips": 1
+      },
+      {
+        "full_name": "13520rygvv/dsh-restart-button",
+        "flips": 1
+      },
+      {
+        "full_name": "gongfpp/dsh-novel-fish",
+        "flips": 1
+      },
+      {
+        "full_name": "saya-ch/dsh-mobile",
+        "flips": 1
+      },
+      {
+        "full_name": "canyuey/dsh-mnemosyne",
+        "flips": 1
+      },
+      {
+        "full_name": "xushilianzhuren/dsh-constitution-seed",
+        "flips": 1
+      },
+      {
+        "full_name": "julian0zzx/ai-novelist",
+        "flips": 1
+      },
+      {
+        "full_name": "perrylink/dsh-plugin-upgrade",
+        "flips": 1
+      },
+      {
+        "full_name": "perrylink/dsh-checkers",
+        "flips": 1
+      },
+      {
+        "full_name": "xbzbing/dsh-privacy-gateway",
+        "flips": 1
+      },
+      {
+        "full_name": "modesthub/dsh-sensenova-freeapi",
+        "flips": 1
+      },
+      {
+        "full_name": "wodaimnd/dsh-offload",
+        "flips": 1
+      },
+      {
+        "full_name": "dddmuc/dsh-delete-session",
+        "flips": 1
+      },
+      {
+        "full_name": "realchendahuang/dsh-provider-studio",
+        "flips": 1
+      },
+      {
+        "full_name": "dsh-agent-roster/dsh-agent-roster",
+        "flips": 1
+      },
+      {
+        "full_name": "lijiaqi-ai-product-manager/dsh-agent-compare",
+        "flips": 1
+      },
+      {
+        "full_name": "lemonmmice/dsh-agent-toolchain",
+        "flips": 1
+      },
+      {
+        "full_name": "ferrisching/dsh-reakit",
+        "flips": 1
+      },
+      {
+        "full_name": "buger-gif/cyber-im-avatar",
+        "flips": 1
+      },
+      {
+        "full_name": "surfishs/dsh-prompt-enhance",
+        "flips": 1
+      },
+      {
+        "full_name": "sweet560/dsh-plugin-deepseek-chat",
+        "flips": 1
+      },
+      {
+        "full_name": "ccsdyc/dsh-version-manager",
+        "flips": 1
+      },
+      {
+        "full_name": "angel291592/dsh-submodel",
+        "flips": 1
+      },
+      {
+        "full_name": "viy1204/recruiting-copilot",
+        "flips": 1
+      },
+      {
+        "full_name": "sucriss/dsh-leekbox",
+        "flips": 1
+      },
+      {
+        "full_name": "jaylor-wang/dsh-tool-antigravity",
+        "flips": 1
+      },
+      {
+        "full_name": "ystyle/chronomem",
+        "flips": 1
+      },
+      {
+        "full_name": "basaltfold/dsh-tencent-channel-fix",
+        "flips": 1
+      },
+      {
+        "full_name": "nanqing233/dsh-rimlight",
+        "flips": 1
+      },
+      {
+        "full_name": "songrui111/dsh-publisher-radar",
+        "flips": 1
+      },
+      {
+        "full_name": "irislilymoon/dsh-qq-workspace",
+        "flips": 1
+      },
+      {
+        "full_name": "7aaaaah/dsh-restart-app",
+        "flips": 1
+      },
+      {
+        "full_name": "lynnhma/fk-the-ai",
+        "flips": 1
+      },
+      {
+        "full_name": "yunzhouli-hub/dsh-overall-mcp",
+        "flips": 1
+      },
+      {
+        "full_name": "milkly909-code/dsh-plugin-starlight-protocol",
+        "flips": 1
+      },
+      {
+        "full_name": "pyyxzi/dsh-deepmoyu",
+        "flips": 1
+      },
+      {
+        "full_name": "xsllo425/dsh-agent-menu",
+        "flips": 1
+      },
+      {
+        "full_name": "onebugis/dsh-context-ops",
+        "flips": 1
+      },
+      {
+        "full_name": "zalpha263/dsh-file-explorer",
+        "flips": 1
+      },
+      {
+        "full_name": "harryopo/dsh-cloud-workspaces",
+        "flips": 1
+      },
+      {
+        "full_name": "contexera/dsh-agent-team",
+        "flips": 1
+      },
+      {
+        "full_name": "residenthiago2011/dsh-tool-router",
+        "flips": 1
+      },
+      {
+        "full_name": "anlerway/dsh-session-navigator",
+        "flips": 1
+      },
+      {
+        "full_name": "sergey-akhalkov/dsh-setup",
+        "flips": 1
+      },
+      {
+        "full_name": "jeskoky-pixel/amadeus-persona",
+        "flips": 1
+      },
+      {
+        "full_name": "xushilianzhuren/dsh-mind-core",
+        "flips": 1
+      },
+      {
+        "full_name": "nineoooo/dsh-qzone-echo",
+        "flips": 1
+      },
+      {
+        "full_name": "vb2250158/dsh-jev-context-gate",
+        "flips": 1
+      },
+      {
+        "full_name": "379385796-sys/dsh-prompt-inject",
+        "flips": 1
+      },
+      {
+        "full_name": "lequait/dsh-context-rescue",
+        "flips": 1
+      },
+      {
+        "full_name": "yunling-bionic/dsh-rule-guard",
+        "flips": 1
+      },
+      {
+        "full_name": "perrylink/dsh-plugin-kit",
+        "flips": 1
+      },
+      {
+        "full_name": "olina1ye/internal-skill-workshop-plugin",
+        "flips": 1
+      },
+      {
+        "full_name": "perrylink/dsh-ticktick",
+        "flips": 1
+      },
+      {
+        "full_name": "kira905/dsh-task-board-local",
+        "flips": 1
+      },
+      {
+        "full_name": "herenfor/dsh-task-notify",
+        "flips": 1
+      },
+      {
+        "full_name": "keyblues/dsh-plugin-everything",
+        "flips": 1
+      },
+      {
+        "full_name": "brickhu/dsh-plugins",
+        "flips": 1
+      },
+      {
+        "full_name": "tests4gptplay/dsh-kujira-persona",
+        "flips": 1
+      },
+      {
+        "full_name": "dadazhangn/dsh-prompt-snippets",
+        "flips": 1
+      },
+      {
+        "full_name": "tatacrayon/dsh-rampart",
+        "flips": 1
+      },
+      {
+        "full_name": "shendao325/dsh-freebridge",
+        "flips": 1
+      },
+      {
+        "full_name": "hoyyang/dsh-android-pane",
+        "flips": 1
+      },
+      {
+        "full_name": "nesarf/dsh-shell-surfaces",
+        "flips": 1
+      },
+      {
+        "full_name": "yizhiqvq/dsh-plugin-update",
+        "flips": 1
+      },
+      {
+        "full_name": "fj7937290-sys/dsh-video-remix",
+        "flips": 1
+      },
+      {
+        "full_name": "1720198650/dsh-cognition-engine",
+        "flips": 1
+      },
+      {
+        "full_name": "chaquchi/dsh-inspirations",
+        "flips": 1
+      },
+      {
+        "full_name": "bobnemimimmi/dsh-visible-action-row",
+        "flips": 1
+      },
+      {
+        "full_name": "luminarisoftwares/stack-guardian",
+        "flips": 1
+      },
+      {
+        "full_name": "yang-yin734/dsh-long-term-memory",
+        "flips": 1
+      },
+      {
+        "full_name": "orchivo/dsh-conversation-tree",
+        "flips": 1
+      },
+      {
+        "full_name": "skyzzq/dsh-ssh-mac",
+        "flips": 1
+      },
+      {
+        "full_name": "keyblues/dsh-icp",
+        "flips": 1
+      },
+      {
+        "full_name": "tyvtjhj/system-resource-monitor",
+        "flips": 1
+      },
+      {
+        "full_name": "aily-dsh/dsh-approval-inbox",
+        "flips": 1
+      },
+      {
+        "full_name": "2dogslee/dsh-watcher",
+        "flips": 1
+      },
+      {
+        "full_name": "wqx11235/dsh-upgrade-guard",
+        "flips": 1
+      },
+      {
+        "full_name": "liuqingman/dsh-somni",
+        "flips": 1
+      },
+      {
+        "full_name": "imaused/dsh-kb-lite",
+        "flips": 1
+      },
+      {
+        "full_name": "kmyy350234-dz/dsh-tool-drawer",
+        "flips": 1
+      },
+      {
+        "full_name": "ssy-in/dsh-my-phone",
+        "flips": 1
+      },
+      {
+        "full_name": "jiuyuan-yi/dsh-update-guard",
+        "flips": 1
+      },
+      {
+        "full_name": "jjjacksong/dsh-plugin-2048",
+        "flips": 1
+      },
+      {
+        "full_name": "stevenwang15/dsh-taste-skill",
+        "flips": 1
+      },
+      {
+        "full_name": "woshijing1991-cloud/dsh-aw-viz",
+        "flips": 1
+      },
+      {
+        "full_name": "lvy-jsd/dsh-tool-ultra",
+        "flips": 1
+      },
+      {
+        "full_name": "ztyzz/dsh-skill-studio",
+        "flips": 1
+      },
+      {
+        "full_name": "wilshi/dsh-mcp-station",
+        "flips": 1
+      },
+      {
+        "full_name": "hijoelee/dsh-suggest-actions",
+        "flips": 1
+      },
+      {
+        "full_name": "m0yun/dsh-speak-plus",
+        "flips": 1
+      },
+      {
+        "full_name": "artenx/dsh-monkeyai-sessions",
+        "flips": 1
+      },
+      {
+        "full_name": "perrylink/dsh-translate",
+        "flips": 1
+      },
+      {
+        "full_name": "eee1723/dsh-houdini",
+        "flips": 1
+      },
+      {
+        "full_name": "liang-today/dsh-liangxiang",
+        "flips": 1
+      },
+      {
+        "full_name": "brianhio-x/dsh-think-expand",
+        "flips": 1
+      },
+      {
+        "full_name": "hoyyang/dsh-smart-compact",
+        "flips": 1
+      },
+      {
+        "full_name": "leo-sail/dsh-plugin-agent-collaboration",
+        "flips": 1
+      },
+      {
+        "full_name": "yankeguo/dsh-infini-goal",
+        "flips": 1
+      },
+      {
+        "full_name": "raullazaro/dsh-preview-plugin",
+        "flips": 1
+      },
+      {
+        "full_name": "gulagala001/dsh-deepseek-workbench",
+        "flips": 1
+      },
+      {
+        "full_name": "yubdey/daimeow-dsh",
+        "flips": 1
+      },
+      {
+        "full_name": "chenzhenhong/english-reader",
+        "flips": 1
+      },
+      {
+        "full_name": "janehk416-alt/dsh-focuscapture",
+        "flips": 1
+      },
+      {
+        "full_name": "xiaozhebrother/dsh-bilibili-dafeiyu",
+        "flips": 1
+      },
+      {
+        "full_name": "gongfpp/dsh-thanks-carl",
+        "flips": 1
+      },
+      {
+        "full_name": "cai-kun-max/prompt-polish",
+        "flips": 1
+      },
+      {
+        "full_name": "xiaozhebrother/dsh-reaction-studio",
+        "flips": 1
+      },
+      {
+        "full_name": "regrevia/envoy",
+        "flips": 1
+      },
+      {
+        "full_name": "no-ni/billion-context-patched",
+        "flips": 1
+      },
+      {
+        "full_name": "linyanzhi/dsh-mesh",
+        "flips": 1
+      },
+      {
+        "full_name": "imnotriv3r/dsh-job-notify",
+        "flips": 1
+      },
+      {
+        "full_name": "laoyingfuhuole/dsh-browser-use-automation",
+        "flips": 1
+      },
+      {
+        "full_name": "diejob/dsh-session-folders",
+        "flips": 1
+      },
+      {
+        "full_name": "ultroncn/dsh-liquid-glass",
+        "flips": 1
+      },
+      {
+        "full_name": "lichadai/dsh-we-need-plugin",
+        "flips": 1
+      },
+      {
+        "full_name": "leetp2001-cmd/dsh-android-apk",
+        "flips": 1
+      },
+      {
+        "full_name": "asuta/dsh-cdx-plus",
+        "flips": 1
+      },
+      {
+        "full_name": "zzimar/dsh-yanfield",
+        "flips": 1
+      },
+      {
+        "full_name": "gutianshuo/powershell-fix",
+        "flips": 1
+      },
+      {
+        "full_name": "lingyingaojue/dsh-dev-mode",
+        "flips": 1
+      },
+      {
+        "full_name": "roekdnd/dsh-hide-workspace",
+        "flips": 1
+      },
+      {
+        "full_name": "jackwangsia/dsh-ai-notepad",
+        "flips": 1
+      },
+      {
+        "full_name": "cy-w-2000/dsh-lan-access",
+        "flips": 1
+      },
+      {
+        "full_name": "nexu-io/openmotion",
+        "flips": 1
+      },
+      {
+        "full_name": "klaus-2/dsh-redline",
+        "flips": 1
+      },
+      {
+        "full_name": "nikimagic/dsh-local-stt",
+        "flips": 1
+      },
+      {
+        "full_name": "gxfc9867/campfire",
+        "flips": 1
+      },
+      {
+        "full_name": "adithyanraj03/dsh-blender-preview",
+        "flips": 1
+      },
+      {
+        "full_name": "slz2025/dsh-del-chat",
+        "flips": 1
+      },
+      {
+        "full_name": "winterone-hub/dsh-voice-notes",
+        "flips": 1
+      },
+      {
+        "full_name": "billywang-7/dsh-turn-bell",
+        "flips": 1
+      },
+      {
+        "full_name": "linxueyuanstdio/dsh-git",
+        "flips": 1
+      },
+      {
+        "full_name": "seekafterseek/dsh-chrome-only",
+        "flips": 1
+      },
+      {
+        "full_name": "dongsheng123132/dsh-move-up",
+        "flips": 1
+      },
+      {
+        "full_name": "visangela/dsh-novel-assistant",
+        "flips": 1
+      },
+      {
+        "full_name": "drizzlegig/dsh-novel-fade",
+        "flips": 1
+      },
+      {
+        "full_name": "vicfei/dsh-wrenai",
+        "flips": 1
+      },
+      {
+        "full_name": "nosleep00/dsh-github-radar",
+        "flips": 1
+      },
+      {
+        "full_name": "liyuhan7/dsh-phone-mirror",
+        "flips": 1
+      },
+      {
+        "full_name": "devzer0o0/dsh-logo-golden",
+        "flips": 1
+      },
+      {
+        "full_name": "kapozux/dsh-xiaobenben",
+        "flips": 1
+      },
+      {
+        "full_name": "tbx709/dsh-prompt-gate",
+        "flips": 1
+      },
+      {
+        "full_name": "yinkaiyu/chat-in-dsh",
+        "flips": 1
+      },
+      {
+        "full_name": "mrmolabs/dsh-mermaid",
+        "flips": 1
+      },
+      {
+        "full_name": "nishuoyang/dsh-workbench-ecs",
+        "flips": 1
+      },
+      {
+        "full_name": "aaa8leitingpifa/dsh-daily-push",
+        "flips": 1
+      },
+      {
+        "full_name": "mukapp/retenixa",
+        "flips": 1
+      },
+      {
+        "full_name": "eustia-ast/dsh-prompt-lab",
+        "flips": 1
+      },
+      {
+        "full_name": "jyz48prsbr-netizen/dsh-web-link",
+        "flips": 1
+      },
+      {
+        "full_name": "afeiaswell/dsh-hkm",
+        "flips": 1
+      },
+      {
+        "full_name": "createjy/dsh-plugin-update-entry",
+        "flips": 1
+      },
+      {
+        "full_name": "knot-chord/dsh-capability-policy",
+        "flips": 1
+      },
+      {
+        "full_name": "dhr2333/dsh-ledger",
+        "flips": 1
+      },
+      {
+        "full_name": "tangdancol-jpg/dsh-pipeline",
+        "flips": 1
+      },
+      {
+        "full_name": "yogemow/dsh-cyrene-eternal-page-remembrance",
+        "flips": 1
+      },
+      {
+        "full_name": "yogemow/dsh-siyuan",
+        "flips": 1
+      },
+      {
+        "full_name": "alexey-marochkin/dsh-chatgpt-codex",
+        "flips": 1
+      },
+      {
+        "full_name": "jessicaisleep/dsh-mihome",
+        "flips": 1
+      },
+      {
+        "full_name": "lee2277-t/dsh-skill-index",
+        "flips": 1
+      },
+      {
+        "full_name": "icrefin/dsh-session-monitor",
+        "flips": 1
+      },
+      {
+        "full_name": "feifandiv/dsh-feifan-life",
+        "flips": 1
+      },
+      {
+        "full_name": "vhow123/dsh-drawcraft",
+        "flips": 1
+      },
+      {
+        "full_name": "mari23333/dsh-subagent-library",
+        "flips": 1
+      },
+      {
+        "full_name": "maxc100/dsh-cloud-backup",
+        "flips": 1
+      },
+      {
+        "full_name": "lain-in-coding/dsh-grok-search",
+        "flips": 1
+      },
+      {
+        "full_name": "hua-ri/dsh-ops",
+        "flips": 1
+      },
+      {
+        "full_name": "scottzhb-hue/dsh-ai-translation",
+        "flips": 1
+      },
+      {
+        "full_name": "xqe-bkflda/dshgo-vmbridge",
+        "flips": 1
+      },
+      {
+        "full_name": "heiyedehen/dsh-self-clock",
+        "flips": 1
+      },
+      {
+        "full_name": "airainal/dsh-edge-companion",
+        "flips": 1
+      },
+      {
+        "full_name": "twinsearth/ai-prison",
+        "flips": 1
+      },
+      {
+        "full_name": "fenrircait/dsh-fail-guard",
+        "flips": 1
+      },
+      {
+        "full_name": "marsken88/dsh-studio",
+        "flips": 1
+      },
+      {
+        "full_name": "soffits/dsh-subagent-model",
+        "flips": 1
+      },
+      {
+        "full_name": "soffits/dsh-session-model",
+        "flips": 1
+      },
+      {
+        "full_name": "maybe-zero-not-one/dsh-daily-backup",
+        "flips": 1
+      },
+      {
+        "full_name": "houyanchao/dsh-open-model",
+        "flips": 1
+      },
+      {
+        "full_name": "zijunyu81-source/dsh-deepseek-toolbox",
+        "flips": 1
+      }
+    ]
+  }
+}

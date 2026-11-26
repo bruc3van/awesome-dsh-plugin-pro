@@ -27,6 +27,13 @@ node --test scripts/test-*.mjs
 npm test --prefix scripts/host-market
 ```
 
+元数据审计（只读、零网络，产物进 `Temp/metadata-audit/`；基线报告与口径见 `data/review/metadata-audit/`）：
+
+```sh
+node scripts/audit-metadata.mjs --write             # 现状基线 + 分类/描述风险优先级队列
+node scripts/audit-description-drift.mjs --write    # git 历史描述漂移取证（默认 90 天，--since-days=N 可调）
+```
+
 ## 运维备忘
 
 - **宿主兼容基线与漂移防护（2026-11-26）**：`scripts/host-market/quality.mjs` 的 `DISCOVERY_HOST_VERSIONS` 是唯一权威宿主清单（`generate.mjs` 报告里的 `hostVersion` 引用它，不再重复硬编码）。维护规则：宿主 latest 迁移时追加到清单尾；**跳过短命中间 rc**（约 1 天即被取代的，如 rc.2/rc.4）；**永不纳入下一 minor 的 alpha**（release 线用户装不上只声明 alpha 的插件）；schema 校验依赖 `@deepseek-ai/dsh-plugin-market-index` 同步升同版。每日快照 workflow 跑 `check-host-drift.mjs` 非阻塞探针对比 npm latest——清单滞后会产生 CI warning annotation，不要再靠人工察觉（2026-11 rc.3 冻结 8 天误伤 coderPerseus 类插件的教训）。升级后订阅索引由下游 workflow 自动重生成，兼容 fallback 版本数可能变多，注意 5 MiB 体积余量。

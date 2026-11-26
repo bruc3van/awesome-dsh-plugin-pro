@@ -1,6 +1,7 @@
 /** Build the verified candidate pool; the generator applies the final published cap. */
 import {
   SELF_EXCLUDED_REPOS,
+  applyDescriptionOverrides,
   buildEntry,
   categoryForRepo,
   filterPool,
@@ -14,6 +15,11 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
   const existing = [...market.entries, ...(market.featured?.entries ?? [])]
   const seen = new Set(existing.map(row => row.full_name.toLowerCase()))
   const mappings = new Map(Object.entries(packages.entries).map(([key, value]) => [key.toLowerCase(), value]))
+  // Rows are re-derived from the snapshot below (fresh stars, category, copy),
+  // so the editorially effective descriptions must be the input here too —
+  // the raw mirror would re-introduce the exact mojibake the overrides fixed
+  // and diverge the subscription from the schema-4 feed's categories.
+  const effectiveSnapshot = applyDescriptionOverrides(snapshot, curated)
   const { repos } = filterPool(snapshot, curated, approved)
   const excludedRepositories = [...new Set([
     ...Object.keys(curated.excluded_repos || {}),
@@ -36,7 +42,7 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
   pending.sort(compare)
   // Sorting before target dedup ensures a shared package uses its highest-star repository.
   const unique = new Map()
-  const snapshotByName = new Map(snapshot.repositories.map(repo => [repo.full_name.toLowerCase(), repo]))
+  const snapshotByName = new Map(effectiveSnapshot.repositories.map(repo => [repo.full_name.toLowerCase(), repo]))
   for (const row of existing) {
     const key = row.full_name.toLowerCase()
     const repo = snapshotByName.get(key)

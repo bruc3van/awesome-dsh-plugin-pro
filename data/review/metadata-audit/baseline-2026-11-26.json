@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-11-26T12:14:52.209Z",
+  "snapshot_fetched_at": "2026-11-25T23:05:01.217Z",
+  "inventory": {
+    "snapshot_total": 34878,
+    "snapshot_rows": 34878,
+    "approved": 31109,
+    "catalog_rows": 31103,
+    "market_pool_rows": 29890,
+    "market_rows_after_blocklist": 30207,
+    "packages_entries": 18874,
+    "installable_command": 15677,
+    "install_manual": 3197,
+    "subscription_plugins": 2960,
+    "featured_entries": 300,
+    "description_overrides": 146,
+    "category_overrides": 10020
+  },
+  "categories": {
+    "source_counts": {
+      "rule-single": 9919,
+      "override": 10019,
+      "fallback": 3467,
+      "rule-multi": 7698
+    },
+    "category_counts": {
+      "ui-experience": 8768,
+      "utilities": 3811,
+      "agents-workflows": 3617,
+      "developer-tools": 3278,
+      "web-browser": 2971,
+      "integrations-sharing": 2191,
+      "knowledge-research": 2159,
+      "media-vision": 2133,
+      "ecosystem-resources": 1298,
+      "multi-agents": 877
+    },
+    "multi_match_first_category": {
+      "ui-experience": 4146,
+      "web-browser": 719,
+      "knowledge-research": 602,
+      "media-vision": 533,
+      "integrations-sharing": 496,
+      "ecosystem-resources": 455,
+      "multi-agents": 444,
+      "developer-tools": 303
+    },
+    "top_collision_pairs": {
+      "ui-experience+web-browser": 2999,
+      "agents-workflows+ui-experience": 1108,
+      "agents-workflows+web-browser": 1026,
+      "agents-workflows+knowledge-research": 689,
+      "agents-workflows+multi-agents": 675,
+      "agents-workflows+developer-tools": 669,
+      "developer-tools+ui-experience": 597,
+      "agents-workflows+integrations-sharing": 537,
+      "developer-tools+integrations-sharing": 515,
+      "media-vision+ui-experience": 497,
+      "developer-tools+web-browser": 455,
+      "integrations-sharing+ui-experience": 451,
+      "agents-workflows+media-vision": 429,
+      "integrations-sharing+web-browser": 391,
+      "media-vision+web-browser": 379
+    }
+  },
+  "descriptions": {
+    "flag_counts": {
+      "desc-generic": 2136,
+      "desc-too-short": 1910,
+      "desc-wire-truncated": 286,
+      "desc-duplicate": 152,
+      "desc-overridden": 146,
+      "desc-mojibake": 17
+    },
+    "duplicate_groups": 60,
+    "rows_in_duplicate_groups": 152
+  },
+  "subscription": {
+    "plugins": 2960,
+    "missingDescription": 5,
+    "stringDescription": 2218,
+    "localizedDescription": 737,
+    "missingKeywords": 0,
+    "presentationReviewed": 103,
+    "presentationReviewNeeded": 21,
+    "reposInCatalog": 2870,
+    "reposMissingFromCatalog": 29
+  },
+  "missing_description_plugins": [
+    "dsh-plugin-pose-studio",
+    "@dsh-std/adapter-dsh",
+    "@chiro2001/dsh-oc",
+    "dsh-agent-enhancer",
+    "dsh-plugin-herdr"
+  ],
+  "shadow_divergence": {
+    "count": 17,
+    "rows": [
+      {
+        "full_name": "acae2w3/dsh-kards-pilot",
+        "kind": "category",
+        "raw_category": "web-browser",
+        "effective_category": "ui-experience"
+      },
+      {
+        "full_name": "datoucai0/dsh-plugins",
+        "kind": "category",
+        "raw_category": "utilities",
+        "effective_category": "ui-experience"
+      },
+      {
+        "full_name": "dogegg-alr/dsh-scan-to-pdf",
+        "kind": "category",
+        "raw_category": "ui-experience",
+        "effective_category": "utilities"
+      },
+      {
+        "full_name": "fegnze/dsh-butler",
+        "kind": "category",
+        "raw_category": "utilities",
+        "effective_category": "ecosystem-resources"
+      },
+      {
+        "full_name": "hakuno410/dsh-board-bridge",
+        "kind": "category",
+        "raw_category": "utilities",
+        "effective_category": "agents-workflows"
+      },
+      {
+        "full_name": "hero476/dsh-conversation-recycle-bin",
+        "kind": "category",
+        "raw_category": "knowledge-research",
+        "effective_category": "web-browser"
+      },
+      {
+        "full_name": "lion2c/dsh-scissors",
+        "kind": "category",
+        "raw_category": "utilities",
+        "effective_category": "ui-experience"
+      },
+      {
+        "full_name": "luzhouheng/dsh-gen3d",
+        "kind": "membership-only-effective",
+        "effective_category": "media-vision"
+      },
+      {
+        "full_name": "quchen-d/saibo_kanban",
+        "kind": "category",
+        "raw_category": "ui-experience",
+        "effective_category": "agents-workflows"
+      },
+      {
+        "full_name": "ringo-p-git/dsh-reqsys",
+        "kind": "category",
+        "raw_category": "ui-experience",
+        "effective_category": "utilities"
+      },
+      {
+        "full_name": "rouyiemei/dsh-smart-router",
+        "kind": "category",
+        "raw_category": "media-vision",
+        "effective_category": "ui-experience"
+      },
+      {
+        "full_name": "vxdeus/dsh-sync",
+        "kind": "category",
+        "raw_category": "utilities",
+        "effective_category": "developer-tools"
+      },
+      {
+        "full_name": "wayne536/dsh-downloads",
+        "kind": "category",
+        "raw_category": "utilities",
+        "effective_category": "web-browser"
+      },
+      {
+        "full_name": "wodongx123/dsh-qq-notify",
+        "kind": "category",
+        "raw_category": "ui-experience",
+        "effective_category": "integrations-sharing"
+      },
+      {
+        "full_name": "yangdongzhen590/dsh-knj-prompts",
+        "kind": "category",
+        "raw_category": "ui-experience",
+        "effective_category": "utilities"
+      },
+      {
+        "full_name": "yangdongzhen590/dsh-knj-session-management",
+        "kind": "category",
+        "raw_category": "web-browser",
+        "effective_category": "utilities"
+      },
+      {
+        "full_name": "zyzzyzyzyzzy/chat-to-persona",
+        "kind": "category",
+        "raw_category": "integrations-sharing",
+        "effective_category": "ui-experience"
+      }
+    ]
+  },
+  "priority_queue": {
+    "total_queued": 14889,
+    "tier_counts": {
+      "P0": 1007,
+      "P1": 6877,
+      "P2": 6046,
+      "P3": 959
+    },
+    "catalog_rows": 31103
+  },
+  "description_drift": {
+    "window": {
+      "since": "2026-08-28",
+      "commits": 95,
+      "first": "2026-08-28T23:43:04Z",
+      "last": "2026-11-25T23:45:02Z"
+    },
+    "totals": {
+      "approved_repos_changed": 2335,
+      "approved_repos_changed_30d": 1232,
+      "change_events": 3352,
+      "regex_flip_events": 855,
+      "regex_flip_events_30d_unpinned_rows": 236,
+      "subscription_changed_30d": 256,
+      "featured_changed_30d": 51,
+      "override_rows_upstream_changed_30d": 24,
+      "descriptions_appeared_from_null": 463,
+      "descriptions_vanished_to_null": 8
+    }
+  }
+}

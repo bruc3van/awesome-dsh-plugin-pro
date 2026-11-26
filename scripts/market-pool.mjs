@@ -107,10 +107,38 @@ export function categoryForRepo(curated, repo) {
   return categoryRules.find((rule) => rule[3].test(haystack)) || categoryFallback;
 }
 
+// Editorial description fixes apply to every market projection exactly as in
+// render.mjs loadState(): the catalog volumes and the schema-4 feed both
+// categorize and render with curated.description_overrides applied, so the
+// pool gate must judge membership and categories over the same text. Before
+// 2026-11-26 the subscription path read the raw snapshot instead, and a
+// mojibake replacement could flip the regex category (or even pool membership,
+// when the upstream description is empty) between the market catalog and the
+// subscription index. Overridden rows are shallow copies; the caller's
+// snapshot objects are never mutated, and data/repositories.json itself stays
+// a byte-faithful mirror of the API.
+export function applyDescriptionOverrides(snapshot, curated) {
+  const overrides = new Map(
+    Object.entries(curated.description_overrides ?? {}).map(([fullName, description]) => [
+      fullName.toLowerCase(),
+      description,
+    ]),
+  );
+  if (overrides.size === 0) return snapshot;
+  return {
+    ...snapshot,
+    repositories: (snapshot.repositories ?? []).map((repo) => {
+      const override = overrides.get(String(repo.full_name).toLowerCase());
+      return typeof override === 'string' && override.trim() ? { ...repo, description: override } : repo;
+    }),
+  };
+}
+
 // The review gate over the stored snapshot: description set, approved, not
 // archived/disabled, not excluded in any list, category determinable. Returns
 // the surviving repos (with their assigned category) plus warnings about
-// category_overrides values that name an unknown category.
+// category_overrides values that name an unknown category. Descriptions are
+// the editorially effective ones — see applyDescriptionOverrides.
 //
 // `approved` is data/approved.json and is required: the catalog and the
 // subscription both reach users, so an unreviewed repository must never ride
@@ -125,6 +153,9 @@ export function filterPool(snapshot, curated, approved) {
   const excludedIds = new Set(
     Object.keys(curated.excluded_repo_ids || {}).map(Number).filter((id) => Number.isInteger(id)),
   );
+  const descriptionOverrides = new Map(
+    Object.entries(curated.description_overrides || {}).map(([fullName, description]) => [fullName.toLowerCase(), description]),
+  );
   const warnings = [];
   for (const [fullName, category] of Object.entries(curated.category_overrides || {})) {
     if (!assignableCategories.some(([key]) => key === category)) {
@@ -133,15 +164,19 @@ export function filterPool(snapshot, curated, approved) {
   }
   const repos = [];
   for (const repo of snapshot.repositories || []) {
-    if (!repo.description || !String(repo.description).trim()) continue;
-    if (repo.archived === true || repo.disabled === true) continue;
     const lower = String(repo.full_name).toLowerCase();
+    const override = descriptionOverrides.get(lower);
+    const effective = typeof override === 'string' && override.trim()
+      ? { ...repo, description: override }
+      : repo;
+    if (!effective.description || !String(effective.description).trim()) continue;
+    if (effective.archived === true || effective.disabled === true) continue;
     if (!approvedNames.has(lower)) continue;
     if (excluded.has(lower) || blocked.has(lower)) continue;
-    if (excludedIds.has(repo.id)) continue;
-    const category = categoryForRepo(curated, repo);
+    if (excludedIds.has(effective.id)) continue;
+    const category = categoryForRepo(curated, effective);
     if (!category) continue;
-    repos.push({ repo, category });
+    repos.push({ repo: effective, category });
   }
   return { repos, warnings };
 }
