@@ -27,6 +27,33 @@ test('large package artwork stays visible as a valid inline icon with a recorded
   assert.equal(diagnostics.at(-1).code, 'metadata_warning')
 })
 
+test('small raster data-url icons are re-encoded while svg and webp pass through', async () => {
+  const png = await sharp({ create: { width: 256, height: 256, channels: 3, background: '#357aff' } }).png().toBuffer()
+  const display = { icon: `data:image/png;base64,${png.toString('base64')}` }
+  const diagnostics = []
+  await inlineIcon(display, undefined, detail => diagnostics.push(detail))
+  assert.match(display.icon, /^data:image\/webp;base64,/)
+  const bytes = Buffer.from(display.icon.split(',')[1], 'base64')
+  assert.ok(bytes.length < png.length, `${bytes.length} should beat ${png.length}`)
+  const image = await sharp(bytes).metadata()
+  assert.equal(image.width, 96)
+  assert.equal(diagnostics[0].code, 'icon_optimized')
+
+  const svg = { icon: 'data:image/svg+xml;base64,' + Buffer.from('<svg xmlns="http://www.w3.org/2000/svg"/>').toString('base64') }
+  await inlineIcon(svg, undefined, detail => diagnostics.push(detail))
+  assert.ok(svg.icon.startsWith('data:image/svg+xml'))
+  const webp = { icon: display.icon }
+  const before = diagnostics.length
+  await inlineIcon(webp, undefined, detail => diagnostics.push(detail))
+  assert.equal(webp.icon, display.icon)
+  assert.equal(diagnostics.length, before)
+
+  const broken = { icon: 'data:image/png;base64,bm90LWFuLWltYWdl' }
+  await inlineIcon(broken, undefined, detail => diagnostics.push(detail))
+  assert.equal(broken.icon, undefined)
+  assert.equal(diagnostics.at(-1).code, 'metadata_warning')
+})
+
 test('reviewed translations improve discovery without changing install fields and yield to changed upstream metadata', () => {
   const plugin = { name: 'demo', title: 'demo', description: 'A theme',
     versions: [{ version: '1.0.0', publishTimestamp: 1, engines: { dsh: '0.2.1-rc.2' }, source: { type: 'npm' } }] }
