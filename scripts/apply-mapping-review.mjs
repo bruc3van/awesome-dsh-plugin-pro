@@ -101,7 +101,11 @@ async function checkNpm(spec, slug) {
         if (!resolved) result = { ok: false, reason: `npm ${spec} pins a ${/^\d/.test(pin) ? 'version' : 'dist-tag'} that was never published` };
       }
       if (result === undefined) {
-        const repo = npmRepositorySlug(doc);
+        // The packument often omits the top-level repository field while the
+        // latest version manifest carries it — fall back to that manifest so
+        // ownership is judged the same way catalog-mappings.mjs judges it.
+        const latest = doc.versions?.[doc['dist-tags']?.latest] ?? {};
+        const repo = npmRepositorySlug(doc) || npmRepositorySlug(latest);
         result = repo === slug ? { ok: true } : { ok: false, reason: `npm ${name} belongs to ${repo || 'no declared repository'}` };
       }
     }

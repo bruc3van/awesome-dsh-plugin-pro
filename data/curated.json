@@ -2577,7 +2577,6 @@
     "lansi-ai/dsh-fetch-url": "web-browser",
     "LanYun417/dsh-expert-suite": "multi-agents",
     "laojingwei/agent-preset-graph-xww": "developer-tools",
-    "laoyingfuhuole/dsh-thinking-channel-guard": "ui-experience",
     "LastTrainKing/deepseek-harness-batch-executor": "agents-workflows",
     "latinovicb/dsh-last-response-stats": "ui-experience",
     "latte03/dsh-select-quote": "ui-experience",
@@ -3398,7 +3397,6 @@
     "NexusAgentX/dsh-advisor": "multi-agents",
     "NexusAgentX/dsh-lens": "developer-tools",
     "NFdrybattery/dsh-handitoff": "agents-workflows",
-    "nguyenhnhatquang/DSH-Plugins": "ecosystem-resources",
     "nhyo/dsh-maa-cli": "integrations-sharing",
     "niaccky/dsh-install-guard": "developer-tools",
     "nicecx/dsh-macos-calendar": "utilities",
@@ -4249,7 +4247,6 @@
     "suanniniu/dsh-standard-toolkit": "agents-workflows",
     "subeichen1/dsh-auto-effort": "agents-workflows",
     "subeichen1/dsh-mcp-switch": "developer-tools",
-    "subisle/dsh-prompt-optimizer": "agents-workflows",
     "Subwoofer91/dsh-default-workspace": "ui-experience",
     "succlz123/dsh-model-switch": "ui-experience",
     "sueqet/dsh-todo-board": "ui-experience",
@@ -5003,7 +5000,6 @@
     "wuxiangru915/dsh-session-navigator": "ui-experience",
     "wuzeno/dsh-library": "knowledge-research",
     "wvans123/dsh-ferry": "developer-tools",
-    "Ww-Cooooo/AI-carry-DSH": "knowledge-research",
     "ww692877928-code/dsh-shell-restart": "developer-tools",
     "wweir/dsh-advisor": "multi-agents",
     "wwumit/dsh-plugin-tools": "ecosystem-resources",
@@ -5481,7 +5477,6 @@
     "yukk4159-bit/dsh-prompt-injector": "agents-workflows",
     "YukunR/dsh-ezprot-plugin": "knowledge-research",
     "yulong-me/ds-kanban": "multi-agents",
-    "yuluo554/dsh-prompt-polisher": "agents-workflows",
     "yumiao-dev/dsh-chat-thinking-editor": "agents-workflows",
     "yumm007/dsh-reveal-files": "ui-experience",
     "yummy4727/dsh-context-branch": "agents-workflows",
@@ -5951,7 +5946,6 @@
     "dyhyfjn/dsh-rollback-withdraw": "media-vision",
     "paul-xing/dsh-paperclip-upload": "knowledge-research",
     "Eric-GoodBoy-Tech/dsh-agsh-context": "knowledge-research",
-    "joyiok/dsh-memory": "knowledge-research",
     "MkaliezZ/dsh-evidence-task-board": "agents-workflows",
     "YiRan0/dsh-mobile-glass": "media-vision",
     "smanx/dsh-proxy": "developer-tools",
@@ -7420,7 +7414,6 @@
     "senmoxiu/dsh-git-heatmap": "integrations-sharing",
     "SonettoGu14/dsh-session-smart-rename": "agents-workflows",
     "Fqh22/dsh-rag": "knowledge-research",
-    "Hao0311/dsh-mimo-tts": "media-vision",
     "Cyberbolt/dsh-snapcompact": "media-vision",
     "kkomia/dsh-session-note": "agents-workflows",
     "Tom-l-j-h/dsh-ctx-log": "knowledge-research",
@@ -7565,7 +7558,6 @@
     "hanhan9999999999999999999/dsh-memory-nebula": "knowledge-research",
     "lcf2212dev/dsh-figma-mcp-oauth": "integrations-sharing",
     "SiliconSailor/dsh-dual-browser": "web-browser",
-    "Ww-Cooooo/media-review-dsh": "media-vision",
     "Stook-404/dsh-blender-bridge": "integrations-sharing",
     "El4nnn/dsh-todo-table": "agents-workflows",
     "onlyinliu/dsh-ambient-gallery": "ecosystem-resources",
@@ -8868,7 +8860,6 @@
     "fisfzy/dsh-danus": "multi-agents",
     "hou-dl/dsh-token-pulse": "media-vision",
     "ccll/dsh-activity-pane": "agents-workflows",
-    "heiheiha798/dsh-plugin-response-window": "media-vision",
     "eviehe/dsh-resume-headless": "agents-workflows",
     "xusuyang030218/dsh-preview-ui": "web-browser",
     "alex-dsh-plugin/open-in-vscode": "ui-experience",
@@ -10027,7 +10018,8 @@
     "Yuaneen/dsh-token-gateway": "developer-tools",
     "miorin-chan/dsh-vcs-panel": "ui-experience",
     "MaoZhiqin/dsh-file-fix": "ui-experience",
-    "regrevia/lite-memory": "knowledge-research"
+    "regrevia/lite-memory": "knowledge-research",
+    "yuluo554/traceproof": "agents-workflows"
   },
   "description_overrides": {
     "43456-awa/dsh-notepad": "钉在 DeepSeek Harness Web GUI 的常驻记事本插件，可拖动、可固定。",
@@ -10171,7 +10163,11 @@
     "Nikolors/dsh-screen-memory": "滚动屏幕记忆插件：开启短帧缓冲后可随时询问一分钟前屏幕上显示的内容（Windows）。",
     "LTSapling/genshin-daily": "原神每日任务自动化 DSH 插件：封装 BetterGI 脚本完成每日委托与领取，自动安装依赖并带任务日志面板。",
     "zijunyu81-source/dsh-deepseek-toolbox": "DSH 插件：把 DeepSeek 官方 Tool API 注册成三个面向模型的工具——OCR 文字识别、deepseek_search 联网搜索、deepseek_fetch 网页抓取，零依赖、按量计费。",
-    "mumu1001ai-jpg/dsh-mysql-data-recovery": "MySQL 数据恢复 DeepSeek Harness 插件：按时间窗口或已执行 SQL 读取 binlog 生成回滚 SQL 文件（只生成不执行），带扫描进度与 SQL 预览。"
+    "mumu1001ai-jpg/dsh-mysql-data-recovery": "MySQL 数据恢复 DeepSeek Harness 插件：按时间窗口或已执行 SQL 读取 binlog 生成回滚 SQL 文件（只生成不执行），带扫描进度与 SQL 预览。",
+    "dNEryno/dsh-cache-alarm": "DSH 客户端插件：在每条助手回复旁和输入框上方显示本轮缓存命中率、首字延迟、整步耗时与真实速度，只留四个关键值，明细悬停查看。",
+    "Hakuno410/dsh-board-bridge": "黑板桥：多住户共用一块留言板——浏览器、手机或 agent 的 MCP 工具都能写，有新话即刻作为真人消息投进指定会话把人叫醒，板上按天存档可回看。",
+    "jungu123154/dsh-douyin-agent": "大肥鱼抖音助手：DSH 抖音 agent 插件发布仓库。",
+    "Wayne536/dsh-downloads": "DSH 下载插件：Web 界面右下角下载卡片，粘贴链接即可下载并实时显示大小、速度与剩余时间，另提供 download_file / watch_download / download_control 三个会话工具。"
   },
   "leaderboard_exclusions": {
     "091022yyj/deepseek-harness-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -11024,7 +11020,13 @@
     "sakanamaru/dsh-minato-legacy": "本机部署运维套件（安装包分发），沿 dsh-minato 先例双记",
     "Fox1990125/dsh-radar-workbench": "插件/技能发现+一键装商店，the market cannot include another market",
     "solgridai/dsh-plugin": "付费第三方工具/技能商城，the market cannot include another market",
-    "zoeyzhang233666/chemclaw-bot": "主体为桌面 App（安装包为推荐分发），DSH 插件仅次要入口，双记"
+    "zoeyzhang233666/chemclaw-bot": "主体为桌面 App（安装包为推荐分发），DSH 插件仅次要入口，双记",
+    "dsh-suite-store/dsh-suite-store": "Kept out of the star board: a visual plugin-suite marketplace — the market cannot include another market. Stays in the catalog.",
+    "dsh-suite-store/dsh-suite-store-catalog": "Kept out of the star board: the curated catalog data of the dsh-suite-store marketplace — the market cannot include another market. Stays in the catalog.",
+    "dshcrate/dsh-crate": "Kept out of the star board: an in-host plugin market browsing dshcrate.com — the market cannot include another market. Stays in the catalog.",
+    "lanxiake/dsh-vyra-plugins": "Kept out of the star board: a plugin & skill market maintained alongside the dsh-Veyra fork — the market cannot include another market. Stays in the catalog.",
+    "tzzs/dsh-skill-dashboard": "Kept out of the star board: a skills manager with a built-in skill store browsing skills.sh / Tencent SkillHub / GitHub — the market cannot include another market. Stays in the catalog.",
+    "HAppy-2436/dsh-status": "Kept out of the star board: a native macOS menu bar companion app, not an installable DSH plugin (the plugin half lives in dsh-status-bridge). Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -12728,7 +12730,20 @@
     "cauthy12/research-paradigm-by-wtd-kit": "不是 DSH 插件：通用研究工作区脚手架，作者自述非插件，无 dsh 安装路径",
     "idvwork/dsh-purge": "自述破甲：59 项引擎补丁绕审批/破沙箱，YuJunZhiXue 家族包装",
     "idvwork/dsh-purge-llm-security": "同 dsh-purge@1.6.1 破甲补丁包的马甲仓，家族剔除",
-    "jszjdyt/dsh-bioinformatics-plugins": "不是 DSH 插件：本体为 9 个子插件仓的文档总览站"
+    "jszjdyt/dsh-bioinformatics-plugins": "不是 DSH 插件：本体为 9 个子插件仓的文档总览站",
+    "xing-shuyin/keel": "Not a DSH plugin — a standalone browser/desktop workbench (pi-web-ui) that drives pi, DSH, Claude Code and Codex as interchangeable engines; DSH is one of several backends and the README has no plugin install path; rides the dsh-plugin topic.",
+    "L1ch404/jolink-runtime": "Not a DSH plugin — a generic MCP server + agent skill (joLink) that helps AI coding agents start Java apps and rerun tests; no DeepSeek Harness integration or install path in the README; rides the dsh-plugin topic.",
+    "BankGPT/bankgpt-skills": "不是 DSH 插件：BankGPT 通用 agent 技能包（面向 Claude Code / Codex / Cursor 的 agentskills.io 金融技能集），README 无任何 DSH 安装路径；沿通用技能包剔除先例。",
+    "elonzh/dshjk": "Not a DSH plugin — a Java/Kotlin SDK library (Maven Central) for embedding the dsh runtime into JVM applications; a development library, not an installable DSH plugin.",
+    "dsAI-Q/browser-pilot": "Not a DSH plugin — a generic agent browser-automation npm package (@dsai-q/browser-pilot) with no DeepSeek Harness integration or install path in the README; rides the dsh-plugin topic.",
+    "rogersgalih80/plugin-boutique-carbon-electra": "Not a DSH plugin — a description dump of Plugin Boutique Carbon Electra, a subtractive-synthesis music synthesizer (DAW VST plugin for Windows); unrelated to DeepSeek Harness, rides the topic name.",
+    "Scu9277/DSH": "dsh-unrestricted 破甲插件（把「无限制本地执行契约」注入系统提示词组装流水线的一键安装器）；沿破甲家族剔除先例。",
+    "lldwb/dsh-side-ask": "不是可维护插件：已归档的历史归档仓（「侧边提问」组件已并入 lldwb/dsh-session-enhance），本仓库仅作存档。",
+    "ackniuw/dsh-image-drag-fix": "不是可安装插件：DSH Desktop 拖图被拒的根因分析与 asar 手术脚本（直接改宿主 node_modules 内文件），无可安装插件包；沿宿主补丁脚本剔除先例。",
+    "voidobserve/dsh-explorer-open-patch": "不是可安装插件：给第三方插件 @reed-io/dsh-explorer-open 打补丁的脚本仓（apply-patch.ps1 修改已装插件的 client.js），本仓库无自身插件包。",
+    "hyper-open/memorydex": "Not a DSH plugin — a general-purpose AI memory service (npm CLI + MCP stdio + REST/web UI); its DSH lane is a documented cordis.patch.yml MCP-server wiring recipe with no plugin manifest or plugin runtime install path.",
+    "whyissodifficult/dsh-plugin-audit": "Not a DSH plugin — a read-only static audit CLI (npx tool) that scans published DSH plugin packages; companion tooling with no plugin install path of its own.",
+    "anweat/dsh-plugin-dev-guide": "不是 DSH 插件：DSH 插件开发指南文档站（docs + 示例骨架 + 发布巡检脚本），无可安装插件包；沿手册/文档站剔除先例。"
   },
   "market_exclusions": {
     "0326/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -13659,7 +13674,13 @@
     "sakanamaru/dsh-minato-legacy": "本机部署运维套件（安装包分发），沿 dsh-minato 先例双记",
     "Fox1990125/dsh-radar-workbench": "插件/技能发现+一键装商店，the market cannot include another market",
     "solgridai/dsh-plugin": "付费第三方工具/技能商城，the market cannot include another market",
-    "zoeyzhang233666/chemclaw-bot": "主体为桌面 App（安装包为推荐分发），DSH 插件仅次要入口，双记"
+    "zoeyzhang233666/chemclaw-bot": "主体为桌面 App（安装包为推荐分发），DSH 插件仅次要入口，双记",
+    "dsh-suite-store/dsh-suite-store": "A visual plugin-suite marketplace (browse, search, one-click install of plugin suites) — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "dsh-suite-store/dsh-suite-store-catalog": "Catalog data of the dsh-suite-store marketplace — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "dshcrate/dsh-crate": "A plugin market living inside DeepSeek Harness (browse dshcrate.com, copy install commands) — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "lanxiake/dsh-vyra-plugins": "A DeepSeek Harness plugin & skill market maintained alongside the dsh-Veyra fork — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "tzzs/dsh-skill-dashboard": "A skills manager whose Discover tab searches and installs skills from public registries (skills.sh, Tencent SkillHub, GitHub) — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "HAppy-2436/dsh-status": "Not an installable DSH plugin — a standalone macOS menu bar companion app; stays in the catalog, excluded from the downstream market."
   },
   "updated_at": "2026-11-25"
 }
