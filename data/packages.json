@@ -244638,6 +244638,160 @@
       "verified_date": "2026-11-26",
       "verified_via": "README@main",
       "verified_by": "ci-auto"
+    },
+    "acus9345/dsh-guard-pack": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-block-secret-leaks",
+          "command": "dsh plugin --profile web add dsh-block-secret-leaks",
+          "install": "dsh-block-secret-leaks"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-session-cost-cap",
+          "command": "dsh plugin --profile web add dsh-session-cost-cap",
+          "install": "dsh-session-cost-cap"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-format-after-edit",
+          "command": "dsh plugin --profile web add dsh-format-after-edit",
+          "install": "dsh-format-after-edit"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "coderperseus/dsh-hub": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@dshhubs/plugin-search",
+          "command": "dsh plugin --profile web add @dshhubs/plugin-search",
+          "install": "@dshhubs/plugin-search"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "lukeknow0/dsh-side-chat": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@lukeknow0/dsh-side-chat",
+          "command": "dsh plugin --profile web add @lukeknow0/dsh-side-chat",
+          "install": "@lukeknow0/dsh-side-chat"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "divisioncassini05-lab/find-nyaa-anime-release": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-find-nyaa-anime-release",
+          "command": "dsh plugin --profile web add dsh-find-nyaa-anime-release",
+          "install": "dsh-find-nyaa-anime-release"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "bagpipe1289/dsh-paperflight": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "url:https://github.com/bagpipe1289/dsh-paperflight/releases/download/v0.1.0-preview.60/dsh-paperflight-0.1.0-preview.60.tgz",
+          "command": "dsh plugin --profile web add https://github.com/bagpipe1289/dsh-paperflight/releases/download/v0.1.0-preview.60/dsh-paperflight-0.1.0-preview.60.tgz",
+          "install": "https://github.com/bagpipe1289/dsh-paperflight/releases/download/v0.1.0-preview.60/dsh-paperflight-0.1.0-preview.60.tgz"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "21hbguo/dsh-feishu-bridge-plugin": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "飞书 IM ↔ DSH 对话桥。未发布 npm，仓内无可直接装配的 bundle。按 README 三选一：推荐命令行一键安装 `curl -fsSL https://raw.githubusercontent.com/21hbguo/dsh-feishu-bridge-plugin/main/scripts/install.sh | bash`（自动下载最新 Release 并装配进 web profile）；Windows 用户先下载 tgz 再按方式 A 手动装配。"
+    },
+    "alldurham/foreman-dsh": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "Agent 预设 + 配套配置插件，无打包发布。按 README：preset/ 复制到 ~/.dsh/.agent-presets/foreman/；在 web profile 的 cordis.patch.yml 挂载 foreman-dsh-config，并把 plugins/foreman-dsh-config 安装到该 profile 可解析的 node_modules。"
+    },
+    "kelai141/dsh-host-web-compat": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "Android 生态宿主 polyfill 插件（@dsh-android/dsh-host-web-compat 未发布 npm，仓内标记 private）。按 README：打包进 profile 的 node_modules 并在 cordis.patch.yml 声明 name: @dsh-android/dsh-host-web-compat。"
+    },
+    "niushuanan/dsh-chat-migration": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "聊天模式 + 导入对话两个原生插件按源码文件夹发布。按 README：下载 ZIP 交给可修改目标 DSH 的 AI，要求其先读 AGENTS.md/INSTALL.md/manifest.json 再安装并保留现有数据；细节见仓内 INSTALL.md。"
+    },
+    "yanwenzong1-pixel/xinlan-dsh-plugin": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "DSH 扩展坞 4 个插件（@dsh-external  scoped 包均未发布）。按 README：clone 后本地路径安装，如 `dsh plugin --profile web add ./dsh-quick-append`（另有 dsh-ptc-task、dsh-dialogue-alert-message 等）；作者注明 Desktop 端需自行兼容化改造。"
+    },
+    "whichwitchwin/character-archives": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "DSH Tavern 的第三方插件（需先装 DSH Tavern）。按 README：从 Releases 下载 CI 打好的 character-archives.zip 装配；无 npm/仓库直装目标。"
+    },
+    "alexdoandev/jev-laya-dsh": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "System-1 决策层宿主插件（packages/dsh-jev-router）。npm dsh-jev-router 无 dsh bundle 声明，安装为 workspace 软链装配：按 README 将 @local/dsh-jev-router 加入 profile 的 dsh.profile.bundles 并软链 node_modules 后重启。"
+    },
+    "slinxiaosun-blip/dsh-ai-passport-plugin": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-26",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "ESP32 BLE 随身任务终端的主机侧插件（npm 包未发布）。按 README：clone 后 `npm install && npm run install-plugin`（默认 desktop，可指定 web）；设备端固件从 ai-passport-dsh Releases 刷入。"
     }
   }
 }

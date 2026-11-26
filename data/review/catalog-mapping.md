@@ -7,8 +7,8 @@
 - 本次扫描 / scanned: **0**
 - 自动补充 / auto-applied: **0**（manifest 证据 0）
 - 本轮新增待裁决 / new review: **0**
-- 结转待裁决 / carried forward: **26**
-- 待裁决总计 / total review: **26**
+- 结转待裁决 / carried forward: **0**
+- 待裁决总计 / total review: **0**
 
 ## 自动补充 / Auto-applied（0）
 
@@ -16,34 +16,9 @@
 | --- | ---: | --- | --- |
 | — | — | — | — |
 
-## 待裁决 / Needs review（26）
+## 待裁决 / Needs review（0）
 
 | 仓库 / Repo | ★ | 原因 / Why not automatic | README 提示 / Hint |
 | --- | ---: | --- | --- |
-| [21hbguo/dsh-feishu-bridge-plugin](https://github.com/21hbguo/dsh-feishu-bridge-plugin) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [AllDurham/foreman-dsh](https://github.com/AllDurham/foreman-dsh) | 4 | no install command extracted; no package.json |  |
-| [ciceroyang/dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [coderPerseus/dsh-hub](https://github.com/coderPerseus/dsh-hub) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [jerryxff26-alt/delivery-board](https://github.com/jerryxff26-alt/delivery-board) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [jonah791/dsh-agent-compact](https://github.com/jonah791/dsh-agent-compact) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [kelai141/dsh-host-web-compat](https://github.com/kelai141/dsh-host-web-compat) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [kirbylynx/dsh-hub](https://github.com/kirbylynx/dsh-hub) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [Lukeknow0/dsh-side-chat](https://github.com/Lukeknow0/dsh-side-chat) | 4 | no install command extracted; package.json declares no dsh bundle | dsh plugin --profile web add /absolute/path/lukeknow0-dsh-side-chat-1.0.0-rc.1.tgz |
-| [MagicalYuYu/agent-operating-system](https://github.com/MagicalYuYu/agent-operating-system) | 4 | no install command extracted; no package.json |  |
-| [niushuanan/dsh-chat-migration](https://github.com/niushuanan/dsh-chat-migration) | 4 | no install command extracted; no package.json |  |
-| [QinLuza/dsh-aisketch](https://github.com/QinLuza/dsh-aisketch) | 4 | no install command extracted; package.json declares no dsh bundle | dsh plugin --profile &lt;profile&gt; add link:&lt;repo&gt;/packages/sketch-bundle |
-| [slinxiaosun-blip/dsh-ai-passport-plugin](https://github.com/slinxiaosun-blip/dsh-ai-passport-plugin) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [WhichWitchWin/character-archives](https://github.com/WhichWitchWin/character-archives) | 4 | no install command extracted; package.json declares no dsh bundle |  |
-| [wuliLiuyue/wxpilot](https://github.com/wuliLiuyue/wxpilot) | 4 | no install command extracted; package.json declares no dsh bundle | dsh plugin --profile demo add ./packages/dsh |
-| [yanwenzong1-pixel/xinlan-dsh-plugin](https://github.com/yanwenzong1-pixel/xinlan-dsh-plugin) | 4 | no install command extracted; no package.json | dsh plugin --profile web add ./dsh-quick-append |
-| [AaronKal-ECU/offline-ai-agent](https://github.com/AaronKal-ECU/offline-ai-agent) | 3 | no install command extracted; no package.json |  |
-| [acus9345/dsh-guard-pack](https://github.com/acus9345/dsh-guard-pack) | 3 | no install command extracted; package.json declares no dsh bundle | dsh plugin --profile web add "$p" |
-| [alexdoandev/jev-laya-dsh](https://github.com/alexdoandev/jev-laya-dsh) | 3 | no install command extracted; no package.json |  |
-| [AntheaLaffy/dsh-plugin-tomato-todo](https://github.com/AntheaLaffy/dsh-plugin-tomato-todo) | 3 | no install command extracted; package.json declares no dsh bundle |  |
-| [bagpipe1289/dsh-paperflight](https://github.com/bagpipe1289/dsh-paperflight) | 3 | no install command extracted; package.json declares no dsh bundle |  |
-| [baiyun200/dsh-dashboard](https://github.com/baiyun200/dsh-dashboard) | 3 | no install command extracted; package.json declares no dsh bundle |  |
-| [ciceroyang/dsh-trajectory](https://github.com/ciceroyang/dsh-trajectory) | 3 | no install command extracted; package.json declares no dsh bundle |  |
-| [davidalmeida90/finance-agent-kit](https://github.com/davidalmeida90/finance-agent-kit) | 3 | no install command extracted; no package.json |  |
-| [DEVbyQIN/dsh-plugin-kit](https://github.com/DEVbyQIN/dsh-plugin-kit) | 3 | no install command extracted; package.json declares no dsh bundle |  |
-| [divisioncassini05-lab/find-nyaa-anime-release](https://github.com/divisioncassini05-lab/find-nyaa-anime-release) | 3 | no install command extracted; no package.json |  |
+| — | — | — | — |
 

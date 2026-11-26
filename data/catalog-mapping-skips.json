@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25",
+  "updated_at": "2026-11-26",
   "entries": {
     "daha1216/dsh-adult-tension": {
       "reason": "Agent Skill（原生 SKILL）：`skill/adult-tension/` 含 SKILL.md + references + 运行时，安装方式是把该目录复制进 ~/.dsh/skills/，没有 cordis 插件或 dsh bundle 清单",
@@ -225,6 +225,58 @@
     "daijiaoshou-ds/accounting-entry-test": {
       "reason": "插件安装目标在同作者的 npm 包 dsh-auditor（仓库 daijiaoshou-ds/dsh-auditor）；本仓是 Python 引擎与训练源码，README 无指向本仓的 dsh plugin add 路径",
       "date": "2026-11-25"
+    },
+    "ciceroyang/dsh-plugin-starter": {
+      "reason": "插件脚手架 CLI（npx github:... 生成器），不是可安装的 DSH 插件",
+      "date": "2026-11-26"
+    },
+    "jerryxff26-alt/delivery-board": {
+      "reason": "README 自述 no plugin：skill + 脚本仓，软链到 ~/.agents/skills 使用，无插件装配目标",
+      "date": "2026-11-26"
+    },
+    "magicalyuyu/agent-operating-system": {
+      "reason": "Agent 运行框架/技能集合（clone 部署 + AGENTS.md 适配），不是 DSH 插件",
+      "date": "2026-11-26"
+    },
+    "aaronkal-ecu/offline-ai-agent": {
+      "reason": "个人本地 AI 实验室的配置文档仓（Ollama+DSH 搭建记录），无可安装插件",
+      "date": "2026-11-26"
+    },
+    "baiyun200/dsh-dashboard": {
+      "reason": "插件生态可视化仪表盘网站（GitHub Pages），不是可安装插件",
+      "date": "2026-11-26"
+    },
+    "ciceroyang/dsh-trajectory": {
+      "reason": "会话分析 CLI 工具（npx 运行），不是可安装的 DSH 插件",
+      "date": "2026-11-26"
+    },
+    "devbyqin/dsh-plugin-kit": {
+      "reason": "README 自述「不是一个插件」：插件开发方法论 skill+模板+工具包",
+      "date": "2026-11-26"
+    },
+    "anthealaffy/dsh-plugin-tomato-todo": {
+      "reason": "番茄钟桌面应用（AUR/deb/exe 安装），仓内无 DSH 插件 bundle，无插件装配目标",
+      "date": "2026-11-26"
+    },
+    "jonah791/dsh-agent-compact": {
+      "reason": "无分发渠道：npm 未发布、仓内无 bundle manifest、README 无安装命令，需配套 dsh-compact-provider 且部署方式为源码文件夹",
+      "date": "2026-11-26"
+    },
+    "davidalmeida90/finance-agent-kit": {
+      "reason": "技能 + MCP cordis patch 套件（bootstrap.py 逐步装配），无插件 bundle 目标",
+      "date": "2026-11-26"
+    },
+    "kirbylynx/dsh-hub": {
+      "reason": "插件声明 engines.dsh 0.1.0-rc.7 精确钉，与全部受支持宿主（0.2.x）不兼容；同名 npm 包 dsh-hub-plugin 归属他人仓库",
+      "date": "2026-11-26"
+    },
+    "qinluza/dsh-aisketch": {
+      "reason": "插件声明 engines.dsh >=0.1.7-rc.2 <0.2.0，与全部受支持宿主（0.2.x）不兼容；npm 未发布",
+      "date": "2026-11-26"
+    },
+    "wuliliuyue/wxpilot": {
+      "reason": "插件声明 engines.dsh >=0.1.0-rc.6 <0.2.0，与全部受支持宿主（0.2.x）不兼容；npm 未发布",
+      "date": "2026-11-26"
     }
   }
 }
