@@ -1213,7 +1213,6 @@
     "difaandailisi/dsh-capability-router": "ecosystem-resources",
     "Diluka/dsh-afk": "agents-workflows",
     "dingchenhui0618-arch/dsh-adaptive": "ecosystem-resources",
-    "dingchenhui0618-arch/dsh-daily": "ecosystem-resources",
     "dingchenhui0618-arch/dsh-delivery-receipt": "agents-workflows",
     "dingchenhui0618-arch/dsh-den": "agents-workflows",
     "dingchenhui0618-arch/dsh-fact-lock-rewrite": "utilities",
@@ -3797,7 +3796,6 @@
     "redkiller79/dsh-disk-space": "utilities",
     "referiw/dsh-plugin-tieba": "web-browser",
     "reg4916/dsh-doc-reader": "utilities",
-    "RegeneratusLabs/dsh-minicpm-cook": "developer-tools",
     "regrevia/dsh-pause-resume": "agents-workflows",
     "regrevia/dsh-unlag": "ui-experience",
     "regrevia/dsh-vantage": "ui-experience",
@@ -6775,7 +6773,6 @@
     "sadjjk/dsh-context-mode-adapter": "agents-workflows",
     "dsh-plugins/dsh-image-annotate": "media-vision",
     "krodon998/dsh-get-memory": "knowledge-research",
-    "AntheaLaffy/dsh-plugin-tomato-todo": "agents-workflows",
     "RicardoYan/dsh-session-purger": "agents-workflows",
     "agi-redtea/dsh-weixin-web": "integrations-sharing",
     "bihong2026/dsh-arcade": "utilities",
@@ -11754,7 +11751,6 @@
     "Hou-DL/dsh-token-pulse": "ui-experience",
     "HougeLangley/dsh-aosc-packaging": "developer-tools",
     "houlain/dsh-workspace-studio": "developer-tools",
-    "houyanchao/dsh-chat-export": "utilities",
     "houyanchao/dsh-prompt-library": "agents-workflows",
     "howie79794-sys/dsh-voice-polish": "media-vision",
     "howtomakeaname/dsh-agent-session-import": "agents-workflows",
@@ -17213,7 +17209,6 @@
     "mlaimail77/genkaku": "developer-tools",
     "mrwisdon/dsh-tianyicui-monitor": "developer-tools",
     "oxmumu3/dsh-workproof": "agents-workflows",
-    "shinji00222/dsh-persona-continuity-bot": "knowledge-research",
     "snoworwind/pocket-harness-ohos": "utilities",
     "syyr1987/dsh-linghun-assembler": "knowledge-research",
     "wdxtub/dsh-wdx-relief": "ui-experience",
@@ -19817,7 +19812,6 @@
     "tkkpku/timebudget-guard": "agents-workflows",
     "ttackqwed/dsh-session-log-import": "agents-workflows",
     "txp2026txp/dsh-connect-loomy": "developer-tools",
-    "unifilitence/dsh-perf-guard": "utilities",
     "universe-st/dsh-workspace-category": "ui-experience",
     "warm-flame-core/dsh-jlc-art-pcb": "media-vision",
     "wellsoren/dsh-restart": "utilities",
@@ -19827,7 +19821,6 @@
     "xian-yu-zhao/dsh-stop-all": "agents-workflows",
     "xiaomengxinbb/dsh-message-workbench": "ui-experience",
     "ximi-chen/dsh-supersede": "agents-workflows",
-    "xingwang0/research-ml-modeling": "knowledge-research",
     "xinhe1337/dsh-institutional-literature": "knowledge-research",
     "xpopux/dsh-version-sentinel": "utilities",
     "yakovlev-i-a/dsh-openfoam-workbench": "developer-tools",
@@ -19842,7 +19835,14 @@
     "zhengwuyu957/dsh-role-play": "agents-workflows",
     "zj6511235/dsh-skill-manager": "ecosystem-resources",
     "zman406986/dsh-bot": "multi-agents",
-    "zyw294/cloud189-mcp": "integrations-sharing"
+    "zyw294/cloud189-mcp": "integrations-sharing",
+    "AntheaLaffy/tomato-todo": "agents-workflows",
+    "dingchenhui0618-arch/dsh-plugin-daily": "ecosystem-resources",
+    "RegeneratusLabs/minicpm-cook": "developer-tools",
+    "shinji00222/dsh-persona-twin-bot": "knowledge-research",
+    "houyanchao/dsh-chat-exporter": "utilities",
+    "unifilitence/dsh-light-guard": "utilities",
+    "xingwang0/chemometrics-agent-skill": "knowledge-research"
   },
   "description_overrides": {
     "43456-awa/dsh-notepad": "钉在 DeepSeek Harness Web GUI 的常驻记事本插件，可拖动、可固定。",
@@ -23523,7 +23523,18 @@
     "dake6767/dsh-phalanx": "desktop client/standalone app, not an installable DSH plugin",
     "zj6511235/dsh-skill-manager": "the market cannot include another market"
   },
-  "updated_at": "2026-11-27",
+  "updated_at": {
+    "0": "2",
+    "1": "0",
+    "2": "2",
+    "3": "6",
+    "4": "-",
+    "5": "1",
+    "6": "1",
+    "7": "-",
+    "8": "2",
+    "9": "7"
+  },
   "selection_metadata": {
     "01float01/dsh-remote": {
       "s": "在局域网内起一个带密码与 TLS 的网关，让手机平板浏览器直接访问本机 DSH Web 界面并自动切换手机版布局",
@@ -25865,16 +25876,6 @@
         "provider"
       ]
     },
-    "unifilitence/dsh-perf-guard": {
-      "s": "零轮询为 DSH 减负：会话冷归档可搜索可还原、渲染瘦身预设，并区分前后端压力给体检建议。",
-      "k": [
-        "性能守护",
-        "会话冷归档",
-        "存储体检",
-        "渲染瘦身",
-        "零轮询"
-      ]
-    },
     "universe-st/dsh-workspace-category": {
       "s": "在 DSH 侧栏给工作区分组并按分类筛选，支持配置页管理与未分类兜底。",
       "k": [
@@ -25964,17 +25965,6 @@
         "消息投递",
         "会话开关",
         "composer"
-      ]
-    },
-    "xingwang0/research-ml-modeling": {
-      "s": "固化审稿级建模特化流程：嵌套分组交叉验证、置换检验、适用域与论文图表 Methods 草稿。",
-      "k": [
-        "化学计量学",
-        "交叉验证",
-        "置换检验",
-        "适用域",
-        "论文图表",
-        "Methods草稿"
       ]
     },
     "xinhe1337/dsh-institutional-literature": {
@@ -26118,6 +26108,27 @@
         "上传下载",
         "回收站",
         "配额"
+      ]
+    },
+    "unifilitence/dsh-light-guard": {
+      "s": "零轮询为 DSH 减负：会话冷归档可搜索可还原、渲染瘦身预设，并区分前后端压力给体检建议。",
+      "k": [
+        "性能守护",
+        "会话冷归档",
+        "存储体检",
+        "渲染瘦身",
+        "零轮询"
+      ]
+    },
+    "xingwang0/chemometrics-agent-skill": {
+      "s": "固化审稿级建模特化流程：嵌套分组交叉验证、置换检验、适用域与论文图表 Methods 草稿。",
+      "k": [
+        "化学计量学",
+        "交叉验证",
+        "置换检验",
+        "适用域",
+        "论文图表",
+        "Methods草稿"
       ]
     }
   }

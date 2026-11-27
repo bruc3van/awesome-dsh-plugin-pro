@@ -2,40 +2,40 @@
 
 [返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [Star Top 200](./TOP200.md) · [作者自荐 / Author showcase](./SHOWCASE.md) · [JSON data](./data/repositories.json)
 
-本页自动收录 GitHub [`dsh-plugin` Topic](https://github.com/topics/dsh-plugin) 下已提供项目简介、并经维护者核实（[data/approved.json](./data/approved.json)）的公开仓库。1164 个蹭 Topic 的非插件仓库（平台本体、其他 Agent 工具、同名目录站等）以及经编辑部拉黑的仓库已剔除，清单与理由见 [data/curated.json](./data/curated.json)。新增仓库先进入[待审核队列](./data/review/pending.md)，经人工核实后才会收录。本页是索引，不代表人工推荐、兼容性验证或安全背书。
+本页自动收录 GitHub [`dsh-plugin` Topic](https://github.com/topics/dsh-plugin) 下已提供项目简介、并经维护者核实（[data/approved.json](./data/approved.json)）的公开仓库。1161 个蹭 Topic 的非插件仓库（平台本体、其他 Agent 工具、同名目录站等）以及经编辑部拉黑的仓库已剔除，清单与理由见 [data/curated.json](./data/curated.json)。新增仓库先进入[待审核队列](./data/review/pending.md)，经人工核实后才会收录。本页是索引，不代表人工推荐、兼容性验证或安全背书。
 
 目录按类目分册：条目总量已超过 GitHub 单页 Markdown 的渲染上限，下表每一行都是一册完整名单。
 
-This page automatically lists public repositories under GitHub's [`dsh-plugin` topic](https://github.com/topics/dsh-plugin) that have a description set and have been verified by the maintainer ([data/approved.json](./data/approved.json)). 1164 repositories that ride the topic without being DSH plugins (the platform itself, other agent tools, competing catalogs), plus editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json) for the full list and reasons. New repositories enter the [review queue](./data/review/pending.md) first and appear here only after human verification. It is an index, not a claim of editorial recommendation, compatibility, or security review.
+This page automatically lists public repositories under GitHub's [`dsh-plugin` topic](https://github.com/topics/dsh-plugin) that have a description set and have been verified by the maintainer ([data/approved.json](./data/approved.json)). 1161 repositories that ride the topic without being DSH plugins (the platform itself, other agent tools, competing catalogs), plus editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json) for the full list and reasons. New repositories enter the [review queue](./data/review/pending.md) first and appear here only after human verification. It is an index, not a claim of editorial recommendation, compatibility, or security review.
 
 The catalog is split into one volume per category — the full list outgrew GitHub's single-page Markdown rendering limit. Each row below is a complete volume.
 
-- Repositories: **31346**
+- Repositories: **31315**
 - Primary languages: **42**
-- Declared licenses: **28839**
-- Refreshed: **2026-11-26 UTC**
+- Declared licenses: **28818**
+- Refreshed: **2026-11-27 UTC**
 - 最近人工复核 / Last review merge: **2026-11-27**
 
 ## 分册 / Volumes
 
 | 类目 / Category | 条目 / Entries |
 | --- | ---: |
-| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 1750 |
-| [界面与体验（A–F） / UI & Experience (A–F)](./catalog/ui-experience.md) | 2166 |
+| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 1748 |
+| [界面与体验（A–F） / UI & Experience (A–F)](./catalog/ui-experience.md) | 2162 |
 | [界面与体验（G–L） / UI & Experience (G–L)](./catalog/ui-experience-g-l.md) | 1847 |
-| [界面与体验（M–S） / UI & Experience (M–S)](./catalog/ui-experience-m-s.md) | 1908 |
-| [界面与体验（T–Z） / UI & Experience (T–Z)](./catalog/ui-experience-t-z.md) | 1875 |
-| [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 2126 |
-| [网页与浏览器（A–M） / Web & Browser (A–M)](./catalog/web-browser.md) | 606 |
+| [界面与体验（M–S） / UI & Experience (M–S)](./catalog/ui-experience-m-s.md) | 1907 |
+| [界面与体验（T–Z） / UI & Experience (T–Z)](./catalog/ui-experience-t-z.md) | 1873 |
+| [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 2123 |
+| [网页与浏览器（A–M） / Web & Browser (A–M)](./catalog/web-browser.md) | 605 |
 | [网页与浏览器（N–Z） / Web & Browser (N–Z)](./catalog/web-browser-n-z.md) | 470 |
-| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 1839 |
-| [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 2150 |
-| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 4972 |
-| [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 973 |
-| [Agent、自动化与工作流（A–F） / Agents, Automation & Workflows (A–F)](./catalog/agents-workflows.md) | 1419 |
-| [Agent、自动化与工作流（G–M） / Agents, Automation & Workflows (G–M)](./catalog/agents-workflows-g-m.md) | 1614 |
-| [Agent、自动化与工作流（N–T） / Agents, Automation & Workflows (N–T)](./catalog/agents-workflows-n-t.md) | 1190 |
-| [Agent、自动化与工作流（U–Z） / Agents, Automation & Workflows (U–Z)](./catalog/agents-workflows-u-z.md) | 1004 |
+| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 1838 |
+| [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 2146 |
+| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 4970 |
+| [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 972 |
+| [Agent、自动化与工作流（A–F） / Agents, Automation & Workflows (A–F)](./catalog/agents-workflows.md) | 1416 |
+| [Agent、自动化与工作流（G–M） / Agents, Automation & Workflows (G–M)](./catalog/agents-workflows-g-m.md) | 1609 |
+| [Agent、自动化与工作流（N–T） / Agents, Automation & Workflows (N–T)](./catalog/agents-workflows-n-t.md) | 1189 |
+| [Agent、自动化与工作流（U–Z） / Agents, Automation & Workflows (U–Z)](./catalog/agents-workflows-u-z.md) | 1003 |
 | [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 3437 |
 
 ## Data source
