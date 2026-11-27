@@ -1,0 +1,104 @@
+{
+  "full_name": "SaekiRaku/deepseek-rainbow-fart",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:01.848Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e1e36a0e6ab9ce12b7267b5d8ab5528dd7984e42e95b57bda684c1660966e231",
+      "url": "https://github.com/SaekiRaku/deepseek-rainbow-fart/blob/7460478d2629179c51684bc2a4c86afa5de8ba75/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-rainbow-fart",
+      "version": "0.1.0",
+      "path": "packages/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SaekiRaku/deepseek-rainbow-fart",
+        "commit": "7460478d2629179c51684bc2a4c86afa5de8ba75",
+        "path": "packages/bundle"
+      },
+      "manifestSha256": "a6f26ea0f448f4e59cd114caf90bc30ac99257fe321247c6855568a62f149a5e",
+      "manifestUrl": "https://github.com/SaekiRaku/deepseek-rainbow-fart/blob/7460478d2629179c51684bc2a4c86afa5de8ba75/packages/bundle/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepseek-rainbow-fart",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788103761,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SaekiRaku/deepseek-rainbow-fart",
+              "commit": "7460478d2629179c51684bc2a4c86afa5de8ba75",
+              "path": "packages/bundle"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-rainbow-fart-core",
+      "version": "0.1.0",
+      "path": "packages/core",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SaekiRaku/deepseek-rainbow-fart",
+        "commit": "7460478d2629179c51684bc2a4c86afa5de8ba75",
+        "path": "packages/core"
+      },
+      "manifestSha256": "46604b16b3284dd4ec13b64ffda01f2888d165eb2525bb10a03dc550525f7adc",
+      "manifestUrl": "https://github.com/SaekiRaku/deepseek-rainbow-fart/blob/7460478d2629179c51684bc2a4c86afa5de8ba75/packages/core/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "deepseek-rainbow-fart-core",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788103761,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SaekiRaku/deepseek-rainbow-fart",
+              "commit": "7460478d2629179c51684bc2a4c86afa5de8ba75",
+              "path": "packages/core"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SaekiRaku/deepseek-rainbow-fart",
+    "commit": "7460478d2629179c51684bc2a4c86afa5de8ba75",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:03.896Z"
+}

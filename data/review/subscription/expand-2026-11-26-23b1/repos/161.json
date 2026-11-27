@@ -1,0 +1,74 @@
+{
+  "full_name": "Ansonfishing/dsh-cap-profile",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:43.006Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "418adc034264644d66275d8d6d0f03c8e215a261b08c9bd86e5a317b6381a4a7",
+      "url": "https://github.com/Ansonfishing/dsh-cap-profile/blob/ef1675acaf48e41297f94f24bd8f4ca13626827c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ee22c3413e122e3720f1e668edd729d66591a61c7ac07e556459f3fda7c7d3ec",
+      "url": "https://github.com/Ansonfishing/dsh-cap-profile/blob/ef1675acaf48e41297f94f24bd8f4ca13626827c/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cap-profile",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ansonfishing/dsh-cap-profile",
+        "commit": "ef1675acaf48e41297f94f24bd8f4ca13626827c"
+      },
+      "manifestSha256": "556e6dc83304c0d685bff1dea85c85397a659b69fa5635a03ba5d3215db94a99",
+      "manifestUrl": "https://github.com/Ansonfishing/dsh-cap-profile/blob/ef1675acaf48e41297f94f24bd8f4ca13626827c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cap-profile",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1788007713,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ansonfishing/dsh-cap-profile",
+              "commit": "ef1675acaf48e41297f94f24bd8f4ca13626827c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ansonfishing/dsh-cap-profile",
+    "commit": "ef1675acaf48e41297f94f24bd8f4ca13626827c",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:44.343Z"
+}

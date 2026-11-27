@@ -1,0 +1,97 @@
+{
+  "full_name": "sayzwx/dsh-custom-model",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:19.881Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97ed720a587611252c516742121245ec9ff953a56c4af37d97ea645b25785779",
+      "url": "https://github.com/sayzwx/dsh-custom-model/blob/306c9db783a25d3e1d32b47c767f1bbdcfdb7409/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sayzwx/dsh-custom-model",
+          "command": "dsh plugin --profile desktop add https://github.com/sayzwx/dsh-custom-model",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/sayzwx/dsh-custom-model/releases/download/v1.0.0/dsh-custom-model-1.0.0.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/sayzwx/dsh-custom-model/releases/download/v1.0.0/dsh-custom-model-1.0.0.tgz",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-custom-model",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sayzwx/dsh-custom-model",
+        "commit": "306c9db783a25d3e1d32b47c767f1bbdcfdb7409"
+      },
+      "manifestSha256": "eb56e8a36ee8c993f0de26906831b3d6399b93dac061cf0de7bac14a19fe4439",
+      "manifestUrl": "https://github.com/sayzwx/dsh-custom-model/blob/306c9db783a25d3e1d32b47c767f1bbdcfdb7409/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-custom-model",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1795246127,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sayzwx/dsh-custom-model",
+              "commit": "306c9db783a25d3e1d32b47c767f1bbdcfdb7409"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/sayzwx/dsh-custom-model/releases/download/v1.0.0/dsh-custom-model-1.0.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sayzwx/dsh-custom-model",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sayzwx/dsh-custom-model/releases/download/v1.0.0/dsh-custom-model-1.0.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sayzwx/dsh-custom-model",
+    "commit": "306c9db783a25d3e1d32b47c767f1bbdcfdb7409",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:21.069Z"
+}

@@ -1,0 +1,166 @@
+{
+  "full_name": "CharlesLiuZC/deepseek-harness-voice-context",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:48.967Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7b077f8149f3e7158bfe1dccbb6c44aae2ca7bb871c1d7b81b4216864e49c0e9",
+      "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context/blob/d6c064ad8dde584b99e46e5c1dad3563ab350506/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "446ce0cc5bad539abd288e807a31835ea98aa404360fcd2d704e7a222d5c8105",
+      "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context/blob/d6c064ad8dde584b99e46e5c1dad3563ab350506/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/voice/voice-context/README.md",
+      "sha256": "a4668873715552b076cf28a0134d64937322508311a43cbff830537c4cc93527",
+      "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context/blob/d6c064ad8dde584b99e46e5c1dad3563ab350506/packages/voice/voice-context/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/client/ui-voice-context/README.md",
+      "sha256": "bcac24078c61eaa6e9c597075a1ec84b12bf86215298c3d5b9f330e0f12cbf6d",
+      "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context/blob/d6c064ad8dde584b99e46e5c1dad3563ab350506/packages/client/ui-voice-context/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/voice/voice-context/local/funasr/README.md",
+      "sha256": "c7c56e7131d63d2f2f970ca9addf8e2546e49f1d5eabe59e1252f66642880407",
+      "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context/blob/d6c064ad8dde584b99e46e5c1dad3563ab350506/packages/voice/voice-context/local/funasr/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-base",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context",
+        "commit": "d6c064ad8dde584b99e46e5c1dad3563ab350506",
+        "path": "packages/bundle/base"
+      },
+      "manifestSha256": "9199fac428e298444f7c111b0a96e77474ce48cbf8544e191b79b70a0dda197f",
+      "manifestUrl": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context/blob/d6c064ad8dde584b99e46e5c1dad3563ab350506/packages/bundle/base/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-base",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1790702851,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context",
+              "commit": "d6c064ad8dde584b99e46e5c1dad3563ab350506",
+              "path": "packages/bundle/base"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-headless",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/headless",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context",
+        "commit": "d6c064ad8dde584b99e46e5c1dad3563ab350506",
+        "path": "packages/bundle/headless"
+      },
+      "manifestSha256": "f4bacd6de47033457e083c63dd1c624fc63ac7510fbca9ed6786e7dad0340c42",
+      "manifestUrl": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context/blob/d6c064ad8dde584b99e46e5c1dad3563ab350506/packages/bundle/headless/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-headless",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1790702851,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context",
+              "commit": "d6c064ad8dde584b99e46e5c1dad3563ab350506",
+              "path": "packages/bundle/headless"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/web-app",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context",
+        "commit": "d6c064ad8dde584b99e46e5c1dad3563ab350506",
+        "path": "packages/bundle/web-app"
+      },
+      "manifestSha256": "add9992bfd89afc7e2d507a66af36e202f05f3771d2d184f792c8d41bf5ea3ad",
+      "manifestUrl": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context/blob/d6c064ad8dde584b99e46e5c1dad3563ab350506/packages/bundle/web-app/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-web-app",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1790702851,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context",
+              "commit": "d6c064ad8dde584b99e46e5c1dad3563ab350506",
+              "path": "packages/bundle/web-app"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CharlesLiuZC/deepseek-harness-voice-context",
+    "commit": "d6c064ad8dde584b99e46e5c1dad3563ab350506",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T00:00:52.537Z"
+}

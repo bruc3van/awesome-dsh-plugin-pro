@@ -1,0 +1,95 @@
+{
+  "full_name": "wychmod/dsh-mini-superagent",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T23:58:56.335Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ceef5f6e15f9d491ec06f26f1f43e7098f25b1e34b22e81d0a3ccde132e51179",
+      "url": "https://github.com/wychmod/dsh-mini-superagent/blob/90e38575716b4c0fb3362f7b81254309c2e4f42b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-mini-superagent/README.md",
+      "sha256": "ec68a44fa25bd6bf965dbfaf4b3fd64d222f94e84c43d970709076de71ea5124",
+      "url": "https://github.com/wychmod/dsh-mini-superagent/blob/90e38575716b4c0fb3362f7b81254309c2e4f42b/dsh-mini-superagent/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plans/README.md",
+      "sha256": "77281ca107ee57eaf0f7747233bbdf88872861ef1ded0c20402311328663ef0d",
+      "url": "https://github.com/wychmod/dsh-mini-superagent/blob/90e38575716b4c0fb3362f7b81254309c2e4f42b/plans/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "reference/README.md",
+      "sha256": "4417966fbe03a82336308c7ae5ae9b8ca6e9a4a4995e777bcfbb75c5c2fd09bb",
+      "url": "https://github.com/wychmod/dsh-mini-superagent/blob/90e38575716b4c0fb3362f7b81254309c2e4f42b/reference/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mini-superagent",
+      "version": "0.10.4",
+      "path": "dsh-mini-superagent",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wychmod/dsh-mini-superagent",
+        "commit": "90e38575716b4c0fb3362f7b81254309c2e4f42b",
+        "path": "dsh-mini-superagent"
+      },
+      "manifestSha256": "e7013b29b71a280ede30c90d573bd20b78f504a94de97fa79e34db817aaa7898",
+      "manifestUrl": "https://github.com/wychmod/dsh-mini-superagent/blob/90e38575716b4c0fb3362f7b81254309c2e4f42b/dsh-mini-superagent/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mini-superagent",
+        "versions": [
+          {
+            "version": "0.10.4",
+            "publishTimestamp": 1795279342,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wychmod/dsh-mini-superagent",
+              "commit": "90e38575716b4c0fb3362f7b81254309c2e4f42b",
+              "path": "dsh-mini-superagent"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wychmod/dsh-mini-superagent",
+    "commit": "90e38575716b4c0fb3362f7b81254309c2e4f42b",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:58:58.667Z"
+}

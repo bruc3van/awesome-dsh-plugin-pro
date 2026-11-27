@@ -1,0 +1,66 @@
+{
+  "full_name": "AshenSeeker/dsh-subagent-switch",
+  "originalPosition": 167,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 167,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:44.344Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2913cf12775539c50bcd4dd1a28dfa200ed518c4c315069b420b0efcbec9f70b",
+      "url": "https://github.com/AshenSeeker/dsh-subagent-switch/blob/26860e0cf6199e9668da4d48177c80079671ba03/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/subagent-switch",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AshenSeeker/dsh-subagent-switch",
+        "commit": "26860e0cf6199e9668da4d48177c80079671ba03"
+      },
+      "manifestSha256": "4a0d65aa6862b327460acdfb6cd1d2c9eba0682554d9be5dce0dc9a4cdf8f048",
+      "manifestUrl": "https://github.com/AshenSeeker/dsh-subagent-switch/blob/26860e0cf6199e9668da4d48177c80079671ba03/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@local/subagent-switch",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793943928,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AshenSeeker/dsh-subagent-switch",
+              "commit": "26860e0cf6199e9668da4d48177c80079671ba03"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AshenSeeker/dsh-subagent-switch",
+    "commit": "26860e0cf6199e9668da4d48177c80079671ba03",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:45.466Z"
+}

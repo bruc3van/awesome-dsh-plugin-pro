@@ -1,0 +1,66 @@
+{
+  "full_name": "AIR-pixel/air-pixel-liquid-glass",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:39.807Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bd038e07a1a25f5043cda94a6f43aa92344bf8e3b7abfda0c54d12c57b54bc11",
+      "url": "https://github.com/AIR-pixel/air-pixel-liquid-glass/blob/9ae9fa7cf63592a81b9469a023551a3b0d28e551/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "air-pixel-liquid-glass",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AIR-pixel/air-pixel-liquid-glass",
+        "commit": "9ae9fa7cf63592a81b9469a023551a3b0d28e551"
+      },
+      "manifestSha256": "29a5176cdce45fe069f8d36214f6b2e1ffb72dbe46e411f3d47ad09ac7ef7407",
+      "manifestUrl": "https://github.com/AIR-pixel/air-pixel-liquid-glass/blob/9ae9fa7cf63592a81b9469a023551a3b0d28e551/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "air-pixel-liquid-glass",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1793500115,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AIR-pixel/air-pixel-liquid-glass",
+              "commit": "9ae9fa7cf63592a81b9469a023551a3b0d28e551"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AIR-pixel/air-pixel-liquid-glass",
+    "commit": "9ae9fa7cf63592a81b9469a023551a3b0d28e551",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:40.895Z"
+}

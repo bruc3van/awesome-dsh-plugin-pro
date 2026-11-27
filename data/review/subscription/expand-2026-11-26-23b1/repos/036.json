@@ -1,0 +1,66 @@
+{
+  "full_name": "WanYanTianDe/dsh-headroom",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:09.246Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dbc22a55852ce98dd4f8ff93c76d19caa34687e08d9eeffa7af75dfbb40a64fa",
+      "url": "https://github.com/WanYanTianDe/dsh-headroom/blob/aa29be59f6a990dca6aadb9c5a4c31d8a13e0e16/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wanyantiande/dsh-headroom",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WanYanTianDe/dsh-headroom",
+        "commit": "aa29be59f6a990dca6aadb9c5a4c31d8a13e0e16"
+      },
+      "manifestSha256": "565fe6667a4546d2f0add57ac8472e53ccbb0b53011612d0f256ee38d089f114",
+      "manifestUrl": "https://github.com/WanYanTianDe/dsh-headroom/blob/aa29be59f6a990dca6aadb9c5a4c31d8a13e0e16/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@wanyantiande/dsh-headroom",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1791781648,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WanYanTianDe/dsh-headroom",
+              "commit": "aa29be59f6a990dca6aadb9c5a4c31d8a13e0e16"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WanYanTianDe/dsh-headroom",
+    "commit": "aa29be59f6a990dca6aadb9c5a4c31d8a13e0e16",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:10.531Z"
+}

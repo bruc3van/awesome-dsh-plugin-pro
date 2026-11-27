@@ -1,0 +1,56 @@
+{
+  "full_name": "whiteguo233/dsh-cc-connect",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:27.291Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b73b2912e6c7b07b109a4bf2ff4c58c5c12264e7f9ceeb565e218937999730f8",
+      "url": "https://github.com/whiteguo233/dsh-cc-connect/blob/3c2b1e19cc432d5239dea0408f3dfb60e33084af/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "go/README.md",
+      "sha256": "906eb796ba30924a8b357b22fd36723542768e3e892f45eeebbf2b5327c8cddd",
+      "url": "https://github.com/whiteguo233/dsh-cc-connect/blob/3c2b1e19cc432d5239dea0408f3dfb60e33084af/go/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "bridge/README.md",
+      "sha256": "60bdf20898b625d98439df643e183585ab9bfa7470470c83b13f623627b84ef4",
+      "url": "https://github.com/whiteguo233/dsh-cc-connect/blob/3c2b1e19cc432d5239dea0408f3dfb60e33084af/bridge/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/whiteguo233/dsh-cc-connect",
+    "commit": "3c2b1e19cc432d5239dea0408f3dfb60e33084af",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@dsh-external/cc-connect",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:28.915Z"
+}

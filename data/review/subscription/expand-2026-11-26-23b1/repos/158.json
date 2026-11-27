@@ -1,0 +1,66 @@
+{
+  "full_name": "Amir-Keshtkar/deepseek-harness-peak-reminder",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:42.276Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b87a44f1b879e8f819dd2e8cd67e1a616ea3e52dc9fe59b689a67009f4a78b66",
+      "url": "https://github.com/Amir-Keshtkar/deepseek-harness-peak-reminder/blob/cb9721ca70d90ae031d9218791b5d2d818cba492/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-harness-peak-reminder",
+      "version": "1.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Amir-Keshtkar/deepseek-harness-peak-reminder",
+        "commit": "cb9721ca70d90ae031d9218791b5d2d818cba492"
+      },
+      "manifestSha256": "50f7f32bf208b3d8618ce6030822df5a830236e895b68eb05770cdefea9f61eb",
+      "manifestUrl": "https://github.com/Amir-Keshtkar/deepseek-harness-peak-reminder/blob/cb9721ca70d90ae031d9218791b5d2d818cba492/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepseek-harness-peak-reminder",
+        "versions": [
+          {
+            "version": "1.8.0",
+            "publishTimestamp": 1795349223,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Amir-Keshtkar/deepseek-harness-peak-reminder",
+              "commit": "cb9721ca70d90ae031d9218791b5d2d818cba492"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Amir-Keshtkar/deepseek-harness-peak-reminder",
+    "commit": "cb9721ca70d90ae031d9218791b5d2d818cba492",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:43.405Z"
+}

@@ -1,0 +1,107 @@
+{
+  "full_name": "kestiny18/dsh-plugins",
+  "originalPosition": 52,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 52,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:13.316Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bebc38ffd23a57e51fdad5ec203e5bee63d2fbab8aa4d13547389ebc5beed7ec",
+      "url": "https://github.com/kestiny18/dsh-plugins/blob/9ed3d60d9dd93c21b48211034304686ebcf9c027/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-redact",
+      "version": "0.1.0",
+      "path": "dsh-redact",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kestiny18/dsh-plugins",
+        "commit": "9ed3d60d9dd93c21b48211034304686ebcf9c027",
+        "path": "dsh-redact"
+      },
+      "manifestSha256": "19d66d746b5731881399899f12f7db86aaa7ba5bc599016e3407aa256fe9a8cb",
+      "manifestUrl": "https://github.com/kestiny18/dsh-plugins/blob/9ed3d60d9dd93c21b48211034304686ebcf9c027/dsh-redact/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-redact",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787698696,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kestiny18/dsh-plugins",
+              "commit": "9ed3d60d9dd93c21b48211034304686ebcf9c027",
+              "path": "dsh-redact"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-usage",
+      "version": "0.2.5",
+      "path": "dsh-usage",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kestiny18/dsh-plugins",
+        "commit": "9ed3d60d9dd93c21b48211034304686ebcf9c027",
+        "path": "dsh-usage"
+      },
+      "manifestSha256": "91c6197a8c25193dbc96565133e84f4f08ec4a51d106fa09f38acfea554e650e",
+      "manifestUrl": "https://github.com/kestiny18/dsh-plugins/blob/9ed3d60d9dd93c21b48211034304686ebcf9c027/dsh-usage/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-usage",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1787698696,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kestiny18/dsh-plugins",
+              "commit": "9ed3d60d9dd93c21b48211034304686ebcf9c027",
+              "path": "dsh-usage"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kestiny18/dsh-plugins",
+    "commit": "9ed3d60d9dd93c21b48211034304686ebcf9c027",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:15.622Z"
+}

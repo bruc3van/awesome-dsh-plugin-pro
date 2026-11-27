@@ -1,0 +1,76 @@
+{
+  "full_name": "LeoLourson/MathPaperLib",
+  "originalPosition": 9,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 9,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:58:58.670Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c057b72adbfc11321bf87847e4f2c51e68d4433c2bf80c09b51462d3863832fe",
+      "url": "https://github.com/LeoLourson/MathPaperLib/blob/8d5cf51f8560702c3049782a4655483377a5503e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "965269ad429e14b59abdc2c24e8c2f1612fcd3084d06971d5f36eaa0c342b1d4",
+      "url": "https://github.com/LeoLourson/MathPaperLib/blob/8d5cf51f8560702c3049782a4655483377a5503e/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mathpaperlib",
+      "version": "0.1.0",
+      "path": "dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeoLourson/MathPaperLib",
+        "commit": "8d5cf51f8560702c3049782a4655483377a5503e",
+        "path": "dsh"
+      },
+      "manifestSha256": "681e8c06a10498e6196aecfcda591d11839aca4e167faab9eae24a1d361162eb",
+      "manifestUrl": "https://github.com/LeoLourson/MathPaperLib/blob/8d5cf51f8560702c3049782a4655483377a5503e/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mathpaperlib",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794268106,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeoLourson/MathPaperLib",
+              "commit": "8d5cf51f8560702c3049782a4655483377a5503e",
+              "path": "dsh"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeoLourson/MathPaperLib",
+    "commit": "8d5cf51f8560702c3049782a4655483377a5503e",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:00.149Z"
+}

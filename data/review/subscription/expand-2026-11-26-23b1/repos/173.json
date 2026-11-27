@@ -1,0 +1,68 @@
+{
+  "full_name": "BaChongYingovo/doudizhu-assistant",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:45.467Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "66217577b2a42d8a439c3c8242818e0e28b8c085e04dde43a6de6630e6830c18",
+      "url": "https://github.com/BaChongYingovo/doudizhu-assistant/blob/dd8ebaecbd075acd8ca79cad734f7ba186bbf647/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-doudizhu-game",
+      "version": "0.2.0",
+      "path": "plugin/dsh-doudizhu-game",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BaChongYingovo/doudizhu-assistant",
+        "commit": "dd8ebaecbd075acd8ca79cad734f7ba186bbf647",
+        "path": "plugin/dsh-doudizhu-game"
+      },
+      "manifestSha256": "2be035fcdd23b0201bfbe974145b3e963c7311f12dff049702c4232ed524e1a0",
+      "manifestUrl": "https://github.com/BaChongYingovo/doudizhu-assistant/blob/dd8ebaecbd075acd8ca79cad734f7ba186bbf647/plugin/dsh-doudizhu-game/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-doudizhu-game",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794701395,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BaChongYingovo/doudizhu-assistant",
+              "commit": "dd8ebaecbd075acd8ca79cad734f7ba186bbf647",
+              "path": "plugin/dsh-doudizhu-game"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BaChongYingovo/doudizhu-assistant",
+    "commit": "dd8ebaecbd075acd8ca79cad734f7ba186bbf647",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:47.055Z"
+}

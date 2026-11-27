@@ -1,0 +1,69 @@
+{
+  "full_name": "xiciyang/inference-diagnose",
+  "originalPosition": 97,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 97,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:28.804Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44d2bdb759d1d613eb83b99331314d578eaf7a1ed5d8dd7e5105e2f7ac19b68e",
+      "url": "https://github.com/xiciyang/inference-diagnose/blob/693515e94f9f762f74eaaca550109ece5e0e621f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xiciyang/inference-diagnose",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiciyang/inference-diagnose",
+        "commit": "693515e94f9f762f74eaaca550109ece5e0e621f"
+      },
+      "manifestSha256": "edb8338a2568b46faaaf35c5475ea9f623996eebf947523e40fce65c856af701",
+      "manifestUrl": "https://github.com/xiciyang/inference-diagnose/blob/693515e94f9f762f74eaaca550109ece5e0e621f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@xiciyang/inference-diagnose",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792429390,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiciyang/inference-diagnose",
+              "commit": "693515e94f9f762f74eaaca550109ece5e0e621f"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiciyang/inference-diagnose",
+    "commit": "693515e94f9f762f74eaaca550109ece5e0e621f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:30.003Z"
+}

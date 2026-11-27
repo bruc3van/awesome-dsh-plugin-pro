@@ -1,0 +1,79 @@
+{
+  "full_name": "MkaliezZ/dsh-agentfuse-plugin",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:58:58.717Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7f4deb1155bfcbccb16c8ebc34a8ff76b17591eaa39b8c8be57e45d2e4a1999c",
+      "url": "https://github.com/MkaliezZ/dsh-agentfuse-plugin/blob/c696a12257a910ee7b206958683955eb6edd1583/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/dsh-agentfuse/README.md",
+      "sha256": "aacf1b50db6cf9c6249e06afb977815f3f555f94c3d6534cd0270ec9bb1b1626",
+      "url": "https://github.com/MkaliezZ/dsh-agentfuse-plugin/blob/c696a12257a910ee7b206958683955eb6edd1583/packages/dsh-agentfuse/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dhms-agentfuse/dsh-agentfuse",
+      "version": "0.2.1",
+      "path": "packages/dsh-agentfuse",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MkaliezZ/dsh-agentfuse-plugin",
+        "commit": "c696a12257a910ee7b206958683955eb6edd1583",
+        "path": "packages/dsh-agentfuse"
+      },
+      "manifestSha256": "9bf4ca280d85fadfba3ff39933653b49eb0e2eb8401f12e8eead675693dab912",
+      "manifestUrl": "https://github.com/MkaliezZ/dsh-agentfuse-plugin/blob/c696a12257a910ee7b206958683955eb6edd1583/packages/dsh-agentfuse/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dhms-agentfuse/dsh-agentfuse",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1788002326,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MkaliezZ/dsh-agentfuse-plugin",
+              "commit": "c696a12257a910ee7b206958683955eb6edd1583",
+              "path": "packages/dsh-agentfuse"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MkaliezZ/dsh-agentfuse-plugin",
+    "commit": "c696a12257a910ee7b206958683955eb6edd1583",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:01.103Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "Astral-Yang/dsh-bark-push",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:44.470Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9bf07bff9bf51f1751f67dde9d25820532c9a2b047aca2423b30932f48290e72",
+      "url": "https://github.com/Astral-Yang/dsh-bark-push/blob/5b312a547e2168a250331a5997e33d9fba91bb4b/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bark-push",
+      "version": "0.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Astral-Yang/dsh-bark-push",
+        "commit": "5b312a547e2168a250331a5997e33d9fba91bb4b"
+      },
+      "manifestSha256": "4506ba3604066acedf2e9f4d6a41ebbb224a12bb549a4446444cf0e9675fa1a2",
+      "manifestUrl": "https://github.com/Astral-Yang/dsh-bark-push/blob/5b312a547e2168a250331a5997e33d9fba91bb4b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bark-push",
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1795602882,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Astral-Yang/dsh-bark-push",
+              "commit": "5b312a547e2168a250331a5997e33d9fba91bb4b"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Astral-Yang/dsh-bark-push",
+    "commit": "5b312a547e2168a250331a5997e33d9fba91bb4b",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:45.678Z"
+}

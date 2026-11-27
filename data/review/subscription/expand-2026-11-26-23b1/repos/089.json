@@ -1,0 +1,45 @@
+{
+  "full_name": "wendou-chen/dsh-render-perf",
+  "originalPosition": 89,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 89,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:26.833Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4317aee644112fd982e8175afa85dd1f2561e17857f558a0d91788bd5e7561f9",
+      "url": "https://github.com/wendou-chen/dsh-render-perf/blob/9b5bdee5200d4f07b6b1d925ae576d756488f481/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wendou-chen/dsh-render-perf",
+    "commit": "9b5bdee5200d4f07b6b1d925ae576d756488f481",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@dsh-external/dsh-render-perf",
+    "version": "0.1.0",
+    "dsh": {
+      "client": {
+        "inject": [],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:27.960Z"
+}

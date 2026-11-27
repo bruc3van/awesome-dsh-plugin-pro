@@ -1,0 +1,40 @@
+{
+  "full_name": "leolee9086/SAC_search",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:14.413Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "21f6d2a9096e58284ec304aef3c5f5a89570f0b0d4d190d3807c33f7b6f07f35",
+      "url": "https://github.com/leolee9086/SAC_search/blob/c63cf3b39cd3b62db3b17f85108f20267d45a7cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/leolee9086/SAC_search",
+    "commit": "c63cf3b39cd3b62db3b17f85108f20267d45a7cb",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:15.327Z"
+}

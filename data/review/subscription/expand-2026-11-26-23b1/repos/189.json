@@ -1,0 +1,69 @@
+{
+  "full_name": "Chemiofitor4096/minecraft-dev-atlas",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:49.015Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "145c6772456d7c932536e88a6604df56a9c3fd671b19b0fdf2f5793384c3510a",
+      "url": "https://github.com/Chemiofitor4096/minecraft-dev-atlas/blob/f64a5fb677f835d2b44109585896aa3880b7cb9a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "minecraft-dev-atlas",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chemiofitor4096/minecraft-dev-atlas",
+        "commit": "f64a5fb677f835d2b44109585896aa3880b7cb9a"
+      },
+      "manifestSha256": "f0dc126de8760788089f613441cefb44aeb87a7e6780b9c2553c90e614bb4a64",
+      "manifestUrl": "https://github.com/Chemiofitor4096/minecraft-dev-atlas/blob/f64a5fb677f835d2b44109585896aa3880b7cb9a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.1 || ^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "minecraft-dev-atlas",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795255478,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chemiofitor4096/minecraft-dev-atlas",
+              "commit": "f64a5fb677f835d2b44109585896aa3880b7cb9a"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.1 || ^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chemiofitor4096/minecraft-dev-atlas",
+    "commit": "f64a5fb677f835d2b44109585896aa3880b7cb9a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:50.215Z"
+}

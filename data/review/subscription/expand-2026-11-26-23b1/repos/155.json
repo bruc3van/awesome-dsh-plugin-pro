@@ -1,0 +1,69 @@
+{
+  "full_name": "Alex663028/dsh-credit-hub",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:41.797Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b9b857e404e7f69b1c1b225824aff20c69bbe06da8bcd523ba442786595a3900",
+      "url": "https://github.com/Alex663028/dsh-credit-hub/blob/573c982db80ff634de5b6fae50f09129fba12c73/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-credit-hub",
+      "version": "0.4.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Alex663028/dsh-credit-hub",
+        "commit": "573c982db80ff634de5b6fae50f09129fba12c73"
+      },
+      "manifestSha256": "1edbbe63acbdb9c6c190b2a8700bd907dc03c74251dac4e725cb32f708b1958c",
+      "manifestUrl": "https://github.com/Alex663028/dsh-credit-hub/blob/573c982db80ff634de5b6fae50f09129fba12c73/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-credit-hub",
+        "versions": [
+          {
+            "version": "0.4.8",
+            "publishTimestamp": 1795319004,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Alex663028/dsh-credit-hub",
+              "commit": "573c982db80ff634de5b6fae50f09129fba12c73"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Alex663028/dsh-credit-hub",
+    "commit": "573c982db80ff634de5b6fae50f09129fba12c73",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:43.099Z"
+}

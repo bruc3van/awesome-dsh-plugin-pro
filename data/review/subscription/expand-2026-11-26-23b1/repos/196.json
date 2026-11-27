@@ -1,0 +1,69 @@
+{
+  "full_name": "DDDMUC/dsh-power-menu-mac",
+  "originalPosition": 196,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:50.784Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cf1bb7db78243ae37b1161c91eb93d6a07efb3ae15c9736c754264ee91f17391",
+      "url": "https://github.com/DDDMUC/dsh-power-menu-mac/blob/7ef1c17108d3880cbd36f1a056d15f70af0c7221/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-power-menu-mac",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DDDMUC/dsh-power-menu-mac",
+        "commit": "7ef1c17108d3880cbd36f1a056d15f70af0c7221"
+      },
+      "manifestSha256": "625755fbea542b1a24a1c6c2c81429aea97ea7f56ff4986c0699052655a47e86",
+      "manifestUrl": "https://github.com/DDDMUC/dsh-power-menu-mac/blob/7ef1c17108d3880cbd36f1a056d15f70af0c7221/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-power-menu-mac",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795367222,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DDDMUC/dsh-power-menu-mac",
+              "commit": "7ef1c17108d3880cbd36f1a056d15f70af0c7221"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DDDMUC/dsh-power-menu-mac",
+    "commit": "7ef1c17108d3880cbd36f1a056d15f70af0c7221",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:52.021Z"
+}

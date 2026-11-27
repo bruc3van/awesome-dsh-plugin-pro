@@ -1,0 +1,59 @@
+{
+  "full_name": "QiuXu-Tech/memex",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:01.103Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e511cb6a018401ff537065f8592e98c232e5836897d8b939fb81b5eac17648e3",
+      "url": "https://github.com/QiuXu-Tech/memex/blob/49e772bbf60532682771874b7ec96958f4a179e3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "test/README.md",
+      "sha256": "8ace87ac1a7bd56ed7783ac4cc1cb866778f905d61ce00983d6cd3f0b5157e90",
+      "url": "https://github.com/QiuXu-Tech/memex/blob/49e772bbf60532682771874b7ec96958f4a179e3/test/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@qiuxu/memex",
+      "version": "0.65.0",
+      "path": "packages/memex",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QiuXu-Tech/memex",
+        "commit": "49e772bbf60532682771874b7ec96958f4a179e3",
+        "path": "packages/memex"
+      },
+      "manifestSha256": "649ef1c5a993c31cf1561be90eb0a0f3c39b428788c79b161a42c4777af98f4d",
+      "manifestUrl": "https://github.com/QiuXu-Tech/memex/blob/49e772bbf60532682771874b7ec96958f4a179e3/packages/memex/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QiuXu-Tech/memex",
+    "commit": "49e772bbf60532682771874b7ec96958f4a179e3",
+    "releaseTags": 80,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:06.270Z"
+}

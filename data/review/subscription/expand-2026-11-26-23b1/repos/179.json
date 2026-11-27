@@ -1,0 +1,91 @@
+{
+  "full_name": "Bluebagbag/dsh-wordbook",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:47.003Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7718d03ae35747b414d02e5bafb35de5ba5d50570971b47212c5eaf48d3a9f6c",
+      "url": "https://github.com/Bluebagbag/dsh-wordbook/blob/7b471a4ff24ee398d9487673ca1986b283d342c3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "61f56cdee387dfb500d22b6dcbe4dc32151818f5fedfa7160f8f526aa447a24e",
+      "url": "https://github.com/Bluebagbag/dsh-wordbook/blob/7b471a4ff24ee398d9487673ca1986b283d342c3/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-maimemo",
+      "version": "0.1.0",
+      "path": "plugins/dsh-maimemo",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bluebagbag/dsh-wordbook",
+        "commit": "7b471a4ff24ee398d9487673ca1986b283d342c3",
+        "path": "plugins/dsh-maimemo"
+      },
+      "manifestSha256": "a4449b47424d86c316b0e7c212b24b5c524a1f77d7df20ffa4e0ba5d46b85577",
+      "manifestUrl": "https://github.com/Bluebagbag/dsh-wordbook/blob/7b471a4ff24ee398d9487673ca1986b283d342c3/plugins/dsh-maimemo/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reading",
+      "version": "0.1.0",
+      "path": "plugins/dsh-reading",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bluebagbag/dsh-wordbook",
+        "commit": "7b471a4ff24ee398d9487673ca1986b283d342c3",
+        "path": "plugins/dsh-reading"
+      },
+      "manifestSha256": "94b32f2d9ba69fae3f8b24fe27e8d89e491d864c52967d6a790e21738bb50234",
+      "manifestUrl": "https://github.com/Bluebagbag/dsh-wordbook/blob/7b471a4ff24ee398d9487673ca1986b283d342c3/plugins/dsh-reading/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wordbook",
+      "version": "0.1.0",
+      "path": "plugins/dsh-wordbook",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bluebagbag/dsh-wordbook",
+        "commit": "7b471a4ff24ee398d9487673ca1986b283d342c3",
+        "path": "plugins/dsh-wordbook"
+      },
+      "manifestSha256": "cec31dcf68acf3f4ced666a366f31484a0fa6fbe2fcadcd5e564d620c3fcd0f5",
+      "manifestUrl": "https://github.com/Bluebagbag/dsh-wordbook/blob/7b471a4ff24ee398d9487673ca1986b283d342c3/plugins/dsh-wordbook/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Bluebagbag/dsh-wordbook",
+    "commit": "7b471a4ff24ee398d9487673ca1986b283d342c3",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:49.215Z"
+}

@@ -1,0 +1,48 @@
+{
+  "full_name": "ffdnm/ClashTUNWithDSH",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:12.047Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c5c6a11d4dfbe68e570d893dac1469b4320152b0edec78db00265f936554a4c5",
+      "url": "https://github.com/ffdnm/ClashTUNWithDSH/blob/0bce57aac6614269b530f15ceddb5f6153b9c3f2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "2f45bbfd0d1bf15163803c782f40df46b565b12e7275635c08362f0479378b3d",
+      "url": "https://github.com/ffdnm/ClashTUNWithDSH/blob/0bce57aac6614269b530f15ceddb5f6153b9c3f2/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ffdnm/ClashTUNWithDSH",
+    "commit": "0bce57aac6614269b530f15ceddb5f6153b9c3f2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:13.316Z"
+}

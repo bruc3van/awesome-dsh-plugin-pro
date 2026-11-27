@@ -1,0 +1,74 @@
+{
+  "full_name": "yorelog/dsh-omarchy-agent",
+  "originalPosition": 106,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 106,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:30.614Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "19c555b111bdac1ee86dc53ac34f7398b1f692c1d303f046855e458261479a53",
+      "url": "https://github.com/yorelog/dsh-omarchy-agent/blob/967c89cfed09ccc881939cfce062a546ffcbf6e4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "309881669a3c47bf9d59942dbb2a0904fcc93bfeefcf82f15956a57e079f3f8a",
+      "url": "https://github.com/yorelog/dsh-omarchy-agent/blob/967c89cfed09ccc881939cfce062a546ffcbf6e4/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-omarchy-agent",
+      "version": "0.4.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yorelog/dsh-omarchy-agent",
+        "commit": "967c89cfed09ccc881939cfce062a546ffcbf6e4"
+      },
+      "manifestSha256": "1b0798e89f10fe8d2ad0513363ab5e85285be48cf213799abe53324ea0c1340e",
+      "manifestUrl": "https://github.com/yorelog/dsh-omarchy-agent/blob/967c89cfed09ccc881939cfce062a546ffcbf6e4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-omarchy-agent",
+        "versions": [
+          {
+            "version": "0.4.8",
+            "publishTimestamp": 1792839981,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yorelog/dsh-omarchy-agent",
+              "commit": "967c89cfed09ccc881939cfce062a546ffcbf6e4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yorelog/dsh-omarchy-agent",
+    "commit": "967c89cfed09ccc881939cfce062a546ffcbf6e4",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:32.007Z"
+}

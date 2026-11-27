@@ -1,0 +1,1150 @@
+{
+  "full_name": "HwFee/HwFee-dsh",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:58:58.620Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fcfce3ba769dbd32c23c5fb6579c64093a132a87e11d26499c3701d50a1f7c64",
+      "url": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cds-theme@0.1.11",
+          "command": "dsh plugin --profile desktop add dsh-cds-theme@0.1.11 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-system-fonts@0.1.3",
+          "command": "dsh plugin --profile desktop add dsh-system-fonts@0.1.3 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "@hwfee/dsh-usage-stats@0.1.5",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-usage-stats@0.1.5 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "@hwfee/dsh-genui@0.1.2",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-genui@0.1.2 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "@hwfee/dsh-predict@0.1.2",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-predict@0.1.2 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "@hwfee/dsh-git-bash@0.1.2",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-git-bash@0.1.2 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "a08ea747e7a6cb1d76cc45f80be5865899f26ecefd3edc7f7e21cfc6c5bec803",
+      "url": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/README-zh.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cds-theme@0.1.11",
+          "command": "dsh plugin --profile desktop add dsh-cds-theme@0.1.11 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-system-fonts@0.1.3",
+          "command": "dsh plugin --profile desktop add dsh-system-fonts@0.1.3 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "@hwfee/dsh-usage-stats@0.1.5",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-usage-stats@0.1.5 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "@hwfee/dsh-genui@0.1.2",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-genui@0.1.2 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "@hwfee/dsh-predict@0.1.2",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-predict@0.1.2 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        },
+        {
+          "install": "@hwfee/dsh-git-bash@0.1.2",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-git-bash@0.1.2 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "plugins/cds-theme/README.md",
+      "sha256": "f96b01d892c895b296e8dfd636262f66cc03b84aaa96f698102d89375dfa31a4",
+      "url": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/cds-theme/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cds-theme@0.1.10",
+          "command": "dsh plugin --profile desktop add dsh-cds-theme@0.1.10 --registry=https://registry.npmjs.org",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "plugins/system-fonts/README.md",
+      "sha256": "52ab6f0ffe89dd1190069155903c19ae91aee98ad3e9f0023c17e49730e1ad43",
+      "url": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/system-fonts/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-system-fonts",
+          "command": "dsh plugin --profile desktop add dsh-system-fonts",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "plugins/usage-stats/README.md",
+      "sha256": "8034b7eb6cdf4758e1ea0ed7d5c70a676976c60f65b0764e208a309e68f21949",
+      "url": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/usage-stats/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hwfee/dsh-usage-stats",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-usage-stats",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "plugins/genui/README.md",
+      "sha256": "01a62c7e2548b4d00e752b14ecb9b3bd937cf08df89698880407c013041ce4d8",
+      "url": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/genui/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hwfee/dsh-genui",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-genui",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "plugins/git-bash/README.md",
+      "sha256": "e2504d772b404be40e7bb46814129734e6cee791c785bf95da7f6bcd2a917da7",
+      "url": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/git-bash/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hwfee/dsh-git-bash",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-git-bash",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "plugins/predict/README.md",
+      "sha256": "e5af1f9a3b0715f26bcb7e2d8432dd71042690c174a86129f71d4c7f14f27687",
+      "url": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/predict/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@hwfee/dsh-predict",
+          "command": "dsh plugin --profile desktop add @hwfee/dsh-predict",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cds-theme",
+      "version": "0.1.11",
+      "path": "plugins/cds-theme",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HwFee/HwFee-dsh",
+        "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+        "path": "plugins/cds-theme"
+      },
+      "manifestSha256": "e8655dd8598138cc0ef8979af99341e0f3b3ab9113e05a4729ccfca4e5bf55b9",
+      "manifestUrl": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/cds-theme/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cds-theme",
+        "versions": [
+          {
+            "version": "0.1.11",
+            "publishTimestamp": 1793537123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HwFee/HwFee-dsh",
+              "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+              "path": "plugins/cds-theme"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@hwfee/dsh-context-rail",
+      "version": "0.2.4",
+      "path": "plugins/context-rail",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HwFee/HwFee-dsh",
+        "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+        "path": "plugins/context-rail"
+      },
+      "manifestSha256": "d639edc1b575766e831e6c96d134f089ff2304b1803cadfdb46953b4c64d0b40",
+      "manifestUrl": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/context-rail/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@hwfee/dsh-context-rail",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1793537123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HwFee/HwFee-dsh",
+              "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+              "path": "plugins/context-rail"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@hwfee/dsh-genui",
+      "version": "0.1.2",
+      "path": "plugins/genui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HwFee/HwFee-dsh",
+        "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+        "path": "plugins/genui"
+      },
+      "manifestSha256": "46703ad00c8c3a70b16be3d4e8d47f80a87eb794729ed607f9dd508f58ce9871",
+      "manifestUrl": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/genui/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@hwfee/dsh-genui",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793537123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HwFee/HwFee-dsh",
+              "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+              "path": "plugins/genui"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@hwfee/dsh-git-bash",
+      "version": "0.1.2",
+      "path": "plugins/git-bash",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HwFee/HwFee-dsh",
+        "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+        "path": "plugins/git-bash"
+      },
+      "manifestSha256": "5883d418493a837495f2cadfb494adf5633cf44b09a8b89d68324821d3481027",
+      "manifestUrl": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/git-bash/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@hwfee/dsh-git-bash",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793537123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HwFee/HwFee-dsh",
+              "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+              "path": "plugins/git-bash"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@hwfee/dsh-predict",
+      "version": "0.1.2",
+      "path": "plugins/predict",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HwFee/HwFee-dsh",
+        "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+        "path": "plugins/predict"
+      },
+      "manifestSha256": "82b107222b075702dc522ae3f8f6a283e5d7282f98e6a986594309dc6fffd17a",
+      "manifestUrl": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/predict/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@hwfee/dsh-predict",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793537123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HwFee/HwFee-dsh",
+              "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+              "path": "plugins/predict"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-system-fonts",
+      "version": "0.1.3",
+      "path": "plugins/system-fonts",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HwFee/HwFee-dsh",
+        "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+        "path": "plugins/system-fonts"
+      },
+      "manifestSha256": "2bb46de4c5792ad99b3483f9753fdfc72032935518e7c71e7a7b222d2faa047a",
+      "manifestUrl": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/system-fonts/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-system-fonts",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1793537123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HwFee/HwFee-dsh",
+              "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+              "path": "plugins/system-fonts"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@hwfee/dsh-usage-stats",
+      "version": "0.1.5",
+      "path": "plugins/usage-stats",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HwFee/HwFee-dsh",
+        "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+        "path": "plugins/usage-stats"
+      },
+      "manifestSha256": "9bcea25e2a395bb3d65927abb7f4b308c9750e58bf85461ef7491a68e015afc2",
+      "manifestUrl": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/plugins/usage-stats/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@hwfee/dsh-usage-stats",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1793537123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HwFee/HwFee-dsh",
+              "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+              "path": "plugins/usage-stats"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-guide",
+      "version": "0.3.26",
+      "path": "skills/dsh-plugin-guide",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HwFee/HwFee-dsh",
+        "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+        "path": "skills/dsh-plugin-guide"
+      },
+      "manifestSha256": "fb62dd461606adac1b64b35b752f156e8f4d1d37452770b11b2ebd4760f4a141",
+      "manifestUrl": "https://github.com/HwFee/HwFee-dsh/blob/43588c4674f0b617b407f8b9c638a314483927fc/skills/dsh-plugin-guide/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-guide",
+        "versions": [
+          {
+            "version": "0.3.26",
+            "publishTimestamp": 1793537123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HwFee/HwFee-dsh",
+              "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+              "path": "skills/dsh-plugin-guide"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-cds-theme@0.1.11",
+      "origin": "npm",
+      "name": "dsh-cds-theme",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cds-theme",
+        "title": {
+          "en": "Claude Design System Theme",
+          "zh": "Claude Design System 主题"
+        },
+        "description": {
+          "en": "Re-maps the interface onto CDS: warm-gray surfaces, clay brand accent, dual-ring focus and organic motion, with component-level refinement of the composer, sidebar, message rows and code blocks.",
+          "zh": "把界面重映射到 CDS：暖灰表面、陶土橙品牌色、双环焦点与有机动效，并对输入框、侧栏、消息行与代码块做组件级细化。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "theme",
+            "claude",
+            "design-system",
+            "cds",
+            "appearance"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkNsYXVkZSBEZXNpZ24gU3lzdGVtIHRoZW1lIj4KICA8dGl0bGU+Q2xhdWRlIERlc2lnbiBTeXN0ZW0gdGhlbWU8L3RpdGxlPgogIDwhLS0gVHdvIG9mZnNldCBzdXJmYWNlczogdGhlIENEUyBsYXllcmluZyBpZGVhLCByZWFkIGFzIGEgc2lsaG91ZXR0ZSBhdCAzNnB4LiAtLT4KICA8cmVjdCB4PSI1LjUiIHk9IjcuNSIgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiByeD0iNC41IiBmaWxsPSIjOGY4ODgwIiBmaWxsLW9wYWNpdHk9IjAuNDUiLz4KICA8cmVjdCB4PSIxNS41IiB5PSIxMy41IiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHJ4PSI0LjUiIGZpbGw9IiNkOTc3NTciLz4KICA8Y2lyY2xlIGN4PSIyMyIgY3k9IjIxIiByPSIyLjYiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC45Ii8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.11",
+            "publishTimestamp": 1793536543,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "41d0b6818e4080f2a0095fcf30f2cec58385efc8ccafe9e960b3b8406603f60d",
+      "evidence": [
+        {
+          "name": "dsh-cds-theme",
+          "version": "0.1.11",
+          "tarball": "https://registry.npmjs.org/dsh-cds-theme/-/dsh-cds-theme-0.1.11.tgz",
+          "integrity": "sha512-UTPrN1ECgYBM0mav0hHvdI1YXsBGps2q/5Ir0NcT9bWfg/x3+7SbNe+28++3GKp2OiRb1nqnYYEDpXMQlat+Ag=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-system-fonts@0.1.3",
+      "origin": "npm",
+      "name": "dsh-system-fonts",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-system-fonts",
+        "title": "dsh-system-fonts",
+        "description": "DeepSeek Harness 的纯字体插件：把内容/代码/终端三个系统字体选择器放进通用设置里宿主可折叠的字体区（分别紧跟官方族名行，折叠时一并收起），按字体族枚举 Windows 已装字体，另带行距与字距；字重与字号归宿主主题，文案随宿主语言切换。只改字体，不动配色与版式。 / Pure font plugin for DeepSeek Harness: seats text/code/terminal system-font pickers inside the host's collapsible font region in General settings (each after the official family row it replaces, collapsing with it), enumerating installed Windows fonts, plus line-height and letter-spacing; weights and sizes stay with the host theme and copy follows the host language. Fonts only — no colors, no layout.",
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "font",
+            "fonts",
+            "typography",
+            "appearance",
+            "windows"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlN5c3RlbSBmb250cyI+CiAgPHRpdGxlPlN5c3RlbSBmb250czwvdGl0bGU+CiAgPCEtLSBBIGNhcGl0YWwgQSBvbiBpdHMgYmFzZWxpbmU6IHRoZSB0eXBlIHNwZWNpbWVuIG1hcmsuIC0tPgogIDxwYXRoIGQ9Ik0xMC41IDI2LjUgMTcuNSA5LjUgMjQuNSAyNi41IiBzdHJva2U9IiNkOTc3NTciIHN0cm9rZS13aWR0aD0iMy4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTMuNiAyMC40aDcuOCIgc3Ryb2tlPSIjZDk3NzU3IiBzdHJva2Utd2lkdGg9IjMuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTUuNSAzMWgyNSIgc3Ryb2tlPSIjOGY4ODgwIiBzdHJva2Utb3BhY2l0eT0iMC41NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792653516,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "924bdc78d9bb538144ea3631d8f655df8a605ff96d202e914d127f5f53c7bd52",
+      "evidence": [
+        {
+          "name": "dsh-system-fonts",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-system-fonts/-/dsh-system-fonts-0.1.3.tgz",
+          "integrity": "sha512-IiD+sJwWtVWbi66ldYSToMgcmAXX8IzylnAg5XnlpWG/rQi18sYeQ9v7gpcfenOD89TxtF7y0x36oqyKret8Uw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@hwfee/dsh-usage-stats@0.1.5",
+      "origin": "npm",
+      "name": "@hwfee/dsh-usage-stats",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@hwfee/dsh-usage-stats",
+        "title": {
+          "en": "Usage statistics",
+          "zh": "用量统计"
+        },
+        "description": {
+          "en": "A usage panel under the blank-session headline: sessions, messages, total tokens, active days, peak hour, favourite model, an activity heatmap, and a token comparison against a Chinese novel.",
+          "zh": "在新对话页的标题下方显示一张用量面板：会话数、消息数、总 token、活跃天数、高峰时段、常用模型、活跃度热力图，以及按中文字数折算的趣味对比。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "usage",
+            "stats",
+            "analytics",
+            "heatmap"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlVzYWdlIHN0YXRpc3RpY3MiPgogIDx0aXRsZT5Vc2FnZSBzdGF0aXN0aWNzPC90aXRsZT4KICA8IS0tIEZvdXIgYmFycyBvZiByaXNpbmcgd2VpZ2h0OiBhIGNoYXJ0LCBub3QgYSBjYXJkLiAtLT4KICA8cmVjdCB4PSI1LjUiIHk9IjIwIiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgcng9IjIuNSIgZmlsbD0iI2Q5Nzc1NyIgZmlsbC1vcGFjaXR5PSIwLjQiLz4KICA8cmVjdCB4PSIxMyIgeT0iMTUiIHdpZHRoPSI1IiBoZWlnaHQ9IjE1IiByeD0iMi41IiBmaWxsPSIjZDk3NzU3IiBmaWxsLW9wYWNpdHk9IjAuNjUiLz4KICA8cmVjdCB4PSIyMC41IiB5PSI5IiB3aWR0aD0iNSIgaGVpZ2h0PSIyMSIgcng9IjIuNSIgZmlsbD0iI2Q5Nzc1NyIvPgogIDxyZWN0IHg9IjI4IiB5PSIxNyIgd2lkdGg9IjUiIGhlaWdodD0iMTMiIHJ4PSIyLjUiIGZpbGw9IiNkOTc3NTciIGZpbGwtb3BhY2l0eT0iMC41Ii8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1793528762,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3ede5ac33712bab8be22df1d2f38642c997b5c8e37be4fa16a6ef3be3ce516e7",
+      "evidence": [
+        {
+          "name": "@hwfee/dsh-usage-stats",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/@hwfee/dsh-usage-stats/-/dsh-usage-stats-0.1.5.tgz",
+          "integrity": "sha512-vF0khFo8dnzrbJzmFY0RoSYmZrF+Zlh6sy9cBMSZYJxQkQw+c6CK3027L2RLZKYhLENjELc3azap+tYPlWKoRA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@hwfee/dsh-genui@0.1.2",
+      "origin": "npm",
+      "name": "@hwfee/dsh-genui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@hwfee/dsh-genui",
+        "title": {
+          "en": "Generative UI",
+          "zh": "生成式界面"
+        },
+        "description": {
+          "en": "Let the model answer with a live React card. render_ui runs the snippet in a plugin-owned sandbox and renders it inline in the conversation; one built-in skill teaches when a card beats prose.",
+          "zh": "让模型用一张可交互的 React 卡片来回答。render_ui 在插件自有沙箱里执行代码并就地渲染；附一个内置 skill，教模型什么时候该用界面、什么时候一段文字就够。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "generative-ui",
+            "intelligent-ui",
+            "react",
+            "skill"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdlbmVyYXRpdmUgVUkiPgogIDwhLS0KICAgIE9yaWdpbmFsIGFydHdvcmssIE1JVCwgZHJhd24gZm9yIHRoaXMgcGx1Z2luLgoKICAgIFRoZSBtYXJrIHJlYWRzIGFzIGEgY2FyZCB3aG9zZSBjb250ZW50cyBhcmUgYmVpbmcgY29tcG9zZWQ6IGEgcm91bmRlZCBmcmFtZQogICAgKHRoZSBjYXJkKSwgYSBmaWxsZWQgYWNjZW50IGJhciAoYSBjaGFydC9hbnN3ZXIgZW1lcmdpbmcpLCBhbmQgdHdvIGdob3N0CiAgICBiYXJzIChjb250ZW50IHN0aWxsIGZvcm1pbmcpLiBOZXV0cmFsIGVub3VnaCB0byBzaXQgYmVzaWRlIGFueSB0aGVtZTsgdGhlCiAgICB0d28gb3V0ZXIgY29sb3VycyBhcmUgdGhlIHBsdWdpbidzIG93biwgdGhlIGFjY2VudCBtYXRjaGVzIHRoZSBjbGF5IHVzZWQgYnkKICAgIGNkcy10aGVtZSB3aXRob3V0IGRlcGVuZGluZyBvbiBpdC4KICAtLT4KICA8cmVjdCB4PSI0LjUiIHk9IjguNSIgd2lkdGg9IjM5IiBoZWlnaHQ9IjMxIiByeD0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY2MTNmIiBzdHJva2Utd2lkdGg9IjIuNCIvPgogIDxyZWN0IHg9IjExIiB5PSIxNiIgd2lkdGg9IjkiIGhlaWdodD0iMTYiIHJ4PSIyLjQiIGZpbGw9IiNjNjYxM2YiLz4KICA8cmVjdCB4PSIyNCIgeT0iMTYiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNzUiLz4KICA8cmVjdCB4PSIyNCIgeT0iMjQiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNCIvPgogIDxyZWN0IHg9IjI0IiB5PSIzMiIgd2lkdGg9IjciIGhlaWdodD0iMi4yIiByeD0iMS4xIiBmaWxsPSIjYzY2MTNmIiBvcGFjaXR5PSIwLjIyIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792838771,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "07a3630a8235b2ebec6770d67dde1f460b8e19a389082a7126688a6e8e7d194f",
+      "evidence": [
+        {
+          "name": "@hwfee/dsh-genui",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@hwfee/dsh-genui/-/dsh-genui-0.1.2.tgz",
+          "integrity": "sha512-nE5sB+hOJsVz8p8odcmAN88JxwKMWHCqt1D1dAt4AteOgYD8JgXvl7C20GHqK13OYU/S0HIo5nEk+qUsKXCHMg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@hwfee/dsh-predict@0.1.2",
+      "origin": "npm",
+      "name": "@hwfee/dsh-predict",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@hwfee/dsh-predict",
+        "title": {
+          "en": "Next Prompt",
+          "zh": "下一句"
+        },
+        "description": {
+          "en": "After each reply, a quiet grey suggestion of what you might type next appears in the composer. Press Tab to accept it into the box.",
+          "zh": "每轮回答结束后，输入框里用浅色文字预测你接下来会说什么。按 Tab 填入，不会发送。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "prediction",
+            "ghost-text",
+            "autocomplete"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdlbmVyYXRpdmUgVUkiPgogIDwhLS0KICAgIE9yaWdpbmFsIGFydHdvcmssIE1JVCwgZHJhd24gZm9yIHRoaXMgcGx1Z2luLgoKICAgIFRoZSBtYXJrIHJlYWRzIGFzIGEgY2FyZCB3aG9zZSBjb250ZW50cyBhcmUgYmVpbmcgY29tcG9zZWQ6IGEgcm91bmRlZCBmcmFtZQogICAgKHRoZSBjYXJkKSwgYSBmaWxsZWQgYWNjZW50IGJhciAoYSBjaGFydC9hbnN3ZXIgZW1lcmdpbmcpLCBhbmQgdHdvIGdob3N0CiAgICBiYXJzIChjb250ZW50IHN0aWxsIGZvcm1pbmcpLiBOZXV0cmFsIGVub3VnaCB0byBzaXQgYmVzaWRlIGFueSB0aGVtZTsgdGhlCiAgICB0d28gb3V0ZXIgY29sb3VycyBhcmUgdGhlIHBsdWdpbidzIG93biwgdGhlIGFjY2VudCBtYXRjaGVzIHRoZSBjbGF5IHVzZWQgYnkKICAgIGNkcy10aGVtZSB3aXRob3V0IGRlcGVuZGluZyBvbiBpdC4KICAtLT4KICA8cmVjdCB4PSI0LjUiIHk9IjguNSIgd2lkdGg9IjM5IiBoZWlnaHQ9IjMxIiByeD0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY2MTNmIiBzdHJva2Utd2lkdGg9IjIuNCIvPgogIDxyZWN0IHg9IjExIiB5PSIxNiIgd2lkdGg9IjkiIGhlaWdodD0iMTYiIHJ4PSIyLjQiIGZpbGw9IiNjNjYxM2YiLz4KICA8cmVjdCB4PSIyNCIgeT0iMTYiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNzUiLz4KICA8cmVjdCB4PSIyNCIgeT0iMjQiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNCIvPgogIDxyZWN0IHg9IjI0IiB5PSIzMiIgd2lkdGg9IjciIGhlaWdodD0iMi4yIiByeD0iMS4xIiBmaWxsPSIjYzY2MTNmIiBvcGFjaXR5PSIwLjIyIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792838865,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9ef73ad0ade6442b8e48becb275682b633964b561d97a37f470312626f85bfda",
+      "evidence": [
+        {
+          "name": "@hwfee/dsh-predict",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@hwfee/dsh-predict/-/dsh-predict-0.1.2.tgz",
+          "integrity": "sha512-cxwKLRI4nuDBPcQqh1xoLCc40OEu2//KRfRsqeP7iZrs4SZwGVKiXbkTdvrtkJn9JT5vy5F/m8bdZI+35AtCoA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@hwfee/dsh-git-bash@0.1.2",
+      "origin": "npm",
+      "name": "@hwfee/dsh-git-bash",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@hwfee/dsh-git-bash",
+        "title": {
+          "en": "Git Bash as default shell",
+          "zh": "Git Bash 默认 shell"
+        },
+        "description": {
+          "en": "Run shell commands in Git Bash instead of PowerShell. Resolves the real Git for Windows bash (not the WSL stub), exposes a run_shell tool, and shows which shell is in effect.",
+          "zh": "用 Git Bash 而不是 PowerShell 执行 shell 命令。自动定位真正的 Git for Windows bash（不用 WSL 的替身），提供 run_shell 工具，并在设置里显示当前用的是哪个 shell。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "git-bash",
+            "shell",
+            "windows"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdlbmVyYXRpdmUgVUkiPgogIDwhLS0KICAgIE9yaWdpbmFsIGFydHdvcmssIE1JVCwgZHJhd24gZm9yIHRoaXMgcGx1Z2luLgoKICAgIFRoZSBtYXJrIHJlYWRzIGFzIGEgY2FyZCB3aG9zZSBjb250ZW50cyBhcmUgYmVpbmcgY29tcG9zZWQ6IGEgcm91bmRlZCBmcmFtZQogICAgKHRoZSBjYXJkKSwgYSBmaWxsZWQgYWNjZW50IGJhciAoYSBjaGFydC9hbnN3ZXIgZW1lcmdpbmcpLCBhbmQgdHdvIGdob3N0CiAgICBiYXJzIChjb250ZW50IHN0aWxsIGZvcm1pbmcpLiBOZXV0cmFsIGVub3VnaCB0byBzaXQgYmVzaWRlIGFueSB0aGVtZTsgdGhlCiAgICB0d28gb3V0ZXIgY29sb3VycyBhcmUgdGhlIHBsdWdpbidzIG93biwgdGhlIGFjY2VudCBtYXRjaGVzIHRoZSBjbGF5IHVzZWQgYnkKICAgIGNkcy10aGVtZSB3aXRob3V0IGRlcGVuZGluZyBvbiBpdC4KICAtLT4KICA8cmVjdCB4PSI0LjUiIHk9IjguNSIgd2lkdGg9IjM5IiBoZWlnaHQ9IjMxIiByeD0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY2MTNmIiBzdHJva2Utd2lkdGg9IjIuNCIvPgogIDxyZWN0IHg9IjExIiB5PSIxNiIgd2lkdGg9IjkiIGhlaWdodD0iMTYiIHJ4PSIyLjQiIGZpbGw9IiNjNjYxM2YiLz4KICA8cmVjdCB4PSIyNCIgeT0iMTYiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNzUiLz4KICA8cmVjdCB4PSIyNCIgeT0iMjQiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNCIvPgogIDxyZWN0IHg9IjI0IiB5PSIzMiIgd2lkdGg9IjciIGhlaWdodD0iMi4yIiByeD0iMS4xIiBmaWxsPSIjYzY2MTNmIiBvcGFjaXR5PSIwLjIyIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792838797,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ed082c40d8ece57b583f13a98e2fb427708f17e09819ef7ef9a0096126c10d76",
+      "evidence": [
+        {
+          "name": "@hwfee/dsh-git-bash",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@hwfee/dsh-git-bash/-/dsh-git-bash-0.1.2.tgz",
+          "integrity": "sha512-Cur7Xl5NSbOWQLehj2PJSlDgzVgjV7GXCgcdSJpeVjmbMJTt70BQnoV7TspbyOIcGb/R47wg17mWENDA3cJeWQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-cds-theme@0.1.10",
+      "origin": "npm",
+      "name": "dsh-cds-theme",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cds-theme",
+        "title": {
+          "en": "Claude Design System Theme",
+          "zh": "Claude Design System 主题"
+        },
+        "description": {
+          "en": "Re-maps the interface onto CDS: warm-gray surfaces, clay brand accent, dual-ring focus and organic motion, with component-level refinement of the composer, sidebar, message rows and code blocks.",
+          "zh": "把界面重映射到 CDS：暖灰表面、陶土橙品牌色、双环焦点与有机动效，并对输入框、侧栏、消息行与代码块做组件级细化。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "theme",
+            "claude",
+            "design-system",
+            "cds",
+            "appearance"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkNsYXVkZSBEZXNpZ24gU3lzdGVtIHRoZW1lIj4KICA8dGl0bGU+Q2xhdWRlIERlc2lnbiBTeXN0ZW0gdGhlbWU8L3RpdGxlPgogIDwhLS0gVHdvIG9mZnNldCBzdXJmYWNlczogdGhlIENEUyBsYXllcmluZyBpZGVhLCByZWFkIGFzIGEgc2lsaG91ZXR0ZSBhdCAzNnB4LiAtLT4KICA8cmVjdCB4PSI1LjUiIHk9IjcuNSIgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiByeD0iNC41IiBmaWxsPSIjOGY4ODgwIiBmaWxsLW9wYWNpdHk9IjAuNDUiLz4KICA8cmVjdCB4PSIxNS41IiB5PSIxMy41IiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHJ4PSI0LjUiIGZpbGw9IiNkOTc3NTciLz4KICA8Y2lyY2xlIGN4PSIyMyIgY3k9IjIxIiByPSIyLjYiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC45Ii8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.10",
+            "publishTimestamp": 1793529003,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "41d0b6818e4080f2a0095fcf30f2cec58385efc8ccafe9e960b3b8406603f60d",
+      "evidence": [
+        {
+          "name": "dsh-cds-theme",
+          "version": "0.1.10",
+          "tarball": "https://registry.npmjs.org/dsh-cds-theme/-/dsh-cds-theme-0.1.10.tgz",
+          "integrity": "sha512-/LZLjHLilVe5LaFOLy65wIbKyU0I7hSC584KUgVvH6MvwLiBbhbwj3ybKwyTOOjZUpbkPA9HjZfF5aa/IhahBA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-system-fonts",
+      "origin": "npm",
+      "name": "dsh-system-fonts",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-system-fonts",
+        "title": "dsh-system-fonts",
+        "description": "DeepSeek Harness 的纯字体插件：把内容/代码/终端三个系统字体选择器放进通用设置里宿主可折叠的字体区（分别紧跟官方族名行，折叠时一并收起），按字体族枚举 Windows 已装字体，另带行距与字距；字重与字号归宿主主题，文案随宿主语言切换。只改字体，不动配色与版式。 / Pure font plugin for DeepSeek Harness: seats text/code/terminal system-font pickers inside the host's collapsible font region in General settings (each after the official family row it replaces, collapsing with it), enumerating installed Windows fonts, plus line-height and letter-spacing; weights and sizes stay with the host theme and copy follows the host language. Fonts only — no colors, no layout.",
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "font",
+            "fonts",
+            "typography",
+            "appearance",
+            "windows"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlN5c3RlbSBmb250cyI+CiAgPHRpdGxlPlN5c3RlbSBmb250czwvdGl0bGU+CiAgPCEtLSBBIGNhcGl0YWwgQSBvbiBpdHMgYmFzZWxpbmU6IHRoZSB0eXBlIHNwZWNpbWVuIG1hcmsuIC0tPgogIDxwYXRoIGQ9Ik0xMC41IDI2LjUgMTcuNSA5LjUgMjQuNSAyNi41IiBzdHJva2U9IiNkOTc3NTciIHN0cm9rZS13aWR0aD0iMy4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTMuNiAyMC40aDcuOCIgc3Ryb2tlPSIjZDk3NzU3IiBzdHJva2Utd2lkdGg9IjMuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTUuNSAzMWgyNSIgc3Ryb2tlPSIjOGY4ODgwIiBzdHJva2Utb3BhY2l0eT0iMC41NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792653516,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "924bdc78d9bb538144ea3631d8f655df8a605ff96d202e914d127f5f53c7bd52",
+      "evidence": [
+        {
+          "name": "dsh-system-fonts",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-system-fonts/-/dsh-system-fonts-0.1.3.tgz",
+          "integrity": "sha512-IiD+sJwWtVWbi66ldYSToMgcmAXX8IzylnAg5XnlpWG/rQi18sYeQ9v7gpcfenOD89TxtF7y0x36oqyKret8Uw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@hwfee/dsh-usage-stats",
+      "origin": "npm",
+      "name": "@hwfee/dsh-usage-stats",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@hwfee/dsh-usage-stats",
+        "title": {
+          "en": "Usage statistics",
+          "zh": "用量统计"
+        },
+        "description": {
+          "en": "A usage panel under the blank-session headline: sessions, messages, total tokens, active days, peak hour, favourite model, an activity heatmap, and a token comparison against a Chinese novel.",
+          "zh": "在新对话页的标题下方显示一张用量面板：会话数、消息数、总 token、活跃天数、高峰时段、常用模型、活跃度热力图，以及按中文字数折算的趣味对比。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "usage",
+            "stats",
+            "analytics",
+            "heatmap"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlVzYWdlIHN0YXRpc3RpY3MiPgogIDx0aXRsZT5Vc2FnZSBzdGF0aXN0aWNzPC90aXRsZT4KICA8IS0tIEZvdXIgYmFycyBvZiByaXNpbmcgd2VpZ2h0OiBhIGNoYXJ0LCBub3QgYSBjYXJkLiAtLT4KICA8cmVjdCB4PSI1LjUiIHk9IjIwIiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgcng9IjIuNSIgZmlsbD0iI2Q5Nzc1NyIgZmlsbC1vcGFjaXR5PSIwLjQiLz4KICA8cmVjdCB4PSIxMyIgeT0iMTUiIHdpZHRoPSI1IiBoZWlnaHQ9IjE1IiByeD0iMi41IiBmaWxsPSIjZDk3NzU3IiBmaWxsLW9wYWNpdHk9IjAuNjUiLz4KICA8cmVjdCB4PSIyMC41IiB5PSI5IiB3aWR0aD0iNSIgaGVpZ2h0PSIyMSIgcng9IjIuNSIgZmlsbD0iI2Q5Nzc1NyIvPgogIDxyZWN0IHg9IjI4IiB5PSIxNyIgd2lkdGg9IjUiIGhlaWdodD0iMTMiIHJ4PSIyLjUiIGZpbGw9IiNkOTc3NTciIGZpbGwtb3BhY2l0eT0iMC41Ii8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1793528762,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3ede5ac33712bab8be22df1d2f38642c997b5c8e37be4fa16a6ef3be3ce516e7",
+      "evidence": [
+        {
+          "name": "@hwfee/dsh-usage-stats",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/@hwfee/dsh-usage-stats/-/dsh-usage-stats-0.1.5.tgz",
+          "integrity": "sha512-vF0khFo8dnzrbJzmFY0RoSYmZrF+Zlh6sy9cBMSZYJxQkQw+c6CK3027L2RLZKYhLENjELc3azap+tYPlWKoRA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@hwfee/dsh-genui",
+      "origin": "npm",
+      "name": "@hwfee/dsh-genui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@hwfee/dsh-genui",
+        "title": {
+          "en": "Generative UI",
+          "zh": "生成式界面"
+        },
+        "description": {
+          "en": "Let the model answer with a live React card. render_ui runs the snippet in a plugin-owned sandbox and renders it inline in the conversation; one built-in skill teaches when a card beats prose.",
+          "zh": "让模型用一张可交互的 React 卡片来回答。render_ui 在插件自有沙箱里执行代码并就地渲染；附一个内置 skill，教模型什么时候该用界面、什么时候一段文字就够。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "generative-ui",
+            "intelligent-ui",
+            "react",
+            "skill"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdlbmVyYXRpdmUgVUkiPgogIDwhLS0KICAgIE9yaWdpbmFsIGFydHdvcmssIE1JVCwgZHJhd24gZm9yIHRoaXMgcGx1Z2luLgoKICAgIFRoZSBtYXJrIHJlYWRzIGFzIGEgY2FyZCB3aG9zZSBjb250ZW50cyBhcmUgYmVpbmcgY29tcG9zZWQ6IGEgcm91bmRlZCBmcmFtZQogICAgKHRoZSBjYXJkKSwgYSBmaWxsZWQgYWNjZW50IGJhciAoYSBjaGFydC9hbnN3ZXIgZW1lcmdpbmcpLCBhbmQgdHdvIGdob3N0CiAgICBiYXJzIChjb250ZW50IHN0aWxsIGZvcm1pbmcpLiBOZXV0cmFsIGVub3VnaCB0byBzaXQgYmVzaWRlIGFueSB0aGVtZTsgdGhlCiAgICB0d28gb3V0ZXIgY29sb3VycyBhcmUgdGhlIHBsdWdpbidzIG93biwgdGhlIGFjY2VudCBtYXRjaGVzIHRoZSBjbGF5IHVzZWQgYnkKICAgIGNkcy10aGVtZSB3aXRob3V0IGRlcGVuZGluZyBvbiBpdC4KICAtLT4KICA8cmVjdCB4PSI0LjUiIHk9IjguNSIgd2lkdGg9IjM5IiBoZWlnaHQ9IjMxIiByeD0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY2MTNmIiBzdHJva2Utd2lkdGg9IjIuNCIvPgogIDxyZWN0IHg9IjExIiB5PSIxNiIgd2lkdGg9IjkiIGhlaWdodD0iMTYiIHJ4PSIyLjQiIGZpbGw9IiNjNjYxM2YiLz4KICA8cmVjdCB4PSIyNCIgeT0iMTYiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNzUiLz4KICA8cmVjdCB4PSIyNCIgeT0iMjQiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNCIvPgogIDxyZWN0IHg9IjI0IiB5PSIzMiIgd2lkdGg9IjciIGhlaWdodD0iMi4yIiByeD0iMS4xIiBmaWxsPSIjYzY2MTNmIiBvcGFjaXR5PSIwLjIyIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792838771,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "07a3630a8235b2ebec6770d67dde1f460b8e19a389082a7126688a6e8e7d194f",
+      "evidence": [
+        {
+          "name": "@hwfee/dsh-genui",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@hwfee/dsh-genui/-/dsh-genui-0.1.2.tgz",
+          "integrity": "sha512-nE5sB+hOJsVz8p8odcmAN88JxwKMWHCqt1D1dAt4AteOgYD8JgXvl7C20GHqK13OYU/S0HIo5nEk+qUsKXCHMg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@hwfee/dsh-git-bash",
+      "origin": "npm",
+      "name": "@hwfee/dsh-git-bash",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@hwfee/dsh-git-bash",
+        "title": {
+          "en": "Git Bash as default shell",
+          "zh": "Git Bash 默认 shell"
+        },
+        "description": {
+          "en": "Run shell commands in Git Bash instead of PowerShell. Resolves the real Git for Windows bash (not the WSL stub), exposes a run_shell tool, and shows which shell is in effect.",
+          "zh": "用 Git Bash 而不是 PowerShell 执行 shell 命令。自动定位真正的 Git for Windows bash（不用 WSL 的替身），提供 run_shell 工具，并在设置里显示当前用的是哪个 shell。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "git-bash",
+            "shell",
+            "windows"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdlbmVyYXRpdmUgVUkiPgogIDwhLS0KICAgIE9yaWdpbmFsIGFydHdvcmssIE1JVCwgZHJhd24gZm9yIHRoaXMgcGx1Z2luLgoKICAgIFRoZSBtYXJrIHJlYWRzIGFzIGEgY2FyZCB3aG9zZSBjb250ZW50cyBhcmUgYmVpbmcgY29tcG9zZWQ6IGEgcm91bmRlZCBmcmFtZQogICAgKHRoZSBjYXJkKSwgYSBmaWxsZWQgYWNjZW50IGJhciAoYSBjaGFydC9hbnN3ZXIgZW1lcmdpbmcpLCBhbmQgdHdvIGdob3N0CiAgICBiYXJzIChjb250ZW50IHN0aWxsIGZvcm1pbmcpLiBOZXV0cmFsIGVub3VnaCB0byBzaXQgYmVzaWRlIGFueSB0aGVtZTsgdGhlCiAgICB0d28gb3V0ZXIgY29sb3VycyBhcmUgdGhlIHBsdWdpbidzIG93biwgdGhlIGFjY2VudCBtYXRjaGVzIHRoZSBjbGF5IHVzZWQgYnkKICAgIGNkcy10aGVtZSB3aXRob3V0IGRlcGVuZGluZyBvbiBpdC4KICAtLT4KICA8cmVjdCB4PSI0LjUiIHk9IjguNSIgd2lkdGg9IjM5IiBoZWlnaHQ9IjMxIiByeD0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY2MTNmIiBzdHJva2Utd2lkdGg9IjIuNCIvPgogIDxyZWN0IHg9IjExIiB5PSIxNiIgd2lkdGg9IjkiIGhlaWdodD0iMTYiIHJ4PSIyLjQiIGZpbGw9IiNjNjYxM2YiLz4KICA8cmVjdCB4PSIyNCIgeT0iMTYiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNzUiLz4KICA8cmVjdCB4PSIyNCIgeT0iMjQiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNCIvPgogIDxyZWN0IHg9IjI0IiB5PSIzMiIgd2lkdGg9IjciIGhlaWdodD0iMi4yIiByeD0iMS4xIiBmaWxsPSIjYzY2MTNmIiBvcGFjaXR5PSIwLjIyIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792838797,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ed082c40d8ece57b583f13a98e2fb427708f17e09819ef7ef9a0096126c10d76",
+      "evidence": [
+        {
+          "name": "@hwfee/dsh-git-bash",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@hwfee/dsh-git-bash/-/dsh-git-bash-0.1.2.tgz",
+          "integrity": "sha512-Cur7Xl5NSbOWQLehj2PJSlDgzVgjV7GXCgcdSJpeVjmbMJTt70BQnoV7TspbyOIcGb/R47wg17mWENDA3cJeWQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@hwfee/dsh-predict",
+      "origin": "npm",
+      "name": "@hwfee/dsh-predict",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@hwfee/dsh-predict",
+        "title": {
+          "en": "Next Prompt",
+          "zh": "下一句"
+        },
+        "description": {
+          "en": "After each reply, a quiet grey suggestion of what you might type next appears in the composer. Press Tab to accept it into the box.",
+          "zh": "每轮回答结束后，输入框里用浅色文字预测你接下来会说什么。按 Tab 填入，不会发送。"
+        },
+        "author": "HwFee",
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "prediction",
+            "ghost-text",
+            "autocomplete"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdlbmVyYXRpdmUgVUkiPgogIDwhLS0KICAgIE9yaWdpbmFsIGFydHdvcmssIE1JVCwgZHJhd24gZm9yIHRoaXMgcGx1Z2luLgoKICAgIFRoZSBtYXJrIHJlYWRzIGFzIGEgY2FyZCB3aG9zZSBjb250ZW50cyBhcmUgYmVpbmcgY29tcG9zZWQ6IGEgcm91bmRlZCBmcmFtZQogICAgKHRoZSBjYXJkKSwgYSBmaWxsZWQgYWNjZW50IGJhciAoYSBjaGFydC9hbnN3ZXIgZW1lcmdpbmcpLCBhbmQgdHdvIGdob3N0CiAgICBiYXJzIChjb250ZW50IHN0aWxsIGZvcm1pbmcpLiBOZXV0cmFsIGVub3VnaCB0byBzaXQgYmVzaWRlIGFueSB0aGVtZTsgdGhlCiAgICB0d28gb3V0ZXIgY29sb3VycyBhcmUgdGhlIHBsdWdpbidzIG93biwgdGhlIGFjY2VudCBtYXRjaGVzIHRoZSBjbGF5IHVzZWQgYnkKICAgIGNkcy10aGVtZSB3aXRob3V0IGRlcGVuZGluZyBvbiBpdC4KICAtLT4KICA8cmVjdCB4PSI0LjUiIHk9IjguNSIgd2lkdGg9IjM5IiBoZWlnaHQ9IjMxIiByeD0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY2MTNmIiBzdHJva2Utd2lkdGg9IjIuNCIvPgogIDxyZWN0IHg9IjExIiB5PSIxNiIgd2lkdGg9IjkiIGhlaWdodD0iMTYiIHJ4PSIyLjQiIGZpbGw9IiNjNjYxM2YiLz4KICA8cmVjdCB4PSIyNCIgeT0iMTYiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNzUiLz4KICA8cmVjdCB4PSIyNCIgeT0iMjQiIHdpZHRoPSIxMyIgaGVpZ2h0PSI0LjYiIHJ4PSIyLjMiIGZpbGw9IiNjNjYxM2YiIG9wYWNpdHk9IjAuNCIvPgogIDxyZWN0IHg9IjI0IiB5PSIzMiIgd2lkdGg9IjciIGhlaWdodD0iMi4yIiByeD0iMS4xIiBmaWxsPSIjYzY2MTNmIiBvcGFjaXR5PSIwLjIyIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792838865,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9ef73ad0ade6442b8e48becb275682b633964b561d97a37f470312626f85bfda",
+      "evidence": [
+        {
+          "name": "@hwfee/dsh-predict",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@hwfee/dsh-predict/-/dsh-predict-0.1.2.tgz",
+          "integrity": "sha512-cxwKLRI4nuDBPcQqh1xoLCc40OEu2//KRfRsqeP7iZrs4SZwGVKiXbkTdvrtkJn9JT5vy5F/m8bdZI+35AtCoA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cds-theme@0.1.11",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-system-fonts@0.1.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hwfee/dsh-usage-stats@0.1.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hwfee/dsh-genui@0.1.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hwfee/dsh-predict@0.1.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hwfee/dsh-git-bash@0.1.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cds-theme@0.1.10",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-system-fonts",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hwfee/dsh-usage-stats",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hwfee/dsh-genui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hwfee/dsh-git-bash",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@hwfee/dsh-predict",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HwFee/HwFee-dsh",
+    "commit": "43588c4674f0b617b407f8b9c638a314483927fc",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:06.768Z"
+}

@@ -1,0 +1,303 @@
+{
+  "full_name": "automagik-si/automagik",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T23:58:56.324Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d7453c2bb169753a071bdd4b7e68f337943ce94f32179787e3d1b12736d364a",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "herdr/README.md",
+      "sha256": "676ee5b9f8c6511ee20944caa559e589fa5912c959dc1222be1a216f6d281e72",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/herdr/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "apps/bots-dsh/README.md",
+      "sha256": "7d31ca60d8178ab52fd1df8c7b1d3ecd6a79dbc9f9aad76892737f685d3b8c0f",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/bots-dsh/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "apps/pocket/README.md",
+      "sha256": "118ad80c9401b41dd453204b92e99d60684bbc2afa6c658ce6156c3f132a4811",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/pocket/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "meter/usagemeter/README.md",
+      "sha256": "0483a2bba4f19e854d5a29aff66dee52a7ced76f220f4992f6524fddab450130",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/meter/usagemeter/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/desktop/README.md",
+      "sha256": "689a47a50e84a2dfbc9de056d8a9bc498f26651d0137c7528cd92110d1f7d591",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/desktop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "am/README.md",
+      "sha256": "cb54558d697032272cfba6d8d01e72fee5902af8bf81b4d289f24d98566a763a",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/am/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/welcome-dsh/README.md",
+      "sha256": "beb9bd5ea9deb765cb23ea33bb95a1fec12ecc610e79e44c5335f66912865866",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/welcome-dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/acp-dsh/README.md",
+      "sha256": "c36b09161d33da2e6f22be2da1246a493c14f9d879a190e17548a5962185bd75",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/acp-dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/locale-pt-br-dsh/README.md",
+      "sha256": "b733fa9cd230c8970a15c0e31ff68658bdae49c2979e6f018b00f2b913e677c1",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/locale-pt-br-dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/multiuser-dsh/README.md",
+      "sha256": "75b70e3bfbffa771d7ea2c97952762b2ca7c0c262ba674a8fabbf4f354724cf6",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/multiuser-dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/vault-dsh/README.md",
+      "sha256": "fd0c81eb1cf9b2b32a1bb6c785c68955a19a46ab45dca8f51bf4191c3d4acceb",
+      "url": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/vault-dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@automagik/acp-dsh",
+      "version": "3.176.5",
+      "path": "apps/acp-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/automagik-si/automagik",
+        "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+        "path": "apps/acp-dsh"
+      },
+      "manifestSha256": "989fc8a95c08faaa40cf917b0d5853781377fec196049f83fc62b6dc43fe03d2",
+      "manifestUrl": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/acp-dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@automagik/acp-dsh",
+        "versions": [
+          {
+            "version": "3.176.5",
+            "publishTimestamp": 1795736240,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/automagik-si/automagik",
+              "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+              "path": "apps/acp-dsh"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@automagik/bots-dsh",
+      "version": "3.176.5",
+      "path": "apps/bots-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/automagik-si/automagik",
+        "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+        "path": "apps/bots-dsh"
+      },
+      "manifestSha256": "34ae552432cdeff6cd773443ac34297ea232bbf221be6d3a4333539b878bf718",
+      "manifestUrl": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/bots-dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@automagik/bots-dsh",
+        "versions": [
+          {
+            "version": "3.176.5",
+            "publishTimestamp": 1795736240,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/automagik-si/automagik",
+              "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+              "path": "apps/bots-dsh"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@automagik/locale-pt-br-dsh",
+      "version": "3.176.5",
+      "path": "apps/locale-pt-br-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/automagik-si/automagik",
+        "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+        "path": "apps/locale-pt-br-dsh"
+      },
+      "manifestSha256": "5665c535b07d4d54ebbbd0de595f356f575497ebee2560117b87bd9bddbb57a7",
+      "manifestUrl": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/locale-pt-br-dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@automagik/locale-pt-br-dsh",
+        "versions": [
+          {
+            "version": "3.176.5",
+            "publishTimestamp": 1795736240,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/automagik-si/automagik",
+              "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+              "path": "apps/locale-pt-br-dsh"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@automagik/vault-dsh",
+      "version": "3.176.5",
+      "path": "apps/vault-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/automagik-si/automagik",
+        "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+        "path": "apps/vault-dsh"
+      },
+      "manifestSha256": "f4233a66c1d3e53ea4ba3bec23aa3ae8eb347b66d4aadee3c742f0b1da3b57c2",
+      "manifestUrl": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/vault-dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@automagik/vault-dsh",
+        "versions": [
+          {
+            "version": "3.176.5",
+            "publishTimestamp": 1795736240,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/automagik-si/automagik",
+              "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+              "path": "apps/vault-dsh"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@automagik/welcome-dsh",
+      "version": "3.176.5",
+      "path": "apps/welcome-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/automagik-si/automagik",
+        "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+        "path": "apps/welcome-dsh"
+      },
+      "manifestSha256": "b8685f52b665ec46d8536f58cbcfe2cf30e2e2f714345a1e984c75cf1a7957c7",
+      "manifestUrl": "https://github.com/automagik-si/automagik/blob/2d483a66215e6986d6b1c2296c9f268c8c26d202/apps/welcome-dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@automagik/welcome-dsh",
+        "versions": [
+          {
+            "version": "3.176.5",
+            "publishTimestamp": 1795736240,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/automagik-si/automagik",
+              "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+              "path": "apps/welcome-dsh"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/automagik-si/automagik",
+    "commit": "2d483a66215e6986d6b1c2296c9f268c8c26d202",
+    "releaseTags": 672,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:05.011Z"
+}

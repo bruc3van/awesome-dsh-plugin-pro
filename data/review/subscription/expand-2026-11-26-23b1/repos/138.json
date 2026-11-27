@@ -1,0 +1,69 @@
+{
+  "full_name": "912D/dsh-plugin-symbai-deepseek",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:38.285Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "225e56f0316eac17ff41d36187ded5cd70ff2cefbcca48418a7ac3553800911c",
+      "url": "https://github.com/912D/dsh-plugin-symbai-deepseek/blob/29459a01d2f4c010a55fb50f3894cae4a27f3097/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-symbai-deepseek",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/912D/dsh-plugin-symbai-deepseek",
+        "commit": "29459a01d2f4c010a55fb50f3894cae4a27f3097"
+      },
+      "manifestSha256": "29a27964569569b152edf05b6d8bb32751e922ad038ec72def2de1cc000b2e82",
+      "manifestUrl": "https://github.com/912D/dsh-plugin-symbai-deepseek/blob/29459a01d2f4c010a55fb50f3894cae4a27f3097/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-symbai-deepseek",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1793894251,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/912D/dsh-plugin-symbai-deepseek",
+              "commit": "29459a01d2f4c010a55fb50f3894cae4a27f3097"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/912D/dsh-plugin-symbai-deepseek",
+    "commit": "29459a01d2f4c010a55fb50f3894cae4a27f3097",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:39.469Z"
+}

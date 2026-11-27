@@ -1,0 +1,66 @@
+{
+  "full_name": "AiLi1337/dsh-context-length",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:40.895Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b1d8ed4bb3eb331ff1fdaa8d6a382e8b42aa3512a41041130ba4541f68b38f30",
+      "url": "https://github.com/AiLi1337/dsh-context-length/blob/2a2d055c3fa861b28a40f03582f7cbcc8f691c2c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-context-length",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AiLi1337/dsh-context-length",
+        "commit": "2a2d055c3fa861b28a40f03582f7cbcc8f691c2c"
+      },
+      "manifestSha256": "9007445bba445347c8119b12a51c2399690561f716f18b8aef03b2c7eee512d7",
+      "manifestUrl": "https://github.com/AiLi1337/dsh-context-length/blob/2a2d055c3fa861b28a40f03582f7cbcc8f691c2c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-context-length",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790268654,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AiLi1337/dsh-context-length",
+              "commit": "2a2d055c3fa861b28a40f03582f7cbcc8f691c2c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AiLi1337/dsh-context-length",
+    "commit": "2a2d055c3fa861b28a40f03582f7cbcc8f691c2c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:41.993Z"
+}

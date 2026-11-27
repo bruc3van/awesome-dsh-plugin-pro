@@ -1,0 +1,69 @@
+{
+  "full_name": "Wahwayhale/dsh-connect-miaoshou",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:08.234Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5825a3b73691d99f54ad99dd6dcadc643c22e6f10ff57536ce6b224d14413f6",
+      "url": "https://github.com/Wahwayhale/dsh-connect-miaoshou/blob/758690c0c2bb6e528c13479207d077bf7525ffd9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-connect-miaoshou",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Wahwayhale/dsh-connect-miaoshou",
+        "commit": "758690c0c2bb6e528c13479207d077bf7525ffd9"
+      },
+      "manifestSha256": "d694dfa78d70480d1ce5e2751ddd4ab85d1b308c64be3cb9fec3d56a74e2e3b8",
+      "manifestUrl": "https://github.com/Wahwayhale/dsh-connect-miaoshou/blob/758690c0c2bb6e528c13479207d077bf7525ffd9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-connect-miaoshou",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1794052279,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Wahwayhale/dsh-connect-miaoshou",
+              "commit": "758690c0c2bb6e528c13479207d077bf7525ffd9"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Wahwayhale/dsh-connect-miaoshou",
+    "commit": "758690c0c2bb6e528c13479207d077bf7525ffd9",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:09.457Z"
+}

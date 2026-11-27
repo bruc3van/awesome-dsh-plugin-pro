@@ -1,0 +1,48 @@
+{
+  "full_name": "AFAP/plugin-bastion-bridge-qizhi",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:39.470Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "285ae8a39da4e92d932df2d0408f110c22c6b6b5c7bccbc26492d7689f0aa975",
+      "url": "https://github.com/AFAP/plugin-bastion-bridge-qizhi/blob/8358a2b507a93b650a37869490e2175831e05be6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "16570189c8cacef8779c86e7fb21b0b9af314e967c922262f130d010f782a362",
+      "url": "https://github.com/AFAP/plugin-bastion-bridge-qizhi/blob/8358a2b507a93b650a37869490e2175831e05be6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AFAP/plugin-bastion-bridge-qizhi",
+    "commit": "8358a2b507a93b650a37869490e2175831e05be6",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:40.718Z"
+}

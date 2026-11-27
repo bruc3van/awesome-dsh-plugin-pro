@@ -1,0 +1,40 @@
+{
+  "full_name": "Murphy2000-cyk/dsh-skill-plugin-tuning",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:00.151Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "173dd58e627082b69771ba8659c1e5f95cb3342dbb714507dc587f9754da3ac6",
+      "url": "https://github.com/Murphy2000-cyk/dsh-skill-plugin-tuning/blob/0b9c13586a3c4c0297965f5e7b26d3c0c45df56f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Murphy2000-cyk/dsh-skill-plugin-tuning",
+    "commit": "0b9c13586a3c4c0297965f5e7b26d3c0c45df56f",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:01.260Z"
+}

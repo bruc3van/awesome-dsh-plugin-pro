@@ -1,0 +1,66 @@
+{
+  "full_name": "shengpj/dsh-payload",
+  "originalPosition": 70,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 70,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:21.523Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "534bc5c2215ee74953794098c0df9667dd4e6ba642372f480f869c8414d7afa9",
+      "url": "https://github.com/shengpj/dsh-payload/blob/d38f6d0b304c7bb83120560864dba928ddb3a867/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-payload",
+      "version": "1.10.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shengpj/dsh-payload",
+        "commit": "d38f6d0b304c7bb83120560864dba928ddb3a867"
+      },
+      "manifestSha256": "9727e5895c95c967b4a15e25e0bc7deed7401abb98242b7978ca410b4b390eca",
+      "manifestUrl": "https://github.com/shengpj/dsh-payload/blob/d38f6d0b304c7bb83120560864dba928ddb3a867/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-payload",
+        "versions": [
+          {
+            "version": "1.10.6",
+            "publishTimestamp": 1795405792,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/shengpj/dsh-payload",
+              "commit": "d38f6d0b304c7bb83120560864dba928ddb3a867"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shengpj/dsh-payload",
+    "commit": "d38f6d0b304c7bb83120560864dba928ddb3a867",
+    "releaseTags": 35,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:22.606Z"
+}

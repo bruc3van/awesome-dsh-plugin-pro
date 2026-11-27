@@ -1,0 +1,69 @@
+{
+  "full_name": "18518182595-cell/dsh-prompt-workshop",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:35.101Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4a28b6fb726189066827a9df534dc79e7dd8ba272b5868a458561e3bb3e5c66b",
+      "url": "https://github.com/18518182595-cell/dsh-prompt-workshop/blob/01acbea5a0ebdf8c9a557e069c5049c9ed253d70/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-workshop",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/18518182595-cell/dsh-prompt-workshop",
+        "commit": "01acbea5a0ebdf8c9a557e069c5049c9ed253d70"
+      },
+      "manifestSha256": "2347dcc10152b49ef7973d53ba5fcea7069cb8b7f32c2d670590536e85efdc0a",
+      "manifestUrl": "https://github.com/18518182595-cell/dsh-prompt-workshop/blob/01acbea5a0ebdf8c9a557e069c5049c9ed253d70/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-prompt-workshop",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793872704,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/18518182595-cell/dsh-prompt-workshop",
+              "commit": "01acbea5a0ebdf8c9a557e069c5049c9ed253d70"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/18518182595-cell/dsh-prompt-workshop",
+    "commit": "01acbea5a0ebdf8c9a557e069c5049c9ed253d70",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:36.304Z"
+}

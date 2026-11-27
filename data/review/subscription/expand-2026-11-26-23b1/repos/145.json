@@ -1,0 +1,50 @@
+{
+  "full_name": "AI-Scarlett/build-dsh-plugin",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:39.485Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "45af2f0609a8fbc5ac0879823a07984dac4664d11fe173a28cadff837bce1a84",
+      "url": "https://github.com/AI-Scarlett/build-dsh-plugin/blob/170f717504b74a1507583a8f83e4c745873f3d45/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-build-plugin",
+      "version": "0.6.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AI-Scarlett/build-dsh-plugin",
+        "commit": "170f717504b74a1507583a8f83e4c745873f3d45"
+      },
+      "manifestSha256": "1fadfa23cd3b4626b26295ce3c4e665822bf7fc0696be7ccb6d7262810778bf8",
+      "manifestUrl": "https://github.com/AI-Scarlett/build-dsh-plugin/blob/170f717504b74a1507583a8f83e4c745873f3d45/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AI-Scarlett/build-dsh-plugin",
+    "commit": "170f717504b74a1507583a8f83e4c745873f3d45",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:40.763Z"
+}

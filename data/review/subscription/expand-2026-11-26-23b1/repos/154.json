@@ -1,0 +1,66 @@
+{
+  "full_name": "AlanZhaofeng/dsh-bili-downloader",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:41.280Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bf1d6d162aa9eb22de3a340cd67c9da48a67eb5105e70ee65ff6989d3346cb1e",
+      "url": "https://github.com/AlanZhaofeng/dsh-bili-downloader/blob/3aab74e9b80661ff8361745b080ad688d06a2886/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bili-downloader",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AlanZhaofeng/dsh-bili-downloader",
+        "commit": "3aab74e9b80661ff8361745b080ad688d06a2886"
+      },
+      "manifestSha256": "afa539d05541b47a200f2b279ff6eac60e7bd621d8b8dc6d56042afd17df7c3f",
+      "manifestUrl": "https://github.com/AlanZhaofeng/dsh-bili-downloader/blob/3aab74e9b80661ff8361745b080ad688d06a2886/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-bili-downloader",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1793932454,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AlanZhaofeng/dsh-bili-downloader",
+              "commit": "3aab74e9b80661ff8361745b080ad688d06a2886"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AlanZhaofeng/dsh-bili-downloader",
+    "commit": "3aab74e9b80661ff8361745b080ad688d06a2886",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:42.495Z"
+}

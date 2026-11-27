@@ -1,0 +1,67 @@
+{
+  "full_name": "ooooooomygosh/paper-research-coach",
+  "originalPosition": 59,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 59,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:16.119Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "78b9ec89a50ea1153536e72a410cfdbadd4a76c9c41a34df1c0ab05020e780a6",
+      "url": "https://github.com/ooooooomygosh/paper-research-coach/blob/ece9d781648806a52374bfc241accd7fe2d83978/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1b38639bcbc28876b18628412b13ff8e07e9d49fb84a1c7da9f6a7fa2b1b01ef",
+      "url": "https://github.com/ooooooomygosh/paper-research-coach/blob/ece9d781648806a52374bfc241accd7fe2d83978/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "ports/deepseek-harness/README.md",
+      "sha256": "ba2a79a1b79a49eaf52bd1cbc17bf000f256941dd8cbe092b2c056ceee21d606",
+      "url": "https://github.com/ooooooomygosh/paper-research-coach/blob/ece9d781648806a52374bfc241accd7fe2d83978/ports/deepseek-harness/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-paper-research-coach",
+      "version": "1.4.2",
+      "path": "ports/deepseek-harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ooooooomygosh/paper-research-coach",
+        "commit": "ece9d781648806a52374bfc241accd7fe2d83978",
+        "path": "ports/deepseek-harness"
+      },
+      "manifestSha256": "94de0a7a8423ba07f3fa6a3a02d7728cb46ead36f4149e3a120ff9831780ba08",
+      "manifestUrl": "https://github.com/ooooooomygosh/paper-research-coach/blob/ece9d781648806a52374bfc241accd7fe2d83978/ports/deepseek-harness/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ooooooomygosh/paper-research-coach",
+    "commit": "ece9d781648806a52374bfc241accd7fe2d83978",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:18.230Z"
+}

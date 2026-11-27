@@ -1,0 +1,77 @@
+{
+  "full_name": "whyfail/dsh-connect-ai-toolkit",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:27.333Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1e90c1c5e0624821fe3450d476dc5e7eb68d392d0eabb3592def502e727cc2ae",
+      "url": "https://github.com/whyfail/dsh-connect-ai-toolkit/blob/37ed4b341d7e57330720a6f58a917932f044e8f9/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0304c7c3881b55f23afdebfbf88dafe707b873597696ff3a54c4539859fd5818",
+      "url": "https://github.com/whyfail/dsh-connect-ai-toolkit/blob/37ed4b341d7e57330720a6f58a917932f044e8f9/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-connect-ai-toolkit",
+      "version": "0.2.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/whyfail/dsh-connect-ai-toolkit",
+        "commit": "37ed4b341d7e57330720a6f58a917932f044e8f9"
+      },
+      "manifestSha256": "4dedd5851900d05e6367102076b204b22753dd4954b0e1401a51a497122602a2",
+      "manifestUrl": "https://github.com/whyfail/dsh-connect-ai-toolkit/blob/37ed4b341d7e57330720a6f58a917932f044e8f9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-connect-ai-toolkit",
+        "versions": [
+          {
+            "version": "0.2.6",
+            "publishTimestamp": 1794902922,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/whyfail/dsh-connect-ai-toolkit",
+              "commit": "37ed4b341d7e57330720a6f58a917932f044e8f9"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/whyfail/dsh-connect-ai-toolkit",
+    "commit": "37ed4b341d7e57330720a6f58a917932f044e8f9",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:28.801Z"
+}

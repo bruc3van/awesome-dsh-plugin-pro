@@ -1,0 +1,77 @@
+{
+  "full_name": "Archaofan/dsh-source-deck",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:43.099Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "37a2c1e61e7e30ec7a00a6828ff59a16f0ae14baa87b442398e74fbc7db63962",
+      "url": "https://github.com/Archaofan/dsh-source-deck/blob/55c95785db02fdc737bbe77a60be364f34a07edc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "bf043c70a057ed6812e44cadc220a0f790551b47c8d47db3e8553b20c73afada",
+      "url": "https://github.com/Archaofan/dsh-source-deck/blob/55c95785db02fdc737bbe77a60be364f34a07edc/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-source-deck",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Archaofan/dsh-source-deck",
+        "commit": "55c95785db02fdc737bbe77a60be364f34a07edc"
+      },
+      "manifestSha256": "4fd1bef3946b42e01527a2ea6c6aae40b46f12ffccc2a07f1067ea59a9907b6d",
+      "manifestUrl": "https://github.com/Archaofan/dsh-source-deck/blob/55c95785db02fdc737bbe77a60be364f34a07edc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-source-deck",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1794496556,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Archaofan/dsh-source-deck",
+              "commit": "55c95785db02fdc737bbe77a60be364f34a07edc"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Archaofan/dsh-source-deck",
+    "commit": "55c95785db02fdc737bbe77a60be364f34a07edc",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:44.470Z"
+}

@@ -1,0 +1,112 @@
+{
+  "full_name": "fotor-ai/fotor-agent-plugins",
+  "originalPosition": 48,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 48,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:12.133Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "843c6e81f9f030970de4da6ce0da96ac682fef1a8bb5cdb5c8739066d8025f01",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/cline/fotor/README.md",
+      "sha256": "ec8b94264cff0ac71c5ae9546cb647b3767909e4a1322bfbf74793a267ad9169",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/cline/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/codex/fotor/README.md",
+      "sha256": "85d3c208384673bfff906060ee91d8d4b83d87b97ed54d4f91831cb915ae463e",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/codex/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/claude-code/fotor/README.md",
+      "sha256": "73cf9fe35ae232b3952283f677072962fa7277bc6f16bcc924ea0f5b68344a2c",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/claude-code/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/cursor/fotor/README.md",
+      "sha256": "d70c57b8e1974634dc38958268d6cd17e00944704db41664afeb51c4e824578b",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/cursor/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/pi/fotor/README.md",
+      "sha256": "1a216dba734c3e55154d3287762954c7178995319154e71d22118dbce32761ef",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/pi/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/kilo/fotor/README.md",
+      "sha256": "0fd482e3575c3c00ad4edc0f549b2cac46af6dd678740829acfd3afc57181f26",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/kilo/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/hermes/fotor/README.md",
+      "sha256": "84d5f52232855b4a7b996141b750d09256cf91619bc1230f2987dfd86123871d",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/hermes/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/omp/fotor/README.md",
+      "sha256": "5e40b4325f6a2cc57f18b6588f220cb8bc7c803bc96be17ca00e23211c16f9d7",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/omp/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/antigravity/fotor/README.md",
+      "sha256": "812801b45202c37a468431bf66f2d61c10ddbdc96b27b6b58775ac36420346c6",
+      "url": "https://github.com/fotor-ai/fotor-agent-plugins/blob/dd0721c4b871525634629a4337002a2516b16804/plugins/antigravity/fotor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fotor-ai/fotor-agent-plugins",
+    "commit": "dd0721c4b871525634629a4337002a2516b16804",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "fotor",
+    "version": "0.8.1",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:16.119Z"
+}

@@ -1,0 +1,71 @@
+{
+  "full_name": "BarneyZhaoooo/dsh-theme-native",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:45.910Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "62669a8f59bf99058c0abebfa761c630817d3c6fedf84b8acfcd7d5177847d12",
+      "url": "https://github.com/BarneyZhaoooo/dsh-theme-native/blob/faaf3a8edb9b5625ac46ea11df081600ff6d036a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-native",
+      "version": "0.1.2",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BarneyZhaoooo/dsh-theme-native",
+        "commit": "faaf3a8edb9b5625ac46ea11df081600ff6d036a",
+        "path": "plugin"
+      },
+      "manifestSha256": "9e58b7c3407d364d497b4ac52db4df0c460ad3a548af4d3ffe25850b1ac83f8d",
+      "manifestUrl": "https://github.com/BarneyZhaoooo/dsh-theme-native/blob/faaf3a8edb9b5625ac46ea11df081600ff6d036a/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.1.8-0 || >=0.2.0-rc.1 <0.2.1-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-theme-native",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790659693,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BarneyZhaoooo/dsh-theme-native",
+              "commit": "faaf3a8edb9b5625ac46ea11df081600ff6d036a",
+              "path": "plugin"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.1.8-0 || >=0.2.0-rc.1 <0.2.1-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BarneyZhaoooo/dsh-theme-native",
+    "commit": "faaf3a8edb9b5625ac46ea11df081600ff6d036a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:47.043Z"
+}

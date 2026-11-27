@@ -1,0 +1,58 @@
+{
+  "full_name": "yanli-nyan/dsh-sidebar-entry-manager",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:30.014Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc16f421a3ae9157ee71c8523aac4640c0d8a0d52c81b0334936d36ec4f33692",
+      "url": "https://github.com/yanli-nyan/dsh-sidebar-entry-manager/blob/98df82ae5848c2f6883d92ea0cf71ca0743c68b9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e153a7587c348ed3f7087d4bf764e71dbd1176673ecf6575d5d704655058c731",
+      "url": "https://github.com/yanli-nyan/dsh-sidebar-entry-manager/blob/98df82ae5848c2f6883d92ea0cf71ca0743c68b9/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-sidebar-entry-manager",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanli-nyan/dsh-sidebar-entry-manager",
+        "commit": "98df82ae5848c2f6883d92ea0cf71ca0743c68b9"
+      },
+      "manifestSha256": "66a67234c3da7a6ffef2bbb79c622a234b9e012e90a9059c17d08e024d2ef27f",
+      "manifestUrl": "https://github.com/yanli-nyan/dsh-sidebar-entry-manager/blob/98df82ae5848c2f6883d92ea0cf71ca0743c68b9/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yanli-nyan/dsh-sidebar-entry-manager",
+    "commit": "98df82ae5848c2f6883d92ea0cf71ca0743c68b9",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:31.283Z"
+}

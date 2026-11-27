@@ -1,0 +1,77 @@
+{
+  "full_name": "BrambleXu/dsh-revdiff",
+  "originalPosition": 180,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 180,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:47.043Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "88131da9956c57a542cc1a49568f5c77e6b66480059974376c90cf599392fa5a",
+      "url": "https://github.com/BrambleXu/dsh-revdiff/blob/da3a2234ce73c5ef3f774792e0f3d1d0eb7a612a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dd83f4fa2cf696336a8ffe96ae2b3ecb31698a4d60804e65a694b535636eee0a",
+      "url": "https://github.com/BrambleXu/dsh-revdiff/blob/da3a2234ce73c5ef3f774792e0f3d1d0eb7a612a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-revdiff",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BrambleXu/dsh-revdiff",
+        "commit": "da3a2234ce73c5ef3f774792e0f3d1d0eb7a612a"
+      },
+      "manifestSha256": "8203b83387987a59b8fc06511cd102e12ff611cb7467e785e4f0a7f59ff21127",
+      "manifestUrl": "https://github.com/BrambleXu/dsh-revdiff/blob/da3a2234ce73c5ef3f774792e0f3d1d0eb7a612a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5 <1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-revdiff",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791593166,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BrambleXu/dsh-revdiff",
+              "commit": "da3a2234ce73c5ef3f774792e0f3d1d0eb7a612a"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 <1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BrambleXu/dsh-revdiff",
+    "commit": "da3a2234ce73c5ef3f774792e0f3d1d0eb7a612a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:48.457Z"
+}

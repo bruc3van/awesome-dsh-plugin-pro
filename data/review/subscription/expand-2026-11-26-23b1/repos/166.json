@@ -1,0 +1,66 @@
+{
+  "full_name": "AshenSeeker/dsh-mind",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:43.773Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f9993254cfb7ce4ed0df773aa1350c0920aa7187ea291e061168122e8c3476ad",
+      "url": "https://github.com/AshenSeeker/dsh-mind/blob/8cfbefc028e2ebf6da0fa9daffba94fbd5785adb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mind",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AshenSeeker/dsh-mind",
+        "commit": "8cfbefc028e2ebf6da0fa9daffba94fbd5785adb"
+      },
+      "manifestSha256": "720b7ddf58585ed4fa36e9750f60e0fd2b8edf6b4f676d4a9aa2ff0a4a6035ef",
+      "manifestUrl": "https://github.com/AshenSeeker/dsh-mind/blob/8cfbefc028e2ebf6da0fa9daffba94fbd5785adb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mind",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1795248093,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AshenSeeker/dsh-mind",
+              "commit": "8cfbefc028e2ebf6da0fa9daffba94fbd5785adb"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AshenSeeker/dsh-mind",
+    "commit": "8cfbefc028e2ebf6da0fa9daffba94fbd5785adb",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:44.919Z"
+}

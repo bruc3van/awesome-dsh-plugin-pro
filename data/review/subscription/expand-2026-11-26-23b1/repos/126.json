@@ -1,0 +1,66 @@
+{
+  "full_name": "2026heshao/dsh-draft-attachments",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:35.486Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "de175529c1f34f830ebfc992a05dacf85e6ef89e7fe59fb3ec644e72cfe93014",
+      "url": "https://github.com/2026heshao/dsh-draft-attachments/blob/f285e67bab926ee3083ee7b3858aa28a6092ec8a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-draft-attachments",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2026heshao/dsh-draft-attachments",
+        "commit": "f285e67bab926ee3083ee7b3858aa28a6092ec8a"
+      },
+      "manifestSha256": "7ec25a1ac32b350e33a966c0d24cb8a6beef48a23ededc7d6d34577d733e25be",
+      "manifestUrl": "https://github.com/2026heshao/dsh-draft-attachments/blob/f285e67bab926ee3083ee7b3858aa28a6092ec8a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-draft-attachments",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1792400122,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2026heshao/dsh-draft-attachments",
+              "commit": "f285e67bab926ee3083ee7b3858aa28a6092ec8a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2026heshao/dsh-draft-attachments",
+    "commit": "f285e67bab926ee3083ee7b3858aa28a6092ec8a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:36.599Z"
+}

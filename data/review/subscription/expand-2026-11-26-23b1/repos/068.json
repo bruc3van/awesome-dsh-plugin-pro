@@ -1,0 +1,50 @@
+{
+  "full_name": "shangyunqiang1/DSH_Eplan",
+  "originalPosition": 68,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 68,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:20.381Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1f3fbb7c50ef5176438b145a80397701a6d8c358983430130143d145a2970963",
+      "url": "https://github.com/shangyunqiang1/DSH_Eplan/blob/1fdc7649c53bc5f353d34476bc79029af546065e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-eplan",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shangyunqiang1/DSH_Eplan",
+        "commit": "1fdc7649c53bc5f353d34476bc79029af546065e"
+      },
+      "manifestSha256": "8f015063f36a5c8a404ec592872ab36079bb0e0da51da3cb7a176e2462af85c8",
+      "manifestUrl": "https://github.com/shangyunqiang1/DSH_Eplan/blob/1fdc7649c53bc5f353d34476bc79029af546065e/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shangyunqiang1/DSH_Eplan",
+    "commit": "1fdc7649c53bc5f353d34476bc79029af546065e",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:21.523Z"
+}

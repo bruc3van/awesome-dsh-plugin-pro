@@ -1,0 +1,74 @@
+{
+  "full_name": "Shirolin/dsh-theme-animal-island-ui",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 20,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:03.896Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "781bc8e8a71bcc6f784b5f9e3e3ca17efbf9a64bb7c0dcbb774593664cfb9b87",
+      "url": "https://github.com/Shirolin/dsh-theme-animal-island-ui/blob/ea40b248aedeff5ff95c6665bb9dd14967279587/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6c47aa8bcc5cdeb8984472ee133acd24d0e8f5493b242d91590b347236032e3b",
+      "url": "https://github.com/Shirolin/dsh-theme-animal-island-ui/blob/ea40b248aedeff5ff95c6665bb9dd14967279587/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-animal-island-ui",
+      "version": "0.3.39",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Shirolin/dsh-theme-animal-island-ui",
+        "commit": "ea40b248aedeff5ff95c6665bb9dd14967279587"
+      },
+      "manifestSha256": "7141c5a3e189f19b00686b728c7f5a3e7c03594c4bbbdfccf9b308d27df365c4",
+      "manifestUrl": "https://github.com/Shirolin/dsh-theme-animal-island-ui/blob/ea40b248aedeff5ff95c6665bb9dd14967279587/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-theme-animal-island-ui",
+        "versions": [
+          {
+            "version": "0.3.39",
+            "publishTimestamp": 1795273278,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Shirolin/dsh-theme-animal-island-ui",
+              "commit": "ea40b248aedeff5ff95c6665bb9dd14967279587"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Shirolin/dsh-theme-animal-island-ui",
+    "commit": "ea40b248aedeff5ff95c6665bb9dd14967279587",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:05.348Z"
+}

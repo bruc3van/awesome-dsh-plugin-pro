@@ -1,0 +1,50 @@
+{
+  "full_name": "shenhuanageshei/dsh-thincoder-suite",
+  "originalPosition": 71,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 71,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:21.624Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9898ad685c9ae071864b97278d1efde4f778f325d2229873bb6d7009d7db8a3b",
+      "url": "https://github.com/shenhuanageshei/dsh-thincoder-suite/blob/0d84959405f6342944aee67d15d269607af3c22b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-thincoder-suite",
+      "version": "0.41.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shenhuanageshei/dsh-thincoder-suite",
+        "commit": "0d84959405f6342944aee67d15d269607af3c22b"
+      },
+      "manifestSha256": "c1d9aa0f5e616170edd87b88a94a22f493a4f0d0c0dad2e4d04b77ffaee4ce96",
+      "manifestUrl": "https://github.com/shenhuanageshei/dsh-thincoder-suite/blob/0d84959405f6342944aee67d15d269607af3c22b/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shenhuanageshei/dsh-thincoder-suite",
+    "commit": "0d84959405f6342944aee67d15d269607af3c22b",
+    "releaseTags": 41,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:22.834Z"
+}

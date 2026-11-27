@@ -1,0 +1,164 @@
+{
+  "full_name": "Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:44.355Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3ae8daed1eaf959d392e47ed535234fa3f3d3f34800283f03ee672139c2a97b6",
+      "url": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant/blob/1d1f0d490cc95f0dd50f5967079643cef2fce725/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+          "command": "dsh plugin --profile desktop add github:Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-convey-assistant",
+          "command": "dsh plugin --profile desktop add dsh-convey-assistant",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "915692d1b28092545b5f74fdd18176ff8cb553c3c170d0f7cc64cbca3d64d6cd",
+      "url": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant/blob/1d1f0d490cc95f0dd50f5967079643cef2fce725/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+          "command": "dsh plugin --profile desktop add github:Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-convey-assistant",
+          "command": "dsh plugin --profile desktop add dsh-convey-assistant",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-convey-assistant",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+        "commit": "1d1f0d490cc95f0dd50f5967079643cef2fce725"
+      },
+      "manifestSha256": "d8e0d977e59342dc10364cb03a86e8d433d5f7c0f5ac353f92051c55028a976a",
+      "manifestUrl": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant/blob/1d1f0d490cc95f0dd50f5967079643cef2fce725/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-convey-assistant",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1795494420,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+              "commit": "1d1f0d490cc95f0dd50f5967079643cef2fce725"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-convey-assistant",
+      "origin": "npm",
+      "name": "dsh-convey-assistant",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-convey-assistant",
+        "title": "dsh-convey-assistant",
+        "description": "把口语草稿翻译成 AI Agent 不会误读的意图：先追问你没说清楚的地方（气泡提示），再改写成结构化工单，你确认后才写回输入框。附带一只常驻的像素大肥鱼，鼠标一停就自己溜达。",
+        "author": "Astra-Ursae-Majoris",
+        "homepage": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant#readme",
+        "repository": {
+          "url": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "prompt",
+            "intent",
+            "rewrite",
+            "prompt-engineering",
+            "clarifying-questions",
+            "distractor-pet"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1795494528,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.5 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b7b41f1787f580425b2bc36c9abaf423afd1ca6f89cf18b4e586d070e2f5e5b6",
+      "evidence": [
+        {
+          "name": "dsh-convey-assistant",
+          "version": "0.2.4",
+          "tarball": "https://registry.npmjs.org/dsh-convey-assistant/-/dsh-convey-assistant-0.2.4.tgz",
+          "integrity": "sha512-ec9rSnYAbUS0VLhZZdGL5WVBEjIVrpt9Iog4V7h4u+lh1hcugJhLNHafuXh1fOimVlIBSui12tUqvo1XC6WPqQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-convey-assistant",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant",
+    "commit": "1d1f0d490cc95f0dd50f5967079643cef2fce725",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:45.905Z"
+}

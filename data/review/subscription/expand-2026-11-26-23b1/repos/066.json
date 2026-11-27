@@ -1,0 +1,50 @@
+{
+  "full_name": "sequoiayunus-hue/dsh-subagent-model-config",
+  "originalPosition": 66,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 66,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:20.337Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ed9f9515ce6c960ed3c96618b44684cfbcb9c4d951e4a7bca73af6f3a037e892",
+      "url": "https://github.com/sequoiayunus-hue/dsh-subagent-model-config/blob/dbd5e3ff13447dc5de6c2babe1c0af667348e830/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-subagent-model-config",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sequoiayunus-hue/dsh-subagent-model-config",
+        "commit": "dbd5e3ff13447dc5de6c2babe1c0af667348e830"
+      },
+      "manifestSha256": "87a777dfd2270969f3d1f45a083f1ea865974212e722ff42d8dd473eda68ff81",
+      "manifestUrl": "https://github.com/sequoiayunus-hue/dsh-subagent-model-config/blob/dbd5e3ff13447dc5de6c2babe1c0af667348e830/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sequoiayunus-hue/dsh-subagent-model-config",
+    "commit": "dbd5e3ff13447dc5de6c2babe1c0af667348e830",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:21.622Z"
+}

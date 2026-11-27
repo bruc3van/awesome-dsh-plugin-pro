@@ -1,0 +1,66 @@
+{
+  "full_name": "saithink/dsh-local-proxy",
+  "originalPosition": 64,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:19.209Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d91bf1dc95e87816855adf7bdad6cfc44b95aa66a692709b29db5883a584a48",
+      "url": "https://github.com/saithink/dsh-local-proxy/blob/ee329f3505a9461da0dfb26c4ca4d9fc60bf8596/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-local-proxy",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/saithink/dsh-local-proxy",
+        "commit": "ee329f3505a9461da0dfb26c4ca4d9fc60bf8596"
+      },
+      "manifestSha256": "4d83d0e410901aad5449fa7c69503726f0ac480a6d0a978c106bafd89bc22593",
+      "manifestUrl": "https://github.com/saithink/dsh-local-proxy/blob/ee329f3505a9461da0dfb26c4ca4d9fc60bf8596/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-local-proxy",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1793326886,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/saithink/dsh-local-proxy",
+              "commit": "ee329f3505a9461da0dfb26c4ca4d9fc60bf8596"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/saithink/dsh-local-proxy",
+    "commit": "ee329f3505a9461da0dfb26c4ca4d9fc60bf8596",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:20.380Z"
+}

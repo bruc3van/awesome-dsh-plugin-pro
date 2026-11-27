@@ -1,0 +1,117 @@
+{
+  "full_name": "zuoyunlai/dsh-theme-palette",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:32.770Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e91d2f36f113ca0f5b969306e3e8122d7c586c53d8081abbec2e52ff47903b75",
+      "url": "https://github.com/zuoyunlai/dsh-theme-palette/blob/a623a9094c50b04fe3ea17924dad631bb6bf3c91/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "6c41579b73035494bd739d76e4ab4e200d9ded7c0eb4510cd391817872623ce5",
+      "url": "https://github.com/zuoyunlai/dsh-theme-palette/blob/a623a9094c50b04fe3ea17924dad631bb6bf3c91/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README-ja.md",
+      "sha256": "36937776992487982548bbaa1441d07147f4900e398b84ca8a56723e5dbe03f8",
+      "url": "https://github.com/zuoyunlai/dsh-theme-palette/blob/a623a9094c50b04fe3ea17924dad631bb6bf3c91/README-ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "651bfff49db9d08b4384324be48cd665a241a79db9dcef09a11642e99730de37",
+      "url": "https://github.com/zuoyunlai/dsh-theme-palette/blob/a623a9094c50b04fe3ea17924dad631bb6bf3c91/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "80c7068e9d22ea92cac71e322576b31f74b644c7e42c1889808247ebf6040642",
+      "url": "https://github.com/zuoyunlai/dsh-theme-palette/blob/a623a9094c50b04fe3ea17924dad631bb6bf3c91/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "27ca1309687df571c316195149f3a903c9f8ff2737f25a1c99a0aae76c45aeeb",
+      "url": "https://github.com/zuoyunlai/dsh-theme-palette/blob/a623a9094c50b04fe3ea17924dad631bb6bf3c91/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "d2144d1446207c61d594b4af54557f4c76165005d46e6c7c641e86896e8827ca",
+      "url": "https://github.com/zuoyunlai/dsh-theme-palette/blob/a623a9094c50b04fe3ea17924dad631bb6bf3c91/tools/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-palette",
+      "version": "1.13.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zuoyunlai/dsh-theme-palette",
+        "commit": "a623a9094c50b04fe3ea17924dad631bb6bf3c91"
+      },
+      "manifestSha256": "ea5d5bf7f3bf21513489f5fc78b0c81d0e6a5f132f94df75b311cd5aec9d5897",
+      "manifestUrl": "https://github.com/zuoyunlai/dsh-theme-palette/blob/a623a9094c50b04fe3ea17924dad631bb6bf3c91/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-theme-palette",
+        "versions": [
+          {
+            "version": "1.13.7",
+            "publishTimestamp": 1795341934,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zuoyunlai/dsh-theme-palette",
+              "commit": "a623a9094c50b04fe3ea17924dad631bb6bf3c91"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zuoyunlai/dsh-theme-palette",
+    "commit": "a623a9094c50b04fe3ea17924dad631bb6bf3c91",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:35.485Z"
+}

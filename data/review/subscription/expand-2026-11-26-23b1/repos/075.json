@@ -1,0 +1,56 @@
+{
+  "full_name": "soyoungzsy/soya-workflows",
+  "originalPosition": 75,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 75,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:22.633Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f1d525d3bdb3222b0a44084e6790ced2c27d7cb7ff81f7be6b602be30ac733cb",
+      "url": "https://github.com/soyoungzsy/soya-workflows/blob/e721e22172eb9d4e9be209cf9b02f87d4edf8170/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "c27a5285352259dfbd56b542319e7d055d479a0229647c08cf84f52c2bd3e263",
+      "url": "https://github.com/soyoungzsy/soya-workflows/blob/e721e22172eb9d4e9be209cf9b02f87d4edf8170/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "44a70cf0b197109b778a9e36e500b924d70305234f35d57bda8d0da255f142e0",
+      "url": "https://github.com/soyoungzsy/soya-workflows/blob/e721e22172eb9d4e9be209cf9b02f87d4edf8170/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/soyoungzsy/soya-workflows",
+    "commit": "e721e22172eb9d4e9be209cf9b02f87d4edf8170",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:24.152Z"
+}

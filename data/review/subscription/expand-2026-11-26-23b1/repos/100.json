@@ -1,0 +1,50 @@
+{
+  "full_name": "xyzYaeMiko/dsh-session-groups",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 100,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:29.235Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f2324e77610df8df6c3dcf7e0c11cb4ebd43b9296358f50743ff5e442cfe3c9",
+      "url": "https://github.com/xyzYaeMiko/dsh-session-groups/blob/d15c864e56afd1c6b4821d893171e3d706ad00d1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-groups",
+      "version": "0.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xyzYaeMiko/dsh-session-groups",
+        "commit": "d15c864e56afd1c6b4821d893171e3d706ad00d1"
+      },
+      "manifestSha256": "e3ac6e6455424ac368ccc08ef1ed0bba01056deac27afc392fb128fb0b2262d6",
+      "manifestUrl": "https://github.com/xyzYaeMiko/dsh-session-groups/blob/d15c864e56afd1c6b4821d893171e3d706ad00d1/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xyzYaeMiko/dsh-session-groups",
+    "commit": "d15c864e56afd1c6b4821d893171e3d706ad00d1",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:30.534Z"
+}

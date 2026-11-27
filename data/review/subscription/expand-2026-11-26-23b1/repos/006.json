@@ -1,0 +1,51 @@
+{
+  "full_name": "ygc06/fishpet-release",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T23:58:56.339Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "10e0d5221f98985d1eafb302a454650f6200853d6b21fc4f69821b74c70bb679",
+      "url": "https://github.com/ygc06/fishpet-release/blob/f4e32131748607de3895fc6caa10749e939fccf5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-fishpet-emotion",
+      "version": "0.9.15",
+      "path": "plugins/fishpet",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ygc06/fishpet-release",
+        "commit": "f4e32131748607de3895fc6caa10749e939fccf5",
+        "path": "plugins/fishpet"
+      },
+      "manifestSha256": "b36a42dae7e1669945bed125943eee9f59f2e92807da8ccf760bbaed8048b30c",
+      "manifestUrl": "https://github.com/ygc06/fishpet-release/blob/f4e32131748607de3895fc6caa10749e939fccf5/plugins/fishpet/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ygc06/fishpet-release",
+    "commit": "f4e32131748607de3895fc6caa10749e939fccf5",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:58:57.888Z"
+}

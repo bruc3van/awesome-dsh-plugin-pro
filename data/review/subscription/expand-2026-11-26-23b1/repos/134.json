@@ -1,0 +1,85 @@
+{
+  "full_name": "54dsb1/dsh-stream-agent",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:36.998Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a0bd461992f3e4d536b6cdab14904d7ea1c06901689860758cd72cfec3185bb6",
+      "url": "https://github.com/54dsb1/dsh-stream-agent/blob/f613f2942726605b973c0ebadf650d8165aa2089/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "561cef487886cbef5d2b04687893575447e3fa110269148534ceca76085b50d5",
+      "url": "https://github.com/54dsb1/dsh-stream-agent/blob/f613f2942726605b973c0ebadf650d8165aa2089/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "profiles/stream/README.md",
+      "sha256": "7077890bc3e52e77627a6952af85d9f84515d1ca9aa46cebcaa67fb59c7fa2e3",
+      "url": "https://github.com/54dsb1/dsh-stream-agent/blob/f613f2942726605b973c0ebadf650d8165aa2089/profiles/stream/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@hugesb/dsh-stream-agent",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/54dsb1/dsh-stream-agent",
+        "commit": "f613f2942726605b973c0ebadf650d8165aa2089"
+      },
+      "manifestSha256": "ed3d3dbd2d66ad09aa10d30b9937ca8e922637dfdd091231f3883ed4a24ec045",
+      "manifestUrl": "https://github.com/54dsb1/dsh-stream-agent/blob/f613f2942726605b973c0ebadf650d8165aa2089/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@hugesb/dsh-stream-agent",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1795710787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/54dsb1/dsh-stream-agent",
+              "commit": "f613f2942726605b973c0ebadf650d8165aa2089"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/54dsb1/dsh-stream-agent",
+    "commit": "f613f2942726605b973c0ebadf650d8165aa2089",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:38.800Z"
+}

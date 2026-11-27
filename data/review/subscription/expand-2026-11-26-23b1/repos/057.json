@@ -1,0 +1,56 @@
+{
+  "full_name": "malinovme/dsh-unica",
+  "originalPosition": 57,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 57,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:15.625Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0727b23b989f831984fece140097e5dd2c335f06b782fbb45495e65513b68819",
+      "url": "https://github.com/malinovme/dsh-unica/blob/e063f381191a41bc3255132ff26267993873689f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-unica-plugin/README.md",
+      "sha256": "a6874dbabade8fd52833233ce5842ff68797fdf79cc44760d9f1e324cc1b0a9c",
+      "url": "https://github.com/malinovme/dsh-unica/blob/e063f381191a41bc3255132ff26267993873689f/dsh-unica-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/price-extension/README.md",
+      "sha256": "1a979e4f01016c34b35470bc33918c59c2a9df049fb8916d818783ac57042c2f",
+      "url": "https://github.com/malinovme/dsh-unica/blob/e063f381191a41bc3255132ff26267993873689f/examples/price-extension/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/malinovme/dsh-unica",
+    "commit": "e063f381191a41bc3255132ff26267993873689f",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:17.167Z"
+}

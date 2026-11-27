@@ -1,0 +1,50 @@
+{
+  "full_name": "YeStarOne/feiyuos-memory-graph",
+  "originalPosition": 40,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 40,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:10.299Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cb51713c87942c974362ce891177c66932d2fce20d62b5217f08a41c509b1efa",
+      "url": "https://github.com/YeStarOne/feiyuos-memory-graph/blob/2c580f38b4ad26d5a5f6b3d9670baf4975282ee7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "639f9dff12e9ada535450f2457d02877619179331703f1cf004e9a5d61424d68",
+      "url": "https://github.com/YeStarOne/feiyuos-memory-graph/blob/2c580f38b4ad26d5a5f6b3d9670baf4975282ee7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YeStarOne/feiyuos-memory-graph",
+    "commit": "2c580f38b4ad26d5a5f6b3d9670baf4975282ee7",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-plugin-memory-graph",
+    "version": "1.2.1",
+    "dsh": null,
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:12.046Z"
+}

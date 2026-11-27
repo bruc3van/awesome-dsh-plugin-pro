@@ -1,0 +1,69 @@
+{
+  "full_name": "yintaocheng/dsh-github-harness",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:30.313Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "baf930bb4ae8ede7120bf0fc1559687c058c0963db62e101d7ce222412b4f498",
+      "url": "https://github.com/yintaocheng/dsh-github-harness/blob/84e0c9865199f994fda5d7d9b48104ec651acfcb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-github-harness",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yintaocheng/dsh-github-harness",
+        "commit": "84e0c9865199f994fda5d7d9b48104ec651acfcb"
+      },
+      "manifestSha256": "78bce05abe48a95c189a4a2db5a7179a11d032eaaa70d947f5181f7c04eb829e",
+      "manifestUrl": "https://github.com/yintaocheng/dsh-github-harness/blob/84e0c9865199f994fda5d7d9b48104ec651acfcb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2 || 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-github-harness",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792682747,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yintaocheng/dsh-github-harness",
+              "commit": "84e0c9865199f994fda5d7d9b48104ec651acfcb"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yintaocheng/dsh-github-harness",
+    "commit": "84e0c9865199f994fda5d7d9b48104ec651acfcb",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:31.400Z"
+}

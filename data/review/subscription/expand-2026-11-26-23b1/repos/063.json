@@ -1,0 +1,74 @@
+{
+  "full_name": "s0meb0dy3/dsh-scratch-workspace",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:18.516Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "73bc034eff8d8e1a9d222a602eb7d067f1c5d4155232169e078180c4c3dbca26",
+      "url": "https://github.com/s0meb0dy3/dsh-scratch-workspace/blob/450bd90155cbff24ff2303f6c63f8d429cb9afcf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dac35d2c71ef0b708a350018b17eabdfa17ae90645affe0194e4e2bdd534b87a",
+      "url": "https://github.com/s0meb0dy3/dsh-scratch-workspace/blob/450bd90155cbff24ff2303f6c63f8d429cb9afcf/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@s0meb0dy3/dsh-scratch-workspace",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/s0meb0dy3/dsh-scratch-workspace",
+        "commit": "450bd90155cbff24ff2303f6c63f8d429cb9afcf"
+      },
+      "manifestSha256": "66f1b31d9d10aab556b4ccdaa966fe0c77855294423e1fe92dca562590b1948b",
+      "manifestUrl": "https://github.com/s0meb0dy3/dsh-scratch-workspace/blob/450bd90155cbff24ff2303f6c63f8d429cb9afcf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@s0meb0dy3/dsh-scratch-workspace",
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1793465070,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/s0meb0dy3/dsh-scratch-workspace",
+              "commit": "450bd90155cbff24ff2303f6c63f8d429cb9afcf"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/s0meb0dy3/dsh-scratch-workspace",
+    "commit": "450bd90155cbff24ff2303f6c63f8d429cb9afcf",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:19.881Z"
+}

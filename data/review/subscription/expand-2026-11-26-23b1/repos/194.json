@@ -1,0 +1,66 @@
+{
+  "full_name": "Coshire90-1135/DSH-MnnChat-Provider",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:50.298Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23201335e9bd538d5864b8b4f814dbdade5e20a2f8741158966a8926838f969d",
+      "url": "https://github.com/Coshire90-1135/DSH-MnnChat-Provider/blob/4735b25c5d1d9b4b4a10c6d98b8945da8094bef2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mnn-chat",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Coshire90-1135/DSH-MnnChat-Provider",
+        "commit": "4735b25c5d1d9b4b4a10c6d98b8945da8094bef2"
+      },
+      "manifestSha256": "79dc4d1d182bd442496c85d82e3e5a7c4939fc35eb358ae268fd6651ef416c31",
+      "manifestUrl": "https://github.com/Coshire90-1135/DSH-MnnChat-Provider/blob/4735b25c5d1d9b4b4a10c6d98b8945da8094bef2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mnn-chat",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790912464,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Coshire90-1135/DSH-MnnChat-Provider",
+              "commit": "4735b25c5d1d9b4b4a10c6d98b8945da8094bef2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Coshire90-1135/DSH-MnnChat-Provider",
+    "commit": "4735b25c5d1d9b4b4a10c6d98b8945da8094bef2",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:51.525Z"
+}

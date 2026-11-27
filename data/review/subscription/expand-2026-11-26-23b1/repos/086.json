@@ -1,0 +1,66 @@
+{
+  "full_name": "vikasranax/dsh-plugin-cats",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:26.230Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "951066333a5f905a0cb1f45246d67c77a866894bb526b34e165778cbd4f0674d",
+      "url": "https://github.com/vikasranax/dsh-plugin-cats/blob/09f006673626006543663f3982833c8e97215b8a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-cats",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/vikasranax/dsh-plugin-cats",
+        "commit": "09f006673626006543663f3982833c8e97215b8a"
+      },
+      "manifestSha256": "c020f4c91c2552eb2929074f61865d4e52f7f50d5bbda646ea232b0c40ee1e6d",
+      "manifestUrl": "https://github.com/vikasranax/dsh-plugin-cats/blob/09f006673626006543663f3982833c8e97215b8a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-cats",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1790226096,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/vikasranax/dsh-plugin-cats",
+              "commit": "09f006673626006543663f3982833c8e97215b8a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/vikasranax/dsh-plugin-cats",
+    "commit": "09f006673626006543663f3982833c8e97215b8a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:27.333Z"
+}

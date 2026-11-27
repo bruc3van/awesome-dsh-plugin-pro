@@ -1,0 +1,74 @@
+{
+  "full_name": "Autumn984/dsh-remote",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:44.919Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "849cf08b255d6aeac98b22bc4236545420bbd6a715d6ea3759b421cab87f3748",
+      "url": "https://github.com/Autumn984/dsh-remote/blob/c6d9175c2224689974b08631ca75bcebc1135202/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "a53eec14f0d162e18ada69e65e01a13b69389134cde708e258a2b3b6b07c2ef4",
+      "url": "https://github.com/Autumn984/dsh-remote/blob/c6d9175c2224689974b08631ca75bcebc1135202/README_EN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Autumn984/dsh-remote",
+        "commit": "c6d9175c2224689974b08631ca75bcebc1135202"
+      },
+      "manifestSha256": "9f516031302cf2c26696a4e4c18d505c0145eb24b90f3224918370a4e300edc0",
+      "manifestUrl": "https://github.com/Autumn984/dsh-remote/blob/c6d9175c2224689974b08631ca75bcebc1135202/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-remote",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1791730017,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Autumn984/dsh-remote",
+              "commit": "c6d9175c2224689974b08631ca75bcebc1135202"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Autumn984/dsh-remote",
+    "commit": "c6d9175c2224689974b08631ca75bcebc1135202",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:46.243Z"
+}

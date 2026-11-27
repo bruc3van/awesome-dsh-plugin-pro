@@ -1,0 +1,74 @@
+{
+  "full_name": "387617119/mimo-voice-report",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:36.878Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e27cf96375fae98d9e6f0d72ff016fb58aaf0aec6fce31eb7b694c08f1cbeab9",
+      "url": "https://github.com/387617119/mimo-voice-report/blob/a5e216ccefa1bedfb58d2e80e8d081961bfbef5d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "50294f9314f08ff3631328b66c9e0b2b4a5194deb6ea836993f5233925639a1b",
+      "url": "https://github.com/387617119/mimo-voice-report/blob/a5e216ccefa1bedfb58d2e80e8d081961bfbef5d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "mimo-voice-report",
+      "version": "1.32.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/387617119/mimo-voice-report",
+        "commit": "a5e216ccefa1bedfb58d2e80e8d081961bfbef5d"
+      },
+      "manifestSha256": "4ffb573a47d2e6a1ef8aabccf4cc02b5273801de3d271855b4b4c9ed20938961",
+      "manifestUrl": "https://github.com/387617119/mimo-voice-report/blob/a5e216ccefa1bedfb58d2e80e8d081961bfbef5d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "mimo-voice-report",
+        "versions": [
+          {
+            "version": "1.32.0",
+            "publishTimestamp": 1793012728,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/387617119/mimo-voice-report",
+              "commit": "a5e216ccefa1bedfb58d2e80e8d081961bfbef5d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/387617119/mimo-voice-report",
+    "commit": "a5e216ccefa1bedfb58d2e80e8d081961bfbef5d",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:38.318Z"
+}

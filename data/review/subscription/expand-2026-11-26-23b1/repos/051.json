@@ -1,0 +1,48 @@
+{
+  "full_name": "kelai141/dsh-shell-termux",
+  "originalPosition": 51,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 51,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:12.953Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a4ea34d9e32b36798b35f25eb6aa82a0940eda8f3e78d29dc9f1fb815acc6c47",
+      "url": "https://github.com/kelai141/dsh-shell-termux/blob/fcdd1a590eb68d3513bd87107bae1ad125213bf0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "86e5e5a9bba35c59b8a5f029d17fa3a01ed1baa3e0d87d82d8ce32a1f7dccf2e",
+      "url": "https://github.com/kelai141/dsh-shell-termux/blob/fcdd1a590eb68d3513bd87107bae1ad125213bf0/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kelai141/dsh-shell-termux",
+    "commit": "fcdd1a590eb68d3513bd87107bae1ad125213bf0",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@dsh-android/dsh-shell-termux",
+    "version": "0.2.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:14.368Z"
+}

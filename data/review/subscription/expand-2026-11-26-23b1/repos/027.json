@@ -1,0 +1,156 @@
+{
+  "full_name": "TaoruiLiu19/DSH-LLSA",
+  "originalPosition": 27,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 27,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:06.562Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9cba4925462a364e79f9b3f72fcd9bb67e4e71301f5cd99c45eca59312821da6",
+      "url": "https://github.com/TaoruiLiu19/DSH-LLSA/blob/b0a854a12f8932b66944188f6df5bc7e1dd3a6b2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-llsa/collab",
+      "version": "0.4.2",
+      "path": "packages/dsh-collab",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TaoruiLiu19/DSH-LLSA",
+        "commit": "b0a854a12f8932b66944188f6df5bc7e1dd3a6b2",
+        "path": "packages/dsh-collab"
+      },
+      "manifestSha256": "06fcde9f3c2904105f84bb08804319994372244d4a50e76cdf84269bcf4df016",
+      "manifestUrl": "https://github.com/TaoruiLiu19/DSH-LLSA/blob/b0a854a12f8932b66944188f6df5bc7e1dd3a6b2/packages/dsh-collab/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-llsa/harness-bundle",
+      "version": "0.4.2",
+      "path": "packages/harness-bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TaoruiLiu19/DSH-LLSA",
+        "commit": "b0a854a12f8932b66944188f6df5bc7e1dd3a6b2",
+        "path": "packages/harness-bundle"
+      },
+      "manifestSha256": "8ef138bbab6517d608bf20c4f347e0d07b7378a29f544aeef462fc3403e882eb",
+      "manifestUrl": "https://github.com/TaoruiLiu19/DSH-LLSA/blob/b0a854a12f8932b66944188f6df5bc7e1dd3a6b2/packages/harness-bundle/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-llsa/harness-bundle",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1795673923,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TaoruiLiu19/DSH-LLSA",
+              "commit": "b0a854a12f8932b66944188f6df5bc7e1dd3a6b2",
+              "path": "packages/harness-bundle"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-llsa/hud",
+      "version": "0.4.5",
+      "path": "packages/hud",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TaoruiLiu19/DSH-LLSA",
+        "commit": "b0a854a12f8932b66944188f6df5bc7e1dd3a6b2",
+        "path": "packages/hud"
+      },
+      "manifestSha256": "3294fb3b6e520c4bebea35f6d6d309c041e1710547752c657e60db8d980402d1",
+      "manifestUrl": "https://github.com/TaoruiLiu19/DSH-LLSA/blob/b0a854a12f8932b66944188f6df5bc7e1dd3a6b2/packages/hud/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-llsa/hud",
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1795673923,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TaoruiLiu19/DSH-LLSA",
+              "commit": "b0a854a12f8932b66944188f6df5bc7e1dd3a6b2",
+              "path": "packages/hud"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-llsa/web-collab",
+      "version": "0.2.2",
+      "path": "packages/web-collab",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TaoruiLiu19/DSH-LLSA",
+        "commit": "b0a854a12f8932b66944188f6df5bc7e1dd3a6b2",
+        "path": "packages/web-collab"
+      },
+      "manifestSha256": "ba80cd5c2b6b3cc0f2d3f176a54b6ba7fe39174a82b6739569e51920911e62e4",
+      "manifestUrl": "https://github.com/TaoruiLiu19/DSH-LLSA/blob/b0a854a12f8932b66944188f6df5bc7e1dd3a6b2/packages/web-collab/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-llsa/web-collab",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1795673923,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TaoruiLiu19/DSH-LLSA",
+              "commit": "b0a854a12f8932b66944188f6df5bc7e1dd3a6b2",
+              "path": "packages/web-collab"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TaoruiLiu19/DSH-LLSA",
+    "commit": "b0a854a12f8932b66944188f6df5bc7e1dd3a6b2",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:10.298Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "9426Haruka/dsh-markdown-live",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:38.320Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f04b8ab8113373880b50b1185fc137df9ec8393cf1964539525ab202cf3bc9a7",
+      "url": "https://github.com/9426Haruka/dsh-markdown-live/blob/1f47a60954fde04b71cf404e8e42124a5d07959e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-markdown-live",
+      "version": "0.2.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/9426Haruka/dsh-markdown-live",
+        "commit": "1f47a60954fde04b71cf404e8e42124a5d07959e"
+      },
+      "manifestSha256": "d821fdff567d2504ffcdba09228160d37d6d442147e2b0344f326aa6dbb55e8c",
+      "manifestUrl": "https://github.com/9426Haruka/dsh-markdown-live/blob/1f47a60954fde04b71cf404e8e42124a5d07959e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-markdown-live",
+        "versions": [
+          {
+            "version": "0.2.14",
+            "publishTimestamp": 1792663528,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/9426Haruka/dsh-markdown-live",
+              "commit": "1f47a60954fde04b71cf404e8e42124a5d07959e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/9426Haruka/dsh-markdown-live",
+    "commit": "1f47a60954fde04b71cf404e8e42124a5d07959e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:39.484Z"
+}

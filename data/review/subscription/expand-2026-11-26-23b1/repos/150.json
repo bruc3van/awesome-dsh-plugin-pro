@@ -1,0 +1,66 @@
+{
+  "full_name": "AdRainty/dsh-vocechat-bridge",
+  "originalPosition": 150,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:40.719Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9540b32f421e0bf39a1f1d8ae34b9edba832562f8f4a6be9f5231f6d4241203a",
+      "url": "https://github.com/AdRainty/dsh-vocechat-bridge/blob/c3c70e189e62feaf2b6defcd7d77697e8caed499/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vocechat-bridge",
+      "version": "0.4.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AdRainty/dsh-vocechat-bridge",
+        "commit": "c3c70e189e62feaf2b6defcd7d77697e8caed499"
+      },
+      "manifestSha256": "953aaf5cf1e91c1bbf2bcbdfb0b258059d11f27d19bb9ea4cb196ae7801fa4f9",
+      "manifestUrl": "https://github.com/AdRainty/dsh-vocechat-bridge/blob/c3c70e189e62feaf2b6defcd7d77697e8caed499/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-vocechat-bridge",
+        "versions": [
+          {
+            "version": "0.4.9",
+            "publishTimestamp": 1793549424,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AdRainty/dsh-vocechat-bridge",
+              "commit": "c3c70e189e62feaf2b6defcd7d77697e8caed499"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AdRainty/dsh-vocechat-bridge",
+    "commit": "c3c70e189e62feaf2b6defcd7d77697e8caed499",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:41.903Z"
+}

@@ -1,0 +1,50 @@
+{
+  "full_name": "ucfjoe/dsh-team-progress",
+  "originalPosition": 85,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 85,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:26.139Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e4af1ad37f036dd2aa036451aacb2e54edfeac4df939fdee581eee42927bdbae",
+      "url": "https://github.com/ucfjoe/dsh-team-progress/blob/41887efea5f471671de2691bb1057638aa92da2a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-team-progress",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ucfjoe/dsh-team-progress",
+        "commit": "41887efea5f471671de2691bb1057638aa92da2a"
+      },
+      "manifestSha256": "b89968b1517ed2245050234e6ddeb530a4e5cd33fd12536b6251fb8f049d568b",
+      "manifestUrl": "https://github.com/ucfjoe/dsh-team-progress/blob/41887efea5f471671de2691bb1057638aa92da2a/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ucfjoe/dsh-team-progress",
+    "commit": "41887efea5f471671de2691bb1057638aa92da2a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:27.290Z"
+}

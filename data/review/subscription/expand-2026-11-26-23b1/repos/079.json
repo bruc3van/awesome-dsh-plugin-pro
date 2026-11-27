@@ -1,0 +1,77 @@
+{
+  "full_name": "stitchmaps/dsh-ikunchick-pet",
+  "originalPosition": 79,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 79,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:24.050Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "82f63d93377c50cf87bf6c4b6edc62af21e2e76ffcd55055a0d305b381b38b10",
+      "url": "https://github.com/stitchmaps/dsh-ikunchick-pet/blob/834138dc96d9508b67733bf0331239a22b3f4915/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "30f1b718a3e3153d87da8fda73e15bce2baa2b49a964bd4eeff13b40d570cc9a",
+      "url": "https://github.com/stitchmaps/dsh-ikunchick-pet/blob/834138dc96d9508b67733bf0331239a22b3f4915/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ikunchick-pet",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/stitchmaps/dsh-ikunchick-pet",
+        "commit": "834138dc96d9508b67733bf0331239a22b3f4915"
+      },
+      "manifestSha256": "d11233246e342ae9fd99a573e925f5d75aae2772919d2e35eae151055ed391c8",
+      "manifestUrl": "https://github.com/stitchmaps/dsh-ikunchick-pet/blob/834138dc96d9508b67733bf0331239a22b3f4915/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 || >=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ikunchick-pet",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1794039972,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/stitchmaps/dsh-ikunchick-pet",
+              "commit": "834138dc96d9508b67733bf0331239a22b3f4915"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/stitchmaps/dsh-ikunchick-pet",
+    "commit": "834138dc96d9508b67733bf0331239a22b3f4915",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:25.397Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "0131kikimy/dsh-collect",
+  "originalPosition": 117,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:33.462Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "46a98b39c892f78ee260f941e04ffb6b6f84f5a09011fe8794aebc71b602f9f6",
+      "url": "https://github.com/0131kikimy/dsh-collect/blob/6c508da1b2d539741ff54b2ace35afd80c20c50f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-collect",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/0131kikimy/dsh-collect",
+        "commit": "6c508da1b2d539741ff54b2ace35afd80c20c50f"
+      },
+      "manifestSha256": "653a8877737eab9349fcf8c350c4ffc906a19f10190e2b6ed4d4afc39bb2cd43",
+      "manifestUrl": "https://github.com/0131kikimy/dsh-collect/blob/6c508da1b2d539741ff54b2ace35afd80c20c50f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-collect",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1795079252,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/0131kikimy/dsh-collect",
+              "commit": "6c508da1b2d539741ff54b2ace35afd80c20c50f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/0131kikimy/dsh-collect",
+    "commit": "6c508da1b2d539741ff54b2ace35afd80c20c50f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:34.667Z"
+}

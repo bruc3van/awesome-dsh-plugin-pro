@@ -1,0 +1,74 @@
+{
+  "full_name": "wing-tn/astro-ph-researcher",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:27.901Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f09c539dff2cc049c9f3eb75f3999ef44d63f96a9039cb92c1fa2795e6d5d1f",
+      "url": "https://github.com/wing-tn/astro-ph-researcher/blob/f19ef4b1c55dbaf44e1c2baf3fa70f57121ed35d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "codex/README.en.md",
+      "sha256": "3cc8a8c286dbaef98dbf1b138213d3d7f9681754a49484a36b75cce8c909ead0",
+      "url": "https://github.com/wing-tn/astro-ph-researcher/blob/f19ef4b1c55dbaf44e1c2baf3fa70f57121ed35d/codex/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "astro-ph-researcher",
+      "version": "3.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wing-tn/astro-ph-researcher",
+        "commit": "f19ef4b1c55dbaf44e1c2baf3fa70f57121ed35d"
+      },
+      "manifestSha256": "99594448c7947ff400a43f188d8df20aeebe7aa5686e2904c6e099ec99bea9e3",
+      "manifestUrl": "https://github.com/wing-tn/astro-ph-researcher/blob/f19ef4b1c55dbaf44e1c2baf3fa70f57121ed35d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "astro-ph-researcher",
+        "versions": [
+          {
+            "version": "3.4.0",
+            "publishTimestamp": 1792658927,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wing-tn/astro-ph-researcher",
+              "commit": "f19ef4b1c55dbaf44e1c2baf3fa70f57121ed35d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wing-tn/astro-ph-researcher",
+    "commit": "f19ef4b1c55dbaf44e1c2baf3fa70f57121ed35d",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:29.313Z"
+}

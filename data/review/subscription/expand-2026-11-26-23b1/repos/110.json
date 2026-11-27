@@ -1,0 +1,50 @@
+{
+  "full_name": "z11y11w/dsh-subagent-tool-guard",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:31.592Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "78dcb0a0e91e20802e752b6ce6fc614d528de3bf722c06f499b33eaef4aa4c35",
+      "url": "https://github.com/z11y11w/dsh-subagent-tool-guard/blob/e399ab7bcc41a12ddc78f1256f23d05d109a6c4e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-subagent-tool-guard",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/z11y11w/dsh-subagent-tool-guard",
+        "commit": "e399ab7bcc41a12ddc78f1256f23d05d109a6c4e"
+      },
+      "manifestSha256": "3bec3a43c720882a91a2988899325631ac947cbe62d62668c64a7950481355ac",
+      "manifestUrl": "https://github.com/z11y11w/dsh-subagent-tool-guard/blob/e399ab7bcc41a12ddc78f1256f23d05d109a6c4e/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/z11y11w/dsh-subagent-tool-guard",
+    "commit": "e399ab7bcc41a12ddc78f1256f23d05d109a6c4e",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:32.689Z"
+}

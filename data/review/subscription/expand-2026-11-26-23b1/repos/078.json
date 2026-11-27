@@ -1,0 +1,69 @@
+{
+  "full_name": "starriv/dsh-session-dashboard",
+  "originalPosition": 78,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 78,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:23.858Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7824c97edc410d03108a8d8a45cc67e33957756650d0fd1953fff775c2b2901c",
+      "url": "https://github.com/starriv/dsh-session-dashboard/blob/f54e8f19cc72be8ae11096adf0b438b0dabf317b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-dashboard",
+      "version": "1.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/starriv/dsh-session-dashboard",
+        "commit": "f54e8f19cc72be8ae11096adf0b438b0dabf317b"
+      },
+      "manifestSha256": "77fdef84801479f68d19af33ddf8a7f97a2beeda0d49da5bebe17b181d9778f5",
+      "manifestUrl": "https://github.com/starriv/dsh-session-dashboard/blob/f54e8f19cc72be8ae11096adf0b438b0dabf317b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-session-dashboard",
+        "versions": [
+          {
+            "version": "1.4.2",
+            "publishTimestamp": 1794543158,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/starriv/dsh-session-dashboard",
+              "commit": "f54e8f19cc72be8ae11096adf0b438b0dabf317b"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/starriv/dsh-session-dashboard",
+    "commit": "f54e8f19cc72be8ae11096adf0b438b0dabf317b",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:25.032Z"
+}

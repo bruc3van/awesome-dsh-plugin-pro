@@ -1,0 +1,69 @@
+{
+  "full_name": "SuangXX/dsh-zh-cot-fidelity",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:06.271Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "68ffe917b51ba0052594db47cad8c00fff85ce9dd890e519ad371d300654fd35",
+      "url": "https://github.com/SuangXX/dsh-zh-cot-fidelity/blob/5d125a479c0539024c2d3e38e376c46fc46fdbd3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-zh-cot-fidelity",
+      "version": "1.6.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SuangXX/dsh-zh-cot-fidelity",
+        "commit": "5d125a479c0539024c2d3e38e376c46fc46fdbd3"
+      },
+      "manifestSha256": "b7ab5e92e28ca7109b4dd305401703897fb183dd63548d24e6c85fd7650b9e87",
+      "manifestUrl": "https://github.com/SuangXX/dsh-zh-cot-fidelity/blob/5d125a479c0539024c2d3e38e376c46fc46fdbd3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-zh-cot-fidelity",
+        "versions": [
+          {
+            "version": "1.6.7",
+            "publishTimestamp": 1793711027,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SuangXX/dsh-zh-cot-fidelity",
+              "commit": "5d125a479c0539024c2d3e38e376c46fc46fdbd3"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SuangXX/dsh-zh-cot-fidelity",
+    "commit": "5d125a479c0539024c2d3e38e376c46fc46fdbd3",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:07.753Z"
+}

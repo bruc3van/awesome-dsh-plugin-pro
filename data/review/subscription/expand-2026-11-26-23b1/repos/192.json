@@ -1,0 +1,58 @@
+{
+  "full_name": "Chuzhj/dsh-edge-search",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:49.727Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ddfd114afdd21b88806be2775cf272479f8fe9567205300477eb2c913857e31b",
+      "url": "https://github.com/Chuzhj/dsh-edge-search/blob/662d0027f2690af1b33e0f79de1c51f8d69dc923/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "732dc37226201acb1096241477fa7da9b5299fecc5ff8a350d95a26321925dc8",
+      "url": "https://github.com/Chuzhj/dsh-edge-search/blob/662d0027f2690af1b33e0f79de1c51f8d69dc923/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-edge-search",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chuzhj/dsh-edge-search",
+        "commit": "662d0027f2690af1b33e0f79de1c51f8d69dc923"
+      },
+      "manifestSha256": "db962ce354f756a26060b8532aa6569da56d70f4039b9b94337af16fc6874237",
+      "manifestUrl": "https://github.com/Chuzhj/dsh-edge-search/blob/662d0027f2690af1b33e0f79de1c51f8d69dc923/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chuzhj/dsh-edge-search",
+    "commit": "662d0027f2690af1b33e0f79de1c51f8d69dc923",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:51.147Z"
+}

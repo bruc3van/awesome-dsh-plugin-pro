@@ -1,0 +1,58 @@
+{
+  "full_name": "yanli-nyan/maid-workspace-activity",
+  "originalPosition": 103,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 103,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:30.160Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b00ecfce3cbeaaa24f3befa58bcdefa2a40341cfdc133114a40e2ef8d169f9be",
+      "url": "https://github.com/yanli-nyan/maid-workspace-activity/blob/dc8d0ae498a6aab2e90485d6175e9031b050941b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ef62dc047ffd55d13b93d883e743638ccd4ad8fd6eb730e38539cb579052728f",
+      "url": "https://github.com/yanli-nyan/maid-workspace-activity/blob/dc8d0ae498a6aab2e90485d6175e9031b050941b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/maid-workspace-activity",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanli-nyan/maid-workspace-activity",
+        "commit": "dc8d0ae498a6aab2e90485d6175e9031b050941b"
+      },
+      "manifestSha256": "c0352390afb7860385088fd24c90bc810e4c291cf4ccc17615a70dcac56e610f",
+      "manifestUrl": "https://github.com/yanli-nyan/maid-workspace-activity/blob/dc8d0ae498a6aab2e90485d6175e9031b050941b/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yanli-nyan/maid-workspace-activity",
+    "commit": "dc8d0ae498a6aab2e90485d6175e9031b050941b",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:31.592Z"
+}

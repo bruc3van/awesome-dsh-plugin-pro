@@ -1,0 +1,77 @@
+{
+  "full_name": "VoodooB0Ys/dsh-desktop-notify",
+  "originalPosition": 32,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 32,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:07.989Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "284114485d3932c20eb150799f8eaf701695184a9c81f2783943cd5bc8501234",
+      "url": "https://github.com/VoodooB0Ys/dsh-desktop-notify/blob/94781ae9fa16f010b119c2aa5429fc3d68427ef9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4d531b70a9b5514f71286c93508f12420979cf50ef21d053ea288e52a88637bc",
+      "url": "https://github.com/VoodooB0Ys/dsh-desktop-notify/blob/94781ae9fa16f010b119c2aa5429fc3d68427ef9/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-desktop-notify",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/VoodooB0Ys/dsh-desktop-notify",
+        "commit": "94781ae9fa16f010b119c2aa5429fc3d68427ef9"
+      },
+      "manifestSha256": "3f7ac5c19172e16e3ffa4610b1ef59c7975d8f3ff4f489fb4ddd94dcf3211772",
+      "manifestUrl": "https://github.com/VoodooB0Ys/dsh-desktop-notify/blob/94781ae9fa16f010b119c2aa5429fc3d68427ef9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-desktop-notify",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791200190,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/VoodooB0Ys/dsh-desktop-notify",
+              "commit": "94781ae9fa16f010b119c2aa5429fc3d68427ef9"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/VoodooB0Ys/dsh-desktop-notify",
+    "commit": "94781ae9fa16f010b119c2aa5429fc3d68427ef9",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:09.323Z"
+}

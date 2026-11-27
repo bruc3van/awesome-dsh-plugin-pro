@@ -1,0 +1,77 @@
+{
+  "full_name": "suuuuuu-1/dsh-discord",
+  "originalPosition": 83,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:25.342Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6c3e7e6f42221ffe786b8cf4b1dbd2c487cd8f82e29342325a17f555266c408d",
+      "url": "https://github.com/suuuuuu-1/dsh-discord/blob/0a2293d5526e17f28b540f33c9c75d481f27a5c9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "5ed39b5c0b9633c3b0d1bdb6d6549ccd529e49f7e44507a0b3deded72d43e025",
+      "url": "https://github.com/suuuuuu-1/dsh-discord/blob/0a2293d5526e17f28b540f33c9c75d481f27a5c9/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-discord",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/suuuuuu-1/dsh-discord",
+        "commit": "0a2293d5526e17f28b540f33c9c75d481f27a5c9"
+      },
+      "manifestSha256": "92738dc8441d70eb30e0608c0f7b7f77b17d0fde3549f6c4e0f6a78ba2a849d7",
+      "manifestUrl": "https://github.com/suuuuuu-1/dsh-discord/blob/0a2293d5526e17f28b540f33c9c75d481f27a5c9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-discord",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788006301,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/suuuuuu-1/dsh-discord",
+              "commit": "0a2293d5526e17f28b540f33c9c75d481f27a5c9"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/suuuuuu-1/dsh-discord",
+    "commit": "0a2293d5526e17f28b540f33c9c75d481f27a5c9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:26.750Z"
+}

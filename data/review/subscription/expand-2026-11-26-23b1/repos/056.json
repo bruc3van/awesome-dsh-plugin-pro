@@ -1,0 +1,48 @@
+{
+  "full_name": "lovaxi/Rubato_Plugins",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:15.328Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6e48435268639f1a3eab8bdeb90a7a45ea385e3d414b59528771b04372bac0c9",
+      "url": "https://github.com/lovaxi/Rubato_Plugins/blob/2e095a06d817cd65fd129a800cb438d70d77d936/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "138c8cde4799072a1462896d24ca9cb3a31753216c70bddf0f186417adb14e6d",
+      "url": "https://github.com/lovaxi/Rubato_Plugins/blob/2e095a06d817cd65fd129a800cb438d70d77d936/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lovaxi/Rubato_Plugins",
+    "commit": "2e095a06d817cd65fd129a800cb438d70d77d936",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:18.039Z"
+}

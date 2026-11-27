@@ -1,0 +1,66 @@
+{
+  "full_name": "BannyLon/dsh-npie-reader",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:45.678Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c94ad523e61f0ce8d7786c79a7f352c79c3914c6ca450d4bd0fce8987dc2315c",
+      "url": "https://github.com/BannyLon/dsh-npie-reader/blob/6db34331642498122fd575cdf859640632d75ae5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-npie-reader",
+      "version": "0.92.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BannyLon/dsh-npie-reader",
+        "commit": "6db34331642498122fd575cdf859640632d75ae5"
+      },
+      "manifestSha256": "77fee14a44d34803786dae149784fe1db7179f37e848f75cf9825a14d4737da0",
+      "manifestUrl": "https://github.com/BannyLon/dsh-npie-reader/blob/6db34331642498122fd575cdf859640632d75ae5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-npie-reader",
+        "versions": [
+          {
+            "version": "0.92.0",
+            "publishTimestamp": 1795678589,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BannyLon/dsh-npie-reader",
+              "commit": "6db34331642498122fd575cdf859640632d75ae5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BannyLon/dsh-npie-reader",
+    "commit": "6db34331642498122fd575cdf859640632d75ae5",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:47.002Z"
+}

@@ -1,0 +1,79 @@
+{
+  "full_name": "emmettlu/tracefs",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:12.004Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0fcec7264b998f4109ec446f5099dceb9f464d8232e9a5a1dda2ea57921810d5",
+      "url": "https://github.com/emmettlu/tracefs/blob/7c357be502b66d626141d45570df71be3216b53a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "fff7245137f247f895157507376312591de51a8fb745604340c900938b5c8980",
+      "url": "https://github.com/emmettlu/tracefs/blob/7c357be502b66d626141d45570df71be3216b53a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tracefs",
+      "version": "0.1.0",
+      "path": "sdk/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/emmettlu/tracefs",
+        "commit": "7c357be502b66d626141d45570df71be3216b53a",
+        "path": "sdk/dsh"
+      },
+      "manifestSha256": "0b04b329be1f6580eb85996a64a239ead283b4c2b7466328e4ac512905b12b95",
+      "manifestUrl": "https://github.com/emmettlu/tracefs/blob/7c357be502b66d626141d45570df71be3216b53a/sdk/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.4 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-tracefs",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794662398,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/emmettlu/tracefs",
+              "commit": "7c357be502b66d626141d45570df71be3216b53a",
+              "path": "sdk/dsh"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.4 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/emmettlu/tracefs",
+    "commit": "7c357be502b66d626141d45570df71be3216b53a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:14.412Z"
+}

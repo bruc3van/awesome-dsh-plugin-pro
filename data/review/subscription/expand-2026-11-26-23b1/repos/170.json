@@ -1,0 +1,50 @@
+{
+  "full_name": "AtlacherCoder/dshgodot-workflow",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:44.853Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5017e50a1fd9e1b24b84d2083fc9f3bc6035e679f5599c6d9af4a6b80180ae3b",
+      "url": "https://github.com/AtlacherCoder/dshgodot-workflow/blob/d895c519ad333daa181ded4e7dac7105ddc83e3f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-godot-workflow",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AtlacherCoder/dshgodot-workflow",
+        "commit": "d895c519ad333daa181ded4e7dac7105ddc83e3f"
+      },
+      "manifestSha256": "170708413c22ce34b98a782dd8e53bf9e533ec6670ee59203847f7f635c4a84f",
+      "manifestUrl": "https://github.com/AtlacherCoder/dshgodot-workflow/blob/d895c519ad333daa181ded4e7dac7105ddc83e3f/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AtlacherCoder/dshgodot-workflow",
+    "commit": "d895c519ad333daa181ded4e7dac7105ddc83e3f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:45.992Z"
+}

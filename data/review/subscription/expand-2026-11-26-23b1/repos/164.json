@@ -1,0 +1,74 @@
+{
+  "full_name": "Asdika-36086/compact-region",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:43.406Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fcd21a434c2638df702472208b72175879e5c1ae34e22183093cf063676f4b45",
+      "url": "https://github.com/Asdika-36086/compact-region/blob/4e67a577d4e92c504fc77ae13d128058e43eb7fc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2b9d3289c9580015ccd3f9fbc47a003638a871ba7c8872f2a9ac2259059a1c42",
+      "url": "https://github.com/Asdika-36086/compact-region/blob/4e67a577d4e92c504fc77ae13d128058e43eb7fc/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "compact-region",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Asdika-36086/compact-region",
+        "commit": "4e67a577d4e92c504fc77ae13d128058e43eb7fc"
+      },
+      "manifestSha256": "ed3527bd6df9692838a757d27d7dce655b4783e70bc7b24176ca95769e157427",
+      "manifestUrl": "https://github.com/Asdika-36086/compact-region/blob/4e67a577d4e92c504fc77ae13d128058e43eb7fc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "compact-region",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1794633482,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Asdika-36086/compact-region",
+              "commit": "4e67a577d4e92c504fc77ae13d128058e43eb7fc"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Asdika-36086/compact-region",
+    "commit": "4e67a577d4e92c504fc77ae13d128058e43eb7fc",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:44.852Z"
+}

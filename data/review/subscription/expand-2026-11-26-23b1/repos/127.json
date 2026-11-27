@@ -1,0 +1,66 @@
+{
+  "full_name": "2189166478-bot/dsh-zh-cn",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:35.768Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "35872881affd89f92d6c47268bc851693d212755f93b8521fe9e3d61bab5d1bd",
+      "url": "https://github.com/2189166478-bot/dsh-zh-cn/blob/0955fafac1b9944f94decf0eac777bdfb37acc44/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-zh-cn",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2189166478-bot/dsh-zh-cn",
+        "commit": "0955fafac1b9944f94decf0eac777bdfb37acc44"
+      },
+      "manifestSha256": "f348ce06b7fdce937daf2c2b1bbfdf8efb4b924309fb39fb42c5a47f56fe2839",
+      "manifestUrl": "https://github.com/2189166478-bot/dsh-zh-cn/blob/0955fafac1b9944f94decf0eac777bdfb37acc44/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-zh-cn",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1794290829,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2189166478-bot/dsh-zh-cn",
+              "commit": "0955fafac1b9944f94decf0eac777bdfb37acc44"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2189166478-bot/dsh-zh-cn",
+    "commit": "0955fafac1b9944f94decf0eac777bdfb37acc44",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:36.877Z"
+}

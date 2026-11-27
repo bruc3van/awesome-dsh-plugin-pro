@@ -1,0 +1,66 @@
+{
+  "full_name": "xiao-hans/dsh-rtk",
+  "originalPosition": 95,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 95,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:28.069Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e6cf708207ea526b9811c9af7fc415a952682c49f1a34ec20d0192793717e4f0",
+      "url": "https://github.com/xiao-hans/dsh-rtk/blob/b98aabeb6133eda6cc1ef7e16e54dce09af19b46/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xiao-hans/dsh-rtk",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiao-hans/dsh-rtk",
+        "commit": "b98aabeb6133eda6cc1ef7e16e54dce09af19b46"
+      },
+      "manifestSha256": "4b4e72fa9b816f2316e9efc516ea4b02a0bd0efa2e07593133ec9be49f3c2ff1",
+      "manifestUrl": "https://github.com/xiao-hans/dsh-rtk/blob/b98aabeb6133eda6cc1ef7e16e54dce09af19b46/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@xiao-hans/dsh-rtk",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1794646873,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiao-hans/dsh-rtk",
+              "commit": "b98aabeb6133eda6cc1ef7e16e54dce09af19b46"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiao-hans/dsh-rtk",
+    "commit": "b98aabeb6133eda6cc1ef7e16e54dce09af19b46",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:29.212Z"
+}

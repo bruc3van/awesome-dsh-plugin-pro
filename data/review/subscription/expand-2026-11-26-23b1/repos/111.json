@@ -1,0 +1,66 @@
+{
+  "full_name": "z1223473749/dsh-QiuYaTools",
+  "originalPosition": 111,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 111,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:31.735Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3d63d825bc2c42b6120dc45b32dd3f953c348b9995866a7ad68d96c217bdb24f",
+      "url": "https://github.com/z1223473749/dsh-QiuYaTools/blob/7871a81c75ca609a8115045cbc95d56854cb905e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qiuya-tools",
+      "version": "0.7.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/z1223473749/dsh-QiuYaTools",
+        "commit": "7871a81c75ca609a8115045cbc95d56854cb905e"
+      },
+      "manifestSha256": "d0fdcebd70464a3a40d468d6fe070e23ca8a27637c50ac36b108ffbde06ce564",
+      "manifestUrl": "https://github.com/z1223473749/dsh-QiuYaTools/blob/7871a81c75ca609a8115045cbc95d56854cb905e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-qiuya-tools",
+        "versions": [
+          {
+            "version": "0.7.9",
+            "publishTimestamp": 1794815267,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/z1223473749/dsh-QiuYaTools",
+              "commit": "7871a81c75ca609a8115045cbc95d56854cb905e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/z1223473749/dsh-QiuYaTools",
+    "commit": "7871a81c75ca609a8115045cbc95d56854cb905e",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:32.951Z"
+}

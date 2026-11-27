@@ -1,0 +1,50 @@
+{
+  "full_name": "zhangzhangco/dsh-llm-antigravity",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:32.644Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44d2681255d326627fd4ce0c0e9f62542ebe505f7882b78750886b1589836497",
+      "url": "https://github.com/zhangzhangco/dsh-llm-antigravity/blob/dbac23637d81b88f17f71e41a8f28bc81794671f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-antigravity",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhangzhangco/dsh-llm-antigravity",
+        "commit": "dbac23637d81b88f17f71e41a8f28bc81794671f"
+      },
+      "manifestSha256": "c8526b4bf36f9d3c0e124256cfd227d66cacd94ec771ca2b47617eaeba6b9132",
+      "manifestUrl": "https://github.com/zhangzhangco/dsh-llm-antigravity/blob/dbac23637d81b88f17f71e41a8f28bc81794671f/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhangzhangco/dsh-llm-antigravity",
+    "commit": "dbac23637d81b88f17f71e41a8f28bc81794671f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:33.763Z"
+}

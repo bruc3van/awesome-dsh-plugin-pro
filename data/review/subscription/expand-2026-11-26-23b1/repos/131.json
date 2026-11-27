@@ -1,0 +1,95 @@
+{
+  "full_name": "27painter/swnx-switch",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:36.418Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "def86a5f042ca352d70439cb81188cd0ae74743147dee9deab1d05f78a71d008",
+      "url": "https://github.com/27painter/swnx-switch/blob/041813dc0ce5a034fabf076eb4fa1369fa3f715b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "0f5d7409f7ac39e521fe63675671fe7fb190ffe108c9884e6cceae97e04dc339",
+      "url": "https://github.com/27painter/swnx-switch/blob/041813dc0ce5a034fabf076eb4fa1369fa3f715b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugin/README.md",
+      "sha256": "51da7c2dc8e168a36842755389ec4d21fc046c609b4c74494163727a2d9e9637",
+      "url": "https://github.com/27painter/swnx-switch/blob/041813dc0ce5a034fabf076eb4fa1369fa3f715b/plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/evidence/README.md",
+      "sha256": "0f4bd2b8a3bcebff91d17e435e1e451dae281394f49d870f69ca8e18c55d6357",
+      "url": "https://github.com/27painter/swnx-switch/blob/041813dc0ce5a034fabf076eb4fa1369fa3f715b/docs/evidence/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "swnx-switch",
+      "version": "1.2.0",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/27painter/swnx-switch",
+        "commit": "041813dc0ce5a034fabf076eb4fa1369fa3f715b",
+        "path": "plugin"
+      },
+      "manifestSha256": "7e9c8ab3bd37cf44c10e98331d395bb713a5abedbc70430061a0e1e4297718be",
+      "manifestUrl": "https://github.com/27painter/swnx-switch/blob/041813dc0ce5a034fabf076eb4fa1369fa3f715b/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "swnx-switch",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1794638631,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/27painter/swnx-switch",
+              "commit": "041813dc0ce5a034fabf076eb4fa1369fa3f715b",
+              "path": "plugin"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/27painter/swnx-switch",
+    "commit": "041813dc0ce5a034fabf076eb4fa1369fa3f715b",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:38.285Z"
+}

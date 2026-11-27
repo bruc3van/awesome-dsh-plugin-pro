@@ -1,0 +1,74 @@
+{
+  "full_name": "BlueSkyMicha/dsh-pure-chat",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:46.244Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cd29a56912ad759afd6a31f848f7db168e821e1fc46b823dd88c220617b6c8bf",
+      "url": "https://github.com/BlueSkyMicha/dsh-pure-chat/blob/9ae5db2ee693c6775fa18e5404f4c31f5fde1d69/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ff5ea411360af80d7b73333f340ebc21c659d1d99d657a12d74cd74ec171356d",
+      "url": "https://github.com/BlueSkyMicha/dsh-pure-chat/blob/9ae5db2ee693c6775fa18e5404f4c31f5fde1d69/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pure-chat",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BlueSkyMicha/dsh-pure-chat",
+        "commit": "9ae5db2ee693c6775fa18e5404f4c31f5fde1d69"
+      },
+      "manifestSha256": "b53e9330bff9267077bf59f8e0be89f65bf87e6c28c5ff68069dfb7b71262b7a",
+      "manifestUrl": "https://github.com/BlueSkyMicha/dsh-pure-chat/blob/9ae5db2ee693c6775fa18e5404f4c31f5fde1d69/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pure-chat",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795332402,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BlueSkyMicha/dsh-pure-chat",
+              "commit": "9ae5db2ee693c6775fa18e5404f4c31f5fde1d69"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BlueSkyMicha/dsh-pure-chat",
+    "commit": "9ae5db2ee693c6775fa18e5404f4c31f5fde1d69",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:47.649Z"
+}

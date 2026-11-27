@@ -1,0 +1,69 @@
+{
+  "full_name": "xingyueDanYang/dsh-puppet-memory",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:29.212Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc84c2a155a594b3e0ce2c2904c98c630c156063a79add652bc6fb3a94982135",
+      "url": "https://github.com/xingyueDanYang/dsh-puppet-memory/blob/56aea8f340e8ae9a8aa172446b80b00c3c8045d4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-puppet-memory",
+      "version": "0.52.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xingyueDanYang/dsh-puppet-memory",
+        "commit": "56aea8f340e8ae9a8aa172446b80b00c3c8045d4"
+      },
+      "manifestSha256": "fb2d05c1cd8cc074fe6cde7d15f9ac1a831552528f8594a1f8a03c666a677f03",
+      "manifestUrl": "https://github.com/xingyueDanYang/dsh-puppet-memory/blob/56aea8f340e8ae9a8aa172446b80b00c3c8045d4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-puppet-memory",
+        "versions": [
+          {
+            "version": "0.52.2",
+            "publishTimestamp": 1795520037,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xingyueDanYang/dsh-puppet-memory",
+              "commit": "56aea8f340e8ae9a8aa172446b80b00c3c8045d4"
+            },
+            "engines": {
+              "dsh": ">=0.2.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xingyueDanYang/dsh-puppet-memory",
+    "commit": "56aea8f340e8ae9a8aa172446b80b00c3c8045d4",
+    "releaseTags": 37,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:30.313Z"
+}

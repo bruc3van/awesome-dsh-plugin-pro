@@ -1,0 +1,69 @@
+{
+  "full_name": "AshenSeeker/dsh-group-meeting-slides",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:43.614Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "660266feb6afc298ed9aeb49d7e10d4b8e4a126e0d68a345f46522bc34726b04",
+      "url": "https://github.com/AshenSeeker/dsh-group-meeting-slides/blob/f4c9ff469ab85b9ddbdf35daed008acd2e398bae/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-group-meeting-slides",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AshenSeeker/dsh-group-meeting-slides",
+        "commit": "f4c9ff469ab85b9ddbdf35daed008acd2e398bae"
+      },
+      "manifestSha256": "aa7febe02c7dc29558c10810f1b7404fd21fddb46c94dfd867aa6b683e0c38e6",
+      "manifestUrl": "https://github.com/AshenSeeker/dsh-group-meeting-slides/blob/f4c9ff469ab85b9ddbdf35daed008acd2e398bae/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-group-meeting-slides",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1793943916,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AshenSeeker/dsh-group-meeting-slides",
+              "commit": "f4c9ff469ab85b9ddbdf35daed008acd2e398bae"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AshenSeeker/dsh-group-meeting-slides",
+    "commit": "f4c9ff469ab85b9ddbdf35daed008acd2e398bae",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:44.998Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "Cplay00/dsh-diffusion-preset",
+  "originalPosition": 195,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 195,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:50.470Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa9761eeea101b77fdc253ff0843bc813fcc3f59464ef5c22e5059e7d7fd9671",
+      "url": "https://github.com/Cplay00/dsh-diffusion-preset/blob/3b16f6833fda6903be42f8276ab0d5f37042bed0/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-diffusion-preset",
+      "version": "1.2.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cplay00/dsh-diffusion-preset",
+        "commit": "3b16f6833fda6903be42f8276ab0d5f37042bed0"
+      },
+      "manifestSha256": "b15d35c8f2aebf616f9e3b701a83e9e3c508a25c2cd94d4545377f337c44371b",
+      "manifestUrl": "https://github.com/Cplay00/dsh-diffusion-preset/blob/3b16f6833fda6903be42f8276ab0d5f37042bed0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-diffusion-preset",
+        "versions": [
+          {
+            "version": "1.2.7",
+            "publishTimestamp": 1795428248,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Cplay00/dsh-diffusion-preset",
+              "commit": "3b16f6833fda6903be42f8276ab0d5f37042bed0"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Cplay00/dsh-diffusion-preset",
+    "commit": "3b16f6833fda6903be42f8276ab0d5f37042bed0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:51.630Z"
+}

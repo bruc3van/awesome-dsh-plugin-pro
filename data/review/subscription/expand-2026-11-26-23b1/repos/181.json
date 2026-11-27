@@ -1,0 +1,50 @@
+{
+  "full_name": "CC19990113/dsh-plugin-dbgraph",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:47.055Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a47ecfcf8ebce91d3c1538cefc58aa2d3922e18fc9a3af8ca03faf1393237bc2",
+      "url": "https://github.com/CC19990113/dsh-plugin-dbgraph/blob/6b47c8c981b29e2a26244916b6c121dbbd43e58e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-dbgraph-root",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CC19990113/dsh-plugin-dbgraph",
+        "commit": "6b47c8c981b29e2a26244916b6c121dbbd43e58e"
+      },
+      "manifestSha256": "f6096362605b9386bf5a312d3109d6a4794d1b01bc835eed219abba794aac6fb",
+      "manifestUrl": "https://github.com/CC19990113/dsh-plugin-dbgraph/blob/6b47c8c981b29e2a26244916b6c121dbbd43e58e/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CC19990113/dsh-plugin-dbgraph",
+    "commit": "6b47c8c981b29e2a26244916b6c121dbbd43e58e",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:48.210Z"
+}

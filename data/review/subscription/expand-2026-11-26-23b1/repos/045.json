@@ -1,0 +1,151 @@
+{
+  "full_name": "buger-gif/cyber-im-avatar",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:11.071Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "da1914e1917bb9bc7d0283f38e2191aadcfe8ad0bd2d92e2405eb64cb714a7e4",
+      "url": "https://github.com/buger-gif/cyber-im-avatar/blob/282f912e7f7606347b6611feac0ce3f097874efa/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "sha256": "fedf012703c824535adc65c7065619ae839753a7024dcba8f3111a0d6ffa8269",
+      "url": "https://github.com/buger-gif/cyber-im-avatar/blob/282f912e7f7606347b6611feac0ce3f097874efa/dsh-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cyber-im-avatar",
+          "command": "dsh plugin --profile web add dsh-cyber-im-avatar",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "fb45b8917e5261438c7b2d3187118cd0948a2259691e52cbdcd7e0a6975bc362",
+      "url": "https://github.com/buger-gif/cyber-im-avatar/blob/282f912e7f7606347b6611feac0ce3f097874efa/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cyber-im-avatar",
+      "version": "0.27.1",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/buger-gif/cyber-im-avatar",
+        "commit": "282f912e7f7606347b6611feac0ce3f097874efa",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "4f5ac54e10c15ad145c7e6fab8b04e4adfff71b3db6489822887bb47eb6a852b",
+      "manifestUrl": "https://github.com/buger-gif/cyber-im-avatar/blob/282f912e7f7606347b6611feac0ce3f097874efa/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cyber-im-avatar",
+        "versions": [
+          {
+            "version": "0.27.1",
+            "publishTimestamp": 1795681381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/buger-gif/cyber-im-avatar",
+              "commit": "282f912e7f7606347b6611feac0ce3f097874efa",
+              "path": "dsh-plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-cyber-im-avatar",
+      "origin": "npm",
+      "name": "dsh-cyber-im-avatar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cyber-im-avatar",
+        "title": "dsh-cyber-im-avatar",
+        "description": "IM 分身壳：在 DSH 侧边栏值守飞书 / 企业微信 / 钉钉的私聊与群聊，新消息或 @我 才唤醒绑定 DSH 会话，由 agent 查证、调研并按本人语气回复；默认沉默，有增量或本人明确在问才开口，参会 / 签字 / 付款这类本人到场的事只提醒不代答；支持关注程度三态、新群自动分诊、按值班单点切换草稿审批 / 全自动发送、在 IM 里 @ 自己 + 关键词就地开值班并回一条可配回执；连续 7 天没命中自动退役，任务完成后观察 2 天再退；引用消息带原文、进度卡发信即撤回（群聊可单独开）、群聊 / 人物档案可搜索筛选，消息正文只留本机。",
+        "author": "buger-gif",
+        "homepage": "https://github.com/buger-gif/cyber-im-avatar/tree/main/dsh-plugin",
+        "repository": {
+          "url": "https://github.com/buger-gif/cyber-im-avatar",
+          "directory": "dsh-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "im",
+            "feishu",
+            "lark",
+            "wecom",
+            "dingtalk",
+            "stand-in",
+            "triage",
+            "customer-service",
+            "inbox"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.27.1",
+            "publishTimestamp": 1795680530,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "38e94e5bb2080ce3f0f5f3053ce7927bb8e4adb88a6e1499905401e8863b7154",
+      "evidence": [
+        {
+          "name": "dsh-cyber-im-avatar",
+          "version": "0.27.1",
+          "tarball": "https://registry.npmjs.org/dsh-cyber-im-avatar/-/dsh-cyber-im-avatar-0.27.1.tgz",
+          "integrity": "sha512-1/guan63Iylh0l0JH4OeHzxh3TWAyBBTgybEEweEDhpWT3ESX01eJb3pbOm6XbHE4ShSS1YFjcyt9pmfF+pqAg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cyber-im-avatar",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/buger-gif/cyber-im-avatar",
+    "commit": "282f912e7f7606347b6611feac0ce3f097874efa",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:12.953Z"
+}

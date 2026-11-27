@@ -1,0 +1,167 @@
+{
+  "full_name": "ninthmonee/AccreMind",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 6,
+  "startedAt": "2026-11-26T23:58:56.319Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c3635c44d86c96fe6a024b7d274559d0b0af9fd535bff2c6df3ebd2dba741f09",
+      "url": "https://github.com/ninthmonee/AccreMind/blob/7cfdbf2b625517867c26827ed7c3b2be4bddfc2b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@accremind/dsh-plugin",
+          "command": "dsh plugin --profile <profile> add @accremind/dsh-plugin",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "91bed08e657286cd84f2741f3e0abbfaee010cffc00eec04f794e6f7f76e9d9b",
+      "url": "https://github.com/ninthmonee/AccreMind/blob/7cfdbf2b625517867c26827ed7c3b2be4bddfc2b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@accremind/dsh-plugin",
+          "command": "dsh plugin --profile <profile> add @accremind/dsh-plugin",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/legacy/README.md",
+      "sha256": "05df384eca020183d58d9ba4c705ceb5c4d0d77ff4e3e7631b9065ff7b4d2640",
+      "url": "https://github.com/ninthmonee/AccreMind/blob/7cfdbf2b625517867c26827ed7c3b2be4bddfc2b/docs/legacy/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "86a9080f3e0b5948a2078394ebe75dc7dc4db4db6c2f6bcfed668ab8b524138a",
+      "url": "https://github.com/ninthmonee/AccreMind/blob/7cfdbf2b625517867c26827ed7c3b2be4bddfc2b/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@accremind/dsh-plugin",
+      "version": "0.2.0",
+      "path": "packages/dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ninthmonee/AccreMind",
+        "commit": "7cfdbf2b625517867c26827ed7c3b2be4bddfc2b",
+        "path": "packages/dsh-plugin"
+      },
+      "manifestSha256": "7d7971f59ecbc0cbd031e5828f37a5a761b5b7e7d18d7ebfb55532a2ec60a9a4",
+      "manifestUrl": "https://github.com/ninthmonee/AccreMind/blob/7cfdbf2b625517867c26827ed7c3b2be4bddfc2b/packages/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@accremind/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795675475,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ninthmonee/AccreMind",
+              "commit": "7cfdbf2b625517867c26827ed7c3b2be4bddfc2b",
+              "path": "packages/dsh-plugin"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@accremind/dsh-plugin",
+      "origin": "npm",
+      "name": "@accremind/dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@accremind/dsh-plugin",
+        "title": "@accremind/dsh-plugin",
+        "description": "DeepSeek Harness adapter for AccreMind: capture the engineering experience that code and docs cannot recover, then hand it back at the moment it matters.",
+        "homepage": "https://github.com/ninthmonee/AccreMind",
+        "repository": {
+          "url": "https://github.com/ninthmonee/AccreMind",
+          "directory": "packages/dsh-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "accremind",
+            "knowledge-base",
+            "engineering-experience",
+            "local-first",
+            "sqlite-fts5"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJBY2NyZU1pbmQiPgogIDx0aXRsZT5BY2NyZU1pbmQg4oCUIGFjY3VtdWxhdGVkIGtub3dsZWRnZTwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFtLXN1cmZhY2UiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNTYiIHkxPSIyNCIgeDI9IjQ1NiIgeTI9IjUxMiI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMxNzQ4NDkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDgxQzI1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJhbS1rbm93bGVkZ2UiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjU2IiB5MT0iMTEyIiB4Mj0iMjU2IiB5Mj0iMzk2Ij4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0YwRkZGOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTUiIHN0b3AtY29sb3I9IiNCNEY2RTciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNzBFNkUzIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExNiIgZmlsbD0idXJsKCNhbS1zdXJmYWNlKSIvPgogIDxnIGZpbGw9InVybCgjYW0ta25vd2xlZGdlKSI+CiAgICA8cGF0aCBkPSJNMjM0IDEzMlEyNTYgOTQgMjc4IDEzMkwzNDIgMjQ0SDI4NEwyNTYgMTk1TDIyOCAyNDRIMTcwWiIvPgogICAgPHBhdGggZD0iTTE1OSAyNjhIMzUzTDM3OCAzMTBRMzgyIDMxNiAzNzQgMzE2SDEzOFExMzAgMzE2IDEzNCAzMTBaIi8+CiAgICA8cGF0aCBkPSJNMTE2IDM0MEgxNzRMMTQ2IDM4OVExNDIgMzk2IDEzNCAzOTZIMTA0UTkwIDM5NiA5NiAzODVaTTM5NiAzNDBIMzM4TDM2NiAzODlRMzcwIDM5NiAzNzggMzk2SDQwOFE0MjIgMzk2IDQxNiAzODVaIi8+CiAgPC9nPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795671442,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "959e7e2aff3114d1f009a34e31fa5b48bbcd44b58c80f0ce76c162b2d8f02f55",
+      "evidence": [
+        {
+          "name": "@accremind/dsh-plugin",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@accremind/dsh-plugin/-/dsh-plugin-0.2.0.tgz",
+          "integrity": "sha512-rs9JCsxYGPo1CD3tZgADvXqbG2WzcqOHfiaNIF+ZGJZp+PZGHACAY5iqeFbAwzbtGXM9cBjsZGdjqsq/PCGn0w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@accremind/dsh-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ninthmonee/AccreMind",
+    "commit": "7cfdbf2b625517867c26827ed7c3b2be4bddfc2b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:00.042Z"
+}

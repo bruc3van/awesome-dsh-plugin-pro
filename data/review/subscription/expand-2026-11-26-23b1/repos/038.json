@@ -1,0 +1,66 @@
+{
+  "full_name": "XinzeQing/dsh-user-memory",
+  "originalPosition": 38,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 38,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:09.458Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "72d66e7d57a29734170e9d13ed642ea6ebf03dec7d38d66b5c2ed73388ae60d7",
+      "url": "https://github.com/XinzeQing/dsh-user-memory/blob/27292971225ba299fddba8afc276caf9ef444cc4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-user-memory",
+      "version": "0.9.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XinzeQing/dsh-user-memory",
+        "commit": "27292971225ba299fddba8afc276caf9ef444cc4"
+      },
+      "manifestSha256": "b5e6ecf74d8b794faae7a7db5cf3f5516f273770faeb7ce872726269aec054b8",
+      "manifestUrl": "https://github.com/XinzeQing/dsh-user-memory/blob/27292971225ba299fddba8afc276caf9ef444cc4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-user-memory",
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1795246586,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XinzeQing/dsh-user-memory",
+              "commit": "27292971225ba299fddba8afc276caf9ef444cc4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XinzeQing/dsh-user-memory",
+    "commit": "27292971225ba299fddba8afc276caf9ef444cc4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:10.734Z"
+}

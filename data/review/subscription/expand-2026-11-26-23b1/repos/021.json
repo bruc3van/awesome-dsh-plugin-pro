@@ -1,0 +1,66 @@
+{
+  "full_name": "Sillykjs/dsh-agents-md",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:04.368Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4510941b6443030a88ce710a716379df1e402ea3ec71da4f4291fb9faf4bef28",
+      "url": "https://github.com/Sillykjs/dsh-agents-md/blob/21cb53f9b3b120915891ef3d11f476aa996e363e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agents-md",
+      "version": "0.1.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sillykjs/dsh-agents-md",
+        "commit": "21cb53f9b3b120915891ef3d11f476aa996e363e"
+      },
+      "manifestSha256": "7829fc0df52306d9b81912a900bd2069b239a77c2894f06b4f32d08e94397b1d",
+      "manifestUrl": "https://github.com/Sillykjs/dsh-agents-md/blob/21cb53f9b3b120915891ef3d11f476aa996e363e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-agents-md",
+        "versions": [
+          {
+            "version": "0.1.16",
+            "publishTimestamp": 1793777722,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Sillykjs/dsh-agents-md",
+              "commit": "21cb53f9b3b120915891ef3d11f476aa996e363e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sillykjs/dsh-agents-md",
+    "commit": "21cb53f9b3b120915891ef3d11f476aa996e363e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:05.485Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "TryToFindHeart/dsh-feishu-mcp",
+  "originalPosition": 31,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 31,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:07.753Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "391fe289cd86cc7e7046a2eacce033414947878765c2cadba9f90819eeda45b7",
+      "url": "https://github.com/TryToFindHeart/dsh-feishu-mcp/blob/b8834e076824b3dca9662fa91df511faf2fc3d92/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-feishu-mcp",
+      "version": "0.3.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TryToFindHeart/dsh-feishu-mcp",
+        "commit": "b8834e076824b3dca9662fa91df511faf2fc3d92"
+      },
+      "manifestSha256": "96edf7ece30b0bd470ffff315bc86bffbe98766e7b54db9aab1099a31fcc3ac8",
+      "manifestUrl": "https://github.com/TryToFindHeart/dsh-feishu-mcp/blob/b8834e076824b3dca9662fa91df511faf2fc3d92/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-feishu-mcp",
+        "versions": [
+          {
+            "version": "0.3.16",
+            "publishTimestamp": 1795685680,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TryToFindHeart/dsh-feishu-mcp",
+              "commit": "b8834e076824b3dca9662fa91df511faf2fc3d92"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TryToFindHeart/dsh-feishu-mcp",
+    "commit": "b8834e076824b3dca9662fa91df511faf2fc3d92",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:08.928Z"
+}

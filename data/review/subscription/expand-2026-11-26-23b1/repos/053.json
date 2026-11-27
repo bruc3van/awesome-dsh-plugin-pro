@@ -1,0 +1,341 @@
+{
+  "full_name": "lemonmmice/dsh-agent-toolchain",
+  "originalPosition": 53,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 53,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:14.368Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5e86f2dd64c121cd657205e5f0a10685e57d80ba744ae23ea49d6d7d4455b7d4",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "mcp/README.md",
+      "sha256": "28c81d559b836e472448fd189eaa395a9ec185624edf8af0bb824a26d972f2e6",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/mcp/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-build/README.md",
+      "sha256": "baaaf24f102abb4c6fd701e2de364cf5482c6d4005715aa47c1699153575d1a7",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-build/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-ui-drive/README.md",
+      "sha256": "23bdaa1e34ea693ed6bfdf908d4db023b6e26e8ccff32277890d9a21acaf7764",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-ui-drive/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-verify/README.md",
+      "sha256": "f3f3031bc2ecf89503c6916cf5fb511d050738ca9517933240617a8192f5e897",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-verify/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-api-visualizer/README.md",
+      "sha256": "2409c19317ee29e311b91bf92555ff6e4cfc0c91cb4e600ffd5d064985827638",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-api-visualizer/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lemonmmice/dsh-agent-toolchain/releases/download/dsh-api-visualizer-v0.3.1/dsh-api-visualizer-0.3.1.tgz",
+          "command": "dsh plugin --profile web add https://github.com/lemonmmice/dsh-agent-toolchain/releases/download/dsh-api-visualizer-v0.3.1/dsh-api-visualizer-0.3.1.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lemonmmice/dsh-api-visualizer",
+          "command": "dsh plugin --profile web add github:lemonmmice/dsh-api-visualizer",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lemonmmice/dsh-postman",
+          "command": "dsh plugin --profile web add github:lemonmmice/dsh-postman",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-postman/README.md",
+      "sha256": "64c00f823b0410bfd1146d744f9bc6de37345588f5484eeeeacfa647b0a0f96c",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-postman/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lemonmmice/dsh-postman",
+          "command": "dsh plugin --profile web add github:lemonmmice/dsh-postman",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-perf/README.md",
+      "sha256": "881694df34d1b5cb48574c7f8c58678924d32c6774659db86b4a02964f7c7abf",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-perf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-hang-inspector/README.md",
+      "sha256": "1a7534b5e5f8277dd186cb0ae7d057cb7fbceaeb3a094ea42bafc59069c83350",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-hang-inspector/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-memory/README.md",
+      "sha256": "19192791ae290b7b19e3b6d6f9b4e97aa4a0206a7910dbf939d26786e9cf77cb",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-memory/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-win-terminal-inspector/README.md",
+      "sha256": "42238af0d6f34bd322592e34f72f0c9966ccc7e7d8f9e4ba27416969a8672c96",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-win-terminal-inspector/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "bench/README.md",
+      "sha256": "60da8ae8202b8ea615a205213d73c8498d6b7ad026478c2cca23067c6b54f1d4",
+      "url": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/bench/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-agent-toolchain/dsh-api-visualizer",
+      "version": "0.3.1",
+      "path": "plugins/dsh-api-visualizer",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lemonmmice/dsh-agent-toolchain",
+        "commit": "2867c27555f9c7d061315098af44af0d5871b759",
+        "path": "plugins/dsh-api-visualizer"
+      },
+      "manifestSha256": "67c9e2b74bef426ecb5cce929c2cc992f735b1e2631c692c600f9b1af5014204",
+      "manifestUrl": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-api-visualizer/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-agent-toolchain/dsh-api-visualizer",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1795427630,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemonmmice/dsh-agent-toolchain",
+              "commit": "2867c27555f9c7d061315098af44af0d5871b759",
+              "path": "plugins/dsh-api-visualizer"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-agent-toolchain/dsh-hang-inspector",
+      "version": "0.3.0",
+      "path": "plugins/dsh-hang-inspector",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lemonmmice/dsh-agent-toolchain",
+        "commit": "2867c27555f9c7d061315098af44af0d5871b759",
+        "path": "plugins/dsh-hang-inspector"
+      },
+      "manifestSha256": "47e8194a33b8a043e3bd3a2b803d24bad694e6797293d80d8a59843ef6e5885b",
+      "manifestUrl": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-hang-inspector/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-agent-toolchain/dsh-hang-inspector",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1795427630,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemonmmice/dsh-agent-toolchain",
+              "commit": "2867c27555f9c7d061315098af44af0d5871b759",
+              "path": "plugins/dsh-hang-inspector"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-agent-toolchain/dsh-postman",
+      "version": "0.3.0",
+      "path": "plugins/dsh-postman",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lemonmmice/dsh-agent-toolchain",
+        "commit": "2867c27555f9c7d061315098af44af0d5871b759",
+        "path": "plugins/dsh-postman"
+      },
+      "manifestSha256": "c794c7b382e19278b4977df612db7be0388d5d0418144961f6ab5adf5a688324",
+      "manifestUrl": "https://github.com/lemonmmice/dsh-agent-toolchain/blob/2867c27555f9c7d061315098af44af0d5871b759/plugins/dsh-postman/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-agent-toolchain/dsh-postman",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1795427630,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemonmmice/dsh-agent-toolchain",
+              "commit": "2867c27555f9c7d061315098af44af0d5871b759",
+              "path": "plugins/dsh-postman"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/lemonmmice/dsh-agent-toolchain/releases/download/dsh-api-visualizer-v0.3.1/dsh-api-visualizer-0.3.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/lemonmmice/dsh-api-visualizer",
+      "origin": "git_target",
+      "name": "@linxin666/dsh-api-visualizer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@linxin666/dsh-api-visualizer",
+        "title": "@linxin666/dsh-api-visualizer",
+        "description": "API capture visualizer for the dsh web GUI: a sidebar entry plus a live panel showing API-call records the agent captures from the client process (method / url / status / duration / headers / bodies / notes). Records are appended to a JSONL store via the api_capture_append agent tool or the /api/dsh-api-visualizer/ingest route; the panel polls and renders them. No dsh source changes.",
+        "repository": {
+          "url": "https://github.com/lemonmmice/dsh-api-visualizer"
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788925794,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemonmmice/dsh-api-visualizer",
+              "commit": "dece966f734f6391313502030be447987393c175"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "dece966f734f6391313502030be447987393c175",
+          "name": "@linxin666/dsh-api-visualizer",
+          "version": "0.1.0",
+          "url": "https://github.com/lemonmmice/dsh-api-visualizer",
+          "manifestSha256": "88a5d3acbbb2a4d762ae90f27880dfc77446c1de33464bfb61816b7bf2053fe0",
+          "publishTimestamp": 1788925794
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/lemonmmice/dsh-postman",
+      "origin": "git_target",
+      "name": "@linxin666/dsh-postman",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@linxin666/dsh-postman",
+        "title": "@linxin666/dsh-postman",
+        "description": "Postman-style HTTP client for the dsh web GUI: a sidebar entry plus a panel to compose method / url / headers / body and send. The request runs on the host (server-side, so no browser CORS), and status / headers / body / timing come back with pretty-printed JSON and a request history. Also exposes an http_request agent tool. No dsh source changes.",
+        "repository": {
+          "url": "https://github.com/lemonmmice/dsh-postman"
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788925799,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemonmmice/dsh-postman",
+              "commit": "63735f92a7c3ee66e1de4f2449b7c6dd1888ba7f"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "63735f92a7c3ee66e1de4f2449b7c6dd1888ba7f",
+          "name": "@linxin666/dsh-postman",
+          "version": "0.1.0",
+          "url": "https://github.com/lemonmmice/dsh-postman",
+          "manifestSha256": "64ef0999290f12778a6e833933f6e000c6f0b75d73b9f45c55490fa95d3f47d7",
+          "publishTimestamp": 1788925799
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lemonmmice/dsh-agent-toolchain/releases/download/dsh-api-visualizer-v0.3.1/dsh-api-visualizer-0.3.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lemonmmice/dsh-api-visualizer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lemonmmice/dsh-postman",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lemonmmice/dsh-agent-toolchain",
+    "commit": "2867c27555f9c7d061315098af44af0d5871b759",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:22.632Z"
+}

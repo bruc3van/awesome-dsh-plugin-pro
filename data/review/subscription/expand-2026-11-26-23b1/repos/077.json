@@ -1,0 +1,66 @@
+{
+  "full_name": "star-kz/dsh-subagent-model-switcher",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:23.796Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d5ea786fcb730814c4a20b31c1ebbf3b5e355e60caacd62d490afc8e0d654274",
+      "url": "https://github.com/star-kz/dsh-subagent-model-switcher/blob/ad7e4fe39a31c847e635c199330bbb8be0eeb276/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@k-launcher/dsh-subagent-model-switcher",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/star-kz/dsh-subagent-model-switcher",
+        "commit": "ad7e4fe39a31c847e635c199330bbb8be0eeb276"
+      },
+      "manifestSha256": "252bf94bd5c0081215e5e68a5e6e0798a05ce7861924d9f9b8c649030b177812",
+      "manifestUrl": "https://github.com/star-kz/dsh-subagent-model-switcher/blob/ad7e4fe39a31c847e635c199330bbb8be0eeb276/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@k-launcher/dsh-subagent-model-switcher",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1793816409,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/star-kz/dsh-subagent-model-switcher",
+              "commit": "ad7e4fe39a31c847e635c199330bbb8be0eeb276"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/star-kz/dsh-subagent-model-switcher",
+    "commit": "ad7e4fe39a31c847e635c199330bbb8be0eeb276",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:25.016Z"
+}

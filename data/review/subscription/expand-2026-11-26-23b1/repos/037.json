@@ -1,0 +1,69 @@
+{
+  "full_name": "XiaoZheBrother/dsh-live-studio",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:09.323Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8047551a6bcab0a171445b320f2710a8f5344a2594b2f663983a0a199ea05eb2",
+      "url": "https://github.com/XiaoZheBrother/dsh-live-studio/blob/8483163cb8e67976ca5f46815662515ef268a24c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-live-studio",
+      "version": "0.2.0-alpha.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XiaoZheBrother/dsh-live-studio",
+        "commit": "8483163cb8e67976ca5f46815662515ef268a24c"
+      },
+      "manifestSha256": "8c7288a81932485f74a2800907cea4da28580a5e457623296bdecdf115024ff4",
+      "manifestUrl": "https://github.com/XiaoZheBrother/dsh-live-studio/blob/8483163cb8e67976ca5f46815662515ef268a24c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-live-studio",
+        "versions": [
+          {
+            "version": "0.2.0-alpha.4",
+            "publishTimestamp": 1794756182,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XiaoZheBrother/dsh-live-studio",
+              "commit": "8483163cb8e67976ca5f46815662515ef268a24c"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XiaoZheBrother/dsh-live-studio",
+    "commit": "8483163cb8e67976ca5f46815662515ef268a24c",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:10.555Z"
+}

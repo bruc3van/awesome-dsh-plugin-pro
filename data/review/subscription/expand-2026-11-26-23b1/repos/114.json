@@ -1,0 +1,66 @@
+{
+  "full_name": "zixiaog/dsh-storage-monitor",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:32.690Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "226b214d54368fe96d550f647ac6e52c209f8ab2281be1da2d1c5dd3ccd2dfa8",
+      "url": "https://github.com/zixiaog/dsh-storage-monitor/blob/ec2662696e10c8984112a60be2b97c35ae3165d9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-storage-monitor",
+      "version": "0.1.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zixiaog/dsh-storage-monitor",
+        "commit": "ec2662696e10c8984112a60be2b97c35ae3165d9"
+      },
+      "manifestSha256": "4b16e53666e7d4ac6449fe4277521a77f054c5c81982fb2cfeeb6f87d9c04f8d",
+      "manifestUrl": "https://github.com/zixiaog/dsh-storage-monitor/blob/ec2662696e10c8984112a60be2b97c35ae3165d9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-storage-monitor",
+        "versions": [
+          {
+            "version": "0.1.14",
+            "publishTimestamp": 1795581883,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zixiaog/dsh-storage-monitor",
+              "commit": "ec2662696e10c8984112a60be2b97c35ae3165d9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zixiaog/dsh-storage-monitor",
+    "commit": "ec2662696e10c8984112a60be2b97c35ae3165d9",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:34.011Z"
+}

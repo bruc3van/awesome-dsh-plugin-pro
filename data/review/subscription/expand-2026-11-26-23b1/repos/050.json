@@ -1,0 +1,76 @@
+{
+  "full_name": "hesheng01/dsh-pele",
+  "originalPosition": 50,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 50,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:12.895Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "41b21130ad08ca533f4da7059e1f19f6f93945517a90debe39097b478728d79d",
+      "url": "https://github.com/hesheng01/dsh-pele/blob/1d6ee22888787e4d820cc2a9877b8de1560b6714/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "cd390b996e76687b3174e932088438399d80957170d3f9b646562a0d90c79be8",
+      "url": "https://github.com/hesheng01/dsh-pele/blob/1d6ee22888787e4d820cc2a9877b8de1560b6714/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pele",
+      "version": "0.1.3",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hesheng01/dsh-pele",
+        "commit": "1d6ee22888787e4d820cc2a9877b8de1560b6714",
+        "path": "plugin"
+      },
+      "manifestSha256": "451f49a4316f337d54725096c48f1eb641706b115037891500568f16e8bf4a0a",
+      "manifestUrl": "https://github.com/hesheng01/dsh-pele/blob/1d6ee22888787e4d820cc2a9877b8de1560b6714/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pele",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794118315,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hesheng01/dsh-pele",
+              "commit": "1d6ee22888787e4d820cc2a9877b8de1560b6714",
+              "path": "plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hesheng01/dsh-pele",
+    "commit": "1d6ee22888787e4d820cc2a9877b8de1560b6714",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:14.434Z"
+}

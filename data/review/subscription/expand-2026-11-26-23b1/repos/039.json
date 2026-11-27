@@ -1,0 +1,59 @@
+{
+  "full_name": "Yaemikoreal/BilibiliPlayer",
+  "originalPosition": 39,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 39,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:09.522Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9395100da7260a6b5f8b17a1972872ac6e498736b0742736fc3a84b903cc1ac0",
+      "url": "https://github.com/Yaemikoreal/BilibiliPlayer/blob/68443a77fa67eec1bca24d1dca565a968143e039/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "sha256": "902233d7e0107a68a13a896d769c7ddc027b44a0aedbe1bf17a7c60367077b87",
+      "url": "https://github.com/Yaemikoreal/BilibiliPlayer/blob/68443a77fa67eec1bca24d1dca565a968143e039/dsh-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bili-fenshen",
+      "version": "0.7.0",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yaemikoreal/BilibiliPlayer",
+        "commit": "68443a77fa67eec1bca24d1dca565a968143e039",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "cd4c8aa941e17e9fd7646caedf3ef9da3876d58201d1533f2877eae99560b3f7",
+      "manifestUrl": "https://github.com/Yaemikoreal/BilibiliPlayer/blob/68443a77fa67eec1bca24d1dca565a968143e039/dsh-plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yaemikoreal/BilibiliPlayer",
+    "commit": "68443a77fa67eec1bca24d1dca565a968143e039",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:11.071Z"
+}

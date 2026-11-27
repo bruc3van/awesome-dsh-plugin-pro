@@ -1,0 +1,50 @@
+{
+  "full_name": "21hbguo/dsh-sysmon",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:35.872Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "810cbea36b111059956e3158d0a3eeadee1687f5fbed6ff8e4e4292174885c28",
+      "url": "https://github.com/21hbguo/dsh-sysmon/blob/413efef5e53e46eeab9f353cdc0d4c714364d033/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-sysmon",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/21hbguo/dsh-sysmon",
+        "commit": "413efef5e53e46eeab9f353cdc0d4c714364d033"
+      },
+      "manifestSha256": "ea18e42729189b6a7b3673c55c6d89290d91bf46121c847e0536a488c3d35975",
+      "manifestUrl": "https://github.com/21hbguo/dsh-sysmon/blob/413efef5e53e46eeab9f353cdc0d4c714364d033/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/21hbguo/dsh-sysmon",
+    "commit": "413efef5e53e46eeab9f353cdc0d4c714364d033",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:36.998Z"
+}

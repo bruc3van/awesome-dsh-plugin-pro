@@ -1,0 +1,66 @@
+{
+  "full_name": "0xDaj/dsh-amdkey",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:33.763Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f33cf248829c87a1c48de406752467de45bc3a95b3b93fe8db85452f2fe8da8",
+      "url": "https://github.com/0xDaj/dsh-amdkey/blob/89216ab58fc13c746c8de03811121c1e0a8a6e75/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-amdkey",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/0xDaj/dsh-amdkey",
+        "commit": "89216ab58fc13c746c8de03811121c1e0a8a6e75"
+      },
+      "manifestSha256": "edcb648e08d75ff72d950a9bceda602eda1159a3af945dd8977c89862cd13239",
+      "manifestUrl": "https://github.com/0xDaj/dsh-amdkey/blob/89216ab58fc13c746c8de03811121c1e0a8a6e75/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-amdkey",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795095955,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/0xDaj/dsh-amdkey",
+              "commit": "89216ab58fc13c746c8de03811121c1e0a8a6e75"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/0xDaj/dsh-amdkey",
+    "commit": "89216ab58fc13c746c8de03811121c1e0a8a6e75",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:35.092Z"
+}

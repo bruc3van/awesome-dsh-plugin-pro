@@ -1,0 +1,233 @@
+{
+  "full_name": "nyantused-cpun/folio",
+  "originalPosition": 58,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 58,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:15.674Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cc6ddbb741c120b1250125ff1425cc12c067baa4e3942be420baa3ec25defe1d",
+      "url": "https://github.com/nyantused-cpun/folio/blob/c76f322a62695a8092167de7e862ba4e41da5334/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nyantused/folio-dsh-tools",
+          "command": "dsh plugin --profile web add @nyantused/folio-dsh-tools",
+          "profile": "web"
+        },
+        {
+          "install": "@nyantused/folio-dsh-events",
+          "command": "dsh plugin --profile web add @nyantused/folio-dsh-events",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nyantused/folio-dsh-events",
+      "version": "1.0.4",
+      "path": "plugins/folio-events",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nyantused-cpun/folio",
+        "commit": "c76f322a62695a8092167de7e862ba4e41da5334",
+        "path": "plugins/folio-events"
+      },
+      "manifestSha256": "69aeee2574f756820123a1d41a131861248ba0875dc63fc71ab46c86343bbca3",
+      "manifestUrl": "https://github.com/nyantused-cpun/folio/blob/c76f322a62695a8092167de7e862ba4e41da5334/plugins/folio-events/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.8",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@nyantused/folio-dsh-events",
+        "versions": [
+          {
+            "version": "1.0.4",
+            "publishTimestamp": 1794559475,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nyantused-cpun/folio",
+              "commit": "c76f322a62695a8092167de7e862ba4e41da5334",
+              "path": "plugins/folio-events"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@nyantused/folio-dsh-tools",
+      "version": "1.1.1",
+      "path": "plugins/folio-tools",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nyantused-cpun/folio",
+        "commit": "c76f322a62695a8092167de7e862ba4e41da5334",
+        "path": "plugins/folio-tools"
+      },
+      "manifestSha256": "04c8ea8ed8ad9e7b782cdb7a6fde8de213d146a821cbbdf7a146c66f18cc726d",
+      "manifestUrl": "https://github.com/nyantused-cpun/folio/blob/c76f322a62695a8092167de7e862ba4e41da5334/plugins/folio-tools/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.8",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@nyantused/folio-dsh-tools",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1794559475,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nyantused-cpun/folio",
+              "commit": "c76f322a62695a8092167de7e862ba4e41da5334",
+              "path": "plugins/folio-tools"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@nyantused/folio-dsh-tools",
+      "origin": "npm",
+      "name": "@nyantused/folio-dsh-tools",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@nyantused/folio-dsh-tools",
+        "title": "@nyantused/folio-dsh-tools",
+        "description": "兰亭 CLI 命令工具化 + L0 守卫：记忆面 9 工具 + 质量面 6 工具（defineTool 注册，spawn venv _cli.py）+ 直写/直调守卫",
+        "homepage": "https://github.com/nyantused-cpun/folio",
+        "repository": {
+          "url": "https://github.com/nyantused-cpun/folio"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "folio",
+            "兰亭",
+            "consulting",
+            "document-generation",
+            "guard"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1786845348,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cff02a1ba1775f3650c2c78007dc522e4e8ba6dcbffdee73b644725d53a706af",
+      "evidence": [
+        {
+          "name": "@nyantused/folio-dsh-tools",
+          "version": "1.1.0",
+          "tarball": "https://registry.npmjs.org/@nyantused/folio-dsh-tools/-/folio-dsh-tools-1.1.0.tgz",
+          "integrity": "sha512-4/sn1RTLnsVdlMyN8wuobUwUMb3pymCbmIAttt73kjXZ0LLHGHWVryvDnyFtpEmJkPcRZmIuWMKNlxmoIPJ6EA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "@nyantused/folio-dsh-events",
+      "origin": "npm",
+      "name": "@nyantused/folio-dsh-events",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@nyantused/folio-dsh-events",
+        "title": "@nyantused/folio-dsh-events",
+        "description": "兰亭会话协议事件插件：session-start 入口协议提醒 + disposed 自动 save（纪律变机械；preset 层挂载）",
+        "homepage": "https://github.com/nyantused-cpun/folio",
+        "repository": {
+          "url": "https://github.com/nyantused-cpun/folio"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "folio",
+            "兰亭",
+            "consulting",
+            "document-generation",
+            "session-protocol"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1786845353,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e362131566859fa294937e3e2e7ead4c96da0f503966de35f94c0c49ab51c1e3",
+      "evidence": [
+        {
+          "name": "@nyantused/folio-dsh-events",
+          "version": "1.0.1",
+          "tarball": "https://registry.npmjs.org/@nyantused/folio-dsh-events/-/folio-dsh-events-1.0.1.tgz",
+          "integrity": "sha512-EMOi2D99LMvropgScya7NmFvifs9iijQHT4+igGXEcHuyME1K0t0yADIyCK/zH9+a9+TBPcGzinT40zaYnVn8g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nyantused/folio-dsh-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nyantused/folio-dsh-events",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nyantused-cpun/folio",
+    "commit": "c76f322a62695a8092167de7e862ba4e41da5334",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:18.515Z"
+}

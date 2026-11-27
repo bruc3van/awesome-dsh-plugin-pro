@@ -1,0 +1,66 @@
+{
+  "full_name": "stallenlu/dsh-freebie-radar",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:22.834Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "73e4a4dfb900b50ffa48db36847c68f46edcc3191b24755e343a30054c57df9a",
+      "url": "https://github.com/stallenlu/dsh-freebie-radar/blob/fa11a69a697cc15fa115a7d0fc9bcbc66d2e1259/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-freebie-radar",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/stallenlu/dsh-freebie-radar",
+        "commit": "fa11a69a697cc15fa115a7d0fc9bcbc66d2e1259"
+      },
+      "manifestSha256": "00a46d48dca09b1c051004d10979808cb98a1631dc9dcbc54f262053428a3a95",
+      "manifestUrl": "https://github.com/stallenlu/dsh-freebie-radar/blob/fa11a69a697cc15fa115a7d0fc9bcbc66d2e1259/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-freebie-radar",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794791128,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/stallenlu/dsh-freebie-radar",
+              "commit": "fa11a69a697cc15fa115a7d0fc9bcbc66d2e1259"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/stallenlu/dsh-freebie-radar",
+    "commit": "fa11a69a697cc15fa115a7d0fc9bcbc66d2e1259",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:24.050Z"
+}

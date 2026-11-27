@@ -1,0 +1,69 @@
+{
+  "full_name": "1052326311/dsh-goal-quiescence",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:34.011Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "95e220f2c973bb1b79def71a8d27f86d5efa89ab4cf22dc42bced0d5c52fd615",
+      "url": "https://github.com/1052326311/dsh-goal-quiescence/blob/accfd0f9c9b702800100d6999c092583406d702d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-goal-quiescence",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1052326311/dsh-goal-quiescence",
+        "commit": "accfd0f9c9b702800100d6999c092583406d702d"
+      },
+      "manifestSha256": "fd62504dc86ea0b716da2c1a94d2ddc99d913598b694af326e0bbf53b73cb562",
+      "manifestUrl": "https://github.com/1052326311/dsh-goal-quiescence/blob/accfd0f9c9b702800100d6999c092583406d702d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.6-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-goal-quiescence",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1790049486,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1052326311/dsh-goal-quiescence",
+              "commit": "accfd0f9c9b702800100d6999c092583406d702d"
+            },
+            "engines": {
+              "dsh": "^0.1.6-alpha.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1052326311/dsh-goal-quiescence",
+    "commit": "accfd0f9c9b702800100d6999c092583406d702d",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:35.267Z"
+}

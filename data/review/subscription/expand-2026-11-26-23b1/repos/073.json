@@ -1,0 +1,58 @@
+{
+  "full_name": "shuiqian520/dsh-session-delete",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:22.356Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7e145525bed066ad819fd4aa9f711210fb7c5a38664529ec3f815dd2b63e7289",
+      "url": "https://github.com/shuiqian520/dsh-session-delete/blob/c83de85e2d2bd752420fbe8f86cd741d2e1678c7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3c55b51baf1938395d61e01f287f64da6f4773c21ca663b10bd03e72421a8750",
+      "url": "https://github.com/shuiqian520/dsh-session-delete/blob/c83de85e2d2bd752420fbe8f86cd741d2e1678c7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-delete",
+      "version": "0.12.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shuiqian520/dsh-session-delete",
+        "commit": "c83de85e2d2bd752420fbe8f86cd741d2e1678c7"
+      },
+      "manifestSha256": "a7a835b180ffd45a2c4248d453799b38bfaa46acda73756711a329ba5c1f15fd",
+      "manifestUrl": "https://github.com/shuiqian520/dsh-session-delete/blob/c83de85e2d2bd752420fbe8f86cd741d2e1678c7/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shuiqian520/dsh-session-delete",
+    "commit": "c83de85e2d2bd752420fbe8f86cd741d2e1678c7",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:23.855Z"
+}

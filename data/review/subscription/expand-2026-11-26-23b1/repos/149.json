@@ -1,0 +1,50 @@
+{
+  "full_name": "Aclguh/dsh-work-or-chat",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:40.513Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "76a411aee265466b25bcc2ffcb55d715430a120fc3a1a98c435636234cb7a821",
+      "url": "https://github.com/Aclguh/dsh-work-or-chat/blob/e0845894965f0bcb48150d678a61a48d6ef89cf0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-work-or-chat",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aclguh/dsh-work-or-chat",
+        "commit": "e0845894965f0bcb48150d678a61a48d6ef89cf0"
+      },
+      "manifestSha256": "168d2a7a512c0cea9cdd9b9aae34258ea8ee5d6762b4c14ed43a7d376f1d5951",
+      "manifestUrl": "https://github.com/Aclguh/dsh-work-or-chat/blob/e0845894965f0bcb48150d678a61a48d6ef89cf0/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aclguh/dsh-work-or-chat",
+    "commit": "e0845894965f0bcb48150d678a61a48d6ef89cf0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:41.796Z"
+}

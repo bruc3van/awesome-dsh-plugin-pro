@@ -1,9 +1,136 @@
 {
-  "generated_at": "2026-11-26T08:26:33.273Z",
+  "generated_at": "2026-11-27T00:00:53.534Z",
   "min_stars": 0,
   "scanned": 0,
   "scan_review": 0,
-  "carried_forward": 0,
+  "carried_forward": 18,
   "applied": [],
-  "review": []
+  "review": [
+    {
+      "slug": "tyr1105/dsh-buddy",
+      "stars": 4,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "ygc06/fishpet-release",
+      "stars": 4,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "ffdnm/ClashTUNWithDSH",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "fotor-ai/fotor-agent-plugins",
+      "stars": 3,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile web add \"git+https://github.com/fotor-ai/dsh-fotor-plugin.git\" --ignore-scripts",
+      "candidates": []
+    },
+    {
+      "slug": "Fz2hOpenSource/firmware-forge",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "gulagala001/dsh-trisoul",
+      "stars": 3,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "kelai141/dsh-shell-termux",
+      "stars": 3,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "kestiny18/dsh-plugins",
+      "stars": 3,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "leolee9086/SAC_search",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "lishize20040802-rgb/useful-dsh-plugins",
+      "stars": 3,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile web add ./dsh-plugin-voice-input-0.3.0.tgz",
+      "candidates": []
+    },
+    {
+      "slug": "lovaxi/Rubato_Plugins",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "malinovme/dsh-unica",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "MkaliezZ/dsh-agentfuse-plugin",
+      "stars": 3,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "Murphy2000-cyk/dsh-skill-plugin-tuning",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "NIyueeE/dsh-container",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "nyantused-cpun/folio",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "dsh plugin --profile web add @nyantused/folio-dsh-tools",
+      "candidates": []
+    },
+    {
+      "slug": "ooooooomygosh/paper-research-coach",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "QiuXu-Tech/memex",
+      "stars": 3,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    }
+  ]
 }

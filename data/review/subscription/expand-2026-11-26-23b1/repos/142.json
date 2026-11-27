@@ -1,0 +1,50 @@
+{
+  "full_name": "991206772-debug/dsh-agentrix",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:38.833Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "34f8fcf409666cf326ddb81a4ca57cb87e77c416048a3b7c92cd4587c2c284e1",
+      "url": "https://github.com/991206772-debug/dsh-agentrix/blob/a00ec1b692974b612965f29a46dad5979b35572f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-delegation-first",
+      "version": "1.8.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/991206772-debug/dsh-agentrix",
+        "commit": "a00ec1b692974b612965f29a46dad5979b35572f"
+      },
+      "manifestSha256": "723d210c3417786cb0efc4d29fbd12ef32c60e604093eac687c056fffa830dab",
+      "manifestUrl": "https://github.com/991206772-debug/dsh-agentrix/blob/a00ec1b692974b612965f29a46dad5979b35572f/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/991206772-debug/dsh-agentrix",
+    "commit": "a00ec1b692974b612965f29a46dad5979b35572f",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:40.080Z"
+}

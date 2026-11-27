@@ -1,0 +1,69 @@
+{
+  "full_name": "27Synthesis/dsh-companion-one",
+  "originalPosition": 129,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 129,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:36.304Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3ed86411a8a0df8e2c88e626fab0d396c86e8d850842613c861d06c3161e60d9",
+      "url": "https://github.com/27Synthesis/dsh-companion-one/blob/c2f8dd5e28ecb38db7bdddf7ff6781ddf3d6faa9/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "companion-one",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/27Synthesis/dsh-companion-one",
+        "commit": "c2f8dd5e28ecb38db7bdddf7ff6781ddf3d6faa9"
+      },
+      "manifestSha256": "1871211e66fa3e1c98cb328ad55b6e4f5568dd2c4f94037ca5a863525fea83ac",
+      "manifestUrl": "https://github.com/27Synthesis/dsh-companion-one/blob/c2f8dd5e28ecb38db7bdddf7ff6781ddf3d6faa9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "companion-one",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1794455262,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/27Synthesis/dsh-companion-one",
+              "commit": "c2f8dd5e28ecb38db7bdddf7ff6781ddf3d6faa9"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/27Synthesis/dsh-companion-one",
+    "commit": "c2f8dd5e28ecb38db7bdddf7ff6781ddf3d6faa9",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:37.575Z"
+}

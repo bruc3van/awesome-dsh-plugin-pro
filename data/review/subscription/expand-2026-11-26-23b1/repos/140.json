@@ -1,0 +1,69 @@
+{
+  "full_name": "979569650/dsh-typesafe",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:38.737Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dfd40bd2d37b85b631c62adbe3655fa3e44ef16da92e676c6c17e14576f0da0e",
+      "url": "https://github.com/979569650/dsh-typesafe/blob/3612bfaf83a681b5dd550fd99e2513d63722da5f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-typesafe",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/979569650/dsh-typesafe",
+        "commit": "3612bfaf83a681b5dd550fd99e2513d63722da5f"
+      },
+      "manifestSha256": "d2c692c3ff73b433d501f457740000e39fac49e501af285b794d9d43c5101f24",
+      "manifestUrl": "https://github.com/979569650/dsh-typesafe/blob/3612bfaf83a681b5dd550fd99e2513d63722da5f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-typesafe",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790061407,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/979569650/dsh-typesafe",
+              "commit": "3612bfaf83a681b5dd550fd99e2513d63722da5f"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/979569650/dsh-typesafe",
+    "commit": "3612bfaf83a681b5dd550fd99e2513d63722da5f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:39.807Z"
+}

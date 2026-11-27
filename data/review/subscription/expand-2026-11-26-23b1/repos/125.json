@@ -1,0 +1,66 @@
+{
+  "full_name": "1DAdidi/dsh-memory-brain-plugin",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:35.268Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cefde985f1faa0256477777b2ec0ba8bf2486a95e8ebabb532b55a0ddae036b5",
+      "url": "https://github.com/1DAdidi/dsh-memory-brain-plugin/blob/e2e3b15e482f6ffe0130e8487c1e42fb834f9600/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-neural-map",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1DAdidi/dsh-memory-brain-plugin",
+        "commit": "e2e3b15e482f6ffe0130e8487c1e42fb834f9600"
+      },
+      "manifestSha256": "34c89ec7a97c5ce09d77ea023ceb44b7b24ff1f2c27080b1131171c88be0f560",
+      "manifestUrl": "https://github.com/1DAdidi/dsh-memory-brain-plugin/blob/e2e3b15e482f6ffe0130e8487c1e42fb834f9600/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-memory-neural-map",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794161469,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1DAdidi/dsh-memory-brain-plugin",
+              "commit": "e2e3b15e482f6ffe0130e8487c1e42fb834f9600"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1DAdidi/dsh-memory-brain-plugin",
+    "commit": "e2e3b15e482f6ffe0130e8487c1e42fb834f9600",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:36.404Z"
+}

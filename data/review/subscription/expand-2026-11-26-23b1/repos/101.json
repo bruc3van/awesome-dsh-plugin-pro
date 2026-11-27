@@ -1,0 +1,74 @@
+{
+  "full_name": "yanli-nyan/dsh-open-in-app-fix",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:29.314Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca87dab17369a0f70e3680eeadd548565426355646fce5823f05c34544a9b574",
+      "url": "https://github.com/yanli-nyan/dsh-open-in-app-fix/blob/8fb8f9510b13a79e1d616911cc2dd365ce2d4748/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "bd1c71633f889408141ba670b38ddb74309812d53dc5d13937f1762aaff3d4cf",
+      "url": "https://github.com/yanli-nyan/dsh-open-in-app-fix/blob/8fb8f9510b13a79e1d616911cc2dd365ce2d4748/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-open-in-app-fix",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yanli-nyan/dsh-open-in-app-fix",
+        "commit": "8fb8f9510b13a79e1d616911cc2dd365ce2d4748"
+      },
+      "manifestSha256": "a08a5a64d9ae100a8102b6147dc475aeadf744e5eaff84f8257e0d3464731cfe",
+      "manifestUrl": "https://github.com/yanli-nyan/dsh-open-in-app-fix/blob/8fb8f9510b13a79e1d616911cc2dd365ce2d4748/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@local/dsh-open-in-app-fix",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1792849232,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yanli-nyan/dsh-open-in-app-fix",
+              "commit": "8fb8f9510b13a79e1d616911cc2dd365ce2d4748"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yanli-nyan/dsh-open-in-app-fix",
+    "commit": "8fb8f9510b13a79e1d616911cc2dd365ce2d4748",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:30.614Z"
+}

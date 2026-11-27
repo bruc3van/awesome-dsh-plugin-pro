@@ -1,0 +1,69 @@
+{
+  "full_name": "sunsun320/dsh-peak-chip",
+  "originalPosition": 80,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 80,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:24.152Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "170f534e237f9d8415df4f3bb9a959e2c8d05c4d1994872620b9fa2652f8aab7",
+      "url": "https://github.com/sunsun320/dsh-peak-chip/blob/ac0c16e8535448726b3da2b05434a3b38d304010/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-peak-chip",
+      "version": "4.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sunsun320/dsh-peak-chip",
+        "commit": "ac0c16e8535448726b3da2b05434a3b38d304010"
+      },
+      "manifestSha256": "204c0cdfc952291d178d3ff9e366c61b433069757181de1a82cf947358e26c54",
+      "manifestUrl": "https://github.com/sunsun320/dsh-peak-chip/blob/ac0c16e8535448726b3da2b05434a3b38d304010/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-peak-chip",
+        "versions": [
+          {
+            "version": "4.1.8",
+            "publishTimestamp": 1790257051,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sunsun320/dsh-peak-chip",
+              "commit": "ac0c16e8535448726b3da2b05434a3b38d304010"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sunsun320/dsh-peak-chip",
+    "commit": "ac0c16e8535448726b3da2b05434a3b38d304010",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:25.341Z"
+}

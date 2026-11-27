@@ -1,0 +1,115 @@
+{
+  "full_name": "RedHeartSecretMan/dsh-plugins",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:01.260Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f1fcbb1ce4ce1b637bfce3532f1297cb7edcde998e1005b2fcdaa185cecb968d",
+      "url": "https://github.com/RedHeartSecretMan/dsh-plugins/blob/348f1f373a8b72530e131b993bcb17ab1b72333c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "674eeb4e98d030080cc16e1350bef70215a7d0fb27d5f9c79651cae4782ee181",
+      "url": "https://github.com/RedHeartSecretMan/dsh-plugins/blob/348f1f373a8b72530e131b993bcb17ab1b72333c/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@redheartsecretman/session-title-template",
+      "version": "0.2.0",
+      "path": "plugins/session-title-template",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RedHeartSecretMan/dsh-plugins",
+        "commit": "348f1f373a8b72530e131b993bcb17ab1b72333c",
+        "path": "plugins/session-title-template"
+      },
+      "manifestSha256": "d4ca34b42c7d09218f769310e06b70c35fa8310f53d2ee718ae6ee0bd983598a",
+      "manifestUrl": "https://github.com/RedHeartSecretMan/dsh-plugins/blob/348f1f373a8b72530e131b993bcb17ab1b72333c/plugins/session-title-template/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.6.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@redheartsecretman/session-title-template",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795690851,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/RedHeartSecretMan/dsh-plugins",
+              "commit": "348f1f373a8b72530e131b993bcb17ab1b72333c",
+              "path": "plugins/session-title-template"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.6.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@redheartsecretman/session-video-intake",
+      "version": "0.1.2",
+      "path": "plugins/session-video-intake",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RedHeartSecretMan/dsh-plugins",
+        "commit": "348f1f373a8b72530e131b993bcb17ab1b72333c",
+        "path": "plugins/session-video-intake"
+      },
+      "manifestSha256": "8944ca8dc588b1ace996a2242e05e99e9d5f9ea107b2d9ee880317184da88177",
+      "manifestUrl": "https://github.com/RedHeartSecretMan/dsh-plugins/blob/348f1f373a8b72530e131b993bcb17ab1b72333c/plugins/session-video-intake/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.6.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@redheartsecretman/session-video-intake",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1795690851,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/RedHeartSecretMan/dsh-plugins",
+              "commit": "348f1f373a8b72530e131b993bcb17ab1b72333c",
+              "path": "plugins/session-video-intake"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.6.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/RedHeartSecretMan/dsh-plugins",
+    "commit": "348f1f373a8b72530e131b993bcb17ab1b72333c",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:02.923Z"
+}

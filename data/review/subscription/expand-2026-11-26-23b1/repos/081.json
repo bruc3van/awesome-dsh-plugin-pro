@@ -1,0 +1,77 @@
+{
+  "full_name": "supart/DSH-FHL-Image-Plugin",
+  "originalPosition": 81,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 81,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:25.016Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f97d70a04ee38d89f529c4d0fa376a6d9bd9f5c14ab672967b75154c823b079",
+      "url": "https://github.com/supart/DSH-FHL-Image-Plugin/blob/970ffd54697c8ffee7f442629b99221eb480651e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "13063ff9426cc2a98a703635e8be38b812268b4e5285b58e53f7c7ee3139b95b",
+      "url": "https://github.com/supart/DSH-FHL-Image-Plugin/blob/970ffd54697c8ffee7f442629b99221eb480651e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@fhl-plugins/dsh-fhl-image",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/supart/DSH-FHL-Image-Plugin",
+        "commit": "970ffd54697c8ffee7f442629b99221eb480651e"
+      },
+      "manifestSha256": "af7d3c843e6d3f74adb12f2ad7e56b87f80c09e2ce51de8f54a87f87d16d1889",
+      "manifestUrl": "https://github.com/supart/DSH-FHL-Image-Plugin/blob/970ffd54697c8ffee7f442629b99221eb480651e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@fhl-plugins/dsh-fhl-image",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1791989564,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/supart/DSH-FHL-Image-Plugin",
+              "commit": "970ffd54697c8ffee7f442629b99221eb480651e"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/supart/DSH-FHL-Image-Plugin",
+    "commit": "970ffd54697c8ffee7f442629b99221eb480651e",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:26.385Z"
+}

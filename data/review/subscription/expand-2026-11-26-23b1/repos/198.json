@@ -1,0 +1,66 @@
+{
+  "full_name": "DEVVE-1/dsh-session-purge",
+  "originalPosition": 198,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:51.245Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "37fc6f3516ba1eb0f74b2ecce5dcbcc43924abe82061adee1caa02b934974739",
+      "url": "https://github.com/DEVVE-1/dsh-session-purge/blob/71e178f60a430e1851000e5db0c165516b0f0990/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "session-purge",
+      "version": "1.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DEVVE-1/dsh-session-purge",
+        "commit": "71e178f60a430e1851000e5db0c165516b0f0990"
+      },
+      "manifestSha256": "3607f039c04d4735303fa6111c44ca40ff169a8607d5c21b477f18bc47be9899",
+      "manifestUrl": "https://github.com/DEVVE-1/dsh-session-purge/blob/71e178f60a430e1851000e5db0c165516b0f0990/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "session-purge",
+        "versions": [
+          {
+            "version": "1.3.2",
+            "publishTimestamp": 1792844869,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DEVVE-1/dsh-session-purge",
+              "commit": "71e178f60a430e1851000e5db0c165516b0f0990"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DEVVE-1/dsh-session-purge",
+    "commit": "71e178f60a430e1851000e5db0c165516b0f0990",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:52.528Z"
+}

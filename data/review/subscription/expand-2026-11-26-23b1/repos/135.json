@@ -1,0 +1,50 @@
+{
+  "full_name": "60777flowers/dsh-equity-diligence",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:37.575Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5ec649fb5a4fe435350c5873e52903bb3bc6936fe27bc57a8860a101aeb9dda",
+      "url": "https://github.com/60777flowers/dsh-equity-diligence/blob/ef0893119a5e654799215bc26b48a87983ba0380/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-equity-diligence",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/60777flowers/dsh-equity-diligence",
+        "commit": "ef0893119a5e654799215bc26b48a87983ba0380"
+      },
+      "manifestSha256": "9e1e49034c1fafc87dfd83bdd5058f29c303d6af496af3ad020b9cdaf1d6763e",
+      "manifestUrl": "https://github.com/60777flowers/dsh-equity-diligence/blob/ef0893119a5e654799215bc26b48a87983ba0380/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/60777flowers/dsh-equity-diligence",
+    "commit": "ef0893119a5e654799215bc26b48a87983ba0380",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:38.735Z"
+}

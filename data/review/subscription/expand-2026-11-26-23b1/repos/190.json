@@ -1,0 +1,69 @@
+{
+  "full_name": "ChenMuDX/dsh-subagent-model-policy",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:49.216Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2635dd47a50e47f5eff4e1cbba21bfa6c42eb85b95067b6bcfaf9656482bef3d",
+      "url": "https://github.com/ChenMuDX/dsh-subagent-model-policy/blob/82cd99db6a5c5a3120512febf7ab386683b1f02c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lienze/dsh-subagent-model-policy",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ChenMuDX/dsh-subagent-model-policy",
+        "commit": "82cd99db6a5c5a3120512febf7ab386683b1f02c"
+      },
+      "manifestSha256": "a468f933ef88412f9518230a1fafd9eca1f89f8b96fea9273b1bb7a5e8be84ac",
+      "manifestUrl": "https://github.com/ChenMuDX/dsh-subagent-model-policy/blob/82cd99db6a5c5a3120512febf7ab386683b1f02c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@lienze/dsh-subagent-model-policy",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1795577156,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ChenMuDX/dsh-subagent-model-policy",
+              "commit": "82cd99db6a5c5a3120512febf7ab386683b1f02c"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ChenMuDX/dsh-subagent-model-policy",
+    "commit": "82cd99db6a5c5a3120512febf7ab386683b1f02c",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:50.469Z"
+}

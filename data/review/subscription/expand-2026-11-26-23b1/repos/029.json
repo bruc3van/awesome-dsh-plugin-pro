@@ -1,0 +1,68 @@
+{
+  "full_name": "Tlr18348452080-hub/dsh-soma",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:06.770Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "939df5e565f92a80014261085216bcc1e5fbd57ee6a058f95d8c1fbf1b9732e3",
+      "url": "https://github.com/Tlr18348452080-hub/dsh-soma/blob/559553f284402c746fd812dfd06dd945b09d2fcc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-soma",
+      "version": "0.1.1",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tlr18348452080-hub/dsh-soma",
+        "commit": "559553f284402c746fd812dfd06dd945b09d2fcc",
+        "path": "plugin"
+      },
+      "manifestSha256": "14ffc84efc363e05fb1cee7b6dbede33186a03ab7ba80b8b49706fcf4cadab12",
+      "manifestUrl": "https://github.com/Tlr18348452080-hub/dsh-soma/blob/559553f284402c746fd812dfd06dd945b09d2fcc/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-soma",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795217913,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tlr18348452080-hub/dsh-soma",
+              "commit": "559553f284402c746fd812dfd06dd945b09d2fcc",
+              "path": "plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tlr18348452080-hub/dsh-soma",
+    "commit": "559553f284402c746fd812dfd06dd945b09d2fcc",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:08.140Z"
+}

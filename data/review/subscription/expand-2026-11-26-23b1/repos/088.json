@@ -1,0 +1,66 @@
+{
+  "full_name": "weichen704/dsh-chaoxing-assistant",
+  "originalPosition": 88,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:26.750Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7f2bf803fb45c9f1a85845a6b169792771bc434e9f2c85fe8c58dc325e27a970",
+      "url": "https://github.com/weichen704/dsh-chaoxing-assistant/blob/53e8b7829ced0e24cb49d7d4c794bc7176dbf8d2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chaoxing-assistant",
+      "version": "2.2.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weichen704/dsh-chaoxing-assistant",
+        "commit": "53e8b7829ced0e24cb49d7d4c794bc7176dbf8d2"
+      },
+      "manifestSha256": "201f00fcfd5e75b4a201e40c4aafd713baf93576eb449924fb1e341dcd395f93",
+      "manifestUrl": "https://github.com/weichen704/dsh-chaoxing-assistant/blob/53e8b7829ced0e24cb49d7d4c794bc7176dbf8d2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chaoxing-assistant",
+        "versions": [
+          {
+            "version": "2.2.13",
+            "publishTimestamp": 1795594059,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/weichen704/dsh-chaoxing-assistant",
+              "commit": "53e8b7829ced0e24cb49d7d4c794bc7176dbf8d2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weichen704/dsh-chaoxing-assistant",
+    "commit": "53e8b7829ced0e24cb49d7d4c794bc7176dbf8d2",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:28.069Z"
+}

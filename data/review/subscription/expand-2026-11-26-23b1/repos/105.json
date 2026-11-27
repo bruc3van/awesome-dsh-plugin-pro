@@ -1,0 +1,50 @@
+{
+  "full_name": "yjh051108/dsh-engram-relay",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:30.540Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f7cef2a6d14dc6400d852a965511b2157c0cf675a4806dae73ce64a606c59943",
+      "url": "https://github.com/yjh051108/dsh-engram-relay/blob/9583f973e074b07c87813896e16b7ba8fda7930e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-engram-relay",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yjh051108/dsh-engram-relay",
+        "commit": "9583f973e074b07c87813896e16b7ba8fda7930e"
+      },
+      "manifestSha256": "811a8a3662e4388379ae0137f8ca2784734538c7302f32687639e54bb0c50f9b",
+      "manifestUrl": "https://github.com/yjh051108/dsh-engram-relay/blob/9583f973e074b07c87813896e16b7ba8fda7930e/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yjh051108/dsh-engram-relay",
+    "commit": "9583f973e074b07c87813896e16b7ba8fda7930e",
+    "releaseTags": 105,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-26T23:59:31.735Z"
+}

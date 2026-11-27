@@ -1,0 +1,66 @@
+{
+  "full_name": "Algorandius/dsh-disk-janitor",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:41.904Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "59fc063473d67839166bf3329961b58d12fecc4ff15bcc389ef1f8e2bdb22c6a",
+      "url": "https://github.com/Algorandius/dsh-disk-janitor/blob/c661f7c814c8a81c9c3d57a092592de8d9f3e1d9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-disk-janitor",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Algorandius/dsh-disk-janitor",
+        "commit": "c661f7c814c8a81c9c3d57a092592de8d9f3e1d9"
+      },
+      "manifestSha256": "f9b8bd500fc5caabf2f48c8c2313ecf4b0ad5f482fcc01fead3a6760ee63ba11",
+      "manifestUrl": "https://github.com/Algorandius/dsh-disk-janitor/blob/c661f7c814c8a81c9c3d57a092592de8d9f3e1d9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-disk-janitor",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793608104,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Algorandius/dsh-disk-janitor",
+              "commit": "c661f7c814c8a81c9c3d57a092592de8d9f3e1d9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Algorandius/dsh-disk-janitor",
+    "commit": "c661f7c814c8a81c9c3d57a092592de8d9f3e1d9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:43.005Z"
+}

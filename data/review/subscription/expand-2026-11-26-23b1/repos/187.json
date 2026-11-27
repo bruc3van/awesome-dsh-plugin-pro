@@ -1,0 +1,77 @@
+{
+  "full_name": "Chaos-Paradox/dsh-search-proxy",
+  "originalPosition": 187,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 187,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:48.824Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2e713b5a3ce7deacafb0070bb48dc611137d4029ff92bd0d8c53dd6c9986af8e",
+      "url": "https://github.com/Chaos-Paradox/dsh-search-proxy/blob/ae00970afc04f9f3a28a0d062553647e747672a5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6f315d3393d880c633384aafb6fec141dc5df00d612cb6bf0f1e83c6347eaa8c",
+      "url": "https://github.com/Chaos-Paradox/dsh-search-proxy/blob/ae00970afc04f9f3a28a0d062553647e747672a5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-search-proxy",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chaos-Paradox/dsh-search-proxy",
+        "commit": "ae00970afc04f9f3a28a0d062553647e747672a5"
+      },
+      "manifestSha256": "6a02cc49a9787907bd9f1aa784d5adeaeee2b7def3a98def1fca7f37dec757b7",
+      "manifestUrl": "https://github.com/Chaos-Paradox/dsh-search-proxy/blob/ae00970afc04f9f3a28a0d062553647e747672a5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-search-proxy",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1793010879,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chaos-Paradox/dsh-search-proxy",
+              "commit": "ae00970afc04f9f3a28a0d062553647e747672a5"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chaos-Paradox/dsh-search-proxy",
+    "commit": "ae00970afc04f9f3a28a0d062553647e747672a5",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:50.297Z"
+}

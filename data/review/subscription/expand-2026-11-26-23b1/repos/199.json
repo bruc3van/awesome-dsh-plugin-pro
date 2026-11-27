@@ -1,0 +1,50 @@
+{
+  "full_name": "DRheEheAMGary/dsh-plugin-system-notify",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:51.525Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f80e47d1f6236e7ef0ca71aa6d3ffe087a61720b369a1afc687472fd7a41fded",
+      "url": "https://github.com/DRheEheAMGary/dsh-plugin-system-notify/blob/58f7163ff0d567a35bd57714e744012eb02de6dd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-system-notify",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DRheEheAMGary/dsh-plugin-system-notify",
+        "commit": "58f7163ff0d567a35bd57714e744012eb02de6dd"
+      },
+      "manifestSha256": "c149d26fa90375ef24a4b28eac8506cbe58739d5d15078bd473c4a403904d505",
+      "manifestUrl": "https://github.com/DRheEheAMGary/dsh-plugin-system-notify/blob/58f7163ff0d567a35bd57714e744012eb02de6dd/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DRheEheAMGary/dsh-plugin-system-notify",
+    "commit": "58f7163ff0d567a35bd57714e744012eb02de6dd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:52.709Z"
+}

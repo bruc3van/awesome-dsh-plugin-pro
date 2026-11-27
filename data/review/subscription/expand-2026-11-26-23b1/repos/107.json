@@ -1,0 +1,105 @@
+{
+  "full_name": "youxin484/dsh-dafeiyu-enhanced",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:30.978Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "76c979f12e673e450f0d68a69c06c534f89b850babe454b8de074e04d30a9615",
+      "url": "https://github.com/youxin484/dsh-dafeiyu-enhanced/blob/e4006c754b40570ddaa8bb5d2d1ed16cdd2e8af2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "f8c628d5171f3f6f0b851a86426fe9a3ddbe6810925ff00f2a41e4e91620ccde",
+      "url": "https://github.com/youxin484/dsh-dafeiyu-enhanced/blob/e4006c754b40570ddaa8bb5d2d1ed16cdd2e8af2/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dafeiyu@0.1.18",
+          "command": "dsh plugin --profile web add dsh-dafeiyu@0.1.18",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-dafeiyu@0.1.18",
+          "command": "dsh plugin --profile desktop add dsh-dafeiyu@0.1.18",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "addons/dsh-pet-open/README.md",
+      "sha256": "35f6f84f65166b05fd2fe13678d31280a3f35410e711cc504631d5a0b89d12b7",
+      "url": "https://github.com/youxin484/dsh-dafeiyu-enhanced/blob/e4006c754b40570ddaa8bb5d2d1ed16cdd2e8af2/addons/dsh-pet-open/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dafeiyu",
+      "version": "0.1.18",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/youxin484/dsh-dafeiyu-enhanced",
+        "commit": "e4006c754b40570ddaa8bb5d2d1ed16cdd2e8af2"
+      },
+      "manifestSha256": "65b1c14414b0190bb13cfa816f701dbc349d05871333e6d31e4f64c30d762699",
+      "manifestUrl": "https://github.com/youxin484/dsh-dafeiyu-enhanced/blob/e4006c754b40570ddaa8bb5d2d1ed16cdd2e8af2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-dafeiyu",
+        "versions": [
+          {
+            "version": "0.1.18",
+            "publishTimestamp": 1792568078,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/youxin484/dsh-dafeiyu-enhanced",
+              "commit": "e4006c754b40570ddaa8bb5d2d1ed16cdd2e8af2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-dafeiyu@0.1.18",
+      "status": "policy_excluded",
+      "code": "package_size_limit",
+      "reason": "dsh-dafeiyu@0.1.18: tarball exceeds 67108864 bytes"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dafeiyu@0.1.18",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/youxin484/dsh-dafeiyu-enhanced",
+    "commit": "e4006c754b40570ddaa8bb5d2d1ed16cdd2e8af2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:33.451Z"
+}

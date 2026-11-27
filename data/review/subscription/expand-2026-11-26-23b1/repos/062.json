@@ -1,0 +1,115 @@
+{
+  "full_name": "rainforest888/dsh-plugins-raincode",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:18.230Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8ff72d1152d01ab0f8898805501cd9a123a8a143d814d7b15a0419b6ee8b3a74",
+      "url": "https://github.com/rainforest888/dsh-plugins-raincode/blob/7a5dde2387ccc63796e0e50560c1cfbf1d2ad489/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "45182a69f401e03c39cdcffd7798dc63a4b473a781d16aec91e009f06d5277d9",
+      "url": "https://github.com/rainforest888/dsh-plugins-raincode/blob/7a5dde2387ccc63796e0e50560c1cfbf1d2ad489/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugins-raincode-routing",
+      "version": "0.2.0",
+      "path": "packages/plugin-routing",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rainforest888/dsh-plugins-raincode",
+        "commit": "7a5dde2387ccc63796e0e50560c1cfbf1d2ad489",
+        "path": "packages/plugin-routing"
+      },
+      "manifestSha256": "a357fc6521bb2dcae56184f5c4269941169fc63fd18262aacbaa26d6758b2da6",
+      "manifestUrl": "https://github.com/rainforest888/dsh-plugins-raincode/blob/7a5dde2387ccc63796e0e50560c1cfbf1d2ad489/packages/plugin-routing/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugins-raincode-routing",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793968358,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/rainforest888/dsh-plugins-raincode",
+              "commit": "7a5dde2387ccc63796e0e50560c1cfbf1d2ad489",
+              "path": "packages/plugin-routing"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugins-raincode-skill",
+      "version": "0.2.0",
+      "path": "packages/plugin-skill",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rainforest888/dsh-plugins-raincode",
+        "commit": "7a5dde2387ccc63796e0e50560c1cfbf1d2ad489",
+        "path": "packages/plugin-skill"
+      },
+      "manifestSha256": "42b236fa9858aa794aaf476b4e24f345ea56926d200d41f88ee356eb29508247",
+      "manifestUrl": "https://github.com/rainforest888/dsh-plugins-raincode/blob/7a5dde2387ccc63796e0e50560c1cfbf1d2ad489/packages/plugin-skill/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugins-raincode-skill",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793968358,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/rainforest888/dsh-plugins-raincode",
+              "commit": "7a5dde2387ccc63796e0e50560c1cfbf1d2ad489",
+              "path": "packages/plugin-skill"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/rainforest888/dsh-plugins-raincode",
+    "commit": "7a5dde2387ccc63796e0e50560c1cfbf1d2ad489",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:20.366Z"
+}

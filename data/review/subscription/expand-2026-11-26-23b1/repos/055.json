@@ -1,0 +1,417 @@
+{
+  "full_name": "lishize20040802-rgb/useful-dsh-plugins",
+  "originalPosition": 55,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 55,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:14.435Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "61fb636a5d7db09000c11a1a662a3240bd45c649732955297a24d3529deeaeff",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6e41effd6aeb8127beebdc99ddbd00b9deb9f7a4eb3758f92f759d627a1e7007",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin-voice-input/README.md",
+      "sha256": "17879c4517ec6c5c1350f8fe701ea298580cc1951257cdff7adb268b1510361a",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-voice-input/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-upload-button/README.md",
+      "sha256": "372b0f37475509ddcf2871adcfd3325eff272eea9921bc8bffb0cab34164da9e",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-upload-button/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-upload-button",
+          "command": "dsh plugin --profile web add dsh-upload-button",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugin-vision-reader/README.md",
+      "sha256": "f7e4387ab70a1fce7b7977e4ec388cd07ea3a0690c7a6935c6db433369ffd4b1",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-vision-reader/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin-doc-companion/README.md",
+      "sha256": "9012f20db60da74defc41398c046923d5a0cbe3cd426a6f26fd6c057e3c765bb",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-doc-companion/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-doc-companion",
+          "command": "dsh plugin --profile web add dsh-plugin-doc-companion",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "useful-dsh-plugin-manager/README.md",
+      "sha256": "a3a0318206fc7d47944be26be812e5d1bfa58baf2aab7420344460aaea616a72",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/useful-dsh-plugin-manager/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "models/README.md",
+      "sha256": "97c15e360bcd434b0d7e06b8baf23e938eef3628e87d5c72046630226e4c7a71",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/models/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin-voice-input/README.zh.md",
+      "sha256": "8d8cb14b64473bd510cf8a294e87a54f2797a47afe1a5b1cd14a99d5e197d51a",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-voice-input/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-upload-button/README.zh.md",
+      "sha256": "0b785cd331b500d83eab5869e29ebb25e156490bd0631f7ea0b4a66fd7b60e8d",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-upload-button/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-upload-button",
+          "command": "dsh plugin --profile web add dsh-upload-button",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugin-vision-reader/README.zh.md",
+      "sha256": "20df3126742a11621797acf3825eff787b61417e368b800cd6cc3aada0f5e4fe",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-vision-reader/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin-doc-companion/README.zh.md",
+      "sha256": "2199521a520e0e8493626e5a46353181883294b9c27d1e9984e43e3a37bad048",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-doc-companion/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-doc-companion",
+          "command": "dsh plugin --profile web add dsh-plugin-doc-companion",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "useful-dsh-plugin-manager/README.zh.md",
+      "sha256": "32bb0f54ddad54a77aea57abdf91c48e88e06c8b9baf4f04420709e38470c1fd",
+      "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/useful-dsh-plugin-manager/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-doc-companion",
+      "version": "0.1.2",
+      "path": "dsh-plugin-doc-companion",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+        "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+        "path": "dsh-plugin-doc-companion"
+      },
+      "manifestSha256": "e3e5107e6c098dad331d17121bf75b44645d9876e9e6d9b0f0a5560bfcf06594",
+      "manifestUrl": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-doc-companion/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-doc-companion",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1789553157,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+              "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+              "path": "dsh-plugin-doc-companion"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-vision-reader",
+      "version": "0.2.2",
+      "path": "dsh-plugin-vision-reader",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+        "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+        "path": "dsh-plugin-vision-reader"
+      },
+      "manifestSha256": "33b5a5ab31179da730613205015843cf80672030267f681577077257ec7cc6c9",
+      "manifestUrl": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-vision-reader/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-vision-reader",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1789553157,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+              "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+              "path": "dsh-plugin-vision-reader"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-voice-input",
+      "version": "0.3.0",
+      "path": "dsh-plugin-voice-input",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+        "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+        "path": "dsh-plugin-voice-input"
+      },
+      "manifestSha256": "cba27e775033614a01c66f412eeaf23b2b8f81e45a57ff5e19d4a85b15deb806",
+      "manifestUrl": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-plugin-voice-input/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-voice-input",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1789553157,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+              "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+              "path": "dsh-plugin-voice-input"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-upload-button",
+      "version": "0.3.2",
+      "path": "dsh-upload-button",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+        "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+        "path": "dsh-upload-button"
+      },
+      "manifestSha256": "c0a6a6da39dc94ac6a3107d475e071da48ef4fca067a3df241d7142064ee0e00",
+      "manifestUrl": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/dsh-upload-button/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-upload-button",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1789553157,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+              "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+              "path": "dsh-upload-button"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "useful-dsh-plugin-manager",
+      "version": "0.3.1",
+      "path": "useful-dsh-plugin-manager",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+        "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+        "path": "useful-dsh-plugin-manager"
+      },
+      "manifestSha256": "3a1bf6f800b8741bf0b47bd8ec7377cba917eae8a4476b03a1288597ae9389ea",
+      "manifestUrl": "https://github.com/lishize20040802-rgb/useful-dsh-plugins/blob/274cf4c835202e96c38fbbc69aefd176c74cdaa4/useful-dsh-plugin-manager/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "useful-dsh-plugin-manager",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1789553157,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+              "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+              "path": "useful-dsh-plugin-manager"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-upload-button",
+      "origin": "npm",
+      "name": "dsh-upload-button",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-upload-button",
+        "title": "dsh-upload-button",
+        "description": "DeepSeek Harness dual-face plugin: a borderless file upload button in the composer toolbar with floating colored file cards; uploads never touch the draft, and sent messages render the user's words only with the file cards floating above the bubble (paths stay model-visible only).",
+        "repository": {
+          "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+          "directory": "dsh-upload-button"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "cordis",
+            "plugin",
+            "upload",
+            "attachment"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1789197681,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          },
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786679633,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6887613474d4dfe5e473475510cdedc91baf3ca19a30ae7f3464c8894ee946bb",
+      "evidence": [
+        {
+          "name": "dsh-upload-button",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-upload-button/-/dsh-upload-button-0.3.1.tgz",
+          "integrity": "sha512-WhaxSyeFmg93U8tW/6EXlClSfAuNlBDjnoXiNGlpyD2Xh7FZIUdMAafylDz5W/CnMghj9PnAURRDISTg9xHcNQ=="
+        },
+        {
+          "name": "dsh-upload-button",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-upload-button/-/dsh-upload-button-0.2.0.tgz",
+          "integrity": "sha512-bBdrBhWX0HDzx1mZT+BMSHi+xqvA1GT04oPN1mEUjKnI05EoA5WRzT2RgGi8U6q+ho3Zy7JGuyJJUrehnV6jQg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-plugin-doc-companion",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-upload-button",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-doc-companion",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lishize20040802-rgb/useful-dsh-plugins",
+    "commit": "274cf4c835202e96c38fbbc69aefd176c74cdaa4",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:20.336Z"
+}

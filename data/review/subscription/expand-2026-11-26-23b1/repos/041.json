@@ -1,0 +1,131 @@
+{
+  "full_name": "Yeoksin/dsh-usage-wallet",
+  "originalPosition": 41,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 41,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:10.435Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f1f7a1f61cb7b0d7fa70596bc8d5823714a397c6b69e33a7c1730573a3e9ea6c",
+      "url": "https://github.com/Yeoksin/dsh-usage-wallet/blob/00bcd90460e4cdbaf957d54304169f78e5fb6e10/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.upstream.md",
+      "sha256": "15ff5d15fec0777d47311c067ec4cd9fdee369a2a5a2c6cd89bd1db594fe5d1b",
+      "url": "https://github.com/Yeoksin/dsh-usage-wallet/blob/00bcd90460e4cdbaf957d54304169f78e5fb6e10/README.upstream.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dougen/dsh-deepseek-usage",
+          "command": "dsh plugin --profile web add @dougen/dsh-deepseek-usage",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-usage-wallet",
+      "version": "1.0.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yeoksin/dsh-usage-wallet",
+        "commit": "00bcd90460e4cdbaf957d54304169f78e5fb6e10"
+      },
+      "manifestSha256": "4cb825f3b9f10ffd3aa941c88e3514856d636bdf45ef1e4d98acf599527ee066",
+      "manifestUrl": "https://github.com/Yeoksin/dsh-usage-wallet/blob/00bcd90460e4cdbaf957d54304169f78e5fb6e10/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "@dougen/dsh-deepseek-usage",
+      "origin": "npm",
+      "name": "@dougen/dsh-deepseek-usage",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dougen/dsh-deepseek-usage",
+        "title": {
+          "en": "DeepSeek Usage",
+          "zh": "DeepSeek 用量"
+        },
+        "description": {
+          "en": "Shows the balance or subscription quota behind the active model, that model's current unit prices, and the peak / off-peak indicator in the DSH sidebar.",
+          "zh": "在 DSH 侧边栏显示当前模型所用账户的余额或订阅余量、该模型的单价，以及峰谷时段指示灯。"
+        },
+        "homepage": "https://github.com/dougen/dsh-deepseek-usage",
+        "repository": {
+          "url": "https://github.com/dougen/dsh-deepseek-usage"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "deepseek-harness",
+            "plugin",
+            "usage",
+            "balance",
+            "quota",
+            "oauth",
+            "tokens",
+            "web"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIGRzaC1kZWVwc2Vlay11c2FnZe+8muS9meminSDCpSDnoazluIEgKyDls7DosLfmjIfnpLrnga/jgIIKICAgICAgIOehrOW4geS4jiDCpSDlsLHmmK/ljaHniYfkuIrmlL7lpKfnmoTkvZnpop3vvIzlj7PkuIrop5LnmoTnu7/oibLlnIbngrnmmK/ljaHniYflj7PkuIrop5LnmoTls7DosLfmjIfnpLrnga8KICAgICAgIO+8iOe7vz3nqbrpl7LjgIHmqZk96auY5bOw77yJ77yM6L+Z5Lik5qC35q2j5piv5Y2h54mH5pi+56S655qE5YWo6YOo5YaF5a6544CCIC0tPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjb2luIiB4MT0iNyIgeTE9IjkiIHgyPSIyNyIgeTI9IjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2OUI5RkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzI0REUyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpZGxlIiB4MT0iMjUuNiIgeTE9IjQuOCIgeDI9IjMxLjQiIHkyPSIxMC42IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM3RkUzOUIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMUY5RTUyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjE5LjYiIHI9IjEwIiBzdHJva2U9InVybCgjY29pbikiIHN0cm9rZS13aWR0aD0iMi4xIi8+CiAgPHBhdGggZD0iTTEyLjYgMTQuNCAxNiAxOC4yIDE5LjQgMTQuNCIgc3Ryb2tlPSJ1cmwoI2NvaW4pIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTE2IDE4LjJWMjUuMiIgc3Ryb2tlPSJ1cmwoI2NvaW4pIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTEyLjkgMjAuNEgxOS4xIiBzdHJva2U9InVybCgjY29pbikiIHN0cm9rZS13aWR0aD0iMi4xIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMTIuOSAyMy4ySDE5LjEiIHN0cm9rZT0idXJsKCNjb2luKSIgc3Ryb2tlLXdpZHRoPSIyLjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjI4LjUiIGN5PSI3LjciIHI9IjMuMSIgZmlsbD0idXJsKCNpZGxlKSIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.22.0",
+            "publishTimestamp": 1795660247,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c2565951d37722135b6f4a1a17a766a1629fca9329b8c30d3ef035cd4d4337d2",
+      "evidence": [
+        {
+          "name": "@dougen/dsh-deepseek-usage",
+          "version": "0.22.0",
+          "tarball": "https://registry.npmjs.org/@dougen/dsh-deepseek-usage/-/dsh-deepseek-usage-0.22.0.tgz",
+          "integrity": "sha512-jiTUKANZKTQSDdINf9L+fS0WKtNEvH/szkdKB5edGvuNnLKNF2E6GU9KLeLYcTPv3nnqDiGneiZkbURrYEahSg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dougen/dsh-deepseek-usage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yeoksin/dsh-usage-wallet",
+    "commit": "00bcd90460e4cdbaf957d54304169f78e5fb6e10",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:12.250Z"
+}

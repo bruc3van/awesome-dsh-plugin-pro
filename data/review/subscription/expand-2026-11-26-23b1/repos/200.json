@@ -1,0 +1,77 @@
+{
+  "full_name": "DWJZ/dsh-allow",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:51.631Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dfce0c2d29aed6dc5c61be120b3aa37d19b5d4a7939b6f84e78a14965a03e2cb",
+      "url": "https://github.com/DWJZ/dsh-allow/blob/244e775e978dd240fd8808295c6603bbc06a9000/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dcc6801b21e6cd82ad881cc65488fa099b7746cb36c84ec8490bd7a7f496d9f6",
+      "url": "https://github.com/DWJZ/dsh-allow/blob/244e775e978dd240fd8808295c6603bbc06a9000/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-allow",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DWJZ/dsh-allow",
+        "commit": "244e775e978dd240fd8808295c6603bbc06a9000"
+      },
+      "manifestSha256": "ea5ec44e9ee8010a89179c469d7a1769506c5ac6ae57232e055c092118d41a7b",
+      "manifestUrl": "https://github.com/DWJZ/dsh-allow/blob/244e775e978dd240fd8808295c6603bbc06a9000/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-allow",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793392482,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DWJZ/dsh-allow",
+              "commit": "244e775e978dd240fd8808295c6603bbc06a9000"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DWJZ/dsh-allow",
+    "commit": "244e775e978dd240fd8808295c6603bbc06a9000",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:53.120Z"
+}

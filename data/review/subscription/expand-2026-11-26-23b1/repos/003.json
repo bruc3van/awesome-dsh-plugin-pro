@@ -1,0 +1,100 @@
+{
+  "full_name": "oldtommmy/notifyhub",
+  "originalPosition": 3,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 3,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-26T23:58:56.328Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "953b07cd4aa27210d3785752f26e60ca1a61b9ca7ec94838871012de516bb879",
+      "url": "https://github.com/oldtommmy/notifyhub/blob/25eb0522813453ab9c61969b78172f3afabd4a89/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/dsh-native-bridge/README.md",
+      "sha256": "c518fecc97b4278cd026d5c693b132b946b433d8b4ac4b8807ba0af5cf7ea818",
+      "url": "https://github.com/oldtommmy/notifyhub/blob/25eb0522813453ab9c61969b78172f3afabd4a89/integrations/dsh-native-bridge/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "assets/agents/README.md",
+      "sha256": "369655cbcc090dba5a056ed905d76f4b0ad4a5e4003d1b3a1cba8f02ff13e302",
+      "url": "https://github.com/oldtommmy/notifyhub/blob/25eb0522813453ab9c61969b78172f3afabd4a89/assets/agents/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notifyhub",
+      "version": "0.9.3",
+      "path": "integrations/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oldtommmy/notifyhub",
+        "commit": "25eb0522813453ab9c61969b78172f3afabd4a89",
+        "path": "integrations/dsh"
+      },
+      "manifestSha256": "a14f5f20b79467f2af16c7f3442aa1649951a98612dcc46a39e075af2f14b62a",
+      "manifestUrl": "https://github.com/oldtommmy/notifyhub/blob/25eb0522813453ab9c61969b78172f3afabd4a89/integrations/dsh/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notifyhub-native-bridge",
+      "version": "0.1.0",
+      "path": "integrations/dsh-native-bridge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oldtommmy/notifyhub",
+        "commit": "25eb0522813453ab9c61969b78172f3afabd4a89",
+        "path": "integrations/dsh-native-bridge"
+      },
+      "manifestSha256": "6d8eed96425c603033a285e9b4bea47d08fe0237e526ad71a6d0b340aa5a3869",
+      "manifestUrl": "https://github.com/oldtommmy/notifyhub/blob/25eb0522813453ab9c61969b78172f3afabd4a89/integrations/dsh-native-bridge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-notifyhub-native-bridge",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795700297,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/oldtommmy/notifyhub",
+              "commit": "25eb0522813453ab9c61969b78172f3afabd4a89",
+              "path": "integrations/dsh-native-bridge"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/oldtommmy/notifyhub",
+    "commit": "25eb0522813453ab9c61969b78172f3afabd4a89",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:58:58.616Z"
+}

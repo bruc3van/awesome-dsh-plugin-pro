@@ -1,0 +1,66 @@
+{
+  "full_name": "Bennie96/dsh-quark",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 176,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:45.993Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "03aa07df79cf7fdc5eb42e74464f5172cfea32f0a2e14a2b80a6a09d89e17a23",
+      "url": "https://github.com/Bennie96/dsh-quark/blob/73a5042000fc1e3673090dcd00551b3170a0909b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quark",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bennie96/dsh-quark",
+        "commit": "73a5042000fc1e3673090dcd00551b3170a0909b"
+      },
+      "manifestSha256": "0e5bc6641ecd91e4293770fc3a0430bbc1fc3650fe8d41a3260b6b775f58b1b0",
+      "manifestUrl": "https://github.com/Bennie96/dsh-quark/blob/73a5042000fc1e3673090dcd00551b3170a0909b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-quark",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794574451,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bennie96/dsh-quark",
+              "commit": "73a5042000fc1e3673090dcd00551b3170a0909b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Bennie96/dsh-quark",
+    "commit": "73a5042000fc1e3673090dcd00551b3170a0909b",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:47.161Z"
+}

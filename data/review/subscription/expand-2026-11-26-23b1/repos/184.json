@@ -1,0 +1,66 @@
+{
+  "full_name": "Canye-zdm/dsh-serial",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:47.649Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "705b8c9f61b2252de6044711e5a146ab7ea90e61b030c4a8335f983c3b64c295",
+      "url": "https://github.com/Canye-zdm/dsh-serial/blob/52e93879214938b70428b6cbe4ff5573cb2f716b/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-serial",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Canye-zdm/dsh-serial",
+        "commit": "52e93879214938b70428b6cbe4ff5573cb2f716b"
+      },
+      "manifestSha256": "02af4b32b5eff0db5aa490a811cd0824e987bcbddaa479cf9b838c1f89ee5adf",
+      "manifestUrl": "https://github.com/Canye-zdm/dsh-serial/blob/52e93879214938b70428b6cbe4ff5573cb2f716b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-serial",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1792503334,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Canye-zdm/dsh-serial",
+              "commit": "52e93879214938b70428b6cbe4ff5573cb2f716b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Canye-zdm/dsh-serial",
+    "commit": "52e93879214938b70428b6cbe4ff5573cb2f716b",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:48.966Z"
+}

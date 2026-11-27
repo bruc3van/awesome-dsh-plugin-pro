@@ -1,0 +1,69 @@
+{
+  "full_name": "Salty-Mocha/dsh-ops-mac",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:02.290Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "df0fe881d892b6d278d3a0ec9fdfa9fff7aa9c2b71b036f0a4e92a1cf0245a50",
+      "url": "https://github.com/Salty-Mocha/dsh-ops-mac/blob/baf71374067287a4e350cfaf5f7d5104d3d98131/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ops",
+      "version": "0.3.0-mac.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Salty-Mocha/dsh-ops-mac",
+        "commit": "baf71374067287a4e350cfaf5f7d5104d3d98131"
+      },
+      "manifestSha256": "4e29320cafef6972d22213437ba1076e58f98d3fcdfd2e08fb8bac5a80735384",
+      "manifestUrl": "https://github.com/Salty-Mocha/dsh-ops-mac/blob/baf71374067287a4e350cfaf5f7d5104d3d98131/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ops",
+        "versions": [
+          {
+            "version": "0.3.0-mac.1",
+            "publishTimestamp": 1792669612,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Salty-Mocha/dsh-ops-mac",
+              "commit": "baf71374067287a4e350cfaf5f7d5104d3d98131"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Salty-Mocha/dsh-ops-mac",
+    "commit": "baf71374067287a4e350cfaf5f7d5104d3d98131",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:03.486Z"
+}

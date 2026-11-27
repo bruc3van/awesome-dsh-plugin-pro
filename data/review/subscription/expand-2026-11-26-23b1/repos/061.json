@@ -1,0 +1,68 @@
+{
+  "full_name": "qzy033/dsh-astrbot-gateway",
+  "originalPosition": 61,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 61,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:18.040Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0c78118bd03ed7b8c1eedc85891ad9a85dd05e77d899fb14bdcdd65fd92b2c9e",
+      "url": "https://github.com/qzy033/dsh-astrbot-gateway/blob/1efb1b3d9a39c221d353b6206fff6dd14e481d44/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-astrbot-gateway",
+      "version": "0.7.0",
+      "path": "plugin/dsh-astrbot-gateway",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/qzy033/dsh-astrbot-gateway",
+        "commit": "1efb1b3d9a39c221d353b6206fff6dd14e481d44",
+        "path": "plugin/dsh-astrbot-gateway"
+      },
+      "manifestSha256": "3b2a60938f8e5e4d3d560eea6fb99347c156bc1b8cdde4ef5abaf907d2ff0b28",
+      "manifestUrl": "https://github.com/qzy033/dsh-astrbot-gateway/blob/1efb1b3d9a39c221d353b6206fff6dd14e481d44/plugin/dsh-astrbot-gateway/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-astrbot-gateway",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794062166,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/qzy033/dsh-astrbot-gateway",
+              "commit": "1efb1b3d9a39c221d353b6206fff6dd14e481d44",
+              "path": "plugin/dsh-astrbot-gateway"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/qzy033/dsh-astrbot-gateway",
+    "commit": "1efb1b3d9a39c221d353b6206fff6dd14e481d44",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:19.208Z"
+}

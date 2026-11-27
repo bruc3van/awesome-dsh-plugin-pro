@@ -1,0 +1,101 @@
+{
+  "full_name": "szx-a/ds",
+  "originalPosition": 84,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 84,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:25.397Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a83f0ef6955c16196f7e30d15b1b5675b76df4923fd67b90959f6fcc500590f1",
+      "url": "https://github.com/szx-a/ds/blob/ad299bd9e9a362a5745afaf55f9de960696b801d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@szx-a/dsh-layered-memory-architecture",
+      "version": "0.4.0-rc.1",
+      "path": "packages/memory/memory-body",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/szx-a/ds",
+        "commit": "ad299bd9e9a362a5745afaf55f9de960696b801d",
+        "path": "packages/memory/memory-body"
+      },
+      "manifestSha256": "d20b3b72297ac4d87e07f8ba5da45688172ddfa2de1f7b2a95c34ca816551be7",
+      "manifestUrl": "https://github.com/szx-a/ds/blob/ad299bd9e9a362a5745afaf55f9de960696b801d/packages/memory/memory-body/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@szx-a/dsh-layered-memory-architecture",
+        "versions": [
+          {
+            "version": "0.4.0-rc.1",
+            "publishTimestamp": 1794628576,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/szx-a/ds",
+              "commit": "ad299bd9e9a362a5745afaf55f9de960696b801d",
+              "path": "packages/memory/memory-body"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@szx-a/dsh-layered-memory-architecture-preset",
+      "version": "0.4.0-rc.1",
+      "path": "packages/memory/memory-body-preset",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/szx-a/ds",
+        "commit": "ad299bd9e9a362a5745afaf55f9de960696b801d",
+        "path": "packages/memory/memory-body-preset"
+      },
+      "manifestSha256": "925a5317114c43f0baf742dd3ad196b6799bf28a643c7d9209ca954e50f96817",
+      "manifestUrl": "https://github.com/szx-a/ds/blob/ad299bd9e9a362a5745afaf55f9de960696b801d/packages/memory/memory-body-preset/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@szx-a/dsh-layered-memory-architecture-preset",
+        "versions": [
+          {
+            "version": "0.4.0-rc.1",
+            "publishTimestamp": 1794628576,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/szx-a/ds",
+              "commit": "ad299bd9e9a362a5745afaf55f9de960696b801d",
+              "path": "packages/memory/memory-body-preset"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/szx-a/ds",
+    "commit": "ad299bd9e9a362a5745afaf55f9de960696b801d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:26.832Z"
+}

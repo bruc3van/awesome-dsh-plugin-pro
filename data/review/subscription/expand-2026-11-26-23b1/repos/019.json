@@ -1,0 +1,136 @@
+{
+  "full_name": "ShawnRen57/omni-learning-anything",
+  "originalPosition": 19,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:03.489Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "256af83f8ceef55593be224e5dd50da92a9e74303e258c009f4dd0dec072f020",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_zh.md",
+      "sha256": "c5f166f93a3f5a1ec6ed2707ec80bad0910bc11d72fc67bfa5aa6b02bf43dc69",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_ja.md",
+      "sha256": "c90212254fc170bfc0c6d7d7cceea7fb35e770aa609e2fe9615984ee786bd6f9",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_ko.md",
+      "sha256": "21dc718a13ca5cf278d7a2c66a1397191385193c0c2da3fbf8a45155bcb27434",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_es.md",
+      "sha256": "3c22d991071dc14ec3cfdd46ce3a47c9bd685d158bdbaa24d8493362b2e6010d",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_fr.md",
+      "sha256": "b2daec554d4ef1302e8b96ea41c92720f7c70c076e12bdd2738b452c8f598100",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_de.md",
+      "sha256": "db2d52f253e641f4a9dec399197b691d1f840185131ba82e29018e478fecc57a",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_pt.md",
+      "sha256": "3d4d9f0181092bfcb1160495eb9d7c75f7311e8e584f9c7c43b25eebf4070a83",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_ru.md",
+      "sha256": "70c2cb5c6f1c4b0380540d23089c79cd2a1d9db4525e685f6d9bab5490114eff",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/README_ar.md",
+      "sha256": "85b8ee6879bc08f5a67cec09312e2a157100caaf291fec8ebeab00bb9a8eba83",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/docs/readme/README_ar.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/languages/README.md",
+      "sha256": "01544e42a453f7f097d748546124ab30517c7a2bf6d211e69343d65c4b7dc03f",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/examples/languages/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/textbooks/README.md",
+      "sha256": "12daa0d1ef6de43730785f165b9006be6b2dd70b9bc9d9314826462abcfac52f",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/examples/textbooks/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/university/README.md",
+      "sha256": "e02cf18af9aa4c2b2db41eb93675a9684168490a3b5aebb3df2779ee14c0cb15",
+      "url": "https://github.com/ShawnRen57/omni-learning-anything/blob/33d06b2e634e8dfcca6afbb4a9c6d03269468287/examples/university/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ShawnRen57/omni-learning-anything",
+    "commit": "33d06b2e634e8dfcca6afbb4a9c6d03269468287",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:07.729Z"
+}

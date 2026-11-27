@@ -1,0 +1,66 @@
+{
+  "full_name": "BlinB209/deepchess",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:46.173Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cc4ab6d5750439c7ec1f163148199cf936fdc96dbedc6cd2b544f4acc726acd9",
+      "url": "https://github.com/BlinB209/deepchess/blob/c71fd290ba74f242abdac0b404ff7cc14a6d2993/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepchess",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BlinB209/deepchess",
+        "commit": "c71fd290ba74f242abdac0b404ff7cc14a6d2993"
+      },
+      "manifestSha256": "e2ed0346bc6023f40234ad679dcb292efe1234c0a942a7ac4f75a782d9a9cbac",
+      "manifestUrl": "https://github.com/BlinB209/deepchess/blob/c71fd290ba74f242abdac0b404ff7cc14a6d2993/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepchess",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1793849176,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BlinB209/deepchess",
+              "commit": "c71fd290ba74f242abdac0b404ff7cc14a6d2993"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BlinB209/deepchess",
+    "commit": "c71fd290ba74f242abdac0b404ff7cc14a6d2993",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:47.420Z"
+}

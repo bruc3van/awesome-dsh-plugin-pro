@@ -1,0 +1,77 @@
+{
+  "full_name": "Somnus678/dsh-input-assistant",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:05.011Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3efd06eaddba77abe83a101769db305a91eeb539e913ce1d00f7fcab541c8298",
+      "url": "https://github.com/Somnus678/dsh-input-assistant/blob/9fefd96994c434ebf067d3a3b00f8a639f0f306c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "99b89e965d8254ec449ef0bceffac8f79920ffb7f807e11f9c7d38f999373d70",
+      "url": "https://github.com/Somnus678/dsh-input-assistant/blob/9fefd96994c434ebf067d3a3b00f8a639f0f306c/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-input-assistant",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Somnus678/dsh-input-assistant",
+        "commit": "9fefd96994c434ebf067d3a3b00f8a639f0f306c"
+      },
+      "manifestSha256": "0831718b500a7f9ac1f9d26fa9ae7f7133c3db87081188eec013cf06f1b7cff0",
+      "manifestUrl": "https://github.com/Somnus678/dsh-input-assistant/blob/9fefd96994c434ebf067d3a3b00f8a639f0f306c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-input-assistant",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1794305440,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Somnus678/dsh-input-assistant",
+              "commit": "9fefd96994c434ebf067d3a3b00f8a639f0f306c"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Somnus678/dsh-input-assistant",
+    "commit": "9fefd96994c434ebf067d3a3b00f8a639f0f306c",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:06.429Z"
+}

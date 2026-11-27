@@ -1,0 +1,69 @@
+{
+  "full_name": "WTStarMark/dsh-myskin",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:08.145Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0c4ee31aa1268b53fe15a1fffd30b53bafd4697175e6a9b7cbcb41b0be49cfea",
+      "url": "https://github.com/WTStarMark/dsh-myskin/blob/014b1aa9054dabb413fb18283832dd83e71e5726/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-myskin",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WTStarMark/dsh-myskin",
+        "commit": "014b1aa9054dabb413fb18283832dd83e71e5726"
+      },
+      "manifestSha256": "36f400c27e7d93da3d0976a6f326c5d6e3b782ef11287ae976e26d94c6a8431d",
+      "manifestUrl": "https://github.com/WTStarMark/dsh-myskin/blob/014b1aa9054dabb413fb18283832dd83e71e5726/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-myskin",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1791279431,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WTStarMark/dsh-myskin",
+              "commit": "014b1aa9054dabb413fb18283832dd83e71e5726"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WTStarMark/dsh-myskin",
+    "commit": "014b1aa9054dabb413fb18283832dd83e71e5726",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:09.516Z"
+}

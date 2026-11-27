@@ -1,0 +1,77 @@
+{
+  "full_name": "TLEWA/dsh-sidebar-organizer",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:06.433Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c85579f647516523c79f5a684e5bafe917ee48303c1ca9b78f6f1f0c30a1f3c9",
+      "url": "https://github.com/TLEWA/dsh-sidebar-organizer/blob/e4c908140b315c9af8c1b424179ab70707ee944b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6a154e4b93279719b29f614c133ead26521549a3c05d6e3fc67163b14c6f52c2",
+      "url": "https://github.com/TLEWA/dsh-sidebar-organizer/blob/e4c908140b315c9af8c1b424179ab70707ee944b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sidebar-organizer",
+      "version": "0.11.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TLEWA/dsh-sidebar-organizer",
+        "commit": "e4c908140b315c9af8c1b424179ab70707ee944b"
+      },
+      "manifestSha256": "82c246be909b2dc4c8394c27a3ca9eb058a781a370206c934394323a9b384de9",
+      "manifestUrl": "https://github.com/TLEWA/dsh-sidebar-organizer/blob/e4c908140b315c9af8c1b424179ab70707ee944b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-sidebar-organizer",
+        "versions": [
+          {
+            "version": "0.11.3",
+            "publishTimestamp": 1795337458,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TLEWA/dsh-sidebar-organizer",
+              "commit": "e4c908140b315c9af8c1b424179ab70707ee944b"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TLEWA/dsh-sidebar-organizer",
+    "commit": "e4c908140b315c9af8c1b424179ab70707ee944b",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:07.989Z"
+}

@@ -1,0 +1,50 @@
+{
+  "full_name": "9840333w/dsh-file-tracker",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:38.801Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "df777360e7fcf8f610f877877519a57ca9a79c31e11c08f81d33333a02dc415d",
+      "url": "https://github.com/9840333w/dsh-file-tracker/blob/700c1ac9ea60403e4a74b092083eb9fef22e9d63/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-file-tracker",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/9840333w/dsh-file-tracker",
+        "commit": "700c1ac9ea60403e4a74b092083eb9fef22e9d63"
+      },
+      "manifestSha256": "b4204ad4f959c88ba1109f5ff36abeac0576b9f2755d7975f7666cb8227cd022",
+      "manifestUrl": "https://github.com/9840333w/dsh-file-tracker/blob/700c1ac9ea60403e4a74b092083eb9fef22e9d63/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/9840333w/dsh-file-tracker",
+    "commit": "700c1ac9ea60403e4a74b092083eb9fef22e9d63",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:40.055Z"
+}

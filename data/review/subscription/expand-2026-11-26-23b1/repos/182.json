@@ -1,0 +1,90 @@
+{
+  "full_name": "CH2008445/dsh-api-balance",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:47.162Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a87d930756372fe0e87b23c7a58e0764e6fd7ad866345648282e0732b5ac1ece",
+      "url": "https://github.com/CH2008445/dsh-api-balance/blob/03230c857b4048f2721d9b0f484fb26bce357431/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7211473e0aeb7b8ab599448d5df1fc89a60288ab1bdcfe15593b591f34d5da5c",
+      "url": "https://github.com/CH2008445/dsh-api-balance/blob/03230c857b4048f2721d9b0f484fb26bce357431/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "a9518c8e545d027d74213e7f3a58e6baaad3afccebfb34cc6f9a454eb6112c4a",
+      "url": "https://github.com/CH2008445/dsh-api-balance/blob/03230c857b4048f2721d9b0f484fb26bce357431/README.ru.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "20fc5b618bfdcdb4a5ec5fac4e26a250b623a3267defed0b99c84c4581cdc555",
+      "url": "https://github.com/CH2008445/dsh-api-balance/blob/03230c857b4048f2721d9b0f484fb26bce357431/README.de.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-api-balance",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CH2008445/dsh-api-balance",
+        "commit": "03230c857b4048f2721d9b0f484fb26bce357431"
+      },
+      "manifestSha256": "14d8df706b3b39517a94ca12b9301a74e52d1e9888d7ba0d0a70346639f40587",
+      "manifestUrl": "https://github.com/CH2008445/dsh-api-balance/blob/03230c857b4048f2721d9b0f484fb26bce357431/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-api-balance",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1791189226,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CH2008445/dsh-api-balance",
+              "commit": "03230c857b4048f2721d9b0f484fb26bce357431"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CH2008445/dsh-api-balance",
+    "commit": "03230c857b4048f2721d9b0f484fb26bce357431",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:49.013Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "AndKinoko/DSH-Search-Citation-Auditor",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:42.495Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ffc18e19e36b43ffab12ce9759f83282777a1e644386502092892d74ae406d15",
+      "url": "https://github.com/AndKinoko/DSH-Search-Citation-Auditor/blob/c0a68b724001d0a56fc7fb14da9dd5492f055d20/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-citation-auditor",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AndKinoko/DSH-Search-Citation-Auditor",
+        "commit": "c0a68b724001d0a56fc7fb14da9dd5492f055d20"
+      },
+      "manifestSha256": "9eaeffd4433f82a4e753f4ed9064d090f16b7b9e0ab747135a2179509c6dcc42",
+      "manifestUrl": "https://github.com/AndKinoko/DSH-Search-Citation-Auditor/blob/c0a68b724001d0a56fc7fb14da9dd5492f055d20/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-citation-auditor",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1791240169,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AndKinoko/DSH-Search-Citation-Auditor",
+              "commit": "c0a68b724001d0a56fc7fb14da9dd5492f055d20"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AndKinoko/DSH-Search-Citation-Auditor",
+    "commit": "c0a68b724001d0a56fc7fb14da9dd5492f055d20",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:43.614Z"
+}

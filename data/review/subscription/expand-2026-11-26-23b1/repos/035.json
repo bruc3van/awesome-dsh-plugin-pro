@@ -1,0 +1,77 @@
+{
+  "full_name": "WanX609/dsh-codex-model-effort-selector",
+  "originalPosition": 35,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 35,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:08.928Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d156c41bbc04ef16873fec9d768420ffcc35dc90fdb266df9e22eb4767c786a9",
+      "url": "https://github.com/WanX609/dsh-codex-model-effort-selector/blob/0d7546c657aab043cf278e4b1e3a7ed7cf13ef54/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "20cc190a49c3bb8b6993177b6ba4a5547f6bb298ce9f8bff2023775d2df1943c",
+      "url": "https://github.com/WanX609/dsh-codex-model-effort-selector/blob/0d7546c657aab043cf278e4b1e3a7ed7cf13ef54/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-model-effort-selector",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WanX609/dsh-codex-model-effort-selector",
+        "commit": "0d7546c657aab043cf278e4b1e3a7ed7cf13ef54"
+      },
+      "manifestSha256": "651a89b140a51a6b649c33f8926a8229bfafb0b0af8d2abd221b1550bfa2b4d0",
+      "manifestUrl": "https://github.com/WanX609/dsh-codex-model-effort-selector/blob/0d7546c657aab043cf278e4b1e3a7ed7cf13ef54/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-codex-model-effort-selector",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1794658576,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WanX609/dsh-codex-model-effort-selector",
+              "commit": "0d7546c657aab043cf278e4b1e3a7ed7cf13ef54"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WanX609/dsh-codex-model-effort-selector",
+    "commit": "0d7546c657aab043cf278e4b1e3a7ed7cf13ef54",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:10.434Z"
+}

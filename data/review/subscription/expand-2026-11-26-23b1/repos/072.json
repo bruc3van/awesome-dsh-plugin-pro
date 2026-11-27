@@ -1,0 +1,101 @@
+{
+  "full_name": "shenjackyuanjie/dsh-cot-summary",
+  "originalPosition": 72,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 72,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:21.758Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b804a57bc2e5748c4d224e5290441f1630df3f61f1edbc00ba610c08ec103825",
+      "url": "https://github.com/shenjackyuanjie/dsh-cot-summary/blob/95f8786eb98680f0f3cb0b52cd8d4d2612e033f2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@shenjack/dsh-client-cot-summary-overlay",
+      "version": "0.1.0",
+      "path": "packages/client-cot-summary-overlay",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shenjackyuanjie/dsh-cot-summary",
+        "commit": "95f8786eb98680f0f3cb0b52cd8d4d2612e033f2",
+        "path": "packages/client-cot-summary-overlay"
+      },
+      "manifestSha256": "a4feef1f49f0cef894a0d45ca624c50f7fc7790308d1857edcbdb39746666890",
+      "manifestUrl": "https://github.com/shenjackyuanjie/dsh-cot-summary/blob/95f8786eb98680f0f3cb0b52cd8d4d2612e033f2/packages/client-cot-summary-overlay/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@shenjack/dsh-client-cot-summary-overlay",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793086108,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/shenjackyuanjie/dsh-cot-summary",
+              "commit": "95f8786eb98680f0f3cb0b52cd8d4d2612e033f2",
+              "path": "packages/client-cot-summary-overlay"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@shenjack/dsh-cot-summary",
+      "version": "0.1.0",
+      "path": "packages/cot-summary",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shenjackyuanjie/dsh-cot-summary",
+        "commit": "95f8786eb98680f0f3cb0b52cd8d4d2612e033f2",
+        "path": "packages/cot-summary"
+      },
+      "manifestSha256": "6cdcfd3b8f418bbb359f2f311d12da9b223c3b312263dea3b91dc0de3072f94f",
+      "manifestUrl": "https://github.com/shenjackyuanjie/dsh-cot-summary/blob/95f8786eb98680f0f3cb0b52cd8d4d2612e033f2/packages/cot-summary/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@shenjack/dsh-cot-summary",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793086108,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/shenjackyuanjie/dsh-cot-summary",
+              "commit": "95f8786eb98680f0f3cb0b52cd8d4d2612e033f2",
+              "path": "packages/cot-summary"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shenjackyuanjie/dsh-cot-summary",
+    "commit": "95f8786eb98680f0f3cb0b52cd8d4d2612e033f2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:23.796Z"
+}

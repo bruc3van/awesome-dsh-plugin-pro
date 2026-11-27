@@ -1,0 +1,74 @@
+{
+  "full_name": "zgdllt/study-companion",
+  "originalPosition": 112,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 112,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:32.007Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a804984c974c052e6863e0c69fcb3735ecf8761600cf91226127b644b5937733",
+      "url": "https://github.com/zgdllt/study-companion/blob/9e79216961479f325ebad86c43ad323c9641eefd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "85810e63fcd3e565912b0d5e56d48d489df9e92f3e95e345d6fb320514bf3d15",
+      "url": "https://github.com/zgdllt/study-companion/blob/9e79216961479f325ebad86c43ad323c9641eefd/tests/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/study-companion",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zgdllt/study-companion",
+        "commit": "9e79216961479f325ebad86c43ad323c9641eefd"
+      },
+      "manifestSha256": "21366e89c89b404b0388a766027ecb41d1e8b8eb3e8df5cefdcc1c8504970ada",
+      "manifestUrl": "https://github.com/zgdllt/study-companion/blob/9e79216961479f325ebad86c43ad323c9641eefd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@local/study-companion",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1794657645,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zgdllt/study-companion",
+              "commit": "9e79216961479f325ebad86c43ad323c9641eefd"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zgdllt/study-companion",
+    "commit": "9e79216961479f325ebad86c43ad323c9641eefd",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:33.534Z"
+}

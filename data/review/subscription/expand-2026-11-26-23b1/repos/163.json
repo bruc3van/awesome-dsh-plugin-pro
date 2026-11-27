@@ -1,0 +1,69 @@
+{
+  "full_name": "Argonaut790/dsh-deepseek-vision",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-26T23:59:43.189Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e7827571c88cec4b12398e8925f4ad0219fa88e15a54416b58c013807803d5d3",
+      "url": "https://github.com/Argonaut790/dsh-deepseek-vision/blob/dded52b276055faa602e8c235fe75246a5ac5840/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-vision",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Argonaut790/dsh-deepseek-vision",
+        "commit": "dded52b276055faa602e8c235fe75246a5ac5840"
+      },
+      "manifestSha256": "c8540dc0160d59d66b166fa5c96aa75c2cb944c41a3692ddae9fc6a3a413d48c",
+      "manifestUrl": "https://github.com/Argonaut790/dsh-deepseek-vision/blob/dded52b276055faa602e8c235fe75246a5ac5840/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-deepseek-vision",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786832695,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Argonaut790/dsh-deepseek-vision",
+              "commit": "dded52b276055faa602e8c235fe75246a5ac5840"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Argonaut790/dsh-deepseek-vision",
+    "commit": "dded52b276055faa602e8c235fe75246a5ac5840",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:44.355Z"
+}

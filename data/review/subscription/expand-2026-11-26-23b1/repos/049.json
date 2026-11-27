@@ -1,0 +1,42 @@
+{
+  "full_name": "gulagala001/dsh-trisoul",
+  "originalPosition": 49,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 49,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:12.250Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3854682c78cb9274a4afa47f22e03d85f62d2e8b313a4c86aadabde0f279f17e",
+      "url": "https://github.com/gulagala001/dsh-trisoul/blob/f35b96af8655d2528d77f2e140855c99867b09ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gulagala001/dsh-trisoul",
+    "commit": "f35b96af8655d2528d77f2e140855c99867b09ba",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-trisoul",
+    "version": "0.2.8",
+    "dsh": null,
+    "engines": {
+      "node": ">=20"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-26T23:59:15.673Z"
+}

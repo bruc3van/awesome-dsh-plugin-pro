@@ -1,0 +1,103 @@
+{
+  "full_name": "zzjzzb/ai-memory",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-26T23:59:32.952Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "addbdbb99dd7c1ad50095f7498537576edb83202552b62bd4d739375da52f78a",
+      "url": "https://github.com/zzjzzb/ai-memory/blob/9208281522612ebb349dff2e1b7e07a9c7683def/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "scenarios/dsh-support-agent/README.md",
+      "sha256": "6fa24e8303986e87e696e200715794baab4164c8d98843b44d779d9e7ce2ef61",
+      "url": "https://github.com/zzjzzb/ai-memory/blob/9208281522612ebb349dff2e1b7e07a9c7683def/scenarios/dsh-support-agent/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zzjzzb/ai-memory",
+          "command": "dsh plugin add github:zzjzzb/ai-memory",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "scenarios/dsh-support-agent/README.zh-CN.md",
+      "sha256": "7126da2da3579f548674606354ae39f5c0d25fb62eb7937737bf5fee758f2fea",
+      "url": "https://github.com/zzjzzb/ai-memory/blob/9208281522612ebb349dff2e1b7e07a9c7683def/scenarios/dsh-support-agent/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zzjzzb/ai-memory",
+          "command": "dsh plugin add github:zzjzzb/ai-memory",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ai-memory",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zzjzzb/ai-memory",
+        "commit": "9208281522612ebb349dff2e1b7e07a9c7683def"
+      },
+      "manifestSha256": "98bf5f0f7b0770a0be04463b0ac5e25b0af58c67a53fdb03c593b23d74126849",
+      "manifestUrl": "https://github.com/zzjzzb/ai-memory/blob/9208281522612ebb349dff2e1b7e07a9c7683def/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ai-memory",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789107498,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zzjzzb/ai-memory",
+              "commit": "9208281522612ebb349dff2e1b7e07a9c7683def"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/zzjzzb/ai-memory",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zzjzzb/ai-memory",
+    "commit": "9208281522612ebb349dff2e1b7e07a9c7683def",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-26T23:59:34.687Z"
+}
