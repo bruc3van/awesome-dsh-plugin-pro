@@ -15,7 +15,7 @@ DSH（DeepSeek Harness）是一个 AI 编程助手/Agent 平台，本目录收�
 | `ecosystem-resources` | 生态与资源 | 插件目录/榜单/awesome 列表、模板与脚手架、插件开发框架/SDK、插件注册表与体检工具、社区资源站 |
 | `ui-experience` | 界面与体验 | 状态栏/侧边栏/悬浮面板、主题皮肤 CSS 字体、表情包气泡、聊天窗口布局与宽度、输入增强、应用内通知/toast、桌宠、壁纸、界面组件与交互优化 |
 | `media-vision` | 设计、媒体与视觉 | 图像生成与处理、OCR/视觉识别、视频处理、语音合成 TTS/语音识别、画布/白板/设计工具、AIGC 创作、头像 |
-| `web-browser` | 网页与浏览器 | 网页抓取/正文提取、浏览器自动化、网页内容摘要、URL 处理、联网搜索、新闻资讯聚合（HN/知乎热榜/微博热搜类）、启动器/spotlight |
+| `web-browser` | 网页与浏览器 | 网页抓取/正文提取、浏览器自动化、网页内容摘要、URL 处理、联网搜索、新闻资讯聚合（HN/知乎热榜/微博热搜类） |
 | `integrations-sharing` | 集成与分享 | 第三方服务桥接（飞书/Lark、Telegram、QQ、微信、Discord、Slack、Notion、Zotero、GitHub 事件同步等）、消息推送到第三方渠道、远程遥控助手、分享导出、webhook |
 | `knowledge-research` | 知识与研究 | 记忆库/长期记忆检索、知识库/笔记知识管理、文献/论文/学术、学习卡片/间隔重复、深度研究报告、蒸馏总结 |
 | `developer-tools` | 开发者工具 | git 相关、代码审查/lint、调试器、终端/shell 增强、日志、JSON/CSV/YAML 处理、正则、编码转换、沙箱/运行时、数据库、API 调试、密钥/凭据/账号管理、代理网关 |
@@ -46,6 +46,7 @@ DSH（DeepSeek Harness）是一个 AI 编程助手/Agent 平台，本目录收�
 16. **MCP/协议形态不构成依据**：MCP server、skill、subagent 只是**实现形态**。按其连接的终端服务归类：飞书 MCP → `integrations-sharing`；数据库/运维 MCP → `developer-tools`；网页 MCP → `web-browser`。纯协议网关/模型路由/凭据代理/密钥管理 → `developer-tools`。
 17. **桌宠 vs 游戏**：桌宠（陪伴、装饰、状态显示、余额播报）→ `ui-experience`；有完整玩法循环的游戏（养成进度、关卡、胜负）→ `utilities`。
 18. **插件合集仓**：monorepo 装多个独立插件的仓库，按其主要/招牌功能归类；确实无主导功能的纯集合 → `ecosystem-resources`。
+19. **启动器与桌面壳（2026-11-27 增补）**：宿主内快捷启动面板（Ctrl+Space/spotlight 命令面板，搜索会话/插件/设置等宿主内资源）→ `ui-experience`；独立桌面壳、一键启动器、便携运行时、多实例/版本管理器等**宿主分发与运行信封**（核心是安装/启动/承载/管理宿主本身）→ `ecosystem-resources`，不散落 web-browser/ui-experience/utilities。启动目标是外部对象（项目服务、游戏、文档流程）的启动器按该对象领域归类。
 
 ## 输出契约
 

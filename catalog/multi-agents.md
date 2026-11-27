@@ -4,7 +4,7 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **968**
+- 本册收录 / Entries in this volume: **967**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -426,7 +426,6 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 | [GY-Bai/dsh-anchored-subagent](https://github.com/GY-Bai/dsh-anchored-subagent) | DSH plugin: start the main agent and subagents on DeepSeek's Minimal harness, then unlock the full tool catalog | JavaScript | 1 | MIT | 2026-10-14 |
 | [HaroldZ32/My-Power-Dsh](https://github.com/HaroldZ32/My-Power-Dsh) | A DeepSeek Harness plugin bundle: the specialist roster, team plane, workmates, memory, verification, and a native dsh-Go interface. | TypeScript | 1 | MIT | 2026-11-11 |
 | [Hercules-debug/dsh-flock](https://github.com/Hercules-debug/dsh-flock) | Self-organizing multi-agent clusters for DeepSeek Harness — real DSH subagents coordinating through a shared append-only log, no orchestrator | JavaScript | 1 | NOASSERTION | 2026-10-09 |
-| [heyiwe1/dsh-multi-agent-preset](https://github.com/heyiwe1/dsh-multi-agent-preset) | 为 DeepSeek Harness 打造的多 agent 协同 preset：方向师/架构师/执行者三角色热插拔 + 可交互三模工具栏与一键启动。开箱即用、随包协议完备。Multi-agent collaboration preset for DeepSeek Harness: hot-swappable three roles — Director, Architect and Executor, alongside an interactive three-module toolbar supporting one-click startup. Ready-to-use, with fully integrated bundled protocols. | JavaScript | 1 | — | 2026-08-18 |
 | [hezhongtang/dsh-capability-optimizer](https://github.com/hezhongtang/dsh-capability-optimizer) | External-expert consultation for DeepSeek Harness: headless Claude Code CLI with role personas (advisor/reviewer/designer, extensible), replies as reference answers — thinking effort, model fallback, panels, settings workspace. · DSH 外部专家咨询：headless 调用 Claude Code CLI，角色人设（advisor/reviewer/designer，可扩展）回复即参考答案——推理等级、模型回退、并行会诊、设置工作区。 | JavaScript | 1 | MIT | 2026-09-27 |
 | [huaComPj/dsh-workflow-plugin](https://github.com/huaComPj/dsh-workflow-plugin) | Configurable serial agent-team workflows for DeepSeek Harness, with Manager coordination, role actors, independent judging, and a visual editor. | TypeScript | 1 | MIT | 2026-11-12 |
 | [huajiao1998/dsh-plugin-subagent-clean](https://github.com/huajiao1998/dsh-plugin-subagent-clean) | DeepSeek Harness 子代理清理插件：删除子代理会话，并把父会话日志里残留的目录行原位退休，附带网页端一键清理面板（上游会报错、历史行清不掉） | JavaScript | 1 | MIT | 2026-11-08 |

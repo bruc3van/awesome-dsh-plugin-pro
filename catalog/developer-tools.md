@@ -4,7 +4,7 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **4933**
+- 本册收录 / Entries in this volume: **4928**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -766,7 +766,6 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 | [CodeMody/dsh-rea](https://github.com/CodeMody/dsh-rea) | Reverse Engineer Anything (REA) as a DeepSeek Harness plugin: rea MCP server behind a tool-filter proxy plus the vendored reverse-engineer-anything skill, all on one toggle. | JavaScript | 3 | MIT | 2026-11-15 |
 | [COH2357/dsh-workspace-api-key](https://github.com/COH2357/dsh-workspace-api-key) | 一个Deepseek Harness插件，可以为每一个工作区配置独立的Api Key | JavaScript | 3 | MIT | 2026-11-12 |
 | [cyberlieflife/dsh-model-thinking](https://github.com/cyberlieflife/dsh-model-thinking) | DSH (DeepSeek Harness) web plugin: thinking intensity / reasoning effort settings for custom OpenAI-compatible (pi-ai) models | TypeScript | 3 | — | 2026-09-12 |
-| [czhmisaka/dsh-fleet](https://github.com/czhmisaka/dsh-fleet) | Multi-host DeepSeek Harness panel: sessions, dashboards, usage &amp; context pressure, budgets, one-click launch — all from one sidebar page. | JavaScript | 3 | MIT | 2026-11-20 |
 | [d3vmeh/dsh-llm-gate](https://github.com/d3vmeh/dsh-llm-gate) | Per-provider concurrency gate for DeepSeek Harness model requests | JavaScript | 3 | MIT | 2026-11-12 |
 | [Dalld/dsh-ssh-plugin](https://github.com/Dalld/dsh-ssh-plugin) | SSH for DeepSeek Harness agents: run commands and move files over SSH while private keys stay inside the Host process. | JavaScript | 3 | MIT | 2026-11-08 |
 | [deCOLE118/dsh-sitemap](https://github.com/deCOLE118/dsh-sitemap) | 站点地图（Yakit 风格）：DeepSeek Harness 侧边栏树形接口地图，搜索 / 接口详情 / 一键复制 curl，数据实时同步 | TypeScript | 3 | BSD-3-Clause | 2026-09-12 |
@@ -2688,7 +2687,6 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 | [borncode-app/dsh-minimax-auth](https://github.com/borncode-app/dsh-minimax-auth) | The MiniMax Code OAuth grant reader and refresher shared by dsh-minimax-credit and dsh-minimax-checkin. | JavaScript | 0 | MIT | 2026-11-14 |
 | [borncode-app/dsh-minimax-credit](https://github.com/borncode-app/dsh-minimax-credit) | Shows the account's remaining MiniMax credits and keeps the MiniMax provider working after the Token Plan quota is spent. | JavaScript | 0 | MIT | 2026-11-14 |
 | [borncode-app/dsh-minimax-model-sync](https://github.com/borncode-app/dsh-minimax-model-sync) | Keeps an llm-pi-ai provider route's model list in sync with the provider's models endpoint. | JavaScript | 0 | MIT | 2026-11-14 |
-| [borui1757-cmd/dsh-guard](https://github.com/borui1757-cmd/dsh-guard) | Danger-zone guard for DSH: single-instance check (two hosts on one profile lose 72% of writes), rolling snapshots, session integrity check, restore from the latest healthy snapshot. | JavaScript | 0 | — | 2026-11-07 |
 | [bosenok/dsh-openrouter-sync](https://github.com/bosenok/dsh-openrouter-sync) | Keep the DSH openrouter provider model list in sync with OpenRouter's currently-free models. | JavaScript | 0 | MIT | 2026-11-07 |
 | [bosenok/dsh-zai-mcp](https://github.com/bosenok/dsh-zai-mcp) | Install Z.AI MCP servers into DeepSeek Harness: skill, bootstrap and agent preset. | Shell | 0 | — | 2026-11-07 |
 | [boyingliu01/dsh-aot-runner](https://github.com/boyingliu01/dsh-aot-runner) | NativeAOT subprocess runner for DSH (DeepSeek Harness): eliminates ~63-67% of runner overhead, p99 improved by 73-124ms | JavaScript | 0 | MIT | 2026-11-24 |
@@ -2933,7 +2931,6 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 | [DshMarketPlace/dsh-plugin-validator](https://github.com/DshMarketPlace/dsh-plugin-validator) | Sandboxed install validation for DeepSeek Harness plugins — installs each one into a fresh profile in a throwaway container and reports what the harness recorded | JavaScript | 0 | MIT | 2026-10-28 |
 | [dthcle/dsh-proxy-config](https://github.com/dthcle/dsh-proxy-config) | Configurable outbound HTTP proxy for DeepSeek Harness (DSH): set the proxy endpoint in Settings, with a live reachability check and an automatic no-proxy fallback that switches back once the proxy answers. | JavaScript | 0 | MIT | 2026-11-06 |
 | [duanyunlun/dsh-provider-headers](https://github.com/duanyunlun/dsh-provider-headers) | Per-provider request headers in the DeepSeek Harness Models settings page, with per-conversation ${sessionId} expansion. | JavaScript | 0 | MIT | 2026-09-11 |
-| [dududreamer/dsh-cookie-janitor](https://github.com/dududreamer/dsh-cookie-janitor) | Collapses the port-suffixed dsh-auth-* cookie pile so the DeepSeek Harness desktop shell never exhausts Node's 16 KB request-header budget. | JavaScript | 0 | MIT | 2026-11-01 |
 | [duhongming1990/multi-model-chat](https://github.com/duhongming1990/multi-model-chat) | 一次提问，并发调用多个 OpenAI 兼容模型；每一组问答自动保存到本地；每条模型的回答都可以点赞，并提供模型点赞分析统计 | JavaScript | 0 | MIT | 2026-11-16 |
 | [duhuashan/dsh-annals](https://github.com/duhuashan/dsh-annals) | DSH 插件：每天一个日志文件 + 自动索引 + git 版本记录，带技能、常驻规矩、轮次提醒与一键初始化 | JavaScript | 0 | MIT | 2026-10-30 |
 | [dungcsnd1133/dsh-tlpro-models](https://github.com/dungcsnd1133/dsh-tlpro-models) | DSH: TLPro gateway routes and model catalog as a bundle patch layer, without touching the DSH checkout. | JavaScript | 0 | MIT | 2026-11-06 |
@@ -4242,7 +4239,6 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 | [tcgbp/dsh-flash-net-mon](https://github.com/tcgbp/dsh-flash-net-mon) | Network monitor, outbound audit and network-alert provider for dock-flash — a GitHub mirror of the authoritative Gitee repository. | JavaScript | 0 | Apache-2.0 | 2026-11-12 |
 | [teilomillet/dsh-openai-subscription](https://github.com/teilomillet/dsh-openai-subscription) | Connect DeepSeek Harness to a ChatGPT subscription through official browser sign-in. macOS community add-on. | JavaScript | 0 | NOASSERTION | 2026-10-07 |
 | [telagod/dsh-ssh-workspace-manager](https://github.com/telagod/dsh-ssh-workspace-manager) | dsh-plugin: SSH hosts, workspace bindings, and remote exec/sync/compose for DeepSeek Harness | JavaScript | 0 | MIT | 2026-09-11 |
-| [tengyinan1994/dsh-project-runner](https://github.com/tengyinan1994/dsh-project-runner) | Grouped run panel for DeepSeek Harness: one click starts a project's services in a real PTY, streams live output, and keeps each run's log on disk for the agent to read. | JavaScript | 0 | MIT | 2026-10-22 |
 | [TerebiSAMA/dsh-openviking-settings](https://github.com/TerebiSAMA/dsh-openviking-settings) | OpenViking 状态页插件：在 DSH【设置】里查看 OpenViking 连接、服务健康、记忆与会话计数。需要先部署 OpenViking 服务才会显示实时数据。 | TypeScript | 0 | MIT | 2026-11-09 |
 | [termanli/dsh-fulltext-search](https://github.com/termanli/dsh-fulltext-search) | A DSH (DeepSeek Harness) Web GUI plugin that searches file contents in the current session working directory from the sidebar file manager (dsh-better-sidebar), returning file + line number + matching line preview. | JavaScript | 0 | Apache-2.0 | 2026-08-27 |
 | [tesths/dsh-model-key-sync](https://github.com/tesths/dsh-model-key-sync) | Sync DeepSeek Harness model configuration and third-party API keys across machines, over S3-compatible storage or WebDAV | JavaScript | 0 | MIT | 2026-10-18 |
@@ -4483,7 +4479,6 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 | [vb2250158/dsh-performance-statistics](https://github.com/vb2250158/dsh-performance-statistics) | Detailed timing charts and auxiliary model call statistics for DeepSeek Harness | JavaScript | 0 | MIT | 2026-11-03 |
 | [vb2250158/dsh-provider-visibility](https://github.com/vb2250158/dsh-provider-visibility) | Provider visibility policy and Model list settings page | JavaScript | 0 | MIT | 2026-10-31 |
 | [vclike/dsh-github-companion](https://github.com/vclike/dsh-github-companion) | DeepSeek Harness 插件：AI 操作 GitHub 的完整集成——33 个 REST/GraphQL 工具 + 进程内权限门 + 成本纪律 companion skill — DeepSeek Harness plugin: complete GitHub integration for AI agents, 33 tools, permission gate, companion skill. | TypeScript | 0 | MIT | 2026-11-01 |
-| [VCPr0j3k7/dsh-desktop-settings](https://github.com/VCPr0j3k7/dsh-desktop-settings) | Settings page for the DeepSeek Harness desktop shell — README translation, GitHub proxy, market cache, and account top-up | JavaScript | 0 | MIT | 2026-09-25 |
 | [VCPr0j3k7/dsh-mcp-manager](https://github.com/VCPr0j3k7/dsh-mcp-manager) | Graphical MCP server manager for the DeepSeek Harness desktop shell — add, remove, toggle, test, and scan Model Context Protocol servers | JavaScript | 0 | MIT | 2026-09-25 |
 | [Veagau/dsh-account-vault](https://github.com/Veagau/dsh-account-vault) | Encrypted account vault plugin for DeepSeek Harness | JavaScript | 0 | MIT | 2026-11-04 |
 | [Verchiel666/dsh-aosp](https://github.com/Verchiel666/dsh-aosp) | 在 DSH 里直接拉 AOSP 源码快照并在本机用 ripgrep 搜代码：走 codeload tar 快照（github.com 不通也能用），无需 root、无需 git、不编译 | JavaScript | 0 | MIT | 2026-11-06 |

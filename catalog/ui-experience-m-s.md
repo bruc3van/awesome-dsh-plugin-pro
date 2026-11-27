@@ -4,7 +4,7 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1895**
+- 本册收录 / Entries in this volume: **1886**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -125,7 +125,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [SciF-Lin/dsh-notify-sound-plus](https://github.com/SciF-Lin/dsh-notify-sound-plus) | DSH 提示音插件：任务完成/需要回答/需要授权/出错四类事件的 Web Audio 实时合成提示音，可在通用设置里逐事件选音、上传自定义音频，对话左下角有临时静音喇叭；兼容桌面端与网页端 | JavaScript | 8 | — | 2026-11-21 |
 | [SherUnlocked-4869/dsh-plugin-msg-nav](https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav) | DeepSeek Harness 对话节点导航条插件：在对话区右缘渲染一列短横线节点串（每条真实用户消息一个节点），跟随阅读位置；鼠标靠近节点串时，节点条「变形弹出」为单行消息预览面板（覆盖原位置，移开复原），点击任意预览平滑跳转 + 高亮横线，节点过多时可在悬停区域内用滚轮滑动浏览 | JavaScript | 8 | MIT | 2026-09-18 |
 | [SkyWingDN/dsh-fairy-zzz](https://github.com/SkyWingDN/dsh-fairy-zzz) | 第三方修改版（非官方），基于 AssassinVIX/fairy-zzz-plugin（MIT）与 Chengzhibense/Fairy-DSH（Apache-2.0）修改。Fairy Ⅲ / 绝区零 H.D.D 皮肤 for DeepSeek Harness：性能优化 + 用量气泡 / 拖拽眼徽 / 外观三档 / 欢迎页文案 + 可选本地 GPT-SoVITS 语音。 | JavaScript | 8 | MIT | 2026-11-26 |
-| [SnowCrescenter-tech/dsh-desktop](https://github.com/SnowCrescenter-tech/dsh-desktop) | DeepSeek Harness 桌面版 — 原生 Windows 桌面壳（无边框窗口 / 系统托盘 / 原生通知 / 单实例 / 开机自启）\| Native Windows desktop shell for DeepSeek Harness (frameless window, tray, native notifications, single-instance, auto-launch) | TypeScript | 8 | MIT | 2026-11-19 |
 | [soolaugust/deepseek-harness-cli](https://github.com/soolaugust/deepseek-harness-cli) | Interactive terminal agent (fork of DeepSeek Harness): Claude Code-style REPL — full-screen UI, markdown rendering, session stats, permission cycling, custom OpenAI-compatible providers. | TypeScript | 8 | MIT | 2026-11-13 |
 | [StarryHui/dsh-custom-background](https://github.com/StarryHui/dsh-custom-background) | DSH 自定义 WebUI 背景插件 | TypeScript | 8 | MIT | 2026-09-09 |
 | [stushansusu/dsh-web-start-ui](https://github.com/stushansusu/dsh-web-start-ui) | dsh web start ui - 启动动画 / launch-video plugin for the DSH Web GUI and desktop client: built-in and custom launch skins, a settings page, and a feedback group QR code. | TypeScript | 8 | Apache-2.0 | 2026-11-01 |
@@ -254,7 +253,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [meyaomiao/dsh-files-native](https://github.com/meyaomiao/dsh-files-native) | DSH 插件：接近原生质感的附件上传（拖入/粘贴/回形针，图片与文件混排） | TypeScript | 3 | MIT | 2026-11-08 |
 | [miku00039-01/dsh-whale-pet](https://github.com/miku00039-01/dsh-whale-pet) | 🐋 DSH 桌宠:DeepSeek Harness 的 Windows 桌面宠物,一键启动/停止/监测服务,双击唤起 GUI,零依赖单文件 exe | C# | 3 | MIT | 2026-10-01 |
 | [MonshinYu/dsh-desktop](https://github.com/MonshinYu/dsh-desktop) | DeepSeek Harness的Desktop版本 | HTML | 3 | MIT | 2026-09-07 |
-| [MoonlitDropOfBlood/DSH-Desktop](https://github.com/MoonlitDropOfBlood/DSH-Desktop) | 为DeepSeek Harness 打造的桌面端，没有打包DeepSeek Harness，核心可以独立更新 | JavaScript | 3 | MIT | 2026-11-04 |
 | [moononnn/DeepSeek-Harness-biaoqingbao](https://github.com/moononnn/DeepSeek-Harness-biaoqingbao) | 一个在DSH上使用的表情包插件，在和agent聊天时让ta自然的插入表情包 | JavaScript | 3 | MIT | 2026-11-05 |
 | [moyuer233/dsh-deepseek-monitor](https://github.com/moyuer233/dsh-deepseek-monitor) | DeepSeek usage monitor as a DeepSeek Harness (DSH) plugin: balance / day-month-all-time token &amp; cost panel in the chat UI with drag-reorder config, plus an optional local usage proxy | JavaScript | 3 | MIT | 2026-10-25 |
 | [MrmoLabs/dsh-yorha-ui](https://github.com/MrmoLabs/dsh-yorha-ui) | NieR:Automata-inspired YoRHa industrial terminal theme for DeepSeek Harness Web. | TypeScript | 3 | MIT | 2026-10-28 |
@@ -411,7 +409,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [ruanimal/dsh-sidebar-panel-buttons](https://github.com/ruanimal/dsh-sidebar-panel-buttons) | dsh 侧边栏顶部的全局面板菜单从「竖向文字列表」 收起为一排横向图标按钮 | JavaScript | 2 | — | 2026-10-29 |
 | [ruegg114514/dsh-colorlab](https://github.com/ruegg114514/dsh-colorlab) | Chat UI colour theme plugin for DeepSeek Harness. Ships the Mariana palette as its default preset and adds a colour engine: 18 adjustable colour slots, 9 Markdown prose roles, saved presets, WCAG contrast hints and light/dark modes. | JavaScript | 2 | NOASSERTION | 2026-11-18 |
 | [ruiyukirin/dsh-prompt-optimization-master](https://github.com/ruiyukirin/dsh-prompt-optimization-master) | DSH 输入框一键提示词增强按钮 \| One-click prompt enhancement for the DeepSeek Harness composer: rewrite the unsent draft into a clearer, more specific prompt, restore the original with one click. Ported from Tencent WorkBuddy's EnhancePrompt design; independent model call that never touches the session log. | JavaScript | 2 | MIT | 2026-11-19 |
-| [Ruler4396/dsh-launcher-lifetime](https://github.com/Ruler4396/dsh-launcher-lifetime) | DeepSeek Harness (dsh) plugin: control the dsh service lifetime (always-on / tray / follow-window) for the dsh-launcher shell | TypeScript | 2 | MIT | 2026-09-29 |
 | [sailoumili/dsh-sidebar-plus](https://github.com/sailoumili/dsh-sidebar-plus) | 基于 DSH 官方侧边栏的文件视图增强插件，提供源码视图、原位编辑、行号显示、搜索和字体缩放功能。  A file-view enhancement plugin that extends the official DSH sidebar, providing source view, in-place editing, line number display, search, and font zoom. | JavaScript | 2 | MIT | 2026-10-04 |
 | [sakka6868/dsh-skin](https://github.com/sakka6868/dsh-skin) | DSH skin plugin: Alphacoders popular wallpapers as the DeepSeek Harness Web GUI background — gallery, search, local image upload, light/dark mask | TypeScript | 2 | MIT | 2026-10-01 |
 | [Saknutella/dsh-thinking-quips](https://github.com/Saknutella/dsh-thinking-quips) | Playful bilingual quips and dynamic loading icons for the DeepSeek Harness (DSH) running-turn indicator. | JavaScript | 2 | MIT | 2026-11-06 |
@@ -536,7 +533,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [mojiezhenlinana/dsh-custom-profile](https://github.com/mojiezhenlinana/dsh-custom-profile) | 给 DeepSeek Harness 换掉左下角那块「头像 + 昵称」，顺手把设置 → 账号与余额卡片里的头像也一起换掉。  只改本机浏览器的显示，不动账号资料，不联网，不上报任何数据 | JavaScript | 1 | MIT | 2026-11-02 |
 | [mojiezhenlinana/dsh-scroll-bottom](https://github.com/mojiezhenlinana/dsh-scroll-bottom) | 给 DeepSeek Harness 的 Web 界面加一个「一键回到底部」的圆形按钮，贴在输入框上方中间。  往上翻历史看完之后，不用再手动滑回去 | JavaScript | 1 | MIT | 2026-10-31 |
 | [momoqiqi-qwq/dsh-session-top-new-plus](https://github.com/momoqiqi-qwq/dsh-session-top-new-plus) | DSH 会话总览 · 中文增强版：侧栏活动铃铛 + 会话悬浮条，运行中/未读/最近三段视图、侧栏定位、面板主题、右键书签。基于 cuijiajun/dsh-session-top-new 的社区二改。 | JavaScript | 1 | MIT | 2026-11-21 |
-| [Moningxuan-bot/blue-fish-station](https://github.com/Moningxuan-bot/blue-fish-station) | 蓝色大肥鱼工作站 —— DSH 单独应用 + 美化：桌面 EXE（WebView2 外壳，一键启动）+ Web UI 覆盖层（品牌标/思考文案/背景毛玻璃/推理强度滑块），不改 DSH 源码 | JavaScript | 1 | MIT | 2026-09-28 |
 | [Mooling0602/dsh-bili-danmaku-overlay](https://github.com/Mooling0602/dsh-bili-danmaku-overlay) | Bilibili live danmaku as an always-visible overlay in the DSH Web UI. | TypeScript | 1 | MIT | 2026-11-11 |
 | [moon-partner/dsh-anime25d-pets-v2](https://github.com/moon-partner/dsh-anime25d-pets-v2) | DSH0.2.0compatible anime 2.5D desktop pet | TypeScript | 1 | NOASSERTION | 2026-10-04 |
 | [moondrop12138/dsh-opencode-go-usage](https://github.com/moondrop12138/dsh-opencode-go-usage) | OpenCode Go subscription usage page for the DSH Web UI: official 5h / weekly / monthly used-percent windows, reset countdowns and a local sampling trail. | JavaScript | 1 | — | 2026-10-22 |
@@ -754,7 +750,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [ROOOOOYczx/DSH-peakseek](https://github.com/ROOOOOYczx/DSH-peakseek) | DeepSeek Harness plugin for peak and idle model pricing hints with a one-click patch installer. | Batchfile | 1 | — | 2026-08-29 |
 | [ropz12138/dsh-ui-background](https://github.com/ropz12138/dsh-ui-background) | deepseek harness 的背景插件，会涉及一些其他组件css覆盖 | TypeScript | 1 | NOASSERTION | 2026-09-09 |
 | [Rosmarinus-Young/dsh-thinking-summary](https://github.com/Rosmarinus-Young/dsh-thinking-summary) | 在 deepseek harness 中每一步思考后自动总结思考内容（调用flash模型） | JavaScript | 1 | MIT | 2026-09-18 |
-| [Roxy-gl373/dsh-desktop](https://github.com/Roxy-gl373/dsh-desktop) | DSh Whale · DeepSeek Harness 桌面启动器：WebView2 内嵌 DSH 界面，实时日志、单实例托盘、多开、等比缩放，装插件自动快照回滚。install.cmd 一键配置。 | C# | 1 | NOASSERTION | 2026-09-02 |
 | [RoyougiShiki/dsh-restart-systemd](https://github.com/RoyougiShiki/dsh-restart-systemd) | DSH WebUI 重启按钮（systemd 版）：侧栏一键重启 dsh-web，WSL/Linux systemd 通道 + Windows 分支，/restart 命令，会话自动续接 | JavaScript | 1 | MIT | 2026-11-07 |
 | [rsbsnv/dsh-mobile-adapt](https://github.com/rsbsnv/dsh-mobile-adapt) | 手机端交互与可读性适配：抽屉式侧栏（滑动开合 + 可调宽度）、滑动手势、触控命中区、软键盘避让、正文字号下限。Mobile interaction &amp; readability layer for DSH Web. | JavaScript | 1 | MIT | 2026-11-12 |
 | [rshh0520/opencode-go-useage](https://github.com/rshh0520/opencode-go-useage) | Opencodego package usage monitoring plugin for DSH | JavaScript | 1 | MIT | 2026-10-22 |
@@ -768,7 +763,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [S-anZZz/dsh-pink-bow-kitty](https://github.com/S-anZZz/dsh-pink-bow-kitty) | Soft pink bow-kitty theme for the DeepSeek Harness Web UI: kitty-print wallpaper, light and dark palettes, kitty mascots. | JavaScript | 1 | — | 2026-10-21 |
 | [s17765152890-gif/dsh-usage-quota](https://github.com/s17765152890-gif/dsh-usage-quota) | DeepSeek Harness plugin: Codex-style reasoning-effort control and provider-aware usage/quota in the composer dock. | JavaScript | 1 | MIT | 2026-11-06 |
 | [s1lencewill/dsh-markdown-reader](https://github.com/s1lencewill/dsh-markdown-reader) | DSH Web GUI full-screen Markdown reader with GFM, outline, KaTeX, Mermaid, and relative resource navigation. | JavaScript | 1 | BSD-3-Clause | 2026-11-07 |
-| [s3yf1337/dsh-desktop](https://github.com/s3yf1337/dsh-desktop) | Desktop profile for the DeepSeek Harness: a native Tauri window over the harness web surface — tray, single-instance, OS notifications, suggest-only updater, native dialogs, drag &amp; drop, and an in-app settings tab. | JavaScript | 1 | MIT | 2026-09-11 |
 | [Sad-Jack/deepseek-harness-russian](https://github.com/Sad-Jack/deepseek-harness-russian) | Русский язык для DeepSeek Harness 0.2.1-rc.5 на основе официальных переводов DeepSeek. Russian language pack. | JavaScript | 1 | MIT | 2026-11-05 |
 | [sadjjk/dsh-ascii-whales](https://github.com/sadjjk/dsh-ascii-whales) | 让鲸群游进对话里。DeepSeek Harness ASCII 鲸鱼背景插件，支持对话中低耗显示（基于 Chael-Chael/dsh-ascii-whales） | JavaScript | 1 | NOASSERTION | 2026-10-27 |
 | [sailina-afk/cyrene-balance-widget](https://github.com/sailina-afk/cyrene-balance-widget) | Cyrene balance widget for DSH (DeepSeek Harness): full-screen opening animation, time-aware greeting voice, 9 sticker interaction bubbles, balance / spend / peak-hour panel. | JavaScript | 1 | MIT | 2026-11-08 |
@@ -1092,7 +1086,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [mizuki5101/dsh-latex-render-fix](https://github.com/mizuki5101/dsh-latex-render-fix) | 让 dsh 正确渲染 $$\\begin{aligned}…$$ 这类 LaTeX 写法：启动时自动打解析前规范化补丁，随升级自动重打 | JavaScript | 0 | MIT | 2026-11-19 |
 | [MJH520/dsh-welcome-boot](https://github.com/MJH520/dsh-welcome-boot) | 启动DSH默认播放鲸鱼女仆的开机动画，点设置→内置插件→开屏动画就可以换成自己的视频。 | JavaScript | 0 | MIT | 2026-10-22 |
 | [mkasoy/dsh-all-notify](https://github.com/mkasoy/dsh-all-notify) | deepseek harness notify plugin | JavaScript | 0 | MIT | 2026-09-28 |
-| [MKInori/dsh-oneclick-desktop](https://github.com/MKInori/dsh-oneclick-desktop) | Windows: turns DSH into a desktop app. A one-click launcher and tray controller, plus a sidebar button that splits DSH and chat.deepseek.com side by side with its own taskbar button. | PowerShell | 0 | MIT | 2026-10-27 |
 | [Mknecar/dsh_HUDV1.0.0](https://github.com/Mknecar/dsh_HUDV1.0.0) | 做了一个DeepSeek Harness 的右上角悬浮任务台，它能够实时显示当前时段是波峰（贵/红）还是波谷（便宜/绿），还提供了模型、工具、Agent、定价与 24 小时的峰谷轨迹。整体设计风格就是左侧信息 + 右侧看板娘，希望大家喜欢。。 | — | 0 | — | 2026-09-05 |
 | [mkpoli/dsh-finish-sound](https://github.com/mkpoli/dsh-finish-sound) | DSH Web UI plugin: a generated cue when a turn finishes and a different cue when the agent asks a question, with a composer mute, preview and volume control. | JavaScript | 0 | MIT | 2026-11-07 |
 | [mkpoli/dsh-workspace-sessions-first](https://github.com/mkpoli/dsh-workspace-sessions-first) | DeepSeek Harness sidebar: in Workspace Tree, a Workspace's own sessions render above its nested workspace folders. | JavaScript | 0 | MIT | 2026-11-07 |
@@ -1226,7 +1219,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [nguyenduclong-ict/dsh-better-uiux](https://github.com/nguyenduclong-ict/dsh-better-uiux) | Better UIUX for DeepSeek Harness: one Settings section with switches for live terminal output streaming and custom CSS injection | JavaScript | 0 | MIT | 2026-09-29 |
 | [nguyenduclong-ict/dsh-plugin-custom-css](https://github.com/nguyenduclong-ict/dsh-plugin-custom-css) | Custom CSS injection for DeepSeek Harness: a Settings section with an on/off toggle and a live CSS textarea | JavaScript | 0 | MIT | 2026-09-11 |
 | [NianjunZou/dsh-session-manager](https://github.com/NianjunZou/dsh-session-manager) | Codex-style left session manager for DSH — a reversible left-workspace UI overlay with a pinned section, project-session grouping and status dots. | JavaScript | 0 | MIT | 2026-10-20 |
-| [niceberserker38/deepseek-harness-desktop](https://github.com/niceberserker38/deepseek-harness-desktop) | Unlock DeepSeek Harness locally with a minimal, cross-platform desktop shell for private AI experimentation. | JavaScript | 0 | MIT | 2026-10-13 |
 | [nickkupriyanov/dsh-plugin-composer-cost](https://github.com/nickkupriyanov/dsh-plugin-composer-cost) | DeepSeek Harness Web UI plugin: session cost in CNY and the live peak/off-peak rate, beside the composer token stats. | JavaScript | 0 | MIT | 2026-10-21 |
 | [Nigel211/dsh-token-usage](https://github.com/Nigel211/dsh-token-usage) | DeepSeek Harness (DSH) 的 Token 用量与费用统计插件:趋势图、日历热力图、模型占比环图与多平台账户余额。Token usage &amp; cost analytics for DeepSeek Harness (DSH): trend charts, calendar heatmap, model share donut, and multi-provider balance tracking. | JavaScript | 0 | MIT | 2026-08-22 |
 | [Night-maze/dsh-desktop-pet-naiwa](https://github.com/Night-maze/dsh-desktop-pet-naiwa) | 桌宠-奶娃小时候 - A Windows desktop companion for DeepSeek Harness | C# | 0 | MIT | 2026-11-05 |
@@ -1458,7 +1450,6 @@ DSH 插件全量目录的「界面与体验（M–S）」分册 / The "UI & Expe
 | [qcy-good/turn-cost-footer](https://github.com/qcy-good/turn-cost-footer) | Real per-turn CNY cost in the DeepSeek Harness completed-turn footer, folded from the session log with a local price table. | JavaScript | 0 | MIT | 2026-11-06 |
 | [QDNBD/dsh-panel-pins](https://github.com/QDNBD/dsh-panel-pins) | Keyboard-first sidebar panel launcher for DeepSeek Harness: grouped searchable Panels menu, Ctrl+K command palette, Alt+1..9 direct jumps, MRU, named layout presets, pin/hide/rename rows. | JavaScript | 0 | MIT | 2026-11-16 |
 | [qgx1992/dsh-model-select-style](https://github.com/qgx1992/dsh-model-select-style) | DSH web 插件：把输入框模型选择控件替换为两个独立按钮（供应商 + 模型两级联动，支持推理等级调节） | JavaScript | 0 | — | 2026-10-30 |
-| [qgx1992/dsh-notify](https://github.com/qgx1992/dsh-notify) | DSH 通知显示层插件：全局 toast 栈，订阅桌面壳 __dshExo 桥事件，点击经官方 sessions runtime 程序化激活会话；无壳时降级订阅 sessions store 自绘。可插拔通知显示层的 web 侧。 | JavaScript | 0 | MIT | 2026-08-28 |
 | [qgynisc/dsh-inline-pastes](https://github.com/qgynisc/dsh-inline-pastes) | DeepSeek Harness Web GUI 插件：粘贴图片即在文字中插入 image-1.png 内联胶囊，悬浮名字预览缩略图，自动编号（文字中插图 / hover 预览） | JavaScript | 0 | MIT | 2026-10-21 |
 | [QHY2333/dsh-restart](https://github.com/QHY2333/dsh-restart) | One-click Restart DSH button in the sidebar footer: reload newly installed plugins without quitting and reopening the app. / 侧栏底部一键重启 DSH。 | JavaScript | 0 | MIT | 2026-11-12 |
 | [qian-dsh/dsh-session-map](https://github.com/qian-dsh/dsh-session-map) | A draggable, zoomable radial map of the session tree for DSH: see which conversation branched off which, and switch by clicking a node. | JavaScript | 0 | MIT | 2026-10-23 |

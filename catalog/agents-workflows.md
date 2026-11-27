@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1402**
+- 本册收录 / Entries in this volume: **1401**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -865,7 +865,6 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 | [ailawu0409/dsh-session-archive](https://github.com/ailawu0409/dsh-session-archive) | Session archive management plugin for DeepSeek Harness | JavaScript | 0 | MIT | 2026-11-12 |
 | [Aily-DSH/dsh-approval-inbox](https://github.com/Aily-DSH/dsh-approval-inbox) | 把阻塞式审批变成后台收件箱：Agent 不用干等，排队后继续干活，你有空再批。 | JavaScript | 0 | MIT | 2026-11-05 |
 | [Aily-DSH/dsh-peak-guard](https://github.com/Aily-DSH/dsh-peak-guard) | 按 DeepSeek 峰谷计价时段自动暂停/恢复 DSH 会话：高峰前提醒、到点停止、低谷恢复，支持节假日与调休。 | JavaScript | 0 | MIT | 2026-11-07 |
-| [Aily-DSH/dsh-superagent-manager](https://github.com/Aily-DSH/dsh-superagent-manager) | 在同一个 DSH 客户端管理多个 dsh-superagent 项目：一键建仓、克隆、注册工作区、启动实例，并在标签页面板内代理运行。自用测试版，实际使用中可能有意料之外的 bug 和报错。 | JavaScript | 0 | MIT | 2026-11-25 |
 | [airfloats/dsh-context-selector](https://github.com/airfloats/dsh-context-selector) | Per-row context checkbox selector + document/selection right-click Ask AI for DeepSeek Harness. | JavaScript | 0 | MIT | 2026-11-09 |
 | [Aixineiar/dsh-side-chat](https://github.com/Aixineiar/dsh-side-chat) | Throwaway side conversation in the DSH right sidebar: reply-only / read-only / fully inherited, enforced in the tool registry | JavaScript | 0 | MIT | 2026-11-10 |
 | [AK-blank/dsh-plugin-auto-answer](https://github.com/AK-blank/dsh-plugin-auto-answer) | Unofficial DeepSeek Harness plugin: answers ask_user_question with the recommended option when nobody replies in time, so an unattended session keeps working. | JavaScript | 0 | MIT | 2026-10-18 |
