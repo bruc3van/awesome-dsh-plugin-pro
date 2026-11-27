@@ -10,6 +10,8 @@
 
 经过审核的 DeepSeek Harness（DSH）插件目录与订阅源：剔除蹭标签与非插件仓库，提供按场景整理的精选推荐、全量分类目录，以及经核验安装目标的插件市场与官方「发现」页订阅数据。
 
+**官网：[DSH Market Pro](https://dsh-market-pro.com/)**。本项目由 Bruce Van 维护，是第三方社区项目，非 DeepSeek 官方。网站提供目录浏览、精选 Skills、MCP 与订阅说明；[`dsh-market-pro`](https://www.npmjs.com/package/dsh-market-pro) 是 DSH 内使用的市场插件；[`awesome-dsh-plugin-feed`](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 是供程序消费的目录数据分发包。本仓库维护目录数据、审核记录与生成脚本。
+
 ## 🏪 插件市场与官方「发现」页订阅
 
 提供两种在 DSH 内浏览与安装本目录插件的方式（均通过宿主官方插件管理器执行安装）：
@@ -92,7 +94,7 @@ mindmap
 | 30 秒选出一个插件 | [精选推荐](#-精选推荐)：从「我想让 DSH 做什么」出发，按场景分组列出社区优秀插件 |
 | 第一次装插件 | [新手入门组合](#-新手入门组合)：按当前问题选一套组合，不用一次装很多 |
 | 按热度翻完整榜单 | [社区热度榜](#-社区热度榜)（首页 Top 50）· [TOP200.md](./TOP200.md)（完整 Top 200） |
-| 用程序消费插件数据 | npm feed `awesome-dsh-plugin-feed` 的 [market-catalog.json](https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-catalog.json)——完整已审核目录（每行带 `install_status` 与安装映射）+ 官方订阅 + 编辑精选，字段见[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)；[data/repositories.json](./data/repositories.json)——每日自动快照，含星数、许可证、活跃度等元数据 |
+| 用程序消费插件数据 | npm 数据包 [`awesome-dsh-plugin-feed`](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 的 [market-catalog-v4.json](https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-catalog-v4.json)——schema 4 紧凑目录，含安装状态与映射、官方订阅及编辑精选，字段见[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)；[data/repositories.json](./data/repositories.json)——每日自动快照，含星数、许可证、活跃度等元数据 |
 | 按分类浏览全部项目 | [CATALOG.md](./CATALOG.md)（全量目录）· [生态全景](#-生态全景)（分类概览） |
 | 看看作者们自己提交的新插件 | [作者自荐](#-作者自荐)（首页最近 10 条）· [SHOWCASE.md](./SHOWCASE.md)（全部） |
 | 收录或推荐你自己的插件 | [推荐或修正插件](#-推荐或修正插件) / [CONTRIBUTING](./CONTRIBUTING.md) |
@@ -381,7 +383,7 @@ mindmap
 - **数据自动、推荐受控：** 原始快照与待审核队列每天由脚本自动刷新；全量目录与 Top 200 热度榜只在审核合并后重新生成（生成逻辑见 [scripts/merge.mjs](./scripts/merge.mjs) 与 [scripts/top.mjs](./scripts/top.mjs)，可随时切回 Top 100）；首页精选推荐、自荐与最近加入独立维护，避免刷星、蹭 Topic 等被污染的接口数据直接改写推荐内容。
 - **剔除蹭热度条目：** 带 `dsh-plugin` Topic 但并非 DSH 插件的仓库（平台本体、其他 Agent 工具、同名目录站等）以及拉黑仓库不计入目录与榜单，理由逐条记录在 [data/curated.json](./data/curated.json)（榜单另有 `leaderboard_exclusions`：保留在目录中、但不参与榜单排序的仓库），可随时复查与质疑。
 - **审核留痕：** 每个收录决定都可回查——核准日期在 [data/approved.json](./data/approved.json)，剔除与榜单排除理由逐条记录在 [data/curated.json](./data/curated.json)；大批量审核另附存档记录（如 [2026-11-26 审核记录](./data/review/2026-11-26.md)），全流程约定见 [data/review/README.md](./data/review/README.md)。
-- **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog.json`（schema 3：完整已审核目录，每行带 `install_status` 与安装映射，另含官方订阅与编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
+- **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog-v4.json`（schema 4 紧凑目录：含安装状态与映射、官方订阅及编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。schema 3 已下线。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
 截至 2026-11-25，全量目录收录 **31103** 个仓库、**42** 种主要语言；其中 **28613** 个声明了许可证，**30759** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
@@ -409,7 +411,7 @@ mindmap
 **作者维护**
 
 - **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro：DeepSeek Harness 的专业版桌面客户端，主打企业级配置。个人装好就能用：窗口加载原汁原味的官方 Web UI，关窗任务照跑、常驻托盘随点随开，安装包自带官方运行时双击即用，首次启动自动订阅精选插件列表；企业场景由配套的开源管理服务端完成：IT 统一配置模型网关、插件订阅、Skill 和工具权限，员工公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux。
-- **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — DSH 插件市场专业版：精选真插件，集浏览、安装、更新及安装后 AI 安全审查于一体；通过 npm 数据包的 `market-catalog.json` 读取完整已审核目录与订阅精选。
+- **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — DSH 插件市场专业版：精选真插件，集浏览、安装、更新及安装后 AI 安全审查于一体；通过 npm 数据包的 `market-catalog-v4.json` 读取完整已审核目录与订阅精选。
 - **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表转图片、可编辑数学公式，同一份内容提供 Skill、独立 CLI 与 DSH 插件三种形态。（同见目录 [utilities 分册](./catalog/utilities.md)。）
 
 **官方仓库**

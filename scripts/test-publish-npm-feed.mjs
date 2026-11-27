@@ -59,23 +59,31 @@ test('invalid install mappings never reach npm', async (t) => {
   assert.doesNotMatch(result.stdout, /MOCK_NPM_PUBLISH/);
 });
 
-test('first publication, version bump and digest no-op', async (t) => {
+test('first publication, unchanged feed no-op and homepage correction', async (t) => {
   const root = await fixture(t);
   const first = await run(root, 'return {status:404,ok:false}');
   assert.equal(first.status, 0, first.stderr);
   assert.match(first.stdout, /MOCK_NPM_PUBLISH/);
   assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog-v4.json', 'packages.json']);
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
+  assert.equal(manifest.homepage, 'https://dsh-market-pro.com/');
+  assert.equal(manifest.repository.url, 'git+https://github.com/bruc3van/awesome-dsh-plugin-pro.git');
+  const readme = await readFile(resolve(root, 'dist-npm/README.md'), 'utf8');
+  assert.match(readme, /\[DSH Market Pro\]\(https:\/\/dsh-market-pro\.com\/\)/);
+  assert.match(readme, /https:\/\/www\.npmjs\.com\/package\/dsh-market-pro/);
   const doc = { 'dist-tags': { latest: manifest.version }, versions: { [manifest.version]: manifest } };
   const response = () => `return {ok:true,status:200,json:async()=>(${JSON.stringify(doc)})}`;
   const noop = await run(root, response());
   assert.equal(noop.status, 0, noop.stderr);
   assert.doesNotMatch(noop.stdout, /MOCK_NPM_PUBLISH/);
-  doc.versions[manifest.version].feedDigest = 'older';
+  // A homepage correction must publish even when the catalog digest is unchanged.
+  doc.versions[manifest.version].homepage = 'https://github.com/bruc3van/awesome-dsh-plugin-pro#readme';
   const bump = await run(root, response());
   assert.equal(bump.status, 0, bump.stderr);
   const next = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   assert.equal(next.version, manifest.version.replace(/\.0$/, '.1'));
+  assert.equal(next.feedDigest, manifest.feedDigest);
+  assert.equal(next.homepage, 'https://dsh-market-pro.com/');
   const catalog = JSON.parse(await readFile(resolve(root, 'dist-npm/data/market-catalog-v4.json'), 'utf8'));
   const index = JSON.parse(await readFile(resolve(root, 'data/dsh-market-index.json'), 'utf8'));
   assert.equal(catalog.schema_version, 4);

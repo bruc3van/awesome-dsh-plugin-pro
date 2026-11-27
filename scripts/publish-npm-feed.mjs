@@ -16,7 +16,7 @@
 //
 // Idempotency: the data digest (sha256 over all three files) rides along as
 // a `feedDigest` field in package.json. Before publishing, the registry's
-// latest version is checked — same digest means nothing changed and the run
+// latest version is checked — same digest and homepage mean nothing changed and the run
 // is a no-op, so the daily workflow hook never piles up empty versions.
 
 import { createHash } from 'node:crypto';
@@ -30,6 +30,7 @@ import { buildCompactMarketCatalog, readSafeMarketCatalog } from './safe-market-
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLISH = process.argv.includes('--publish');
 const PKG_NAME = 'awesome-dsh-plugin-feed';
+const HOMEPAGE = 'https://dsh-market-pro.com/';
 const REGISTRY = 'https://registry.npmjs.org';
 const DIST = resolve(root, 'dist-npm');
 
@@ -80,6 +81,7 @@ async function latestInfo() {
       published: true,
       latest,
       feedDigest: doc.versions?.[latest]?.feedDigest,
+      homepage: doc.versions?.[latest]?.homepage,
       versions: Object.keys(doc.versions ?? {}),
     };
   } catch (error) {
@@ -94,7 +96,7 @@ if (info.error) {
   if (PUBLISH) process.exit(1);
   console.warn('Building offline only; this version is not confirmed available on npm.');
 }
-if (info.published && info.feedDigest === digest) {
+if (info.published && info.feedDigest === digest && info.homepage === HOMEPAGE) {
   console.log(`feed already published as ${info.latest} (digest ${digest.slice(0, 12)}…) — nothing to do.`);
   emitGitHubOutput(info.latest, false);
   process.exit(0);
@@ -136,10 +138,10 @@ function writeDist(version) {
   const packageJson = {
     name: PKG_NAME,
     version,
-    description: 'DSH plugin market catalog — every reviewed repository with its install status, the published subscription, and the packages mapping. China-reachable via registry.npmmirror.com.',
+    description: 'Data distribution package for the DSH Market Pro community directory for DeepSeek Harness: reviewed plugins, install mappings, subscription, and editorial picks. China-reachable via registry.npmmirror.com.',
     license: 'MIT',
     repository: { type: 'git', url: 'git+https://github.com/bruc3van/awesome-dsh-plugin-pro.git' },
-    homepage: 'https://github.com/bruc3van/awesome-dsh-plugin-pro#readme',
+    homepage: HOMEPAGE,
     files: ['data', 'README.md'],
     feedDigest: digest,
     feedGeneratedAt: generatedAt,
@@ -151,7 +153,12 @@ async function writeReadme(version) {
   const readme = [
     '# awesome-dsh-plugin-feed',
     '',
-    `Market data snapshot for the [awesome-dsh-plugin-pro](https://github.com/bruc3van/awesome-dsh-plugin-pro) catalog, published so consumers can fetch it from an npm registry — including the China-reachable mirror registry.npmmirror.com — when raw.githubusercontent.com is unreachable.`,
+    'Data distribution package for [DSH Market Pro](https://dsh-market-pro.com/), a third-party DeepSeek Harness (DSH) community plugin directory maintained by Bruce Van. Not affiliated with DeepSeek.',
+    '',
+    '- **Website:** [dsh-market-pro.com](https://dsh-market-pro.com/) — browse the plugin directory, curated Skills and MCP servers, and subscription instructions.',
+    '- **Marketplace plugin:** [dsh-market-pro](https://www.npmjs.com/package/dsh-market-pro) — browse and install plugins inside DSH.',
+    '- **Data package:** `awesome-dsh-plugin-feed` — consume catalog snapshots from npm or the China-reachable registry.npmmirror.com mirror when raw.githubusercontent.com is unreachable.',
+    '- **Source and curation:** [awesome-dsh-plugin-pro](https://github.com/bruc3van/awesome-dsh-plugin-pro) — catalog data, review records, and generation scripts.',
     '',
     `- version: \`${version}\` (calver \`0.YYYYMMDD.N\`)`,
     `- feed generated at: \`${generatedAt}\``,

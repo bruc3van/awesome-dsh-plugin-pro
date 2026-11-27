@@ -4,12 +4,12 @@ name: Publish the feed to npm (mirrored by npmmirror)
 # registry.npmjs.org, and raw.githubusercontent.com is unreliable from inside
 # the GFW — so the market feed and packages mapping ship as the
 # awesome-dsh-plugin-feed npm package. Consumers fetch
-# https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-catalog.json
+# https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-catalog-v4.json
 #
 # Runs after every completed official subscription refresh (success, or failure so
 # landed source changes are never held back) and
 # can be triggered manually. The publish script's feedDigest gate makes this
-# idempotent: same data = no-op without burning a version. Publishing uses
+# idempotent: same data and homepage = no-op without burning a version. Publishing uses
 # npm Trusted Publishing (OIDC). After the first authenticated local release,
 # configure this repository and publish-npm-feed.yml as the package's trusted
 # publisher on npmjs.org, allowing direct npm publish.
@@ -72,7 +72,7 @@ jobs:
         run: npm install --global npm@11.15.0
       # The script validates the data first (validate-packages /
       # validate-market-catalog) and then decides whether anything needs
-      # publishing: same feedDigest as the registry's latest → "nothing to do".
+      # publishing: same feedDigest and homepage as latest → "nothing to do".
       - name: Build and publish the feed package
         id: publish
         run: node scripts/publish-npm-feed.mjs --publish
