@@ -7,7 +7,7 @@
 - 生成时间 / Generated: **2026-11-27**
 - 快照日期 / Snapshot date: **2026-11-26 (UTC)**
 - 待审核 / Pending: **280**
-- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **15**
+- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **16**
 - Star 异常增长 / Star-growth alerts: **6** — 先看下方告警节 / see the alert section first
 - 改名/身份待复核 / Renames pending review: **38**
 
@@ -412,6 +412,7 @@ Approved but no longer present in the current snapshot. Same-owner renames were 
 - houyanchao/dsh-quote-ask
 - LANHJUN/dsh-liang-time
 - todrinkcho/dsh-task-chime-badge
+- wangqiqi/planrun
 - xiaobaga281/dsh-token-spend
 - xiaochouxia11/dsh-hindsight-memory
 - xiaoge480/dsh-qzone-diary

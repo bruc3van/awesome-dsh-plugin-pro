@@ -6,7 +6,7 @@ DSH 插件全量目录的「界面与体验（A–F）」分册 / The "UI & Expe
 
 - 本册收录 / Entries in this volume: **2151**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
-- 最近人工复核 / Last review merge: **2026-11-26**
+- 最近人工复核 / Last review merge: **2026-11-27**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |

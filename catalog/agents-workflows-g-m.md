@@ -6,7 +6,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 
 - 本册收录 / Entries in this volume: **1600**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
-- 最近人工复核 / Last review merge: **2026-11-26**
+- 最近人工复核 / Last review merge: **2026-11-27**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:17:02.644Z",
+  "generated_at": "2026-11-27T11:39:15.315Z",
   "snapshot_date": "2026-11-26",
   "pending": [
     {
@@ -5425,6 +5425,7 @@
     "houyanchao/dsh-quote-ask",
     "LANHJUN/dsh-liang-time",
     "todrinkcho/dsh-task-chime-badge",
+    "wangqiqi/planrun",
     "xiaobaga281/dsh-token-spend",
     "xiaochouxia11/dsh-hindsight-memory",
     "xiaoge480/dsh-qzone-diary",

@@ -6,3 +6,4 @@ dist-npm/
 scripts/host-market/node_modules/
 
 Temp/
+.playwright-mcp/

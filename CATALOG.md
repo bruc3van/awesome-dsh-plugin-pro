@@ -14,7 +14,7 @@ The catalog is split into one volume per category — the full list outgrew GitH
 - Primary languages: **42**
 - Declared licenses: **28593**
 - Refreshed: **2026-11-26 UTC**
-- 最近人工复核 / Last review merge: **2026-11-26**
+- 最近人工复核 / Last review merge: **2026-11-27**
 
 ## 分册 / Volumes
 
