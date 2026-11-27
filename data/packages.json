@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-27",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -155440,20 +155440,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "fufuf-c/dsh-token": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "@fufuf-c/dsh-token",
-          "source": "npm:@fufuf-c/dsh-token",
-          "command": "dsh plugin --profile web add @fufuf-c/dsh-token"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "yuioi666/dsh-conversation-nav-dots": {
       "packages": [
         {
@@ -249064,6 +249050,164 @@
       "verified_date": "2026-11-26",
       "verified_via": "manifest@d6c064ad8dde",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "fz2hopensource/firmware-forge": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "git clone https://github.com/Fz2hOpenSource/firmware-forge.git then run ./install.ps1 (Windows can double-click install.bat) per docs/workbench-usage.md#dsh; installs skills/commands/tools for a preset-capable DSH; MDK build/flash plugin requires Windows PowerShell"
+    },
+    "mkaliezz/dsh-agentfuse-plugin": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "packages/dsh-agentfuse declares a DSH bundle (dsh.bundle.patch -> cordis.patch.yml); install by referencing it from a profile bundle list or applying the patch row directly; supported build path is dropping the package into the DSH monorepo at packages/guard/agentfuse/ (DSH packages are not published to npm, workspace:^ deps)"
+    },
+    "qiuxu-tech/memex": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "git clone https://github.com/QiuXu-Tech/memex.git, npm run bootstrap, node scripts/build-bundle.mjs, node scripts/check-bundle.mjs, then register packages/memex as an installed bundle in the DSH profile (plugin-manager or manual patch per docs/install.md) and reload; contributes 8 cordis rows; explicitly not published to npm"
+    },
+    "ffdnm/clashtunwithdsh": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "One-click install: run bundled install.ps1 (Windows PowerShell 5.1+) or install.sh (macOS/Linux/Git Bash) from a clone; script copies clash-tun-web-fetch-unlock.cjs into $DSH_HOME and idempotently appends a marked cordis.patch.yml block; uninstall via install.ps1 -Uninstall / install.sh uninstall"
+    },
+    "gulagala001/dsh-trisoul": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "npx github:gulagala001/dsh-trisoul init then npx github:gulagala001/dsh-trisoul start (installs into ~/.dsh-trisoul, runs on its own port 3081, one-command uninstall); on machines without git use the Releases archive and run node cli/index.mjs init; requires Node >= 20 + pnpm"
+    },
+    "kelai141/dsh-shell-termux": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "put the package into the web profile node_modules: npm install /path/to/dsh-shell-termux-0.2.0.tgz (release tgz) from ~/.dsh/profiles/web, or unpack into <profile>/node_modules/@dsh-android/dsh-shell-termux/; then add cordis.patch.yml rows disabling bash-sandbox and inserting shell-termux with Termux bashPath/prefix/home/cwd; restart dsh and verify with --dump-config"
+    },
+    "kestiny18/dsh-plugins": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-redact",
+          "command": "dsh plugin --profile web add dsh-redact",
+          "install": "dsh-redact"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-usage",
+          "command": "dsh plugin --profile web add dsh-usage",
+          "install": "dsh-usage"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "lishize20040802-rgb/useful-dsh-plugins": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "collection install: npx --yes useful-dsh-plugins@0.5.1 setup (verifies checksums, stores under <DSH_HOME>/third-party/, registers five packages via official DSH CLI; uninstall: same npx with uninstall); alt: run dsh plugin --profile web add ./dsh-plugin-voice-input-0.3.0.tgz from a Release .tgz; Windows install.ps1 available"
+    },
+    "lovaxi/rubato_plugins": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lovaxi/Rubato_Plugins#path:/dsh",
+          "command": "dsh plugin --profile web add https://github.com/lovaxi/Rubato_Plugins#path:/dsh",
+          "install": "https://github.com/lovaxi/Rubato_Plugins#path:/dsh"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "malinovme/dsh-unica": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "curl -fsSL https://raw.githubusercontent.com/malinovme/dsh-unica/main/install.sh | sh (Windows: irm .../install.ps1 | iex) - verifies SHA-256, extracts, auto-picks profile (desktop else web; UNICA_VERSION pin); from source: git clone then node install.mjs --target both --verify; restart DSH"
+    },
+    "nyantused-cpun/folio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@nyantused/folio-dsh-tools",
+          "command": "dsh plugin --profile web add @nyantused/folio-dsh-tools",
+          "install": "@nyantused/folio-dsh-tools"
+        },
+        {
+          "profile": "web",
+          "source": "npm:@nyantused/folio-dsh-events",
+          "command": "dsh plugin --profile web add @nyantused/folio-dsh-events",
+          "install": "@nyantused/folio-dsh-events"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "ooooooomygosh/paper-research-coach": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "macOS Apple silicon only (dsh-v1.4.2): download PRC-DSH-1.4.2-mac.zip from GitHub releases, quit Harness and tray app, unzip and double-click 安装.command, restart and enter via 论文研读; plugin self-updates via 设置→版本与更新 (checks DSH-specific release, verifies SHA-256); no Windows package for 1.4.2; skill-only mode exists for Claude Code/Codex/Pi"
+    },
+    "tyr1105/dsh-buddy": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:@tyr1105/dsh-buddy",
+          "command": "dsh plugin --profile desktop add @tyr1105/dsh-buddy",
+          "install": "@tyr1105/dsh-buddy"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "ygc06/fishpet-release": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-27",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "README: paste release asset link https://github.com/ygc06/fishpet-release/releases/latest/download/fishpet-emotion.tgz into DSH 添加插件 box (asset verified HTTP 200), then install the Windows desktop pet via FishPet-Setup-2026.11.17.exe; pet auto-discovers local DSH"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-27",
   "entries": {
     "daha1216/dsh-adult-tension": {
       "reason": "Agent Skill（原生 SKILL）：`skill/adult-tension/` 含 SKILL.md + references + 运行时，安装方式是把该目录复制进 ~/.dsh/skills/，没有 cordis 插件或 dsh bundle 清单",
@@ -277,6 +277,22 @@
     "wuliliuyue/wxpilot": {
       "reason": "插件声明 engines.dsh >=0.1.0-rc.6 <0.2.0，与全部受支持宿主（0.2.x）不兼容；npm 未发布",
       "date": "2026-11-26"
+    },
+    "murphy2000-cyk/dsh-skill-plugin-tuning": {
+      "reason": "pure skill bundle, not an installable DSH plugin: install is copying the dsh-skill-plugin-tuning directory one level under a skills root (~/.agents/skills/ user-level or <project>/.dsh/skills|/.agents/skills project-level); no package.json, no npm, no dsh plugin add path",
+      "date": "2026-11-27"
+    },
+    "niyueee/dsh-container": {
+      "reason": "container image packaging of the DSH host itself (ghcr.io/niyueee/dsh-container via docker compose / podman quadlet) - host distribution, not a plugin; the one container-adapt Cordis plugin ships inside the image at /opt/dsh-container-plugin and is mounted via dsh --patch, so there is no installable plugin target for an existing DSH user",
+      "date": "2026-11-27"
+    },
+    "fotor-ai/fotor-agent-plugins": {
+      "reason": "not a DSH plugin itself: root package.json is a pi-package snapshot and README explicitly says the DSH bundle is distributed only from sibling repo fotor-ai/dsh-fotor-plugin; npm @fotor-ai/dsh-fotor-plugin@0.8.1 repository points to fotor-ai/dsh-fotor-plugin, NOT this repo - ownership test fails; maintainer should catalog fotor-ai/dsh-fotor-plugin instead",
+      "date": "2026-11-27"
+    },
+    "leolee9086/sac_search": {
+      "reason": "repo no longer ships any plugin: the three plugins (dsh-tool-websearch, dsh-tool-everything, dsh-better-session-query) split into their own repositories and this repo keeps only history/shared assets (\"本仓库不再发布插件包\"); documented install is pnpm add github:<sibling> + manual cordis.patch.yml edit against those sibling repos - maintainer should queue the sibling repos instead",
+      "date": "2026-11-27"
     }
   }
 }

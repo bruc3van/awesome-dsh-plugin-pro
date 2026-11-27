@@ -4,7 +4,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **467**
+- 本册收录 / Entries in this volume: **470**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-27**
 
@@ -272,6 +272,8 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [qinu321/dsh-archive-viewer](https://github.com/qinu321/dsh-archive-viewer) | 已归档DSH（DeepSeek Harness）会话的只读查看器：不取消归档，就能浏览归档列表、阅读完整对话与工具调用。 | JavaScript | 0 | MIT | 2026-10-29 |
 | [qisisiqi/dsh-bili-banghui](https://github.com/qisisiqi/dsh-bili-banghui) | B站帮回：B站回复评论，AI 按态度出稿，人审后发出 | JavaScript | 0 | MIT | 2026-11-18 |
 | [qiuqiu6657/geo-trend-radar](https://github.com/qiuqiu6657/geo-trend-radar) | DSH plugin: turns public hot lists into GEO topic cards, compliance alerts, competitor share of voice, claim-admitted evidence and contract-checked drafts. | JavaScript | 0 | MIT | 2026-11-24 |
+| [qiyaogongfang/dsh-rankings](https://github.com/qiyaogongfang/dsh-rankings) | 软件排行榜：苹果 App Store 与谷歌 Play 的每日榜单、飙升榜和中文简介，DSH 侧栏插件。 | JavaScript | 0 | MIT | 2026-11-26 |
+| [qlings/dsh-chrome](https://github.com/qlings/dsh-chrome) | DSH Chrome 插件 + MV3 扩展：让 DeepSeek Harness 接管本机 Chrome，读写页面、提交表单、抓接口、多标签对照，61 个动作 | JavaScript | 0 | MIT | 2026-11-26 |
 | [qq-24/dsh-web-fetch-fallback](https://github.com/qq-24/dsh-web-fetch-fallback) | Transparent local-fetch fallback for DeepSeek Harness: when the configured web_fetch provider fails, fetch the URL directly and return a successful result to the same tool. | JavaScript | 0 | MIT | 2026-11-13 |
 | [quei4r/dsh-host-kimi-search](https://github.com/quei4r/dsh-host-kimi-search) | Zero-config Kimi Coding web search provider for DeepSeek Harness: reuses the local kimi-coding credential, install and web_search just works. | JavaScript | 0 | MIT | 2026-08-19 |
 | [qunqin24/dsh-plugin-search-hub](https://github.com/qunqin24/dsh-plugin-search-hub) | Multi-engine web search plugin for DeepSeek Harness: free AI search rotation with cooldown, Tavily/Brave/Serper/Exa/Perplexity/Jina/Bocha/SearXNG, settings page. | TypeScript | 0 | MIT | 2026-10-19 |
@@ -347,6 +349,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [thegabopacheco-sudo/dsh-plugin-seo-auditor](https://github.com/thegabopacheco-sudo/dsh-plugin-seo-auditor) | Auditoría SEO para DeepSeek Harness: title, meta, headings, imágenes sin alt, enlaces rotos, robots.txt y sitemap con lista blanca de hosts. | JavaScript | 0 | MIT | 2026-11-11 |
 | [This-is-XiaoDeng/dsh-web-search-tavily](https://github.com/This-is-XiaoDeng/dsh-web-search-tavily) | Tavily-backed web search provider for the DeepSeek Harness (DSH) web capability seam (ctx.web) — provider id tavily, zero dependencies, MIT | JavaScript | 0 | MIT | 2026-11-24 |
 | [thomasly/dsh-web-search-brave](https://github.com/thomasly/dsh-web-search-brave) | Brave Search provider for DeepSeek Harness (dsh): model-agnostic web_search on the official ctx.web seam. 零依赖，复用你自己的 Brave key。 | JavaScript | 0 | MIT | 2026-11-02 |
+| [TianYi666666/dsh-ego-browser](https://github.com/TianYi666666/dsh-ego-browser) | DeepSeek Harness plugin: drive the ego lite browser from your agent (run ego-browser scripts, open pages, read snapshots) in the profile you are already signed in to. | JavaScript | 0 | MIT | 2026-11-26 |
 | [TianzeLuo/dsh-web-search-keyless](https://github.com/TianzeLuo/dsh-web-search-keyless) | DSH 插件：给 ctx.web 换上一个不需要密钥、也不消耗模型回合的搜索 provider | JavaScript | 0 | MIT | 2026-10-01 |
 | [tietoumiao/dsh-scrapling](https://github.com/tietoumiao/dsh-scrapling) | DeepSeek Harness plugin exposing Scrapling as 4 model-facing scraping tools (fetch / extract / batch / site). MIT licensed, external contributions not accepted. | JavaScript | 0 | MIT | 2026-11-19 |
 | [Tindada/banso-dsh](https://github.com/Tindada/banso-dsh) | 基于 DeepSeek Harness 的网页研究助手，支持搜索、阅读网页、证据提取与面向模型的会话内资料管理。 | JavaScript | 0 | MIT | 2026-10-30 |

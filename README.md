@@ -37,48 +37,48 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-11-26 共收录 **31077** 个经核实的仓库。它们长这样：
+截至 2026-11-26 共收录 **31346** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 31077))
-    界面与体验 · 7728
+  root((DSH 插件生态 31346))
+    界面与体验 · 7796
       用量与计费面板
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    Agent 自动化与工作流 · 5182
+    Agent 自动化与工作流 · 5227
       会话与上下文管理
       定时循环与事件唤醒
       审批、预算与检查点
-    开发者工具 · 4932
+    开发者工具 · 4972
       Git 与 diff
       模型网关与密钥
       调试与诊断
-    实用工具与其他 · 3417
+    实用工具与其他 · 3437
       文件与编码
       格式转换
-    知识与研究 · 2124
+    知识与研究 · 2150
       知识库与跨会话记忆
       深度研究
       学术与数学
-    设计媒体与视觉 · 2102
+    设计媒体与视觉 · 2126
       图片理解与 OCR
       设计画布与 UI 还原
       语音合成与识别
-    集成与分享 · 1818
+    集成与分享 · 1839
       会话导入与分享
       远程访问
       IM 与外部集成
-    生态与资源 · 1737
+    生态与资源 · 1750
       插件市场与注册表
       技能库与插件管家
       开发模板与脚手架
-    网页与浏览器 · 1068
+    网页与浏览器 · 1076
       浏览器桥接与页面操作
       网页搜索与引用
       归档与网页取证
-    多 Agent 编排协作 · 969
+    多 Agent 编排协作 · 973
       子代理与编排看板
       舰队与团队协作
       角色分工与任务验收
@@ -348,14 +348,14 @@ mindmap
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
-| [easychen/jing-chan-os](https://github.com/easychen/jing-chan-os) | 小鲸同学（JingChanOS）：DSH AI 伴侣与随身虚拟手机插件——Q版桌宠、免提语音电话、专注模式、AI 日记与 Android 远控。 | 2026-11-24 |
-| [drscrewdriver/dsh-union-search](https://github.com/drscrewdriver/dsh-union-search) | 联合网络搜索：免费无 key 引擎与付费搜索 API 智能路由，SearXNG 多实例，advance_fetch 把网页转成 Markdown 直接喂给会话。 | 2026-10-21 |
-| [drscrewdriver/dsh-im-union](https://github.com/drscrewdriver/dsh-im-union) | IM 双向桥：微信 iLink、Telegram、Discord、飞书、企业微信机器人接入 DSH 托管会话，发消息即跑任务、答复回到原聊天。 | 2026-10-17 |
-| [mysterycode-liwen/dsh-email](https://github.com/mysterycode-liwen/dsh-email) | 侧边栏邮件插件：IMAP/SMTP 收发 QQ、163、Gmail 等邮箱，凭据存本地保险箱。 | 2026-11-24 |
-| [videndi/dsh-collab](https://github.com/videndi/dsh-collab) | 多人协作研究室：邀请链接/二维码把朋友拉进项目，各自用各自 token 跑研究，局域网或隧道内实时同步会话进度。 | 2026-11-25 |
-| [hutaoloverforever/dsh-omnibridge](https://github.com/hutaoloverforever/dsh-omnibridge) | 全能桥：把本机专业软件（CAE、EDA、CAD、声学、科学计算）自动勘探、沙盒化并转成 AI 可驱动工具。 | 2026-11-25 |
-| [01kalival/dsh-timekeeper](https://github.com/01kalival/dsh-timekeeper) | 时间账本：自动统计你在 DSH 里的时间投入——四维面板、年度热力图、连续天数、番茄钟与可分享的年度总结卡片，数据只存本机。 | 2026-11-25 |
-| [yhx19960607-max/dsh-memory-nebula](https://github.com/yhx19960607-max/dsh-memory-nebula) | 记忆星图：把聊过的每一句铺成可旋转、可搜索的银河，点开即回到当时的对话，助手还能把记忆搜回来读懂。 | 2026-11-25 |
+| [EverMind-AI/EverMe](https://github.com/EverMind-AI/EverMe) | 跨设备跨 Agent 的个人记忆层：CLI + 插件套件为 DSH 等多宿主提供记忆保存、检索与 MCP 记忆资源接入。 | 2026-05-27 |
+| [liyupi/memecub](https://github.com/liyupi/memecub) | 给 agent 接表情包库：按情绪搜索梗图、GIF 与中文表情包，还能对整篇文章自动挑选合适位置插图（MCP + Skill + CLI）。 | 2026-10-13 |
+| [liyupi/vibefather](https://github.com/liyupi/vibefather) | 320+ 原创建站模板库：agent 按需求检索模板，附同款提示词与 DESIGN.md，生成落地页、SaaS、作品集与 3D 站点。 | 2026-10-26 |
+| [qiniu/dsh-agentapi](https://github.com/qiniu/dsh-agentapi) | 七牛官方 AgentAPI 插件：把云端托管智能体、执行环境与持久会话接入 DSH 工作区，支持子代理协作与轨迹查看。 | 2026-11-26 |
+| [yc5991/dsh-wechatbot](https://github.com/yc5991/dsh-wechatbot) | 微信官方 iLink Bot 桥：扫码直连私聊做个人助理与远程遥控，双向加密传文件，记忆驱动提醒。 | 2026-11-25 |
+| [liqiangai/dsh-code-editor](https://github.com/liqiangai/dsh-code-editor) | 右侧栏 VS Code 风格代码编辑器：文件树、多标签、语法高亮、快速打开与带冲突检测的原子保存。 | 2026-11-26 |
+| [Daaaaavid-zhou/dsh-camera](https://github.com/Daaaaavid-zhou/dsh-camera) | macOS 本地拍照插件：输入框上方弹实时预览，快门照片直接作为附件进消息，随包内置相机应用。 | 2026-11-26 |
+| [tanbopiao/jixia-publish](https://github.com/tanbopiao/jixia-publish) | 把 AI 生成内容一键发布到稷下内容生态：强制标注 AI 生成、经玄圭双层审核后分发，面向 agent 的内容发布插件。 | 2026-11-26 |
 
 ## 📣 作者自荐
 
@@ -382,11 +382,11 @@ mindmap
 - **精选推荐 + 全量索引分层：** 首页只放经过筛选的精选推荐与自荐预览；[CATALOG.md](./CATALOG.md) 及其分类分册收录全部经审核的仓库；新增仓库先进入[待审核队列](./data/review/pending.md)，审核后合并（约定见 [data/review/README.md](./data/review/README.md)）。
 - **数据自动、推荐受控：** 原始快照与待审核队列每天由脚本自动刷新；全量目录与 Top 200 热度榜只在审核合并后重新生成（生成逻辑见 [scripts/merge.mjs](./scripts/merge.mjs) 与 [scripts/top.mjs](./scripts/top.mjs)，可随时切回 Top 100）；首页精选推荐、自荐与最近加入独立维护，避免刷星、蹭 Topic 等被污染的接口数据直接改写推荐内容。
 - **剔除蹭热度条目：** 带 `dsh-plugin` Topic 但并非 DSH 插件的仓库（平台本体、其他 Agent 工具、同名目录站等）以及拉黑仓库不计入目录与榜单，理由逐条记录在 [data/curated.json](./data/curated.json)（榜单另有 `leaderboard_exclusions`：保留在目录中、但不参与榜单排序的仓库），可随时复查与质疑。
-- **审核留痕：** 每个收录决定都可回查——核准日期在 [data/approved.json](./data/approved.json)，剔除与榜单排除理由逐条记录在 [data/curated.json](./data/curated.json)；大批量审核另附存档记录（如 [2026-11-26 审核记录](./data/review/2026-11-26.md)），全流程约定见 [data/review/README.md](./data/review/README.md)。
+- **审核留痕：** 每个收录决定都可回查——核准日期在 [data/approved.json](./data/approved.json)，剔除与榜单排除理由逐条记录在 [data/curated.json](./data/curated.json)；大批量审核另附存档记录（如 [2026-11-27 审核记录](./data/review/2026-11-27.md)），全流程约定见 [data/review/README.md](./data/review/README.md)。
 - **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog-v4.json`（schema 4 紧凑目录：含安装状态与映射、官方订阅及编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。schema 3 已下线。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-11-26，全量目录收录 **31077** 个仓库、**42** 种主要语言；其中 **28593** 个声明了许可证，**30732** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-11-26，全量目录收录 **31346** 个仓库、**42** 种主要语言；其中 **28839** 个声明了许可证，**31001** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 

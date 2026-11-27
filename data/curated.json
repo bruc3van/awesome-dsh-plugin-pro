@@ -18202,7 +18202,7 @@
     "lihuan02/dsh-access": "developer-tools",
     "ln1m/dsh-side-tasks": "agents-workflows",
     "maruizewudi/dsh-chatbox-compat": "agents-workflows",
-    "muchen969/dsh-magpie": "developer-tools",
+    "MuChen969/dsh-magpie": "developer-tools",
     "nonshiranai/dshx": "ui-experience",
     "nowyousee1/agentloom": "ecosystem-resources",
     "player-minepig/dsh-message-console": "integrations-sharing",
@@ -19583,7 +19583,266 @@
     "schrodil/dsh-chrome-app-launcher": "ecosystem-resources",
     "imaginevoldermert/dsh-minimal-launcher-plugin": "ecosystem-resources",
     "jinwendijv/dsh-applauncher": "ecosystem-resources",
-    "evlon/deepseek-harness-launcher": "ecosystem-resources"
+    "evlon/deepseek-harness-launcher": "ecosystem-resources",
+    "01float01/dsh-remote": "integrations-sharing",
+    "1107186916/dsh-plugin-markdown-tone": "ui-experience",
+    "1804608397/dsh-plugin-browser-bridge": "web-browser",
+    "6nh2nkdznz-dot/dsh-context-capacity": "agents-workflows",
+    "751969653/dsh-fish-ears": "media-vision",
+    "7haumazein/dsh-research-workbench": "knowledge-research",
+    "862287884-alt/dsh-month-timer": "ui-experience",
+    "AA1AAAOQ/dsh-beginner-mode": "agents-workflows",
+    "AIcivilization/dsh-voice-engine": "media-vision",
+    "Ade-hale/dsh-session-eraser": "agents-workflows",
+    "Ade-hale/dsh-skill-conflicts": "ecosystem-resources",
+    "Ambulr/dsh-soda-authoring": "ecosystem-resources",
+    "Ambulr/dsh-soda-todo-nag": "agents-workflows",
+    "Antares422/dsh-design-board": "media-vision",
+    "AppsGanin/dsh-qwen-subscription": "developer-tools",
+    "Archerkattri/dsh-account-hub": "developer-tools",
+    "AstDen/dsh-mesh-toolkit": "developer-tools",
+    "BaihaiMianbaofang/dsh-liangdeng": "ui-experience",
+    "Baimacao/dsh-course-autoplay": "web-browser",
+    "BrathonBai/dsh-github-publish": "developer-tools",
+    "CSYIX2011/dsh-ai-sheet": "developer-tools",
+    "CYF736222347/dsh-programming-mode-zh": "agents-workflows",
+    "Calorios/dsh-auto-approve-lite": "agents-workflows",
+    "Casper-Mars/dsh-agent-uiux": "agents-workflows",
+    "Charlieeeo/dsh-next-reply": "ui-experience",
+    "Congxiang1994/dsh-qa-mode": "agents-workflows",
+    "DAnonyvinciT/dsh-preset-composer": "agents-workflows",
+    "DDVIP/dsh-memory-yuan": "knowledge-research",
+    "Daaaaavid-zhou/dsh-camera": "media-vision",
+    "DanMo661/DSH-Zui": "ui-experience",
+    "Daphne999/dsh-promo-card": "ecosystem-resources",
+    "Demonese/dsh-remember-reasoning-effort": "ui-experience",
+    "DreamRepair/dsh-go-quota": "ui-experience",
+    "Dstrue/dsh-private-persona": "agents-workflows",
+    "Dstrue/dsh-responses-api-injector": "developer-tools",
+    "Dstrue/dsh-whale-loli-standard": "agents-workflows",
+    "EricZhou0815/dsh-chrome-dictation": "ui-experience",
+    "Ethan-lamlam/dsh-notes": "knowledge-research",
+    "EverMind-AI/EverMe": "knowledge-research",
+    "FAKE0704/dsh-fabric-memory": "knowledge-research",
+    "FAKE0704/dsh-local-llm": "developer-tools",
+    "FashionChen111/Mail-Assistant-Plugin": "integrations-sharing",
+    "Fred-wizard/dsh-session-assistant": "agents-workflows",
+    "G-TY/dsh-tokens": "developer-tools",
+    "G33s3Fr13s/dsh-weread-free-library": "utilities",
+    "GarinZ/dsh-favorites": "knowledge-research",
+    "HUanyu2609-111/dsh-model-failover": "developer-tools",
+    "HanYu-me/dsh-novel-panel": "knowledge-research",
+    "HandsYe/dsh-off-work-countdown": "ui-experience",
+    "Hector387420489/dsh-session-reaper": "agents-workflows",
+    "ICEAXEMAN/dsh-lm-studio-polish": "agents-workflows",
+    "Ice-Bearmax/canghai": "knowledge-research",
+    "JNightDS/dsh-price-chip": "ui-experience",
+    "JackyZhou0227/dsh-phone-fleet": "integrations-sharing",
+    "JoblessJoe/deep-toolbox": "developer-tools",
+    "Kingsir111/dsh-turn-delete": "agents-workflows",
+    "Kirakila7/dsh-plugin-devlog-poster": "integrations-sharing",
+    "KunKun24/autonomous-dev-security-auditor-skills": "developer-tools",
+    "KunWu1980/dsh-books-plugin": "utilities",
+    "Liam-liyaming/dsh-result-comments": "ui-experience",
+    "LunateTy/dsh-account-avatar": "ui-experience",
+    "LvLaoTou/dsh-hindsight-manager": "knowledge-research",
+    "MIU-MA/resume-grill-agent": "web-browser",
+    "Misaki030112/dsh-agentapi": "integrations-sharing",
+    "Mooling0602/dsh-span-compaction": "agents-workflows",
+    "NUAAHANDA/dsh-composer-enhance": "ui-experience",
+    "Niefee/dsh-svn-viewer": "developer-tools",
+    "Prcentos/dsh-session-export": "agents-workflows",
+    "Protonhydrogen/DSH-meeting": "media-vision",
+    "Qxyz17/dsh-turn-alert": "ui-experience",
+    "RickT34/dsh-fake-logos": "ui-experience",
+    "RonaWhite/dsh-gongwei": "utilities",
+    "RonaWhite/dsh-pet-voice-clone": "media-vision",
+    "SEUMysteryMan/DSH-Ark-Quota-Dashboard-Plugin": "ui-experience",
+    "SEUMysteryMan/DSH-GUI-Virtual-Desktop-and-Window-Control": "agents-workflows",
+    "SEUMysteryMan/DSH-Long-Term-Memory": "knowledge-research",
+    "SEUMysteryMan/DSH_session-Conversation-File-Import": "agents-workflows",
+    "SHI2008/dsh-qgis-driver": "developer-tools",
+    "ShOpenMind/dsh-plugin-peak-valley": "agents-workflows",
+    "SillyMeo-1/dsh-see-touch": "agents-workflows",
+    "Sonder-frmc/dsh-subagent-window": "ui-experience",
+    "T1113047/ds-saver": "agents-workflows",
+    "Tanloon/dsh-share-chat-card": "integrations-sharing",
+    "TianYi666666/dsh-ego-browser": "web-browser",
+    "Tino0713/dsh_wechat_bot_talkingabout": "integrations-sharing",
+    "VanillaNahida/dsh-bluearchive-theme": "ui-experience",
+    "VictoriaCloud360/dsh-llm-provider-audit": "developer-tools",
+    "VoyagerXvoyagerx/dsh-wallpaper": "ui-experience",
+    "WangAnran123/dsh-companion-starter": "ecosystem-resources",
+    "WangDouble-Dev/dsh-contract-stamp": "utilities",
+    "William-JT-Shen/dsh-chat-web": "integrations-sharing",
+    "Wjc41164404/dsh-side-questions": "ui-experience",
+    "WyankinzZ/dsh-plugin-abap-diff": "developer-tools",
+    "XtremXpert/dsh-voice-conversation": "media-vision",
+    "XtremXpert/dsh-voice-tts": "media-vision",
+    "Yituojuanjuana/dsh-skill-shelf": "ecosystem-resources",
+    "YuRuhuan/dsh-singing": "utilities",
+    "Yuhuan-zz/pet-dress": "ui-experience",
+    "Yunfung/dsh-plugin-hdc-phone": "integrations-sharing",
+    "ZF3373/dsh-mathmodel": "knowledge-research",
+    "Zephyr-Axis/dsh-astrbot-unified": "integrations-sharing",
+    "ZhanRuiXin/dsh-autorouter": "developer-tools",
+    "Zi-Kong/dsh-tag": "ui-experience",
+    "architect321/dsh-hindsight-panel": "knowledge-research",
+    "asun-labs/dsh-remotion-studio": "media-vision",
+    "awanderindreams/dsh-speak-up-vital": "agents-workflows",
+    "boozik3412/dsh-media-artifacts": "media-vision",
+    "bot-for-imitoy/dsh-ui-nl": "agents-workflows",
+    "bruce2431/dsh-latex-editor": "knowledge-research",
+    "butterfly301/dsh-pirate-mode": "ui-experience",
+    "butterfly301/dsh-prompt-loader": "agents-workflows",
+    "butterfly301/dsh-session-terms": "knowledge-research",
+    "bychance6600/dsh-comfy": "media-vision",
+    "cattreemaybe/ai-wish-001-timetable": "utilities",
+    "cenweixin199/dsh-figma-spec": "media-vision",
+    "ckbw1941-crypto/dsh-paperang-print": "utilities",
+    "clown-lee/dsh-qwenwork-bridge": "developer-tools",
+    "clown-lee/dsh-trae-bridge": "developer-tools",
+    "compilink/dsh-docker-upgrade-plugin": "developer-tools",
+    "csw7777/dsh-trajectory-diff": "developer-tools",
+    "dake6767/dsh-phalanx": "ecosystem-resources",
+    "dengjx1-apk/dsh-soft-moe": "agents-workflows",
+    "dengnianchen/dsh-workspace-panels": "ui-experience",
+    "dkmnx/recollect": "knowledge-research",
+    "dragonLongZ/dsh-integration-env": "developer-tools",
+    "dragonLongZ/log-mcp-starter": "developer-tools",
+    "drscrewdriver/dsh-progress-union": "ui-experience",
+    "dsAI-Q/dsh-mg-video": "media-vision",
+    "dtapps/dsh-git-guard": "agents-workflows",
+    "eleysia111/agy-video-reader": "media-vision",
+    "fanyingnie2163663/dsh-guizhi": "ecosystem-resources",
+    "fanyingnie2163663/weave-observatory": "ui-experience",
+    "feigo313/dsh-leader": "multi-agents",
+    "fengguanghuai/dsh-workspace-tools": "ui-experience",
+    "future/dsh-tailscale-link": "integrations-sharing",
+    "fzjmaclearn/zack-calendar": "utilities",
+    "github-yousen/dsh-workbuddy-browser": "web-browser",
+    "gpboyer2/dsh-archived-open": "ui-experience",
+    "gpboyer2/dsh-finish-line": "agents-workflows",
+    "gpboyer2/dsh-session-title-on-turnend": "ui-experience",
+    "gpboyer2/dsh-toolcall-text-guard": "agents-workflows",
+    "gpboyer2/dsh-web-fetch-open": "developer-tools",
+    "guhanfei-ai/dsh-workspace-cake": "ui-experience",
+    "hbycwzm001/dsh-plugin-voiceover": "media-vision",
+    "heenljy/tan-memory": "knowledge-research",
+    "hgognav233-netizen/dsh-puppy-workflow": "ui-experience",
+    "hippone/dsh-aurora-background": "ui-experience",
+    "huanyu-a/dsh-profile-config-sync": "developer-tools",
+    "huanyu-a/dsh-ssh-hub": "developer-tools",
+    "hxliu4mcgill/iMem-skill": "knowledge-research",
+    "imluyg/dsh-pwsh-windows-guard": "agents-workflows",
+    "joao-paulo-santos/dsh-john-tweaks": "ui-experience",
+    "kit686/dsh-kolors": "media-vision",
+    "kl998/dsh-privacy-guard": "agents-workflows",
+    "ku4nc4/dsh-history-window": "ui-experience",
+    "laibanet/dsh-code-review-tab": "developer-tools",
+    "liangyishi27/dsh-progressive-tool": "agents-workflows",
+    "licos03010102/dsh-prompt-optimize-button": "ui-experience",
+    "lidaiyue/dsh-ai-news": "web-browser",
+    "lidaiyue/dsh-eye-theme": "ui-experience",
+    "lidaiyue/dsh-market-indices": "utilities",
+    "lidaiyue/dsh-workbuddy": "developer-tools",
+    "lijiawei255/dsh-plugin-solarized-eyecare": "ui-experience",
+    "lintaojlu/dsh-inplace-edit": "agents-workflows",
+    "linyu19872008/rocky-mem-dsh": "knowledge-research",
+    "liqiangai/dsh-code-editor": "developer-tools",
+    "lisiluan/dsh-capability-map": "ui-experience",
+    "listky/dsh-ali-open-code-review": "developer-tools",
+    "liunian1888/dsh-memory-star-map": "knowledge-research",
+    "liyupi/memecub": "media-vision",
+    "liyupi/vibefather": "ecosystem-resources",
+    "lliMill/dsh-persona-manager": "agents-workflows",
+    "loveeveryone-Mr-niu/dsh-keykeeper": "developer-tools",
+    "lsit27/dsh-mobile-route-priority": "integrations-sharing",
+    "luojuee/dsh-voice-fish": "media-vision",
+    "lvyawei5-design/dsh-agent-notebook": "knowledge-research",
+    "macroguo-ghy/dsh-codex-migration": "agents-workflows",
+    "manyuemeiquqi/dsh-gta6": "ui-experience",
+    "mbcc5732/dsh-screenshot": "media-vision",
+    "meng-lx/dsh-blueprint-tree": "agents-workflows",
+    "mioakiyama0809-coder/dsh-context-fold": "agents-workflows",
+    "miorin-chan/dsh-auto-pin-session": "ui-experience",
+    "miorin-chan/dsh-collapsed-sidebar-status": "ui-experience",
+    "miorin-chan/dsh-subtle-sidebar": "ui-experience",
+    "morning-start/dsh-plugin-creator": "ecosystem-resources",
+    "moshangssh/dsh-hindsight-manager": "knowledge-research",
+    "music875/dsh-workbuddy-pulse": "ui-experience",
+    "muzhou91/dsh-team-desk": "multi-agents",
+    "mycherish/dsh-plugin-cealum-tint": "ui-experience",
+    "natgurlain/dsh-dreaming": "knowledge-research",
+    "neilweixing/dsh-jira-board": "integrations-sharing",
+    "nexu-io/opengame": "media-vision",
+    "ningqi24/dsh-tencent-buddy-fix": "developer-tools",
+    "nixuejun888/dsh-jarvis-sphere": "ui-experience",
+    "noir-hedgehog/DeepseekHarnessEmbed": "integrations-sharing",
+    "octer-ai/octer-ads-dsh": "integrations-sharing",
+    "pseudonymzjt/dsh-direct-human-style": "agents-workflows",
+    "qdqzy/dsh-token-cost": "ui-experience",
+    "qianhanglv/dsh-better-python": "developer-tools",
+    "qianhaoq/dota2.ai": "utilities",
+    "qinghuidaqzp/dsh-focus-garden": "utilities",
+    "qinghuidaqzp/dsh-idea-dice": "utilities",
+    "qinghuidaqzp/dsh-qinghui-quests": "utilities",
+    "qinghuidaqzp/dsh-qinghui-vision": "media-vision",
+    "qingshui59/dsh-drama-board": "media-vision",
+    "qiniu/dsh-agentapi": "integrations-sharing",
+    "qiyaogongfang/dsh-rankings": "web-browser",
+    "qlings/dsh-chrome": "web-browser",
+    "qq1003240666/qingshi-agent": "integrations-sharing",
+    "qso/dsh-better-workspace-menu": "ui-experience",
+    "qso/dsh-infinite-canvas-bridge": "media-vision",
+    "qtywoitpiw/dsh-approval-sound": "ui-experience",
+    "rigelmansid/dsh-stock-flick": "utilities",
+    "ruochen361/dsh-work-summary": "agents-workflows",
+    "ryangallager0323-jpg/dsh-skin-atelier": "ui-experience",
+    "scoaming/dsh-find-in-conversation": "ui-experience",
+    "scoaming/dsh-turn-notify": "ui-experience",
+    "sdadbbb/dsh-session-onlyclean": "agents-workflows",
+    "sereinZ-Z-Z/DeepSeek-Balance-Whale-Widget-Mod": "ui-experience",
+    "setoya/dsh-panel-updater": "ecosystem-resources",
+    "sevenqcx/dsh-seven-inbox": "ui-experience",
+    "silent-QAQ/dsh-plugins-file-manager-plus": "developer-tools",
+    "silent-QAQ/dsh-plugins-mcserver-manger": "developer-tools",
+    "skj333/dsh-fold-answers": "ui-experience",
+    "stormcrown/dsh-avatar-plus": "ui-experience",
+    "tanbopiao/jixia-publish": "integrations-sharing",
+    "tanbopiao/xuangui-check": "utilities",
+    "tanson515/dsh-usage": "ui-experience",
+    "tanxiaolong/dsh-battlefield": "ui-experience",
+    "tiregqw/controlgui": "ui-experience",
+    "tkkpku/timebudget-guard": "agents-workflows",
+    "ttackqwed/dsh-session-log-import": "agents-workflows",
+    "txp2026txp/dsh-connect-loomy": "developer-tools",
+    "unifilitence/dsh-perf-guard": "utilities",
+    "universe-st/dsh-workspace-category": "ui-experience",
+    "warm-flame-core/dsh-jlc-art-pcb": "media-vision",
+    "wellsoren/dsh-restart": "utilities",
+    "wsdzwx2001/dshgo-connect-madao": "developer-tools",
+    "wsl1602291891-stack/dsh-zhilian-box": "utilities",
+    "x25hhr/dsh-annotations": "ui-experience",
+    "xian-yu-zhao/dsh-stop-all": "agents-workflows",
+    "xiaomengxinbb/dsh-message-workbench": "ui-experience",
+    "ximi-chen/dsh-supersede": "agents-workflows",
+    "xingwang0/research-ml-modeling": "knowledge-research",
+    "xinhe1337/dsh-institutional-literature": "knowledge-research",
+    "xpopux/dsh-version-sentinel": "utilities",
+    "yakovlev-i-a/dsh-openfoam-workbench": "developer-tools",
+    "yasaxiwind/dsh-branch-studio": "multi-agents",
+    "yasaxiwind/dsh-experiment-ledger": "developer-tools",
+    "yc5991/dsh-wechatbot": "integrations-sharing",
+    "ykybl/dsh-altare": "developer-tools",
+    "you-see-seeyou/dsh-shared-tree": "ecosystem-resources",
+    "ysun6203-hash/dsh-kimi-bridge": "developer-tools",
+    "yxn3hc/dsh-precise-quote": "ui-experience",
+    "zcslack17858645276-del/dsh-app-restart": "utilities",
+    "zhengwuyu957/dsh-role-play": "agents-workflows",
+    "zj6511235/dsh-skill-manager": "ecosystem-resources",
+    "zman406986/dsh-bot": "multi-agents",
+    "zyw294/cloud189-mcp": "integrations-sharing"
   },
   "description_overrides": {
     "43456-awa/dsh-notepad": "钉在 DeepSeek Harness Web GUI 的常驻记事本插件，可拖动、可固定。",
@@ -19731,7 +19990,8 @@
     "dNEryno/dsh-cache-alarm": "DSH 客户端插件：在每条助手回复旁和输入框上方显示本轮缓存命中率、首字延迟、整步耗时与真实速度，只留四个关键值，明细悬停查看。",
     "Hakuno410/dsh-board-bridge": "黑板桥：多住户共用一块留言板——浏览器、手机或 agent 的 MCP 工具都能写，有新话即刻作为真人消息投进指定会话把人叫醒，板上按天存档可回看。",
     "jungu123154/dsh-douyin-agent": "大肥鱼抖音助手：DSH 抖音 agent 插件发布仓库。",
-    "Wayne536/dsh-downloads": "DSH 下载插件：Web 界面右下角下载卡片，粘贴链接即可下载并实时显示大小、速度与剩余时间，另提供 download_file / watch_download / download_control 三个会话工具。"
+    "Wayne536/dsh-downloads": "DSH 下载插件：Web 界面右下角下载卡片，粘贴链接即可下载并实时显示大小、速度与剩余时间，另提供 download_file / watch_download / download_control 三个会话工具。",
+    "6nh2nkdznz-dot/dsh-context-capacity": "在每次模型请求前向模型注入上下文窗口用量读数，含已用、剩余 token 与超限预警提示"
   },
   "leaderboard_exclusions": {
     "091022yyj/deepseek-harness-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -20590,7 +20850,10 @@
     "dshcrate/dsh-crate": "Kept out of the star board: an in-host plugin market browsing dshcrate.com — the market cannot include another market. Stays in the catalog.",
     "lanxiake/dsh-vyra-plugins": "Kept out of the star board: a plugin & skill market maintained alongside the dsh-Veyra fork — the market cannot include another market. Stays in the catalog.",
     "tzzs/dsh-skill-dashboard": "Kept out of the star board: a skills manager with a built-in skill store browsing skills.sh / Tencent SkillHub / GitHub — the market cannot include another market. Stays in the catalog.",
-    "HAppy-2436/dsh-status": "Kept out of the star board: a native macOS menu bar companion app, not an installable DSH plugin (the plugin half lives in dsh-status-bridge). Stays in the catalog."
+    "HAppy-2436/dsh-status": "Kept out of the star board: a native macOS menu bar companion app, not an installable DSH plugin (the plugin half lives in dsh-status-bridge). Stays in the catalog.",
+    "nexu-io/opengame": "Kept out of the star board: stars accrued as a general-purpose multi-host AI game studio (OpenGame, 22 local agents, BYOA/BYOK, OpenDesign ecosystem launch); the DeepSeek Harness side is one optional source-checkout integration (integrations/dsh). Stays in the catalog.",
+    "dake6767/dsh-phalanx": "Kept out of the star board: a desktop shell/standalone app, not an installable DSH plugin. Stays in the catalog.",
+    "zj6511235/dsh-skill-manager": "Kept out of the star board: a plugin market/store — the market cannot include another market. Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -22308,7 +22571,18 @@
     "hyper-open/memorydex": "Not a DSH plugin — a general-purpose AI memory service (npm CLI + MCP stdio + REST/web UI); its DSH lane is a documented cordis.patch.yml MCP-server wiring recipe with no plugin manifest or plugin runtime install path.",
     "whyissodifficult/dsh-plugin-audit": "Not a DSH plugin — a read-only static audit CLI (npx tool) that scans published DSH plugin packages; companion tooling with no plugin install path of its own.",
     "anweat/dsh-plugin-dev-guide": "不是 DSH 插件：DSH 插件开发指南文档站（docs + 示例骨架 + 发布巡检脚本），无可安装插件包；沿手册/文档站剔除先例。",
-    "DK-Zhu/mcp-consult": "Not a DSH plugin — repurposed into a generic MCP server for any MCP host (claude mcp add / npx); the DSH plugin survives only at the historical v0.2.0 tag, no installable DSH plugin at HEAD."
+    "DK-Zhu/mcp-consult": "Not a DSH plugin — repurposed into a generic MCP server for any MCP host (claude mcp add / npx); the DSH plugin survives only at the historical v0.2.0 tag, no installable DSH plugin at HEAD.",
+    "Dreftian/Rea": "不是 DSH 插件：README 无任何 DSH 安装路径，是 morluto/rea 的西语转录副本，经 npx rea-agents setup 为其他编码 agent 注册逆向工程 MCP",
+    "SI-sases/sases-control": "Not a plugin: an MCP stdio server plus CLI skill (SKILL.md + mcp_server.py, installed via generic mcpServers config) for operating self-hosted SASES instances — no DSH plugin package and no DSH-targeted install path.",
+    "dehong831-arch/dsh-ComboLab": "Standalone Windows x64 offline diagnostic lab: boots sealed DSH Web builds inside its own viewer to reproduce plugin-combination bugs; the dsh-combolab attachment is lab-only and explicitly not for live DSH profiles.",
+    "hbx111/dsh-unlock": "Loosens content policy: swaps strict content_policy blocks in the system prompt for a permissive policy and appends a 用户至上总纲 fallback section — content-policy-loosening family, excluded per precedent.",
+    "jqlong17/doublecheck-ios": "非 DSH 插件：通用运维预检/断言/回滚 CLI（python3 ops.py、dc）加 agent-plugins.org 通用 MCP server，无 dsh plugin 安装路径，也无 dsh bundle/cordis manifest",
+    "li1378380/dsh-file-search": "仓库已 archived 归档停更；README 曾示 dsh plugin add dsh-file-search 的本地全文搜索插件，按归档仓库规则排除",
+    "seinan27/dsh-armor-suite": "破甲套件：armor-inject/guard 按路由注入并清洗受保护提示，armor-retry 在模型拒答时换形续问以提高服从率",
+    "slobaloncar/livelaunch-mcp": "仓库自述仅含远程 MCP 端点的连接信息与文档，DSH 用法是安装官方 dsh-mcp-client 再加 cordis.patch 配置片段，本身无可安装插件包",
+    "truecih/dsh-live-ops": "GitHub API 对仓库与 README 均返回 404：仓库已删除或改名，无任何可核验内容。",
+    "ultrafastmov/ultrafast": "非 DSH 插件：通用 GPU 视频渲染 CLI/MCP（Rust），安装走 `curl ultrafast.mov/install.sh`，面向 Claude Code/Codex/Cursor/Gemini CLI；仓库仅有 plugin.json/.claude-plugin/gemini-extension.json 等他家宿主清单，无 dsh 安装路径或 dsh bundle 字段。",
+    "zhaojiale001016/video-hub": "不是常规插件——自动搬运流水线：订阅他人 YouTube 频道，yt-dlp 批量下载、翻译烧录字幕后一键再分发到 B 站/快手/抖音等平台，属侵犯第三方版权的批量搬运自动化"
   },
   "market_exclusions": {
     "0326/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -23144,7 +23418,7 @@
     "xuanyuying/dsh-mobile": "Not an installable DSH plugin — a standalone mobile/PWA client for the DeepSeek API branded as DSH; stays in the catalog and leaderboard, excluded from the downstream market.",
     "xuanyvne/DSHLauncher": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "xuboboo/dsh-gui": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "xuedai-mayi/dsh-wenshan": "Not an installable DSH plugin — a domain application that vendors a customized copy of the DSH platform plus its own plugins; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "xuedai-mayi/wenshan": "Not an installable DSH plugin — a domain application that vendors a customized copy of the DSH platform plus its own plugins; stays in the catalog and leaderboard, excluded from the downstream market.",
     "xuhao1/VibeWand": "Excluded from the downstream market: a standalone macOS controller app for AI tools — not an installable DSH plugin (its DSH plugin mode is set up internally by the app). Stays in the catalog.",
     "xushilianzhuren/dsh-market-plus": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "xxccdl/deepseek-harness-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -23245,7 +23519,2606 @@
     "dshcrate/dsh-crate": "A plugin market living inside DeepSeek Harness (browse dshcrate.com, copy install commands) — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
     "lanxiake/dsh-vyra-plugins": "A DeepSeek Harness plugin & skill market maintained alongside the dsh-Veyra fork — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
     "tzzs/dsh-skill-dashboard": "A skills manager whose Discover tab searches and installs skills from public registries (skills.sh, Tencent SkillHub, GitHub) — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
-    "HAppy-2436/dsh-status": "Not an installable DSH plugin — a standalone macOS menu bar companion app; stays in the catalog, excluded from the downstream market."
+    "HAppy-2436/dsh-status": "Not an installable DSH plugin — a standalone macOS menu bar companion app; stays in the catalog, excluded from the downstream market.",
+    "dake6767/dsh-phalanx": "desktop client/standalone app, not an installable DSH plugin",
+    "zj6511235/dsh-skill-manager": "the market cannot include another market"
   },
-  "updated_at": "2026-11-27"
+  "updated_at": "2026-11-27",
+  "selection_metadata": {
+    "01float01/dsh-remote": {
+      "s": "在局域网内起一个带密码与 TLS 的网关，让手机平板浏览器直接访问本机 DSH Web 界面并自动切换手机版布局",
+      "k": [
+        "remote-access",
+        "mobile-companion",
+        "TLS网关",
+        "反向代理",
+        "响应式布局",
+        "局域网",
+        "QR码"
+      ]
+    },
+    "1107186916/dsh-plugin-markdown-tone": {
+      "s": "给 Web 客户端助手 Markdown 上语义配色：标题、列表标记、行内代码、链接、引用与表头按主题 token 着色",
+      "k": [
+        "markdown配色",
+        "主题token",
+        "Web客户端",
+        "CSS",
+        "深浅主题"
+      ]
+    },
+    "1804608397/dsh-plugin-browser-bridge": {
+      "s": "经配对 Chrome 扩展读取网页 DOM、按选择器点击填表、管理标签页并截视口图，注册 8 个 browser_* 工具",
+      "k": [
+        "浏览器桥",
+        "Chrome扩展",
+        "DOM读取",
+        "页面操作",
+        "WebSocket",
+        "browser工具"
+      ]
+    },
+    "6nh2nkdznz-dot/dsh-context-capacity": {
+      "s": "每次模型请求前向模型注入上下文窗口用量读数，报告已用与剩余 token，超过阈值时附加预警提示",
+      "k": [
+        "上下文容量",
+        "token计量",
+        "提示注入",
+        "context window",
+        "bundle"
+      ]
+    },
+    "751969653/dsh-fish-ears": {
+      "s": "本地优先的语音转写：内置 SenseVoice/Paraformer 离线识别、云端兜底路由，支持 B 站视频音轨与本机 ASR 接口",
+      "k": [
+        "ASR",
+        "语音转写",
+        "SenseVoice",
+        "sherpa-onnx",
+        "B站音频",
+        "云端兜底"
+      ]
+    },
+    "7haumazein/dsh-research-workbench": {
+      "s": "把 PDF 或 Markdown 研报整理成可溯源的 Obsidian 中文知识库，保留原表原图、标注数据出处并合并同领域观点",
+      "k": [
+        "研报",
+        "知识库",
+        "Obsidian",
+        "PDF解析",
+        "溯源",
+        "DeepSeek"
+      ]
+    },
+    "862287884-alt/dsh-month-timer": {
+      "s": "停在输入框上方的月度进度条：手填分秒与备注记成彩色阶段，按工作日倍率算达成节点，数据存本机",
+      "k": [
+        "月度进度条",
+        "计时记账",
+        "composer dock",
+        "浮层",
+        "localStorage"
+      ]
+    },
+    "aa1aaaoq/dsh-beginner-mode": {
+      "s": "可选的小白模式 agent 预设：说人话、一次只教一步、不清楚就问、没把握先联网查，不改工具与权限",
+      "k": [
+        "agent预设",
+        "persona",
+        "小白模式",
+        "提示词",
+        "beginner"
+      ]
+    },
+    "aicivilization/dsh-voice-engine": {
+      "s": "聚合免费与云端语音来源的声音引擎：朗读、配音字幕、有声书分角色、声音克隆、实时发音与音视频转写",
+      "k": [
+        "TTS",
+        "配音",
+        "有声书",
+        "声音克隆",
+        "ASR转写",
+        "讯飞",
+        "Edge语音"
+      ]
+    },
+    "ade-hale/dsh-session-eraser": {
+      "s": "给会话右键菜单补上删除动作：目录移入回收站而非直接抹除，带还原面板、保留期过期清理与引用清除",
+      "k": [
+        "会话删除",
+        "回收站",
+        "右键菜单",
+        "Web GUI",
+        "session管理"
+      ]
+    },
+    "ade-hale/dsh-skill-conflicts": {
+      "s": "把已安装 skill 按能力分组并标出重叠：区分可共存的同类与触发语撞车的真冲突，附来源便于清理",
+      "k": [
+        "skill冲突",
+        "能力分组",
+        "健康检查",
+        "只读工具",
+        "技能管理"
+      ]
+    },
+    "ambulr/dsh-soda-authoring": {
+      "s": "教模型给 DSH 写 skill 与插件的操作手册：六个 skill 根目录优先级、frontmatter 校验与 12 个静默失败坑",
+      "k": [
+        "skill开发",
+        "插件开发",
+        "手册",
+        "frontmatter",
+        "SKILL.md"
+      ]
+    },
+    "ambulr/dsh-soda-todo-nag": {
+      "s": "todo 纪律守卫：多步任务里模型偏离清单时，在工具结果后注入建表、更新与收尾三类提醒，不拦截调用",
+      "k": [
+        "todo纪律",
+        "工具后提醒",
+        "additionalContexts",
+        "工作流",
+        "会话事件"
+      ]
+    },
+    "antares422/dsh-design-board": {
+      "s": "右侧设计画布：内置 165 套设计体系按风格出交互页面，支持多方案并排对比、点选元素批注原地改稿与导出",
+      "k": [
+        "设计画布",
+        "设计体系",
+        "原型稿",
+        "点选批注",
+        "PNG/PDF导出"
+      ]
+    },
+    "appsganin/dsh-qwen-subscription": {
+      "s": "把 qwen.ai 订阅接入 DSH 作为 LLM 供应商：OAuth 设备流登录、多账号池故障转移与额度重置展示",
+      "k": [
+        "Qwen",
+        "OAuth设备流",
+        "账号池",
+        "额度",
+        "LLM provider"
+      ]
+    },
+    "archerkattri/dsh-account-hub": {
+      "s": "各家 AI 订阅账号统一管理页：OAuth 登录、5 小时/周额度条、轮换策略与令牌健康，托管 CLIProxyAPI 生命周期",
+      "k": [
+        "账号管理",
+        "配额轮换",
+        "OAuth",
+        "CLIProxyAPI",
+        "订阅"
+      ]
+    },
+    "astden/dsh-mesh-toolkit": {
+      "s": "OpenFOAM 网格三件套：STL 生成与质检、多种网格路线带 checkMesh 门槛、一键交付 OF 案例与 Fluent 网格",
+      "k": [
+        "OpenFOAM",
+        "网格",
+        "STL",
+        "snappyHexMesh",
+        "CFD",
+        "质量门槛"
+      ]
+    },
+    "baihaimianbaofang/dsh-liangdeng": {
+      "s": "Web 界面加呼叫弹窗与可拖动会话灯牌：agent 调 call_user 弹卡确认跳转，会话方块未读或等待时点亮",
+      "k": [
+        "呼叫弹窗",
+        "会话灯牌",
+        "call_user",
+        "浮层",
+        "会话切换"
+      ]
+    },
+    "baimacao/dsh-course-autoplay": {
+      "s": "在已登录浏览器里自动播完网课并推进下一节：站点经验库自适应识别、可视化面板与计划文档。",
+      "k": [
+        "网课挂机",
+        "course autoplay",
+        "浏览器自动化",
+        "挂机刷课",
+        "站点经验"
+      ]
+    },
+    "brathonbai/dsh-github-publish": {
+      "s": "工作区菜单一键发布到 GitHub：自动建仓、补 README 与 .gitignore、提交推送，敏感文件默认拦截不提交",
+      "k": [
+        "GitHub发布",
+        "自动建仓",
+        "git推送",
+        "token管理",
+        "敏感文件拦截"
+      ]
+    },
+    "csyix2011/dsh-ai-sheet": {
+      "s": "本地表格插件：左侧入口打开表格网页，注册表格读写、行列操作与 xlsx/docx/pdf 导入工具，带事务和乐观锁",
+      "k": [
+        "表格",
+        "xlsx导入",
+        "事务",
+        "乐观锁",
+        "AI表格模式",
+        "本地数据"
+      ]
+    },
+    "cyf736222347/dsh-programming-mode-zh": {
+      "s": "编程模式预设的简体中文版：沿用 Superpowers 工程纪律与官方工具面，persona 与推理默认中文，可与上游并存",
+      "k": [
+        "编程模式",
+        "中文persona",
+        "Superpowers",
+        "agent预设",
+        "汉化"
+      ]
+    },
+    "calorios/dsh-auto-approve-lite": {
+      "s": "会话级自动审批开关：低中高三档判定哪些工具调用免问，超档仍走人工审批，并留存逐条审批台账",
+      "k": [
+        "自动审批",
+        "档位策略",
+        "审批台账",
+        "会话级",
+        "工具调用"
+      ]
+    },
+    "casper-mars/dsh-agent-uiux": {
+      "s": "UI/UX 设计师角色包：设计师 persona、八个只读领域技能与 uiux 预设，覆盖定位、线框、效果图到评审交接",
+      "k": [
+        "角色包",
+        "persona",
+        "uiux预设",
+        "只读skill",
+        "设计流程"
+      ]
+    },
+    "charlieeeo/dsh-next-reply": {
+      "s": "每条回答下方竖排三条下一步建议：由主回复自带不额外调模型，点文字填输入框、点按钮直接发送",
+      "k": [
+        "下一步建议",
+        "composer",
+        "输入增强",
+        "零附加调用",
+        "竖排建议"
+      ]
+    },
+    "congxiang1994/dsh-qa-mode": {
+      "s": "问答模式预设：只留联网检索、抓取与只读文件工具，把 44 个工具压到 8 个，问完即走不碰代码",
+      "k": [
+        "问答模式",
+        "agent预设",
+        "工具裁剪",
+        "联网检索",
+        "上下文瘦身"
+      ]
+    },
+    "danonyvincit/dsh-preset-composer": {
+      "s": "设置页里的预设可视化编辑器：拖拽编排插件行、参数表单、依赖与工具冲突告警，支持新建自定义预设",
+      "k": [
+        "预设编辑器",
+        "可视化编排",
+        "插件行",
+        "冲突告警",
+        "Settings"
+      ]
+    },
+    "ddvip/dsh-memory-yuan": {
+      "s": "Markdown 文件式长期记忆：一条记忆一个文件，L0 固定条目加 L1 关键词命中每轮注入，带控制台面板与图谱视图",
+      "k": [
+        "长期记忆",
+        "Markdown vault",
+        "L0/L1注入",
+        "memory工具",
+        "图谱视图"
+      ]
+    },
+    "daaaaavid-zhou/dsh-camera": {
+      "s": "macOS 本地拍照：输入框上方弹实时预览，快门照片直接作为附件进消息，随包内置 CamShot 相机应用",
+      "k": [
+        "拍照",
+        "摄像头",
+        "附件输入",
+        "macOS",
+        "CamShot"
+      ]
+    },
+    "danmo661/dsh-zui": {
+      "s": "ZCode 风格 UI 套件：待办面板换状态胶囊、模型选择器换双栏面板加思考强度滑杆，附团队开关与子代理卡片",
+      "k": [
+        "UI套件",
+        "状态胶囊",
+        "模型选择器",
+        "思考强度滑杆",
+        "子代理头像",
+        "ZCode移植"
+      ]
+    },
+    "daphne999/dsh-promo-card": {
+      "s": "把插件发布信息生成推广物料：小红书风标题、通俗文案、话题标签与 1080x1440 自包含 HTML 封面，离线模板",
+      "k": [
+        "推广物料",
+        "封面生成",
+        "模板",
+        "发布工具",
+        "HTML封面"
+      ]
+    },
+    "demonese/dsh-remember-reasoning-effort": {
+      "s": "按 provider/model 记住选过的思考强度，切换模型时自动注入上次档位，避免回落路由默认值",
+      "k": [
+        "推理等级",
+        "模型切换",
+        "偏好记忆",
+        "selectModel",
+        "host bundle"
+      ]
+    },
+    "dreamrepair/dsh-go-quota": {
+      "s": "输入框旁加 OpenCode Go 用量胶囊：5 小时、本周、本月三档百分比与重置时间，点开看明细面板",
+      "k": [
+        "用量显示",
+        "额度胶囊",
+        "OpenCode Go",
+        "状态栏",
+        "composer dock"
+      ]
+    },
+    "dstrue/dsh-private-persona": {
+      "s": "私有 agent 预设集：天文光学观测者人设「星见」，standard 工具面加跨会话 Markdown 长期记忆读写工具",
+      "k": [
+        "agent预设",
+        "persona",
+        "长期记忆",
+        "天文观测",
+        "变量注入"
+      ]
+    },
+    "dstrue/dsh-responses-api-injector": {
+      "s": "本地回环中转按规则改写 Responses API 请求体：注入 web_search 等服务端工具字段，设置页配置监听器",
+      "k": [
+        "请求注入",
+        "回环代理",
+        "Responses API",
+        "web_search",
+        "设置页"
+      ]
+    },
+    "dstrue/dsh-whale-loli-standard": {
+      "s": "鲸鱼娘三合一 Agent 预设（原版/活人版/涩涩版），standard 工具面与三预设共用长期记忆。",
+      "k": [
+        "鲸鱼娘",
+        "人设预设",
+        "persona",
+        "whale-loli",
+        "角色扮演",
+        "agent 预设"
+      ]
+    },
+    "ericzhou0815/dsh-chrome-dictation": {
+      "s": "用 Chrome 自带语音识别在输入框旁加麦克风按钮：实时听写、六语种切换、识别文本插入草稿光标处",
+      "k": [
+        "语音听写",
+        "输入增强",
+        "Chrome语音",
+        "麦克风",
+        "Web Speech"
+      ]
+    },
+    "ethan-lamlam/dsh-notes": {
+      "s": "右侧栏所见即所得本地 Markdown 笔记本：飞书式快捷键、截图粘贴内联显示，数据是普通 .md 文件不上云",
+      "k": [
+        "笔记",
+        "Markdown",
+        "所见即所得",
+        "本地优先",
+        "内联图片"
+      ]
+    },
+    "evermind-ai/everme": {
+      "s": "跨设备跨Agent的个人记忆层：为DSH等宿主提供记忆保存、检索与MCP记忆资源接入",
+      "k": [
+        "memory",
+        "MCP",
+        "EverMe",
+        "跨设备记忆",
+        "长期记忆",
+        "多宿主"
+      ]
+    },
+    "fake0704/dsh-fabric-memory": {
+      "s": "把Obsidian、git项目与记忆文件夹接入会话：跨源检索读取markdown，写入记忆源需逐次审批",
+      "k": [
+        "fabric_search",
+        "Obsidian",
+        "知识库",
+        "记忆写入",
+        "写审批",
+        "markdown检索"
+      ]
+    },
+    "fake0704/dsh-local-llm": {
+      "s": "把本机本地大模型接入DSH：登记、探活、启停、拉取与对话调用，设置页一键部署模型",
+      "k": [
+        "本地模型",
+        "推理服务",
+        "模型下载",
+        "HuggingFace",
+        "ModelScope",
+        "设置页"
+      ]
+    },
+    "fashionchen111/mail-assistant-plugin": {
+      "s": "企业Exchange邮箱助手：文件夹权限白名单、邮件检索与线程重建、Jira待办提取，仅存草稿不发信",
+      "k": [
+        "Exchange",
+        "EWS",
+        "NTLM",
+        "邮件草稿",
+        "邮箱桥接",
+        "Jira提取"
+      ]
+    },
+    "fred-wizard/dsh-session-assistant": {
+      "s": "侧栏置顶与最近会话列表，并把本机Codex历史会话与Markdown记忆导入为可续聊的DSH会话",
+      "k": [
+        "会话管理",
+        "置顶会话",
+        "Codex导入",
+        "记忆迁移",
+        "侧栏"
+      ]
+    },
+    "g-ty/dsh-tokens": {
+      "s": "令牌保管库：各服务API令牌集中存入DSH凭据库，侧栏面板管理，会话经token_vault工具按需取用",
+      "k": [
+        "令牌管理",
+        "凭据库",
+        "token_vault",
+        "侧栏面板",
+        "API keys"
+      ]
+    },
+    "g33s3fr13s/dsh-weread-free-library": {
+      "s": "抓取微信读书免费图书馆当期书目，按书币标价排行并附评分，输出可排序HTML/CSV/Markdown榜单",
+      "k": [
+        "微信读书",
+        "免费图书馆",
+        "书币价格",
+        "榜单",
+        "CSV导出"
+      ]
+    },
+    "garinz/dsh-favorites": {
+      "s": "全局收藏夹：星标助手最终回答或划选片段，可搜索、分组、打标签并跳回原会话对应轮次",
+      "k": [
+        "收藏夹",
+        "星标",
+        "划选收藏",
+        "标签分组",
+        "跳回会话"
+      ]
+    },
+    "huanyu2609-111/dsh-model-failover": {
+      "s": "模型请求失败时按优先级切换备用服务商模型，在同一会话接续回答，无需重发问题或新建会话",
+      "k": [
+        "模型故障切换",
+        "备用模型",
+        "多服务商",
+        "请求重试",
+        "会话续跑"
+      ]
+    },
+    "hanyu-me/dsh-novel-panel": {
+      "s": "AI长篇小说写作面板：自动维护人物、关系、时间线、伏笔等关键信息并每轮注入写作模型",
+      "k": [
+        "小说写作",
+        "故事面板",
+        "人物设定",
+        "伏笔追踪",
+        "上下文注入"
+      ]
+    },
+    "handsye/dsh-off-work-countdown": {
+      "s": "可拖动的下班倒计时悬浮卡片，自定义下班时间与工作日，位置记忆在本地浏览器",
+      "k": [
+        "下班倒计时",
+        "悬浮卡片",
+        "桌面小组件",
+        "工作日设置"
+      ]
+    },
+    "hector387420489/dsh-session-reaper": {
+      "s": "在会话列表右键删除指定会话的持久化日志，确认后即时移除行项，不影响进行中的会话",
+      "k": [
+        "会话删除",
+        "会话列表",
+        "日志清理",
+        "右键菜单"
+      ]
+    },
+    "iceaxeman/dsh-lm-studio-polish": {
+      "s": "把模型最终输出交给本机LM Studio润色改写，代码与数字受保护，失败自动回退原文不阻塞对话",
+      "k": [
+        "文风润色",
+        "LM Studio",
+        "本地模型",
+        "输出改写",
+        "文风档案"
+      ]
+    },
+    "ice-bearmax/canghai": {
+      "s": "二次元知识图鉴引擎：动漫游戏影视梗的本地秒查，可插拔数据源与控制面板，DSH与QQAgent双宿主",
+      "k": [
+        "二次元百科",
+        "知识库",
+        "本地检索",
+        "数据源同步",
+        "QQAgent",
+        "双宿主"
+      ]
+    },
+    "jnightds/dsh-price-chip": {
+      "s": "悬浮或侧栏价签显示DeepSeek API峰谷时单价、切价倒计时与账户余额，价格按周缓存",
+      "k": [
+        "API价格",
+        "峰谷时段",
+        "余额显示",
+        "悬浮窗",
+        "节假日表"
+      ]
+    },
+    "jackyzhou0227/dsh-phone-fleet": {
+      "s": "把Android/HarmonyOS/iOS设备接入DSH会话：一设备一会话操作手机，侧栏实时投屏",
+      "k": [
+        "手机控制",
+        "adb",
+        "设备投屏",
+        "多设备",
+        "移动端"
+      ]
+    },
+    "joblessjoe/deep-toolbox": {
+      "s": "统计每个工具的启动token开销、调用次数、失败率与未用工具，从会话日志本地解析出成本报告",
+      "k": [
+        "工具统计",
+        "token开销",
+        "调用失败率",
+        "会话日志",
+        "成本分析"
+      ]
+    },
+    "kingsir111/dsh-turn-delete": {
+      "s": "从会话模型上下文中删除指定对话轮次：多选删除、原始日志不动、DeepSeek适配器当场生效",
+      "k": [
+        "轮次删除",
+        "上下文管理",
+        "墓碑事件",
+        "日志审计",
+        "多选"
+      ]
+    },
+    "kirakila7/dsh-plugin-devlog-poster": {
+      "s": "采集Git与会话进展生成开发日志，产出四平台图文卡片并发布GitHub、小红书、B站、抖音与IM日报",
+      "k": [
+        "开发日志",
+        "多平台发布",
+        "图文卡片",
+        "小红书",
+        "工作日报",
+        "Build in Public"
+      ]
+    },
+    "kunkun24/autonomous-dev-security-auditor-skills": {
+      "s": "面向编程零基础用户的八步自主开发技能：需求推进到代码、真实测试、安全审计与可读交付报告",
+      "k": [
+        "自主开发",
+        "安全审计",
+        "技能包",
+        "测试验证",
+        "交付报告"
+      ]
+    },
+    "kunwu1980/dsh-books-plugin": {
+      "s": "DSH内置书架：阅读并管理TXT/EPUB/PDF/AZW3本地书库，公文排版、进度记忆与书内搜索",
+      "k": [
+        "书架",
+        "电子书阅读",
+        "EPUB",
+        "PDF",
+        "排版",
+        "阅读进度"
+      ]
+    },
+    "liam-liyaming/dsh-result-comments": {
+      "s": "框选AI回复点赞或写评论，评论以引用tag随消息发出，本机留存评论历史、词云与趋势洞察",
+      "k": [
+        "回复评论",
+        "划选标注",
+        "引用tag",
+        "评论历史",
+        "词云洞察"
+      ]
+    },
+    "lunatety/dsh-account-avatar": {
+      "s": "把侧栏账号头像替换为自定义图片并支持改昵称，上传裁剪仅存本机，含历史头像管理",
+      "k": [
+        "头像替换",
+        "昵称自定义",
+        "本机存储",
+        "侧栏UI"
+      ]
+    },
+    "lvlaotou/dsh-hindsight-manager": {
+      "s": "在DSH内管理Hindsight记忆库：把工作区、Bots项目与群聊一键映射到各自记忆bank",
+      "k": [
+        "记忆库管理",
+        "Hindsight",
+        "bank映射",
+        "工作区",
+        "群聊"
+      ]
+    },
+    "miu-ma/resume-grill-agent": {
+      "s": "DSH求职工作台：简历版本管理、按JD核对简历、BOSS与官网浏览器代投、邮箱投递与投递记录",
+      "k": [
+        "求职",
+        "简历管理",
+        "BOSS直聘",
+        "浏览器自动化",
+        "邮件投递",
+        "岗位JD"
+      ]
+    },
+    "misaki030112/dsh-agentapi": {
+      "s": "接入七牛AgentAPI：把云端智能体作为子代理会话委派任务，可在门户回看轨迹与下载产物",
+      "k": [
+        "AgentAPI",
+        "七牛",
+        "云端智能体",
+        "子代理",
+        "任务委派"
+      ]
+    },
+    "mooling0602/dsh-span-compaction": {
+      "s": "有界回放压缩引擎：限制每次摘要回放预算，提供模型驱动compact工具与上下文压力提醒",
+      "k": [
+        "上下文压缩",
+        "compaction",
+        "回放预算",
+        "压力提醒",
+        "会话历史"
+      ]
+    },
+    "nuaahanda/dsh-composer-enhance": {
+      "s": "输入框四角星一键把草稿改写成更清楚的提示词，结果写回输入框并附一键撤回按钮",
+      "k": [
+        "提示词改写",
+        "输入框增强",
+        "composer",
+        "一键撤回"
+      ]
+    },
+    "niefee/dsh-svn-viewer": {
+      "s": "SVN只读查看器：浏览目录、全仓搜索、查看历史与逐行归属，支持差异对比与多格式预览",
+      "k": [
+        "SVN",
+        "版本库浏览",
+        "blame归属",
+        "差异对比",
+        "文件搜索"
+      ]
+    },
+    "prcentos/dsh-session-export": {
+      "s": "把DSH会话导出为可移植的Markdown或JSON记录，可跨机器迁移或供其他模型续读，支持批量",
+      "k": [
+        "会话导出",
+        "Markdown",
+        "JSON",
+        "跨机器迁移",
+        "transcript"
+      ]
+    },
+    "protonhydrogen/dsh-meeting": {
+      "s": "本地优先会议工作台：麦克风与系统声实时转写、时间轴笔记与会议纪要，接入DSH Meetings面板",
+      "k": [
+        "会议转录",
+        "ASR",
+        "Whisper",
+        "会议纪要",
+        "实时字幕",
+        "DSH Meetings"
+      ]
+    },
+    "qxyz17/dsh-turn-alert": {
+      "s": "回合完成、出错或等待回答时弹Windows系统通知并播放系统提示音，通知以DSH应用身份投递",
+      "k": [
+        "桌面通知",
+        "Windows toast",
+        "回合提醒",
+        "系统提示音"
+      ]
+    },
+    "rickt34/dsh-fake-logos": {
+      "s": "替换DSH侧栏徽标、字标与首页主视觉：内置13个品牌预设、自定义SVG图片或完全隐藏品牌",
+      "k": [
+        "品牌换肤",
+        "logo替换",
+        "主题定制",
+        "SVG",
+        "侧栏UI"
+      ]
+    },
+    "ronawhite/dsh-gongwei": {
+      "s": "工位打卡与每日学习记录：自动生成统计周报与成文稿，接入dsh-pet桌宠菜单与播报",
+      "k": [
+        "打卡",
+        "学习记录",
+        "周报",
+        "桌宠",
+        "待办池"
+      ]
+    },
+    "ronawhite/dsh-pet-voice-clone": {
+      "s": "用十秒录音在硅基流动克隆音色，让dsh-pet桌宠用你的声音说话，音色URI本地缓存",
+      "k": [
+        "音色克隆",
+        "TTS",
+        "CosyVoice2",
+        "桌宠语音",
+        "SiliconFlow"
+      ]
+    },
+    "seumysteryman/dsh-ark-quota-dashboard-plugin": {
+      "s": "右下角常驻火山方舟额度胶囊：Token用量、Agent Plan剩余额度与账户余额，60秒自动刷新",
+      "k": [
+        "额度看板",
+        "Token用量",
+        "账户余额",
+        "火山方舟",
+        "Ark CLI"
+      ]
+    },
+    "seumysteryman/dsh-gui-virtual-desktop-and-window-control": {
+      "s": "把Windows UI自动化包装成8个工具：看屏截屏、键鼠操作、窗口与虚拟桌面管理、独立子会话",
+      "k": [
+        "GUI自动化",
+        "windows-mcp",
+        "虚拟桌面",
+        "键鼠控制",
+        "截屏"
+      ]
+    },
+    "seumysteryman/dsh-long-term-memory": {
+      "s": "跨会话长期记忆：保存事实笔记、自动召回注入每轮上下文，并携带最近对话摘要",
+      "k": [
+        "长期记忆",
+        "跨会话",
+        "自动召回",
+        "对话摘要",
+        "memory_save"
+      ]
+    },
+    "seumysteryman/dsh_session-conversation-file-import": {
+      "s": "把JSONL、JSON或会话日志ZIP导入为全新DSH会话，保留消息、工具记录与附件引用",
+      "k": [
+        "会话导入",
+        "JSONL",
+        "ZIP附件",
+        "会话迁移",
+        "session_import"
+      ]
+    },
+    "shi2008/dsh-qgis-driver": {
+      "s": "让 DSH 代理驱动本机 QGIS：加载图层、跑 Processing 分析、组装打印布局并导出 PNG/PDF，带权限分级与审计日志",
+      "k": [
+        "QGIS",
+        "GIS",
+        "PyQGIS",
+        "地图渲染",
+        "地理处理",
+        "DSH bundle"
+      ]
+    },
+    "shopenmind/dsh-plugin-peak-valley": {
+      "s": "DeepSeek 高峰时段提交消息时在输入区弹三选一：存为低谷定时任务自动重发、临时切本地模型或照常执行",
+      "k": [
+        "峰谷调度",
+        "定时任务",
+        "模型路由",
+        "本地模型",
+        "输入区卡片"
+      ]
+    },
+    "sillymeo-1/dsh-see-touch": {
+      "s": "Windows 屏幕视觉与键鼠操作插件：截取真实屏幕帧定位元素，执行点击、拖拽、输入与窗口控制，Esc 随时停止",
+      "k": [
+        "computer-use",
+        "截屏定位",
+        "鼠标键盘控制",
+        "Windows",
+        "UI Automation"
+      ]
+    },
+    "sonder-frmc/dsh-subagent-window": {
+      "s": "把 DSH Web 端子智能体对话变成应用内可拖动浮窗，可查看、收发消息、接受权限确认与停止，关闭浮窗不结束子代理",
+      "k": [
+        "浮窗",
+        "子智能体",
+        "对话窗口",
+        "拖拽缩放",
+        "Web客户端"
+      ]
+    },
+    "t1113047/ds-saver": {
+      "s": "用便宜模型筛掉大段工具输出、预测换窗时机并生成交接文档，为 DeepSeek 长会话节省上下文与 token",
+      "k": [
+        "上下文管理",
+        "token节省",
+        "handoff",
+        "RAG检索",
+        "多宿主"
+      ]
+    },
+    "tanloon/dsh-share-chat-card": {
+      "s": "在输入框加 Share 入口，把会话记录按条勾选后导出为 PNG 长图或单文件 HTML，附轮次耗时与 token 统计",
+      "k": [
+        "会话导出",
+        "PNG分享",
+        "HTML导出",
+        "统计"
+      ]
+    },
+    "tianyi666666/dsh-ego-browser": {
+      "s": "把 DSH 代理接到本机 ego lite 浏览器：在已登录的 profile 里开页面、读快照、点击填写与截图",
+      "k": [
+        "浏览器自动化",
+        "ego lite",
+        "页面快照",
+        "已登录profile"
+      ]
+    },
+    "tino0713/dsh_wechat_bot_talkingabout": {
+      "s": "左侧栏微信助理入口：只读还原 IM 机器人收到的微信聊天记录，支持搜索、复制、写草稿并经 dsh-im 投递发送",
+      "k": [
+        "微信",
+        "IM桥接",
+        "聊天记录",
+        "侧边栏",
+        "只读"
+      ]
+    },
+    "vanillanahida/dsh-bluearchive-theme": {
+      "s": "蔚蓝档案风格 DSH 主题：113 个颜色令牌、四种基沃托斯背景、侧栏立绘、玻璃输入框与独立主题设置页",
+      "k": [
+        "主题",
+        "蔚蓝档案",
+        "壁纸",
+        "立绘",
+        "CSS令牌"
+      ]
+    },
+    "victoriacloud360/dsh-llm-provider-audit": {
+      "s": "审计 DSH profile 里的 LLM 供应商：对照真实 API 逐家测试，删除不存在的模型，删损坏供应商前先询问",
+      "k": [
+        "provider审计",
+        "API检测",
+        "模型清理",
+        "DSH skill"
+      ]
+    },
+    "voyagerxvoyagerx/dsh-wallpaper": {
+      "s": "给 DSH Web GUI 铺半透明照片壁纸：本地文件夹按天轮播、随时手动切换、每张图单独记忆不透明度",
+      "k": [
+        "壁纸",
+        "半透明",
+        "每日轮播",
+        "Web GUI"
+      ]
+    },
+    "wanganran123/dsh-companion-starter": {
+      "s": "AI 桌面伙伴搭建骨架：DSH 宿主加 QQ（AstrBot）、TTS 语音、共享记忆文件与文件投递，人格记忆留空模板自填",
+      "k": [
+        "模板",
+        "AI伙伴",
+        "AstrBot",
+        "QQ",
+        "TTS",
+        "记忆"
+      ]
+    },
+    "wangdouble-dev/dsh-contract-stamp": {
+      "s": "侧边栏合同盖章工作台：PDF 与图片加普通章或骑缝章，拖动定位、多图合成 PDF，全程浏览器本地处理",
+      "k": [
+        "合同盖章",
+        "骑缝章",
+        "PDF",
+        "图片处理",
+        "本地处理"
+      ]
+    },
+    "william-jt-shen/dsh-chat-web": {
+      "s": "侧栏加工作/对话切换：把 chat.deepseek.com 历史对话镜像成 DSH 会话，可逐条还原并直接续聊",
+      "k": [
+        "DeepSeek网页版",
+        "会话镜像",
+        "历史同步",
+        "侧栏切换"
+      ]
+    },
+    "wjc41164404/dsh-side-questions": {
+      "s": "划词即可开侧问：把选中内容分支成标签页、分栏或浮窗会话，支持模型切换、流式输出与草稿持久化",
+      "k": [
+        "侧边会话",
+        "分屏",
+        "浮窗",
+        "划词提问",
+        "模型切换"
+      ]
+    },
+    "wyankinzz/dsh-plugin-abap-diff": {
+      "s": "监听 abap-adt MCP 写操作，在本地影子 Git 记录 ABAP 变更，按对话轮次查看分栏 Diff 工作台",
+      "k": [
+        "ABAP",
+        "Diff",
+        "变更追踪",
+        "Git影子库",
+        "SAP"
+      ]
+    },
+    "xtremxpert/dsh-voice-conversation": {
+      "s": "DSH 免提语音对话回路：静音检测自动收音、Whisper 转写后直接发送，回答经 TTS 朗读并继续聆听",
+      "k": [
+        "语音对话",
+        "VAD",
+        "Whisper",
+        "TTS",
+        "免提"
+      ]
+    },
+    "xtremxpert/dsh-voice-tts": {
+      "s": "本地语音合成服务：经环回 HTTP 把文本转成 WAV，支持 Piper 神经语音与 macOS Apple 语音双引擎",
+      "k": [
+        "TTS",
+        "Piper",
+        "say",
+        "本地合成",
+        "WAV"
+      ]
+    },
+    "yituojuanjuana/dsh-skill-shelf": {
+      "s": "Web GUI 内技能货架：按目录/角色/工作区浏览 ctx.skills 全目录，带调用统计、内容审计、回收站与市场导入",
+      "k": [
+        "技能管理",
+        "调用统计",
+        "内容审计",
+        "市场导入",
+        "回收站"
+      ]
+    },
+    "yuruhuan/dsh-singing": {
+      "s": "工作 BGM 插件：所选工作区有会话在跑就循环播放本地音乐，全部停工自动暂停，鲸鱼尾面板管理播放列表",
+      "k": [
+        "BGM",
+        "音乐播放",
+        "工作区监听",
+        "Windows",
+        "零token"
+      ]
+    },
+    "yuhuan-zz/pet-dress": {
+      "s": "给 dsh-pet 桌宠加右键换装：四套含全套动作的服装包，支持单穿互斥或多套同开，不改上游代码",
+      "k": [
+        "桌宠",
+        "换装",
+        "动画",
+        "右键菜单",
+        "dsh-pet"
+      ]
+    },
+    "yunfung/dsh-plugin-hdc-phone": {
+      "s": "经本机 hdc 桥驱动鸿蒙手机：观察界面树、按文本或坐标点按、滑动输入与启动应用，危险操作需确认",
+      "k": [
+        "鸿蒙",
+        "hdc",
+        "手机遥控",
+        "UI树",
+        "二次确认"
+      ]
+    },
+    "zf3373/dsh-mathmodel": {
+      "s": "数模竞赛与科研论文工作台：右栏 tab 管四阶段/六步流水线、想法生成、新颖性检索、实验闭环与对抗审稿",
+      "k": [
+        "数学建模",
+        "科研流水线",
+        "论文",
+        "实验闭环",
+        "审稿"
+      ]
+    },
+    "zephyr-axis/dsh-astrbot-unified": {
+      "s": "AstrBot 与 DSH 双向桥：QQ 对话镜像进 DSH 会话，LLM 可自主调用 DSH 执行任务",
+      "k": [
+        "AstrBot",
+        "QQ桥接",
+        "双向",
+        "dsh-go",
+        "IM"
+      ]
+    },
+    "zhanruixin/dsh-autorouter": {
+      "s": "把已注册的模型路由串成一条 fallback 链，对外只露一个 autorouter 供应商，故障自动切换并按时段换链",
+      "k": [
+        "模型路由",
+        "fallback链",
+        "供应商聚合",
+        "故障转移",
+        "分时段"
+      ]
+    },
+    "zi-kong/dsh-tag": {
+      "s": "给聊天窗口划词打标签：左侧标签轨道按位置摆色块，点击跳回原文高亮，另给代理提供三个标签工具",
+      "k": [
+        "聊天标注",
+        "标签轨道",
+        "跳转高亮",
+        "划词",
+        "Agent工具"
+      ]
+    },
+    "architect321/dsh-hindsight-panel": {
+      "s": "只读查看 Hindsight 记忆库：浏览记忆库、固定页面、事实与回写文档，并处理需人工决定的异步整理任务",
+      "k": [
+        "记忆库",
+        "Hindsight",
+        "只读面板",
+        "异步任务",
+        "整理队列"
+      ]
+    },
+    "asun-labs/dsh-remotion-studio": {
+      "s": "Remotion 视频创作插件：代理工具创建标准工程、启动官方 Studio 预览，渲染 MP4 或导出静帧封面",
+      "k": [
+        "Remotion",
+        "视频生成",
+        "React动画",
+        "渲染",
+        "配音配图"
+      ]
+    },
+    "awanderindreams/dsh-speak-up-vital": {
+      "s": "dsh-speak-up 个人分支：按 DeepSeek 余额、代谢与情绪算生命体征调整主动搭话概率，附两条默认关闭的开关",
+      "k": [
+        "主动搭话",
+        "生命体征",
+        "定时器",
+        "余额监测",
+        "个人分支"
+      ]
+    },
+    "boozik3412/dsh-media-artifacts": {
+      "s": "会话内预览图片与视频，并把项目产物集中存档：右栏 Artifacts 页可搜索、灯箱浏览与跳回原消息",
+      "k": [
+        "媒体预览",
+        "产物存档",
+        "灯箱",
+        "SHA-256快照",
+        "项目文件"
+      ]
+    },
+    "bot-for-imitoy/dsh-ui-nl": {
+      "s": "一个 ui_operate 工具把自然语言指令交给持有编号截图工具的子代理，自行截图定位点击并回报结果",
+      "k": [
+        "自然语言UI操作",
+        "子代理",
+        "computer-use",
+        "X11",
+        "Linux"
+      ]
+    },
+    "bruce2431/dsh-latex-editor": {
+      "s": "左侧栏 LaTeX 书稿编辑器：项目卡片选稿、编辑 .tex 并触发 xelatex 编译，右侧实时 PDF 预览",
+      "k": [
+        "LaTeX",
+        "PDF预览",
+        "xelatex",
+        "书稿",
+        "侧栏编辑器"
+      ]
+    },
+    "butterfly301/dsh-pirate-mode": {
+      "s": "海盗模式整合包：3D 海景随昼夜天气变化、大副人格、航海状态短句与音效、八语种词典与 /rum 彩蛋",
+      "k": [
+        "主题",
+        "海盗",
+        "海景背景",
+        "人格",
+        "音效"
+      ]
+    },
+    "butterfly301/dsh-prompt-loader": {
+      "s": "把系统提示词作为独立 section 注入代理：按语言 ID 读 TXT 文件，语言切换或文件变动时热重注册",
+      "k": [
+        "系统提示词",
+        "多语言",
+        "热重载",
+        "section注入"
+      ]
+    },
+    "butterfly301/dsh-session-terms": {
+      "s": "会话级术语库：输入框上方钉住术语与备注，点击插入正文，AI 遇到术语时自动获得含义说明",
+      "k": [
+        "术语库",
+        "会话作用域",
+        "备注",
+        "AI上下文",
+        "输入辅助"
+      ]
+    },
+    "bychance6600/dsh-comfy": {
+      "s": "把画面描述交给本机 ComfyUI 出图：按底模自动配参数，图存进 dsh-perch 的 media 目录并返回可直接发送的一行",
+      "k": [
+        "ComfyUI",
+        "文生图",
+        "Z-Image",
+        "FLUX",
+        "SDXL"
+      ]
+    },
+    "cattreemaybe/ai-wish-001-timetable": {
+      "s": "新高考走班排课工作台：OR-Tools CP-SAT 求解课表，独立校验器复核硬约束，Excel 导入导出，以 DSH 插件交付",
+      "k": [
+        "排课",
+        "OR-Tools",
+        "CP-SAT",
+        "校验器",
+        "Excel导入"
+      ]
+    },
+    "cenweixin199/dsh-figma-spec": {
+      "s": "经 Figma REST API 读取画板真实样式数据，输出规格表、字号体系、色板与节点差异对比，带缓存与限流退避",
+      "k": [
+        "Figma",
+        "设计规格",
+        "REST API",
+        "色板",
+        "节点Diff"
+      ]
+    },
+    "ckbw1941-crypto/dsh-paperang-print": {
+      "s": "在 DSH 侧栏接入喵喵机 P2 HD 热敏打印机，蓝牙直连打印文字图片，支持点阵预览、缩放与自动打印文件夹",
+      "k": [
+        "热敏打印",
+        "Paperang",
+        "喵喵机",
+        "BLE",
+        "打印预览",
+        "自动打印"
+      ]
+    },
+    "clown-lee/dsh-qwenwork-bridge": {
+      "s": "复用千问办公桌面端登录态把内置模型接入 DSH 选择器，提供积分角标、余额查询与每日自动签到",
+      "k": [
+        "千问办公",
+        "QwenWork",
+        "模型接入",
+        "积分角标",
+        "自动签到",
+        "provider"
+      ]
+    },
+    "clown-lee/dsh-trae-bridge": {
+      "s": "复用 Trae 桌面端登录态接入 DSH 模型选择器，国内外版分组隔离并每日自动签到积分",
+      "k": [
+        "Trae",
+        "模型接入",
+        "Doubao",
+        "DeepSeek",
+        "签到",
+        "provider"
+      ]
+    },
+    "compilink/dsh-docker-upgrade-plugin": {
+      "s": "设置页检查 DSH 官方源码更新，联动本机升级服务构建验证并部署 Docker 容器，支持定时升级与失败回滚",
+      "k": [
+        "Docker",
+        "升级",
+        "Compose",
+        "部署",
+        "回滚",
+        "定时任务"
+      ]
+    },
+    "csw7777/dsh-trajectory-diff": {
+      "s": "对比两次 agent 运行轨迹，定位首次语义分歧的回合、步骤与工具调用，输出文本或 JSON 报告",
+      "k": [
+        "轨迹对比",
+        "diff",
+        "调试",
+        "JSON 报告",
+        "可观测"
+      ]
+    },
+    "dengjx1-apk/dsh-soft-moe": {
+      "s": "注册软萌语气技能让 agent 说话带喵与语气词，代码报错保持原样，公文自动切回中性语气",
+      "k": [
+        "软萌语气",
+        "persona",
+        "skill",
+        "喵",
+        "语气词"
+      ]
+    },
+    "dengnianchen/dsh-workspace-panels": {
+      "s": "右栏开始页加工作区视图卡片，发现并沙箱渲染工作区自定义面板，可多开标签页并附带开发技能",
+      "k": [
+        "侧栏",
+        "工作区视图",
+        "面板",
+        "沙箱渲染",
+        "panel.json"
+      ]
+    },
+    "dkmnx/recollect": {
+      "s": "本地 Markdown 记忆引擎，DSH 适配器提供 recollect_memory 工具并按工作目录注入记忆快照",
+      "k": [
+        "长期记忆",
+        "Markdown",
+        "检索",
+        "memory",
+        "DSH adapter"
+      ]
+    },
+    "dragonlongz/dsh-integration-env": {
+      "s": "右栏集成环境面板集中配置 MySQL、Nacos、Redis 等实例，按会话勾选后由工具读取连接执行查询",
+      "k": [
+        "MySQL",
+        "Nacos",
+        "Redis",
+        "MongoDB",
+        "MQTT",
+        "连接管理"
+      ]
+    },
+    "dragonlongz/log-mcp-starter": {
+      "s": "JumpServer 多资产日志查询 MCP 网关，配套 DSH 日志上下文插件在右栏选资产模块并注入查询上下文",
+      "k": [
+        "日志查询",
+        "JumpServer",
+        "MCP",
+        "SSH",
+        "log-context"
+      ]
+    },
+    "drscrewdriver/dsh-progress-union": {
+      "s": "合并进度板与鲸程 ETA 引擎，右栏进度标签可编辑槽位并估算剩余时间，向压缩插件暴露只读锚点",
+      "k": [
+        "进度板",
+        "ETA",
+        "progress",
+        "任务槽位",
+        "压缩锚点"
+      ]
+    },
+    "dsai-q/dsh-mg-video": {
+      "s": "一份 JSON 清单本地渲染 MG 动画视频，九模板五背景五转场，提供渲染切帧标定工具与技能",
+      "k": [
+        "MG 动画",
+        "视频渲染",
+        "Pillow",
+        "ffmpeg",
+        "模板"
+      ]
+    },
+    "dtapps/dsh-git-guard": {
+      "s": "注册全局工具护栏拦截 agent 执行 git commit/push 等写操作与 gh 发布动词，覆盖所有子代理",
+      "k": [
+        "git guard",
+        "写操作拦截",
+        "tool policy",
+        "gh pr",
+        "审批"
+      ]
+    },
+    "eleysia111/agy-video-reader": {
+      "s": "让 agent 读取 B站/YouTube 视频，探测链接、抽关键帧拼故事板并摘要字幕热评弹幕",
+      "k": [
+        "视频读取",
+        "Bilibili",
+        "YouTube",
+        "故事板",
+        "字幕",
+        "MCP"
+      ]
+    },
+    "fanyingnie2163663/dsh-guizhi": {
+      "s": "只读盘点已装插件技能工具与近30天用量，按工作流标注缺口冗余，生成可预览回滚的能力包",
+      "k": [
+        "插件盘点",
+        "能力包",
+        "工作流",
+        "用量",
+        "目录源"
+      ]
+    },
+    "fanyingnie2163663/weave-observatory": {
+      "s": "把多智能体协作会话映射成拓扑图与时间泳道，在织造标签页确定性回放协作过程",
+      "k": [
+        "多智能体可视化",
+        "回放",
+        "泳道",
+        "拓扑",
+        "session view"
+      ]
+    },
+    "feigo313/dsh-leader": {
+      "s": "向根会话注入 Leader 合同驱动规划拆分与子代理派发，带路由门、派发审计与自我执行检查",
+      "k": [
+        "subagent",
+        "编排",
+        "leader contract",
+        "派发审计",
+        "多智能体"
+      ]
+    },
+    "fengguanghuai/dsh-workspace-tools": {
+      "s": "左侧栏置顶汇总、工作区置顶排序、运行未读高亮与七色标签，并提供管理工作区与标题的 agent 工具",
+      "k": [
+        "侧栏增强",
+        "置顶",
+        "工作区",
+        "session title",
+        "状态标记"
+      ]
+    },
+    "future/dsh-tailscale-link": {
+      "s": "把 DSH Web GUI 发布到 Tailscale 网络，生成带登录 token 的远端网址与二维码供手机扫码接入",
+      "k": [
+        "Tailscale",
+        "远程访问",
+        "tailnet",
+        "二维码",
+        "Web GUI"
+      ]
+    },
+    "fzjmaclearn/zack-calendar": {
+      "s": "日历待办合一的日程面板，日周月视图与六时间块排程，目标拆解推进，AI 只能往空槽排程",
+      "k": [
+        "日历",
+        "待办",
+        "目标拆解",
+        "排程",
+        "calendar"
+      ]
+    },
+    "github-yousen/dsh-workbuddy-browser": {
+      "s": "经 WorkBuddy 扩展以 32 个 MCP 工具驱动本机已登录 Chrome/Edge 标签页操作外部网站",
+      "k": [
+        "浏览器控制",
+        "Chrome",
+        "Edge",
+        "MCP",
+        "browser automation"
+      ]
+    },
+    "gpboyer2/dsh-archived-open": {
+      "s": "点击侧栏归档会话自动取消归档并直接打开，替换原生的无法查看提示",
+      "k": [
+        "归档会话",
+        "侧栏",
+        "点击行为",
+        "unarchive"
+      ]
+    },
+    "gpboyer2/dsh-finish-line": {
+      "s": "工作区全部会话完成并静默后自动串行收尾：先组件化整理 diff，再分批审查提交推送",
+      "k": [
+        "收尾自动化",
+        "git commit",
+        "子代理链",
+        "workflow",
+        "/finish"
+      ]
+    },
+    "gpboyer2/dsh-session-title-on-turnend": {
+      "s": "每回合结束用指定模型把对话压成限长标题写回会话，模型、长度、触发点均可配",
+      "k": [
+        "会话标题",
+        "自动命名",
+        "turn/end",
+        "模型总结",
+        "sidebar"
+      ]
+    },
+    "gpboyer2/dsh-toolcall-text-guard": {
+      "s": "回合收尾前按事件结构判定模型是否中途停住，未完成则补话让同一回合继续，不调裁判模型",
+      "k": [
+        "停滞检测",
+        "steer",
+        "turn-stopping",
+        "结构判定",
+        "tool-call"
+      ]
+    },
+    "gpboyer2/dsh-web-fetch-open": {
+      "s": "注册不过滤私网与 file:// 的 web_fetch 后端，让 agent 能抓本机、局域网与本地文件",
+      "k": [
+        "web_fetch",
+        "私网",
+        "localhost",
+        "file://",
+        "fetch provider"
+      ]
+    },
+    "guhanfei-ai/dsh-workspace-cake": {
+      "s": "左侧工作区列表增强包：右键快捷菜单、置顶与最近排序、运行未读状态标记与折叠按钮",
+      "k": [
+        "工作区",
+        "右键菜单",
+        "置顶",
+        "排序",
+        "状态标记"
+      ]
+    },
+    "hbycwzm001/dsh-plugin-voiceover": {
+      "s": "本地离线配音工作台，文案分段合成语音，支持 CosyVoice3/Qwen3-TTS/VoxCPM2 多引擎与音色克隆",
+      "k": [
+        "TTS",
+        "配音",
+        "音色克隆",
+        "CosyVoice",
+        "VoxCPM",
+        "离线"
+      ]
+    },
+    "heenljy/tan-memory": {
+      "s": "本地长期记忆引擎，事实条目专题卡与日志分层存储，DSH 插件提供记忆管理页与按话题自动注入",
+      "k": [
+        "长期记忆",
+        "memory",
+        "专题卡",
+        "自动注入",
+        "MCP"
+      ]
+    },
+    "hgognav233-netizen/dsh-puppy-workflow": {
+      "s": "把会话真实动作画成像素小岛小狗故事，小狗对应会话与子代理，点击可回看原始日志",
+      "k": [
+        "可视化",
+        "像素画",
+        "会话回放",
+        "小狗",
+        "three.js"
+      ]
+    },
+    "hippone/dsh-aurora-background": {
+      "s": "DSH Web 动态极光背景主题，三套配色与玻璃拟态，附鲸鱼跃出动画，设置中可切换或关闭",
+      "k": [
+        "主题",
+        "背景",
+        "极光",
+        "aurora",
+        "玻璃拟态"
+      ]
+    },
+    "huanyu-a/dsh-profile-config-sync": {
+      "s": "把 DSH 十二组配置抓成 Git 快照推送自有 Git 或 WebDAV，退出后执行，换机还原可回滚",
+      "k": [
+        "配置同步",
+        "备份",
+        "Git",
+        "WebDAV",
+        "还原"
+      ]
+    },
+    "huanyu-a/dsh-ssh-hub": {
+      "s": "服务器车队 SSH 运维插件，新增巡检告警分批部署回滚与跨机日志检索，凭据加密并留审计",
+      "k": [
+        "SSH",
+        "运维",
+        "巡检",
+        "告警",
+        "部署回滚",
+        "日志检索"
+      ]
+    },
+    "hxliu4mcgill/imem-skill": {
+      "s": "跨宿主长期记忆与日程提醒服务，DSH 插件装技能并注册远程 MCP，按可撤销密钥控制访问",
+      "k": [
+        "长期记忆",
+        "日程提醒",
+        "remote MCP",
+        "multi-host",
+        "API key"
+      ]
+    },
+    "imluyg/dsh-pwsh-windows-guard": {
+      "s": "检测 Windows PowerShell 版本并向系统提示注入对应避坑规则，无 shell 的 agent 不占提示词",
+      "k": [
+        "PowerShell",
+        "规则注入",
+        "system prompt",
+        "Windows",
+        "版本检测"
+      ]
+    },
+    "joao-paulo-santos/dsh-john-tweaks": {
+      "s": "收录小型体验微调的合集插件，首项为侧栏归档会话菜单加二次确认删除",
+      "k": [
+        "微调",
+        "QoL",
+        "归档会话",
+        "删除",
+        "侧栏菜单"
+      ]
+    },
+    "kit686/dsh-kolors": {
+      "s": "侧栏内用硅基流动免费 Kolors 生图，支持参数调节、历史回收站管理与多 Key 轮换额度控制",
+      "k": [
+        "图像生成",
+        "Kolors",
+        "硅基流动",
+        "sidebar",
+        "Key池",
+        "生图历史"
+      ]
+    },
+    "kl998/dsh-privacy-guard": {
+      "s": "模型读取前遮蔽身份证、手机号、密钥等隐私信息，并阻止接触过文档或图片的会话上传会话日志与遥测",
+      "k": [
+        "隐私脱敏",
+        "PII",
+        "session log",
+        "遥测扣留",
+        "正则识别"
+      ]
+    },
+    "ku4nc4/dsh-history-window": {
+      "s": "把会话历史首页从 500 条缩到 80 条，打开旧会话更快渲染出转录，实测减少约一半主线程阻塞",
+      "k": [
+        "历史加载",
+        "性能优化",
+        "session history",
+        "首屏渲染",
+        "Web GUI"
+      ]
+    },
+    "laibanet/dsh-code-review-tab": {
+      "s": "右侧栏逐行代码审阅面板，覆盖提交、未提交改动与每轮 Agent 改动，支持就地编辑、跨会话历史与子模块展开",
+      "k": [
+        "code review",
+        "git diff",
+        "右侧栏",
+        "inline edit",
+        "代码审查"
+      ]
+    },
+    "liangyishi27/dsh-progressive-tool": {
+      "s": "把低频工具改为按需披露：核心工具直连，其余经搜索、查看、调用三个工具按需取用，声明列表大幅缩短",
+      "k": [
+        "tool disclosure",
+        "渐进披露",
+        "token 优化",
+        "工具目录",
+        "dsh-tools"
+      ]
+    },
+    "licos03010102/dsh-prompt-optimize-button": {
+      "s": "输入栏 ✦ 按钮把随手草稿改写成更具体的提示词，支持完善系统提示词与修改旧稿，结果先预览再填回或复制",
+      "k": [
+        "提示词优化",
+        "prompt rewrite",
+        "输入栏按钮",
+        "预览",
+        "Web GUI"
+      ]
+    },
+    "lidaiyue/dsh-ai-news": {
+      "s": "会话标题栏轮播 Today for AI 的快讯与 24 小时热点，悬浮面板查看列表、点击新标签页打开原文",
+      "k": [
+        "AI资讯",
+        "news ticker",
+        "标题栏",
+        "热点榜",
+        "跑马灯"
+      ]
+    },
+    "lidaiyue/dsh-eye-theme": {
+      "s": "换更柔和的松烟深色护眼底色，可调 Codex 风格界面字重与聊天行高，浅色模式与状态色保持原样",
+      "k": [
+        "护眼主题",
+        "dark theme",
+        "字重",
+        "行高",
+        "Web GUI"
+      ]
+    },
+    "lidaiyue/dsh-market-indices": {
+      "s": "标题栏轮播股指行情卡片，数据取自东方财富接口，支持自选代码增删排序、悬浮看全部与定时刷新",
+      "k": [
+        "股票行情",
+        "东方财富",
+        "标题栏卡片",
+        "A股",
+        "ETF"
+      ]
+    },
+    "lidaiyue/dsh-workbuddy": {
+      "s": "只读复用本机已登录 WorkBuddy 桌面端凭据，注册为 DSH 模型供应商，自动刷新模型目录并流式转发对话与工具调用",
+      "k": [
+        "model provider",
+        "WorkBuddy",
+        "凭据复用",
+        "LlmAdapter",
+        "模型目录"
+      ]
+    },
+    "lijiawei255/dsh-plugin-solarized-eyecare": {
+      "s": "整套 Solarized 护眼配色覆盖桌面与 Web 端全部界面，修正低对比并跟随外观设置切换明暗",
+      "k": [
+        "Solarized",
+        "主题",
+        "护眼",
+        "WCAG 对比度",
+        "桌面端"
+      ]
+    },
+    "lintaojlu/dsh-inplace-edit": {
+      "s": "回合结束后点铅笔修改已发送提示词并在同一会话重发，被替换内容从界面转录与后续模型请求中隐藏",
+      "k": [
+        "编辑重发",
+        "prompt edit",
+        "会话历史",
+        "消息编辑"
+      ]
+    },
+    "linyu19872008/rocky-mem-dsh": {
+      "s": "接入 rocky-mem 经验台账：会话开始注入偏好与教训，任务时检索，提供六个记忆工具与 agent 技能",
+      "k": [
+        "记忆",
+        "经验台账",
+        "rocky-mem",
+        "context injection",
+        "skill"
+      ]
+    },
+    "liqiangai/dsh-code-editor": {
+      "s": "右侧栏内 VS Code 风格编辑器：文件树、多标签、语法高亮、快速打开与带冲突检测的原子保存",
+      "k": [
+        "代码编辑器",
+        "file tree",
+        "语法高亮",
+        "右侧栏",
+        "Markdown 预览"
+      ]
+    },
+    "lisiluan/dsh-capability-map": {
+      "s": "右侧栏卡片网格展示当前会话用过的技能、工具与 MCP 工具及各自调用次数，带来源徽标、筛选与搜索",
+      "k": [
+        "capability map",
+        "工具统计",
+        "MCP",
+        "右侧栏",
+        "调用计数"
+      ]
+    },
+    "listky/dsh-ali-open-code-review": {
+      "s": "接入阿里 open-code-review 审查管线：原生 OCR 与委托模式审查工作区、分支、提交与 PR",
+      "k": [
+        "code review",
+        "open-code-review",
+        "OCR agent",
+        "PR 审查",
+        "SARIF"
+      ]
+    },
+    "liunian1888/dsh-memory-star-map": {
+      "s": "把会话记忆渲染成可旋转缩放的 3D 星空：玻璃地球、二十八宿星区、流星雨与时间轴回放，支持 PNG/JSON 导出",
+      "k": [
+        "记忆可视化",
+        "3D 星空",
+        "二十八宿",
+        "meteor",
+        "导出"
+      ]
+    },
+    "liyupi/memecub": {
+      "s": "给 agent 接表情包库：按情绪搜索梗图、GIF 与中文表情包，对整篇文章自动挑选合适位置插图",
+      "k": [
+        "表情包",
+        "meme",
+        "MCP",
+        "配图",
+        "dsh-plugin-memecub"
+      ]
+    },
+    "liyupi/vibefather": {
+      "s": "320 多个原创建站模板库：agent 按需求检索模板，附同款提示词与设计系统，引导生成落地页、SaaS 与 3D 站点",
+      "k": [
+        "网站模板",
+        "vibe coding",
+        "Agent Skill",
+        "MCP",
+        "建站"
+      ]
+    },
+    "llimill/dsh-persona-manager": {
+      "s": "按会话模式控制角色注入：每个模式可跟随当前角色或单独配角色卡与提示词，留空则与未装插件完全一致",
+      "k": [
+        "人设",
+        "persona",
+        "system prompt",
+        "模式",
+        "角色卡"
+      ]
+    },
+    "loveeveryone-mr-niu/dsh-keykeeper": {
+      "s": "本地加密钥匙库集中保存各家模型 API Key，AES-256-GCM 落盘自动上锁，一键写入 DSH 模型配置并查余额",
+      "k": [
+        "API Key",
+        "保险库",
+        "AES-GCM",
+        "余额",
+        "模型配置"
+      ]
+    },
+    "lsit27/dsh-mobile-route-priority": {
+      "s": "为 dsh-mobile-plugin 控制路线优先级：局域网优先、按实测延迟自动选路、手动排序带阈值故障转移",
+      "k": [
+        "手机远程",
+        "路由优先级",
+        "LAN",
+        "Tailscale",
+        "failover"
+      ]
+    },
+    "luojuee/dsh-voice-fish": {
+      "s": "让 DSH 里的 AI 开口说话：回合开始与结果概括用 Edge 神经音色、朗读桥或系统语音念出，出错与等审批也会提示",
+      "k": [
+        "TTS",
+        "语音朗读",
+        "Edge 音色",
+        "Windows",
+        "朗读桥"
+      ]
+    },
+    "lvyawei5-design/dsh-agent-notebook": {
+      "s": "左侧栏记事本：助手自动记关键决定与偏好，勾选笔记在每次任务前注入系统提示词，支持撤销、置顶与回收站",
+      "k": [
+        "记事本",
+        "notebook",
+        "记忆",
+        "sidebar",
+        "系统提示注入"
+      ]
+    },
+    "macroguo-ghy/dsh-codex-migration": {
+      "s": "读取本机 Codex 历史文件把对话导入 DSH，保留消息与工具记录，导入后可直接继续追问",
+      "k": [
+        "Codex",
+        "对话迁移",
+        "历史导入",
+        "jsonl",
+        "会话恢复"
+      ]
+    },
+    "manyuemeiquqi/dsh-gta6": {
+      "s": "GTA VI 主题：通缉星级跟随 Agent 运行状态点亮归零，右栏会话仪表盘显示标题与 token 消耗，附带两位桌宠",
+      "k": [
+        "GTA6",
+        "主题",
+        "桌宠",
+        "通缉星级",
+        "仪表盘"
+      ]
+    },
+    "mbcc5732/dsh-screenshot": {
+      "s": "Windows 选区截屏：豆包同款框选界面可移动缩放，确认后 PNG 直接插入当前输入框草稿作图片附件",
+      "k": [
+        "截屏",
+        "screenshot",
+        "选区",
+        "Windows",
+        "草稿附件"
+      ]
+    },
+    "meng-lx/dsh-blueprint-tree": {
+      "s": "可视化工作流蓝图：项目按子图拆成单元，标注输入输出与依赖，人和 AI 围绕同一张图定位改动并检查",
+      "k": [
+        "蓝图",
+        "工作流",
+        "依赖图",
+        "可视化",
+        "TypeScript 单元"
+      ]
+    },
+    "mioakiyama0809-coder/dsh-context-fold": {
+      "s": "跨轮勾选指定轮次折出上下文，生成双层可编辑 Markdown 档案并原地热同步，主线保留、上下文占用大幅下降",
+      "k": [
+        "上下文折叠",
+        "context folding",
+        "compaction",
+        "token",
+        "热同步"
+      ]
+    },
+    "miorin-chan/dsh-auto-pin-session": {
+      "s": "新会话发出首条消息后自动在侧栏置顶，空会话不置顶，手动取消后不再重复置顶",
+      "k": [
+        "自动置顶",
+        "session pin",
+        "侧栏",
+        "会话管理"
+      ]
+    },
+    "miorin-chan/dsh-collapsed-sidebar-status": {
+      "s": "折叠侧栏旁显示运行、等待、完成等会话计数徽标，点击弹出分组快速跳转面板，支持拖拽排序定制",
+      "k": [
+        "侧栏状态",
+        "session counts",
+        "快速跳转",
+        "折叠侧栏"
+      ]
+    },
+    "miorin-chan/dsh-subtle-sidebar": {
+      "s": "启动时默认折叠左侧栏只留图标轨，保留原生开关且切换会话不打扰，并交换左右侧栏快捷键",
+      "k": [
+        "折叠侧栏",
+        "sidebar",
+        "快捷键",
+        "启动行为"
+      ]
+    },
+    "morning-start/dsh-plugin-creator": {
+      "s": "DSH 插件开发流水线：模板起步、规范检查、功能与集成测试到发版检查，只扩展创造模式不扰其他会话",
+      "k": [
+        "插件开发",
+        "脚手架",
+        "测试",
+        "发版",
+        "cordis"
+      ]
+    },
+    "moshangssh/dsh-hindsight-manager": {
+      "s": "为官方 Hindsight 记忆插件提供 Web 管理界面：按工作区配置记忆库与召回方式，查看每轮召回引用与会话回写记录",
+      "k": [
+        "Hindsight",
+        "长期记忆",
+        "召回",
+        "回写",
+        "管理面板"
+      ]
+    },
+    "music875/dsh-workbuddy-pulse": {
+      "s": "dsh-go 输入框上方常驻模型状态条：显示峰谷时段、排队拥堵与积分余额读数，无数据的项自动省略",
+      "k": [
+        "状态条",
+        "dsh-go",
+        "额度",
+        "拥堵",
+        "峰谷"
+      ]
+    },
+    "muzhou91/dsh-team-desk": {
+      "s": "把多个 DSH 会话组成交付团队：四车道按预设路由任务，两道验收链与项目工作区时间线",
+      "k": [
+        "多智能体",
+        "团队协作",
+        "任务分派",
+        "验收链",
+        "工作区"
+      ]
+    },
+    "mycherish/dsh-plugin-cealum-tint": {
+      "s": "给用户聊天气泡换色：预设或任意十六进制色，自动按 WCAG 计算文字对比色，卸载不留残留",
+      "k": [
+        "气泡配色",
+        "theme",
+        "WCAG",
+        "hex 颜色",
+        "桌面端"
+      ]
+    },
+    "natgurlain/dsh-dreaming": {
+      "s": "每日空闲时把工作区新会话沉淀为带引用的长期记忆、维基页面与技能草稿，改动可审阅可回滚",
+      "k": [
+        "长期记忆",
+        "memory",
+        "会话整理",
+        "技能草稿",
+        "dream",
+        "记忆回滚"
+      ]
+    },
+    "neilweixing/dsh-jira-board": {
+      "s": "在侧栏看板展示自建 Jira 账号未完成事项，按优先级分组，可复制编号或一键发起处理会话",
+      "k": [
+        "Jira",
+        "看板",
+        "侧栏",
+        "issue",
+        "Jira Server"
+      ]
+    },
+    "nexu-io/opengame": {
+      "s": "多宿主 AI 游戏工作室：模板化生成 3D 与小游戏，含配乐配音与发布流水线，DSH 侧经集成插件接入",
+      "k": [
+        "游戏开发",
+        "game studio",
+        "3D",
+        "模板",
+        "AI 生成",
+        "DSH 集成"
+      ]
+    },
+    "ningqi24/dsh-tencent-buddy-fix": {
+      "s": "重写 buddy/workbuddy 渠道请求，把系统提示挪入首条用户消息以修复腾讯网关 400 11128 拦截",
+      "k": [
+        "Tencent buddy",
+        "workbuddy",
+        "llm/stream",
+        "渠道修复",
+        "Cordis 中间件"
+      ]
+    },
+    "nixuejun888/dsh-jarvis-sphere": {
+      "s": "在 DSH Web 上层渲染由运行状态、模型流式速率与工具调用驱动的贾维斯神经元球装饰浮层",
+      "k": [
+        "神经元球",
+        "可视化",
+        "Jarvis",
+        "浮层",
+        "UI 装饰"
+      ]
+    },
+    "noir-hedgehog/deepseekharnessembed": {
+      "s": "在 Obsidian 侧栏内嵌 DSH Web 界面，把当前 vault 注册为工作区并支持选中文本发送会话",
+      "k": [
+        "Obsidian",
+        "嵌入",
+        "remote",
+        "配套",
+        "vault"
+      ]
+    },
+    "octer-ai/octer-ads-dsh": {
+      "s": "在 DSH 侧栏接入六大广告平台账号，生成投放报表、指标卡趋势图与优化建议",
+      "k": [
+        "广告",
+        "Google Ads",
+        "Meta Ads",
+        "报表",
+        "投放优化"
+      ]
+    },
+    "pseudonymzjt/dsh-direct-human-style": {
+      "s": "常驻系统提示注入直白文风契约，并配 AI 腔检测与规则清单两个按需调用工具",
+      "k": [
+        "文风",
+        "style",
+        "system prompt",
+        "humanize",
+        "提示词注入"
+      ]
+    },
+    "qdqzy/dsh-token-cost": {
+      "s": "在用量胶囊旁实时显示会话推理花费，按模型细分成本并支持自定义价格表",
+      "k": [
+        "token 成本",
+        "费用",
+        "cost",
+        "用量",
+        "价格表"
+      ]
+    },
+    "qianhanglv/dsh-better-python": {
+      "s": "先探测本机解释器与已有依赖再决定是否安装，把重复安装和环境污染改为需确认动作",
+      "k": [
+        "Python",
+        "环境探测",
+        "依赖",
+        "安装护栏",
+        "venv"
+      ]
+    },
+    "qianhaoq/dota2.ai": {
+      "s": "解析 Dota2 比赛回放生成有证据的赛后复盘，DSH 内提供独立复盘页面与会话工具",
+      "k": [
+        "Dota2",
+        "复盘",
+        "replay",
+        "赛后分析",
+        "游戏数据"
+      ]
+    },
+    "qinghuidaqzp/dsh-focus-garden": {
+      "s": "对话内番茄钟专注计时，完成目标后收获 emoji 花朵并累计专注分钟数",
+      "k": [
+        "番茄钟",
+        "pomodoro",
+        "专注",
+        "花园",
+        "趣味"
+      ]
+    },
+    "qinghuidaqzp/dsh-idea-dice": {
+      "s": "提供创作灵感卡、带权选择转盘与多面骰三种随机工具，辅助构思与决策",
+      "k": [
+        "灵感卡",
+        "骰子",
+        "随机",
+        "创意",
+        "decision"
+      ]
+    },
+    "qinghuidaqzp/dsh-qinghui-quests": {
+      "s": "把待办清单变成冒险任务，完成真实工作领取经验升级解锁徽章并持久保存进度",
+      "k": [
+        "任务",
+        "XP",
+        "徽章",
+        "游戏化",
+        "待办"
+      ]
+    },
+    "qinghuidaqzp/dsh-qinghui-vision": {
+      "s": "调用云端或本地 Ollama 视觉模型，为 DSH 提供截图解读、OCR 与多图对比",
+      "k": [
+        "视觉",
+        "OCR",
+        "截图理解",
+        "多图对比",
+        "Ollama"
+      ]
+    },
+    "qingshui59/dsh-drama-board": {
+      "s": "AI 短剧制作工作台，覆盖立项、角色定妆、分镜出图、配音到本机合成竖屏 MP4",
+      "k": [
+        "短剧",
+        "分镜",
+        "storyboard",
+        "配音",
+        "视频合成"
+      ]
+    },
+    "qiniu/dsh-agentapi": {
+      "s": "把七牛 AgentAPI 云端智能体与执行环境接入 DSH，支持子代理会话协作与轨迹查看",
+      "k": [
+        "七牛",
+        "AgentAPI",
+        "云端智能体",
+        "subagent",
+        "远程环境"
+      ]
+    },
+    "qiyaogongfang/dsh-rankings": {
+      "s": "侧栏查看 App Store 与 Google Play 十七国榜单、飙升榜并附一句话中文简介",
+      "k": [
+        "排行榜",
+        "App Store",
+        "Google Play",
+        "榜单",
+        "飙升榜"
+      ]
+    },
+    "qlings/dsh-chrome": {
+      "s": "经本地长轮询桥与 MV3 扩展让 DSH 接管本机 Chrome，读写页面、提交表单、抓接口与批量流程",
+      "k": [
+        "Chrome",
+        "浏览器自动化",
+        "MV3",
+        "CDP",
+        "浏览器控制"
+      ]
+    },
+    "qq1003240666/qingshi-agent": {
+      "s": "连接青史永存个人史记服务，查询个人资料与生涯、计算亲属关系、记录经历并上传照片",
+      "k": [
+        "青史",
+        "MCP",
+        "生涯记录",
+        "族谱",
+        "个人史记"
+      ]
+    },
+    "qso/dsh-better-workspace-menu": {
+      "s": "增强侧栏工作区右键菜单：复制路径、外部应用打开、Git 仓库页、会话归档与置顶",
+      "k": [
+        "右键菜单",
+        "工作区",
+        "context menu",
+        "侧栏",
+        "Git"
+      ]
+    },
+    "qso/dsh-infinite-canvas-bridge": {
+      "s": "把 Infinite Canvas 画布桥接进 DSH 右侧栏，项目级持久化并暴露画布操作工具",
+      "k": [
+        "画布",
+        "canvas",
+        "白板",
+        "桥接",
+        "生成流程"
+      ]
+    },
+    "qtywoitpiw/dsh-approval-sound": {
+      "s": "当前会话出现权限批准卡片时用 Web Audio 合成提示音，支持开关、试听与防重复",
+      "k": [
+        "提示音",
+        "chime",
+        "批准",
+        "通知",
+        "Web Audio"
+      ]
+    },
+    "rigelmansid/dsh-stock-flick": {
+      "s": "侧栏 A 股工作台：全市场行业云图、自选盯盘与持仓流水管理，只做规则统计",
+      "k": [
+        "A股",
+        "行业云图",
+        "股票",
+        "盯盘",
+        "持仓"
+      ]
+    },
+    "ruochen361/dsh-work-summary": {
+      "s": "定时采集工作区改动、提交与会话生成日报周报月报，并维护待办看板与产出统计",
+      "k": [
+        "日报",
+        "周报",
+        "定时任务",
+        "工作汇报",
+        "看板"
+      ]
+    },
+    "ryangallager0323-jpg/dsh-skin-atelier": {
+      "s": "给 DSH Web 换上暖纸墨色、宋体标题与液态玻璃质感的皮肤，含深浅两色模式",
+      "k": [
+        "皮肤",
+        "主题",
+        "CSS",
+        "毛玻璃",
+        "liquid glass"
+      ]
+    },
+    "scoaming/dsh-find-in-conversation": {
+      "s": "在会话内用 Ctrl+F 唤起查找条，实时高亮全部命中并在匹配之间跳转",
+      "k": [
+        "查找",
+        "Ctrl+F",
+        "会话搜索",
+        "高亮",
+        "查找条"
+      ]
+    },
+    "scoaming/dsh-turn-notify": {
+      "s": "回复完成或等待批准时在 Windows 右下角弹置顶卡片，点击卡片即回到 DSH 窗口",
+      "k": [
+        "桌面通知",
+        "Windows",
+        "弹窗",
+        "回合提醒",
+        "置顶卡片"
+      ]
+    },
+    "sdadbbb/dsh-session-onlyclean": {
+      "s": "按工作区查看并永久删除 DSH 会话，删除前校验日志路径与写占用防止误删",
+      "k": [
+        "会话管理",
+        "删除",
+        "session",
+        "清理",
+        "工作区"
+      ]
+    },
+    "sereinz-z-z/deepseek-balance-whale-widget-mod": {
+      "s": "余额小鲸鱼挂件二改版：官方与中转余额源切换、24 纯色加 6 渐变配色、一键重载页面",
+      "k": [
+        "挂件",
+        "余额",
+        "widget",
+        "二改",
+        "配色"
+      ]
+    },
+    "setoya/dsh-panel-updater": {
+      "s": "侧栏更新器面板：检查插件版本与依赖扩展状态，静默升级并支持同步码跨设备搬运配置",
+      "k": [
+        "更新器",
+        "插件管理",
+        "health check",
+        "依赖",
+        "跨设备"
+      ]
+    },
+    "sevenqcx/dsh-seven-inbox": {
+      "s": "以注意力分组收件箱替换工作区列表，运行中会话沉底成悬浮卡并支持多工作区筛选",
+      "k": [
+        "收件箱",
+        "侧栏",
+        "会话列表",
+        "筛选",
+        "注意力分组"
+      ]
+    },
+    "silent-qaq/dsh-plugins-file-manager-plus": {
+      "s": "在文件树右键菜单加入剪切粘贴、压缩解压、SQLite 可视化管理与文本编辑能力",
+      "k": [
+        "文件管理",
+        "右键菜单",
+        "压缩",
+        "SQLite",
+        "文件树"
+      ]
+    },
+    "silent-qaq/dsh-plugins-mcserver-manger": {
+      "s": "侧栏 Minecraft 服务器控制台：启停重启、指令下发、实时输出、性能采样与报错归类",
+      "k": [
+        "Minecraft",
+        "服务器",
+        "控制台",
+        "MC",
+        "进程管理"
+      ]
+    },
+    "skj333/dsh-fold-answers": {
+      "s": "在聊天动作条折叠次要助手回答与文件卡片，仅影响显示层不改会话日志与上下文",
+      "k": [
+        "折叠",
+        "聊天界面",
+        "显示层",
+        "文件卡片",
+        "UI"
+      ]
+    },
+    "stormcrown/dsh-avatar-plus": {
+      "s": "给 DSH Web 加 AI 与用户头像，支持导入裁切、会话级自定义及主 AI 子智能体群聊时间线",
+      "k": [
+        "头像",
+        "avatar",
+        "群聊",
+        "裁切",
+        "子智能体"
+      ]
+    },
+    "tanbopiao/jixia-publish": {
+      "s": "把 AI 生成内容一键发布到稷下内容生态，强制标注 AI 生成并经玄圭双层审核与客户端限流",
+      "k": [
+        "内容发布",
+        "稷下",
+        "分享",
+        "AI 标注",
+        "社区"
+      ]
+    },
+    "tanbopiao/xuangui-check": {
+      "s": "接入玄圭公开演示API，提供九类文本归类、实体关系抽取与演示成员信用查询三条命令。",
+      "k": [
+        "文本分类",
+        "实体关系抽取",
+        "玄圭",
+        "xuangui",
+        "演示API",
+        "NLP"
+      ]
+    },
+    "tanson515/dsh-usage": {
+      "s": "在设置页集中展示 OpenCode Go 套餐额度、本地 token 统计、按模型费用估算，并一键刷新 Go 模型清单。",
+      "k": [
+        "用量面板",
+        "quota",
+        "token统计",
+        "OpenCode Go",
+        "费用估算",
+        "模型清单"
+      ]
+    },
+    "tanxiaolong/dsh-battlefield": {
+      "s": "在 DSH 窗口悬浮键盘战场 HUD，按按键时长折算冲击分，配键位热力图、手速统计与击键炮声音效。",
+      "k": [
+        "悬浮HUD",
+        "键盘音效",
+        "heatmap",
+        "击键统计",
+        "桌面趣味"
+      ]
+    },
+    "tiregqw/controlgui": {
+      "s": "在 DSH Web 预览里选取 DOM 元素、实时改 CSS 与文本，并把结构化批注回传给编码 Agent。",
+      "k": [
+        "DOM选取",
+        "实时CSS编辑",
+        "可视化批注",
+        "DSH Web",
+        "前端调试"
+      ]
+    },
+    "tkkpku/timebudget-guard": {
+      "s": "为任务设时间预算，超时或空转卡住时锁写操作与 shell，强制 Agent 先交四项进度报告。",
+      "k": [
+        "时间预算",
+        "卡死检测",
+        "工具调用拦截",
+        "进度门禁",
+        "hook",
+        "多宿主"
+      ]
+    },
+    "ttackqwed/dsh-session-log-import": {
+      "s": "把 DSH 会话日志导出 ZIP 校验后恢复为存储会话，让对话回到侧边栏并可继续。",
+      "k": [
+        "会话导入",
+        "session log",
+        "ZIP恢复",
+        "侧边栏",
+        "历史还原"
+      ]
+    },
+    "txp2026txp/dsh-connect-loomy": {
+      "s": "复用讯飞 Loomy 桌面端登录态，把其 OpenAI 兼容网关接成 DSH 模型提供方，含模型目录与积分读数。",
+      "k": [
+        "讯飞Loomy",
+        "模型提供方",
+        "OpenAI兼容",
+        "免API Key",
+        "provider"
+      ]
+    },
+    "unifilitence/dsh-perf-guard": {
+      "s": "零轮询为 DSH 减负：会话冷归档可搜索可还原、渲染瘦身预设，并区分前后端压力给体检建议。",
+      "k": [
+        "性能守护",
+        "会话冷归档",
+        "存储体检",
+        "渲染瘦身",
+        "零轮询"
+      ]
+    },
+    "universe-st/dsh-workspace-category": {
+      "s": "在 DSH 侧栏给工作区分组并按分类筛选，支持配置页管理与未分类兜底。",
+      "k": [
+        "侧边栏",
+        "工作区分组",
+        "筛选",
+        "分类管理"
+      ]
+    },
+    "warm-flame-core/dsh-jlc-art-pcb": {
+      "s": "把插画转成嘉立创可打样的艺术 PCB：异形板框、分色造型、工艺校验与 EasyEDA 下单脚本。",
+      "k": [
+        "PCB艺术板",
+        "嘉立创",
+        "插画分色",
+        "EasyEDA",
+        "异形板框",
+        "打样"
+      ]
+    },
+    "wellsoren/dsh-restart": {
+      "s": "在 DSH 侧栏更多菜单加重载插件与干净重启两项，重启带代理运行检查与 systemd 拉起。",
+      "k": [
+        "重启",
+        "插件重载",
+        "systemd",
+        "侧栏菜单",
+        "host管理"
+      ]
+    },
+    "wsdzwx2001/dshgo-connect-madao": {
+      "s": "在本机起 OpenAI 兼容桥把华为云码道接入 dsh-go，状态条显示额度，面板管凭证与模型启停。",
+      "k": [
+        "华为云码道",
+        "CodeArts",
+        "OpenAI兼容桥",
+        "AK/SK",
+        "额度面板"
+      ]
+    },
+    "wsl1602291891-stack/dsh-zhilian-box": {
+      "s": "DSH 多功能工具箱：标题栏重启、/clear 清上下文、智连 MCP 生图生视频与常规模式预设，模块可独立开关。",
+      "k": [
+        "工具箱",
+        "重启",
+        "clear",
+        "MCP生图",
+        "模式预设",
+        "模块开关"
+      ]
+    },
+    "x25hhr/dsh-annotations": {
+      "s": "在对话里划词按四类做彩色注释，摘录可跳回原文，汇总清单一键插入输入框继续讨论。",
+      "k": [
+        "划词注释",
+        "色块标注",
+        "跳回原文",
+        "汇总插入",
+        "阅读批注"
+      ]
+    },
+    "xian-yu-zhao/dsh-stop-all": {
+      "s": "一键停止整棵对话树：主回合、任意深度子代理及其后台任务，沿用原生停止语义。",
+      "k": [
+        "停止全部",
+        "子代理",
+        "后台任务",
+        "对话树",
+        "中断"
+      ]
+    },
+    "xiaomengxinbb/dsh-message-workbench": {
+      "s": "支持消息原地编辑重发、停止后重发、随编辑回退文件改动与截图批注。",
+      "k": [
+        "消息编辑",
+        "重发",
+        "文件回退",
+        "截图批注",
+        "输入增强"
+      ]
+    },
+    "ximi-chen/dsh-supersede": {
+      "s": "输入框按会话开关：新消息发出即中止当前回合并开启新回合，替代排队与插话。",
+      "k": [
+        "接替",
+        "中止回合",
+        "消息投递",
+        "会话开关",
+        "composer"
+      ]
+    },
+    "xingwang0/research-ml-modeling": {
+      "s": "固化审稿级建模特化流程：嵌套分组交叉验证、置换检验、适用域与论文图表 Methods 草稿。",
+      "k": [
+        "化学计量学",
+        "交叉验证",
+        "置换检验",
+        "适用域",
+        "论文图表",
+        "Methods草稿"
+      ]
+    },
+    "xinhe1337/dsh-institutional-literature": {
+      "s": "用本机真实浏览器走机构 IP 订阅权限，按 DOI 清单批量取回期刊全文 PDF 并归档 Zotero。",
+      "k": [
+        "文献下载",
+        "literature",
+        "DOI",
+        "期刊 PDF",
+        "Zotero",
+        "机构订阅"
+      ]
+    },
+    "xpopux/dsh-version-sentinel": {
+      "s": "启动与每小时检查 npm 上 DSH 新版本，侧栏底部箭头提示稳定版与预发布版，只检测不安装。",
+      "k": [
+        "版本检测",
+        "更新提示",
+        "npmmirror",
+        "预发布",
+        "侧栏通知"
+      ]
+    },
+    "yakovlev-i-a/dsh-openfoam-workbench": {
+      "s": "OpenFOAM 工作台：案例检查、网格、求解器、多区域算例运行、验证与离屏渲染等工具与技能集。",
+      "k": [
+        "OpenFOAM",
+        "CFD",
+        "网格",
+        "求解器",
+        "ParaView渲染",
+        "仿真"
+      ]
+    },
+    "yasaxiwind/dsh-branch-studio": {
+      "s": "从当前对话分叉 2-4 条隔离分支并行试不同模型与提示，比较验证后把胜者写回工作区，失败自动回滚。",
+      "k": [
+        "并行分支",
+        "多模型对比",
+        "git worktree",
+        "提升回滚",
+        "验证"
+      ]
+    },
+    "yasaxiwind/dsh-experiment-ledger": {
+      "s": "本地实验台账：每次运行记录参数指标产物，支持任意两次运行对比与结论签署面板。",
+      "k": [
+        "实验台账",
+        "runs",
+        "metrics",
+        "对比",
+        "产物溯源"
+      ]
+    },
+    "yc5991/dsh-wechatbot": {
+      "s": "基于微信官方 iLink 协议扫码绑定私聊，作个人助理与远程遥控，支持文件双向加密收发与记忆提醒。",
+      "k": [
+        "微信",
+        "iLink Bot",
+        "远程遥控",
+        "文件收发",
+        "记忆提醒",
+        "个人助理"
+      ]
+    },
+    "ykybl/dsh-altare": {
+      "s": "接 Altare 云平台官方 API，13 个工具管应用部署日志文件备份快照域名与团队审计，按 scope 鉴权。",
+      "k": [
+        "Altare云平台",
+        "部署",
+        "备份快照",
+        "域名端口",
+        "scope鉴权"
+      ]
+    },
+    "you-see-seeyou/dsh-shared-tree": {
+      "s": "管理跨 profile 共享插件树：搜索、启停、装 npm 包并校验 sha256，侧栏提供只读目录面板。",
+      "k": [
+        "共享插件树",
+        "node_modules",
+        "启停",
+        "sha256校验",
+        "插件目录"
+      ]
+    },
+    "ysun6203-hash/dsh-kimi-bridge": {
+      "s": "把 Moonshot Kimi 接成第二大脑：会话直接问答、本地代理抓网页，并同页合计 DSH 与 Kimi 余额。",
+      "k": [
+        "Kimi",
+        "Moonshot",
+        "余额预算",
+        "本地代理",
+        "网页抓取"
+      ]
+    },
+    "yxn3hc/dsh-precise-quote": {
+      "s": "划词引用批注进待发队列，按分层位置精准定位原文，跨折叠跨消息跳转，发送后渲染可回跳卡片。",
+      "k": [
+        "划词引用",
+        "批注",
+        "精准定位",
+        "折叠展开",
+        "引用卡片"
+      ]
+    },
+    "zcslack17858645276-del/dsh-app-restart": {
+      "s": "在 DSH 桌面端 Windows 标题栏加重启按钮，确认后重启 Electron 主进程与 Host。",
+      "k": [
+        "重启按钮",
+        "Windows标题栏",
+        "Electron",
+        "桌面端"
+      ]
+    },
+    "zhengwuyu957/dsh-role-play": {
+      "s": "轻量角色扮演聊天：自建角色卡、三档对话模式、专用默认模型、自动记忆与角色状态栏。",
+      "k": [
+        "角色扮演",
+        "角色卡",
+        "成人向开关",
+        "记忆",
+        "状态栏"
+      ]
+    },
+    "zman406986/dsh-bot": {
+      "s": "把一个会话变成调度器：空闲对话、派发长任务给后台 worker 并汇总结果，不占聊天轮次。",
+      "k": [
+        "调度器",
+        "后台worker",
+        "多任务",
+        "subagent",
+        "结果汇总"
+      ]
+    },
+    "zyw294/cloud189-mcp": {
+      "s": "天翼云盘工具：列目录、搜索、直链下载、上传、回收站与配额查询，MCP 与 DSH 插件两用。",
+      "k": [
+        "天翼云盘",
+        "cloud189",
+        "MCP",
+        "上传下载",
+        "回收站",
+        "配额"
+      ]
+    }
+  }
 }

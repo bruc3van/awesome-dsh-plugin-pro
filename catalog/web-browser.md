@@ -4,7 +4,7 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **601**
+- 本册收录 / Entries in this volume: **606**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-27**
 
@@ -313,6 +313,7 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 | [meto-ventus/dsh-ventus-search](https://github.com/meto-ventus/dsh-ventus-search) | 🔍 Ventus 搜索 · DeepSeek Harness 多引擎搜索与正文抓取插件 — Bing/360/Bilibili 并发搜索、评分去重、正文抽取、总开关与测试按钮 / Multi-engine web search and fetch providers for DeepSeek Harness (Bing, 360, Bilibili) with scoring, dedup, readability extraction, master switch and test button. | TypeScript | 1 | MIT | 2026-10-16 |
 | [minatoAI/jina-web-search-dsh-plugin](https://github.com/minatoAI/jina-web-search-dsh-plugin) | Jina AI tools for DeepSeek Harness: 12 model tools (web / arXiv / SSRN search, read, screenshot, embeddings, rerank, classify, PDF, primer) plus a settings-page API key card with live balance check. | JavaScript | 1 | MIT | 2026-09-28 |
 | [mitao-su/dsh-playwright-native](https://github.com/mitao-su/dsh-playwright-native) | 把原生 Playwright CLI 注册为 DeepSeek Harness 透传工具（dsh-plugin） | TypeScript | 1 | MIT | 2026-08-14 |
+| [MIU-MA/resume-grill-agent](https://github.com/MIU-MA/resume-grill-agent) | Local MCP job application workflow: grounded resume versions, application preparation and execution records. Experimental. | TypeScript | 1 | MIT | 2026-11-25 |
 | [mmyhj/dsh-tool-hermes-web](https://github.com/mmyhj/dsh-tool-hermes-web) | Hermes-backed web search/fetch for DeepSeek Harness: ddgs + Tavily search, Firecrawl extraction | JavaScript | 1 | — | 2026-09-04 |
 | [modenicheng/dsh-annotate](https://github.com/modenicheng/dsh-annotate) | Visual annotation bridge: mark text, elements, or regions in Firefox/Zen and hand them to DeepSeek Harness with cropped screenshots | JavaScript | 1 | MIT | 2026-11-23 |
 | [mugnimaestra/dsh-browser-use](https://github.com/mugnimaestra/dsh-browser-use) | DeepSeek Harness Agent Preset bridge for Open Browser Use WebMCP | JavaScript | 1 | MIT | 2026-09-19 |
@@ -321,6 +322,7 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 | [13286793372/dsh-360-browser](https://github.com/13286793372/dsh-360-browser) | DSH plugin: browser tools for 360 Chrome X and 360 Secure Browser over CDP | JavaScript | 0 | MIT | 2026-11-22 |
 | [1578361862-art/dsh-plugin-readlater](https://github.com/1578361862-art/dsh-plugin-readlater) | 稍后阅读：粘贴分享链接，本地解析成图文卡片，按需投影到 Obsidian。 | JavaScript | 0 | MIT | 2026-11-09 |
 | [1710782766/dsh-browser-verify](https://github.com/1710782766/dsh-browser-verify) | Browser verification for DeepSeek Harness — open, mock, assert, screenshot in a few tool calls, screenshots auto-project into the model context | TypeScript | 0 | Apache-2.0 | 2026-09-29 |
+| [1804608397/dsh-plugin-browser-bridge](https://github.com/1804608397/dsh-plugin-browser-bridge) | Chrome page bridge for DeepSeek Harness: read DOM elements and drive tabs through a paired browser extension, no screen capture required. | JavaScript | 0 | MIT | 2026-11-26 |
 | [2332239652/dsh-bilibili-retrieval](https://github.com/2332239652/dsh-bilibili-retrieval) | DSH plugin: read into Bilibili videos — search, pinned creator comments, full descriptions, subtitles in slices with time anchors, and real frame sampling. Zero runtime dependencies. | JavaScript | 0 | MIT | 2026-11-02 |
 | [3309602454/dsh-edge-pilot](https://github.com/3309602454/dsh-edge-pilot) | Drive the system Microsoft Edge from DeepSeek Harness: observe, click, type, scroll, screenshot, save-as, download, and replay saved skills. | JavaScript | 0 | MIT | 2026-11-18 |
 | [439436269-ctrl/dsh-search](https://github.com/439436269-ctrl/dsh-search) | Structured web search, page fetch and one-call research for DeepSeek Harness, powered by the official DeepSeek Search/Fetch API. | JavaScript | 0 | MIT | 2026-11-07 |
@@ -358,6 +360,7 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 | [baiger01/dsh-browser-annotations](https://github.com/baiger01/dsh-browser-annotations) | 浏览器注释 · 点选 DSH 桌面浏览器中的网页元素，将截图和反馈带进对话草稿。 | JavaScript | 0 | — | 2026-11-25 |
 | [baigo8/dsh-page-annotate](https://github.com/baigo8/dsh-page-annotate) | DSH page annotate 网页标注插件，用于页面批注、元素标记 | JavaScript | 0 | MIT | 2026-10-23 |
 | [BaihaWhite/dsh-web-search-scrape](https://github.com/BaihaWhite/dsh-web-search-scrape) | DSH 六档分级抓取式网页检索插件（web-scrape provider + web_search 工具，无需 API key） | JavaScript | 0 | MIT | 2026-09-13 |
+| [Baimacao/dsh-course-autoplay](https://github.com/Baimacao/dsh-course-autoplay) | 网课挂机 (dsh-course-autoplay) — DSH 插件：用已登录的浏览器自动播完网课并推进到下一节，带可视化面板、可复用的站点经验与计划文档。 | JavaScript | 0 | MIT | 2026-11-26 |
 | [baiyang-poob1/dsh-web-read](https://github.com/baiyang-poob1/dsh-web-read) | Read public web pages with a sandboxed headless browser, optional JavaScript rendering and script inspection for DeepSeek Harness. | JavaScript | 0 | MIT | 2026-11-19 |
 | [baldovinmarques391-design/dsh-web-fetch-vpn](https://github.com/baldovinmarques391-design/dsh-web-fetch-vpn) | 修复 VPN 下 web_fetch 被误判非公网地址 | JavaScript | 0 | — | 2026-10-17 |
 | [BaronCyrus/dsh-google-chrome-use](https://github.com/BaronCyrus/dsh-google-chrome-use) | Let DeepSeek Harness use Google Chrome on macOS and Windows | JavaScript | 0 | MIT | 2026-10-31 |
@@ -449,6 +452,7 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 | [ggxx001/dsh-bili-whale](https://github.com/ggxx001/dsh-bili-whale) | 养一条有日子的鱼：让 DSH 里的 agent 自己刷 B 站、看懂视频、写两本日记，把值得的 @ 你。设置里有「养鱼」完整设置页（27 项）+ 依赖体检 + cookie 写入 + 共享配置（与工具链同一份 bili-whale.config.json）。 | JavaScript | 0 | MIT | 2026-11-02 |
 | [gh-gongjin/dsh-plugin-gh-trending](https://github.com/gh-gongjin/dsh-plugin-gh-trending) | dsh 插件：GitHub 日/周/月热榜监控 + 仓库详情中文描述与 README 节译（全程只读 GET） | JavaScript | 0 | MIT | 2026-10-21 |
 | [gilsaia/dsh-web-search-doubao](https://github.com/gilsaia/dsh-web-search-doubao) | Doubao Search (Volcengine) web search provider for DeepSeek Harness — makes the standard web_search tool return real excerpts, not just titles and links. | JavaScript | 0 | MIT | 2026-10-18 |
+| [github-yousen/dsh-workbuddy-browser](https://github.com/github-yousen/dsh-workbuddy-browser) | Drive your own logged-in Chrome or Edge through the WorkBuddy browser extension, as 32 MCP tools in DeepSeek Harness. | JavaScript | 0 | MIT | 2026-11-26 |
 | [glider9999/dsh-plugin-take](https://github.com/glider9999/dsh-plugin-take) | Search and read all of take.hk inside DeepSeek Harness — 1400+ AI-film news items, daily briefings, topic archives. Read-only DSH plugin. | JavaScript | 0 | MIT | 2026-11-06 |
 | [Gnatnaituy/dsh-sidebar-browser](https://github.com/Gnatnaituy/dsh-sidebar-browser) | A browser in DSH's right sidebar: loopback-proxied pages, element picking into \[DOMn\] references, tabs and device preview. | JavaScript | 0 | MIT | 2026-10-06 |
 | [gongstudent/dsh-devin-search-next](https://github.com/gongstudent/dsh-devin-search-next) | DeepSeek Harness 插件：Devin 登录 + Devin 版 web_search / code_search。零运行时依赖、零 @deepseek-ai import、无版本闸门，DSH 升级不再整行消失。 | JavaScript | 0 | MIT | 2026-11-02 |
@@ -546,6 +550,7 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 | [liangzz1998/dsh-web-devtools](https://github.com/liangzz1998/dsh-web-devtools) | DeepSeek Harness ??:??? F12(??? / DOM / ?? / ????? / ??? / ??)?? agent,??????????????????? CDP,???,???????? | JavaScript | 0 | MIT | 2026-10-29 |
 | [LianyeSheng/dsh-hyprscope](https://github.com/LianyeSheng/dsh-hyprscope) | Hyprland desktop observation and consent-gated control for AI agents — screenshots, events and UI plans behind a consent lease, with a native DeepSeek Harness (DSH) plugin. | TypeScript | 0 | MIT | 2026-11-19 |
 | [liccq/dsh-page-context](https://github.com/liccq/dsh-page-context) | 右侧栏网页浏览器：把页面元素选成上下文插入输入框，并提供给智能体读取网页的浏览器工具。 | JavaScript | 0 | MIT | 2026-10-20 |
+| [lidaiyue/dsh-ai-news](https://github.com/lidaiyue/dsh-ai-news) |  DSH 会话标题栏展示 Today for AI 的 AI 动态 | JavaScript | 0 | MIT | 2026-11-26 |
 | [like999888999-ui/dsh-bsk-daemon](https://github.com/like999888999-ui/dsh-bsk-daemon) | Keep the BrowserSkill bsk daemon on-demand inside DeepSeek Harness - and fix the Windows "os error 5" that stops it from starting at all. | JavaScript | 0 | MIT | 2026-10-30 |
 | [lingziba/dshedge](https://github.com/lingziba/dshedge) | 让 DeepSeek Harness (DSH) 直接驱动本机 Microsoft Edge 的 Host 插件：CDP 启动/接管、开标签、导航、执行 JS、取正文、截图、点击、输入。零第三方依赖。 | JavaScript | 0 | MIT | 2026-10-10 |
 | [Lion-Li-git/dsh-external-links](https://github.com/Lion-Li-git/dsh-external-links) | DSH desktop (Deepseek Harness EAC) plugin: open http/https/mailto/tel/file links in the default browser/app, bypassing the broken shell.open-external bridge | JavaScript | 0 | MIT | 2026-09-03 |

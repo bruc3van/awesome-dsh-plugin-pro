@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（U–Z）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1001**
+- 本册收录 / Entries in this volume: **1004**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-27**
 
@@ -270,6 +270,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（U–Z）」分册 / 
 | [zhangfan0529/dsh-archived-session-cleaner](https://github.com/zhangfan0529/dsh-archived-session-cleaner) | DeepSeek Harness plugin: permanently delete archived sessions and their subagent logs. \| DeepSeek Harness 插件：永久删除已归档会话及其子智能体日志。 | JavaScript | 2 | MIT | 2026-10-30 |
 | [zhangnan/think-like-codex](https://github.com/zhangnan/think-like-codex) | Codex-inspired decision and planning policy plugin for DeepSeek Harness | JavaScript | 2 | MIT | 2026-08-21 |
 | [zhaoqiminggg/dsh-instruction-optimizer](https://github.com/zhaoqiminggg/dsh-instruction-optimizer) | A DSH instruction secretary: turn rough drafts into complete, executable instructions with session and attachment awareness. | JavaScript | 2 | MIT | 2026-11-17 |
+| [zhengwuyu957/dsh-role-play](https://github.com/zhengwuyu957/dsh-role-play) | 一个可随意设置角色卡的轻量角色扮演，安装即用，简单易上手。 | JavaScript | 2 | MIT | 2026-11-26 |
 | [zhezhi33/dsh-session-recycler](https://github.com/zhezhi33/dsh-session-recycler) | 会话回收站与清理、子代理对话树管理、产物识别与资源管理器高亮，并提供文件用途查询的 Windows DSH 插件。 | JavaScript | 2 | — | 2026-11-07 |
 | [zhurongjun/dsh-rong-aio](https://github.com/zhurongjun/dsh-rong-aio) | My all-in-one dsh plugin | TypeScript | 2 | GPL-3.0 | 2026-11-18 |
 | [Zian-anson/dsh-prompt-seed](https://github.com/Zian-anson/dsh-prompt-seed) | DSH composer plugin: turn a one-line seed into an executable prompt behind a semantic fidelity gate; signals infer, directives stay in degree, conversations stay yours. | JavaScript | 2 | MIT | 2026-10-22 |
@@ -353,6 +354,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（U–Z）」分册 / 
 | [xfgil/dsh-session-clock](https://github.com/xfgil/dsh-session-clock) | DSH 会话时钟：按会话授时 + 跨轮/跨会话空闲间隔，作为内置 dsh-time-context 的补充插件。Per-session clock injection for DeepSeek Harness with durable idle-gap tracking. A companion to the built-in dsh-time-context. | JavaScript | 1 | MIT | 2026-11-01 |
 | [Xiacqi1/dsh-at-handoff](https://github.com/Xiacqi1/dsh-at-handoff) | 给 DSH 的上下文交接插件：盯住当前会话的上下文大小，点一下让模型把这一轮写成交接文档，再点一下在同项目里开一个新会话 | JavaScript | 1 | MIT | 2026-11-05 |
 | [xiagaogaozi/dsh-silly-plugin](https://github.com/xiagaogaozi/dsh-silly-plugin) | DSH 酒馆模式：导入 SillyTavern 角色卡（PNG/JSON），自动拆分世界书/正则/脚本并创建同名工作区（#dsh-plugin） | JavaScript | 1 | — | 2026-09-08 |
+| [xian-yu-zhao/dsh-stop-all](https://github.com/xian-yu-zhao/dsh-stop-all) | Stop-all for DeepSeek Harness: one click stops the whole conversation tree (main turn + subagents at any depth + their background jobs) with native stop semantics. | JavaScript | 1 | MIT | 2026-11-26 |
 | [xiangshu2026/dsh-scheduled-reports](https://github.com/xiangshu2026/dsh-scheduled-reports) | Scheduled report generator for DeepSeek Harness: computer status, AI model news, plugin update check and a DSH plugin weekly digest, rendered to Word. Windows batch + PowerShell + Python, privacy-redacted by default. | Python | 1 | MIT | 2026-11-03 |
 | [xianshu-virtuous/dsh-whale-companion](https://github.com/xianshu-virtuous/dsh-whale-companion) | DeepSeek Harness whale-maid persona and automatic near-limit session continuation | TypeScript | 1 | MIT | 2026-10-23 |
 | [xiaohj233/dsh-resume](https://github.com/xiaohj233/dsh-resume) | Resume interrupted DSH turns from an empty submit and restore sessions or subagents that were running at shutdown. | JavaScript | 1 | MIT | 2026-09-11 |
@@ -702,6 +704,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（U–Z）」分册 / 
 | [xiejianjun000/eco-dsh-plugins](https://github.com/xiejianjun000/eco-dsh-plugins) | dsh plugins ported from eco-agent (xiejianjun000): permission gate, SM3 audit chain, memory tree | TypeScript | 0 | NOASSERTION | 2026-09-18 |
 | [xiez0324-rgb/dsh-dual-bridge](https://github.com/xiez0324-rgb/dsh-dual-bridge) | 分流对话 · Plugins of Conversation Departure — DSH 侧边栏项目上下文打包插件（纯本地，不联网） | TypeScript | 0 | MIT | 2026-10-19 |
 | [xiguazhiPrince/dsh-session-map](https://github.com/xiguazhiPrince/dsh-session-map) | Agent Chat 新交互形态——会话图谱画布，分叉、回退、继承关系，一目了然。   Agent Chat's new interaction form—the conversation graph canvas, where branching, rollback, and inheritance relationships are clear at a glance. | TypeScript | 0 | MIT | 2026-11-08 |
+| [ximi-chen/dsh-supersede](https://github.com/ximi-chen/dsh-supersede) | Per-session Supersede switch for the DeepSeek Harness composer. | JavaScript | 0 | MIT | 2026-11-26 |
 | [Xin-kon/dsh-lang-guard](https://github.com/Xin-kon/dsh-lang-guard) | DeepSeek Harness (DSH) plugin that pins zh-CN thinking and replies into the system prompt. Zero runtime deps, single file, capability probing, silent degradation. | JavaScript | 0 | MIT | 2026-10-19 |
 | [xincy22/dsh-progress-updates](https://github.com/xincy22/dsh-progress-updates) | DeepSeek Harness 进展更新插件：progress_update 工具、提示词引导、催促、侧栏面板与设置（fork 自 @eddyskywalker/dsh-chatgpt-subscription） | TypeScript | 0 | MIT | 2026-11-18 |
 | [xindady/dsh-prompt-enhancer](https://github.com/xindady/dsh-prompt-enhancer) | One-click prompt enhancement plugin for DeepSeek Harness | JavaScript | 0 | MIT | 2026-10-17 |

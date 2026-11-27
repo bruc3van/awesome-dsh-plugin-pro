@@ -37,48 +37,48 @@ No extra plugin required — add the curated index directly to DSH's built-in Di
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-11-26 the catalog lists **31,077** verified repositories. Here is the shape of it:
+As of 2026-11-26 the catalog lists **31,346** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 31077))
-    UI and experience · 7728
+  root((DSH ecosystem 31346))
+    UI and experience · 7796
       Usage and billing panels
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Agents automation workflows · 5182
+    Agents automation workflows · 5227
       Session and context management
       Scheduled loops and event wakeups
       Approval budget and checkpoints
-    Developer tools · 4932
+    Developer tools · 4972
       Git and diff
       Model gateways and keys
       Debugging and diagnostics
-    Utilities and more · 3417
+    Utilities and more · 3437
       Files and encodings
       Format conversion
-    Knowledge and research · 2124
+    Knowledge and research · 2150
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Design media and vision · 2102
+    Design media and vision · 2126
       Image understanding and OCR
       Design canvas and UI restoration
       Speech synthesis and recognition
-    Integrations and sharing · 1818
+    Integrations and sharing · 1839
       Chat import and sharing
       Remote access
       IM and external integrations
-    Ecosystem and resources · 1737
+    Ecosystem and resources · 1750
       Plugin markets and registries
       Skill libraries and plugin managers
       Templates and scaffolds
-    Web and browser · 1068
+    Web and browser · 1076
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Multi-agent orchestration · 969
+    Multi-agent orchestration · 973
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
@@ -348,14 +348,14 @@ Screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
-| [easychen/jing-chan-os](https://github.com/easychen/jing-chan-os) | JingChanOS: an AI companion & pocket virtual phone for DSH — a chibi desktop pet, hands-free calls, focus mode, an AI diary and Android remote control. | 2026-11-24 |
-| [drscrewdriver/dsh-union-search](https://github.com/drscrewdriver/dsh-union-search) | Union web search: smart routing across free keyless engines and paid search APIs, SearXNG multi-instance, and advance_fetch that turns pages into Markdown for the session. | 2026-10-21 |
-| [drscrewdriver/dsh-im-union](https://github.com/drscrewdriver/dsh-im-union) | Two-way IM bridge: WeChat iLink, Telegram, Discord, Feishu and WeCom bots host DSH sessions — send a message to run a task and get the answer back in the same chat. | 2026-10-17 |
-| [mysterycode-liwen/dsh-email](https://github.com/mysterycode-liwen/dsh-email) | Sidebar email plugin: read and send mail over IMAP/SMTP (QQ, 163, Gmail and more), credentials kept in a local safe. | 2026-11-24 |
-| [videndi/dsh-collab](https://github.com/videndi/dsh-collab) | Multi-user research lab: invite friends via link or QR code, everyone runs on their own token, and session progress syncs in real time over LAN or a tunnel. | 2026-11-25 |
-| [hutaoloverforever/dsh-omnibridge](https://github.com/hutaoloverforever/dsh-omnibridge) | OmniBridge: auto-discovers professional desktop software (CAE, EDA, CAD, acoustics, scientific computing), sandboxes it and turns it into AI-drivable tools. | 2026-11-25 |
-| [01kalival/dsh-timekeeper](https://github.com/01kalival/dsh-timekeeper) | Timekeeper: automatic insight into the time you spend in DSH — four-panel stats, a yearly heatmap, streaks, a Pomodoro timer and a shareable year-in-review card, all stored locally. | 2026-11-25 |
-| [yhx19960607-max/dsh-memory-nebula](https://github.com/yhx19960607-max/dsh-memory-nebula) | Memory Nebula: spreads every message you have exchanged into a rotating, searchable galaxy — click a star to reopen that conversation, and the agent can search memories back. | 2026-11-25 |
+| [EverMind-AI/EverMe](https://github.com/EverMind-AI/EverMe) | A cross-device, cross-agent personal memory layer: CLI + plugin suite giving DSH and other hosts memory storage, retrieval and MCP memory resources. | 2026-05-27 |
+| [liyupi/memecub](https://github.com/liyupi/memecub) | A meme library for agents: search reaction memes, GIFs and Chinese 表情包 by feeling, and auto-place them into articles (MCP + Skill + CLI). | 2026-10-13 |
+| [liyupi/vibefather](https://github.com/liyupi/vibefather) | 320+ original website templates: agents search by need and get the exact prompt and DESIGN.md to build landing pages, SaaS sites, portfolios and 3D sites. | 2026-10-26 |
+| [qiniu/dsh-agentapi](https://github.com/qiniu/dsh-agentapi) | The official Qiniu AgentAPI plugin: managed cloud agents, execution environments and persistent sessions inside the DSH workspace, with subagent collaboration and trajectory views. | 2026-11-26 |
+| [yc5991/dsh-wechatbot](https://github.com/yc5991/dsh-wechatbot) | WeChat official iLink Bot bridge: QR-code direct private chat as a personal assistant and remote control, two-way encrypted file transfer, memory-driven reminders. | 2026-11-25 |
+| [liqiangai/dsh-code-editor](https://github.com/liqiangai/dsh-code-editor) | A VS Code-style code editor in the right sidebar: file tree, tabs, syntax highlighting, quick open and atomic saves with conflict detection. | 2026-11-26 |
+| [Daaaaavid-zhou/dsh-camera](https://github.com/Daaaaavid-zhou/dsh-camera) | Local macOS photo capture: live preview above the input box, shots go straight into the message as attachments, with a bundled camera app. | 2026-11-26 |
+| [tanbopiao/jixia-publish](https://github.com/tanbopiao/jixia-publish) | Publish AI-generated content to the Jixia ecosystem in one click: mandatory AI labeling, Xuangui two-layer review, agent-native publishing. | 2026-11-26 |
 
 ## 📣 Author showcase
 
@@ -382,11 +382,11 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Layered: curated picks + full index:** the front page carries curated featured picks and the showcase preview; [CATALOG.md](./CATALOG.md) and its per-category volumes list every reviewed repository; new repositories first enter the [review queue](./data/review/pending.md) and appear after review and merge (convention: [data/review/README.md](./data/review/README.md)).
 - **Automated data, curated recommendations:** the raw snapshot and the review queue refresh daily by script; the catalog and Top 200 leaderboard are regenerated only after a review merge (generators: [scripts/merge.mjs](./scripts/merge.mjs), [scripts/top.mjs](./scripts/top.mjs), switchable back to Top 100); the home-page featured picks, showcase, and recently-joined sections are maintained separately, so polluted API data (star inflation, topic riders) never rewrites recommendations automatically.
 - **Riders removed:** repositories carrying the `dsh-plugin` topic without being DSH plugins (the platform itself, other agent tools, competing catalogs) and blacklisted repositories are excluded from the catalog and leaderboard, with per-repo reasons recorded in [data/curated.json](./data/curated.json) (the leaderboard additionally honors `leaderboard_exclusions` for repos that stay in the catalog but do not rank) — auditable and contestable at any time.
-- **Auditable review trail:** every inclusion decision can be checked — approval dates live in [data/approved.json](./data/approved.json), and each removal or leaderboard exclusion carries its reason in [data/curated.json](./data/curated.json); bulk reviews additionally keep a narrative record (e.g. the [2026-11-26 review log](./data/review/2026-11-26.md)), and the whole workflow is documented in [data/review/README.md](./data/review/README.md).
+- **Auditable review trail:** every inclusion decision can be checked — approval dates live in [data/approved.json](./data/approved.json), and each removal or leaderboard exclusion carries its reason in [data/curated.json](./data/curated.json); bulk reviews additionally keep a narrative record (e.g. the [2026-11-27 review log](./data/review/2026-11-27.md)), and the whole workflow is documented in [data/review/README.md](./data/review/README.md).
 - **Market data (npm feed):** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) publishes `market-catalog-v4.json` (schema 4 compact catalog with install status and mappings, the subscription, and editorial picks) and `packages.json` (the install-mapping source). It is projected by `scripts/safe-market-catalog.mjs`, packaged by `publish-npm-feed.mjs`, and mirrored through npmmirror. Schema 3 has been retired. See the [consumer specification](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md).
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-11-26, the catalog lists **31,077** repositories across **42** primary languages; **28,593** declare a license and **30,732** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-11-26, the catalog lists **31,346** repositories across **42** primary languages; **28,839** declare a license and **31,001** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 
