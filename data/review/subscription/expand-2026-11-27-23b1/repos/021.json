@@ -1,0 +1,69 @@
+{
+  "full_name": "Hercules-debug/butler-git",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:41.716Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d77448d9591e80b6c03f51a7e8d8217705445bff9f93f7cad5da79f1e769dbbc",
+      "url": "https://github.com/Hercules-debug/butler-git/blob/1e56da44019bce387eff145043ccb906d8e33953/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-butler-git",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hercules-debug/butler-git",
+        "commit": "1e56da44019bce387eff145043ccb906d8e33953"
+      },
+      "manifestSha256": "aa295284ebf7b67124c04212f91cb1c59c84611d02e65316b9e980cf7ede0f4e",
+      "manifestUrl": "https://github.com/Hercules-debug/butler-git/blob/1e56da44019bce387eff145043ccb906d8e33953/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-butler-git",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790761709,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hercules-debug/butler-git",
+              "commit": "1e56da44019bce387eff145043ccb906d8e33953"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hercules-debug/butler-git",
+    "commit": "1e56da44019bce387eff145043ccb906d8e33953",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:42.950Z"
+}

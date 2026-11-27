@@ -1,0 +1,50 @@
+{
+  "full_name": "MarkGaster/dafiyu-dream",
+  "originalPosition": 83,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:57.098Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0c1f2113646a34ea5fba71cd4c7166326b10eaf665db7c69d9fc86be2984906f",
+      "url": "https://github.com/MarkGaster/dafiyu-dream/blob/4a977a933b87f27ce6dcf1857d4dd6b71880ee91/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-plugin-dream",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MarkGaster/dafiyu-dream",
+        "commit": "4a977a933b87f27ce6dcf1857d4dd6b71880ee91"
+      },
+      "manifestSha256": "7b83d19966f808457c101550f542d9a9d1972811a50a20ee33c04da927ca4750",
+      "manifestUrl": "https://github.com/MarkGaster/dafiyu-dream/blob/4a977a933b87f27ce6dcf1857d4dd6b71880ee91/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MarkGaster/dafiyu-dream",
+    "commit": "4a977a933b87f27ce6dcf1857d4dd6b71880ee91",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:41:58.233Z"
+}

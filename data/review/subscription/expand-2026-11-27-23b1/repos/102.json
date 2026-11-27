@@ -1,0 +1,74 @@
+{
+  "full_name": "Mvyvn/dsh-skill-manager",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:01.458Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d85fdb0f3f664bb99b3132cbfc34655de4d7ec27d65fbc4747b7645d9d4477f0",
+      "url": "https://github.com/Mvyvn/dsh-skill-manager/blob/a12ee95120ae64b94ad0025f7be85ba465c4ffc5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "c9eb4634ef7b6f084b47f4069d65da045cb990c180d67e359eb4a2e33695a385",
+      "url": "https://github.com/Mvyvn/dsh-skill-manager/blob/a12ee95120ae64b94ad0025f7be85ba465c4ffc5/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skill-manager",
+      "version": "1.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mvyvn/dsh-skill-manager",
+        "commit": "a12ee95120ae64b94ad0025f7be85ba465c4ffc5"
+      },
+      "manifestSha256": "d63f4af15e55cdceaeceb06ebb2fcb1052f302c52422dc2abf24637d247e3a05",
+      "manifestUrl": "https://github.com/Mvyvn/dsh-skill-manager/blob/a12ee95120ae64b94ad0025f7be85ba465c4ffc5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-skill-manager",
+        "versions": [
+          {
+            "version": "1.3.4",
+            "publishTimestamp": 1790265377,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mvyvn/dsh-skill-manager",
+              "commit": "a12ee95120ae64b94ad0025f7be85ba465c4ffc5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mvyvn/dsh-skill-manager",
+    "commit": "a12ee95120ae64b94ad0025f7be85ba465c4ffc5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:02.926Z"
+}

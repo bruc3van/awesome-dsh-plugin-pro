@@ -1,0 +1,69 @@
+{
+  "full_name": "LiweiDonVee/dsh-tavern-renderer",
+  "originalPosition": 69,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 69,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:54.209Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9e0e9797b8d3fa4661c033edc856f2c18988056d013151f62893e8880c98de1f",
+      "url": "https://github.com/LiweiDonVee/dsh-tavern-renderer/blob/e064b427b232f68863f160261f0c8021dacdac25/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tavern-renderer",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LiweiDonVee/dsh-tavern-renderer",
+        "commit": "e064b427b232f68863f160261f0c8021dacdac25"
+      },
+      "manifestSha256": "c0a624612afb895361989fa8fe32a4ddd501fa42052bb3f8ec904388326dbff3",
+      "manifestUrl": "https://github.com/LiweiDonVee/dsh-tavern-renderer/blob/e064b427b232f68863f160261f0c8021dacdac25/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-tavern-renderer",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1794238873,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LiweiDonVee/dsh-tavern-renderer",
+              "commit": "e064b427b232f68863f160261f0c8021dacdac25"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LiweiDonVee/dsh-tavern-renderer",
+    "commit": "e064b427b232f68863f160261f0c8021dacdac25",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:55.404Z"
+}

@@ -1,0 +1,50 @@
+{
+  "full_name": "Xeraph627/local-lite",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:24.143Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "695c1cbc2956bac9792e029d77c41f566f1562a3654c7470c6589d63b7dfab25",
+      "url": "https://github.com/Xeraph627/local-lite/blob/654a86195d6d07002aa046f2155a93b025d4c242/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@Xeraph627/dsh-local-lite-preset",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Xeraph627/local-lite",
+        "commit": "654a86195d6d07002aa046f2155a93b025d4c242"
+      },
+      "manifestSha256": "1cf4e71ef6d8cfe2af91a16f102d1c3c4263f4428b910772f4f4258f4b03e5f8",
+      "manifestUrl": "https://github.com/Xeraph627/local-lite/blob/654a86195d6d07002aa046f2155a93b025d4c242/package.json",
+      "status": "invalid_manifest",
+      "reason": "$.plugins[0].name must be a valid npm package name"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Xeraph627/local-lite",
+    "commit": "654a86195d6d07002aa046f2155a93b025d4c242",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:25.259Z"
+}

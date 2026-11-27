@@ -1,0 +1,69 @@
+{
+  "full_name": "HOPE-LGNF/dsh-state-notifier",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:40.318Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0b8567a7380b98a073f623274f7f7eb2154a97101bea017c732789c590542de9",
+      "url": "https://github.com/HOPE-LGNF/dsh-state-notifier/blob/736374499b4b6fbb3be51f66f9214d8506dff49a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-state-notifier",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HOPE-LGNF/dsh-state-notifier",
+        "commit": "736374499b4b6fbb3be51f66f9214d8506dff49a"
+      },
+      "manifestSha256": "202578dceeced1deb788d0a5b23db71e5505a8207c7ed36bc839e898f37b7d5e",
+      "manifestUrl": "https://github.com/HOPE-LGNF/dsh-state-notifier/blob/736374499b4b6fbb3be51f66f9214d8506dff49a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-0 <0.3.0-0 || >=0.2.2-0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-state-notifier",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794056214,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HOPE-LGNF/dsh-state-notifier",
+              "commit": "736374499b4b6fbb3be51f66f9214d8506dff49a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-0 <0.3.0-0 || >=0.2.2-0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HOPE-LGNF/dsh-state-notifier",
+    "commit": "736374499b4b6fbb3be51f66f9214d8506dff49a",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:41.713Z"
+}

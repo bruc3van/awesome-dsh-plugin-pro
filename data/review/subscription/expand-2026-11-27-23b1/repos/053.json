@@ -1,0 +1,82 @@
+{
+  "full_name": "LCYLYM/dsh-attachments",
+  "originalPosition": 53,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 53,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:50.021Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "03e6618c396fa12108add9f10ec8605c990c49155464fb54eb4f249637d010bb",
+      "url": "https://github.com/LCYLYM/dsh-attachments/blob/f1728c62448cead1a55d5aedc0cf961886e007b9/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "recording/README.md",
+      "sha256": "6f7831cc6f5243e43518a31b5870644bee65de8999f3d4196272e6d9d7c284c6",
+      "url": "https://github.com/LCYLYM/dsh-attachments/blob/f1728c62448cead1a55d5aedc0cf961886e007b9/recording/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "assets/README.md",
+      "sha256": "9b926685e733a1d4a9b0cf826247ec2c02fbba4ffa065e25b17c8fd68bc1a6a3",
+      "url": "https://github.com/LCYLYM/dsh-attachments/blob/f1728c62448cead1a55d5aedc0cf961886e007b9/assets/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-multimedia-webui-input",
+      "version": "0.3.0-rc.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LCYLYM/dsh-attachments",
+        "commit": "f1728c62448cead1a55d5aedc0cf961886e007b9"
+      },
+      "manifestSha256": "9e2dacb5064ba358bf6c83b349a1b5281510dde0cf240793543b4bbf5f53a7ba",
+      "manifestUrl": "https://github.com/LCYLYM/dsh-attachments/blob/f1728c62448cead1a55d5aedc0cf961886e007b9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-multimedia-webui-input",
+        "versions": [
+          {
+            "version": "0.3.0-rc.6",
+            "publishTimestamp": 1789464546,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LCYLYM/dsh-attachments",
+              "commit": "f1728c62448cead1a55d5aedc0cf961886e007b9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LCYLYM/dsh-attachments",
+    "commit": "f1728c62448cead1a55d5aedc0cf961886e007b9",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:51.645Z"
+}

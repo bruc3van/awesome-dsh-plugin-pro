@@ -1,0 +1,187 @@
+{
+  "full_name": "Dingpenghui-good/dsh-tool-agnes",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:35.688Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "818057cadb682e4255ecc1719aec5b1977bfa55a3c1de6acfe73a17bdddff908",
+      "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes/blob/62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "_verify/README.md",
+      "sha256": "43544eb806f8bb4abb85a3aba293a48048c6476fc34ca4d8cd2bff8104baf4d8",
+      "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes/blob/62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4/_verify/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dingpenghui/agnes-image",
+      "version": "1.8.0",
+      "path": "dsh-tool-agnes-image",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+        "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+        "path": "dsh-tool-agnes-image"
+      },
+      "manifestSha256": "7a30e972947e1f210be223351c9a76bc813e5e97ae6f0d340373aa86a1c9e7b9",
+      "manifestUrl": "https://github.com/Dingpenghui-good/dsh-tool-agnes/blob/62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4/dsh-tool-agnes-image/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dingpenghui/agnes-image",
+        "versions": [
+          {
+            "version": "1.8.0",
+            "publishTimestamp": 1793547591,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+              "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+              "path": "dsh-tool-agnes-image"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dingpenghui/agnes-img2vid",
+      "version": "1.8.0",
+      "path": "dsh-tool-agnes-img2vid",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+        "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+        "path": "dsh-tool-agnes-img2vid"
+      },
+      "manifestSha256": "eb4ace92b2ccb416cac57ded43c251a6a4a18b30f36580b6467ee7b82c3fc3bc",
+      "manifestUrl": "https://github.com/Dingpenghui-good/dsh-tool-agnes/blob/62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4/dsh-tool-agnes-img2vid/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dingpenghui/agnes-img2vid",
+        "versions": [
+          {
+            "version": "1.8.0",
+            "publishTimestamp": 1793547591,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+              "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+              "path": "dsh-tool-agnes-img2vid"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dingpenghui/agnes",
+      "version": "1.6.3",
+      "path": "dsh-tool-agnes-profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+        "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+        "path": "dsh-tool-agnes-profile"
+      },
+      "manifestSha256": "b300fb6cfa9465cfabaf6a71a4ad16b2467a757dc19181fac7223b6896bac228",
+      "manifestUrl": "https://github.com/Dingpenghui-good/dsh-tool-agnes/blob/62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4/dsh-tool-agnes-profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dingpenghui/agnes",
+        "versions": [
+          {
+            "version": "1.6.3",
+            "publishTimestamp": 1793547591,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+              "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+              "path": "dsh-tool-agnes-profile"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dingpenghui/agnes-video",
+      "version": "1.8.0",
+      "path": "dsh-tool-agnes-video",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+        "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+        "path": "dsh-tool-agnes-video"
+      },
+      "manifestSha256": "b0a62c060045a0b2afa3a8fe9438e0fe70a5ec756e4017208afb424b5d8bd2da",
+      "manifestUrl": "https://github.com/Dingpenghui-good/dsh-tool-agnes/blob/62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4/dsh-tool-agnes-video/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dingpenghui/agnes-video",
+        "versions": [
+          {
+            "version": "1.8.0",
+            "publishTimestamp": 1793547591,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+              "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+              "path": "dsh-tool-agnes-video"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Dingpenghui-good/dsh-tool-agnes",
+    "commit": "62d1fd4bd255405cfbbd63b3f55ac645fd7b94e4",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:38.617Z"
+}

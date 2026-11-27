@@ -1,0 +1,69 @@
+{
+  "full_name": "YSwo-fei/dsh-qoder-connect",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:25.911Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a0664758eaa5fc895ecf778c345a6e0812d3c351972326b1b085265d84667e7b",
+      "url": "https://github.com/YSwo-fei/dsh-qoder-connect/blob/c77de6d90563a8b40eb806773b74074d08cf6447/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qoder-connect",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YSwo-fei/dsh-qoder-connect",
+        "commit": "c77de6d90563a8b40eb806773b74074d08cf6447"
+      },
+      "manifestSha256": "fc400b5e73b2537e7c49e6e8b7d152fbff79e3ec2c55b70c3ac2ab2ec28269c2",
+      "manifestUrl": "https://github.com/YSwo-fei/dsh-qoder-connect/blob/c77de6d90563a8b40eb806773b74074d08cf6447/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-qoder-connect",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1791208320,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YSwo-fei/dsh-qoder-connect",
+              "commit": "c77de6d90563a8b40eb806773b74074d08cf6447"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YSwo-fei/dsh-qoder-connect",
+    "commit": "c77de6d90563a8b40eb806773b74074d08cf6447",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:27.032Z"
+}

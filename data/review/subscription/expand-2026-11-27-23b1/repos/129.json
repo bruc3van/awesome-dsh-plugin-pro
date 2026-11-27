@@ -1,0 +1,77 @@
+{
+  "full_name": "SAXEM1997/dsh-boost",
+  "originalPosition": 129,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 129,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:08.823Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aec6e3bfa5019f02c7eb26fba810242900515ba0b1d35175812e80559c57604b",
+      "url": "https://github.com/SAXEM1997/dsh-boost/blob/3a9019155db52518702043b0001c135a9b586412/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "291c7072e55965850ebd493fd396140911c2fb67b5afa0fd2c2b86b667c1d9fe",
+      "url": "https://github.com/SAXEM1997/dsh-boost/blob/3a9019155db52518702043b0001c135a9b586412/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-boost",
+      "version": "0.4.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SAXEM1997/dsh-boost",
+        "commit": "3a9019155db52518702043b0001c135a9b586412"
+      },
+      "manifestSha256": "5f1000b98d1fb9489d9ce4148718af167a8ca616646f8696fd7b2ea695327d93",
+      "manifestUrl": "https://github.com/SAXEM1997/dsh-boost/blob/3a9019155db52518702043b0001c135a9b586412/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.4 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-boost",
+        "versions": [
+          {
+            "version": "0.4.10",
+            "publishTimestamp": 1795711332,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SAXEM1997/dsh-boost",
+              "commit": "3a9019155db52518702043b0001c135a9b586412"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.4 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SAXEM1997/dsh-boost",
+    "commit": "3a9019155db52518702043b0001c135a9b586412",
+    "releaseTags": 37,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:10.296Z"
+}

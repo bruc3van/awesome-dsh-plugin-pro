@@ -1,0 +1,69 @@
+{
+  "full_name": "JavaArthur/dsh-home",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:45.460Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f69eaa16818d2c0f878ae2a68b70c945fd8b1647b3d544e0ac7a201f69f3a473",
+      "url": "https://github.com/JavaArthur/dsh-home/blob/4b3decf48eadd98c44bdd1f6cf4b61ecf80b72ff/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-home",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JavaArthur/dsh-home",
+        "commit": "4b3decf48eadd98c44bdd1f6cf4b61ecf80b72ff"
+      },
+      "manifestSha256": "ece5464f2de4fc69ce29ac685c8181f76a1ab25acb0740c062867ccf747f0501",
+      "manifestUrl": "https://github.com/JavaArthur/dsh-home/blob/4b3decf48eadd98c44bdd1f6cf4b61ecf80b72ff/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-home",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794447662,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JavaArthur/dsh-home",
+              "commit": "4b3decf48eadd98c44bdd1f6cf4b61ecf80b72ff"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JavaArthur/dsh-home",
+    "commit": "4b3decf48eadd98c44bdd1f6cf4b61ecf80b72ff",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:46.712Z"
+}

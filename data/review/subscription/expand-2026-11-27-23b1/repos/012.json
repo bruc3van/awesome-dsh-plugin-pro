@@ -1,0 +1,66 @@
+{
+  "full_name": "Gladess1102/dsh-g-memory",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:39.111Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ec06fcdbce3452a4f247108438e1fa1a9f5be36009a57157a1b815395c4249cf",
+      "url": "https://github.com/Gladess1102/dsh-g-memory/blob/f1bc2718f991d2290e98427fdea88e92e4311040/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-g-memory",
+      "version": "0.15.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Gladess1102/dsh-g-memory",
+        "commit": "f1bc2718f991d2290e98427fdea88e92e4311040"
+      },
+      "manifestSha256": "70d2a41a9fe3e7c7ccff8a5d8a28cc873f9f8a239074261326a7e53a6632dd6d",
+      "manifestUrl": "https://github.com/Gladess1102/dsh-g-memory/blob/f1bc2718f991d2290e98427fdea88e92e4311040/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-g-memory",
+        "versions": [
+          {
+            "version": "0.15.2",
+            "publishTimestamp": 1795003661,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Gladess1102/dsh-g-memory",
+              "commit": "f1bc2718f991d2290e98427fdea88e92e4311040"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Gladess1102/dsh-g-memory",
+    "commit": "f1bc2718f991d2290e98427fdea88e92e4311040",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:40.469Z"
+}

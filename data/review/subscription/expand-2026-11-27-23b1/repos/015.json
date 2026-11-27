@@ -1,0 +1,150 @@
+{
+  "full_name": "HH56715/qq-bridge",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:40.214Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c6d590ee63a512a6742cae1359b9b46c9e48f5d2ec6e0d69cd3ae8e9d76307c2",
+      "url": "https://github.com/HH56715/qq-bridge/blob/7fccaebbbed36d66db142a871eff3328877c0110/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "41ea499917cf333b92ce74c85dc240cd0c69d754911ffbe6fc0a8aa87bcd2bd3",
+      "url": "https://github.com/HH56715/qq-bridge/blob/7fccaebbbed36d66db142a871eff3328877c0110/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "2207e232c2bbcac8de2567fc4819947b6e26bad6f68e5868ede179a19bc0dd45",
+      "url": "https://github.com/HH56715/qq-bridge/blob/7fccaebbbed36d66db142a871eff3328877c0110/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "qq-agent-presets",
+      "version": "0.2.1-r1",
+      "path": "plugins/qq-agent-presets",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HH56715/qq-bridge",
+        "commit": "7fccaebbbed36d66db142a871eff3328877c0110",
+        "path": "plugins/qq-agent-presets"
+      },
+      "manifestSha256": "7bde5649dbe5f9ca1314043090520293aa655caa81691f06cfdad404135d3ab8",
+      "manifestUrl": "https://github.com/HH56715/qq-bridge/blob/7fccaebbbed36d66db142a871eff3328877c0110/plugins/qq-agent-presets/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "qq-agent-presets",
+        "versions": [
+          {
+            "version": "0.2.1-r1",
+            "publishTimestamp": 1794027703,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HH56715/qq-bridge",
+              "commit": "7fccaebbbed36d66db142a871eff3328877c0110",
+              "path": "plugins/qq-agent-presets"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "qq-mode-console",
+      "version": "0.2.1-r1",
+      "path": "plugins/qq-mode-console",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HH56715/qq-bridge",
+        "commit": "7fccaebbbed36d66db142a871eff3328877c0110",
+        "path": "plugins/qq-mode-console"
+      },
+      "manifestSha256": "c17256cf209e88c3b67b9c48642eef7792a61f7e81ea5a299302fb045a5ea983",
+      "manifestUrl": "https://github.com/HH56715/qq-bridge/blob/7fccaebbbed36d66db142a871eff3328877c0110/plugins/qq-mode-console/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "qq-mode-console",
+        "versions": [
+          {
+            "version": "0.2.1-r1",
+            "publishTimestamp": 1794027703,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HH56715/qq-bridge",
+              "commit": "7fccaebbbed36d66db142a871eff3328877c0110",
+              "path": "plugins/qq-mode-console"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "qq-persona-switch",
+      "version": "0.2.0",
+      "path": "plugins/qq-persona-switch",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HH56715/qq-bridge",
+        "commit": "7fccaebbbed36d66db142a871eff3328877c0110",
+        "path": "plugins/qq-persona-switch"
+      },
+      "manifestSha256": "22571e27920832c06f207d1be79a2236e1e1c07565eff9b6cd83bcf0a9a47c1b",
+      "manifestUrl": "https://github.com/HH56715/qq-bridge/blob/7fccaebbbed36d66db142a871eff3328877c0110/plugins/qq-persona-switch/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "qq-persona-switch",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794027703,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HH56715/qq-bridge",
+              "commit": "7fccaebbbed36d66db142a871eff3328877c0110",
+              "path": "plugins/qq-persona-switch"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HH56715/qq-bridge",
+    "commit": "7fccaebbbed36d66db142a871eff3328877c0110",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:42.778Z"
+}

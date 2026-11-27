@@ -1,135 +1,205 @@
 {
-  "generated_at": "2026-11-27T00:00:53.534Z",
+  "generated_at": "2026-11-27T23:42:37.958Z",
   "min_stars": 0,
   "scanned": 0,
   "scan_review": 0,
-  "carried_forward": 18,
+  "carried_forward": 28,
   "applied": [],
   "review": [
     {
-      "slug": "tyr1105/dsh-buddy",
+      "slug": "nexu-io/opengame",
+      "stars": 2197,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "Yaemikoreal/BilibiliPlayer",
       "stars": 4,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "ygc06/fishpet-release",
-      "stars": 4,
       "reason": "no install command extracted; no package.json",
-      "hint": "",
+      "hint": "dsh plugin --profile desktop add link:<项目路径>/dsh-plugin",
       "candidates": []
     },
     {
-      "slug": "ffdnm/ClashTUNWithDSH",
-      "stars": 3,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "fotor-ai/fotor-agent-plugins",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "dsh plugin --profile web add \"git+https://github.com/fotor-ai/dsh-fotor-plugin.git\" --ignore-scripts",
-      "candidates": []
-    },
-    {
-      "slug": "Fz2hOpenSource/firmware-forge",
-      "stars": 3,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "gulagala001/dsh-trisoul",
+      "slug": "AntheaLaffy/tomato-todo",
       "stars": 3,
       "reason": "no install command extracted; package.json declares no dsh bundle",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "kelai141/dsh-shell-termux",
+      "slug": "ShawnRen57/omni-learning-anything",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "soyoungzsy/soya-workflows",
+      "stars": 3,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "whiteguo233/dsh-cc-connect",
+      "stars": 3,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile web add git+ssh://git@github.com:dsh-external/dsh-cc-connect.git",
+      "candidates": []
+    },
+    {
+      "slug": "YeStarOne/feiyuos-memory-graph",
       "stars": 3,
       "reason": "no install command extracted; package.json declares no dsh bundle",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "kestiny18/dsh-plugins",
-      "stars": 3,
+      "slug": "01float01/dsh-remote",
+      "stars": 2,
       "reason": "no install command extracted; package.json declares no dsh bundle",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "leolee9086/SAC_search",
-      "stars": 3,
+      "slug": "AFAP/plugin-bastion-bridge-qizhi",
+      "stars": 2,
       "reason": "no install command extracted; no package.json",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "lishize20040802-rgb/useful-dsh-plugins",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "dsh plugin --profile web add ./dsh-plugin-voice-input-0.3.0.tgz",
-      "candidates": []
-    },
-    {
-      "slug": "lovaxi/Rubato_Plugins",
-      "stars": 3,
+      "slug": "ahn66/dsh-usage-lens",
+      "stars": 2,
       "reason": "no install command extracted; no package.json",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "malinovme/dsh-unica",
-      "stars": 3,
+      "slug": "aik8s/cubesandbox-agent-adapter",
+      "stars": 2,
       "reason": "no install command extracted; no package.json",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "MkaliezZ/dsh-agentfuse-plugin",
-      "stars": 3,
-      "reason": "no install command extracted; package.json declares no dsh bundle",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "Murphy2000-cyk/dsh-skill-plugin-tuning",
-      "stars": 3,
+      "slug": "Azek431/dsh-termux-bridge",
+      "stars": 2,
       "reason": "no install command extracted; no package.json",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "NIyueeE/dsh-container",
-      "stars": 3,
+      "slug": "BarneyZhaoooo/dsh-theme-native",
+      "stars": 2,
       "reason": "no install command extracted; no package.json",
       "hint": "",
       "candidates": []
     },
     {
-      "slug": "nyantused-cpun/folio",
-      "stars": 3,
-      "reason": "no install command extracted; no package.json",
-      "hint": "dsh plugin --profile web add @nyantused/folio-dsh-tools",
-      "candidates": []
-    },
-    {
-      "slug": "ooooooomygosh/paper-research-coach",
-      "stars": 3,
-      "reason": "no install command extracted; no package.json",
-      "hint": "",
-      "candidates": []
-    },
-    {
-      "slug": "QiuXu-Tech/memex",
-      "stars": 3,
+      "slug": "Bluebagbag/dsh-wordbook",
+      "stars": 2,
       "reason": "no install command extracted; package.json declares no dsh bundle",
       "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "brickhu/dsh-plugins",
+      "stars": 2,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "cangwu-ai/dsh-easyremote",
+      "stars": 2,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "casualjim/dsh-plugins",
+      "stars": 2,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile web add <path-or-package>",
+      "candidates": []
+    },
+    {
+      "slug": "chicochol/dsh-holopet",
+      "stars": 2,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "ciceroyang/dsh-doctor",
+      "stars": 2,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin add seems to work: will this package actually show up in the web UI? Nothing is installed or written.",
+      "candidates": []
+    },
+    {
+      "slug": "cloudbywu/dshchem",
+      "stars": 2,
+      "reason": "no install command extracted; no package.json",
+      "hint": "dsh plugin --profile web add link:...dsh-chem-core （profile package.json 已含 bundle）",
+      "candidates": []
+    },
+    {
+      "slug": "cmukanisa/dsh-remote-ssh",
+      "stars": 2,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "daboge-beach/dsh-skin-studio",
+      "stars": 2,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "dcsnkj/dsh-agent-sync",
+      "stars": 2,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "deepsleepAquarium/dsh-whale-post",
+      "stars": 2,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile <profile> add link:/abs/path/to/dsh-whale-post",
+      "candidates": []
+    },
+    {
+      "slug": "devockr/idsh",
+      "stars": 2,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "Esper967/dsh-music-insight",
+      "stars": 2,
+      "reason": "no install command extracted; no package.json",
+      "hint": "dsh plugin --profile <你的 profile 名> add <本仓库路径>/dsh-plugin",
+      "candidates": []
+    },
+    {
+      "slug": "Francesco149/dsh-deep-research",
+      "stars": 2,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "genesis-agents/dsh-plugins",
+      "stars": 2,
+      "reason": "no install command extracted; no package.json",
+      "hint": "dsh plugin add github:... would otherwise receive a package that cannot load.",
       "candidates": []
     }
   ]

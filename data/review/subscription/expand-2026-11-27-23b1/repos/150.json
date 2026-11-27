@@ -1,0 +1,575 @@
+{
+  "full_name": "T3-Venture-Labs-Limited/ohmydsh",
+  "originalPosition": 150,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:16.349Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1d39b93350d564c9a74af5216b776b14706b2d8e1578bd271f3ee0de088192c8",
+      "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-agent-browser",
+      "version": "0.2.8",
+      "path": "packages/agent-browser",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/agent-browser"
+      },
+      "manifestSha256": "f8fe83c54c509c040e8f41168a2b6509dbeda31dd227d0bb0d5d4f150328f1a4",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/agent-browser/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-agent-browser",
+        "versions": [
+          {
+            "version": "0.2.8",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/agent-browser"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-automation-models",
+      "version": "0.1.0",
+      "path": "packages/automation-models",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/automation-models"
+      },
+      "manifestSha256": "c585a8a9e9c39a1a3dc7414924ef12999e1d8ee8f21118f333460cbfefc9cc51",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/automation-models/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-automation-models",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/automation-models"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-brand",
+      "version": "0.1.0",
+      "path": "packages/brand",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/brand"
+      },
+      "manifestSha256": "839b875398c27809b4a77edd6e7430e39bfa5be6fc2e5a88f04515afc5aac4ae",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/brand/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-brand",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/brand"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-browser-takeover",
+      "version": "0.1.1",
+      "path": "packages/browser-takeover",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/browser-takeover"
+      },
+      "manifestSha256": "dd1049e3f2d813f1fe50421dea331ddf95abe8839b69f569e87f4d8609cb8326",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/browser-takeover/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-browser-takeover",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/browser-takeover"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-composio",
+      "version": "0.1.1",
+      "path": "packages/composio",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/composio"
+      },
+      "manifestSha256": "e0ecc23fc20f3d9be0ebc9efa7819a096ad828fca2c2f605c77ddb8b3644e0b5",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/composio/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-composio",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/composio"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-hud",
+      "version": "0.1.0",
+      "path": "packages/hud",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/hud"
+      },
+      "manifestSha256": "413ddfad4484865123bf9b3de2390d40f7e8016522248a69901722318196c5d7",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/hud/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-hud",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/hud"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-langfuse",
+      "version": "0.1.0",
+      "path": "packages/langfuse",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/langfuse"
+      },
+      "manifestSha256": "5fc29e2eb53bada9bd3729f9d24d9a339e32938032df49d3195abc0e217a3fd6",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/langfuse/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-langfuse",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/langfuse"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-notebook",
+      "version": "0.1.0",
+      "path": "packages/notebook",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/notebook"
+      },
+      "manifestSha256": "4292ca8ebac249f63b2eb6d304dac14763ca2cb60a94a9e636a8b347fcf7add8",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/notebook/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-notebook",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/notebook"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-pwa",
+      "version": "0.3.2",
+      "path": "packages/pwa",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/pwa"
+      },
+      "manifestSha256": "0d3cd221e35b89b4faf230e7317cead1a6d0fd08e659f7ae9af0619b22446ec1",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/pwa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-pwa",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/pwa"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-review-comments",
+      "version": "0.2.0",
+      "path": "packages/review-comments",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/review-comments"
+      },
+      "manifestSha256": "45b88496094538fe82166a8f365e5eb20d7c11aafc03b30c02d4e2a8d3318f1f",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/review-comments/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-review-comments",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/review-comments"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-skill-studio",
+      "version": "0.1.2",
+      "path": "packages/skill-studio",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/skill-studio"
+      },
+      "manifestSha256": "f28255a484dca10dddc0a423a382b7b90a99d9d79b8f8107040e826409173a08",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/skill-studio/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-skill-studio",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/skill-studio"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-studio",
+      "version": "0.1.2",
+      "path": "packages/studio",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/studio"
+      },
+      "manifestSha256": "eb6477dccb16e4684c08d2ec39e6b7b2e7a6719abd3259022f9e9978002fbe8a",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/studio/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-studio",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/studio"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-theme",
+      "version": "0.1.3",
+      "path": "packages/theme",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/theme"
+      },
+      "manifestSha256": "99577bc042d65a0dc969f7d861fa38db648d323044b911aec604425a507b5c29",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/theme/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-theme",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/theme"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-triggers",
+      "version": "0.1.1",
+      "path": "packages/triggers",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/triggers"
+      },
+      "manifestSha256": "1fc1ff5f7891c3f7507aa06d438265501d7e66d5a6650ef3e9ea916efc2f1209",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/triggers/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-triggers",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/triggers"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@t3labs/ohmydsh-web-search-parallel",
+      "version": "0.1.0",
+      "path": "packages/web-search-parallel",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+        "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+        "path": "packages/web-search-parallel"
+      },
+      "manifestSha256": "63202c44f4fb6b98ea8f4efeb8b4260c72d2d5ba692db038d7964ca0f7dfccc5",
+      "manifestUrl": "https://github.com/T3-Venture-Labs-Limited/ohmydsh/blob/91b0950d6c2b27ae1bb33f67c105d619a4767066/packages/web-search-parallel/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@t3labs/ohmydsh-web-search-parallel",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795754002,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+              "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+              "path": "packages/web-search-parallel"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/T3-Venture-Labs-Limited/ohmydsh",
+    "commit": "91b0950d6c2b27ae1bb33f67c105d619a4767066",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:22.015Z"
+}

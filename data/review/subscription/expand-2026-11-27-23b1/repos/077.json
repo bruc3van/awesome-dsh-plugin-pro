@@ -1,0 +1,50 @@
+{
+  "full_name": "Lynn-Sunset/dsh-gene-editing",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:55.702Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "29803776b10c7298ca676ea1f617c6e4c0d91d86fea697a96cfe84859ded9c93",
+      "url": "https://github.com/Lynn-Sunset/dsh-gene-editing/blob/4727713612051b79f51fdc3ca4db4c72ee57487c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gene-editing",
+      "version": "0.6.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lynn-Sunset/dsh-gene-editing",
+        "commit": "4727713612051b79f51fdc3ca4db4c72ee57487c"
+      },
+      "manifestSha256": "54a34b32e3f0aca6414c8e8a6381988c545e8648dcfa4e092361f1697d9d4e83",
+      "manifestUrl": "https://github.com/Lynn-Sunset/dsh-gene-editing/blob/4727713612051b79f51fdc3ca4db4c72ee57487c/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lynn-Sunset/dsh-gene-editing",
+    "commit": "4727713612051b79f51fdc3ca4db4c72ee57487c",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:41:56.910Z"
+}

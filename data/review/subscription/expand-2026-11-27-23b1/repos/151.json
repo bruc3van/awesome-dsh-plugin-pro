@@ -1,0 +1,69 @@
+{
+  "full_name": "TUcookie/dsh-offpeak-saver",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:16.437Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ba28dbb3646c86add2ecf179497f85393d7e84651996d5163de3e881f51cc980",
+      "url": "https://github.com/TUcookie/dsh-offpeak-saver/blob/1a317ea361df83e8853f12e4b1b67b49e4b10a90/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-offpeak-saver",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TUcookie/dsh-offpeak-saver",
+        "commit": "1a317ea361df83e8853f12e4b1b67b49e4b10a90"
+      },
+      "manifestSha256": "d594d86a0bf42938efb810c680a2eff64ff79d2a05aab38bd0a93e3379f03f89",
+      "manifestUrl": "https://github.com/TUcookie/dsh-offpeak-saver/blob/1a317ea361df83e8853f12e4b1b67b49e4b10a90/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-offpeak-saver",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791705259,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TUcookie/dsh-offpeak-saver",
+              "commit": "1a317ea361df83e8853f12e4b1b67b49e4b10a90"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TUcookie/dsh-offpeak-saver",
+    "commit": "1a317ea361df83e8853f12e4b1b67b49e4b10a90",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:17.743Z"
+}

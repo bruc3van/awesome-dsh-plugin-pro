@@ -1,0 +1,77 @@
+{
+  "full_name": "LinHyu-2006/dsh-balance-hud",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:53.134Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0ab68f316b4a34d092605c504f928efe413ac46203068b2fa99733c25a7b8c86",
+      "url": "https://github.com/LinHyu-2006/dsh-balance-hud/blob/bd489d9060bfc0af76b4244c56e95bac123df422/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "064d80f7f76e3cec5fdf45993ed861a0b54660c746ecd414f35a85237de95209",
+      "url": "https://github.com/LinHyu-2006/dsh-balance-hud/blob/bd489d9060bfc0af76b4244c56e95bac123df422/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-balance-hud",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LinHyu-2006/dsh-balance-hud",
+        "commit": "bd489d9060bfc0af76b4244c56e95bac123df422"
+      },
+      "manifestSha256": "8dc438a5e0752acf75aee5651123cb6100c9366fbac30ee8261fe91627ed97b7",
+      "manifestUrl": "https://github.com/LinHyu-2006/dsh-balance-hud/blob/bd489d9060bfc0af76b4244c56e95bac123df422/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-balance-hud",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1792775256,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LinHyu-2006/dsh-balance-hud",
+              "commit": "bd489d9060bfc0af76b4244c56e95bac123df422"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LinHyu-2006/dsh-balance-hud",
+    "commit": "bd489d9060bfc0af76b4244c56e95bac123df422",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:54.516Z"
+}

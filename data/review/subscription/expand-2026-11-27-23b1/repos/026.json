@@ -1,0 +1,66 @@
+{
+  "full_name": "Hyfish-oO/dsh-pushpin",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:42.952Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e1d819bf76b1857f1abdfd51b9ab7d3de45b7102008b0242a5ad2b723048de93",
+      "url": "https://github.com/Hyfish-oO/dsh-pushpin/blob/7349708ada77dca782c0d0db50844a98cc705161/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pushpin",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hyfish-oO/dsh-pushpin",
+        "commit": "7349708ada77dca782c0d0db50844a98cc705161"
+      },
+      "manifestSha256": "51954208f34fa0bc0c2fd0c4925986646287ed35877b55badf8cd283e2141420",
+      "manifestUrl": "https://github.com/Hyfish-oO/dsh-pushpin/blob/7349708ada77dca782c0d0db50844a98cc705161/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pushpin",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795404996,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hyfish-oO/dsh-pushpin",
+              "commit": "7349708ada77dca782c0d0db50844a98cc705161"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hyfish-oO/dsh-pushpin",
+    "commit": "7349708ada77dca782c0d0db50844a98cc705161",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:44.238Z"
+}

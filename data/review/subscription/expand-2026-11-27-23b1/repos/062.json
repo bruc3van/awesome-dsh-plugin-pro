@@ -1,0 +1,66 @@
+{
+  "full_name": "LeriusLei/dsh-whalepaper",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:52.360Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c53d66225c27d462ed538c669dccb0aa0b8f6fc1079f3d01b6bb3ed72b8df1e7",
+      "url": "https://github.com/LeriusLei/dsh-whalepaper/blob/dfd7433bac3e87380f2c8f04f4b3e62faa8f4cf0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whalepaper",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeriusLei/dsh-whalepaper",
+        "commit": "dfd7433bac3e87380f2c8f04f4b3e62faa8f4cf0"
+      },
+      "manifestSha256": "33ebb42d76ce504feb8db40bf621dce8fdc48c13475784096d79a82c6a9168f3",
+      "manifestUrl": "https://github.com/LeriusLei/dsh-whalepaper/blob/dfd7433bac3e87380f2c8f04f4b3e62faa8f4cf0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whalepaper",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1793871665,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeriusLei/dsh-whalepaper",
+              "commit": "dfd7433bac3e87380f2c8f04f4b3e62faa8f4cf0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeriusLei/dsh-whalepaper",
+    "commit": "dfd7433bac3e87380f2c8f04f4b3e62faa8f4cf0",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:53.603Z"
+}

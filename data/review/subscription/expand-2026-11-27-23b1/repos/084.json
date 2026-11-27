@@ -1,0 +1,42 @@
+{
+  "full_name": "MashedPotato817/dsh-tui",
+  "originalPosition": 84,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 84,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:57.102Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8f9e73bfc717436ce06f92e81d797d0989403dbd035ad12cb58339c64beb354b",
+      "url": "https://github.com/MashedPotato817/dsh-tui/blob/56cb5fb618bd4d6c9dc79c299b0886e918ec30a8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MashedPotato817/dsh-tui",
+    "commit": "56cb5fb618bd4d6c9dc79c299b0886e918ec30a8",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-tui",
+    "version": "0.2.19",
+    "dsh": null,
+    "engines": {
+      "node": ">=22"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:58.295Z"
+}

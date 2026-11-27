@@ -1,0 +1,66 @@
+{
+  "full_name": "Miyamiz39/dsh-consensus",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:59.022Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2e2693ef42ce51bef0ba28c88e4f78ff23cb42cdf0dfa4a95f6e2182f8e867dd",
+      "url": "https://github.com/Miyamiz39/dsh-consensus/blob/29db96fe08f79c10dd6e390b9544b3833177f23c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-consensus",
+      "version": "2.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Miyamiz39/dsh-consensus",
+        "commit": "29db96fe08f79c10dd6e390b9544b3833177f23c"
+      },
+      "manifestSha256": "17dc7524a77048e2eec686244f762da79ee34631faceced3c583dfb00d6e4565",
+      "manifestUrl": "https://github.com/Miyamiz39/dsh-consensus/blob/29db96fe08f79c10dd6e390b9544b3833177f23c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-consensus",
+        "versions": [
+          {
+            "version": "2.4.0",
+            "publishTimestamp": 1795456087,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Miyamiz39/dsh-consensus",
+              "commit": "29db96fe08f79c10dd6e390b9544b3833177f23c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Miyamiz39/dsh-consensus",
+    "commit": "29db96fe08f79c10dd6e390b9544b3833177f23c",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:00.141Z"
+}

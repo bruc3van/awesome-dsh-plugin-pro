@@ -1,0 +1,85 @@
+{
+  "full_name": "Seren-715/dsh-remote-groups",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:11.280Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8d2ae4be6c409ca0e632e84cb54f01e3588aab4e1f91efe90a3f86d823e342fb",
+      "url": "https://github.com/Seren-715/dsh-remote-groups/blob/b13257f2223ce670326926e2564ec4484bf012ab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2429c95cfc372a1be817e3b3417f63b9ce087e788529e65802d38cb8723aeaef",
+      "url": "https://github.com/Seren-715/dsh-remote-groups/blob/b13257f2223ce670326926e2564ec4484bf012ab/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/images/README.md",
+      "sha256": "ede3b5d83558cfa8b504718822ceaefb66596d7049e6396bd7c1c3bfd469ed08",
+      "url": "https://github.com/Seren-715/dsh-remote-groups/blob/b13257f2223ce670326926e2564ec4484bf012ab/docs/images/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote-groups",
+      "version": "0.1.0-preview.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Seren-715/dsh-remote-groups",
+        "commit": "b13257f2223ce670326926e2564ec4484bf012ab"
+      },
+      "manifestSha256": "f0ef350305c374cac7eeb87124d53df69b1e22bc5a05b417182aded06daf044a",
+      "manifestUrl": "https://github.com/Seren-715/dsh-remote-groups/blob/b13257f2223ce670326926e2564ec4484bf012ab/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-remote-groups",
+        "versions": [
+          {
+            "version": "0.1.0-preview.5",
+            "publishTimestamp": 1792471791,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Seren-715/dsh-remote-groups",
+              "commit": "b13257f2223ce670326926e2564ec4484bf012ab"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Seren-715/dsh-remote-groups",
+    "commit": "b13257f2223ce670326926e2564ec4484bf012ab",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:13.076Z"
+}

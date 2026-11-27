@@ -1,0 +1,58 @@
+{
+  "full_name": "JHboy203/dsh-plugin-catalog",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:44.939Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f735eeb52039b569583aaaab0eed0f47c3ac683a83d51579ea5b0488a4be47c9",
+      "url": "https://github.com/JHboy203/dsh-plugin-catalog/blob/c4b5fe69f19b7212218f2545ad6338668466bd34/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "bbbcbe0e375b4ff8b743c3373762d084a4759dab25a2c0aa6af9a4d9283c7fb1",
+      "url": "https://github.com/JHboy203/dsh-plugin-catalog/blob/c4b5fe69f19b7212218f2545ad6338668466bd34/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-catalog",
+      "version": "0.40.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JHboy203/dsh-plugin-catalog",
+        "commit": "c4b5fe69f19b7212218f2545ad6338668466bd34"
+      },
+      "manifestSha256": "1615e13b3d33b4376e1751302de535c712a358d8dc8b3ce7537ef2c5f3a2f0cf",
+      "manifestUrl": "https://github.com/JHboy203/dsh-plugin-catalog/blob/c4b5fe69f19b7212218f2545ad6338668466bd34/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JHboy203/dsh-plugin-catalog",
+    "commit": "c4b5fe69f19b7212218f2545ad6338668466bd34",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:41:46.590Z"
+}

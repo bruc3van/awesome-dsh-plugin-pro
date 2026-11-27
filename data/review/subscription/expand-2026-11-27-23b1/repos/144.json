@@ -1,0 +1,66 @@
+{
+  "full_name": "Stella-Mira/muse_vtuber",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:14.865Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "50f9e75d3aa91b3f4615b644c518ababbdcad10d6dc18d4ca53000b12ff6f87b",
+      "url": "https://github.com/Stella-Mira/muse_vtuber/blob/7710495397f6759c8c12851be2dbceb2410374a3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "muse_vtuber",
+      "version": "4.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Stella-Mira/muse_vtuber",
+        "commit": "7710495397f6759c8c12851be2dbceb2410374a3"
+      },
+      "manifestSha256": "4444367a051d914c9426ec9a0206f65ccf18ffc6f387a4d2ea2e751199714105",
+      "manifestUrl": "https://github.com/Stella-Mira/muse_vtuber/blob/7710495397f6759c8c12851be2dbceb2410374a3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "muse_vtuber",
+        "versions": [
+          {
+            "version": "4.2.0",
+            "publishTimestamp": 1794379669,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Stella-Mira/muse_vtuber",
+              "commit": "7710495397f6759c8c12851be2dbceb2410374a3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Stella-Mira/muse_vtuber",
+    "commit": "7710495397f6759c8c12851be2dbceb2410374a3",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:16.041Z"
+}

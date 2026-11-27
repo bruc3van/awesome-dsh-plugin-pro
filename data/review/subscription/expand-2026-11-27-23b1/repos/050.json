@@ -1,0 +1,66 @@
+{
+  "full_name": "KKoishi-514514/dsh-qzone-diary",
+  "originalPosition": 50,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 50,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:49.190Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0e2a706d4d54139f84530e83422636f6700cc5660060fd751ffc34f296370824",
+      "url": "https://github.com/KKoishi-514514/dsh-qzone-diary/blob/6f23bf734bb3f14fe04a039eaefd51b2621d0596/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "qq-qzone-diary",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KKoishi-514514/dsh-qzone-diary",
+        "commit": "6f23bf734bb3f14fe04a039eaefd51b2621d0596"
+      },
+      "manifestSha256": "1c5be1613b52d927547da3727435c68cee9b5d4c60b607c431a6a343a0b11af1",
+      "manifestUrl": "https://github.com/KKoishi-514514/dsh-qzone-diary/blob/6f23bf734bb3f14fe04a039eaefd51b2621d0596/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "qq-qzone-diary",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792838876,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KKoishi-514514/dsh-qzone-diary",
+              "commit": "6f23bf734bb3f14fe04a039eaefd51b2621d0596"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KKoishi-514514/dsh-qzone-diary",
+    "commit": "6f23bf734bb3f14fe04a039eaefd51b2621d0596",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:50.351Z"
+}

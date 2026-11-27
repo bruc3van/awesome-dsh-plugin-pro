@@ -1,0 +1,109 @@
+{
+  "full_name": "Zian-anson/dsh-prompt-seed",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:30.648Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0d0a8c2ce63472e4e679cc05d33013fe91ae8e6a69d0deeaad85af188254d266",
+      "url": "https://github.com/Zian-anson/dsh-prompt-seed/blob/104948860daeb0c2bb7e015e2facc51d9c9ddb61/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Zian-anson/dsh-prompt-seed/releases/download/v0.21.1/dsh-prompt-seed-0.21.1.tgz",
+          "command": "dsh plugin --profile <name> add https://github.com/Zian-anson/dsh-prompt-seed/releases/download/v0.21.1/dsh-prompt-seed-0.21.1.tgz",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b0f8407a27de881b9f9dd463646b7ca6ea34c25b96d9c12f0bac8ebecc677d5e",
+      "url": "https://github.com/Zian-anson/dsh-prompt-seed/blob/104948860daeb0c2bb7e015e2facc51d9c9ddb61/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Zian-anson/dsh-prompt-seed/releases/download/v0.21.1/dsh-prompt-seed-0.21.1.tgz",
+          "command": "dsh plugin --profile <name> add https://github.com/Zian-anson/dsh-prompt-seed/releases/download/v0.21.1/dsh-prompt-seed-0.21.1.tgz",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "bench/README.md",
+      "sha256": "9f7aaf18f457e6213ccafd04ae0cf1fc0943d0848da9b09b2c2b9fe28046553a",
+      "url": "https://github.com/Zian-anson/dsh-prompt-seed/blob/104948860daeb0c2bb7e015e2facc51d9c9ddb61/bench/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-seed",
+      "version": "0.21.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zian-anson/dsh-prompt-seed",
+        "commit": "104948860daeb0c2bb7e015e2facc51d9c9ddb61"
+      },
+      "manifestSha256": "7e4da560e93747d432037c4272a8eeffdd8fa508d7882460a2e62a69d808e0a0",
+      "manifestUrl": "https://github.com/Zian-anson/dsh-prompt-seed/blob/104948860daeb0c2bb7e015e2facc51d9c9ddb61/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-prompt-seed",
+        "versions": [
+          {
+            "version": "0.21.1",
+            "publishTimestamp": 1792636798,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zian-anson/dsh-prompt-seed",
+              "commit": "104948860daeb0c2bb7e015e2facc51d9c9ddb61"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Zian-anson/dsh-prompt-seed/releases/download/v0.21.1/dsh-prompt-seed-0.21.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Zian-anson/dsh-prompt-seed/releases/download/v0.21.1/dsh-prompt-seed-0.21.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zian-anson/dsh-prompt-seed",
+    "commit": "104948860daeb0c2bb7e015e2facc51d9c9ddb61",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:32.246Z"
+}

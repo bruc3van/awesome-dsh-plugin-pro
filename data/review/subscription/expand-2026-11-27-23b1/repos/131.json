@@ -1,0 +1,42 @@
+{
+  "full_name": "SKzrui/DSH-CLI",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:10.202Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a2b4c6704524750c61c8a4e55b2ca16c748be1e2454e6735735dea832a44dcd2",
+      "url": "https://github.com/SKzrui/DSH-CLI/blob/5b43e15d1f9c8e6aede9655573a5192f6d5ed496/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SKzrui/DSH-CLI",
+    "commit": "5b43e15d1f9c8e6aede9655573a5192f6d5ed496",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@harmattan666/dcli",
+    "version": "0.2.8",
+    "dsh": null,
+    "engines": {
+      "node": ">=20"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:11.279Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "SShiRkiT/dsh-matrix-theme",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:10.296Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bef4af55101fd79601a28efeb1f801ca22a5b3cb51d68ad9612b51032643b1a5",
+      "url": "https://github.com/SShiRkiT/dsh-matrix-theme/blob/cf7a2e70690fda9b0f8857c6659f3675b4e3af69/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-matrix-theme",
+      "version": "0.10.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SShiRkiT/dsh-matrix-theme",
+        "commit": "cf7a2e70690fda9b0f8857c6659f3675b4e3af69"
+      },
+      "manifestSha256": "d422cb97434f35a0f3d14386fcd53a859b072ac7cd8f3a4aa79d9d3e79106cfa",
+      "manifestUrl": "https://github.com/SShiRkiT/dsh-matrix-theme/blob/cf7a2e70690fda9b0f8857c6659f3675b4e3af69/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-matrix-theme",
+        "versions": [
+          {
+            "version": "0.10.0",
+            "publishTimestamp": 1794904808,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SShiRkiT/dsh-matrix-theme",
+              "commit": "cf7a2e70690fda9b0f8857c6659f3675b4e3af69"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SShiRkiT/dsh-matrix-theme",
+    "commit": "cf7a2e70690fda9b0f8857c6659f3675b4e3af69",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:11.459Z"
+}

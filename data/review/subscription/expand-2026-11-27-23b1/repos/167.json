@@ -1,0 +1,98 @@
+{
+  "full_name": "WeirdSky924/project-change-router-skill",
+  "originalPosition": 167,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 167,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:22.347Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1d7b49a030f71c72fddb651c7af89b62bd5571e6f978963383ab030b936a1751",
+      "url": "https://github.com/WeirdSky924/project-change-router-skill/blob/d278590c53fd5630f265486c0b8aef4ede148fc4/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "243f80a865e33abbe0b9122664ff19876f07017915aaa971bffb26e7cf640d5f",
+      "url": "https://github.com/WeirdSky924/project-change-router-skill/blob/d278590c53fd5630f265486c0b8aef4ede148fc4/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "examples/profiles/README.md",
+      "sha256": "f4245734b91691400289bff08c09cd44112e36e98ba04852e688ec7f6cce6890",
+      "url": "https://github.com/WeirdSky924/project-change-router-skill/blob/d278590c53fd5630f265486c0b8aef4ede148fc4/examples/profiles/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/calibration/README.md",
+      "sha256": "beb88d2b5408fc7a2f76ef5e65732fcf596524da402762ee3214c6ee4e3373c0",
+      "url": "https://github.com/WeirdSky924/project-change-router-skill/blob/d278590c53fd5630f265486c0b8aef4ede148fc4/examples/calibration/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/agent-workflows/README.md",
+      "sha256": "07d515ff39ad9ae41bc1c9d0b4b8ee5c1540ba0bcea4faf7faf28b436fa95de7",
+      "url": "https://github.com/WeirdSky924/project-change-router-skill/blob/d278590c53fd5630f265486c0b8aef4ede148fc4/examples/agent-workflows/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "project-change-router-skill",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WeirdSky924/project-change-router-skill",
+        "commit": "d278590c53fd5630f265486c0b8aef4ede148fc4"
+      },
+      "manifestSha256": "e36f538cfeffb9fbffbd1c05b3fc36f48622f75bb0349aceb9e71f1c28820507",
+      "manifestUrl": "https://github.com/WeirdSky924/project-change-router-skill/blob/d278590c53fd5630f265486c0b8aef4ede148fc4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "project-change-router-skill",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1792660591,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WeirdSky924/project-change-router-skill",
+              "commit": "d278590c53fd5630f265486c0b8aef4ede148fc4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WeirdSky924/project-change-router-skill",
+    "commit": "d278590c53fd5630f265486c0b8aef4ede148fc4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:24.640Z"
+}

@@ -1,0 +1,143 @@
+{
+  "full_name": "IMLIULIAN/dsh-zeromem",
+  "originalPosition": 28,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:43.035Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "60865893cd75e58918f3584203313798d710b91e2a591b195a96e784a894aa54",
+      "url": "https://github.com/IMLIULIAN/dsh-zeromem/blob/d9fe1e2059c3d46886f4d64a0bfd227c8acc8f38/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@imliulian/dsh-zeromem",
+          "command": "dsh plugin --profile web add @imliulian/dsh-zeromem",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "cf75299073ad533d8b4d93bd01b879537824b7a78830e40a14fb62f4a958e37b",
+      "url": "https://github.com/IMLIULIAN/dsh-zeromem/blob/d9fe1e2059c3d46886f4d64a0bfd227c8acc8f38/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@imliulian/dsh-zeromem",
+          "command": "dsh plugin --profile web add @imliulian/dsh-zeromem",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@imliulian/dsh-zeromem",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/IMLIULIAN/dsh-zeromem",
+        "commit": "d9fe1e2059c3d46886f4d64a0bfd227c8acc8f38"
+      },
+      "manifestSha256": "0b8af0e4c8d9b3b738999a2e2d756788ec14c8d15b5ae22d3dd06354a72d91b2",
+      "manifestUrl": "https://github.com/IMLIULIAN/dsh-zeromem/blob/d9fe1e2059c3d46886f4d64a0bfd227c8acc8f38/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@imliulian/dsh-zeromem",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795792027,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/IMLIULIAN/dsh-zeromem",
+              "commit": "d9fe1e2059c3d46886f4d64a0bfd227c8acc8f38"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@imliulian/dsh-zeromem",
+      "origin": "npm",
+      "name": "@imliulian/dsh-zeromem",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@imliulian/dsh-zeromem",
+        "title": "@imliulian/dsh-zeromem",
+        "description": "ZeroMem (零忆) local evidence-grounded memory system for DeepSeek Harness — single-file node:sqlite + CJK/EN FTS5 (<1ms recall), timeline supersession & date-range filtering, read-only Markdown export, SQLite Online Backup, pre-write admission verification, credential redaction, until: expiry, SHA-256 lossless restore, local Ollama & OpenAI-compatible API support.",
+        "author": "IMLIULIAN",
+        "homepage": "https://github.com/IMLIULIAN/dsh-zeromem#readme",
+        "repository": {
+          "url": "https://github.com/IMLIULIAN/dsh-zeromem"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "zeromem",
+            "sqlite",
+            "fts5",
+            "ollama",
+            "local-ai"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795793016,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a6933c8b38ebbda3a976d2b6aaf1645a27d3a55027a5a229e2c2552da4cd7ed9",
+      "evidence": [
+        {
+          "name": "@imliulian/dsh-zeromem",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@imliulian/dsh-zeromem/-/dsh-zeromem-0.2.1.tgz",
+          "integrity": "sha512-RRKCFZzNBsXhK7JPnuS+1j4yeIw+X3J9Q642hdoDNXOtxJqZLPYNKDsFJPJcGFnKjwwhZBlHEsUMcMBy+lwz5g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@imliulian/dsh-zeromem",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/IMLIULIAN/dsh-zeromem",
+    "commit": "d9fe1e2059c3d46886f4d64a0bfd227c8acc8f38",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:45.015Z"
+}

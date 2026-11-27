@@ -1,0 +1,77 @@
+{
+  "full_name": "SunshineR04/dsh-session-manager",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:15.834Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dedc5531491cb0bfe29acab10b776a1a06ae38a8e781543420bae57809ee75a4",
+      "url": "https://github.com/SunshineR04/dsh-session-manager/blob/c8511ea8577f48bd9278fe5e4feef2fc03aa3555/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "21c4e745f2ec9bf1cffd8f804453f969764b47055370b8aedbc8054d5f289e65",
+      "url": "https://github.com/SunshineR04/dsh-session-manager/blob/c8511ea8577f48bd9278fe5e4feef2fc03aa3555/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-manager",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SunshineR04/dsh-session-manager",
+        "commit": "c8511ea8577f48bd9278fe5e4feef2fc03aa3555"
+      },
+      "manifestSha256": "702f2fe240782fe85e05704ce8d0c0483b640d643c7cdf1efa3fe901ad0c993f",
+      "manifestUrl": "https://github.com/SunshineR04/dsh-session-manager/blob/c8511ea8577f48bd9278fe5e4feef2fc03aa3555/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-session-manager",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1791659946,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SunshineR04/dsh-session-manager",
+              "commit": "c8511ea8577f48bd9278fe5e4feef2fc03aa3555"
+            },
+            "engines": {
+              "dsh": ">=0.1.7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SunshineR04/dsh-session-manager",
+    "commit": "c8511ea8577f48bd9278fe5e4feef2fc03aa3555",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:18.403Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "SOH4C4759/dsh-plugin-skill-autoroute",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:10.233Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fcbc4e382237640e8fc604df7a5a81945150d1c7f433ce0a0a9419f06d46d486",
+      "url": "https://github.com/SOH4C4759/dsh-plugin-skill-autoroute/blob/57bad3012931f21cb1756f1c559fef57783e0a04/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-skill-autoroute",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SOH4C4759/dsh-plugin-skill-autoroute",
+        "commit": "57bad3012931f21cb1756f1c559fef57783e0a04"
+      },
+      "manifestSha256": "d2e39c94860d5550cea41b6fd842e8baca6411791f79167e1f26317e33e97bde",
+      "manifestUrl": "https://github.com/SOH4C4759/dsh-plugin-skill-autoroute/blob/57bad3012931f21cb1756f1c559fef57783e0a04/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-skill-autoroute",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1791333184,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SOH4C4759/dsh-plugin-skill-autoroute",
+              "commit": "57bad3012931f21cb1756f1c559fef57783e0a04"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SOH4C4759/dsh-plugin-skill-autoroute",
+    "commit": "57bad3012931f21cb1756f1c559fef57783e0a04",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:11.385Z"
+}

@@ -1,0 +1,77 @@
+{
+  "full_name": "LanceLRQ/dsh-aha-tavern",
+  "originalPosition": 58,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 58,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:51.478Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a90a5de77149be7522a3ec69f32803a4de83be64a9d2422d29a15d7d00410cba",
+      "url": "https://github.com/LanceLRQ/dsh-aha-tavern/blob/8fe31af7b3b2d8baf5ef5e5609acc70ae8b542e2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "7b350449dd01874d0c8e5cd50dbb1406878aca50861d96a6a6ee1838c047353e",
+      "url": "https://github.com/LanceLRQ/dsh-aha-tavern/blob/8fe31af7b3b2d8baf5ef5e5609acc70ae8b542e2/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "aha-tavern",
+      "version": "0.1.0-rc1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LanceLRQ/dsh-aha-tavern",
+        "commit": "8fe31af7b3b2d8baf5ef5e5609acc70ae8b542e2"
+      },
+      "manifestSha256": "6c2e10e969cf76a4457a30bf048b156f777694a9d21aab098a4b610161a84f6d",
+      "manifestUrl": "https://github.com/LanceLRQ/dsh-aha-tavern/blob/8fe31af7b3b2d8baf5ef5e5609acc70ae8b542e2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "aha-tavern",
+        "versions": [
+          {
+            "version": "0.1.0-rc1",
+            "publishTimestamp": 1792248899,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LanceLRQ/dsh-aha-tavern",
+              "commit": "8fe31af7b3b2d8baf5ef5e5609acc70ae8b542e2"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LanceLRQ/dsh-aha-tavern",
+    "commit": "8fe31af7b3b2d8baf5ef5e5609acc70ae8b542e2",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:52.960Z"
+}

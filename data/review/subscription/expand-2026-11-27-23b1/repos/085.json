@@ -1,0 +1,66 @@
+{
+  "full_name": "Max-Null/dsh-capture",
+  "originalPosition": 85,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 85,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:57.223Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b58512363cf93acecd6389e071b8087e893e529e55575006bfb2f3cec6aa31cc",
+      "url": "https://github.com/Max-Null/dsh-capture/blob/3e5d13efd8f31e328cf85e27cf9a626ffde7f171/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@max-null/dsh-capture",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Max-Null/dsh-capture",
+        "commit": "3e5d13efd8f31e328cf85e27cf9a626ffde7f171"
+      },
+      "manifestSha256": "8714e3e8feb0b9907392ff8ce7f3edd33a13786bac69904972b2538888ef8fc4",
+      "manifestUrl": "https://github.com/Max-Null/dsh-capture/blob/3e5d13efd8f31e328cf85e27cf9a626ffde7f171/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@max-null/dsh-capture",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1793347076,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Max-Null/dsh-capture",
+              "commit": "3e5d13efd8f31e328cf85e27cf9a626ffde7f171"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Max-Null/dsh-capture",
+    "commit": "3e5d13efd8f31e328cf85e27cf9a626ffde7f171",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:58.572Z"
+}

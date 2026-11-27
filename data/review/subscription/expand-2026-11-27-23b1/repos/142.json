@@ -1,0 +1,50 @@
+{
+  "full_name": "Srelka/dsh-ultracode",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:13.906Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a16787e29406bfe3cc2586b4f22c6a7b872a116e526e0ed6ffea5adf3ec0085a",
+      "url": "https://github.com/Srelka/dsh-ultracode/blob/89777a903e5357269b031079f01444239e4dee47/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@srelka/dsh-ultracode",
+      "version": "1.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Srelka/dsh-ultracode",
+        "commit": "89777a903e5357269b031079f01444239e4dee47"
+      },
+      "manifestSha256": "e13123a3bf03f6fa623736876a0f71fa79de335c6be30b8c3a6d048822805fbc",
+      "manifestUrl": "https://github.com/Srelka/dsh-ultracode/blob/89777a903e5357269b031079f01444239e4dee47/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Srelka/dsh-ultracode",
+    "commit": "89777a903e5357269b031079f01444239e4dee47",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:42:15.194Z"
+}

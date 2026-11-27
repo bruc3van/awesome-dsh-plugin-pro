@@ -1,0 +1,40 @@
+{
+  "full_name": "Gorilla-Kevv/scnu-thesis-formatter",
+  "originalPosition": 13,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 13,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:39.179Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "39528c44b3d1e7f8ae3f66abd7c2659c119a6cd25a61a22d38f1ac161d7c001a",
+      "url": "https://github.com/Gorilla-Kevv/scnu-thesis-formatter/blob/2ed198b13d6f870dd356770439b32a61f0ff4d56/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Gorilla-Kevv/scnu-thesis-formatter",
+    "commit": "2ed198b13d6f870dd356770439b32a61f0ff4d56",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:40.207Z"
+}

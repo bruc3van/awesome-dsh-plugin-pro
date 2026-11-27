@@ -1,0 +1,423 @@
+{
+  "full_name": "Moonshile/moonshile-dsh-plugins",
+  "originalPosition": 96,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:59.704Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "af05646db7bd13d395e3103889308f5014730ee2ef1a866480d1f0eda340dd2c",
+      "url": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workspace-sort",
+          "command": "dsh plugin --profile web add dsh-workspace-sort",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-last-turn-delete",
+          "command": "dsh plugin --profile web add dsh-last-turn-delete",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-responses-replay-fix",
+          "command": "dsh plugin --profile web add dsh-responses-replay-fix",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "140e89d2c56dd1095317f1b9cab15e75e9150cae86cb3816cb1a9196fd65435e",
+      "url": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/README.zh.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workspace-sort",
+          "command": "dsh plugin --profile web add dsh-workspace-sort",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-last-turn-delete",
+          "command": "dsh plugin --profile web add dsh-last-turn-delete",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-responses-replay-fix",
+          "command": "dsh plugin --profile web add dsh-responses-replay-fix",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-workspace-sort/README.md",
+      "sha256": "2659a6466caf75325fc802c8bb31642907545d7d8b98cde46b4d10997f310cc5",
+      "url": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/plugins/dsh-workspace-sort/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workspace-sort",
+          "command": "dsh plugin --profile web add dsh-workspace-sort",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-workspace-sort",
+          "command": "dsh plugin --profile <name> add dsh-workspace-sort",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-last-turn-delete/README.md",
+      "sha256": "c4c418654dcdad516618bb4eb0c8c5e64f9af9a3e8947de237e1878e78dc5a26",
+      "url": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/plugins/dsh-last-turn-delete/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-last-turn-delete",
+          "command": "dsh plugin --profile web add dsh-last-turn-delete",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-last-turn-delete",
+          "command": "dsh plugin --profile <name> add dsh-last-turn-delete",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-responses-replay-fix/README.md",
+      "sha256": "c28ad757fa71b42f17858532d9e45432bd130911dab4728e34280bdd5160a5ab",
+      "url": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/plugins/dsh-responses-replay-fix/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-responses-replay-fix",
+          "command": "dsh plugin --profile web add dsh-responses-replay-fix",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-responses-replay-fix",
+          "command": "dsh plugin --profile <name> add dsh-responses-replay-fix",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-last-turn-delete",
+      "version": "0.1.2",
+      "path": "plugins/dsh-last-turn-delete",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+        "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+        "path": "plugins/dsh-last-turn-delete"
+      },
+      "manifestSha256": "56d1ccffbb4c43e8cde1665398ac1080f975e6c7dbf7d77101bae25caa99c7c2",
+      "manifestUrl": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/plugins/dsh-last-turn-delete/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-last-turn-delete",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793267967,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+              "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+              "path": "plugins/dsh-last-turn-delete"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-responses-replay-fix",
+      "version": "0.1.2",
+      "path": "plugins/dsh-responses-replay-fix",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+        "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+        "path": "plugins/dsh-responses-replay-fix"
+      },
+      "manifestSha256": "b3bf8700b76d27977f229437b064975bbb8985353159b1a8607c5b56c7146115",
+      "manifestUrl": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/plugins/dsh-responses-replay-fix/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-responses-replay-fix",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793267967,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+              "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+              "path": "plugins/dsh-responses-replay-fix"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-direct",
+      "version": "0.1.2",
+      "path": "plugins/dsh-web-direct",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+        "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+        "path": "plugins/dsh-web-direct"
+      },
+      "manifestSha256": "2e76494ba2012376eded203a38296e60bd564a5b95001a5c3b39c6c9a4274a67",
+      "manifestUrl": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/plugins/dsh-web-direct/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-web-direct",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793267967,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+              "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+              "path": "plugins/dsh-web-direct"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace-sort",
+      "version": "0.1.1",
+      "path": "plugins/dsh-workspace-sort",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+        "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+        "path": "plugins/dsh-workspace-sort"
+      },
+      "manifestSha256": "54c6c3fac960298c817641b00aacb6012679f061371add9f336c20b1c1e5aa81",
+      "manifestUrl": "https://github.com/Moonshile/moonshile-dsh-plugins/blob/3a1ba666402ce36064fb0932051f5438f7813cc2/plugins/dsh-workspace-sort/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-workspace-sort",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793267967,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+              "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+              "path": "plugins/dsh-workspace-sort"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workspace-sort",
+      "origin": "npm",
+      "name": "dsh-workspace-sort",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workspace-sort",
+        "title": "dsh-workspace-sort",
+        "description": "DeepSeek Harness (DSH) bundle: re-sort sidebar workspaces by last activity once per day, stable within the day (侧边栏工作区顺序每日按最近活动刷新，当天稳定)",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "bundle",
+            "workspace",
+            "sidebar"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787824868,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0515a25ec1b4c02cf4bfce717d7348dc02d60fd56cd408ac9fb1cc737376c68c",
+      "evidence": [
+        {
+          "name": "dsh-workspace-sort",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-workspace-sort/-/dsh-workspace-sort-0.1.1.tgz",
+          "integrity": "sha512-EqpKLsURDXFrd50aUh4vAAiOHhQJEeU0w0d53/KNLWgjL+AHKgoZ1jHFRct5qCNNHARQ67VY2f39r/CPufk6jA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-last-turn-delete",
+      "origin": "npm",
+      "name": "dsh-last-turn-delete",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-last-turn-delete",
+        "title": "dsh-last-turn-delete",
+        "description": "DeepSeek Harness (DSH) bundle: a delete button on the last user message that soft-deletes that turn — user message plus all its model replies — keeping it out of future model context, stepping back to the previous user message until a compact boundary or none remain (最后一条用户消息上的删除按钮：软删除该用户消息及其全部模型回复，不再进入后续模型上下文；按钮随后移到上一条用户消息，直到 compact 边界或无消息)",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "bundle",
+            "client",
+            "delete",
+            "message",
+            "turn"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1791865864,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2e1010c7862ba812bf9d61656d1a9ca992dfbb2ced3cd0da709c975317e22bb9",
+      "evidence": [
+        {
+          "name": "dsh-last-turn-delete",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-last-turn-delete/-/dsh-last-turn-delete-0.1.2.tgz",
+          "integrity": "sha512-bPFZ7PCRo+QzIuOkY+lksHxb6+2vFhy6yXTabaYkZxbebN5cNjt2Gt9FDm2o+r7sGvFN00+PFYxbdhFtjzfUAg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-responses-replay-fix",
+      "origin": "npm",
+      "name": "dsh-responses-replay-fix",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-responses-replay-fix",
+        "title": "dsh-responses-replay-fix",
+        "description": "DeepSeek Harness (DSH) host plugin: fix OpenAI-Responses history replay rejected by strict gateways (e.g. Zhongxin www.wxzjai.com) — message ids get a msg_ prefix and thinking items get plaintext reasoning_text before resend (修复严格 Responses 网关的历史回放 400：消息 id 补 msg_ 前缀、thinking 补明文 reasoning_text)",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "bundle",
+            "llm",
+            "openai-responses",
+            "zhongxin",
+            "replay",
+            "reasoning"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1791865845,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0611c6642504091f52e60b8b68c9fb82739a6ea84ebc09a424c50182d5580de9",
+      "evidence": [
+        {
+          "name": "dsh-responses-replay-fix",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-responses-replay-fix/-/dsh-responses-replay-fix-0.1.2.tgz",
+          "integrity": "sha512-78xJJ7eH8pZlBmgYxi8sg6oJMkVy9rgVqHMot/46QtndwDQ7yG2/EHI3pLPTe4yl4BUpL4Pm4hOIZaeLN1sEXA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workspace-sort",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-last-turn-delete",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-responses-replay-fix",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Moonshile/moonshile-dsh-plugins",
+    "commit": "3a1ba666402ce36064fb0932051f5438f7813cc2",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:03.520Z"
+}

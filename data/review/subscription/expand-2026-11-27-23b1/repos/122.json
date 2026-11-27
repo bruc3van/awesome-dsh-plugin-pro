@@ -1,0 +1,77 @@
+{
+  "full_name": "Rad-Weed/DSH-UI-Beautify",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:06.772Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "097ac434db9457414131fadaac2cba9a071c23d31e766c20713e7a765822d069",
+      "url": "https://github.com/Rad-Weed/DSH-UI-Beautify/blob/6fcd803ca3672056ddabf58118edaf6742ec1f15/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "restart/README.md",
+      "sha256": "48a5660ce90aa7f61426cd70e1c74164f30e99ab51e5dace111098199e94491a",
+      "url": "https://github.com/Rad-Weed/DSH-UI-Beautify/blob/6fcd803ca3672056ddabf58118edaf6742ec1f15/restart/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ui-beautify",
+      "version": "0.9.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Rad-Weed/DSH-UI-Beautify",
+        "commit": "6fcd803ca3672056ddabf58118edaf6742ec1f15"
+      },
+      "manifestSha256": "dd18f27cd68f80430c99cf0f4eec3b7cf9f3cc7a94b6b189684a9c71ac893b74",
+      "manifestUrl": "https://github.com/Rad-Weed/DSH-UI-Beautify/blob/6fcd803ca3672056ddabf58118edaf6742ec1f15/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ui-beautify",
+        "versions": [
+          {
+            "version": "0.9.13",
+            "publishTimestamp": 1794851413,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Rad-Weed/DSH-UI-Beautify",
+              "commit": "6fcd803ca3672056ddabf58118edaf6742ec1f15"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Rad-Weed/DSH-UI-Beautify",
+    "commit": "6fcd803ca3672056ddabf58118edaf6742ec1f15",
+    "releaseTags": 28,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:08.281Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "QinLuza/dsh-team-models",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:05.611Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "237ae0caafdd6dd64c344f33373b70da246ae971caecf86cf623b8b15c75010e",
+      "url": "https://github.com/QinLuza/dsh-team-models/blob/1278e2472f059ade48ab4831a48aa0440ae56b61/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-team-models",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QinLuza/dsh-team-models",
+        "commit": "1278e2472f059ade48ab4831a48aa0440ae56b61"
+      },
+      "manifestSha256": "7004758f72b61bdc990af796fbdbee29da092185bb86b2a1e396a457c0b7990f",
+      "manifestUrl": "https://github.com/QinLuza/dsh-team-models/blob/1278e2472f059ade48ab4831a48aa0440ae56b61/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-team-models",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795233413,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QinLuza/dsh-team-models",
+              "commit": "1278e2472f059ade48ab4831a48aa0440ae56b61"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QinLuza/dsh-team-models",
+    "commit": "1278e2472f059ade48ab4831a48aa0440ae56b61",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:06.771Z"
+}

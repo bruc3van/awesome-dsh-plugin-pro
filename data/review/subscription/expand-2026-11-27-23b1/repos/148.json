@@ -1,0 +1,69 @@
+{
+  "full_name": "SuperSgdk/DSH-Liquid-Glass-Theme",
+  "originalPosition": 148,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 148,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:16.042Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "38ba1e4284c88301a378a03955d144fd9dbb66099f66352241433da27095e798",
+      "url": "https://github.com/SuperSgdk/DSH-Liquid-Glass-Theme/blob/6967400442e4de1a277d02db90bd6d30c694d1eb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-liquid-glass-theme",
+      "version": "1.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SuperSgdk/DSH-Liquid-Glass-Theme",
+        "commit": "6967400442e4de1a277d02db90bd6d30c694d1eb"
+      },
+      "manifestSha256": "cb07b29822b0f2312a56bb9254b78a3c1ad005941ce82533045ab695c0d10496",
+      "manifestUrl": "https://github.com/SuperSgdk/DSH-Liquid-Glass-Theme/blob/6967400442e4de1a277d02db90bd6d30c694d1eb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.5-rc.1 || 0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-liquid-glass-theme",
+        "versions": [
+          {
+            "version": "1.4.2",
+            "publishTimestamp": 1791475358,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SuperSgdk/DSH-Liquid-Glass-Theme",
+              "commit": "6967400442e4de1a277d02db90bd6d30c694d1eb"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.1 || 0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SuperSgdk/DSH-Liquid-Glass-Theme",
+    "commit": "6967400442e4de1a277d02db90bd6d30c694d1eb",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:17.200Z"
+}

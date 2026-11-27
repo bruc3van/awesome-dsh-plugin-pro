@@ -1,0 +1,77 @@
+{
+  "full_name": "JuerGenie/dsh-graphics",
+  "originalPosition": 48,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 48,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:48.522Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c3cf44304f5c5a257ee79cdc1ed5b20b08559388a568165d9dd07be60ff49fbc",
+      "url": "https://github.com/JuerGenie/dsh-graphics/blob/e995df9903109ce1ea1f891b4ec2602a159ad98f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6499dd19a70b9a1037b0c82b60b09a1fc1671564b5cd258940ba92553838e31e",
+      "url": "https://github.com/JuerGenie/dsh-graphics/blob/e995df9903109ce1ea1f891b4ec2602a159ad98f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-graphics",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JuerGenie/dsh-graphics",
+        "commit": "e995df9903109ce1ea1f891b4ec2602a159ad98f"
+      },
+      "manifestSha256": "7a1ce2e5ab22e56055fecce847713323fdbd17edf60fa1ef48f12fd2f4ede742",
+      "manifestUrl": "https://github.com/JuerGenie/dsh-graphics/blob/e995df9903109ce1ea1f891b4ec2602a159ad98f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.1 || ^0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-graphics",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792341774,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JuerGenie/dsh-graphics",
+              "commit": "e995df9903109ce1ea1f891b4ec2602a159ad98f"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1 || ^0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JuerGenie/dsh-graphics",
+    "commit": "e995df9903109ce1ea1f891b4ec2602a159ad98f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:50.021Z"
+}

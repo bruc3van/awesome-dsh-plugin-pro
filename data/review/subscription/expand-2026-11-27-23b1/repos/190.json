@@ -1,0 +1,66 @@
+{
+  "full_name": "Yyhy110421/dsh-quiet-browser",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:28.562Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "617abc3f6213c46752213c417d449db2a31ee4869443f49713369b53766ab67c",
+      "url": "https://github.com/Yyhy110421/dsh-quiet-browser/blob/1218a3b4f868eb732f28ca605e61bc69c7d59094/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quiet-browser",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yyhy110421/dsh-quiet-browser",
+        "commit": "1218a3b4f868eb732f28ca605e61bc69c7d59094"
+      },
+      "manifestSha256": "67a489306fe5598ab51a116fcbf28fe20173d222b62c36964e818438a586fe06",
+      "manifestUrl": "https://github.com/Yyhy110421/dsh-quiet-browser/blob/1218a3b4f868eb732f28ca605e61bc69c7d59094/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-quiet-browser",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795789404,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yyhy110421/dsh-quiet-browser",
+              "commit": "1218a3b4f868eb732f28ca605e61bc69c7d59094"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yyhy110421/dsh-quiet-browser",
+    "commit": "1218a3b4f868eb732f28ca605e61bc69c7d59094",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:29.792Z"
+}

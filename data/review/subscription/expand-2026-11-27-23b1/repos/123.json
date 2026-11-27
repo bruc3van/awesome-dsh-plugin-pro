@@ -1,0 +1,66 @@
+{
+  "full_name": "Railan1314/dsh-plugin-ai-hub",
+  "originalPosition": 123,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:07.340Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c58fb8fe6b0fcf9c1cdc5d5a25c3458d7eac15e2e3e57206435cdb343a1f90f2",
+      "url": "https://github.com/Railan1314/dsh-plugin-ai-hub/blob/4718e4a75fdedc584b3e389d4e2d7c3f4c3f69d1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-ai-hub",
+      "version": "2.9.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Railan1314/dsh-plugin-ai-hub",
+        "commit": "4718e4a75fdedc584b3e389d4e2d7c3f4c3f69d1"
+      },
+      "manifestSha256": "516377b61f516a8e9af18298e42987b3a187711375375c18f5d2c050f607a063",
+      "manifestUrl": "https://github.com/Railan1314/dsh-plugin-ai-hub/blob/4718e4a75fdedc584b3e389d4e2d7c3f4c3f69d1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-ai-hub",
+        "versions": [
+          {
+            "version": "2.9.8",
+            "publishTimestamp": 1795739359,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Railan1314/dsh-plugin-ai-hub",
+              "commit": "4718e4a75fdedc584b3e389d4e2d7c3f4c3f69d1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Railan1314/dsh-plugin-ai-hub",
+    "commit": "4718e4a75fdedc584b3e389d4e2d7c3f4c3f69d1",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:08.476Z"
+}

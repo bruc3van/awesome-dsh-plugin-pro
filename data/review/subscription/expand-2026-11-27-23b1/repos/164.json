@@ -1,0 +1,69 @@
+{
+  "full_name": "WJPGKZ/dsh-ego-local-browser",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:21.510Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bfcf633762d2539fdeccb53b3e4a9d70fea5ddd9db0813cba2f57b62b51263b0",
+      "url": "https://github.com/WJPGKZ/dsh-ego-local-browser/blob/b7329f7445a15dc6088ef29620f5704c42c0ff60/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ego-local-browser",
+      "version": "1.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WJPGKZ/dsh-ego-local-browser",
+        "commit": "b7329f7445a15dc6088ef29620f5704c42c0ff60"
+      },
+      "manifestSha256": "3c97919ef88032d8365e3dc87285c30cdef2dc19e42f09811a0f6da22bf3a45b",
+      "manifestUrl": "https://github.com/WJPGKZ/dsh-ego-local-browser/blob/b7329f7445a15dc6088ef29620f5704c42c0ff60/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ego-local-browser",
+        "versions": [
+          {
+            "version": "1.1.6",
+            "publishTimestamp": 1792238570,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WJPGKZ/dsh-ego-local-browser",
+              "commit": "b7329f7445a15dc6088ef29620f5704c42c0ff60"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WJPGKZ/dsh-ego-local-browser",
+    "commit": "b7329f7445a15dc6088ef29620f5704c42c0ff60",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:22.798Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "Qingzhu093/dsh-latex-studio",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:06.146Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d40aa8b4f475b793d6c0bdc4f990cbce87d494bcc0fe9d17bf366f50c2df6bcf",
+      "url": "https://github.com/Qingzhu093/dsh-latex-studio/blob/cfc462fcf3d22bf0ddce3141eca20a773d40ef22/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-latex-studio",
+      "version": "0.4.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Qingzhu093/dsh-latex-studio",
+        "commit": "cfc462fcf3d22bf0ddce3141eca20a773d40ef22"
+      },
+      "manifestSha256": "95b7ac1a71bf4137ff8290f6c330ecc2907285bf9f5c9fa9d232e5ecc7a02ea1",
+      "manifestUrl": "https://github.com/Qingzhu093/dsh-latex-studio/blob/cfc462fcf3d22bf0ddce3141eca20a773d40ef22/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-latex-studio",
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1794048567,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Qingzhu093/dsh-latex-studio",
+              "commit": "cfc462fcf3d22bf0ddce3141eca20a773d40ef22"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Qingzhu093/dsh-latex-studio",
+    "commit": "cfc462fcf3d22bf0ddce3141eca20a773d40ef22",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:07.427Z"
+}

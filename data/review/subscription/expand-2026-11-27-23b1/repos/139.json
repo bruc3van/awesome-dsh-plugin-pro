@@ -1,0 +1,74 @@
+{
+  "full_name": "SoldierNo4/dsh-stata",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:12.630Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2d656b984f7e31d927ff2ffc8fda1c112bda22d20a768803ab93f3cdd628a9bb",
+      "url": "https://github.com/SoldierNo4/dsh-stata/blob/311064963e5103ec9ed3580cbce05044e4a6fba1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "91c6ebd2340db3640a17979e043fe1ba182cab788c6c8a7ebf8030ba442c0e8f",
+      "url": "https://github.com/SoldierNo4/dsh-stata/blob/311064963e5103ec9ed3580cbce05044e4a6fba1/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-stata",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SoldierNo4/dsh-stata",
+        "commit": "311064963e5103ec9ed3580cbce05044e4a6fba1"
+      },
+      "manifestSha256": "16961d5d665e81fa76e64bb888dc492e1b6071d8996a08ba791db38a87990fd6",
+      "manifestUrl": "https://github.com/SoldierNo4/dsh-stata/blob/311064963e5103ec9ed3580cbce05044e4a6fba1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-stata",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792420169,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SoldierNo4/dsh-stata",
+              "commit": "311064963e5103ec9ed3580cbce05044e4a6fba1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SoldierNo4/dsh-stata",
+    "commit": "311064963e5103ec9ed3580cbce05044e4a6fba1",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:13.904Z"
+}

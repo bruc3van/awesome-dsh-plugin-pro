@@ -1,0 +1,40 @@
+{
+  "full_name": "Zhaokaka21/daily-sanxing",
+  "originalPosition": 198,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:30.464Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1de6a685f3c413b70629363bfb0b66fdf2b83b7a43dd29acf327051513b0eb94",
+      "url": "https://github.com/Zhaokaka21/daily-sanxing/blob/56f0003911cb624cc0fa2a47ec72c40987847ed1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zhaokaka21/daily-sanxing",
+    "commit": "56f0003911cb624cc0fa2a47ec72c40987847ed1",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:31.475Z"
+}

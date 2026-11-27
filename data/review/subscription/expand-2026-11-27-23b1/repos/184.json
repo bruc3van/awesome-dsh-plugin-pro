@@ -1,0 +1,66 @@
+{
+  "full_name": "YumenoSayuri/dsh-workspace-docs",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:27.034Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca38723208b4e29b52f124b50ddf258a111d7e48539932af841df7ffe2e87638",
+      "url": "https://github.com/YumenoSayuri/dsh-workspace-docs/blob/0ed78eea83d6af7c6b2f2c9355fbeb0d88b4c647/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace-docs",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YumenoSayuri/dsh-workspace-docs",
+        "commit": "0ed78eea83d6af7c6b2f2c9355fbeb0d88b4c647"
+      },
+      "manifestSha256": "bf67d0bd7fff00eba29dc247957ff32809c269de7defb82379f489a928e3221c",
+      "manifestUrl": "https://github.com/YumenoSayuri/dsh-workspace-docs/blob/0ed78eea83d6af7c6b2f2c9355fbeb0d88b4c647/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-workspace-docs",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792996948,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YumenoSayuri/dsh-workspace-docs",
+              "commit": "0ed78eea83d6af7c6b2f2c9355fbeb0d88b4c647"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YumenoSayuri/dsh-workspace-docs",
+    "commit": "0ed78eea83d6af7c6b2f2c9355fbeb0d88b4c647",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:28.150Z"
+}

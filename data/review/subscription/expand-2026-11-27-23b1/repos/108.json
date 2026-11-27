@@ -1,0 +1,66 @@
+{
+  "full_name": "Nukum1zuMeigu/dsh-whale-memory",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:02.951Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23d92ad7c3eceeae0927cfe5d1b34c0948d4c61527f15848dca181d93577cc79",
+      "url": "https://github.com/Nukum1zuMeigu/dsh-whale-memory/blob/30d3836f990dd70e624b004a5cc9d887dc6df12f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-memory",
+      "version": "1.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nukum1zuMeigu/dsh-whale-memory",
+        "commit": "30d3836f990dd70e624b004a5cc9d887dc6df12f"
+      },
+      "manifestSha256": "c9bc1e3c740360eb2498f95b6afa27f1dcf26de5f9ee31958fc10e9568baaab4",
+      "manifestUrl": "https://github.com/Nukum1zuMeigu/dsh-whale-memory/blob/30d3836f990dd70e624b004a5cc9d887dc6df12f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-memory",
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1792998759,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nukum1zuMeigu/dsh-whale-memory",
+              "commit": "30d3836f990dd70e624b004a5cc9d887dc6df12f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nukum1zuMeigu/dsh-whale-memory",
+    "commit": "30d3836f990dd70e624b004a5cc9d887dc6df12f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:04.217Z"
+}

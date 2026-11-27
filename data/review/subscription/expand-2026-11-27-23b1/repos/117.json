@@ -1,0 +1,66 @@
+{
+  "full_name": "QZyme/dsh-besson-tools",
+  "originalPosition": 117,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:05.167Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0c0cc5df04dc27779e422ca8d4c7720d8889a6e5e103668d4b95d8ab7b854d0a",
+      "url": "https://github.com/QZyme/dsh-besson-tools/blob/6b841c0a98e49ba45ae31acb5bdd118e3ec25260/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-besson-tools",
+      "version": "2.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QZyme/dsh-besson-tools",
+        "commit": "6b841c0a98e49ba45ae31acb5bdd118e3ec25260"
+      },
+      "manifestSha256": "4097af9b52139fe5a137baa6d2109f2b8bd7d3afac1ee944a661f472a1b81697",
+      "manifestUrl": "https://github.com/QZyme/dsh-besson-tools/blob/6b841c0a98e49ba45ae31acb5bdd118e3ec25260/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-besson-tools",
+        "versions": [
+          {
+            "version": "2.5.0",
+            "publishTimestamp": 1794841877,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QZyme/dsh-besson-tools",
+              "commit": "6b841c0a98e49ba45ae31acb5bdd118e3ec25260"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QZyme/dsh-besson-tools",
+    "commit": "6b841c0a98e49ba45ae31acb5bdd118e3ec25260",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:06.398Z"
+}

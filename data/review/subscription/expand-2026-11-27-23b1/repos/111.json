@@ -1,0 +1,69 @@
+{
+  "full_name": "PandaBlessing/dsh-user-sync",
+  "originalPosition": 111,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 111,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:04.039Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c65c1dda60efc04ac94955687aad4ae265c2847d11c59c25862084dc26452d65",
+      "url": "https://github.com/PandaBlessing/dsh-user-sync/blob/d84d0d8d61da4b4874968faae3a073c1671aa680/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@pandablessing/dsh-user-sync",
+      "version": "1.0.36",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PandaBlessing/dsh-user-sync",
+        "commit": "d84d0d8d61da4b4874968faae3a073c1671aa680"
+      },
+      "manifestSha256": "b85873605893afd295b67b494aaa546d92900a543186864707da22aa48e3efc3",
+      "manifestUrl": "https://github.com/PandaBlessing/dsh-user-sync/blob/d84d0d8d61da4b4874968faae3a073c1671aa680/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@pandablessing/dsh-user-sync",
+        "versions": [
+          {
+            "version": "1.0.36",
+            "publishTimestamp": 1794796142,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PandaBlessing/dsh-user-sync",
+              "commit": "d84d0d8d61da4b4874968faae3a073c1671aa680"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PandaBlessing/dsh-user-sync",
+    "commit": "d84d0d8d61da4b4874968faae3a073c1671aa680",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:05.166Z"
+}

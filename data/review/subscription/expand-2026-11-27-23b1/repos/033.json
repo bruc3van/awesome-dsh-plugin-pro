@@ -1,0 +1,77 @@
+{
+  "full_name": "JHOpenDev/dsh-superagent-inbox",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:44.238Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5c612921bc5d05de70abb5477fdf08d75a8cb8cfd8fa0b8d880c8bdaeee586f1",
+      "url": "https://github.com/JHOpenDev/dsh-superagent-inbox/blob/0395d89a347b7da16013f6003fca0a9ea0f9302d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "adapters/zcode-plugin/README.md",
+      "sha256": "0b78d1e943e04eadb58e216c04ca1ba55778382672fe063110aadeea3d18057a",
+      "url": "https://github.com/JHOpenDev/dsh-superagent-inbox/blob/0395d89a347b7da16013f6003fca0a9ea0f9302d/adapters/zcode-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-superagent-inbox",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JHOpenDev/dsh-superagent-inbox",
+        "commit": "0395d89a347b7da16013f6003fca0a9ea0f9302d"
+      },
+      "manifestSha256": "ceacae7dda504910bf4f7706c37a092426d648864e789c7196e5ce6e7949ae9a",
+      "manifestUrl": "https://github.com/JHOpenDev/dsh-superagent-inbox/blob/0395d89a347b7da16013f6003fca0a9ea0f9302d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 || >=0.2.2-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-superagent-inbox",
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1795217859,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JHOpenDev/dsh-superagent-inbox",
+              "commit": "0395d89a347b7da16013f6003fca0a9ea0f9302d"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 || >=0.2.2-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JHOpenDev/dsh-superagent-inbox",
+    "commit": "0395d89a347b7da16013f6003fca0a9ea0f9302d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:45.721Z"
+}

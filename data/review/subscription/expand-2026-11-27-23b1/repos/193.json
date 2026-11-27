@@ -1,0 +1,66 @@
+{
+  "full_name": "ZJ929-max/tokeneconomizer-dsh",
+  "originalPosition": 193,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:29.037Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c7fc17fae40f27bdcf847b58e68ff4472f3ef20e45aaddc347172a26408e609e",
+      "url": "https://github.com/ZJ929-max/tokeneconomizer-dsh/blob/99ce68b9f5ee6f08e864cf64720b071513db103a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tokeneconomizer",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZJ929-max/tokeneconomizer-dsh",
+        "commit": "99ce68b9f5ee6f08e864cf64720b071513db103a"
+      },
+      "manifestSha256": "91408b6007322c891933374685f2393d568e9a3a67113839cc2b934c3d5b4347",
+      "manifestUrl": "https://github.com/ZJ929-max/tokeneconomizer-dsh/blob/99ce68b9f5ee6f08e864cf64720b071513db103a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tokeneconomizer",
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1795580678,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ZJ929-max/tokeneconomizer-dsh",
+              "commit": "99ce68b9f5ee6f08e864cf64720b071513db103a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZJ929-max/tokeneconomizer-dsh",
+    "commit": "99ce68b9f5ee6f08e864cf64720b071513db103a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:30.262Z"
+}

@@ -1,0 +1,50 @@
+{
+  "full_name": "LiXiao1949/dsh-flash-toolbox",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:52.960Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2336ba286213c376eb6022334bc2cc54365d51f7e32c75c8a74d962f5e8d0f7f",
+      "url": "https://github.com/LiXiao1949/dsh-flash-toolbox/blob/32d80232b984b87927ddf4f43489d0d3b89ad5ef/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-flash-toolbox",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LiXiao1949/dsh-flash-toolbox",
+        "commit": "32d80232b984b87927ddf4f43489d0d3b89ad5ef"
+      },
+      "manifestSha256": "80116c688bcd815294859c0164f38d210dacc4adcb25c83cb74da8645fa202ba",
+      "manifestUrl": "https://github.com/LiXiao1949/dsh-flash-toolbox/blob/32d80232b984b87927ddf4f43489d0d3b89ad5ef/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LiXiao1949/dsh-flash-toolbox",
+    "commit": "32d80232b984b87927ddf4f43489d0d3b89ad5ef",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:54.209Z"
+}

@@ -1,0 +1,50 @@
+{
+  "full_name": "Hnqhj/dsh-library",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:42.165Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "54ec335dda902916ce9d0df2d63529efd5b797a064b50e7b6b3c878b0d224dfd",
+      "url": "https://github.com/Hnqhj/dsh-library/blob/00b3c28401f813af22c1191e700b4c25cdbece51/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-library",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hnqhj/dsh-library",
+        "commit": "00b3c28401f813af22c1191e700b4c25cdbece51"
+      },
+      "manifestSha256": "04952159908549348d5b49157f03a30d58083331efb169fd62b21e8443260603",
+      "manifestUrl": "https://github.com/Hnqhj/dsh-library/blob/00b3c28401f813af22c1191e700b4c25cdbece51/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hnqhj/dsh-library",
+    "commit": "00b3c28401f813af22c1191e700b4c25cdbece51",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:43.403Z"
+}

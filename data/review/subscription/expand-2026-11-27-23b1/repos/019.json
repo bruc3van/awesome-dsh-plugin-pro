@@ -1,0 +1,58 @@
+{
+  "full_name": "HaoyanZhang123/dsh-plugin-control-your-video",
+  "originalPosition": 19,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:40.938Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f6d5a55a5562c0ab3060fedc079397257d45d46dc3937542d1ec8df6cbbe4e3b",
+      "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-video/blob/815d863961b2cab5faa951f5b0f04850fef1756c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dbdf43ed03b5283f2b79573f8ab34e33e148d87567a7c93c1d5aa9177cf2d486",
+      "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-video/blob/815d863961b2cab5faa951f5b0f04850fef1756c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-control-your-video",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-video",
+        "commit": "815d863961b2cab5faa951f5b0f04850fef1756c"
+      },
+      "manifestSha256": "d96031b9acb95a30ba59e21c1a86f15a150dbaf3e45b04ec1675f86532942e6d",
+      "manifestUrl": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-video/blob/815d863961b2cab5faa951f5b0f04850fef1756c/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-video",
+    "commit": "815d863961b2cab5faa951f5b0f04850fef1756c",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:42.371Z"
+}

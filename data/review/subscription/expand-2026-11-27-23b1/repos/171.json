@@ -1,0 +1,131 @@
+{
+  "full_name": "WoFeng3094172/dsh-HCEM",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:23.137Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "678dbb55b6eac07604d2125670383e90b6faa1a9953a2f5c80724b8132f69f2f",
+      "url": "https://github.com/WoFeng3094172/dsh-HCEM/blob/92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "hcem",
+      "version": "0.0.2.1",
+      "path": "HCEM v0.0.2.1/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WoFeng3094172/dsh-HCEM",
+        "commit": "92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b",
+        "path": "HCEM v0.0.2.1/plugin"
+      },
+      "manifestSha256": "117e2c77e1225f4cd6373a7265d38feeb08eff971b595c77919671dd0037e9de",
+      "manifestUrl": "https://github.com/WoFeng3094172/dsh-HCEM/blob/92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b/HCEM v0.0.2.1/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "hcem",
+      "version": "0.0.2.2",
+      "path": "HCEM v0.0.2.2/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WoFeng3094172/dsh-HCEM",
+        "commit": "92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b",
+        "path": "HCEM v0.0.2.2/plugin"
+      },
+      "manifestSha256": "cbcb69ea76f82757b45974357b1b3e6705a5172c79be13d55dd605fa20cec271",
+      "manifestUrl": "https://github.com/WoFeng3094172/dsh-HCEM/blob/92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b/HCEM v0.0.2.2/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "hcem",
+      "version": "0.0.2.3",
+      "path": "HCEM v0.0.2.3/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WoFeng3094172/dsh-HCEM",
+        "commit": "92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b",
+        "path": "HCEM v0.0.2.3/plugin"
+      },
+      "manifestSha256": "8ad4972e17777fafb1ceed4b1db25de179188fee7fb75ad42d0eb15aa7444b3a",
+      "manifestUrl": "https://github.com/WoFeng3094172/dsh-HCEM/blob/92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b/HCEM v0.0.2.3/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "hcem",
+      "version": "0.0.2",
+      "path": "HCEM v0.0.2/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WoFeng3094172/dsh-HCEM",
+        "commit": "92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b",
+        "path": "HCEM v0.0.2/plugin"
+      },
+      "manifestSha256": "46f85b65277ee9657c43b9ffb359ca1abbb653b95f6ea267da24b71b17b9c0d3",
+      "manifestUrl": "https://github.com/WoFeng3094172/dsh-HCEM/blob/92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b/HCEM v0.0.2/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "hcem",
+      "version": "0.0.3",
+      "path": "HCEM v0.0.3.1- no models/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WoFeng3094172/dsh-HCEM",
+        "commit": "92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b",
+        "path": "HCEM v0.0.3.1- no models/plugin"
+      },
+      "manifestSha256": "bd974dfd8d72b505f865b73dd905298ad82966cea88777775b647ff50d27270f",
+      "manifestUrl": "https://github.com/WoFeng3094172/dsh-HCEM/blob/92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b/HCEM v0.0.3.1- no models/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "hcem",
+      "version": "0.0.3.2",
+      "path": "HCEM v0.0.3.2- no models/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WoFeng3094172/dsh-HCEM",
+        "commit": "92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b",
+        "path": "HCEM v0.0.3.2- no models/plugin"
+      },
+      "manifestSha256": "f139affc56ceec4a7c8ee7a59218a45630a038236caf50bd3123e14cb460193f",
+      "manifestUrl": "https://github.com/WoFeng3094172/dsh-HCEM/blob/92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b/HCEM v0.0.3.2- no models/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WoFeng3094172/dsh-HCEM",
+    "commit": "92caf5cd5c9e240ebe1551b9cd502216bd3bcd6b",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:26.379Z"
+}

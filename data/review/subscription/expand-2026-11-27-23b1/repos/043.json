@@ -1,0 +1,66 @@
+{
+  "full_name": "Jimmeebingo/dsh-music-deck",
+  "originalPosition": 43,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 43,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:47.291Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "380ffedd4c8573500f572fea616fecac5c24ee61a9292b3ef3eab1a69909fe89",
+      "url": "https://github.com/Jimmeebingo/dsh-music-deck/blob/7b6c562b336874a16c7a2f29a10451dc1bba8a7c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-music-deck",
+      "version": "1.0.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jimmeebingo/dsh-music-deck",
+        "commit": "7b6c562b336874a16c7a2f29a10451dc1bba8a7c"
+      },
+      "manifestSha256": "c4667213e73b7061761058bcef6ef163d56a7358f50f646c33609866a86be5e6",
+      "manifestUrl": "https://github.com/Jimmeebingo/dsh-music-deck/blob/7b6c562b336874a16c7a2f29a10451dc1bba8a7c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-music-deck",
+        "versions": [
+          {
+            "version": "1.0.4",
+            "publishTimestamp": 1795488572,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jimmeebingo/dsh-music-deck",
+              "commit": "7b6c562b336874a16c7a2f29a10451dc1bba8a7c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jimmeebingo/dsh-music-deck",
+    "commit": "7b6c562b336874a16c7a2f29a10451dc1bba8a7c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:48.522Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "Soulmate793/dsh-memory",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:13.416Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9a1368d73af7635449999950f05031aa1df2b8b6c74f527e2f7471b83e6c324a",
+      "url": "https://github.com/Soulmate793/dsh-memory/blob/d75c90168f2b03d143a888beb803faed17657620/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Soulmate793/dsh-memory",
+        "commit": "d75c90168f2b03d143a888beb803faed17657620"
+      },
+      "manifestSha256": "7de75b010c654c0620b22a5bf9d1f6796d6e772bee520dfaff56ff4ae7544204",
+      "manifestUrl": "https://github.com/Soulmate793/dsh-memory/blob/d75c90168f2b03d143a888beb803faed17657620/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-memory",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1793523661,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Soulmate793/dsh-memory",
+              "commit": "d75c90168f2b03d143a888beb803faed17657620"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Soulmate793/dsh-memory",
+    "commit": "d75c90168f2b03d143a888beb803faed17657620",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:14.586Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "WODE25500/dsh-codex",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:21.535Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f3baac23372ebf8afdc3dd399bda4a921f4d1d7367048f72cff8c64ff51ffcfc",
+      "url": "https://github.com/WODE25500/dsh-codex/blob/fab0a35e55335b664cde515f18cbc24dca315dc2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WODE25500/dsh-codex",
+        "commit": "fab0a35e55335b664cde515f18cbc24dca315dc2"
+      },
+      "manifestSha256": "41f0f014f17c335686b1b8dc0d372ef1d064b580cca08a9e5e11ece8fc0cb182",
+      "manifestUrl": "https://github.com/WODE25500/dsh-codex/blob/fab0a35e55335b664cde515f18cbc24dca315dc2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-codex",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787226293,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WODE25500/dsh-codex",
+              "commit": "fab0a35e55335b664cde515f18cbc24dca315dc2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WODE25500/dsh-codex",
+    "commit": "fab0a35e55335b664cde515f18cbc24dca315dc2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:22.638Z"
+}

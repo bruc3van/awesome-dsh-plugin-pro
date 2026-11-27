@@ -1,0 +1,66 @@
+{
+  "full_name": "Shiningstar521/dsh-chat-mode",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:11.460Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "08f06a1f4a9ba9e64166c37846cf7a91a270fccafc1bdfe8e36e279087b67286",
+      "url": "https://github.com/Shiningstar521/dsh-chat-mode/blob/43c9ac3b5c43b3f793bff54d757349929f71061c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-mode",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Shiningstar521/dsh-chat-mode",
+        "commit": "43c9ac3b5c43b3f793bff54d757349929f71061c"
+      },
+      "manifestSha256": "f5b0330199f45653b13c2c61f7752b39ca44d8418884d0a8a8b23808a67e8a31",
+      "manifestUrl": "https://github.com/Shiningstar521/dsh-chat-mode/blob/43c9ac3b5c43b3f793bff54d757349929f71061c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chat-mode",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1794228921,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Shiningstar521/dsh-chat-mode",
+              "commit": "43c9ac3b5c43b3f793bff54d757349929f71061c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Shiningstar521/dsh-chat-mode",
+    "commit": "43c9ac3b5c43b3f793bff54d757349929f71061c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:12.630Z"
+}

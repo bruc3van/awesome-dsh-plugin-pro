@@ -1,0 +1,179 @@
+{
+  "full_name": "ShanWuYinShe/dsh-plugins",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:11.386Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a562713ebb0636a90c25620442336992e9e33f414647210d5edfb7e1aea69f97",
+      "url": "https://github.com/ShanWuYinShe/dsh-plugins/blob/2dfeef66a9695bfa643d15d32c439f1d7610c334/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@chaoset/dsh-any-connect",
+      "version": "0.5.7",
+      "path": "packages/dsh-any-connect",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+        "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+        "path": "packages/dsh-any-connect"
+      },
+      "manifestSha256": "455dbfb091769a43db28e5845c87ed9cca020350efce733a6733f00e22c77661",
+      "manifestUrl": "https://github.com/ShanWuYinShe/dsh-plugins/blob/2dfeef66a9695bfa643d15d32c439f1d7610c334/packages/dsh-any-connect/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@chaoset/dsh-any-connect",
+        "versions": [
+          {
+            "version": "0.5.7",
+            "publishTimestamp": 1795461899,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+              "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+              "path": "packages/dsh-any-connect"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@chaoset/provider-usage",
+      "version": "0.3.4",
+      "path": "packages/provider-usage",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+        "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+        "path": "packages/provider-usage"
+      },
+      "manifestSha256": "02be9141509345551ec6514562b785adf641cac9ab133f588e493d1c868de876",
+      "manifestUrl": "https://github.com/ShanWuYinShe/dsh-plugins/blob/2dfeef66a9695bfa643d15d32c439f1d7610c334/packages/provider-usage/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@chaoset/provider-usage",
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1795461899,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+              "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+              "path": "packages/provider-usage"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@chaoset/sandbox-extra-roots",
+      "version": "0.4.36",
+      "path": "packages/sandbox-extra-roots",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+        "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+        "path": "packages/sandbox-extra-roots"
+      },
+      "manifestSha256": "7493f699f78829fea41ebf366d005bd373ef8582c2882c0b92e9c92c4a04533b",
+      "manifestUrl": "https://github.com/ShanWuYinShe/dsh-plugins/blob/2dfeef66a9695bfa643d15d32c439f1d7610c334/packages/sandbox-extra-roots/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@chaoset/sandbox-extra-roots",
+        "versions": [
+          {
+            "version": "0.4.36",
+            "publishTimestamp": 1795461899,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+              "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+              "path": "packages/sandbox-extra-roots"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@chaoset/session-archive",
+      "version": "0.3.40",
+      "path": "packages/session-archive",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+        "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+        "path": "packages/session-archive"
+      },
+      "manifestSha256": "57510ecc9e25b9abdd4846868b27a73ef39f9e76ab11ad1ec3a353974e4b3fe8",
+      "manifestUrl": "https://github.com/ShanWuYinShe/dsh-plugins/blob/2dfeef66a9695bfa643d15d32c439f1d7610c334/packages/session-archive/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@chaoset/session-archive",
+        "versions": [
+          {
+            "version": "0.3.40",
+            "publishTimestamp": 1795461899,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+              "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+              "path": "packages/session-archive"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ShanWuYinShe/dsh-plugins",
+    "commit": "2dfeef66a9695bfa643d15d32c439f1d7610c334",
+    "releaseTags": 321,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:13.415Z"
+}

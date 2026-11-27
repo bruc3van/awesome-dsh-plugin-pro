@@ -1,0 +1,74 @@
+{
+  "full_name": "IRwDONE/dsh-tool-call-leak-fix",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:43.404Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "80fb14f653b19703442d09f1af1f9037b4696631b4c2ea88925178b87a4468c9",
+      "url": "https://github.com/IRwDONE/dsh-tool-call-leak-fix/blob/3638a04e3420fb3d8c6603e07c2f2f8bb399e3c1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "23a966b20b1907c2037e72309d1b0e36ac876e60c3e0de0872237a852207e8ed",
+      "url": "https://github.com/IRwDONE/dsh-tool-call-leak-fix/blob/3638a04e3420fb3d8c6603e07c2f2f8bb399e3c1/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@irwdone/dsh-tool-call-leak-fix",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/IRwDONE/dsh-tool-call-leak-fix",
+        "commit": "3638a04e3420fb3d8c6603e07c2f2f8bb399e3c1"
+      },
+      "manifestSha256": "8f3e9ccbbd72a359cf925442b36d33c036d822310b02f6abf5957d5e13fae606",
+      "manifestUrl": "https://github.com/IRwDONE/dsh-tool-call-leak-fix/blob/3638a04e3420fb3d8c6603e07c2f2f8bb399e3c1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@irwdone/dsh-tool-call-leak-fix",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1794565011,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/IRwDONE/dsh-tool-call-leak-fix",
+              "commit": "3638a04e3420fb3d8c6603e07c2f2f8bb399e3c1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/IRwDONE/dsh-tool-call-leak-fix",
+    "commit": "3638a04e3420fb3d8c6603e07c2f2f8bb399e3c1",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:44.939Z"
+}

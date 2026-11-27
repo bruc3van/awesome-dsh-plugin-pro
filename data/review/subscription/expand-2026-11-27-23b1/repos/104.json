@@ -1,0 +1,85 @@
+{
+  "full_name": "Nath-Vikky/dsh-codekin",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:02.174Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4fe9f329386290899b2babca7c5048e0c163575b64c86831e51aaa262807c4ab",
+      "url": "https://github.com/Nath-Vikky/dsh-codekin/blob/e3d21c18ba4bd72d576f5c94962595ee3da5d074/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "fbfaa1b1af77ccd9a5a0c21ffbeaa72a8cd7e0ea3a5a19e8e1700ec5c4320de0",
+      "url": "https://github.com/Nath-Vikky/dsh-codekin/blob/e3d21c18ba4bd72d576f5c94962595ee3da5d074/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "4f7f7f4e5f1b4e4907ced20b85aca8a2b8fcf836226c4beb02cd9926072ada75",
+      "url": "https://github.com/Nath-Vikky/dsh-codekin/blob/e3d21c18ba4bd72d576f5c94962595ee3da5d074/tools/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nath-vikky/dsh-codekin",
+      "version": "0.4.1-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nath-Vikky/dsh-codekin",
+        "commit": "e3d21c18ba4bd72d576f5c94962595ee3da5d074"
+      },
+      "manifestSha256": "94c7f2a3d431a5a43dc7f31b91165d02b0fbd06fff3aa99375c999619c1b3c9e",
+      "manifestUrl": "https://github.com/Nath-Vikky/dsh-codekin/blob/e3d21c18ba4bd72d576f5c94962595ee3da5d074/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1 <0.1.6-0 || >=0.1.7-rc.1 <0.1.8-0 || >=0.2.0-rc.2 <0.2.1-0 || 0.2.1-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@nath-vikky/dsh-codekin",
+        "versions": [
+          {
+            "version": "0.4.1-rc.1",
+            "publishTimestamp": 1791179265,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nath-Vikky/dsh-codekin",
+              "commit": "e3d21c18ba4bd72d576f5c94962595ee3da5d074"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.1.6-0 || >=0.1.7-rc.1 <0.1.8-0 || >=0.2.0-rc.2 <0.2.1-0 || 0.2.1-alpha.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nath-Vikky/dsh-codekin",
+    "commit": "e3d21c18ba4bd72d576f5c94962595ee3da5d074",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:04.038Z"
+}

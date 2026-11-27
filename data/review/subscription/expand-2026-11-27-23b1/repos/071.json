@@ -1,0 +1,66 @@
+{
+  "full_name": "LovelyDazai/dsh-dynamic-thinking-chain",
+  "originalPosition": 71,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 71,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:54.490Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f84053dc0c0002bab2fc6db79cb388d9f4245025ebf7ee131b7d56d3ea4dd2b8",
+      "url": "https://github.com/LovelyDazai/dsh-dynamic-thinking-chain/blob/9fe495b5e00a7c8cae732fbb3ed364717fb76902/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dynamic-thinking-chain",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LovelyDazai/dsh-dynamic-thinking-chain",
+        "commit": "9fe495b5e00a7c8cae732fbb3ed364717fb76902"
+      },
+      "manifestSha256": "9d913074b0d08dfe72a14505270b42e9b5711f4315cdbb91af28af9b69c0a975",
+      "manifestUrl": "https://github.com/LovelyDazai/dsh-dynamic-thinking-chain/blob/9fe495b5e00a7c8cae732fbb3ed364717fb76902/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dynamic-thinking-chain",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1789999285,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LovelyDazai/dsh-dynamic-thinking-chain",
+              "commit": "9fe495b5e00a7c8cae732fbb3ed364717fb76902"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LovelyDazai/dsh-dynamic-thinking-chain",
+    "commit": "9fe495b5e00a7c8cae732fbb3ed364717fb76902",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:55.702Z"
+}

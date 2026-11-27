@@ -1,0 +1,69 @@
+{
+  "full_name": "ZOTTALL/dsh-xiaoyu-qqbot",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:29.454Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cbb6b1283971d38f3873859d776b1312240f267d75fa0fde37cbc7439e0980e1",
+      "url": "https://github.com/ZOTTALL/dsh-xiaoyu-qqbot/blob/ea1bbdbb814fe36a3dcf4d3a4f919316f22ecad3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-xiaoyu-qqbot",
+      "version": "1.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZOTTALL/dsh-xiaoyu-qqbot",
+        "commit": "ea1bbdbb814fe36a3dcf4d3a4f919316f22ecad3"
+      },
+      "manifestSha256": "a5ff18a84240c631b75e7d3a30b240c4bb440ed0c4de6e3e9940848bde706950",
+      "manifestUrl": "https://github.com/ZOTTALL/dsh-xiaoyu-qqbot/blob/ea1bbdbb814fe36a3dcf4d3a4f919316f22ecad3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-xiaoyu-qqbot",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1794299470,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ZOTTALL/dsh-xiaoyu-qqbot",
+              "commit": "ea1bbdbb814fe36a3dcf4d3a4f919316f22ecad3"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZOTTALL/dsh-xiaoyu-qqbot",
+    "commit": "ea1bbdbb814fe36a3dcf4d3a4f919316f22ecad3",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:30.647Z"
+}

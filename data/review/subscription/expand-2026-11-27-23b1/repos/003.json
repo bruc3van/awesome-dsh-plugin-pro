@@ -1,0 +1,40 @@
+{
+  "full_name": "AntheaLaffy/tomato-todo",
+  "originalPosition": 3,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 3,
+  "batch": 1,
+  "stargazers_count": 3,
+  "startedAt": "2026-11-27T23:41:35.682Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3382062d71bf097dffd1b0d76dd95b1c846494d9a89211e22d5b3ac03b7ba9c9",
+      "url": "https://github.com/AntheaLaffy/tomato-todo/blob/635f68d17f5516681bda61baf2f0a2a063e1f231/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AntheaLaffy/tomato-todo",
+    "commit": "635f68d17f5516681bda61baf2f0a2a063e1f231",
+    "releaseTags": 37,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "tomato-todo",
+    "version": "0.12.4",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:37.582Z"
+}

@@ -1,0 +1,74 @@
+{
+  "full_name": "MUMU-DADA/dsh-cot-translate",
+  "originalPosition": 81,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 81,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:56.570Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e53b613efbfa977b72d2544422e654af2e2214db5510dca71cfcfa710a8fdf60",
+      "url": "https://github.com/MUMU-DADA/dsh-cot-translate/blob/9904e7a170e1793fc175469421822234fc095803/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9b89efd055a2bc9ba0dc2c5cdf2541eed17064b3c0b89717a2b734979c1ca2d6",
+      "url": "https://github.com/MUMU-DADA/dsh-cot-translate/blob/9904e7a170e1793fc175469421822234fc095803/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-Hant.md",
+      "sha256": "d270c86547cf6bcacc832ad3124828886f0b9c9205ee069294c69734a718e737",
+      "url": "https://github.com/MUMU-DADA/dsh-cot-translate/blob/9904e7a170e1793fc175469421822234fc095803/README.zh-Hant.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "798ec55a8c9d773fdb85abe9f310e5125bd88ad2dcb24fef0f318c9214cda731",
+      "url": "https://github.com/MUMU-DADA/dsh-cot-translate/blob/9904e7a170e1793fc175469421822234fc095803/README.ja.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cot-translate",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MUMU-DADA/dsh-cot-translate",
+        "commit": "9904e7a170e1793fc175469421822234fc095803"
+      },
+      "manifestSha256": "aec291ad9a5710e3048d989ff8808c54ed517919876bf25fb40b19ecfc1ee59e",
+      "manifestUrl": "https://github.com/MUMU-DADA/dsh-cot-translate/blob/9904e7a170e1793fc175469421822234fc095803/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MUMU-DADA/dsh-cot-translate",
+    "commit": "9904e7a170e1793fc175469421822234fc095803",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:41:58.524Z"
+}

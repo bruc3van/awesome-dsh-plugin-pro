@@ -1,0 +1,66 @@
+{
+  "full_name": "JingYu-er/dsh-AIkb",
+  "originalPosition": 44,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 44,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:47.557Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "47e52d10842457a15dcf46090ec31c510033eb94ea6917b8abeaf0bde213654b",
+      "url": "https://github.com/JingYu-er/dsh-AIkb/blob/83f85595d56a14faed0559604b205dbee9286df1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-aikb",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JingYu-er/dsh-AIkb",
+        "commit": "83f85595d56a14faed0559604b205dbee9286df1"
+      },
+      "manifestSha256": "14665f63dfbc6e16ce5ed175f21468d68f24a2180619dbe4bfff27c4373397d1",
+      "manifestUrl": "https://github.com/JingYu-er/dsh-AIkb/blob/83f85595d56a14faed0559604b205dbee9286df1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-aikb",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1795259903,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JingYu-er/dsh-AIkb",
+              "commit": "83f85595d56a14faed0559604b205dbee9286df1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JingYu-er/dsh-AIkb",
+    "commit": "83f85595d56a14faed0559604b205dbee9286df1",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:48.914Z"
+}

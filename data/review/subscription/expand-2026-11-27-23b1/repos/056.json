@@ -1,0 +1,101 @@
+{
+  "full_name": "LINYT1416/dsh-feiyu-companion",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:50.523Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "10027733f9ad10623dcab54d72ea2d940888b680bafb46df848c2f9735780637",
+      "url": "https://github.com/LINYT1416/dsh-feiyu-companion/blob/5b08c6040dd2caf34f9c7f55f81b380d4e3a8d77/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-feiyu-memory",
+      "version": "1.2.0",
+      "path": "packages/memory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LINYT1416/dsh-feiyu-companion",
+        "commit": "5b08c6040dd2caf34f9c7f55f81b380d4e3a8d77",
+        "path": "packages/memory"
+      },
+      "manifestSha256": "7a1e8aed27bd35c89b28f9b35a074b9b67e98746a5afe6e77245f009b035f4f6",
+      "manifestUrl": "https://github.com/LINYT1416/dsh-feiyu-companion/blob/5b08c6040dd2caf34f9c7f55f81b380d4e3a8d77/packages/memory/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-feiyu-memory",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1794142807,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LINYT1416/dsh-feiyu-companion",
+              "commit": "5b08c6040dd2caf34f9c7f55f81b380d4e3a8d77",
+              "path": "packages/memory"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mood-v2",
+      "version": "0.3.0",
+      "path": "packages/mood",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LINYT1416/dsh-feiyu-companion",
+        "commit": "5b08c6040dd2caf34f9c7f55f81b380d4e3a8d77",
+        "path": "packages/mood"
+      },
+      "manifestSha256": "b9431e5118b0a43aac71ada79ef4f5f55bce85ff1436177a0747a6b0ba763d6d",
+      "manifestUrl": "https://github.com/LINYT1416/dsh-feiyu-companion/blob/5b08c6040dd2caf34f9c7f55f81b380d4e3a8d77/packages/mood/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mood-v2",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794142807,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LINYT1416/dsh-feiyu-companion",
+              "commit": "5b08c6040dd2caf34f9c7f55f81b380d4e3a8d77",
+              "path": "packages/mood"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LINYT1416/dsh-feiyu-companion",
+    "commit": "5b08c6040dd2caf34f9c7f55f81b380d4e3a8d77",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:52.119Z"
+}

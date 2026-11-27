@@ -1,0 +1,66 @@
+{
+  "full_name": "KurohaneKaoruko/DSH-Myosotis",
+  "originalPosition": 51,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 51,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:49.385Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "222867d05cc49dc538b330283cd091a34df96a1ba7c4fc718b3dedc4c9203d8f",
+      "url": "https://github.com/KurohaneKaoruko/DSH-Myosotis/blob/3fd981970b6f29b01b49e51c937b535167edbb68/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-myosotis",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KurohaneKaoruko/DSH-Myosotis",
+        "commit": "3fd981970b6f29b01b49e51c937b535167edbb68"
+      },
+      "manifestSha256": "5245a30d31df04ab43b76768452f56c7013112391abeb59886da6e9755a199da",
+      "manifestUrl": "https://github.com/KurohaneKaoruko/DSH-Myosotis/blob/3fd981970b6f29b01b49e51c937b535167edbb68/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-myosotis",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1793164253,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KurohaneKaoruko/DSH-Myosotis",
+              "commit": "3fd981970b6f29b01b49e51c937b535167edbb68"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KurohaneKaoruko/DSH-Myosotis",
+    "commit": "3fd981970b6f29b01b49e51c937b535167edbb68",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:50.523Z"
+}

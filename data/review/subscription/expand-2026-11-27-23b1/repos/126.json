@@ -1,0 +1,68 @@
+{
+  "full_name": "Rtyyy233/dsh-factor-mining-plugin",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:08.281Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b406eb2a07ecde9b30ddb39e85ad449ee7e3a49ef04920c31a15f8a4246ebca",
+      "url": "https://github.com/Rtyyy233/dsh-factor-mining-plugin/blob/a208458c7e64a9a9c458892abab6c1e65ed20049/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-factor-mining-bundle",
+      "version": "0.1.1",
+      "path": "ts/bundle-factor-mining",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Rtyyy233/dsh-factor-mining-plugin",
+        "commit": "a208458c7e64a9a9c458892abab6c1e65ed20049",
+        "path": "ts/bundle-factor-mining"
+      },
+      "manifestSha256": "d27173324b0c7637623b6e7510caecf9c2da0303dd5591f5dd6f0a1fb7013919",
+      "manifestUrl": "https://github.com/Rtyyy233/dsh-factor-mining-plugin/blob/a208458c7e64a9a9c458892abab6c1e65ed20049/ts/bundle-factor-mining/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-factor-mining-bundle",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1794757910,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Rtyyy233/dsh-factor-mining-plugin",
+              "commit": "a208458c7e64a9a9c458892abab6c1e65ed20049",
+              "path": "ts/bundle-factor-mining"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Rtyyy233/dsh-factor-mining-plugin",
+    "commit": "a208458c7e64a9a9c458892abab6c1e65ed20049",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:10.202Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "Hercules-debug/dsh-fork-map",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:41.737Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "70f5cf0a00c26a6f77bb33fc6375909a1acf3913c46f4dba9eb945c155b5dca7",
+      "url": "https://github.com/Hercules-debug/dsh-fork-map/blob/6497173321a3b4022a00873aa19d2e907f18a8a6/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fork-map",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hercules-debug/dsh-fork-map",
+        "commit": "6497173321a3b4022a00873aa19d2e907f18a8a6"
+      },
+      "manifestSha256": "6915b594d9d95ba42934cadee040247a8bdfde053b84534b4bdef264be0d08f2",
+      "manifestUrl": "https://github.com/Hercules-debug/dsh-fork-map/blob/6497173321a3b4022a00873aa19d2e907f18a8a6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fork-map",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1795240911,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hercules-debug/dsh-fork-map",
+              "commit": "6497173321a3b4022a00873aa19d2e907f18a8a6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hercules-debug/dsh-fork-map",
+    "commit": "6497173321a3b4022a00873aa19d2e907f18a8a6",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:43.031Z"
+}

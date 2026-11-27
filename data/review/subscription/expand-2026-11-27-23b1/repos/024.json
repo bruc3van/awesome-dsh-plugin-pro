@@ -1,0 +1,76 @@
+{
+  "full_name": "Hotsteel2901/dsh-frutiger-aero",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:42.371Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "745a63e439ce32a8c58ec6b93b725439449da5bcdf24a3aae73fb4c94dddf8e7",
+      "url": "https://github.com/Hotsteel2901/dsh-frutiger-aero/blob/bb6bbd62dcf0bcc87f7cfaaf8cddda86a7c8603c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d2c0740ee13d57a25fc33366378da59a282ac41709ee0a2460ada69e143c6a27",
+      "url": "https://github.com/Hotsteel2901/dsh-frutiger-aero/blob/bb6bbd62dcf0bcc87f7cfaaf8cddda86a7c8603c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-frutiger-aero",
+      "version": "1.1.1",
+      "path": "packages/frutiger-aero",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hotsteel2901/dsh-frutiger-aero",
+        "commit": "bb6bbd62dcf0bcc87f7cfaaf8cddda86a7c8603c",
+        "path": "packages/frutiger-aero"
+      },
+      "manifestSha256": "7c7b927284a5fee54493586980df834a4753399e585aa6b852a21d72c16b1306",
+      "manifestUrl": "https://github.com/Hotsteel2901/dsh-frutiger-aero/blob/bb6bbd62dcf0bcc87f7cfaaf8cddda86a7c8603c/packages/frutiger-aero/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-frutiger-aero",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1790250723,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hotsteel2901/dsh-frutiger-aero",
+              "commit": "bb6bbd62dcf0bcc87f7cfaaf8cddda86a7c8603c",
+              "path": "packages/frutiger-aero"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hotsteel2901/dsh-frutiger-aero",
+    "commit": "bb6bbd62dcf0bcc87f7cfaaf8cddda86a7c8603c",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:44.108Z"
+}

@@ -1,0 +1,51 @@
+{
+  "full_name": "Esper967/dsh-music-insight",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:35.692Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "230fae53cc88ffb3c4ee570f1ea07472df156a447874be4226d3fb22a3b6cdb7",
+      "url": "https://github.com/Esper967/dsh-music-insight/blob/e537722544ff4f7e6e8572494bd9581dc2ab4c55/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-music-insight",
+      "version": "0.2.0",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Esper967/dsh-music-insight",
+        "commit": "e537722544ff4f7e6e8572494bd9581dc2ab4c55",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "3455ce9ecbfb23f0ac2e34613cd48284ef81e857f5be6f3f5f3d14f4ca6be4f8",
+      "manifestUrl": "https://github.com/Esper967/dsh-music-insight/blob/e537722544ff4f7e6e8572494bd9581dc2ab4c55/dsh-plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Esper967/dsh-music-insight",
+    "commit": "e537722544ff4f7e6e8572494bd9581dc2ab4c55",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:41:37.258Z"
+}

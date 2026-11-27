@@ -1,0 +1,74 @@
+{
+  "full_name": "Velestia-star/agent-skill",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:20.989Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6ae06123e5f5e38d107cecbf70853a86360b13abe24d0162e9d9b25282291fec",
+      "url": "https://github.com/Velestia-star/agent-skill/blob/a72b5996b126303244b6593eae7f755384ef2667/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "97c4e57185324a4982b1c7dde5eedd09e0e99023f5a6ddff3b46cd960b7fe9c9",
+      "url": "https://github.com/Velestia-star/agent-skill/blob/a72b5996b126303244b6593eae7f755384ef2667/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-skill",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Velestia-star/agent-skill",
+        "commit": "a72b5996b126303244b6593eae7f755384ef2667"
+      },
+      "manifestSha256": "a8f26fc237182af91e164b4979d78152c70b246f4180b74d4985ef7f06b6e215",
+      "manifestUrl": "https://github.com/Velestia-star/agent-skill/blob/a72b5996b126303244b6593eae7f755384ef2667/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-agent-skill",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794638894,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Velestia-star/agent-skill",
+              "commit": "a72b5996b126303244b6593eae7f755384ef2667"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Velestia-star/agent-skill",
+    "commit": "a72b5996b126303244b6593eae7f755384ef2667",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:22.346Z"
+}

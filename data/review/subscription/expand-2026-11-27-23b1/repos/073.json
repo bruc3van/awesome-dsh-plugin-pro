@@ -1,0 +1,136 @@
+{
+  "full_name": "LuminariSoftwares/context-guardian",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:54.556Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "11d056882277e137a3189979f9bee6eff18d0c4f70d0957790c0a3bc5811dbb9",
+      "url": "https://github.com/LuminariSoftwares/context-guardian/blob/03fe19d83f941688b85d22d3cdd9a60756cbc97c/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-context-guardian",
+          "command": "dsh plugin --profile web add dsh-context-guardian",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-context-guardian",
+      "version": "0.5.0-beta.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LuminariSoftwares/context-guardian",
+        "commit": "03fe19d83f941688b85d22d3cdd9a60756cbc97c"
+      },
+      "manifestSha256": "eb783b66518b0538e6817dddc7831c0b08e06937cd469fd322d4c5479e5c2910",
+      "manifestUrl": "https://github.com/LuminariSoftwares/context-guardian/blob/03fe19d83f941688b85d22d3cdd9a60756cbc97c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-context-guardian",
+        "versions": [
+          {
+            "version": "0.5.0-beta.1",
+            "publishTimestamp": 1794450214,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LuminariSoftwares/context-guardian",
+              "commit": "03fe19d83f941688b85d22d3cdd9a60756cbc97c"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-context-guardian",
+      "origin": "npm",
+      "name": "dsh-context-guardian",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-context-guardian",
+        "title": "dsh-context-guardian",
+        "description": "Context Guardian as a native DeepSeek Harness (DSH) bundle: deterministic, seq-pointer-preserving compaction with model-facing recall and search. Companion to dsh-tool-guardian.",
+        "author": "LuminariSoftwares",
+        "homepage": "https://github.com/LuminariSoftwares/context-guardian",
+        "repository": {
+          "url": "https://github.com/LuminariSoftwares/context-guardian"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "deepseek-harness",
+            "compaction",
+            "context-window",
+            "context-management",
+            "recall",
+            "local-llm",
+            "ollama"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0-beta.1",
+            "publishTimestamp": 1794450599,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4339cfe59c17cf75efa5da3fa5d6f0c2a6e96952b2953f91065f2df59395d477",
+      "evidence": [
+        {
+          "name": "dsh-context-guardian",
+          "version": "0.5.0-beta.1",
+          "tarball": "https://registry.npmjs.org/dsh-context-guardian/-/dsh-context-guardian-0.5.0-beta.1.tgz",
+          "integrity": "sha512-Bk6IByQs5f9Rs9vmLOjWMGbaiKEi1heX3fBXV7cYxp89AqDTymRQdSRDAIwEYQlfux8XGgAagaMKC+eh5IhQ0A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-context-guardian",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LuminariSoftwares/context-guardian",
+    "commit": "03fe19d83f941688b85d22d3cdd9a60756cbc97c",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:56.021Z"
+}

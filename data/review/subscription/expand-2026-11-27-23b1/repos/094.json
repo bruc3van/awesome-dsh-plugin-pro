@@ -1,0 +1,232 @@
+{
+  "full_name": "Mola-maker/dsh-kit",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:59.377Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f4b79d0a9543027c903403eaeb24af658a47d938d1da98685f857a00e360acfb",
+      "url": "https://github.com/Mola-maker/dsh-kit/blob/c80bb306cfc26fd256f73866d7b9f182346ef066/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@molamaker/dsh-deep-search",
+          "command": "dsh plugin --profile <p> add @molamaker/dsh-deep-search",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-workflow-skills",
+          "command": "dsh plugin --profile <p> add dsh-workflow-skills",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@molamaker/dsh-deep-search",
+      "version": "0.2.0",
+      "path": "packages/deep-search",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mola-maker/dsh-kit",
+        "commit": "c80bb306cfc26fd256f73866d7b9f182346ef066",
+        "path": "packages/deep-search"
+      },
+      "manifestSha256": "c563918eb93a089136ccf748ed9f94b5dcda1187d2a50ebae0e5292180845348",
+      "manifestUrl": "https://github.com/Mola-maker/dsh-kit/blob/c80bb306cfc26fd256f73866d7b9f182346ef066/packages/deep-search/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@molamaker/dsh-deep-search",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793839999,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mola-maker/dsh-kit",
+              "commit": "c80bb306cfc26fd256f73866d7b9f182346ef066",
+              "path": "packages/deep-search"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workflow-skills",
+      "version": "0.1.1",
+      "path": "packages/workflow-skills",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mola-maker/dsh-kit",
+        "commit": "c80bb306cfc26fd256f73866d7b9f182346ef066",
+        "path": "packages/workflow-skills"
+      },
+      "manifestSha256": "3b1303eb18b3e23c74a72a1b930fd41cdaad618c65b19c901e5f0c876d817b70",
+      "manifestUrl": "https://github.com/Mola-maker/dsh-kit/blob/c80bb306cfc26fd256f73866d7b9f182346ef066/packages/workflow-skills/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workflow-skills",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793839999,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mola-maker/dsh-kit",
+              "commit": "c80bb306cfc26fd256f73866d7b9f182346ef066",
+              "path": "packages/workflow-skills"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@molamaker/dsh-deep-search",
+      "origin": "npm",
+      "name": "@molamaker/dsh-deep-search",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@molamaker/dsh-deep-search",
+        "title": "@molamaker/dsh-deep-search",
+        "description": "Multi-channel deep search for DeepSeek Harness: one deep_search tool fanning queries out to web/Exa/Tavily/GitHub, merged by reciprocal-rank fusion with cross-channel agreement",
+        "author": "Mola-maker",
+        "repository": {
+          "url": "https://github.com/Mola-maker/dsh-kit",
+          "directory": "packages/deep-search"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "search",
+            "web-search",
+            "mcp",
+            "exa",
+            "tavily",
+            "github"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793840085,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "13615ce24833579a322bca131ecb2d82945d46b552994fa42e60bd595c98c1d6",
+      "evidence": [
+        {
+          "name": "@molamaker/dsh-deep-search",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@molamaker/dsh-deep-search/-/dsh-deep-search-0.2.0.tgz",
+          "integrity": "sha512-yJ2zOke2Wbwy7rT7x8S/fDCf6pLLkKKx8RE40uCmpPy7wKqVEJ+oOBs2uloQGpBqekJE6/j40EMUQ4ijXsFoCg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-workflow-skills",
+      "origin": "npm",
+      "name": "dsh-workflow-skills",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workflow-skills",
+        "title": "dsh-workflow-skills",
+        "description": "Seven workflow skills for DeepSeek Harness: deep research with claim verification, parallel dispatch, ship a PR, plugin intake, token thrift, desktop operator, eval-first",
+        "author": "Mola-maker",
+        "repository": {
+          "url": "https://github.com/Mola-maker/dsh-kit",
+          "directory": "packages/workflow-skills"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "skills",
+            "workflow",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793840140,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1280e18cf72be891cd301e44e79d2d932ca38b230ce6e34380a6e99192e36120",
+      "evidence": [
+        {
+          "name": "dsh-workflow-skills",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-workflow-skills/-/dsh-workflow-skills-0.1.1.tgz",
+          "integrity": "sha512-QeeRgrU/BWPEUXEwFgMvOvWGLS+ATdl9Ypf5fxtrozY8TGeAY7DqIgJbgzwyZMy8hqe7L71GuDSQGnhg2Tz8GA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@molamaker/dsh-deep-search",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workflow-skills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mola-maker/dsh-kit",
+    "commit": "c80bb306cfc26fd256f73866d7b9f182346ef066",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:02.173Z"
+}

@@ -1,0 +1,68 @@
+{
+  "full_name": "Nana7mi0721/dsh-comfyui-agent",
+  "originalPosition": 103,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 103,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:01.714Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ccf3ea516b9e45def2d2df46a702bf776f10a8a777782f2a8644fa4bac12938",
+      "url": "https://github.com/Nana7mi0721/dsh-comfyui-agent/blob/2142a4f51d0753d08ed7152e3bb2d8c4b1d88423/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Nana7mi0721/dsh-comfyui-agent/releases/download/v0.5.1/dsh-comfyui-agent-0.5.1.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/Nana7mi0721/dsh-comfyui-agent/releases/download/v0.5.1/dsh-comfyui-agent-0.5.1.tgz",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comfyui-agent",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nana7mi0721/dsh-comfyui-agent",
+        "commit": "2142a4f51d0753d08ed7152e3bb2d8c4b1d88423"
+      },
+      "manifestSha256": "899c09dd2d5097a2542f74576eed2b4c5ff65fa2ee46cd9c0d57d8b42a1f97f3",
+      "manifestUrl": "https://github.com/Nana7mi0721/dsh-comfyui-agent/blob/2142a4f51d0753d08ed7152e3bb2d8c4b1d88423/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "https://github.com/Nana7mi0721/dsh-comfyui-agent/releases/download/v0.5.1/dsh-comfyui-agent-0.5.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Nana7mi0721/dsh-comfyui-agent/releases/download/v0.5.1/dsh-comfyui-agent-0.5.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nana7mi0721/dsh-comfyui-agent",
+    "commit": "2142a4f51d0753d08ed7152e3bb2d8c4b1d88423",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:02.950Z"
+}

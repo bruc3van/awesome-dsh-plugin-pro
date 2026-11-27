@@ -1,0 +1,66 @@
+{
+  "full_name": "LeifDai/MACKORN-hydraulic-cone-crusher",
+  "originalPosition": 61,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 61,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:52.120Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eb9589d11f53440eb5eec5cc7e3deadda8df7ec22d648e06e1d6b48a031707ce",
+      "url": "https://github.com/LeifDai/MACKORN-hydraulic-cone-crusher/blob/8515fe7dd8ba0dc265c25d7493c047d268ed5ce2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "mackorn-cone-crusher",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeifDai/MACKORN-hydraulic-cone-crusher",
+        "commit": "8515fe7dd8ba0dc265c25d7493c047d268ed5ce2"
+      },
+      "manifestSha256": "920efeeff05c05d8d270cff7b9fc7fb0283331ee76d999dd3e3d3b5a0f80e292",
+      "manifestUrl": "https://github.com/LeifDai/MACKORN-hydraulic-cone-crusher/blob/8515fe7dd8ba0dc265c25d7493c047d268ed5ce2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "mackorn-cone-crusher",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1795813305,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeifDai/MACKORN-hydraulic-cone-crusher",
+              "commit": "8515fe7dd8ba0dc265c25d7493c047d268ed5ce2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeifDai/MACKORN-hydraulic-cone-crusher",
+    "commit": "8515fe7dd8ba0dc265c25d7493c047d268ed5ce2",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:53.307Z"
+}

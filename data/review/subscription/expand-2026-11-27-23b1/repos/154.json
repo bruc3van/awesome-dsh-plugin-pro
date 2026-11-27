@@ -1,0 +1,74 @@
+{
+  "full_name": "TinyPandaGame/SpecsRelay-DSH",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:18.408Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f53f91770b19431b0669af7ef5bd660bd0cd736db641f0965ea7e3be1a5f67b4",
+      "url": "https://github.com/TinyPandaGame/SpecsRelay-DSH/blob/0b3eadd3534d55587d40aac871cc304580d0b1eb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "10b537b1600687fc2a32f74dacc9db7fcfc975a28f8fb606aedde7bec5dc86c2",
+      "url": "https://github.com/TinyPandaGame/SpecsRelay-DSH/blob/0b3eadd3534d55587d40aac871cc304580d0b1eb/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@specsrelay/dsh-deepseek",
+      "version": "0.11.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TinyPandaGame/SpecsRelay-DSH",
+        "commit": "0b3eadd3534d55587d40aac871cc304580d0b1eb"
+      },
+      "manifestSha256": "63d2113378a755600bf4c5a8ddeb809c56702d4bdfc6d0ae28f4443959e99ad5",
+      "manifestUrl": "https://github.com/TinyPandaGame/SpecsRelay-DSH/blob/0b3eadd3534d55587d40aac871cc304580d0b1eb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@specsrelay/dsh-deepseek",
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1790342326,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TinyPandaGame/SpecsRelay-DSH",
+              "commit": "0b3eadd3534d55587d40aac871cc304580d0b1eb"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TinyPandaGame/SpecsRelay-DSH",
+    "commit": "0b3eadd3534d55587d40aac871cc304580d0b1eb",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:20.017Z"
+}

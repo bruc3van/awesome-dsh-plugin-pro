@@ -1,0 +1,3714 @@
+{
+  "full_name": "PlayForm/DeepSeek",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:04.490Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "59d586ff467a512307e5bc316ccd5d831c5f43f6b6ae6ed6196bd0f18101fb5d",
+      "url": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "Classic/smokes/README.md",
+      "sha256": "f22048d0479ed4ee6cb4518c9e84f440e8ddb0da8ed70ed23a99a7c11d1df404",
+      "url": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/smokes/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "Documentation/Testing/README.md",
+      "sha256": "56309564a983e5943f28755e5731d6c54cbab1a2fd6da7c9cddc0ffc52716e5f",
+      "url": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Documentation/Testing/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/client-dsh-panel-cost",
+      "version": "0.2.1",
+      "path": "Classic/packages/client-dsh-panel-cost",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/client-dsh-panel-cost"
+      },
+      "manifestSha256": "397004462e9c396ebf3926a08e4f1ea61755127068d8b06ab0d9126b1d361868",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/client-dsh-panel-cost/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/client-dsh-panel-cost",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/client-dsh-panel-cost"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/client-dsh-panel-family",
+      "version": "0.2.1",
+      "path": "Classic/packages/client-dsh-panel-family",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/client-dsh-panel-family"
+      },
+      "manifestSha256": "5a26da4ccab382bcab1de28ddbaac3bd8f73ec5d29a683480648b560f3985eb3",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/client-dsh-panel-family/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/client-dsh-panel-family",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/client-dsh-panel-family"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/client-dsh-panel-family-host",
+      "version": "0.2.1",
+      "path": "Classic/packages/client-dsh-panel-family-host",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/client-dsh-panel-family-host"
+      },
+      "manifestSha256": "2be5b614909a0f5f3edb3e263609aa6ad4145eb06a1a9c60caff45c3be060600",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/client-dsh-panel-family-host/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/client-dsh-panel-family-host",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/client-dsh-panel-family-host"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/client-dsh-workspace-live",
+      "version": "0.2.1",
+      "path": "Classic/packages/client-dsh-workspace-live",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/client-dsh-workspace-live"
+      },
+      "manifestSha256": "5ed46c40d2739f54b5e1f57fb72b7ecaad7f048212478c44ee353ab0d16dcfa4",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/client-dsh-workspace-live/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/client-dsh-workspace-live",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/client-dsh-workspace-live"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-batch-decision",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-batch-decision",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-batch-decision"
+      },
+      "manifestSha256": "67e45d2c565e0368522c6bf6375519a2c6cdf88a7492866e2cc3cd86cf1fa18d",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-batch-decision/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-batch-decision",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-batch-decision"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-cargo-governor",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-cargo-governor",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-cargo-governor"
+      },
+      "manifestSha256": "67a6590c0886ce7d79e3b1f8ca06005407447d7c61ffa9ccebf566570f4ee7cf",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-cargo-governor/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-cargo-governor",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-cargo-governor"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-ccr",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-ccr",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-ccr"
+      },
+      "manifestSha256": "c11c74ab8502f387051ae3f8469770260eadbd72f2dcf909605ee85368b26680",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-ccr/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-ccr",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-ccr"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-comment-filter",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-comment-filter",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-comment-filter"
+      },
+      "manifestSha256": "20f14e903a84d9a4f4fb736c7481705fc14d8dbca81996ef79f287da344cca83",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-comment-filter/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-comment-filter",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-comment-filter"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-convention-suggester",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-convention-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-convention-suggester"
+      },
+      "manifestSha256": "d94bfcd497e3539ca6abf3e8cbb538ab94354f8a13e5586d9778abb5c01e6efd",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-convention-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-convention-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-convention-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-doc-suggester",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-doc-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-doc-suggester"
+      },
+      "manifestSha256": "6d2c148330ac39824a6be3d7a798d9270e582de12d7c33b51847764e30ff0797",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-doc-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-doc-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-doc-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-edit-suggester",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-edit-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-edit-suggester"
+      },
+      "manifestSha256": "c29a12cc5708dc59a3693b447aca3d2651ed928711abe2e8586c631ec8ab3ce3",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-edit-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-edit-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-edit-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-graph-suggester",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-graph-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-graph-suggester"
+      },
+      "manifestSha256": "d90d5d007ac918b81b4b32274ebbff1b160100d6a2e6ab741d2234fb76cc6031",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-graph-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-graph-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-graph-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-lesson-nudge",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-lesson-nudge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-lesson-nudge"
+      },
+      "manifestSha256": "20678811c07e997ac953cb9e7ac5890529d4af19006233fa05c7d5f6fbff7dd1",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-lesson-nudge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-lesson-nudge",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-lesson-nudge"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-live-containers",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-live-containers",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-live-containers"
+      },
+      "manifestSha256": "5eefed4a9bcd3a658f430ef0d5e5f3b69e744e20c0f6b7965b75a52f35f6f7c5",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-live-containers/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-live-containers",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-live-containers"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-normalize-dash",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-normalize-dash",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-normalize-dash"
+      },
+      "manifestSha256": "6070c0847f4b2cc1d4bd68af977f378967e683e6a884afd5ba9a62971bd37cbe",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-normalize-dash/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-normalize-dash",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-normalize-dash"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-normalize-ellipsis",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-normalize-ellipsis",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-normalize-ellipsis"
+      },
+      "manifestSha256": "f393e6a16c10bfdaaa314b3f58dde9db84824f92717a37f39a76e1eea5189743",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-normalize-ellipsis/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-normalize-ellipsis",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-normalize-ellipsis"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-normalize-fullwidth",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-normalize-fullwidth",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-normalize-fullwidth"
+      },
+      "manifestSha256": "639fd17ed14490eb77be9c299adc21390e1074c0c379f385c1186ddc9212e3b0",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-normalize-fullwidth/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-normalize-fullwidth",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-normalize-fullwidth"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-normalize-invisible",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-normalize-invisible",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-normalize-invisible"
+      },
+      "manifestSha256": "28570ef4746ee60bde2dc3a3baf5102caf378b24d9925810d5eba46f28ff3110",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-normalize-invisible/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-normalize-invisible",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-normalize-invisible"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-normalize-quotes",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-normalize-quotes",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-normalize-quotes"
+      },
+      "manifestSha256": "79cfe1ecb3c2dadd4ab7c69de4b0214cbf2db68cd4be8a2a52c6ca1c20236349",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-normalize-quotes/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-normalize-quotes",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-normalize-quotes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-normalize-spaces",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-normalize-spaces",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-normalize-spaces"
+      },
+      "manifestSha256": "46bc3d775ba7a45d315c916e85bb31585e88b846813b58f3b26acb2a442c9485",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-normalize-spaces/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-normalize-spaces",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-normalize-spaces"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-package-governor",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-package-governor",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-package-governor"
+      },
+      "manifestSha256": "a3b2990ea3733bcc6765621173f712bcb4f3378dd878f287e42b70ef969463b3",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-package-governor/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-package-governor",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-package-governor"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-package-pinner",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-package-pinner",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-package-pinner"
+      },
+      "manifestSha256": "85efb7f1c23b931030383e389bfb1b74b03c13bab3c4899f4c95b4343c4080e8",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-package-pinner/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-package-pinner",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-package-pinner"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-replay-suggester",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-replay-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-replay-suggester"
+      },
+      "manifestSha256": "ec59a732f5695c1756aeef133f639382505513838adf07f12dbb5c04cffdce7f",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-replay-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-replay-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-replay-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-search-suggester",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-search-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-search-suggester"
+      },
+      "manifestSha256": "a12baa7c00750480c521f1de5ef115f4b41993ddb0fb26bad90ce43f11ec7d58",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-search-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-search-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-search-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-test-suggester",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-test-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-test-suggester"
+      },
+      "manifestSha256": "b6b38311d476f4fe1655abab2334919ce12c887a6e6932d021909e3a5bf545ad",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-test-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-test-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-test-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-tool-coach",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-tool-coach",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-tool-coach"
+      },
+      "manifestSha256": "bb27e9222f310c29a39876fad27e709852c40028a4725b9a4b12b25c25eb6230",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-tool-coach/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-tool-coach",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-tool-coach"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-workspace-approve",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-workspace-approve",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-workspace-approve"
+      },
+      "manifestSha256": "5fc9aafcbf48ab07df0f51f6ae1fb8aa548a5840d1b07bff023dfdae800bdc13",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-workspace-approve/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-workspace-approve",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-workspace-approve"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-workspace-audit",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-workspace-audit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-workspace-audit"
+      },
+      "manifestSha256": "695e2b1d7c205e7d6efacce2ea3201a319b74137a1005c31673e4b19f705c632",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-workspace-audit/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-workspace-audit",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-workspace-audit"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-workspace-govern",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-workspace-govern",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-workspace-govern"
+      },
+      "manifestSha256": "79867a3688ee1c14538150f05eb60fd02b0fe925c07805d9a2c6861a0b1dfd62",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-workspace-govern/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-workspace-govern",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-workspace-govern"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-workspace-journal",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-workspace-journal",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-workspace-journal"
+      },
+      "manifestSha256": "308a11cc1fafe7f97410075b4db0791ddf22c14c0bb0af5e9feba760f470582b",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-workspace-journal/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-workspace-journal",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-workspace-journal"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-workspace-merge",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-workspace-merge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-workspace-merge"
+      },
+      "manifestSha256": "a234cb6d3ee0dec391a372f9b6852a4c76350049799e3c1e1be7423949a31ac7",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-workspace-merge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-workspace-merge",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-workspace-merge"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-workspace-monitor",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-workspace-monitor",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-workspace-monitor"
+      },
+      "manifestSha256": "141febe8df13c050aa647b01e3b75d8ecb106710b3be137851cba617909bec30",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-workspace-monitor/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-workspace-monitor",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-workspace-monitor"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-workspace-observe",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-workspace-observe",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-workspace-observe"
+      },
+      "manifestSha256": "2b366b6d9e067eefab3acd632adc4e71fe828ace375755bacb798e395ed3a17f",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-workspace-observe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-workspace-observe",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-workspace-observe"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/hook-dsh-workspace-operate",
+      "version": "0.2.1",
+      "path": "Classic/packages/hook-dsh-workspace-operate",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/hook-dsh-workspace-operate"
+      },
+      "manifestSha256": "d6e8ee8cd1f30950949f327243b44548f1a2ca5001cfc9c91042bad0ae80d322",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/hook-dsh-workspace-operate/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/hook-dsh-workspace-operate",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/hook-dsh-workspace-operate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-batch-edit",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-batch-edit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-batch-edit"
+      },
+      "manifestSha256": "b7d25c04f1152f8cea5c51f4a4136becd5d083aad07da39410f1a01693a86d95",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-batch-edit/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-batch-edit",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-batch-edit"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-batchstate",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-batchstate",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-batchstate"
+      },
+      "manifestSha256": "c3cdee5b9100765005feef7a4f9b14790bb0410d41395e8d0055f71832af7fe0",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-batchstate/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-batchstate",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-batchstate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-boot",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-boot",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-boot"
+      },
+      "manifestSha256": "5ca13e0d16975ba4485429f7f9508438494e8c3fb8cd6f91abef3e2729ed7b50",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-boot/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-boot",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-boot"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-cost",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-cost",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-cost"
+      },
+      "manifestSha256": "fbaad4092bec27529b9ad6205f9d554317aa0373cd621dcd94d36cfccfe97ddd",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-cost/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-cost",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-cost"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-cost-analysis",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-cost-analysis",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-cost-analysis"
+      },
+      "manifestSha256": "de5124b8b6d6fdb44559a924d447b334ac597ca004f3c0dfbdcfb40621854144",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-cost-analysis/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-cost-analysis",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-cost-analysis"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-factory",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-factory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-factory"
+      },
+      "manifestSha256": "353f32d3b0fe64cc0c851a177d4d4bd128d1f8179cbba7cddd49ecb439b471c5",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-factory/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-factory",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-factory"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-feedback",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-feedback",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-feedback"
+      },
+      "manifestSha256": "30d49c898e710cf3bda390441b82946b1511708f4e205019bcf448080131feca",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-feedback/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-feedback",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-feedback"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-gitguard",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-gitguard",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-gitguard"
+      },
+      "manifestSha256": "846e0d58dee94d2b106c73841a00b3a2da2ba7a13324b7278153d0160b041160",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-gitguard/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-gitguard",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-gitguard"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-ingester",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-ingester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-ingester"
+      },
+      "manifestSha256": "f1b7cd634b8bd794e3a9dc6727563beb415679ebdcf6abf6d13c58bdb6d8789f",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-ingester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-ingester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-ingester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-lesson-review",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-lesson-review",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-lesson-review"
+      },
+      "manifestSha256": "45b449ed5722f42ef4c22fea1cd1caffdc832b0793d4d9be51364c192a09cd88",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-lesson-review/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-lesson-review",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-lesson-review"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-normalize-file",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-normalize-file",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-normalize-file"
+      },
+      "manifestSha256": "7a1f35000f01085a73de12e7164ff798c966dd4e221f593c4d66ae62a3493794",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-normalize-file/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-normalize-file",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-normalize-file"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-pass-on",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-pass-on",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-pass-on"
+      },
+      "manifestSha256": "5c13c5b336502552fca102b1df19708bdb53058556d2c361d12b8823f854c95c",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-pass-on/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-pass-on",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-pass-on"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-pattern",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-pattern",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-pattern"
+      },
+      "manifestSha256": "93deeeefd69e69ced34e12edef09008614d00855c24c90985e8759279b917db0",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-pattern/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-pattern",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-pattern"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-queue",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-queue",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-queue"
+      },
+      "manifestSha256": "147256e92b70ed2c995965811374dd590c26d8bc0121ad76feb14daef0fd8adb",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-queue/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-queue",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-queue"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-route",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-route",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-route"
+      },
+      "manifestSha256": "716d32446dc88d3c3cb67bd1f71d9c8cfef25967a2d7c67e8e1d3e98d8f299b5",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-route/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-route",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-route"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-skill-learn",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-skill-learn",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-skill-learn"
+      },
+      "manifestSha256": "2d07105fe7c5862c196d9584c7868cd6d84578a9eca33976e7f63f993a93bbfb",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-skill-learn/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-skill-learn",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-skill-learn"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-workspace",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-workspace",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-workspace"
+      },
+      "manifestSha256": "f88fe3e3ac6c42a16ac89695a3e11dd3ac12c38a48171f5eee0eefb3faf2f468",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-workspace/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-workspace",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-workspace"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-workspace-authority",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-workspace-authority",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-workspace-authority"
+      },
+      "manifestSha256": "7e44e838c57e666535b9b771b32ca233837e764b91a42b99d0aade04a6498fce",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-workspace-authority/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-workspace-authority",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-workspace-authority"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-workspace-context",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-workspace-context",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-workspace-context"
+      },
+      "manifestSha256": "d70e82747f5532e02e6ef5236352132835cc6ebd14592ec23528f08d4b43215b",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-workspace-context/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-workspace-context",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-workspace-context"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-workspace-evidence",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-workspace-evidence",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-workspace-evidence"
+      },
+      "manifestSha256": "fcef490b59d733ad50511e67424af3c656ff724105211103c8f7b679622997b9",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-workspace-evidence/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-workspace-evidence",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-workspace-evidence"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-workspace-graph",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-workspace-graph",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-workspace-graph"
+      },
+      "manifestSha256": "dea9ad30f6b26aa0840ac0b781f8cc321904d9f1d4af51e63b0984fece1a516a",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-workspace-graph/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-workspace-graph",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-workspace-graph"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-workspace-reflect",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-workspace-reflect",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-workspace-reflect"
+      },
+      "manifestSha256": "893d25de41ff653d3b3fe8a0ea21a2fe1e2ddc4338cb5f67fa019700f5f8014d",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-workspace-reflect/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-workspace-reflect",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-workspace-reflect"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/plugin-dsh-workspace-semantics",
+      "version": "0.2.1",
+      "path": "Classic/packages/plugin-dsh-workspace-semantics",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "Classic/packages/plugin-dsh-workspace-semantics"
+      },
+      "manifestSha256": "08feae92a6451e7be7c56d691c237e7aa67a263dc4f42c8f8f87b6307d7ac6ca",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/Classic/packages/plugin-dsh-workspace-semantics/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/plugin-dsh-workspace-semantics",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "Classic/packages/plugin-dsh-workspace-semantics"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-client-dsh-panel-family",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-client-dsh-panel-family",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-client-dsh-panel-family"
+      },
+      "manifestSha256": "7c7f9a0d2c30f3a28168ed11ca66bc8874d5cba016d9cb1eb224ec466cbafce8",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-client-dsh-panel-family/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-client-dsh-panel-family",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-client-dsh-panel-family"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-client-dsh-panel-family-host",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-client-dsh-panel-family-host",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-client-dsh-panel-family-host"
+      },
+      "manifestSha256": "376537be8233a16ad179a6d3d2e7ca028d704930d05b31d68d895ec4a1af9c9d",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-client-dsh-panel-family-host/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-client-dsh-panel-family-host",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-client-dsh-panel-family-host"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-client-dsh-workspace-live",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-client-dsh-workspace-live",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-client-dsh-workspace-live"
+      },
+      "manifestSha256": "c8cca6f640dfba9c1b694e37a7280b921def01ad758814f4682914a4869a4022",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-client-dsh-workspace-live/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-client-dsh-workspace-live",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-client-dsh-workspace-live"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-batch-decision",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-batch-decision",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-batch-decision"
+      },
+      "manifestSha256": "5df6c47eb9c26b6ed52b46daf6b104bbea8da97ddb6b6e37c0f2bb8a688d02d6",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-batch-decision/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-batch-decision",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-batch-decision"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-cargo-governor",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-cargo-governor",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-cargo-governor"
+      },
+      "manifestSha256": "b1f086ed0de39f6bbc6c4b77db917dec7ccf36a188a521e23cfbf92f4e6a8428",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-cargo-governor/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-cargo-governor",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-cargo-governor"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-ccr",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-ccr",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-ccr"
+      },
+      "manifestSha256": "f5ac10bc771bb871acb2efb6110301347cc2364cfa2194e84609b846b72e2ff2",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-ccr/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-ccr",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-ccr"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-comment-filter",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-comment-filter",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-comment-filter"
+      },
+      "manifestSha256": "10b57e4ed7c1b2dde526cb78f152a0b17b91353b870cd65aeda26c2d813fb7c4",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-comment-filter/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-comment-filter",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-comment-filter"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-convention-suggester",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-convention-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-convention-suggester"
+      },
+      "manifestSha256": "98bfb3feaa0a2ef8e85d873a919222a086f0cf6f63f5e8d5463770f874517307",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-convention-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-convention-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-convention-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-doc-suggester",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-doc-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-doc-suggester"
+      },
+      "manifestSha256": "3a03fbb274aa34a6e5bb8e48e6b2c215224e227ffb82e50b64c956c900a2ecf0",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-doc-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-doc-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-doc-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-edit-suggester",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-edit-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-edit-suggester"
+      },
+      "manifestSha256": "8e1d93b5fd8a8a2b3dfa7080f55a86a67b8cd314970685fe0b0a72c580553b9a",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-edit-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-edit-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-edit-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-graph-suggester",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-graph-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-graph-suggester"
+      },
+      "manifestSha256": "57463f63f0596b339adcd8481dd76a6a72c73295f26f2861db79aa38a62259f2",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-graph-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-graph-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-graph-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-lesson-nudge",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-lesson-nudge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-lesson-nudge"
+      },
+      "manifestSha256": "983b73a6a575af02de7ef122bb9b47d45cd9b00fd2323284ca87ed930aeec957",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-lesson-nudge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-lesson-nudge",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-lesson-nudge"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-live-containers",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-live-containers",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-live-containers"
+      },
+      "manifestSha256": "7d7accc570cd4f0385a81b03f18f5427008a8854d4b2d031db68b52c10c0a9f8",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-live-containers/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-live-containers",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-live-containers"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-normalize-dash",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-normalize-dash",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-normalize-dash"
+      },
+      "manifestSha256": "3754b5bdca6b8cdbd53ac44740ca2073f4966ed12e24da8ee492acb4fbba9488",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-normalize-dash/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-normalize-dash",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-normalize-dash"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-normalize-ellipsis",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-normalize-ellipsis",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-normalize-ellipsis"
+      },
+      "manifestSha256": "9378af04eb32cf2f589841fd881259caab6d3b6a32af5f23fe16dc6ee91a8816",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-normalize-ellipsis/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-normalize-ellipsis",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-normalize-ellipsis"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-normalize-fullwidth",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-normalize-fullwidth",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-normalize-fullwidth"
+      },
+      "manifestSha256": "296b09b4f2fbf0427a3bbdb454bd8d8d553edc4c76ca1b3e80d51e855ab1f87a",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-normalize-fullwidth/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-normalize-fullwidth",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-normalize-fullwidth"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-normalize-invisible",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-normalize-invisible",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-normalize-invisible"
+      },
+      "manifestSha256": "42930c9a765e9eae691a0cc059617ba5e9634f60d95f320490e193a68a4ee2bf",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-normalize-invisible/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-normalize-invisible",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-normalize-invisible"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-normalize-quotes",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-normalize-quotes",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-normalize-quotes"
+      },
+      "manifestSha256": "98ef53d9d47fe6eabb77dac887fa72a1905aa466eb0292372f40a9b6f1565d02",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-normalize-quotes/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-normalize-quotes",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-normalize-quotes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-normalize-spaces",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-normalize-spaces",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-normalize-spaces"
+      },
+      "manifestSha256": "bcffd98cae60b4d061c2d60a5fbfa7aa08f331c860be3355d1b149bc7370d462",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-normalize-spaces/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-normalize-spaces",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-normalize-spaces"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-package-governor",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-package-governor",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-package-governor"
+      },
+      "manifestSha256": "daacfa979c4645ab503a8b9e37faf8e9471c30e34e14dcf513a2116ca1878d24",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-package-governor/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-package-governor",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-package-governor"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-package-pinner",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-package-pinner",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-package-pinner"
+      },
+      "manifestSha256": "85ddd707ea7cfb520e83879afd5baeb0d3d12d96b03ababad32f5e4e5e582235",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-package-pinner/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-package-pinner",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-package-pinner"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-replay-suggester",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-replay-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-replay-suggester"
+      },
+      "manifestSha256": "7d34a863175386c0007e4afdbb5603cb089b1933bd9ef79b0d51038ab6d4d60c",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-replay-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-replay-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-replay-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-search-suggester",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-search-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-search-suggester"
+      },
+      "manifestSha256": "ffd63b7c95068106af7288e821a90951a52aa57637f3f991b782c61f8911d7d2",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-search-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-search-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-search-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-test-suggester",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-test-suggester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-test-suggester"
+      },
+      "manifestSha256": "7e4f3a5121315b0e43b5e0ae7534e9422fa2d5a1f807da6855e1495b874c930b",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-test-suggester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-test-suggester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-test-suggester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-tool-coach",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-tool-coach",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-tool-coach"
+      },
+      "manifestSha256": "9d6f7b33830cce1e8b95231c6ff05f614a023555e0803ff8ea3019166482819d",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-tool-coach/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-tool-coach",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-tool-coach"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-workspace-approve",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-workspace-approve",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-workspace-approve"
+      },
+      "manifestSha256": "26b2649b3afb05a9873e1c2728b21d7bc0de252e8a557f6c392066ec89de0093",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-workspace-approve/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-workspace-approve",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-workspace-approve"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-workspace-audit",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-workspace-audit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-workspace-audit"
+      },
+      "manifestSha256": "8441a61886a95248ba8018b0b3ac76615627974e89f49faa77ca256a55e35dc9",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-workspace-audit/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-workspace-audit",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-workspace-audit"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-workspace-govern",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-workspace-govern",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-workspace-govern"
+      },
+      "manifestSha256": "a0cb53d059af1b7527e905a762a97892b61fc83112bd5903912fbf8e5c88ee28",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-workspace-govern/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-workspace-govern",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-workspace-govern"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-workspace-journal",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-workspace-journal",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-workspace-journal"
+      },
+      "manifestSha256": "f8ee8ad8fc2e5ff21f0dbbf3777915abf6cfb388213980f0f51b50e1f63cd645",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-workspace-journal/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-workspace-journal",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-workspace-journal"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-workspace-merge",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-workspace-merge",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-workspace-merge"
+      },
+      "manifestSha256": "3f221cad0b650395e8afe26ee14588d3d6ae9fc6b93959a94e9472dc9270094f",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-workspace-merge/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-workspace-merge",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-workspace-merge"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-workspace-monitor",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-workspace-monitor",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-workspace-monitor"
+      },
+      "manifestSha256": "2ea4d91d621284baa81076e07c464d3d5dec88ed2e36472fcd2ff7037c078b70",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-workspace-monitor/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-workspace-monitor",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-workspace-monitor"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-workspace-observe",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-workspace-observe",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-workspace-observe"
+      },
+      "manifestSha256": "8511c90304dbbabc8f5a413376185c37e156d55428183ca0575acff14b4cb5d6",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-workspace-observe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-workspace-observe",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-workspace-observe"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-hook-dsh-workspace-operate",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-hook-dsh-workspace-operate",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-hook-dsh-workspace-operate"
+      },
+      "manifestSha256": "711605ccd9f9d1b4f0550815963519656e6192539e498e0aa36aa138fdc31c04",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-hook-dsh-workspace-operate/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-hook-dsh-workspace-operate",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-hook-dsh-workspace-operate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-batch-edit",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-batch-edit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-batch-edit"
+      },
+      "manifestSha256": "22b2c06aa0639baf43befeaed876053145920b88bd81de36f04124b5922f7add",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-batch-edit/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-batch-edit",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-batch-edit"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-batchstate",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-batchstate",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-batchstate"
+      },
+      "manifestSha256": "3cd3a78ffd00d603536beb5a225b6d4db3280d18447f1e2054cf2b2cd157b5d0",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-batchstate/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-batchstate",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-batchstate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-cost",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-cost",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-cost"
+      },
+      "manifestSha256": "7aab401c8f1d824f13b19f480b3f7048769b0d5020f5a86cfdef6e6177ccc965",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-cost/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-cost",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-cost"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-cost-analysis",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-cost-analysis",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-cost-analysis"
+      },
+      "manifestSha256": "2155fbc083aad69929a9d0e906897f95e1d23dc6087f2f40c9d23b8c7041447a",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-cost-analysis/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-cost-analysis",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-cost-analysis"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-factory",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-factory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-factory"
+      },
+      "manifestSha256": "c2653b1d79f6b30dd355b740985ec8de98ee0d1073812a7a1a3eb8ee5329ccd8",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-factory/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-factory",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-factory"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-feedback",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-feedback",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-feedback"
+      },
+      "manifestSha256": "82dfaff4f065dad13fd90ba55188bdfb9ae684f1804abf2b3aca003f852fac4f",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-feedback/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-feedback",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-feedback"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-gitguard",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-gitguard",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-gitguard"
+      },
+      "manifestSha256": "0a2b4b30c8ab502308d777df4fb256560704b1fc442e8d54f75f7b0f2ace4a73",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-gitguard/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-gitguard",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-gitguard"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-ingester",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-ingester",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-ingester"
+      },
+      "manifestSha256": "74e852692e4b20d4abce975bd13275e16ec9aec7fad99ad70ff65d61b70828cb",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-ingester/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-ingester",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-ingester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-lesson-review",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-lesson-review",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-lesson-review"
+      },
+      "manifestSha256": "172afc7bd1ba5499fef09727ea7deeaabb38866af2bc409cf0f68ca515a88add",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-lesson-review/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-lesson-review",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-lesson-review"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-normalize-file",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-normalize-file",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-normalize-file"
+      },
+      "manifestSha256": "6d7e58cefce5a3bf3b0ce369112ecbcf9edbe3174b0731346f3d757dcd75e6fc",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-normalize-file/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-normalize-file",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-normalize-file"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-pass-on",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-pass-on",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-pass-on"
+      },
+      "manifestSha256": "df3b3b86f2ed8ae8e094d5905df9ca74311d15b290343704b198a0ab32d3778b",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-pass-on/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-pass-on",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-pass-on"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-pattern",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-pattern",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-pattern"
+      },
+      "manifestSha256": "473317069c3ebf8a1692dca907237ffa79b6cc7aeba9c9626ec185661e9e5a51",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-pattern/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-pattern",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-pattern"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-queue",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-queue",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-queue"
+      },
+      "manifestSha256": "739e15fc78600c8b8f86be5bfde24c7ef5437e24c4463a9083a5e5c9ea3b8dc5",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-queue/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-queue",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-queue"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-route",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-route",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-route"
+      },
+      "manifestSha256": "ed7ae9bbe9cba9dbb6586c4cffc7ef3883ea9124c5b1e3daecc8eac7ef185e9f",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-route/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-route",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-route"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-workspace",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-workspace",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-workspace"
+      },
+      "manifestSha256": "e6cc854286cf8d9ab7ed866d9a8957b148b7b9541fefbabc51ac0c01ac2ec591",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-workspace/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-workspace",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-workspace"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-workspace-authority",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-workspace-authority",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-workspace-authority"
+      },
+      "manifestSha256": "00a6b22cbbf4424d225bbf137457e3c74ddbf7dd41943e96650da2a80cf105de",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-workspace-authority/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-workspace-authority",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-workspace-authority"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-workspace-context",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-workspace-context",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-workspace-context"
+      },
+      "manifestSha256": "ed9eafc06d4ba6d52df317cb2de3e971768d0fa83ca7b1cf5147f6162f178c53",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-workspace-context/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-workspace-context",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-workspace-context"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-workspace-evidence",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-workspace-evidence",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-workspace-evidence"
+      },
+      "manifestSha256": "5d268e88576dabcbb72094618c01db575f9d6216d041c226ccfd72b10956a452",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-workspace-evidence/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-workspace-evidence",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-workspace-evidence"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-workspace-graph",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-workspace-graph",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-workspace-graph"
+      },
+      "manifestSha256": "97e2229ee98bbd67854a1cded4aa12e42265a6cbf6919db2e23854363563c3ea",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-workspace-graph/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-workspace-graph",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-workspace-graph"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-workspace-reflect",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-workspace-reflect",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-workspace-reflect"
+      },
+      "manifestSha256": "81c1d374e7a64178fc309959aa3896246cd5d372b8da8fd526e7285ef8011c62",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-workspace-reflect/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-workspace-reflect",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-workspace-reflect"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@playform/ets-plugin-dsh-workspace-semantics",
+      "version": "0.2.1",
+      "path": "EffectTS/packages/ets-plugin-dsh-workspace-semantics",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PlayForm/DeepSeek",
+        "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+        "path": "EffectTS/packages/ets-plugin-dsh-workspace-semantics"
+      },
+      "manifestSha256": "87bc55fc0a51d5f5da6ee9d3c73a56a56c58b0878a9e1cd2d1929e2a18ac2b0e",
+      "manifestUrl": "https://github.com/PlayForm/DeepSeek/blob/760a463b3b44519e51b275158e384db3c7249c48/EffectTS/packages/ets-plugin-dsh-workspace-semantics/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@playform/ets-plugin-dsh-workspace-semantics",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795757521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PlayForm/DeepSeek",
+              "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+              "path": "EffectTS/packages/ets-plugin-dsh-workspace-semantics"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PlayForm/DeepSeek",
+    "commit": "760a463b3b44519e51b275158e384db3c7249c48",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:36.715Z"
+}

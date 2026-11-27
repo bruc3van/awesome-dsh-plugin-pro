@@ -1,0 +1,85 @@
+{
+  "full_name": "GreenLv/dsh-completion-guard",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:39.871Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8aac0dbb84dc1ae3778de9d568cb59bab47729e71bc551b2e55ceccbda3271ae",
+      "url": "https://github.com/GreenLv/dsh-completion-guard/blob/3ec9ad3a0929cc1d62c04472bb8363d53077f826/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "0a05e7b65d42bcccebde99c5def32171013444f55a16920cb3e19050df9a0535",
+      "url": "https://github.com/GreenLv/dsh-completion-guard/blob/3ec9ad3a0929cc1d62c04472bb8363d53077f826/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "79abb6a547271e98b5bca5327b9172ecb3d1d2f1e6256bd4eab8532c1cc2b347",
+      "url": "https://github.com/GreenLv/dsh-completion-guard/blob/3ec9ad3a0929cc1d62c04472bb8363d53077f826/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-completion-guard",
+      "version": "0.13.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GreenLv/dsh-completion-guard",
+        "commit": "3ec9ad3a0929cc1d62c04472bb8363d53077f826"
+      },
+      "manifestSha256": "a4aa58948e63e4695006e23863b108d0261cb4310389b65324cbc004624d3f3b",
+      "manifestUrl": "https://github.com/GreenLv/dsh-completion-guard/blob/3ec9ad3a0929cc1d62c04472bb8363d53077f826/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-completion-guard",
+        "versions": [
+          {
+            "version": "0.13.3",
+            "publishTimestamp": 1795155349,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GreenLv/dsh-completion-guard",
+              "commit": "3ec9ad3a0929cc1d62c04472bb8363d53077f826"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GreenLv/dsh-completion-guard",
+    "commit": "3ec9ad3a0929cc1d62c04472bb8363d53077f826",
+    "releaseTags": 36,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:41.711Z"
+}

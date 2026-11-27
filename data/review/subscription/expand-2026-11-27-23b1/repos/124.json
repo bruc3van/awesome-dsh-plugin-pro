@@ -1,0 +1,74 @@
+{
+  "full_name": "RainL-621/dsh-office-bridge",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:07.427Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3ea8dcbb0d4ac3c0cf61014b10f6bbe0332a0a52a4f1eb3a61bcc755b00eb6f9",
+      "url": "https://github.com/RainL-621/dsh-office-bridge/blob/7c36a47dd113d69d751247fb0c5055f2a61efa86/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "268c5805f579cfde60fca437a37cdfd142cf30d46b9bbd402c5a425dd89f891c",
+      "url": "https://github.com/RainL-621/dsh-office-bridge/blob/7c36a47dd113d69d751247fb0c5055f2a61efa86/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-office-bridge",
+      "version": "2.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RainL-621/dsh-office-bridge",
+        "commit": "7c36a47dd113d69d751247fb0c5055f2a61efa86"
+      },
+      "manifestSha256": "e97034069f7f34e174feb4408b8814088b9d07647965555e047d08fe88c8c50e",
+      "manifestUrl": "https://github.com/RainL-621/dsh-office-bridge/blob/7c36a47dd113d69d751247fb0c5055f2a61efa86/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-office-bridge",
+        "versions": [
+          {
+            "version": "2.1.2",
+            "publishTimestamp": 1793172873,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/RainL-621/dsh-office-bridge",
+              "commit": "7c36a47dd113d69d751247fb0c5055f2a61efa86"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/RainL-621/dsh-office-bridge",
+    "commit": "7c36a47dd113d69d751247fb0c5055f2a61efa86",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:08.806Z"
+}

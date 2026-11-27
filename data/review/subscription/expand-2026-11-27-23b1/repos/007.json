@@ -1,0 +1,84 @@
+{
+  "full_name": "FinalLawer/dsh-native-code-workbench",
+  "originalPosition": 7,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 7,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:37.258Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7137c0596c90f87d8ebeebfe9656edb2e460cce49a02ffcfa48c03b44dd96fc0",
+      "url": "https://github.com/FinalLawer/dsh-native-code-workbench/blob/690e7c062068f33128851aa2362511da42153fc3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c09a8d3f0c7f7c6e202645529b9aab90f82ed87b50c816f9e49a8a2582e2fce9",
+      "url": "https://github.com/FinalLawer/dsh-native-code-workbench/blob/690e7c062068f33128851aa2362511da42153fc3/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-TW.md",
+      "sha256": "dc997b3ae7eb3a210a7defb8b28e0fc6d5850c4eb33d61b60aeb39788d084ecd",
+      "url": "https://github.com/FinalLawer/dsh-native-code-workbench/blob/690e7c062068f33128851aa2362511da42153fc3/README.zh-TW.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-code-workbench",
+      "version": "0.6.5",
+      "path": "dsh-code-workbench",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FinalLawer/dsh-native-code-workbench",
+        "commit": "690e7c062068f33128851aa2362511da42153fc3",
+        "path": "dsh-code-workbench"
+      },
+      "manifestSha256": "315eb703dbf70ab8bb57b8c672c0ea65698001a8e8c2de0ff779a7edb4051447",
+      "manifestUrl": "https://github.com/FinalLawer/dsh-native-code-workbench/blob/690e7c062068f33128851aa2362511da42153fc3/dsh-code-workbench/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-code-workbench",
+        "versions": [
+          {
+            "version": "0.6.5",
+            "publishTimestamp": 1793280369,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FinalLawer/dsh-native-code-workbench",
+              "commit": "690e7c062068f33128851aa2362511da42153fc3",
+              "path": "dsh-code-workbench"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FinalLawer/dsh-native-code-workbench",
+    "commit": "690e7c062068f33128851aa2362511da42153fc3",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:38.989Z"
+}

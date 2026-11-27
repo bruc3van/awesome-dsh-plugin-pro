@@ -1,0 +1,66 @@
+{
+  "full_name": "Protonhydrogen/DSH-meeting",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:05.042Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a6511adc38edcf74ded3cd03a76e81e4b7a656cefd116e9b3d5c3d90033d095b",
+      "url": "https://github.com/Protonhydrogen/DSH-meeting/blob/15ef06b9e382f34f934bde76eecb8678fd0c22f6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-meetings",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Protonhydrogen/DSH-meeting",
+        "commit": "15ef06b9e382f34f934bde76eecb8678fd0c22f6"
+      },
+      "manifestSha256": "5c106498466b51f88a499d5945dcac4d04f35662f20baa2e7e07a403a60ce17f",
+      "manifestUrl": "https://github.com/Protonhydrogen/DSH-meeting/blob/15ef06b9e382f34f934bde76eecb8678fd0c22f6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-meetings",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1795687506,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Protonhydrogen/DSH-meeting",
+              "commit": "15ef06b9e382f34f934bde76eecb8678fd0c22f6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Protonhydrogen/DSH-meeting",
+    "commit": "15ef06b9e382f34f934bde76eecb8678fd0c22f6",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:06.145Z"
+}

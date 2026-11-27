@@ -1,0 +1,74 @@
+{
+  "full_name": "LuoShanHui/dsh-doc-ledger",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:55.619Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2393d430bcae31e37172cad0107f694179d8638b2d7e5094c3db95bcc80d6e63",
+      "url": "https://github.com/LuoShanHui/dsh-doc-ledger/blob/93ca954c1eeb69b23fa2d8c636b8d4e01b541a61/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "38de6aa0ed39767c19e8b1ebfedf27f829fd762f1436502b13b39d021ce03b2f",
+      "url": "https://github.com/LuoShanHui/dsh-doc-ledger/blob/93ca954c1eeb69b23fa2d8c636b8d4e01b541a61/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-doc-ledger",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LuoShanHui/dsh-doc-ledger",
+        "commit": "93ca954c1eeb69b23fa2d8c636b8d4e01b541a61"
+      },
+      "manifestSha256": "8f3c6c427a27264a3ea647b604044896b145cbff246e912ea45354bb33414fc7",
+      "manifestUrl": "https://github.com/LuoShanHui/dsh-doc-ledger/blob/93ca954c1eeb69b23fa2d8c636b8d4e01b541a61/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-doc-ledger",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1795169278,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LuoShanHui/dsh-doc-ledger",
+              "commit": "93ca954c1eeb69b23fa2d8c636b8d4e01b541a61"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LuoShanHui/dsh-doc-ledger",
+    "commit": "93ca954c1eeb69b23fa2d8c636b8d4e01b541a61",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:57.096Z"
+}

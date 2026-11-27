@@ -1,0 +1,50 @@
+{
+  "full_name": "XiaoZheBrother/dsh-bilibili-dafeiyu",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:24.641Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "007a44aaa73334c2649c3bee18789199f47a1174f29dc5427a4b98fc2630d475",
+      "url": "https://github.com/XiaoZheBrother/dsh-bilibili-dafeiyu/blob/ab4a498402ab61c380c65beeab474b36b77d13e5/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bilibili-dafeiyu",
+      "version": "0.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XiaoZheBrother/dsh-bilibili-dafeiyu",
+        "commit": "ab4a498402ab61c380c65beeab474b36b77d13e5"
+      },
+      "manifestSha256": "a5329b72afd931ad2a54e580ceab313c8733a869030ae8a76d37f195a390e298",
+      "manifestUrl": "https://github.com/XiaoZheBrother/dsh-bilibili-dafeiyu/blob/ab4a498402ab61c380c65beeab474b36b77d13e5/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XiaoZheBrother/dsh-bilibili-dafeiyu",
+    "commit": "ab4a498402ab61c380c65beeab474b36b77d13e5",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:42:25.910Z"
+}

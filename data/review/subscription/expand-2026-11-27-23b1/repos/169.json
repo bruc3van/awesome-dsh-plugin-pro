@@ -1,0 +1,48 @@
+{
+  "full_name": "Wenaixi/dsh-plugin-dev",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:22.640Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a10689fd6770a941239a56b2fb9f0635208ba084c92e909cffaa316ccf2bc62d",
+      "url": "https://github.com/Wenaixi/dsh-plugin-dev/blob/4e0684aaf519838d0957adc969ed657b25b79ae4/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "references/README.md",
+      "sha256": "7e0968eb6769f002cddd3fe086c068be1c9514669ee5e21413f2fa64b4d19890",
+      "url": "https://github.com/Wenaixi/dsh-plugin-dev/blob/4e0684aaf519838d0957adc969ed657b25b79ae4/references/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Wenaixi/dsh-plugin-dev",
+    "commit": "4e0684aaf519838d0957adc969ed657b25b79ae4",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@deepseek-ai/dsh-desktop-runtime",
+    "version": "0.2.1-rc.2",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:42:24.031Z"
+}

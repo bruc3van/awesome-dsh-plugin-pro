@@ -1,0 +1,58 @@
+{
+  "full_name": "ToiMee/mica_space",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:18.752Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2c187f2783870fb5a19ea0e207411aef2248f7810eb19cc6bcb2fc10cc4607fd",
+      "url": "https://github.com/ToiMee/mica_space/blob/cb6323fbff5b60bdab6a964353b11ad757dea60f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "dcdf3cb02404cb057de1a5d71b26fafe6f28108bced4a85cee03fcb5bdaf267e",
+      "url": "https://github.com/ToiMee/mica_space/blob/cb6323fbff5b60bdab6a964353b11ad757dea60f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-chat-space",
+      "version": "0.99.15",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ToiMee/mica_space",
+        "commit": "cb6323fbff5b60bdab6a964353b11ad757dea60f"
+      },
+      "manifestSha256": "e050cf2faddd79390e54767ce3a7c426558b33b0d5d19b0a062249a9448f1778",
+      "manifestUrl": "https://github.com/ToiMee/mica_space/blob/cb6323fbff5b60bdab6a964353b11ad757dea60f/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ToiMee/mica_space",
+    "commit": "cb6323fbff5b60bdab6a964353b11ad757dea60f",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:20.228Z"
+}

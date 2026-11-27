@@ -1,0 +1,74 @@
+{
+  "full_name": "Yeezone/kanweave",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:26.282Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "601166c92659cd55bc0ff8271a0e0fb8122890cad3bd1f9d983f3ae261eb0aa3",
+      "url": "https://github.com/Yeezone/kanweave/blob/b41a9a262f1d7e41332061f7e93478623cea2f39/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5dab3ebd1d3dfa840a15ba9db855893f63c2ad12cb1d6469aaebebafc389887f",
+      "url": "https://github.com/Yeezone/kanweave/blob/b41a9a262f1d7e41332061f7e93478623cea2f39/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kanweave",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yeezone/kanweave",
+        "commit": "b41a9a262f1d7e41332061f7e93478623cea2f39"
+      },
+      "manifestSha256": "b2501bf303d26bc9a2596640226c18bd0922d48f75447350c01b16f0b2967f97",
+      "manifestUrl": "https://github.com/Yeezone/kanweave/blob/b41a9a262f1d7e41332061f7e93478623cea2f39/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-kanweave",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1792575517,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yeezone/kanweave",
+              "commit": "b41a9a262f1d7e41332061f7e93478623cea2f39"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yeezone/kanweave",
+    "commit": "b41a9a262f1d7e41332061f7e93478623cea2f39",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:27.704Z"
+}

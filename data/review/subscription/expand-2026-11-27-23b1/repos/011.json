@@ -1,0 +1,50 @@
+{
+  "full_name": "Github-CJX/dsh-tool-imagegen",
+  "originalPosition": 11,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 11,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:38.989Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ff379b3e7c462e5d083caf8e3fa4a008c0807d8be49d22675ea7000444f97c3",
+      "url": "https://github.com/Github-CJX/dsh-tool-imagegen/blob/0a30f0d1f11076cf033a8cf728b012603bbf3462/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-tool-imagegen",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Github-CJX/dsh-tool-imagegen",
+        "commit": "0a30f0d1f11076cf033a8cf728b012603bbf3462"
+      },
+      "manifestSha256": "d42086481cd4267c503ce52e3fdf65a41df13e9901495d657fe5ed2f3a712e4d",
+      "manifestUrl": "https://github.com/Github-CJX/dsh-tool-imagegen/blob/0a30f0d1f11076cf033a8cf728b012603bbf3462/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Github-CJX/dsh-tool-imagegen",
+    "commit": "0a30f0d1f11076cf033a8cf728b012603bbf3462",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:40.318Z"
+}

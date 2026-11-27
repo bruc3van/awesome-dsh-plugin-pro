@@ -1,0 +1,66 @@
+{
+  "full_name": "LENS-Views/dsh-api-usage-dashboard",
+  "originalPosition": 55,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 55,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:50.353Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c65b0d1fa4e0346933428f66dab8d31bce9a0280a4a7cfd397e99448dab473d2",
+      "url": "https://github.com/LENS-Views/dsh-api-usage-dashboard/blob/2284e068414b8a1a19da6b53044e15a12b06edcd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-api-usage-dashboard",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LENS-Views/dsh-api-usage-dashboard",
+        "commit": "2284e068414b8a1a19da6b53044e15a12b06edcd"
+      },
+      "manifestSha256": "bdd033b39723f4fd70083494f85a9b4aa9c21f57e8a5ddabcc064d844d82f393",
+      "manifestUrl": "https://github.com/LENS-Views/dsh-api-usage-dashboard/blob/2284e068414b8a1a19da6b53044e15a12b06edcd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-api-usage-dashboard",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1793893144,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LENS-Views/dsh-api-usage-dashboard",
+              "commit": "2284e068414b8a1a19da6b53044e15a12b06edcd"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LENS-Views/dsh-api-usage-dashboard",
+    "commit": "2284e068414b8a1a19da6b53044e15a12b06edcd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:51.585Z"
+}

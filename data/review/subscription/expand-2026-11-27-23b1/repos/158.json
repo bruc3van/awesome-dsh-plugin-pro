@@ -1,0 +1,77 @@
+{
+  "full_name": "Townrain/dsh-precise-cache",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:19.524Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5124e86b9461b0c366f5caca12b09336d4995385bc8458f3ed8034db6b14d2b3",
+      "url": "https://github.com/Townrain/dsh-precise-cache/blob/8fc122b32f2563a86738d253fc92d87de39d1cba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4f75312704e1c7cee10c021a9eeb9fd9fbc66786f7ebaabe883609b755bdcaf5",
+      "url": "https://github.com/Townrain/dsh-precise-cache/blob/8fc122b32f2563a86738d253fc92d87de39d1cba/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-precise-cache",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Townrain/dsh-precise-cache",
+        "commit": "8fc122b32f2563a86738d253fc92d87de39d1cba"
+      },
+      "manifestSha256": "a543868652dbbbdfac11240a43548c405bc0947be8a8ec5d31b5e8060b933210",
+      "manifestUrl": "https://github.com/Townrain/dsh-precise-cache/blob/8fc122b32f2563a86738d253fc92d87de39d1cba/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-precise-cache",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794552607,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Townrain/dsh-precise-cache",
+              "commit": "8fc122b32f2563a86738d253fc92d87de39d1cba"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Townrain/dsh-precise-cache",
+    "commit": "8fc122b32f2563a86738d253fc92d87de39d1cba",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:20.988Z"
+}

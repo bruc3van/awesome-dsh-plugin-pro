@@ -1,0 +1,50 @@
+{
+  "full_name": "Mutsum1-WY/dsh-work-chain",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:01.443Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1509571c39c9ab99963af60efff87b37f86722f9830e302935f64fe778bcbf6b",
+      "url": "https://github.com/Mutsum1-WY/dsh-work-chain/blob/31fae715bd42c1d613a2c08c70e4f979d765908b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-work-chain",
+      "version": "0.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mutsum1-WY/dsh-work-chain",
+        "commit": "31fae715bd42c1d613a2c08c70e4f979d765908b"
+      },
+      "manifestSha256": "47d370ea64da08ff56cd71077c0b2e71b4e91c94d6dc2c0b2218c67760fe33a4",
+      "manifestUrl": "https://github.com/Mutsum1-WY/dsh-work-chain/blob/31fae715bd42c1d613a2c08c70e4f979d765908b/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mutsum1-WY/dsh-work-chain",
+    "commit": "31fae715bd42c1d613a2c08c70e4f979d765908b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:02.750Z"
+}

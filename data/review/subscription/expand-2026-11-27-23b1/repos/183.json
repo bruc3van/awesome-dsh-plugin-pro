@@ -1,0 +1,50 @@
+{
+  "full_name": "YumenoSayuri/dsh-github-sync",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:26.480Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0f843b79c9d31bdb0eb5aa7399d9263315b3d16ee6c7ceaef565b97365a4547f",
+      "url": "https://github.com/YumenoSayuri/dsh-github-sync/blob/31b31678ed5117260abbee94664730ec09ad0b7b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-github-sync",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YumenoSayuri/dsh-github-sync",
+        "commit": "31b31678ed5117260abbee94664730ec09ad0b7b"
+      },
+      "manifestSha256": "f799b7b069ffba933db1dffff960c9e96a9416202e9f55fdd613083b41d4331e",
+      "manifestUrl": "https://github.com/YumenoSayuri/dsh-github-sync/blob/31b31678ed5117260abbee94664730ec09ad0b7b/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YumenoSayuri/dsh-github-sync",
+    "commit": "31b31678ed5117260abbee94664730ec09ad0b7b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:27.589Z"
+}

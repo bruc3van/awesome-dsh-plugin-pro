@@ -1,0 +1,51 @@
+{
+  "full_name": "LiuCrane/dsh-model-router",
+  "originalPosition": 68,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 68,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:53.604Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "883793e33205083a60e0bc0709ea12fa75408563611ca66f3881f02a8aeac275",
+      "url": "https://github.com/LiuCrane/dsh-model-router/blob/444e95397364be127addaa8175a445fe65dedc69/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-model-router",
+      "version": "1.0.0",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LiuCrane/dsh-model-router",
+        "commit": "444e95397364be127addaa8175a445fe65dedc69",
+        "path": "plugin"
+      },
+      "manifestSha256": "88c64a7f7f147eebf67e7719514ca8c6b636f2263ed92f92b9f4919d75445d04",
+      "manifestUrl": "https://github.com/LiuCrane/dsh-model-router/blob/444e95397364be127addaa8175a445fe65dedc69/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LiuCrane/dsh-model-router",
+    "commit": "444e95397364be127addaa8175a445fe65dedc69",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:54.812Z"
+}

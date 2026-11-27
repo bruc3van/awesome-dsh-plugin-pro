@@ -1,0 +1,50 @@
+{
+  "full_name": "Lumos0121/dsh-deepseek-chat",
+  "originalPosition": 75,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 75,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:55.405Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9fcf4c3744598c42b481055769971b6d4152a5ea796f74733354db540ea10277",
+      "url": "https://github.com/Lumos0121/dsh-deepseek-chat/blob/114b20e61adc99c1558f0e1c6b17c80eaf962c97/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-chat",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lumos0121/dsh-deepseek-chat",
+        "commit": "114b20e61adc99c1558f0e1c6b17c80eaf962c97"
+      },
+      "manifestSha256": "aa87feacc3f1ab0ac22760f6121aa46dcabbd21630ee6d6fdbac0e3247fa68ed",
+      "manifestUrl": "https://github.com/Lumos0121/dsh-deepseek-chat/blob/114b20e61adc99c1558f0e1c6b17c80eaf962c97/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lumos0121/dsh-deepseek-chat",
+    "commit": "114b20e61adc99c1558f0e1c6b17c80eaf962c97",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:56.570Z"
+}

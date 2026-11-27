@@ -1,0 +1,66 @@
+{
+  "full_name": "MC0571/DSH-Plugin-Word-Atlas",
+  "originalPosition": 79,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 79,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:56.024Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a1a2c695d2d99f7c5f4bd3df1ec5985cd5bed6e01c504c2f44f5f97736949f36",
+      "url": "https://github.com/MC0571/DSH-Plugin-Word-Atlas/blob/ffea2f1ce8ad0c3b8c4e25e33d14d315fc9cc7fa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "word-atlas-dsh",
+      "version": "0.6.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MC0571/DSH-Plugin-Word-Atlas",
+        "commit": "ffea2f1ce8ad0c3b8c4e25e33d14d315fc9cc7fa"
+      },
+      "manifestSha256": "2671624399c81e84b58b082339cbd1c929f176d4efeab4d896b49426affac373",
+      "manifestUrl": "https://github.com/MC0571/DSH-Plugin-Word-Atlas/blob/ffea2f1ce8ad0c3b8c4e25e33d14d315fc9cc7fa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "word-atlas-dsh",
+        "versions": [
+          {
+            "version": "0.6.7",
+            "publishTimestamp": 1794231526,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MC0571/DSH-Plugin-Word-Atlas",
+              "commit": "ffea2f1ce8ad0c3b8c4e25e33d14d315fc9cc7fa"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MC0571/DSH-Plugin-Word-Atlas",
+    "commit": "ffea2f1ce8ad0c3b8c4e25e33d14d315fc9cc7fa",
+    "releaseTags": 31,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:57.223Z"
+}

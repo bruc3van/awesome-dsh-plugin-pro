@@ -1,0 +1,58 @@
+{
+  "full_name": "LearnItHard/dsh-notebook-v2",
+  "originalPosition": 60,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:51.646Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2ad3f2de3cba7e7cac8d5f648b1a2d3f571dce73b4cbbcb3e4921bc231f4f3f8",
+      "url": "https://github.com/LearnItHard/dsh-notebook-v2/blob/19a0d433cfa1940b81a2a86399f456338153be84/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "32435681bfc3c9a2adad738b6cd16d2ffdec9bb7616a62702fba771a5208dfb8",
+      "url": "https://github.com/LearnItHard/dsh-notebook-v2/blob/19a0d433cfa1940b81a2a86399f456338153be84/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notebook-v2",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LearnItHard/dsh-notebook-v2",
+        "commit": "19a0d433cfa1940b81a2a86399f456338153be84"
+      },
+      "manifestSha256": "92244f13e52af1540cdf1a9d94c9ed77d9699b785cd10cb21ab256e2d0ea0da8",
+      "manifestUrl": "https://github.com/LearnItHard/dsh-notebook-v2/blob/19a0d433cfa1940b81a2a86399f456338153be84/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LearnItHard/dsh-notebook-v2",
+    "commit": "19a0d433cfa1940b81a2a86399f456338153be84",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:53.110Z"
+}

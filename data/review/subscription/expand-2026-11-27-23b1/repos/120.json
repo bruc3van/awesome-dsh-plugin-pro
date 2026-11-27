@@ -1,0 +1,69 @@
+{
+  "full_name": "QuantumKuba/dsh-webstack",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:06.168Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b74acdf2b30dccec01bbcb1c8c81319b35cc2a176f7aabd69a0a295aeb0a0ab9",
+      "url": "https://github.com/QuantumKuba/dsh-webstack/blob/459a2719aa1aaa5300130f0712bb201ca932ac8e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-webstack",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QuantumKuba/dsh-webstack",
+        "commit": "459a2719aa1aaa5300130f0712bb201ca932ac8e"
+      },
+      "manifestSha256": "27219cc02192257b26fec29d74daf241bca14a66557dcc9ad77da48f5740eb40",
+      "manifestUrl": "https://github.com/QuantumKuba/dsh-webstack/blob/459a2719aa1aaa5300130f0712bb201ca932ac8e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-webstack",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1791934173,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QuantumKuba/dsh-webstack",
+              "commit": "459a2719aa1aaa5300130f0712bb201ca932ac8e"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QuantumKuba/dsh-webstack",
+    "commit": "459a2719aa1aaa5300130f0712bb201ca932ac8e",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:07.340Z"
+}

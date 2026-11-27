@@ -1,0 +1,87 @@
+{
+  "full_name": "EverMind-AI/EverMe",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 83,
+  "startedAt": "2026-11-27T23:41:35.679Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "89606dbe8ffa0c93b76d046c81b0ecc2f1ca2a14aa87bbb9975e7774df67033a",
+      "url": "https://github.com/EverMind-AI/EverMe/blob/17ff36fb35a9c0a91daeb111f998e562613a8ac7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "63776277c8621d47b3426b96f706fd62b3b4b91f7c4ab6fbf3d6ae780499d0cd",
+      "url": "https://github.com/EverMind-AI/EverMe/blob/17ff36fb35a9c0a91daeb111f998e562613a8ac7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "cli/README.md",
+      "sha256": "05d6246f309c8fc66fea5e5919a620e88278af1c7606c9b4fc7a0e1e15b25c93",
+      "url": "https://github.com/EverMind-AI/EverMe/blob/17ff36fb35a9c0a91daeb111f998e562613a8ac7/cli/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@everme/dsh",
+      "version": "0.7.13",
+      "path": "plugins/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EverMind-AI/EverMe",
+        "commit": "17ff36fb35a9c0a91daeb111f998e562613a8ac7",
+        "path": "plugins/dsh"
+      },
+      "manifestSha256": "9db707ac539e48c4305db2e82a8e9e81f3c57cc602e7e49b8d71d010587e927e",
+      "manifestUrl": "https://github.com/EverMind-AI/EverMe/blob/17ff36fb35a9c0a91daeb111f998e562613a8ac7/plugins/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@everme/dsh",
+        "versions": [
+          {
+            "version": "0.7.13",
+            "publishTimestamp": 1795761963,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EverMind-AI/EverMe",
+              "commit": "17ff36fb35a9c0a91daeb111f998e562613a8ac7",
+              "path": "plugins/dsh"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EverMind-AI/EverMe",
+    "commit": "17ff36fb35a9c0a91daeb111f998e562613a8ac7",
+    "releaseTags": 39,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:40.937Z"
+}

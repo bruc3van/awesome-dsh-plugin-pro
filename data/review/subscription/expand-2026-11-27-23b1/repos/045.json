@@ -1,0 +1,74 @@
+{
+  "full_name": "JohnXu22786/db-connector",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:47.915Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ea4597e640bd3427f9c94e965efd35f5cfd43aa00de8da399f18470199b6359f",
+      "url": "https://github.com/JohnXu22786/db-connector/blob/5ac9a07546e29f7b515f9e1c57c037814d607297/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "4e48babc1a1e657b868fcf93ce7a8b746f6eca530eda0be0786174f9b248b5dd",
+      "url": "https://github.com/JohnXu22786/db-connector/blob/5ac9a07546e29f7b515f9e1c57c037814d607297/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-db-connector",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JohnXu22786/db-connector",
+        "commit": "5ac9a07546e29f7b515f9e1c57c037814d607297"
+      },
+      "manifestSha256": "f12667b9e7ff0f6db16b6e731f86916fffaa6a992de30cec55c0a7665515d223",
+      "manifestUrl": "https://github.com/JohnXu22786/db-connector/blob/5ac9a07546e29f7b515f9e1c57c037814d607297/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-db-connector",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790722027,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JohnXu22786/db-connector",
+              "commit": "5ac9a07546e29f7b515f9e1c57c037814d607297"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JohnXu22786/db-connector",
+    "commit": "5ac9a07546e29f7b515f9e1c57c037814d607297",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:49.384Z"
+}

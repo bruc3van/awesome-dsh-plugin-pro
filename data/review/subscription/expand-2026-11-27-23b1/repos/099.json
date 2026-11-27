@@ -1,0 +1,66 @@
+{
+  "full_name": "MrFeng-rancheng/dsh-ctxfold",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:00.451Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f7955e08ea1060d8678abef4f4344611a8a78c6bb0cdb3d5d27e8c935948aef",
+      "url": "https://github.com/MrFeng-rancheng/dsh-ctxfold/blob/2536582585d6ee9e158f1860b443e4f18bb74eb3/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ctxfold",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MrFeng-rancheng/dsh-ctxfold",
+        "commit": "2536582585d6ee9e158f1860b443e4f18bb74eb3"
+      },
+      "manifestSha256": "348bd0d72d5f2d83624315dd931eaeb78bbcacee898d854fd99d54be676cf188",
+      "manifestUrl": "https://github.com/MrFeng-rancheng/dsh-ctxfold/blob/2536582585d6ee9e158f1860b443e4f18bb74eb3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ctxfold",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1795431471,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MrFeng-rancheng/dsh-ctxfold",
+              "commit": "2536582585d6ee9e158f1860b443e4f18bb74eb3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MrFeng-rancheng/dsh-ctxfold",
+    "commit": "2536582585d6ee9e158f1860b443e4f18bb74eb3",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:01.714Z"
+}

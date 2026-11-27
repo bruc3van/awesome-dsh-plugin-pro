@@ -1,0 +1,69 @@
+{
+  "full_name": "WODE25500/dsh-token-diet",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:22.017Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fb133be09c4fd8ab5eb88dceb0cf0aedc9d8c0f10977b55c2b9a93eb944ba6b9",
+      "url": "https://github.com/WODE25500/dsh-token-diet/blob/516db6c1f20c91dfb7e705289bebc6046f7acac9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-token-diet",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WODE25500/dsh-token-diet",
+        "commit": "516db6c1f20c91dfb7e705289bebc6046f7acac9"
+      },
+      "manifestSha256": "8b4344e78dd80b1c9e672fa041d557ed4663319bc149efc74aeb01237dac5510",
+      "manifestUrl": "https://github.com/WODE25500/dsh-token-diet/blob/516db6c1f20c91dfb7e705289bebc6046f7acac9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.1 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-token-diet",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1787133519,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WODE25500/dsh-token-diet",
+              "commit": "516db6c1f20c91dfb7e705289bebc6046f7acac9"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WODE25500/dsh-token-diet",
+    "commit": "516db6c1f20c91dfb7e705289bebc6046f7acac9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:23.133Z"
+}

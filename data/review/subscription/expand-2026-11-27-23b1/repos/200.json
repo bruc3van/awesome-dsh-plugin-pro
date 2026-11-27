@@ -1,0 +1,74 @@
+{
+  "full_name": "Znk1314/dsh-workspace-categories",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:30.964Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7454224fc9a9df3ca04361c10ce279d9284f1effd5b38e62a1101223978be14e",
+      "url": "https://github.com/Znk1314/dsh-workspace-categories/blob/d35654146a2d1fda40a71f27c0bbbc9a1cfa331d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b8ce75550a79b2808cf57c13628d5c358e5d24f2a04e4516ff5a06b1dcd6ad3e",
+      "url": "https://github.com/Znk1314/dsh-workspace-categories/blob/d35654146a2d1fda40a71f27c0bbbc9a1cfa331d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace-categories",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Znk1314/dsh-workspace-categories",
+        "commit": "d35654146a2d1fda40a71f27c0bbbc9a1cfa331d"
+      },
+      "manifestSha256": "9fd8becad78abf53ca40197f53c383947214c76854dbb5e92263aea78e3cf86c",
+      "manifestUrl": "https://github.com/Znk1314/dsh-workspace-categories/blob/d35654146a2d1fda40a71f27c0bbbc9a1cfa331d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-workspace-categories",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1795364415,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Znk1314/dsh-workspace-categories",
+              "commit": "d35654146a2d1fda40a71f27c0bbbc9a1cfa331d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Znk1314/dsh-workspace-categories",
+    "commit": "d35654146a2d1fda40a71f27c0bbbc9a1cfa331d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:32.348Z"
+}

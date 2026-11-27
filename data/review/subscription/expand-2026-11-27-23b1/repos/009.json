@@ -1,0 +1,66 @@
+{
+  "full_name": "GRmaid/dsh-quick-session",
+  "originalPosition": 9,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 9,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:37.798Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "870b14b932bfe64fc78a41c35ae651d47d59da2ea7fe287c9d796447dc857c02",
+      "url": "https://github.com/GRmaid/dsh-quick-session/blob/59ebc69f32cac151095187e18f802d1fd0aa13cf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quick-session",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GRmaid/dsh-quick-session",
+        "commit": "59ebc69f32cac151095187e18f802d1fd0aa13cf"
+      },
+      "manifestSha256": "75b93fb2a0a4d220e3778b8574b65804a97de1aadce4516999c8bebf9f841815",
+      "manifestUrl": "https://github.com/GRmaid/dsh-quick-session/blob/59ebc69f32cac151095187e18f802d1fd0aa13cf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-quick-session",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792299959,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GRmaid/dsh-quick-session",
+              "commit": "59ebc69f32cac151095187e18f802d1fd0aa13cf"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GRmaid/dsh-quick-session",
+    "commit": "59ebc69f32cac151095187e18f802d1fd0aa13cf",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:39.107Z"
+}

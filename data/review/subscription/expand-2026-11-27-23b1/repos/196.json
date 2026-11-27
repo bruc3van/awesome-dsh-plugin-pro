@@ -1,0 +1,79 @@
+{
+  "full_name": "Ze-12138/dsh-commander",
+  "originalPosition": 196,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:29.966Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "261b3b96e2f3c23b51408873301c184951ac0b1e41cb887a97a31998bf66589a",
+      "url": "https://github.com/Ze-12138/dsh-commander/blob/bc52c4bdba82a588b1b25306c93d73f38b375e28/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "dsh-commander/README.md",
+      "sha256": "4f7902d8a920ce08b77de11bc3589ab6a2c6a3f9cd8b6119b9c0155964c29537",
+      "url": "https://github.com/Ze-12138/dsh-commander/blob/bc52c4bdba82a588b1b25306c93d73f38b375e28/dsh-commander/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-commander",
+      "version": "0.5.1",
+      "path": "dsh-commander",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ze-12138/dsh-commander",
+        "commit": "bc52c4bdba82a588b1b25306c93d73f38b375e28",
+        "path": "dsh-commander"
+      },
+      "manifestSha256": "d693738913bb5a40dbc05c71f403432c429be2f0ec1d2759a28a7ea7aef2ed43",
+      "manifestUrl": "https://github.com/Ze-12138/dsh-commander/blob/bc52c4bdba82a588b1b25306c93d73f38b375e28/dsh-commander/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-commander",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1793175558,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ze-12138/dsh-commander",
+              "commit": "bc52c4bdba82a588b1b25306c93d73f38b375e28",
+              "path": "dsh-commander"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ze-12138/dsh-commander",
+    "commit": "bc52c4bdba82a588b1b25306c93d73f38b375e28",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:31.369Z"
+}

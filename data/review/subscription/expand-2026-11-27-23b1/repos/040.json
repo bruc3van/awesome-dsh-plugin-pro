@@ -1,0 +1,74 @@
+{
+  "full_name": "JiamingShi-JsPhys/web-forager",
+  "originalPosition": 40,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 40,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:46.591Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8a1bc945209bf130d58e2d00313b7429c5b5a6a3ad0d69ae2f4a336815964c3f",
+      "url": "https://github.com/JiamingShi-JsPhys/web-forager/blob/26cf90ab8631c8f4c44faea08ffb9d9c468debd8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "538fd4a88adb2a063dbece7945ea8c1a41e3312e6d9a74fdd5fdcb26ddc3fb4b",
+      "url": "https://github.com/JiamingShi-JsPhys/web-forager/blob/26cf90ab8631c8f4c44faea08ffb9d9c468debd8/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "web-forager",
+      "version": "1.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JiamingShi-JsPhys/web-forager",
+        "commit": "26cf90ab8631c8f4c44faea08ffb9d9c468debd8"
+      },
+      "manifestSha256": "f600fa49fd491d06020250441eef822e4c2a9d01cb717e5551bfa58dd7b77b18",
+      "manifestUrl": "https://github.com/JiamingShi-JsPhys/web-forager/blob/26cf90ab8631c8f4c44faea08ffb9d9c468debd8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "web-forager",
+        "versions": [
+          {
+            "version": "1.3.2",
+            "publishTimestamp": 1795047934,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JiamingShi-JsPhys/web-forager",
+              "commit": "26cf90ab8631c8f4c44faea08ffb9d9c468debd8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JiamingShi-JsPhys/web-forager",
+    "commit": "26cf90ab8631c8f4c44faea08ffb9d9c468debd8",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:48.177Z"
+}

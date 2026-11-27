@@ -1,0 +1,51 @@
+{
+  "full_name": "HUANGjiale123-bit/dsh-desktop-control",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:40.469Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe57f371aa5bdb8cab5dfac225442c7fbdfca7360318050b0362e41636157112",
+      "url": "https://github.com/HUANGjiale123-bit/dsh-desktop-control/blob/306cffaa18bfc542d451e79caa1b4553be171960/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-desktop-control",
+      "version": "1.0.2",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HUANGjiale123-bit/dsh-desktop-control",
+        "commit": "306cffaa18bfc542d451e79caa1b4553be171960",
+        "path": "plugin"
+      },
+      "manifestSha256": "08087bbcf923974d2ff62c805840820b714c235cfe7dd2100562c2a80618f4bf",
+      "manifestUrl": "https://github.com/HUANGjiale123-bit/dsh-desktop-control/blob/306cffaa18bfc542d451e79caa1b4553be171960/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HUANGjiale123-bit/dsh-desktop-control",
+    "commit": "306cffaa18bfc542d451e79caa1b4553be171960",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:41:41.735Z"
+}

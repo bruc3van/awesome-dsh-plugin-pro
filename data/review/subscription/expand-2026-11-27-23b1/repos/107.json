@@ -1,0 +1,58 @@
+{
+  "full_name": "Nounoumm/-",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:02.927Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a5f25c2cd710610e3fb7cd7e2738f678f2752f3c7fb64d4d5c400fc4762d309d",
+      "url": "https://github.com/Nounoumm/-/blob/dc57dc447ce5e73c77dfab43df6d033e4f0ac3bc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c324065e87d80bcf23538d08b95d3c937c94d483a553b47286ee4eba335bc640",
+      "url": "https://github.com/Nounoumm/-/blob/dc57dc447ce5e73c77dfab43df6d033e4f0ac3bc/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/course-handout",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nounoumm/-",
+        "commit": "dc57dc447ce5e73c77dfab43df6d033e4f0ac3bc"
+      },
+      "manifestSha256": "c2f402f8211b7e3fffa5eba5fc9343fa0c8842aae900bafc51c71e1e1c1f1227",
+      "manifestUrl": "https://github.com/Nounoumm/-/blob/dc57dc447ce5e73c77dfab43df6d033e4f0ac3bc/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nounoumm/-",
+    "commit": "dc57dc447ce5e73c77dfab43df6d033e4f0ac3bc",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:04.489Z"
+}

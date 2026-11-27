@@ -1,0 +1,50 @@
+{
+  "full_name": "01float01/dsh-remote",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:35.685Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c52b989d5401eed79d82c9f212903965181c76945e8e7a51213e5b786727e99a",
+      "url": "https://github.com/01float01/dsh-remote/blob/d1ca8a40ce446f58a8f0e296c44521e553fbf842/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2a74247bc8d66136226962a399f7d43cffdb58089413d32b335b825d0fb1cc78",
+      "url": "https://github.com/01float01/dsh-remote/blob/d1ca8a40ce446f58a8f0e296c44521e553fbf842/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/01float01/dsh-remote",
+    "commit": "d1ca8a40ce446f58a8f0e296c44521e553fbf842",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-remote",
+    "version": "1.0.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=20"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:37.797Z"
+}

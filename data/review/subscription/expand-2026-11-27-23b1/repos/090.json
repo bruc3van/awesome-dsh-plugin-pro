@@ -1,0 +1,66 @@
+{
+  "full_name": "MinEagle/dsh-dingtalk-self",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:58.524Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97dd5724410d27fbdaf43f7e9b231eb5143825be7e2b890915b7b05253026ab6",
+      "url": "https://github.com/MinEagle/dsh-dingtalk-self/blob/f3b17ad461b6587ec6337f3a54ecf88560c27717/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dingtalk-self",
+      "version": "0.15.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MinEagle/dsh-dingtalk-self",
+        "commit": "f3b17ad461b6587ec6337f3a54ecf88560c27717"
+      },
+      "manifestSha256": "ba719dfa558d407c2523755fd799f3a40501561bc2a60418a5c245e71fcc32d6",
+      "manifestUrl": "https://github.com/MinEagle/dsh-dingtalk-self/blob/f3b17ad461b6587ec6337f3a54ecf88560c27717/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-dingtalk-self",
+        "versions": [
+          {
+            "version": "0.15.0",
+            "publishTimestamp": 1794975806,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MinEagle/dsh-dingtalk-self",
+              "commit": "f3b17ad461b6587ec6337f3a54ecf88560c27717"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MinEagle/dsh-dingtalk-self",
+    "commit": "f3b17ad461b6587ec6337f3a54ecf88560c27717",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:59.789Z"
+}

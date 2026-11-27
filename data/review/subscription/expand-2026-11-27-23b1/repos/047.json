@@ -1,0 +1,74 @@
+{
+  "full_name": "Jorgen233/dsh-why-reject-me",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:48.177Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b9789cec3e73e7eacdb7fb73a3c42da732b61ef02a391dbdc55b2cac94a9f78f",
+      "url": "https://github.com/Jorgen233/dsh-why-reject-me/blob/e0be40d4ac2cf08e3c76c2a98af27559d030628d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_en.md",
+      "sha256": "4705d5778b9d7457b68eeb5395f6e5fb097f6b7f3a445766f68ae08700badcda",
+      "url": "https://github.com/Jorgen233/dsh-why-reject-me/blob/e0be40d4ac2cf08e3c76c2a98af27559d030628d/README_en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-why-reject-me",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jorgen233/dsh-why-reject-me",
+        "commit": "e0be40d4ac2cf08e3c76c2a98af27559d030628d"
+      },
+      "manifestSha256": "ce5a81033daf683a1aa4f0b33d77373b07f3b742ffbffdecb8961434432c6b55",
+      "manifestUrl": "https://github.com/Jorgen233/dsh-why-reject-me/blob/e0be40d4ac2cf08e3c76c2a98af27559d030628d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-why-reject-me",
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1793375578,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jorgen233/dsh-why-reject-me",
+              "commit": "e0be40d4ac2cf08e3c76c2a98af27559d030628d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jorgen233/dsh-why-reject-me",
+    "commit": "e0be40d4ac2cf08e3c76c2a98af27559d030628d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:49.593Z"
+}

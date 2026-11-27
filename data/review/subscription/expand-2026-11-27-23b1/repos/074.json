@@ -1,0 +1,145 @@
+{
+  "full_name": "LuminariSoftwares/tool-guardian",
+  "originalPosition": 74,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 74,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:54.812Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b7806e0842120c3ae039c663cd92d7c7dfac711628d734677a15942cec84524",
+      "url": "https://github.com/LuminariSoftwares/tool-guardian/blob/501acf26a912296e3743e9dc2dd7269e9ab3c5ca/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-guardian",
+          "command": "dsh plugin --profile web add dsh-tool-guardian",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/claude-code/README.md",
+      "sha256": "954b3bce328db880343e880577e3f190e19d1438f77eca799e6004f0310492f7",
+      "url": "https://github.com/LuminariSoftwares/tool-guardian/blob/501acf26a912296e3743e9dc2dd7269e9ab3c5ca/examples/claude-code/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tool-guardian",
+      "version": "0.10.1-beta.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LuminariSoftwares/tool-guardian",
+        "commit": "501acf26a912296e3743e9dc2dd7269e9ab3c5ca"
+      },
+      "manifestSha256": "0b9103e1acae964020a0184fd8c29d712b97c563bf5fcf4cfcc2aaf03cb289a9",
+      "manifestUrl": "https://github.com/LuminariSoftwares/tool-guardian/blob/501acf26a912296e3743e9dc2dd7269e9ab3c5ca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-tool-guardian",
+        "versions": [
+          {
+            "version": "0.10.1-beta.1",
+            "publishTimestamp": 1794443414,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LuminariSoftwares/tool-guardian",
+              "commit": "501acf26a912296e3743e9dc2dd7269e9ab3c5ca"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tool-guardian",
+      "origin": "npm",
+      "name": "dsh-tool-guardian",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tool-guardian",
+        "title": "dsh-tool-guardian",
+        "description": "Too many MCP servers eating your context? Tool Guardian as a native DeepSeek Harness (DSH) bundle sits in front of all of them and loads each tool's schema only when it's needed. A bridge to the Python tool-guardian, not a rewrite.",
+        "author": "LuminariSoftwares",
+        "homepage": "https://github.com/LuminariSoftwares/tool-guardian",
+        "repository": {
+          "url": "https://github.com/LuminariSoftwares/tool-guardian"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "deepseek-harness",
+            "mcp",
+            "context-window",
+            "tools",
+            "router",
+            "progressive-disclosure",
+            "local-llm",
+            "ollama"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.10.1-beta.1",
+            "publishTimestamp": 1794070475,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "36fddd694e6b5ae1e86c29d5c75b217dd452bd6927432bfc7866b505e9515ec1",
+      "evidence": [
+        {
+          "name": "dsh-tool-guardian",
+          "version": "0.10.1-beta.1",
+          "tarball": "https://registry.npmjs.org/dsh-tool-guardian/-/dsh-tool-guardian-0.10.1-beta.1.tgz",
+          "integrity": "sha512-WzcnAfzxLniSkt/tT59IiP8hkF4qVfgMJwQR0f5Mw3lgbIXSNoxqWBb8YcqZs4KyJBBzjgFv/yHtbFYkQ4n/kw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-guardian",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LuminariSoftwares/tool-guardian",
+    "commit": "501acf26a912296e3743e9dc2dd7269e9ab3c5ca",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:56.437Z"
+}

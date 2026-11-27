@@ -1,0 +1,69 @@
+{
+  "full_name": "KHG420/git-worktree",
+  "originalPosition": 49,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 49,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:48.915Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "73b393fa0f0ddfbd4c23ec6fbca56e08029eb24b48348472aef0e0ea9c3d92bb",
+      "url": "https://github.com/KHG420/git-worktree/blob/2ad491e86ada2fcae580a9e7a0f638f62b882627/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-git-worktree",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KHG420/git-worktree",
+        "commit": "2ad491e86ada2fcae580a9e7a0f638f62b882627"
+      },
+      "manifestSha256": "1df88d2143ed118e4999798580a9b2af0d9ba96e72552be2a50691a6f4f78d9a",
+      "manifestUrl": "https://github.com/KHG420/git-worktree/blob/2ad491e86ada2fcae580a9e7a0f638f62b882627/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-git-worktree",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790641443,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KHG420/git-worktree",
+              "commit": "2ad491e86ada2fcae580a9e7a0f638f62b882627"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KHG420/git-worktree",
+    "commit": "2ad491e86ada2fcae580a9e7a0f638f62b882627",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:50.029Z"
+}

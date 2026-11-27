@@ -1,0 +1,69 @@
+{
+  "full_name": "Maxc100/dsh-cloud-backup",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:57.820Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "60f20c450d31aa231a7fd122d0a5d7a98988983fef9213c99c6b5be3843c967d",
+      "url": "https://github.com/Maxc100/dsh-cloud-backup/blob/34647be506339406b482dcb96a2fa065da497941/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cloud-backup",
+      "version": "0.1.145",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Maxc100/dsh-cloud-backup",
+        "commit": "34647be506339406b482dcb96a2fa065da497941"
+      },
+      "manifestSha256": "03f5f9901f37655bbea5df0251052ed2e19100b0b0d13947988184067fb32900",
+      "manifestUrl": "https://github.com/Maxc100/dsh-cloud-backup/blob/34647be506339406b482dcb96a2fa065da497941/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-cloud-backup",
+        "versions": [
+          {
+            "version": "0.1.145",
+            "publishTimestamp": 1795607301,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Maxc100/dsh-cloud-backup",
+              "commit": "34647be506339406b482dcb96a2fa065da497941"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Maxc100/dsh-cloud-backup",
+    "commit": "34647be506339406b482dcb96a2fa065da497941",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:59.021Z"
+}

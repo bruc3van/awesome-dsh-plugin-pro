@@ -1,0 +1,50 @@
+{
+  "full_name": "HuoGu-Hub/dsh-sense-img",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:42.779Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cd342fcc7c0d81fabde8e9bb53699d94e9a2ea52c4295b61cd1b78c5b1678a51",
+      "url": "https://github.com/HuoGu-Hub/dsh-sense-img/blob/f5b4dbe3a4649f2f61b711fd98bc6d3a05605e7e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sense-img",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuoGu-Hub/dsh-sense-img",
+        "commit": "f5b4dbe3a4649f2f61b711fd98bc6d3a05605e7e"
+      },
+      "manifestSha256": "cbe1304c42e65e876a6d1d1fd162daf9c817ebaa72812f0c4d6fbea62e387c46",
+      "manifestUrl": "https://github.com/HuoGu-Hub/dsh-sense-img/blob/f5b4dbe3a4649f2f61b711fd98bc6d3a05605e7e/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuoGu-Hub/dsh-sense-img",
+    "commit": "f5b4dbe3a4649f2f61b711fd98bc6d3a05605e7e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:43.874Z"
+}

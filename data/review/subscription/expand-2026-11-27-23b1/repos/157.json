@@ -1,0 +1,66 @@
+{
+  "full_name": "Tongyu3/dsh-qq-bot",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:19.106Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ac7c894a15d316a691b3c04a69d2509d54c87b27c37b030ae850bcb33f32043a",
+      "url": "https://github.com/Tongyu3/dsh-qq-bot/blob/5cae991800a43e8ff9c17a69b6cd5d7644cd0c4c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-napcat",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tongyu3/dsh-qq-bot",
+        "commit": "5cae991800a43e8ff9c17a69b6cd5d7644cd0c4c"
+      },
+      "manifestSha256": "7e84e45c68b6d7dbf3316725ee45bd06858880cc1e9eb8003ee0c5d8c8e0dd4e",
+      "manifestUrl": "https://github.com/Tongyu3/dsh-qq-bot/blob/5cae991800a43e8ff9c17a69b6cd5d7644cd0c4c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-napcat",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793786662,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tongyu3/dsh-qq-bot",
+              "commit": "5cae991800a43e8ff9c17a69b6cd5d7644cd0c4c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tongyu3/dsh-qq-bot",
+    "commit": "5cae991800a43e8ff9c17a69b6cd5d7644cd0c4c",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:20.283Z"
+}

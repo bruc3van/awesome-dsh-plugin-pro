@@ -1,0 +1,50 @@
+{
+  "full_name": "LJH-snow/dsh-tool-figma",
+  "originalPosition": 57,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 57,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:50.756Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9988288611724b5a0e7789c20b2a2ef706b3c5cd378ba4210d8ac1ba42337f3c",
+      "url": "https://github.com/LJH-snow/dsh-tool-figma/blob/ffd8729950079e1ce019e96a547821cfef0053ef/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "94a985020a3c4a085bc6c1d707b5cf47b3b80c599a05dbba11e4500ba273802a",
+      "url": "https://github.com/LJH-snow/dsh-tool-figma/blob/ffd8729950079e1ce019e96a547821cfef0053ef/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LJH-snow/dsh-tool-figma",
+    "commit": "ffd8729950079e1ce019e96a547821cfef0053ef",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@libai168/dsh-tool-figma",
+    "version": "0.2.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=22.19"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:52.359Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "Miaoyeah/dsh-approval-session-allow",
+  "originalPosition": 88,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:58.233Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ce010ff000c77181e2e1f00dd52612d351248ca224605bde7f872c709dfa9331",
+      "url": "https://github.com/Miaoyeah/dsh-approval-session-allow/blob/3a2ca3f319c198ac442a372b93152050ca54897a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-approval-session-allow",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Miaoyeah/dsh-approval-session-allow",
+        "commit": "3a2ca3f319c198ac442a372b93152050ca54897a"
+      },
+      "manifestSha256": "20a1b7dcf7983f67c42c8a2c87479e7e69cdff9fab6283e077e1ddc39e651c40",
+      "manifestUrl": "https://github.com/Miaoyeah/dsh-approval-session-allow/blob/3a2ca3f319c198ac442a372b93152050ca54897a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-approval-session-allow",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793251688,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Miaoyeah/dsh-approval-session-allow",
+              "commit": "3a2ca3f319c198ac442a372b93152050ca54897a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Miaoyeah/dsh-approval-session-allow",
+    "commit": "3a2ca3f319c198ac442a372b93152050ca54897a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:59.375Z"
+}

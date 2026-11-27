@@ -1,0 +1,66 @@
+{
+  "full_name": "Movingtoleveltwo/dsh-revert",
+  "originalPosition": 98,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:00.142Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "95c932a7c7ed7029d7079790b62844abd8b394049f4b0447291c79e8354dff00",
+      "url": "https://github.com/Movingtoleveltwo/dsh-revert/blob/2f822e3f485f9d5d366037a9f6cbc85c1612d933/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-revert",
+      "version": "1.0.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Movingtoleveltwo/dsh-revert",
+        "commit": "2f822e3f485f9d5d366037a9f6cbc85c1612d933"
+      },
+      "manifestSha256": "ea2d69fb39408ed8d7f3c2333f9290d05bc5bb4827f6f78c6578bd60f0169a6c",
+      "manifestUrl": "https://github.com/Movingtoleveltwo/dsh-revert/blob/2f822e3f485f9d5d366037a9f6cbc85c1612d933/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-revert",
+        "versions": [
+          {
+            "version": "1.0.16",
+            "publishTimestamp": 1791099788,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Movingtoleveltwo/dsh-revert",
+              "commit": "2f822e3f485f9d5d366037a9f6cbc85c1612d933"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Movingtoleveltwo/dsh-revert",
+    "commit": "2f822e3f485f9d5d366037a9f6cbc85c1612d933",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:01.442Z"
+}

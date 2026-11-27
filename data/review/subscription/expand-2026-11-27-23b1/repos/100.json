@@ -1,0 +1,58 @@
+{
+  "full_name": "Mulibaixi/dsh-composer-extension",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 100,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:00.905Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "38f27744695a9eb2f3a672e527f5a4910030e0680b59d67e98bc50ed670ee4b5",
+      "url": "https://github.com/Mulibaixi/dsh-composer-extension/blob/0d28d4c10a387d90b2eecc745a7072b3cc5b93ef/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c346d41e94b5127f99a4310ab5b1433db52b0ef0bed84a2fc354775be6ec248e",
+      "url": "https://github.com/Mulibaixi/dsh-composer-extension/blob/0d28d4c10a387d90b2eecc745a7072b3cc5b93ef/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-composer-extension",
+      "version": "0.4.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mulibaixi/dsh-composer-extension",
+        "commit": "0d28d4c10a387d90b2eecc745a7072b3cc5b93ef"
+      },
+      "manifestSha256": "cdc75bf57da2f8f3e45de6cc41c6400784a6610c5487c892c21b26bc73663b39",
+      "manifestUrl": "https://github.com/Mulibaixi/dsh-composer-extension/blob/0d28d4c10a387d90b2eecc745a7072b3cc5b93ef/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mulibaixi/dsh-composer-extension",
+    "commit": "0d28d4c10a387d90b2eecc745a7072b3cc5b93ef",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:02.440Z"
+}

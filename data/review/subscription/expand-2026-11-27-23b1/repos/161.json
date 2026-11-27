@@ -1,0 +1,66 @@
+{
+  "full_name": "Twofruitsgrape/dsh-comsol",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:20.285Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e9530c8fd6d738faec0a2596385975a1f9bdacba76c4a1b73034f56aecf25b0d",
+      "url": "https://github.com/Twofruitsgrape/dsh-comsol/blob/750a2659281fd93fe784f82f26d205e68b9692d3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comsol",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Twofruitsgrape/dsh-comsol",
+        "commit": "750a2659281fd93fe784f82f26d205e68b9692d3"
+      },
+      "manifestSha256": "40d7f73b335bef7528234fee233d7907c52cee2249e4224e47481f7bd93e6297",
+      "manifestUrl": "https://github.com/Twofruitsgrape/dsh-comsol/blob/750a2659281fd93fe784f82f26d205e68b9692d3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-comsol",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1791451283,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Twofruitsgrape/dsh-comsol",
+              "commit": "750a2659281fd93fe784f82f26d205e68b9692d3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Twofruitsgrape/dsh-comsol",
+    "commit": "750a2659281fd93fe784f82f26d205e68b9692d3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:21.509Z"
+}

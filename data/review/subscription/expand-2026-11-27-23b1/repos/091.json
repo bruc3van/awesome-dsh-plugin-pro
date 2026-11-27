@@ -1,0 +1,66 @@
+{
+  "full_name": "MingYU-kalo/dsh-https-fix",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:58.574Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4e09b6717d37991dd51a35a7d6c1c7ccb69e4506676eb552765ece8aea805409",
+      "url": "https://github.com/MingYU-kalo/dsh-https-fix/blob/be0ab5e5d755cff95d74ae5fb7b1155746a87e4d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-https-fix",
+      "version": "0.2.1-rc.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MingYU-kalo/dsh-https-fix",
+        "commit": "be0ab5e5d755cff95d74ae5fb7b1155746a87e4d"
+      },
+      "manifestSha256": "7ffa39a1a3ee94efe93261e21817e2a312c44eef4af2294137feef822e82c9f0",
+      "manifestUrl": "https://github.com/MingYU-kalo/dsh-https-fix/blob/be0ab5e5d755cff95d74ae5fb7b1155746a87e4d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-https-fix",
+        "versions": [
+          {
+            "version": "0.2.1-rc.2",
+            "publishTimestamp": 1792296043,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MingYU-kalo/dsh-https-fix",
+              "commit": "be0ab5e5d755cff95d74ae5fb7b1155746a87e4d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MingYU-kalo/dsh-https-fix",
+    "commit": "be0ab5e5d755cff95d74ae5fb7b1155746a87e4d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:59.704Z"
+}

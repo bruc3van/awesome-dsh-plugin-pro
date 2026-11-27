@@ -1,0 +1,77 @@
+{
+  "full_name": "NewSpringWei/dsh-biz-bridge",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:02.441Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f746f37208d2b08602da7818dc74202a3aa768b65222f27fbbca053b75e630cb",
+      "url": "https://github.com/NewSpringWei/dsh-biz-bridge/blob/51d5ba059209a3f617a5b4083a374da9e499c04c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "tools/bundle/README.md",
+      "sha256": "0933e89cb1746676310dd188ce897193d2d1887cd8b766e46bf005054b24fbf4",
+      "url": "https://github.com/NewSpringWei/dsh-biz-bridge/blob/51d5ba059209a3f617a5b4083a374da9e499c04c/tools/bundle/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-biz-bridge",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NewSpringWei/dsh-biz-bridge",
+        "commit": "51d5ba059209a3f617a5b4083a374da9e499c04c"
+      },
+      "manifestSha256": "be9ef5cea872abde78d6d1e031ce9df5639186eb50d8b2df0d05831b4234234c",
+      "manifestUrl": "https://github.com/NewSpringWei/dsh-biz-bridge/blob/51d5ba059209a3f617a5b4083a374da9e499c04c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-biz-bridge",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1792456824,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NewSpringWei/dsh-biz-bridge",
+              "commit": "51d5ba059209a3f617a5b4083a374da9e499c04c"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NewSpringWei/dsh-biz-bridge",
+    "commit": "51d5ba059209a3f617a5b4083a374da9e499c04c",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:03.942Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "KurohaneKaoruko/DSH-START",
+  "originalPosition": 52,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 52,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:49.594Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e0fc5725fdbf43d3e5a095e94b0d9b7bbbb64995c483eca1a25645551c98e8a4",
+      "url": "https://github.com/KurohaneKaoruko/DSH-START/blob/b85f3e30aefd81846ab8a98f707a2270a21b8c0e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-boot-sequence",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KurohaneKaoruko/DSH-START",
+        "commit": "b85f3e30aefd81846ab8a98f707a2270a21b8c0e"
+      },
+      "manifestSha256": "73ceaf40b31b43f724e4345ea4df1b0a66bfc201f458bbb00373197a2e16743a",
+      "manifestUrl": "https://github.com/KurohaneKaoruko/DSH-START/blob/b85f3e30aefd81846ab8a98f707a2270a21b8c0e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-boot-sequence",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792835296,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KurohaneKaoruko/DSH-START",
+              "commit": "b85f3e30aefd81846ab8a98f707a2270a21b8c0e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KurohaneKaoruko/DSH-START",
+    "commit": "b85f3e30aefd81846ab8a98f707a2270a21b8c0e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:50.749Z"
+}

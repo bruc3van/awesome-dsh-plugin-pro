@@ -1,0 +1,69 @@
+{
+  "full_name": "Tacrine/oh-my-dsh-omo-fork-chs",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:17.202Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6e3c489a6c58a424c6914fe97680586425f60dd66b73454fd21e45ac66cab9ec",
+      "url": "https://github.com/Tacrine/oh-my-dsh-omo-fork-chs/blob/572416bfb00e72fed336f806224c33bb2d541d9d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tacrine_f/oh-my-dsh-omo-fork-chs",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tacrine/oh-my-dsh-omo-fork-chs",
+        "commit": "572416bfb00e72fed336f806224c33bb2d541d9d"
+      },
+      "manifestSha256": "e06ca753e294934b4888edb6744b886ccbb86e2a7ffdd0fc34a4049d0c6a8c33",
+      "manifestUrl": "https://github.com/Tacrine/oh-my-dsh-omo-fork-chs/blob/572416bfb00e72fed336f806224c33bb2d541d9d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@tacrine_f/oh-my-dsh-omo-fork-chs",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1795790898,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tacrine/oh-my-dsh-omo-fork-chs",
+              "commit": "572416bfb00e72fed336f806224c33bb2d541d9d"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0 || >=0.2.0-0 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tacrine/oh-my-dsh-omo-fork-chs",
+    "commit": "572416bfb00e72fed336f806224c33bb2d541d9d",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:18.431Z"
+}

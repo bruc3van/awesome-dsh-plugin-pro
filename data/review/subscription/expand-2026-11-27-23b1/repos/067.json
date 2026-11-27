@@ -1,0 +1,50 @@
+{
+  "full_name": "Lipraty/dsh-session-import",
+  "originalPosition": 67,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:53.307Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3d9bad9c97cab477f4d09555da28307a52f0a35713a045563ecb6e168f2a002f",
+      "url": "https://github.com/Lipraty/dsh-session-import/blob/da9b58a132f3baae6cbb29099af84235626b5565/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-import",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lipraty/dsh-session-import",
+        "commit": "da9b58a132f3baae6cbb29099af84235626b5565"
+      },
+      "manifestSha256": "c657fd3d840e765617c9ee9adc94427cfbd9d4f3982989f5bb0e0d9d2c839009",
+      "manifestUrl": "https://github.com/Lipraty/dsh-session-import/blob/da9b58a132f3baae6cbb29099af84235626b5565/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lipraty/dsh-session-import",
+    "commit": "da9b58a132f3baae6cbb29099af84235626b5565",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:54.556Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "MnemosyneOS/dsh-agent-llm",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:59.259Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ce20ff43183577113c1faf9325609c46f8658b520576bc5c75c9d0b21eac83d3",
+      "url": "https://github.com/MnemosyneOS/dsh-agent-llm/blob/5cebce5091cd66cd96e9a74d36789f9bccb11487/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-llm",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MnemosyneOS/dsh-agent-llm",
+        "commit": "5cebce5091cd66cd96e9a74d36789f9bccb11487"
+      },
+      "manifestSha256": "b98d04c75613e83b800d847839fa59a7f8f3da25b1ab2a313ac66e3fc134cf02",
+      "manifestUrl": "https://github.com/MnemosyneOS/dsh-agent-llm/blob/5cebce5091cd66cd96e9a74d36789f9bccb11487/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-agent-llm",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1793862191,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MnemosyneOS/dsh-agent-llm",
+              "commit": "5cebce5091cd66cd96e9a74d36789f9bccb11487"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MnemosyneOS/dsh-agent-llm",
+    "commit": "5cebce5091cd66cd96e9a74d36789f9bccb11487",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:00.450Z"
+}

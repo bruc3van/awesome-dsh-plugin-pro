@@ -1,0 +1,66 @@
+{
+  "full_name": "HeiBai-king/dsh-pet",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 20,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:41.713Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7704cdbfffcdbd55509a466a4874940d20a56073e687dd59af1b16395fc85f73",
+      "url": "https://github.com/HeiBai-king/dsh-pet/blob/2b135341a5ef72e850ed138e7f6b3c9e0d589aee/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pet",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HeiBai-king/dsh-pet",
+        "commit": "2b135341a5ef72e850ed138e7f6b3c9e0d589aee"
+      },
+      "manifestSha256": "64e840c4830eb794c8d6d44295027c74c0795814d16ca0dd107e68ef17c40b40",
+      "manifestUrl": "https://github.com/HeiBai-king/dsh-pet/blob/2b135341a5ef72e850ed138e7f6b3c9e0d589aee/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pet",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1793461981,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HeiBai-king/dsh-pet",
+              "commit": "2b135341a5ef72e850ed138e7f6b3c9e0d589aee"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HeiBai-king/dsh-pet",
+    "commit": "2b135341a5ef72e850ed138e7f6b3c9e0d589aee",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:43.027Z"
+}

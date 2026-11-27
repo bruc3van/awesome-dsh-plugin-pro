@@ -1,0 +1,66 @@
+{
+  "full_name": "ImNotDerk/dsh-sidebar-notes",
+  "originalPosition": 32,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 32,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:44.223Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5f6c42e12472f2750ee0a34285197b027dfd3d030339ad591b9f05f93b01acc8",
+      "url": "https://github.com/ImNotDerk/dsh-sidebar-notes/blob/2f876b3ab82acacd5596c06b4f349448e047d5b2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sidebar-notes",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ImNotDerk/dsh-sidebar-notes",
+        "commit": "2f876b3ab82acacd5596c06b4f349448e047d5b2"
+      },
+      "manifestSha256": "a76c8c5c1e73c13ecb63d88b6ddc483f8d2d52022b74ee61221ff75acbd58a9e",
+      "manifestUrl": "https://github.com/ImNotDerk/dsh-sidebar-notes/blob/2f876b3ab82acacd5596c06b4f349448e047d5b2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-sidebar-notes",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1794372022,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ImNotDerk/dsh-sidebar-notes",
+              "commit": "2f876b3ab82acacd5596c06b4f349448e047d5b2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ImNotDerk/dsh-sidebar-notes",
+    "commit": "2f876b3ab82acacd5596c06b4f349448e047d5b2",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:45.460Z"
+}

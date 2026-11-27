@@ -1,0 +1,74 @@
+{
+  "full_name": "Planckbaka/dsh-plugin-github-workflows",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:04.222Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3ee58874c6fe8c3b8779375e33904ca772aec72ab243ef2c941fcd576ab23d42",
+      "url": "https://github.com/Planckbaka/dsh-plugin-github-workflows/blob/84026c60ed86965c88bb7c83756d4cdadaa26a39/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "92f92d00c7b1d9b004148eeefc4292c2b686c4b9c44678039b37a6f64725d620",
+      "url": "https://github.com/Planckbaka/dsh-plugin-github-workflows/blob/84026c60ed86965c88bb7c83756d4cdadaa26a39/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-github-workflows",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Planckbaka/dsh-plugin-github-workflows",
+        "commit": "84026c60ed86965c88bb7c83756d4cdadaa26a39"
+      },
+      "manifestSha256": "4421c113454e41b31df0364fee0227ec76d53b551f97c50899ed9cfca0030792",
+      "manifestUrl": "https://github.com/Planckbaka/dsh-plugin-github-workflows/blob/84026c60ed86965c88bb7c83756d4cdadaa26a39/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-github-workflows",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1790425563,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Planckbaka/dsh-plugin-github-workflows",
+              "commit": "84026c60ed86965c88bb7c83756d4cdadaa26a39"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Planckbaka/dsh-plugin-github-workflows",
+    "commit": "84026c60ed86965c88bb7c83756d4cdadaa26a39",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:05.610Z"
+}

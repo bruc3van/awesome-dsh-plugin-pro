@@ -1,0 +1,51 @@
+{
+  "full_name": "Moming114514/Sanye-dsh",
+  "originalPosition": 95,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 95,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:59.442Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b37d3db68f11419098d0e738854f18181b4a47615b962bd4d58f7be615ed8706",
+      "url": "https://github.com/Moming114514/Sanye-dsh/blob/ac3f3b7f2dbf30f6290b1f964b8a9f5eb4e7c022/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "surfcore",
+      "version": "0.8.1",
+      "path": "plugins/surfcore",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Moming114514/Sanye-dsh",
+        "commit": "ac3f3b7f2dbf30f6290b1f964b8a9f5eb4e7c022",
+        "path": "plugins/surfcore"
+      },
+      "manifestSha256": "1210bc86f8f944648c185cc8093e261aa9032845e87fdd3cf3c473fbe672b914",
+      "manifestUrl": "https://github.com/Moming114514/Sanye-dsh/blob/ac3f3b7f2dbf30f6290b1f964b8a9f5eb4e7c022/plugins/surfcore/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Moming114514/Sanye-dsh",
+    "commit": "ac3f3b7f2dbf30f6290b1f964b8a9f5eb4e7c022",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:00.900Z"
+}

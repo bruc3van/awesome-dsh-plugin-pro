@@ -1,0 +1,69 @@
+{
+  "full_name": "IStarFoxI/dsh-memory-calendar",
+  "originalPosition": 30,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 30,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:43.875Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1db37a480607dd418165bc3f96fa212c56ee514a06859d657d6d8a7852c31a4d",
+      "url": "https://github.com/IStarFoxI/dsh-memory-calendar/blob/26d0e8d4a2cc73f942e67320f85965d2f6e81e97/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-calendar",
+      "version": "1.0.0-beta.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/IStarFoxI/dsh-memory-calendar",
+        "commit": "26d0e8d4a2cc73f942e67320f85965d2f6e81e97"
+      },
+      "manifestSha256": "3f6006356f995c5a2e375d10364d4c6b9c1b901dab595a8a77ee79a8cecd0a30",
+      "manifestUrl": "https://github.com/IStarFoxI/dsh-memory-calendar/blob/26d0e8d4a2cc73f942e67320f85965d2f6e81e97/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-memory-calendar",
+        "versions": [
+          {
+            "version": "1.0.0-beta.2",
+            "publishTimestamp": 1793089094,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/IStarFoxI/dsh-memory-calendar",
+              "commit": "26d0e8d4a2cc73f942e67320f85965d2f6e81e97"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/IStarFoxI/dsh-memory-calendar",
+    "commit": "26d0e8d4a2cc73f942e67320f85965d2f6e81e97",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:45.132Z"
+}

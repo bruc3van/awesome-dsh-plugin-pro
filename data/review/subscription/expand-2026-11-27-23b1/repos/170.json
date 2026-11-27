@@ -1,0 +1,77 @@
+{
+  "full_name": "WhichWitchWin/dsh-power-button",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:22.799Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3fc9da34fc3f5d8beae9ca6cf9f971bde39e3b0edc5198449a829b236a781af5",
+      "url": "https://github.com/WhichWitchWin/dsh-power-button/blob/c00fa18961ea894de3ac3f2e6514018c225ca493/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "fa14ec8912b03f38bfd87a21256aa4c3a390f957f4f6c25ad1b0c06691f922f9",
+      "url": "https://github.com/WhichWitchWin/dsh-power-button/blob/c00fa18961ea894de3ac3f2e6514018c225ca493/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-power-button",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WhichWitchWin/dsh-power-button",
+        "commit": "c00fa18961ea894de3ac3f2e6514018c225ca493"
+      },
+      "manifestSha256": "172578a05ab2af9f61b92a706c76f80b53425f59c5b78ce1f60f855f3c1c5018",
+      "manifestUrl": "https://github.com/WhichWitchWin/dsh-power-button/blob/c00fa18961ea894de3ac3f2e6514018c225ca493/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-power-button",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791471035,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WhichWitchWin/dsh-power-button",
+              "commit": "c00fa18961ea894de3ac3f2e6514018c225ca493"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WhichWitchWin/dsh-power-button",
+    "commit": "c00fa18961ea894de3ac3f2e6514018c225ca493",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:24.142Z"
+}

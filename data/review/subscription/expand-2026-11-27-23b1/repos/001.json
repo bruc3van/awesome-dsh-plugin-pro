@@ -1,0 +1,58 @@
+{
+  "full_name": "nexu-io/opengame",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 2197,
+  "startedAt": "2026-11-27T23:41:35.674Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "77c2f97aa9e8c0732fa41f962710a15576f9cb990465b6491cb1ef62906bb93b",
+      "url": "https://github.com/nexu-io/opengame/blob/f17151f3cc7838ddbe13d9b94392e0f983fc341b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "48d6672c3417df5c7556f344755a038d4c4240b8ac6c0fcfb43d25cff095271b",
+      "url": "https://github.com/nexu-io/opengame/blob/f17151f3cc7838ddbe13d9b94392e0f983fc341b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "8accd6d82a8845d4fa85a36e84b3ca65baabedd0a01ba579a37432af0928e9c7",
+      "url": "https://github.com/nexu-io/opengame/blob/f17151f3cc7838ddbe13d9b94392e0f983fc341b/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nexu-io/opengame",
+    "commit": "f17151f3cc7838ddbe13d9b94392e0f983fc341b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "openmotion",
+    "version": "0.0.1",
+    "dsh": null,
+    "engines": {
+      "node": ">=22.18.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:40.778Z"
+}

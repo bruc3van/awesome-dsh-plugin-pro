@@ -1,0 +1,68 @@
+{
+  "full_name": "T1gerD/open-whale",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:16.177Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ff8278b3f8cb5ff5e397534882a9267e65b66ac89b78715b9826c9084f29860a",
+      "url": "https://github.com/T1gerD/open-whale/blob/0c341875fa0f20495c276e8b9e221cb5c5f912cc/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-openwhale",
+      "version": "3.0.11",
+      "path": "packages/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/T1gerD/open-whale",
+        "commit": "0c341875fa0f20495c276e8b9e221cb5c5f912cc",
+        "path": "packages/plugin"
+      },
+      "manifestSha256": "ba7e53d372c9c31b5a40d1464f0b8460548c00361f9c8da9c4f0700d7ef7bd42",
+      "manifestUrl": "https://github.com/T1gerD/open-whale/blob/0c341875fa0f20495c276e8b9e221cb5c5f912cc/packages/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-openwhale",
+        "versions": [
+          {
+            "version": "3.0.11",
+            "publishTimestamp": 1795580746,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/T1gerD/open-whale",
+              "commit": "0c341875fa0f20495c276e8b9e221cb5c5f912cc",
+              "path": "packages/plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/T1gerD/open-whale",
+    "commit": "0c341875fa0f20495c276e8b9e221cb5c5f912cc",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:18.750Z"
+}

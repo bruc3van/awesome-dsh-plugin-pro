@@ -1,0 +1,40 @@
+{
+  "full_name": "TrueHOOHA/dsh-plugin-dev-skill",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:20.017Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d34d468f620cce91867180601a4a727fbaa2ca05788790f50ba5fb52e3d462e3",
+      "url": "https://github.com/TrueHOOHA/dsh-plugin-dev-skill/blob/db2a5b2987fbfec0d9dad17ab31670ea1fda17b4/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TrueHOOHA/dsh-plugin-dev-skill",
+    "commit": "db2a5b2987fbfec0d9dad17ab31670ea1fda17b4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:42:20.944Z"
+}

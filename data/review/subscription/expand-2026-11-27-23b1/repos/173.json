@@ -1,0 +1,68 @@
+{
+  "full_name": "XZPRX/dsh-watch",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:24.037Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "935d0e7e457840580647fd5aba3d17f8924ef3e69706cfd76f95d677b262b67e",
+      "url": "https://github.com/XZPRX/dsh-watch/blob/dca2f4de963e2661a35d3955d7c8f03fb319c935/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-watch",
+      "version": "1.1.0",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XZPRX/dsh-watch",
+        "commit": "dca2f4de963e2661a35d3955d7c8f03fb319c935",
+        "path": "plugin"
+      },
+      "manifestSha256": "6294215d914fdbd6d55c43ef279ba6d3e541b74e650b3db4a53938be241f5b25",
+      "manifestUrl": "https://github.com/XZPRX/dsh-watch/blob/dca2f4de963e2661a35d3955d7c8f03fb319c935/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-watch",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1793504572,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XZPRX/dsh-watch",
+              "commit": "dca2f4de963e2661a35d3955d7c8f03fb319c935",
+              "path": "plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XZPRX/dsh-watch",
+    "commit": "dca2f4de963e2661a35d3955d7c8f03fb319c935",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:25.141Z"
+}

@@ -1,0 +1,445 @@
+{
+  "full_name": "ITC-cloud-soft/biz-ai",
+  "originalPosition": 31,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 31,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:44.109Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f75e363622928fc8a3e4773ba37a1d26155bbdaaa0fad36e46945e9d44fbc1c",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "07a58a9c05470ccca508cd33ea4cb607daf16aa6db9db58f3d4d63420dbea61b",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "6738a3d266a2170a04435dd5bd41443164360a1dfea29c1bd72c4cd04114f63c",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/skill/README.md",
+      "sha256": "64eae3bf0185d98bbdb0b54c61db5cf0c2dd5dcac4d1cffc438926b4a6fbae50",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/docs/skill/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/equipment-inspection/README.md",
+      "sha256": "b4659ebe923e8caafc13b77677c0da6203fb56d9f8ea23400d3b71b371aeecb8",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/examples/equipment-inspection/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/leave-requests/README.md",
+      "sha256": "5fb4feda875cd7776023bf4f2e1f4b526b8d1c998d9caa60e47f8099235aebc4",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/examples/leave-requests/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/help/README.md",
+      "sha256": "2e86802d34b129c67aaaae697ff2c3be7ed0a5de5c3e26bf74ceb77690e0823f",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/packages/help/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/slides/src/README.md",
+      "sha256": "58dbc746f3972b363ac9d53896ccc3dcbfa38ad095637de6f2f600d3bb9a4490",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/docs/slides/src/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/slides/marketing/src/README.md",
+      "sha256": "b7b0318bf9d6dcbd618e126824287fd1182b83e20a1046c97cfcff1b33755e09",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/docs/slides/marketing/src/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/protocol/README.md",
+      "sha256": "8a674b93cad64faa328ba3a547487d90979610aa7f4c702a2fb2e7eca0d8f4c8",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/packages/protocol/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/care-billing/README.md",
+      "sha256": "4df878d589aae6faf05b4def9b58c902e2587bc1b1bcaa853f519d75e54db2ce",
+      "url": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/examples/care-billing/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/dsh-core",
+      "version": "0.1.1",
+      "path": "packages/dsh-core",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "packages/dsh-core"
+      },
+      "manifestSha256": "b7e6632ba80b633e71326bd6188f12446e849fbeeaf5be8f702c6f10a76c61e9",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/packages/dsh-core/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/dsh-core",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "packages/dsh-core"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-approvals",
+      "version": "0.1.0",
+      "path": "plugins/approvals",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/approvals"
+      },
+      "manifestSha256": "90e9bf18338a441583db5762a0d69b88e3b1934168b8485114ba7fe97dbf7400",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/approvals/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-approvals",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/approvals"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-assistant",
+      "version": "0.1.1",
+      "path": "plugins/assistant",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/assistant"
+      },
+      "manifestSha256": "d059e5d42634b581155b276077dbf50065b99a2a9cc6d05feefbdd56d075ae3c",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/assistant/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-assistant",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/assistant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-events",
+      "version": "0.1.0",
+      "path": "plugins/events",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/events"
+      },
+      "manifestSha256": "ab45d02928c59b7a7a802a57d334e82bbb120f95b8ff7cebd106d2344c30aa54",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/events/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-events",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/events"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-identity",
+      "version": "0.1.0",
+      "path": "plugins/identity",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/identity"
+      },
+      "manifestSha256": "eee4426786a0448002883f2ac5a7492aa59a1c0f68d534b7e8a6ce2a9224722a",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/identity/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-identity",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/identity"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-memory",
+      "version": "0.1.1",
+      "path": "plugins/memory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/memory"
+      },
+      "manifestSha256": "d93b9e4af4554080f3d0e25379fafd524b9f633bcc1486da831281ba5c6d66fa",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/memory/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-memory",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/memory"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-notify",
+      "version": "0.1.0",
+      "path": "plugins/notify",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/notify"
+      },
+      "manifestSha256": "8408a0c557ce29874427d99a7d2b4c7006894e9c9092166cac8d81437e68d260",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/notify/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-notify",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/notify"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-persona",
+      "version": "0.1.0",
+      "path": "plugins/persona",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/persona"
+      },
+      "manifestSha256": "4e549deec3994a66cd97b2ac81332a313b9067a647cc1eda31489f6f1ed20b03",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/persona/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-persona",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/persona"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-reader",
+      "version": "0.1.0",
+      "path": "plugins/reader",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/reader"
+      },
+      "manifestSha256": "f3c0333524fd7078adce3447982e327cdf4404689c9351c0d49e173cfb59adf3",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/reader/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-reader",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/reader"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-bridge/plugin-tools",
+      "version": "0.1.0",
+      "path": "plugins/tools",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ITC-cloud-soft/biz-ai",
+        "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+        "path": "plugins/tools"
+      },
+      "manifestSha256": "15234ec2b941ddb2530da012019dabf07ad96157e8370ed69e0f428d760f2a7d",
+      "manifestUrl": "https://github.com/ITC-cloud-soft/biz-ai/blob/9d76d97cbdfb71224f750b97f4831ba5a37efe15/plugins/tools/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-bridge/plugin-tools",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795760671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ITC-cloud-soft/biz-ai",
+              "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+              "path": "plugins/tools"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ITC-cloud-soft/biz-ai",
+    "commit": "9d76d97cbdfb71224f750b97f4831ba5a37efe15",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:53.122Z"
+}

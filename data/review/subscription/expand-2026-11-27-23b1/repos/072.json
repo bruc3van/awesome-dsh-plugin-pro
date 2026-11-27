@@ -1,0 +1,77 @@
+{
+  "full_name": "Lrht-llw/dsh-skillswitch",
+  "originalPosition": 72,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 72,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:54.517Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e25f47f094d9723d2023de8ad8249601272a07ca160835f3215622d8c142eaa6",
+      "url": "https://github.com/Lrht-llw/dsh-skillswitch/blob/fdc0e35ee5e34c42f2bdce5191af9b7acb9925fe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2131b317f50e2fb977c90d74388e2c35a0c6a449a752089a78f823bdb3507d01",
+      "url": "https://github.com/Lrht-llw/dsh-skillswitch/blob/fdc0e35ee5e34c42f2bdce5191af9b7acb9925fe/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skillswitch",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lrht-llw/dsh-skillswitch",
+        "commit": "fdc0e35ee5e34c42f2bdce5191af9b7acb9925fe"
+      },
+      "manifestSha256": "9bc2b22779a731b58f92da85e9bb0175eb67e3954adc4684952de6b888f31026",
+      "manifestUrl": "https://github.com/Lrht-llw/dsh-skillswitch/blob/fdc0e35ee5e34c42f2bdce5191af9b7acb9925fe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-skillswitch",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1795173722,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lrht-llw/dsh-skillswitch",
+              "commit": "fdc0e35ee5e34c42f2bdce5191af9b7acb9925fe"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lrht-llw/dsh-skillswitch",
+    "commit": "fdc0e35ee5e34c42f2bdce5191af9b7acb9925fe",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:55.839Z"
+}

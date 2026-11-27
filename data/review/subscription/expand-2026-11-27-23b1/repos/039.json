@@ -1,0 +1,50 @@
+{
+  "full_name": "JessenReinhart/dsh-snapcompact",
+  "originalPosition": 39,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 39,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:46.489Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e10daefb41a0da6f699861d27f18dddbcfe6536f3311a7941ca91d435d215368",
+      "url": "https://github.com/JessenReinhart/dsh-snapcompact/blob/22c2d5714c656d863aa51fa3f12fd55d7c2e6029/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-snapcompact",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JessenReinhart/dsh-snapcompact",
+        "commit": "22c2d5714c656d863aa51fa3f12fd55d7c2e6029"
+      },
+      "manifestSha256": "c291377d642513a2e934d2bd19f6f963728b92b3e44130dda90359195b24f221",
+      "manifestUrl": "https://github.com/JessenReinhart/dsh-snapcompact/blob/22c2d5714c656d863aa51fa3f12fd55d7c2e6029/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JessenReinhart/dsh-snapcompact",
+    "commit": "22c2d5714c656d863aa51fa3f12fd55d7c2e6029",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:47.557Z"
+}

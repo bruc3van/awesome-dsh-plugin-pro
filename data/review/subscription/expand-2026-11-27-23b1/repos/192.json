@@ -1,0 +1,74 @@
+{
+  "full_name": "ZBCs-StudioCr-CN/dsh-skill-manager",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:29.012Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "30788fe572af9f32e33d6a7673a6803a39b254c6a5835784e6ac9b720e1a7281",
+      "url": "https://github.com/ZBCs-StudioCr-CN/dsh-skill-manager/blob/00337c84a2064e6c3946642f917315c6260467dd/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "213a6a51a777b71be5115077a6dbeb556e38dff03a5f38348bb8dcc35aa2ecfe",
+      "url": "https://github.com/ZBCs-StudioCr-CN/dsh-skill-manager/blob/00337c84a2064e6c3946642f917315c6260467dd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skill-manager",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZBCs-StudioCr-CN/dsh-skill-manager",
+        "commit": "00337c84a2064e6c3946642f917315c6260467dd"
+      },
+      "manifestSha256": "2b808b4bda060bae26e340448f3af61449c5ecd02ec7daac8199a12b5a9d947b",
+      "manifestUrl": "https://github.com/ZBCs-StudioCr-CN/dsh-skill-manager/blob/00337c84a2064e6c3946642f917315c6260467dd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-skill-manager",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1793849509,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ZBCs-StudioCr-CN/dsh-skill-manager",
+              "commit": "00337c84a2064e6c3946642f917315c6260467dd"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZBCs-StudioCr-CN/dsh-skill-manager",
+    "commit": "00337c84a2064e6c3946642f917315c6260467dd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:30.463Z"
+}

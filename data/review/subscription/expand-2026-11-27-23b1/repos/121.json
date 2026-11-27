@@ -1,0 +1,69 @@
+{
+  "full_name": "QwQ2333333-QaQ/dsh-search-chat",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:06.400Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "30e5e23f8b50fff76b745525f2da0e43930ee75ab1f6706db545b9b9432fc765",
+      "url": "https://github.com/QwQ2333333-QaQ/dsh-search-chat/blob/f076a87bae61909fcfebe3f65a9ccd6c43609c9d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-search-chat",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QwQ2333333-QaQ/dsh-search-chat",
+        "commit": "f076a87bae61909fcfebe3f65a9ccd6c43609c9d"
+      },
+      "manifestSha256": "06e914d5522fa46e86fc3c3b23556d582de1dea3e443d1830c8563881bf60536",
+      "manifestUrl": "https://github.com/QwQ2333333-QaQ/dsh-search-chat/blob/f076a87bae61909fcfebe3f65a9ccd6c43609c9d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-search-chat",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794112328,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QwQ2333333-QaQ/dsh-search-chat",
+              "commit": "f076a87bae61909fcfebe3f65a9ccd6c43609c9d"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QwQ2333333-QaQ/dsh-search-chat",
+    "commit": "f076a87bae61909fcfebe3f65a9ccd6c43609c9d",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:07.618Z"
+}

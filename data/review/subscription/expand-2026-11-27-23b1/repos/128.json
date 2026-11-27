@@ -1,0 +1,74 @@
+{
+  "full_name": "S1n7T/dsh-everything",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:08.808Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d3aed36037cfc906687f9d2db82a380c0767a98577b32c3d87501c72bcadaa4f",
+      "url": "https://github.com/S1n7T/dsh-everything/blob/393596da0316d8ea720b50d224d9c1e56b56575f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "f849e716c2ba0e55985d376ca291be0f64599641102309030205e74623e99274",
+      "url": "https://github.com/S1n7T/dsh-everything/blob/393596da0316d8ea720b50d224d9c1e56b56575f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-everything",
+      "version": "1.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/S1n7T/dsh-everything",
+        "commit": "393596da0316d8ea720b50d224d9c1e56b56575f"
+      },
+      "manifestSha256": "0ce15b41f406fdd0aee98ac917543931eee3e6787dfc2dcdd8700ce8aa5af56c",
+      "manifestUrl": "https://github.com/S1n7T/dsh-everything/blob/393596da0316d8ea720b50d224d9c1e56b56575f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-everything",
+        "versions": [
+          {
+            "version": "1.4.1",
+            "publishTimestamp": 1793077696,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/S1n7T/dsh-everything",
+              "commit": "393596da0316d8ea720b50d224d9c1e56b56575f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/S1n7T/dsh-everything",
+    "commit": "393596da0316d8ea720b50d224d9c1e56b56575f",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:10.232Z"
+}

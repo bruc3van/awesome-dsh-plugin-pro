@@ -1,0 +1,69 @@
+{
+  "full_name": "Jiaqingrun/DSH-Folotoy-AI-Passport",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:46.854Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a4b6d3339176a8880c53ff75dbd1ab858a9e268ea08eb10420cf911665176048",
+      "url": "https://github.com/Jiaqingrun/DSH-Folotoy-AI-Passport/blob/ae28b8cb705a11be91965ab372ae7a0910c9c75a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-folotoy-ai-passport",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jiaqingrun/DSH-Folotoy-AI-Passport",
+        "commit": "ae28b8cb705a11be91965ab372ae7a0910c9c75a"
+      },
+      "manifestSha256": "36a66ac6f0757e69b41033ae16eeeba7bb2008dea9832513f1befb87f376cde2",
+      "manifestUrl": "https://github.com/Jiaqingrun/DSH-Folotoy-AI-Passport/blob/ae28b8cb705a11be91965ab372ae7a0910c9c75a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-folotoy-ai-passport",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1795787930,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jiaqingrun/DSH-Folotoy-AI-Passport",
+              "commit": "ae28b8cb705a11be91965ab372ae7a0910c9c75a"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jiaqingrun/DSH-Folotoy-AI-Passport",
+    "commit": "ae28b8cb705a11be91965ab372ae7a0910c9c75a",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:48.052Z"
+}

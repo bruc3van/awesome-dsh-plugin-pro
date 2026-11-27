@@ -1,0 +1,50 @@
+{
+  "full_name": "YunoSeng/dsh-ensp",
+  "originalPosition": 186,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:27.504Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "89be89146541d62b054b96309cf6760eaa93e90b0ac09940eea897e66a601e26",
+      "url": "https://github.com/YunoSeng/dsh-ensp/blob/9f50b2a53d139230eff43ca73139f1940bd68b08/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ensp",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YunoSeng/dsh-ensp",
+        "commit": "9f50b2a53d139230eff43ca73139f1940bd68b08"
+      },
+      "manifestSha256": "26563e968cc56687d1c6730c31a20a592617670a6f43c48b940e016fcaa69c2b",
+      "manifestUrl": "https://github.com/YunoSeng/dsh-ensp/blob/9f50b2a53d139230eff43ca73139f1940bd68b08/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YunoSeng/dsh-ensp",
+    "commit": "9f50b2a53d139230eff43ca73139f1940bd68b08",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:42:28.726Z"
+}

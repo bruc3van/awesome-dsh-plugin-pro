@@ -1,0 +1,95 @@
+{
+  "full_name": "ZhangjiaxinGZS/dsh-role-team",
+  "originalPosition": 197,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 197,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:30.263Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2b74fbe868c32caa30275535dd3b82caef58d551d22a4ff2f47c29ebb3ac81c6",
+      "url": "https://github.com/ZhangjiaxinGZS/dsh-role-team/blob/39b96540b19ea29e3ddbd752698a8bb817422119/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-role-team@0.3.2",
+          "command": "dsh plugin --profile web add dsh-role-team@0.3.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "benchmarks/README.md",
+      "sha256": "5ac088b8a15ade5879204adaa5b0c095fcc481673c868d0ecc2bfc7234e807d1",
+      "url": "https://github.com/ZhangjiaxinGZS/dsh-role-team/blob/39b96540b19ea29e3ddbd752698a8bb817422119/benchmarks/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-role-team",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZhangjiaxinGZS/dsh-role-team",
+        "commit": "39b96540b19ea29e3ddbd752698a8bb817422119"
+      },
+      "manifestSha256": "1f4fb825fbec8b1831a32c46da025aed570484996752f8b253c8d4c242fbee23",
+      "manifestUrl": "https://github.com/ZhangjiaxinGZS/dsh-role-team/blob/39b96540b19ea29e3ddbd752698a8bb817422119/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-role-team",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1795784818,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ZhangjiaxinGZS/dsh-role-team",
+              "commit": "39b96540b19ea29e3ddbd752698a8bb817422119"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-role-team@0.3.2",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-role-team@0.3.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZhangjiaxinGZS/dsh-role-team",
+    "commit": "39b96540b19ea29e3ddbd752698a8bb817422119",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:31.872Z"
+}

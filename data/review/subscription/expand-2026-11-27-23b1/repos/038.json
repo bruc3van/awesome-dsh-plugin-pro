@@ -1,0 +1,74 @@
+{
+  "full_name": "JeremyWangCY/win-pilot",
+  "originalPosition": 38,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 38,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:45.722Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c2ee41ea7c697b901514792ec25f05d0ba75fb4177853c4b5bc1d7434292f1cb",
+      "url": "https://github.com/JeremyWangCY/win-pilot/blob/26ac873787f608deffb6580f34250cfbf0b0207f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1ced6039f30827c8a30166be74f9b3dac594c2f547c569e05da3a8d9c271a7a5",
+      "url": "https://github.com/JeremyWangCY/win-pilot/blob/26ac873787f608deffb6580f34250cfbf0b0207f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "win-pilot",
+      "version": "0.6.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JeremyWangCY/win-pilot",
+        "commit": "26ac873787f608deffb6580f34250cfbf0b0207f"
+      },
+      "manifestSha256": "5f2531c337419942bc72d7326b27b9d5fcfda38497ab1e05d8b37819175182dc",
+      "manifestUrl": "https://github.com/JeremyWangCY/win-pilot/blob/26ac873787f608deffb6580f34250cfbf0b0207f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "win-pilot",
+        "versions": [
+          {
+            "version": "0.6.7",
+            "publishTimestamp": 1795597396,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JeremyWangCY/win-pilot",
+              "commit": "26ac873787f608deffb6580f34250cfbf0b0207f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JeremyWangCY/win-pilot",
+    "commit": "26ac873787f608deffb6580f34250cfbf0b0207f",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:41:47.291Z"
+}

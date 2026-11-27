@@ -1,0 +1,50 @@
+{
+  "full_name": "Locietta/dsh-rewind-retry",
+  "originalPosition": 70,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 70,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:54.395Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c517e8fbe0710ffb2dfb116211d7abc5b9ca6505bc0936e13276de40f8fcb153",
+      "url": "https://github.com/Locietta/dsh-rewind-retry/blob/aca3e6584a7a7353b83632d6b047f8462d1f2786/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-rewind-retry",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Locietta/dsh-rewind-retry",
+        "commit": "aca3e6584a7a7353b83632d6b047f8462d1f2786"
+      },
+      "manifestSha256": "d80323b1b67459d37f71c23e567f24b33d70a40df9e025f2312d04fce548d4e8",
+      "manifestUrl": "https://github.com/Locietta/dsh-rewind-retry/blob/aca3e6584a7a7353b83632d6b047f8462d1f2786/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Locietta/dsh-rewind-retry",
+    "commit": "aca3e6584a7a7353b83632d6b047f8462d1f2786",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:55.618Z"
+}

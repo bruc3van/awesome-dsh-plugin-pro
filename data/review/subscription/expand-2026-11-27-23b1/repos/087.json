@@ -1,0 +1,40 @@
+{
+  "full_name": "Mchsd/dsh-qqbot-yuro",
+  "originalPosition": 87,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 87,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:58.140Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f0762ac6078c39cc8980058d9f6e85b7e1aea5b242a0fe710fd9e76f386b42c3",
+      "url": "https://github.com/Mchsd/dsh-qqbot-yuro/blob/46fb83c33be2150c91bbc86b242681a73531d9d6/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mchsd/dsh-qqbot-yuro",
+    "commit": "46fb83c33be2150c91bbc86b242681a73531d9d6",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-qqbot-yuro",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:41:59.257Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "YunLiZeMeng/dsh-window-control",
+  "originalPosition": 185,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 185,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:27.251Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cf7322f7123e2b6b3859d93e48e7642fa991a08b31fb24896cc1ecb5482ac058",
+      "url": "https://github.com/YunLiZeMeng/dsh-window-control/blob/8f05b09a377f560dc387137f6c2e3237c63bfc6a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-window-control",
+      "version": "1.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YunLiZeMeng/dsh-window-control",
+        "commit": "8f05b09a377f560dc387137f6c2e3237c63bfc6a"
+      },
+      "manifestSha256": "e3124d10817a7083b721e17c37255e9e52ee307d8c7996e4555b77226585eaf0",
+      "manifestUrl": "https://github.com/YunLiZeMeng/dsh-window-control/blob/8f05b09a377f560dc387137f6c2e3237c63bfc6a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-window-control",
+        "versions": [
+          {
+            "version": "1.4.2",
+            "publishTimestamp": 1792315139,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YunLiZeMeng/dsh-window-control",
+              "commit": "8f05b09a377f560dc387137f6c2e3237c63bfc6a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YunLiZeMeng/dsh-window-control",
+    "commit": "8f05b09a377f560dc387137f6c2e3237c63bfc6a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:28.561Z"
+}

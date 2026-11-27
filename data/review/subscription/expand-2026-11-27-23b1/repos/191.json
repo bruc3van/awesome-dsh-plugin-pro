@@ -1,0 +1,66 @@
+{
+  "full_name": "Yzm889/TianZheng-ai-plugin",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:28.732Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca9c32ebbcbb9a17c1ed80e00433b29ded43629bb8007bee6e098a9e756c32f9",
+      "url": "https://github.com/Yzm889/TianZheng-ai-plugin/blob/a47efa1f653f8791b20e8bf35bc886cc2fb82542/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-t20-arch",
+      "version": "0.10.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yzm889/TianZheng-ai-plugin",
+        "commit": "a47efa1f653f8791b20e8bf35bc886cc2fb82542"
+      },
+      "manifestSha256": "fcb0ffb90ed44af26c7467d6fc16fdba73a536f75df4fed3b1172d6e9ad0dfd9",
+      "manifestUrl": "https://github.com/Yzm889/TianZheng-ai-plugin/blob/a47efa1f653f8791b20e8bf35bc886cc2fb82542/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-t20-arch",
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1795038986,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yzm889/TianZheng-ai-plugin",
+              "commit": "a47efa1f653f8791b20e8bf35bc886cc2fb82542"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yzm889/TianZheng-ai-plugin",
+    "commit": "a47efa1f653f8791b20e8bf35bc886cc2fb82542",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:29.965Z"
+}

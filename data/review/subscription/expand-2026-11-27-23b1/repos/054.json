@@ -1,0 +1,50 @@
+{
+  "full_name": "LCYLYM/dsh-plugin-compat-guardian",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:41:50.030Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3667806e111e886b8a9eea9c1cd59635d2daac953178bac4d851db554093f421",
+      "url": "https://github.com/LCYLYM/dsh-plugin-compat-guardian/blob/41eccf40103ec818b45c8cb275be4da90c1bfecc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5e34a8e74f4ca6494a3b10cc7b7b6a741ecb5fbfe27bc7f08d59458458c7c87d",
+      "url": "https://github.com/LCYLYM/dsh-plugin-compat-guardian/blob/41eccf40103ec818b45c8cb275be4da90c1bfecc/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LCYLYM/dsh-plugin-compat-guardian",
+    "commit": "41eccf40103ec818b45c8cb275be4da90c1bfecc",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-plugin-compat-guardian",
+    "version": "0.1.1-dev.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=24.0.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-27T23:41:51.478Z"
+}

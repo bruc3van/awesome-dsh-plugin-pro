@@ -1,0 +1,130 @@
+{
+  "full_name": "SolvasHQ/dsh-theme",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:13.076Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5dfb3ac5cf86d3ab6978b64aad5f0bc5055f0fb87df9376ed39dbe961a74f93f",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7237eeaaceb3d0bbbeb52c1713a4eae35d42a9d8979774d4c10a2f77a41f0eac",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "90e27df4d20ef170b49d107d3c436c7cd79f200a110556e530043e8e78a90777",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "54259da2df66f40c0f982fa80884ad7610087fc29d5906d386c6b3dbc73728f2",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "77c67db8997fe03d68f3b0681fd85dd654ebfe7039a6992c433fd3fc8848d71e",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "ddf932263b067c141818a2d2ffc7848a5e52a8f127592b391e4a54b86ca213e2",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "4edbe322dedb901aa74b9829705c771a156c565c18c863232aa3e3a1457e7f73",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "611349d5c18484c8cb39603a58dcab9ded4f8d543af7ba624b1a7d9d2ca1719c",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "bd893fbebb16bf5cc8f638e19f4f256f42fab77ac6579971d6219ad040dfd974",
+      "url": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@solvashq/dsh-theme",
+      "version": "1.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SolvasHQ/dsh-theme",
+        "commit": "8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7"
+      },
+      "manifestSha256": "41962a371f1413d01c68f328a8bc6bdfb0c6ac7ac132a1d680227345e0359feb",
+      "manifestUrl": "https://github.com/SolvasHQ/dsh-theme/blob/8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@solvashq/dsh-theme",
+        "versions": [
+          {
+            "version": "1.5.0",
+            "publishTimestamp": 1794682207,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SolvasHQ/dsh-theme",
+              "commit": "8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SolvasHQ/dsh-theme",
+    "commit": "8a3c563f02e8a1e8195dcdc55b804fc85e9abfe7",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:16.436Z"
+}

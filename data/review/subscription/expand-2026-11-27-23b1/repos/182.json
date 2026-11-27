@@ -1,0 +1,50 @@
+{
+  "full_name": "Yixianqzm/dsh-go-memory-panel",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:26.383Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "573dc3a418939283102d0793fb9cc34d44a40266fc3e227010bee3d449e9e260",
+      "url": "https://github.com/Yixianqzm/dsh-go-memory-panel/blob/ddb25d879aaf57dfcb5d6c1d417fe280af73a489/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "local-memory",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yixianqzm/dsh-go-memory-panel",
+        "commit": "ddb25d879aaf57dfcb5d6c1d417fe280af73a489"
+      },
+      "manifestSha256": "380505a5bacb89f4a585b56ab5e6b7157256ca629ecc8fbbf2b8f7b7ee09d221",
+      "manifestUrl": "https://github.com/Yixianqzm/dsh-go-memory-panel/blob/ddb25d879aaf57dfcb5d6c1d417fe280af73a489/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yixianqzm/dsh-go-memory-panel",
+    "commit": "ddb25d879aaf57dfcb5d6c1d417fe280af73a489",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-27T23:42:27.503Z"
+}

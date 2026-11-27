@@ -1,0 +1,69 @@
+{
+  "full_name": "Ryuu-64/dsh-session-tools",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:08.476Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "16a369f0315a264857f2e0732af3021358c1226ecea800beaa93edc8f23581f4",
+      "url": "https://github.com/Ryuu-64/dsh-session-tools/blob/352a2349bebf33dd1655a4e2639c7f9133323102/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ryuu-64/dsh-session-tools",
+      "version": "0.10.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ryuu-64/dsh-session-tools",
+        "commit": "352a2349bebf33dd1655a4e2639c7f9133323102"
+      },
+      "manifestSha256": "9a6caad1722a9d4d574a87a466aa0f71c54f56597c978fafb4dc4b3ee28526d8",
+      "manifestUrl": "https://github.com/Ryuu-64/dsh-session-tools/blob/352a2349bebf33dd1655a4e2639c7f9133323102/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2 || 0.2.2-rc.3 || 0.2.2-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@ryuu-64/dsh-session-tools",
+        "versions": [
+          {
+            "version": "0.10.1",
+            "publishTimestamp": 1795748161,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ryuu-64/dsh-session-tools",
+              "commit": "352a2349bebf33dd1655a4e2639c7f9133323102"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.2-rc.3 || 0.2.2-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ryuu-64/dsh-session-tools",
+    "commit": "352a2349bebf33dd1655a4e2639c7f9133323102",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:09.599Z"
+}

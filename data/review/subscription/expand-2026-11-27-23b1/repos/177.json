@@ -1,0 +1,66 @@
+{
+  "full_name": "YKennen/dsh-zh-output",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 2,
+  "startedAt": "2026-11-27T23:42:25.144Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "58ee0f9d0011623c75deac2bae25239727c41b2ce038b90fbdbf8098d59b3b93",
+      "url": "https://github.com/YKennen/dsh-zh-output/blob/694a9339141f982ce2801675440d8f235d3b4c1b/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-zh-output",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YKennen/dsh-zh-output",
+        "commit": "694a9339141f982ce2801675440d8f235d3b4c1b"
+      },
+      "manifestSha256": "c72f52b350e4209c09e6280887e714b397d685ed9f71bc0e02adb3c4f25291b0",
+      "manifestUrl": "https://github.com/YKennen/dsh-zh-output/blob/694a9339141f982ce2801675440d8f235d3b4c1b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-zh-output",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788335889,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YKennen/dsh-zh-output",
+              "commit": "694a9339141f982ce2801675440d8f235d3b4c1b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YKennen/dsh-zh-output",
+    "commit": "694a9339141f982ce2801675440d8f235d3b4c1b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-27T23:42:26.279Z"
+}
