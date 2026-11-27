@@ -362,7 +362,6 @@ mindmap
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
 <!-- dsh:showcase:start -->
-- **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)**（[@CLICGGER-TYPES](https://github.com/CLICGGER-TYPES) · 2026-10-03）— 在 DSH Web 里养一只随真实工作成长的猪：照顾、学习、打工、钓鱼、图鉴和换肤；不注册模型工具，也不向对话注入宠物状态。npm 包 `dsh-piggy`，另有独立桌面版。
 - **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)**（[@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10）— 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪历史上下文并按需披露技能。
 - **[dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude)**（[@lcestou](https://github.com/lcestou) · 2026-10-13）— 把 Claude Code CLI 接入 DSH 作为模型提供方：用 `claude` 登录一次，在会话的模型选择器里选 Claude 模型即可，CLI 自带的权限模式、图片、续接与压缩都在 DSH 聊天里可用；DSH 的子智能体、后台任务和技能以 MCP 工具交给 Claude。工作区可通过 SSH 在另一台机器上运行 Claude。
 - **[dsh-zhihu-search](https://github.com/dsh-plugin-lab/dsh-zhihu-search)**（[@zlZayn](https://github.com/zlZayn) · 2026-10-27）— 把知乎检索接进 DSH：站内检索、全网检索与直答三个工具，走知乎开放平台官方 API 而非爬虫抓取，结果附带可引用的原始链接（站内结果另带点赞数），适合需要中文实时语料的研究与核查。
@@ -372,6 +371,7 @@ mindmap
 - **[dsh-xiaomi-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts)**（[@ppy-web](https://github.com/ppy-web) · 2026-11-20）— 音色工坊：为 DSH 添加小米 MiMo、豆包 Seed、BreezeBlue、DeepSeek 与浏览器语音，支持接入外部供应商与本地语音模型；提供文本过滤、实时流式朗读、音频历史试听与下载、可选 UI 音效及宿主事件播报，并开放客户端、宿主、Agent 与 HTTP 联动接口，已对接桌宠、QQ Bot、AI Passport 与小说听书。npm 包：`dsh-xiaomi-tts`。
 - **[sage-mem](https://github.com/gezi-wen/sage-mem)**（[@gezi-wen](https://github.com/gezi-wen) · 2026-11-22）— 会话之间记住你与项目：每条记忆是一个本地 Markdown 文件，只把命中的段落注入上下文；模型也能自己翻库、按行读原文，空闲时自动整理，过时的段落裁进 archive/ 而不是删掉。
 - **[dsh-auto-review](https://github.com/PerryLink/dsh-auto-review)**（[@PerryLink](https://github.com/PerryLink) · 2026-11-23）— 把越过沙箱边界的工具审批交给第二个模型：一个只读审查子代理（read/glob/grep 白名单）读取真实工作区、已脱敏的参数与你的风险规则，返回结构化 allow/deny 裁决和理由；审查器崩溃或超时默认失败关闭，拒绝理由回灌给调用模型，每次决策都能从会话日志（approval/asked → autoReview/verdict → approval/decided）重建。
+- **[dsh-skill-cockpit](https://github.com/huanlin-labs/dsh-skill-cockpit)**（[@huanlin-labs](https://github.com/huanlin-labs) · 2026-11-26）— DSH 的本地技能全能面板：四页管理（列表、分组、结构体检、用量统计），能看出哪个技能真被调用过；支持按相关度自动加载并分严格/标准/宽松三档，装前可先跑 `dsh-skill-cockpit-doctor` 自检。
 <!-- dsh:showcase:end -->
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
