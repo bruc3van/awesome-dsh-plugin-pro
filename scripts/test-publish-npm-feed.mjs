@@ -64,7 +64,7 @@ test('first publication, unchanged feed no-op and homepage correction', async (t
   const first = await run(root, 'return {status:404,ok:false}');
   assert.equal(first.status, 0, first.stderr);
   assert.match(first.stdout, /MOCK_NPM_PUBLISH/);
-  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog-v4.json', 'packages.json']);
+  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog-v4.json', 'packages.json', 'plugin-selection-meta.json']);
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   assert.equal(manifest.homepage, 'https://dsh-market-pro.com/');
   assert.equal(manifest.repository.url, 'git+https://github.com/bruc3van/awesome-dsh-plugin-pro.git');
