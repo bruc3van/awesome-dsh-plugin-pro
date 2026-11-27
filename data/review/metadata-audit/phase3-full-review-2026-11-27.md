@@ -61,8 +61,15 @@
 
 桌面/移动客户端壳（Tauri/Qt/RN 打包类）在现行 10 类目下无干净归属，多落 utilities 低置信——rubric 未将其判为 taxonomy_gap，但这是最集中的语义无家门类，下行决策可考虑在 market_exclusions/leaderboard_exclusions 既有口径下人工处理。
 
+## 写回执行记录（2026-11-27，commit 1cc6c7b）
+
+用户抽样验证后批准全部 6,664 行写回：1,232 个既有 override 覆盖 + 5,432 个新增键，category_overrides 总数 10,020 → 15,452。全套校验通过：validate-curated 0 errors、merge --check in sync、validate-packages/market-catalog/index 通过、测试 82/82 + 77/77。目录卷已重新派生（25 文件变更）。
+
+**后续注意**：developer-tools 卷达 1,090 KB，逼近 GitHub 1 MB 渲染上限，需拆分；订阅索引按既定传播链由下游 workflow 重生成时生效。
+
 ## 门禁待定事项
 
-1. override 冲突的 1,501 行：整体随写回覆盖 / 单独人工复核 / 跳过不回写
-2. 低置信队列 4,450 行的人工复核排期
-3. selection-metadata sidecar 的定稿格式与落位（market-pro 消费约定）
+1. ~~override 冲突的 1,501 行~~ —— 已随写回全部覆盖（用户抽样验证后批准）
+2. 低置信队列 4,450 行的人工复核排期（其中改判 2,668 未生效、未改判存疑 1,782）
+3. 中间带 2,116 行（改判但置信 0.7-0.8）未写回，可视人工复核产能一并处理
+4. selection-metadata sidecar 的定稿格式与落位（market-pro 消费约定）
