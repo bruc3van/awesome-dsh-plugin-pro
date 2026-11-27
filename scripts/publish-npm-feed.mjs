@@ -44,12 +44,14 @@ const files = ['data/packages.json', 'data/market-catalog-v4.json'];
 const catalog = await readSafeMarketCatalog(new URL('../', import.meta.url));
 const compactCatalog = buildCompactMarketCatalog(catalog);
 const packagesRaw = await readFile(resolve(root, 'data/packages.json'), 'utf8');
+const selectionMetaRaw = await readFile(resolve(root, 'data/plugin-selection-meta.json'), 'utf8');
+const selectionMeta = JSON.parse(selectionMetaRaw);
 // The digest certifies the data content alone: feed_version/published_at are
 // volatile publish metadata stamped into the shipped catalog only after the
 // digest is fixed — including them here would make every rebuild a new
 // version even when nothing in the data changed.
 const catalogContentRaw = `${JSON.stringify(compactCatalog)}\n`;
-const reads = [packagesRaw, catalogContentRaw];
+const reads = [packagesRaw, catalogContentRaw, selectionMetaRaw];
 const digest = createHash('sha256').update(reads.join('\n')).digest('hex');
 
 const generatedAt = new Date().toISOString();
@@ -127,10 +129,16 @@ function stampedCatalogRaw(version) {
   return `${JSON.stringify({ schema_version: 4, feed_version: version, published_at: generatedAt, ...compactCatalog })}\n`;
 }
 
+function stampedSelectionMetaRaw(version) {
+  return `${JSON.stringify({ feed_version: version, published_at: generatedAt, ...selectionMeta })}
+`;
+}
+
 async function writeDataFiles(version) {
   await Promise.all([
     writeFile(resolve(DIST, 'data/packages.json'), packagesRaw),
     writeFile(resolve(DIST, 'data/market-catalog-v4.json'), stampedCatalogRaw(version)),
+    writeFile(resolve(DIST, 'data/plugin-selection-meta.json'), stampedSelectionMetaRaw(version)),
   ]);
 }
 
