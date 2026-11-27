@@ -4,7 +4,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1817**
+- 本册收录 / Entries in this volume: **1818**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -1793,6 +1793,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [zdddrszj985/dsh-Phone-Linking](https://github.com/zdddrszj985/dsh-Phone-Linking) | 在 iPhone 上连接这台电脑的 DeepSeek Harness：自带局域网入口、公网隧道与横屏桌面层。LAN gateway, Cloudflare tunnel and a landscape desktop layer for the DSH web GUI on iPhone. | JavaScript | 0 | MIT | 2026-11-23 |
 | [zdddrszj985/dsh-QQ-Reader](https://github.com/zdddrszj985/dsh-QQ-Reader) | DSH 插件：读你勾选的 QQ 会话，先过滤噪声再总结要点，把「谁要做什么」整理成时间线；也能按日期回溯几个月前的消息。 | JavaScript | 0 | MIT | 2026-11-22 |
 | [zddzhangdada/dsh-remote-task](https://github.com/zddzhangdada/dsh-remote-task) | Remote task plugin for DeepSeek Harness: pair devices over Iroh, send tasks to remote sessions, and watch progress. | JavaScript | 0 | MIT | 2026-11-24 |
+| [zefferry/dsh-wechat-friendly](https://github.com/zefferry/dsh-wechat-friendly) | 在微信里远程使用 DSH：中文指令、图片卡片、多实例绑定。 | JavaScript | 0 | MIT | 2026-11-15 |
 | [zengpu987-ctrl/dsh-deep-connect](https://github.com/zengpu987-ctrl/dsh-deep-connect) | Cross-device session/task sync for DeepSeek Harness (DSH): same-account installs meet through a self-hosted cloud relay, E2E encrypted, relay sees ciphertext only. | JavaScript | 0 | MIT | 2026-10-28 |
 | [zengpu987-ctrl/dsh-wechat-daily](https://github.com/zengpu987-ctrl/dsh-wechat-daily) | DeepSeek Harness plugin: a Settings-resident WeChat daily report. Reads local WeChat 4.x databases read-only, ranks the day's chats, and separates what needs you from what to ignore. | JavaScript | 0 | MIT | 2026-10-19 |
 | [zergtant/dsh-remote-access](https://github.com/zergtant/dsh-remote-access) | DeepSeek Harness (dsh) 和 Desktop 远程访问插件：提供 TLS、登录认证、会话保护和 HTTP/WebSocket 透明反代，支持局域网及 FRP ，cloudflare隧道等远程访问。 | JavaScript | 0 | MIT | 2026-10-16 |

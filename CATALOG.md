@@ -20,7 +20,7 @@ The catalog is split into one volume per category — the full list outgrew GitH
 
 | 类目 / Category | 条目 / Entries |
 | --- | ---: |
-| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 1742 |
+| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 1737 |
 | [界面与体验（A–F） / UI & Experience (A–F)](./catalog/ui-experience.md) | 2150 |
 | [界面与体验（G–L） / UI & Experience (G–L)](./catalog/ui-experience-g-l.md) | 1830 |
 | [界面与体验（M–S） / UI & Experience (M–S)](./catalog/ui-experience-m-s.md) | 1886 |
@@ -28,10 +28,10 @@ The catalog is split into one volume per category — the full list outgrew GitH
 | [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 2101 |
 | [网页与浏览器（A–M） / Web & Browser (A–M)](./catalog/web-browser.md) | 601 |
 | [网页与浏览器（N–Z） / Web & Browser (N–Z)](./catalog/web-browser-n-z.md) | 466 |
-| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 1817 |
+| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 1818 |
 | [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 2124 |
-| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 4928 |
-| [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 967 |
+| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 4931 |
+| [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 968 |
 | [Agent、自动化与工作流（A–F） / Agents, Automation & Workflows (A–F)](./catalog/agents-workflows.md) | 1401 |
 | [Agent、自动化与工作流（G–M） / Agents, Automation & Workflows (G–M)](./catalog/agents-workflows-g-m.md) | 1599 |
 | [Agent、自动化与工作流（N–T） / Agents, Automation & Workflows (N–T)](./catalog/agents-workflows-n-t.md) | 1178 |

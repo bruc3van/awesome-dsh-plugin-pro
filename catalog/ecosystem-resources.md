@@ -4,7 +4,7 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1742**
+- 本册收录 / Entries in this volume: **1737**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -620,7 +620,6 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [hello-heyongping/dsh-helloai-bak](https://github.com/hello-heyongping/dsh-helloai-bak) | DeepSeek Harness 备份与恢复：把设置、凭据、技能、预设和本地插件一起打包，换电脑可还原回原目录 | TypeScript | 1 | MIT | 2026-10-07 |
 | [hello-heyongping/dsh-helloai-skills](https://github.com/hello-heyongping/dsh-helloai-skills) | DeepSeek Harness 技能与仓库管理：扫描本机所有 Agent 技能并注册成 DSH 可调用技能，支持从 GitHub 仓库一键安装 | TypeScript | 1 | MIT | 2026-10-07 |
 | [HenrlyLin16/dsh-quickstart](https://github.com/HenrlyLin16/dsh-quickstart) | DeepSeek Harness (dsh) community Quickstart — install, model channels, curated plugins (docs, not a plugin) | — | 1 | MIT | 2026-08-20 |
-| [heyiwe1/dsh-multi-agent-preset](https://github.com/heyiwe1/dsh-multi-agent-preset) | 为 DeepSeek Harness 打造的多 agent 协同 preset：方向师/架构师/执行者三角色热插拔 + 可交互三模工具栏与一键启动。开箱即用、随包协议完备。Multi-agent collaboration preset for DeepSeek Harness: hot-swappable three roles — Director, Architect and Executor, alongside an interactive three-module toolbar supporting one-click startup. Ready-to-use, with fully integrated bundled protocols. | JavaScript | 1 | — | 2026-08-18 |
 | [hezhongtang/dsh-update-copilot](https://github.com/hezhongtang/dsh-update-copilot) | Update copilot for DeepSeek Harness: full version radar over the DSH core, bundles &amp; every plugin (npm+git, package-centric across profiles); gated plugin updates, dual-mode gated core updates, patch-name audit. · DSH 更新助手：全量雷达 + 带闸门的插件与本体更新 + 补丁名体检 | JavaScript | 1 | MIT | 2026-09-30 |
 | [hh5631/dsh-plugin-updater](https://github.com/hh5631/dsh-plugin-updater) | 在 DSH Web 的已安装插件列表检查并安装兼容更新 | JavaScript | 1 | — | 2026-11-16 |
 | [hialuoy/deepseek-harness-desktop](https://github.com/hialuoy/deepseek-harness-desktop) | DeepSeek Harness 的官方桌面应用——以原生 WebView 加载 DeepSeek Harness 工作台,轻量、低内存、无需技术背景即可安装使用。  The official desktop app for DeepSeek Harness — a lightweight native shell that runs the DeepSeek Harness workspace in your system's built-in WebView. Small, fast, and installs without any technical setup. | Rust | 1 | — | 2026-09-10 |
@@ -988,7 +987,6 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [BitDG/dsh-plugins](https://github.com/BitDG/dsh-plugins) | Public collection of independently versioned DeepSeek Harness plugins | TypeScript | 0 | MIT | 2026-09-04 |
 | [bobby-sheng/dshget-plugin](https://github.com/bobby-sheng/dshget-plugin) | Search, inspect, update, and install DeepSeek Harness plugins from DSH Get. | JavaScript | 0 | MIT | 2026-09-12 |
 | [borui1757-cmd/dsh-gate](https://github.com/borui1757-cmd/dsh-gate) | Deploy gate for DSH plugins: organ-level host simulation, parallel fault-injection scenarios, contract drift check. tools/lab.mjs or scenarios/*.scenario.mjs plus exit code. | JavaScript | 0 | — | 2026-11-07 |
-| [borui1757-cmd/dsh-guard](https://github.com/borui1757-cmd/dsh-guard) | Danger-zone guard for DSH: single-instance check (two hosts on one profile lose 72% of writes), rolling snapshots, session integrity check, restore from the latest healthy snapshot. | JavaScript | 0 | — | 2026-11-07 |
 | [BotHarness/dsh-skill](https://github.com/BotHarness/dsh-skill) | Full-stack DeepSeek Harness plugin development skill — generated mirror of BotHarness/BotHarness. Install: npx skills add BotHarness/dsh-skill | — | 0 | MIT | 2026-09-20 |
 | [BoxMiao007/dsharbor](https://github.com/BoxMiao007/dsharbor) | 一个 DSH Web 的轻量启动器 | Rust | 0 | — | 2026-11-12 |
 | [BrokenDreamStar/dsh-skills-mcp](https://github.com/BrokenDreamStar/dsh-skills-mcp) | 为deepseek harness添加skills和mcp管理功能 | TypeScript | 0 | MIT | 2026-10-19 |
@@ -1078,7 +1076,6 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [dshplugin-app/dsh-plugin-registry](https://github.com/dshplugin-app/dsh-plugin-registry) | Discover and compare DeepSeek Harness plugins directly inside DSH. | TypeScript | 0 | MIT | 2026-09-12 |
 | [dshworks/plugins](https://github.com/dshworks/plugins) | The install decision for DeepSeek Harness plugins: the file that proves it installs, whether anyone still maintains it, and how crowded the shelf is. Not a twenty-fifth list. | TypeScript | 0 | MIT | 2026-11-07 |
 | [dubeno/dsh-agent-plugin-bridge](https://github.com/dubeno/dsh-agent-plugin-bridge) | 将符合Agent Plugin规范的插件适配到DSH生态 | TypeScript | 0 | MIT | 2026-08-25 |
-| [dududreamer/dsh-cookie-janitor](https://github.com/dududreamer/dsh-cookie-janitor) | Collapses the port-suffixed dsh-auth-* cookie pile so the DeepSeek Harness desktop shell never exhausts Node's 16 KB request-header budget. | JavaScript | 0 | MIT | 2026-11-01 |
 | [dujar/dsh-community-plugins](https://github.com/dujar/dsh-community-plugins) | DeepSeek Harness web-GUI plugin: discover and install community plugins from the dsh-plugin topic — searchable SQLite catalog, fork browser, local-plugin installs | JavaScript | 0 | MIT | 2026-08-25 |
 | [DuJunxi1993/DSH-Shell](https://github.com/DuJunxi1993/DSH-Shell) | Native desktop shells for the DeepSeek Harness (dsh) web UI: a Tauri app for Windows and a SwiftUI app for macOS, one per top-level directory. | Swift | 0 | — | 2026-10-30 |
 | [dungsil/dsh-plugins](https://github.com/dungsil/dsh-plugins) | DSH 플러그인 모음집 | TypeScript | 0 | MIT | 2026-11-12 |
@@ -1549,7 +1546,6 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [tamashi486/dsh-plugins-hub](https://github.com/tamashi486/dsh-plugins-hub) | Third-party plugin hub for DeepSeek Harness — official/community grouped plugin list inside Settings → Plugins, with update checks, one-click update, uninstall, and live enable/disable. | TypeScript | 0 | MIT | 2026-09-12 |
 | [TeaClearInkII/DSH-Marketplaces-Nexus](https://github.com/TeaClearInkII/DSH-Marketplaces-Nexus) | 一个DSH插件市场的市场集 · DSH 万市枢纽。 | Python | 0 | — | 2026-10-11 |
 | [Team-Commonly/commonly-dsh](https://github.com/Team-Commonly/commonly-dsh) | Commonly MCP bundle for DeepSeek Harness | — | 0 | Apache-2.0 | 2026-10-24 |
-| [tengyinan1994/dsh-project-runner](https://github.com/tengyinan1994/dsh-project-runner) | Grouped run panel for DeepSeek Harness: one click starts a project's services in a real PTY, streams live output, and keeps each run's log on disk for the agent to read. | JavaScript | 0 | MIT | 2026-10-22 |
 | [TerebiSAMA/dsh-plugin-update-all](https://github.com/TerebiSAMA/dsh-plugin-update-all) | One-click plugin update tab for the DeepSeek Harness Plugins page: check every installed plugin for a newer version and update them all in one pass, Git-pinned plugins included. | TypeScript | 0 | MIT | 2026-11-16 |
 | [tespio/dsh-report-card](https://github.com/tespio/dsh-report-card) | Independent dynamic benchmark for DSH plugins: boot delta, per-turn overhead, context tax, capability surface and risk flags - measured in a throwaway profile. | JavaScript | 0 | MIT | 2026-11-11 |
 | [TheChengXi/dsh-skills-reference](https://github.com/TheChengXi/dsh-skills-reference) | DSH plugin: cross-workspace skill referencing - declare references, update once, reuse everywhere | JavaScript | 0 | — | 2026-10-02 |
@@ -1717,7 +1713,6 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [zcx-zg/dsh-plugin-manager](https://github.com/zcx-zg/dsh-plugin-manager) | Manage installed DSH (DeepSeek Harness) plugins: list, enable, disable, delete - from model tools or a web Settings page. | JavaScript | 0 | MIT | 2026-11-21 |
 | [Ze-loong/dsh-quick-toggle](https://github.com/Ze-loong/dsh-quick-toggle) | Toggle DeepSeek Harness plugins from the composer: /toggle picker, 🔌 button, pins, disable-all with one-click restore. | JavaScript | 0 | MIT | 2026-11-25 |
 | [zefferry/dsh-plugin-manager-plus](https://github.com/zefferry/dsh-plugin-manager-plus) | DeepSeek Harness 插件管理增强：标签筛选、搜索排序、批量操作、图标与 AI 改名（非官方，Surface v1） | JavaScript | 0 | MIT | 2026-11-05 |
-| [zefferry/dsh-wechat-friendly](https://github.com/zefferry/dsh-wechat-friendly) | 在微信里远程使用 DSH：中文指令、图片卡片、多实例绑定。 | JavaScript | 0 | MIT | 2026-11-15 |
 | [Zeishuai-s-Project/ZeishuaiDeepSeekHarness](https://github.com/Zeishuai-s-Project/ZeishuaiDeepSeekHarness) | DSH的个人衍生版本，主要用于C#，C/C++，python，typescript开发 | TypeScript | 0 | MIT | 2026-09-12 |
 | [Zenith-Lxz/dsh-foundry](https://github.com/Zenith-Lxz/dsh-foundry) | DSH Foundry — zero-patch desktop distribution of official DeepSeek Harness | TypeScript | 0 | MIT | 2026-09-18 |
 | [zephyrpersonal/dsh-plugin-development-skill](https://github.com/zephyrpersonal/dsh-plugin-development-skill) | A reusable agent skill that turns user ideas into DeepSeek Harness plugins. | Python | 0 | MIT | 2026-08-15 |

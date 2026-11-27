@@ -51,7 +51,7 @@ mindmap
       Session and context management
       Scheduled loops and event wakeups
       Approval budget and checkpoints
-    Developer tools · 4928
+    Developer tools · 4931
       Git and diff
       Model gateways and keys
       Debugging and diagnostics
@@ -66,11 +66,11 @@ mindmap
       Image understanding and OCR
       Design canvas and UI restoration
       Speech synthesis and recognition
-    Integrations and sharing · 1817
+    Integrations and sharing · 1818
       Chat import and sharing
       Remote access
       IM and external integrations
-    Ecosystem and resources · 1742
+    Ecosystem and resources · 1737
       Plugin markets and registries
       Skill libraries and plugin managers
       Templates and scaffolds
@@ -78,7 +78,7 @@ mindmap
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Multi-agent orchestration · 967
+    Multi-agent orchestration · 968
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
