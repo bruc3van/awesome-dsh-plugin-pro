@@ -4,7 +4,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **466**
+- 本册收录 / Entries in this volume: **467**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -352,6 +352,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [Tindada/banso-dsh](https://github.com/Tindada/banso-dsh) | 基于 DeepSeek Harness 的网页研究助手，支持搜索、阅读网页、证据提取与面向模型的会话内资料管理。 | JavaScript | 0 | MIT | 2026-10-30 |
 | [tingaidehua/dsh-deploy-web](https://github.com/tingaidehua/dsh-deploy-web) | DSH plugin: publish /app/&lt;slug&gt;/ and /demo/&lt;slug&gt;/ static or proxy sites | JavaScript | 0 | — | 2026-10-12 |
 | [TixAn9/DSHdesktop-restart-bottom](https://github.com/TixAn9/DSHdesktop-restart-bottom) | 给桌面DSH写的重启插件 | JavaScript | 0 | — | 2026-09-30 |
+| [TokensAPI/tokens_DshWebSearch_code](https://github.com/TokensAPI/tokens_DshWebSearch_code) | Zero-config web search plugin for DeepSeek Harness with automatic provider fallback. | JavaScript | 0 | MIT | 2026-11-26 |
 | [treasure-liu/dsh-zhihu-reader](https://github.com/treasure-liu/dsh-zhihu-reader) | 知乎搜索 + 专栏全文读取 + 独立登录（DeepSeek Harness 插件） | JavaScript | 0 | MIT | 2026-11-05 |
 | [tristan-mcinnis/dsh-browser-vision](https://github.com/tristan-mcinnis/dsh-browser-vision) | Browser tool for DeepSeek Harness that can SEE the page: browser-use over CDP driven by deepseek-v4-flash-vision-exp. Reads canvas text, text inside images and rendered charts, returns schema-validated JSON, and reports per-run cost. | Python | 0 | MIT | 2026-09-16 |
 | [tubeagentkit/dsh-getyoutubetranscript](https://github.com/tubeagentkit/dsh-getyoutubetranscript) | DeepSeek Harness (dsh) plugin: mounts the hosted GetYouTubeTranscript MCP server. YouTube transcripts in any caption language, search, channels and playlists. | — | 0 | MIT | 2026-11-20 |

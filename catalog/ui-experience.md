@@ -4,7 +4,7 @@ DSH 插件全量目录的「界面与体验（A–F）」分册 / The "UI & Expe
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **2150**
+- 本册收录 / Entries in this volume: **2151**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -1068,6 +1068,7 @@ DSH 插件全量目录的「界面与体验（A–F）」分册 / The "UI & Expe
 | [0345-0433/dsh-continue-cost](https://github.com/0345-0433/dsh-continue-cost) | DeepSeek Harness 插件：显示对话轮数与续聊差价 —— 继续当前对话比新开一次多花多少钱 | JavaScript | 0 | MIT | 2026-11-22 |
 | [060703Hyj/dsh-aqua-dsh021](https://github.com/060703Hyj/dsh-aqua-dsh021) | Aqua glass theme for DeepSeek Harness, adapted for DSH 0.2.1-rc.2 (only tested on 0.2.1-rc.2) | JavaScript | 0 | AGPL-3.0 | 2026-10-24 |
 | [0w0miki/dsh-question-rail](https://github.com/0w0miki/dsh-question-rail) | 给Deepseek Harness滚动条加上提问节点 | TypeScript | 0 | — | 2026-09-01 |
+| [0xramin/deepseek-rtl](https://github.com/0xramin/deepseek-rtl) | Persian RTL plugin for DeepSeek Harness — smart bidi text, bundled Vazirmatn, one-command install with npx. | JavaScript | 0 | MIT | 2026-11-15 |
 | [1015677515/dsh-glass-opaque-fix](https://github.com/1015677515/dsh-glass-opaque-fix) | Restores opaque backgrounds on floating panels that the liquid-glass theme (dsh-plugin-wallpaper-engine) made translucent — a copy-paste recipe, one selector per plugin. | JavaScript | 0 | MIT | 2026-10-16 |
 | [1020252969/dsh-wallpaper](https://github.com/1020252969/dsh-wallpaper) | A DSH wallpaper plugin: bundled default background, live control panel, translucent shell tokens. | JavaScript | 0 | — | 2026-11-07 |
 | [1032740078/dsh-web-url-view](https://github.com/1032740078/dsh-web-url-view) | Shows the DSH Web GUI access URLs in Settings, including a stable fixed address that survives desktop restarts and is reachable from other devices on the same LAN. 在设置页显示固定的 Web 访问地址，局域网内其他设备也能直接打开。 | JavaScript | 0 | MIT | 2026-09-13 |

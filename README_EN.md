@@ -37,32 +37,32 @@ No extra plugin required — add the curated index directly to DSH's built-in Di
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-11-26 the catalog lists **31,064** verified repositories. Here is the shape of it:
+As of 2026-11-26 the catalog lists **31,077** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 31064))
-    UI and experience · 7727
+  root((DSH ecosystem 31077))
+    UI and experience · 7728
       Usage and billing panels
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Agents automation workflows · 5178
+    Agents automation workflows · 5182
       Session and context management
       Scheduled loops and event wakeups
       Approval budget and checkpoints
-    Developer tools · 4931
+    Developer tools · 4932
       Git and diff
       Model gateways and keys
       Debugging and diagnostics
-    Utilities and more · 3413
+    Utilities and more · 3417
       Files and encodings
       Format conversion
     Knowledge and research · 2124
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Design media and vision · 2101
+    Design media and vision · 2102
       Image understanding and OCR
       Design canvas and UI restoration
       Speech synthesis and recognition
@@ -74,11 +74,11 @@ mindmap
       Plugin markets and registries
       Skill libraries and plugin managers
       Templates and scaffolds
-    Web and browser · 1067
+    Web and browser · 1068
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Multi-agent orchestration · 968
+    Multi-agent orchestration · 969
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
@@ -386,7 +386,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Market data (npm feed):** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) publishes `market-catalog-v4.json` (schema 4 compact catalog with install status and mappings, the subscription, and editorial picks) and `packages.json` (the install-mapping source). It is projected by `scripts/safe-market-catalog.mjs`, packaged by `publish-npm-feed.mjs`, and mirrored through npmmirror. Schema 3 has been retired. See the [consumer specification](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md).
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-11-26, the catalog lists **31,064** repositories across **42** primary languages; **28,581** declare a license and **30,719** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-11-26, the catalog lists **31,077** repositories across **42** primary languages; **28,593** declare a license and **30,732** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

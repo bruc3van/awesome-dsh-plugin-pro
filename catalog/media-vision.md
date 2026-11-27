@@ -4,7 +4,7 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **2101**
+- 本册收录 / Entries in this volume: **2102**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -346,6 +346,7 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 | [tkliuxing/dsh-video-forge](https://github.com/tkliuxing/dsh-video-forge) | Online-model video generation for DeepSeek Harness: three model tools, a durable provider-task ledger that survives restarts, live chat cards and a Videos panel, cost estimates from a public price feed. | TypeScript | 4 | MIT | 2026-11-26 |
 | [W3967/dsh-workflow-form](https://github.com/W3967/dsh-workflow-form) | A generic ComfyUI front end for DeepSeek Harness: import any API-format workflow, get a form generated from its graph. Ships Krea 2 presets. · DSH 里的通用 ComfyUI 工作台：导入任意 API 格式工作流，自动生成参数表单；内置 Krea 2 预设。 | JavaScript | 4 | MIT | 2026-11-23 |
 | [WJZ-P/dsh-model-capabilities](https://github.com/WJZ-P/dsh-model-capabilities) | DeepSeek Herness plugin. dsh插件，支持在创建自定义模型时手动选择模型能力，比如模型是否支持图片输入等。DeepSeek Herness plugin. dsh插件，支持在创建自定义模型时手动选择模型能力，比如模型是否支持图片输入等。DeepSeek Herness plugin. dsh插件，支持在创建自定义模型时手动选择模型能力，比如模型是否支持图片输入等。The DSH plugin allows users to manually configure model capabilities when creating a custom model, such as image input support. | JavaScript | 4 | MIT | 2026-10-12 |
+| [world-geniuses/WhaleDraw](https://github.com/world-geniuses/WhaleDraw) | WhaleDraw：无限画布 AI 创作工作台，支持 DeepSeek Harness（DSH）插件。 | TypeScript | 4 | MIT | 2026-11-26 |
 | [wyf-yfw/dsh-creation-mode](https://github.com/wyf-yfw/dsh-creation-mode) | DeepSeek Harness 插件。333 种代码动画风格：问需求 → 选风格看参考静帧 → 审分镜 → 生成 HTML 动画 → 预览并导出 MP4。画面与配乐都由 Agent 当场写，零依赖，不用 ffmpeg 或 playwright。 | JavaScript | 4 | NOASSERTION | 2026-11-11 |
 | [xiaozhe7772222/dsh-draw-router](https://github.com/xiaozhe7772222/dsh-draw-router) | Universal image generation router for DeepSeek Harness (DSH): auto-discovers image models from any OpenAI-compatible endpoint. Supports SenseNova, StepFun, Agnes, Qwen, Flux, SD, Imagen and more. \| DeepSeek Harness 统一绘图路由器 | JavaScript | 4 | MIT | 2026-09-18 |
 | [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) | 这是一个可以让你边对话边听歌的 DeepSeek Harness 插件：折叠/展开两种可自由拖动的悬浮窗口形态，利用 Meting API 等解析源接入网易云音乐，支持歌单导入和按歌名或歌手搜索单曲导入。Chat and listen at the same time. | JavaScript | 4 | MIT | 2026-09-23 |

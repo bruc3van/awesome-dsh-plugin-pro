@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:52:40.567Z",
+  "generated_at": "2026-11-27T11:17:02.644Z",
   "snapshot_date": "2026-11-26",
   "pending": [
     {
@@ -24,28 +24,6 @@
         "self-signed-certificate",
         "tls",
         "zero-dependency"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "0xramin/deepseek-rtl",
-      "html_url": "https://github.com/0xramin/deepseek-rtl",
-      "description": "Persian RTL plugin for DeepSeek Harness — smart bidi text, bundled Vazirmatn, one-command install with npx.",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-11-15T11:58:03Z",
-      "pushed_at": "2026-11-25T11:19:51Z",
-      "topics": [
-        "bidi",
-        "deepseek-harness",
-        "dsh-plugin",
-        "farsi",
-        "npm-package",
-        "persian",
-        "rtl",
-        "vazirmatn"
       ]
     },
     {
@@ -86,51 +64,6 @@
         "deepseek-harness",
         "dom",
         "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "1Lany2a/dsh-post-owner",
-      "html_url": "https://github.com/1Lany2a/dsh-post-owner",
-      "description": "Domain-identity framework for long-running AI agents: one domain, one long-lived identity, one accountable owner, one audit trail. 域身份体系 —— 域桥插件 dsh-domain-bridge v0.6.4（npm 可装 / 11 个工具 / 282 用例契约测试）+ 协作框架文档 + 角色模板。",
-      "language": "JavaScript",
-      "stargazers_count": 12,
-      "forks_count": 0,
-      "license": "NOASSERTION",
-      "created_at": "2026-10-18T06:31:51Z",
-      "pushed_at": "2026-11-26T15:31:22Z",
-      "topics": [
-        "agent-orchestration",
-        "ai-agents",
-        "context-engineering",
-        "domain-identity",
-        "dsh",
-        "dsh-plugin",
-        "handoff",
-        "long-running-agents",
-        "multi-agent",
-        "nodejs",
-        "typescript",
-        "workflow-automation"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "22-ai-00/dsh-ray",
-      "html_url": "https://github.com/22-ai-00/dsh-ray",
-      "description": "借助dsh实现的一款自助成长的个人助理",
-      "language": "TypeScript",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-17T04:08:56Z",
-      "pushed_at": "2026-11-26T22:26:35Z",
-      "topics": [
-        "dsh-plugin",
-        "personal",
-        "personal-assistant",
-        "rsi",
-        "superagent"
       ]
     },
     {
@@ -636,28 +569,6 @@
         "dsh-plugin",
         "markdown",
         "memory"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "DK-Zhu/mcp-consult",
-      "html_url": "https://github.com/DK-Zhu/mcp-consult",
-      "description": "Evidence-first multi-model consultation for DeepSeek Harness: 2–5 independently configured models review the same evidence, and the main agent synthesizes their anonymous opinions.",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-21T09:48:06Z",
-      "pushed_at": "2026-11-26T04:12:47Z",
-      "topics": [
-        "ai-agent",
-        "code-review",
-        "decision-support",
-        "deepseek-harness",
-        "dsh-plugin",
-        "llm",
-        "multi-model",
-        "typescript"
       ]
     },
     {
@@ -1555,28 +1466,6 @@
     },
     {
       "first_seen": "2026-11-26",
-      "full_name": "Railan1314/dsh-plugin-ai-hub",
-      "html_url": "https://github.com/Railan1314/dsh-plugin-ai-hub",
-      "description": "DSH left sidebar scheduler: tasks, concurrency, free pool, map/texture/balance tools",
-      "language": "JavaScript",
-      "stargazers_count": 2,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-11-25T01:00:54Z",
-      "pushed_at": "2026-11-26T14:04:40Z",
-      "topics": [
-        "ai",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "modding",
-        "rusted-warfare",
-        "scheduler",
-        "windows"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
       "full_name": "RickT34/dsh-fake-logos",
       "html_url": "https://github.com/RickT34/dsh-fake-logos",
       "description": "A lightweight DeepSeek Harness (DSH) Web UI plugin that replaces the DeepSeek Harness sidebar logo, wordmark, and home hero mark with another AI coding tool's logo, a custom SVG/image and label, or hides the branding completely.",
@@ -1861,21 +1750,6 @@
       "license": "MIT",
       "created_at": "2026-11-26T02:39:48Z",
       "pushed_at": "2026-11-26T02:40:44Z",
-      "topics": [
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "TokensAPI/tokens_DshWebSearch_code",
-      "html_url": "https://github.com/TokensAPI/tokens_DshWebSearch_code",
-      "description": "Zero-config web search plugin for DeepSeek Harness with automatic provider fallback.",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-21T05:59:41Z",
-      "pushed_at": "2026-11-25T06:57:10Z",
       "topics": [
         "dsh-plugin"
       ]
@@ -2250,25 +2124,6 @@
     },
     {
       "first_seen": "2026-11-26",
-      "full_name": "andrejzheng/dsh-quadrant-todos",
-      "html_url": "https://github.com/andrejzheng/dsh-quadrant-todos",
-      "description": "Four-quadrant (Eisenhower) todo list plugin for the DeepSeek Harness Web UI.",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-11-09T06:18:07Z",
-      "pushed_at": "2026-11-09T06:21:30Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "eisenhower",
-        "quadrant",
-        "todo"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
       "full_name": "architect321/dsh-hindsight-panel",
       "html_url": "https://github.com/architect321/dsh-hindsight-panel",
       "description": "DSH 插件：Hindsight 记忆视图（只读查看记忆库/页面/文档，并处理异步整理任务）",
@@ -2320,23 +2175,6 @@
         "dsh-plugin",
         "proactive",
         "token-economy"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "bigricedumpling/typocket",
-      "html_url": "https://github.com/bigricedumpling/typocket",
-      "description": "A local Markdown editor for you and your agent. Read and edit files in the browser, connect an agent over MCP, and review its changes.",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-10-01T15:33:52Z",
-      "pushed_at": "2026-11-26T17:06:44Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "markdown"
       ]
     },
     {
@@ -2814,31 +2652,6 @@
     },
     {
       "first_seen": "2026-11-26",
-      "full_name": "ethan2737/dsh-quant",
-      "html_url": "https://github.com/ethan2737/dsh-quant",
-      "description": "Quantitative trading workbench inside DeepSeek Harness: A-share data center, factor library, screening, strategy rotation, backtests, and 21 model-callable tools.",
-      "language": "Python",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": null,
-      "created_at": "2026-08-25T21:17:21Z",
-      "pushed_at": "2026-11-26T22:43:36Z",
-      "topics": [
-        "a-shares",
-        "akshare",
-        "backtesting",
-        "deepseek-harness",
-        "dsh-plugin",
-        "factor-model",
-        "postgresql",
-        "python",
-        "quantitative-trading",
-        "stock-screening",
-        "typescript"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
       "full_name": "fanyingnie2163663/dsh-guizhi",
       "html_url": "https://github.com/fanyingnie2163663/dsh-guizhi",
       "description": "归置（Stow）：按你的工作流归置 DSH 插件、工具与技能，生成可导出能力包。A DeepSeek Harness plugin for inventorying installed plugins/tools/skills by workflow and building exportable capability packs.",
@@ -3250,27 +3063,6 @@
         "powershell",
         "system-prompt",
         "windows"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "jh76111/dsh-session-fork",
-      "html_url": "https://github.com/jh76111/dsh-session-fork",
-      "description": "Makes the branch the building block of AI conversation management — parallel workflows, continuous and mergeable conversation memory",
-      "language": "TypeScript",
-      "stargazers_count": 9,
-      "forks_count": 4,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:55:51Z",
-      "pushed_at": "2026-11-08T14:29:29Z",
-      "topics": [
-        "ai-agents",
-        "branch",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "session-management"
       ]
     },
     {
@@ -5090,49 +4882,6 @@
     },
     {
       "first_seen": "2026-11-26",
-      "full_name": "world-geniuses/WhaleDraw",
-      "html_url": "https://github.com/world-geniuses/WhaleDraw",
-      "description": "WhaleDraw：无限画布 AI 创作工作台，支持 DeepSeek Harness（DSH）插件。",
-      "language": "TypeScript",
-      "stargazers_count": 4,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-10-10T09:28:53Z",
-      "pushed_at": "2026-11-07T09:06:30Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "infinite-canvas",
-        "mcp",
-        "react"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "world-geniuses/dsh-plugin-shop-accounts",
-      "html_url": "https://github.com/world-geniuses/dsh-plugin-shop-accounts",
-      "description": "DSH 插件：电商店铺账号管理（拼多多 / 淘宝 / 天猫 / 抖音 / 京东 / 1688 商家端）—— 一店一档、登录一次长期复用；按五个经营域定时采集并生成成品工作簿（配套 dsh-plugin-shop-dashboard 数据看板）",
-      "language": "JavaScript",
-      "stargazers_count": 29,
-      "forks_count": 4,
-      "license": "MIT",
-      "created_at": "2026-10-17T03:25:30Z",
-      "pushed_at": "2026-11-25T10:43:49Z",
-      "topics": [
-        "cdp",
-        "chrome",
-        "dashboard",
-        "data-collection",
-        "douyin",
-        "dsh",
-        "dsh-plugin",
-        "ecommerce",
-        "pinduoduo",
-        "taobao"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
       "full_name": "wsdzwx2001/dshgo-connect-madao",
       "html_url": "https://github.com/wsdzwx2001/dshgo-connect-madao",
       "description": "把华为云码道（CodeArts Agent）接入 dsh-go：本机 OpenAI 兼容桥 + 原生状态条与面板",
@@ -5203,47 +4952,6 @@
         "dsh-plugin",
         "stop",
         "subagent"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "xiaobaga281/dsh-archive-sessions",
-      "html_url": "https://github.com/xiaobaga281/dsh-archive-sessions",
-      "description": "会话管理 · DSH 设置页插件：搜索已归档会话、查看占用体积，多选恢复或永久删除（含残留清理与延迟删除重试）",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-11-02T10:41:41Z",
-      "pushed_at": "2026-11-26T14:54:35Z",
-      "topics": [
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "session-manager",
-        "settings"
-      ]
-    },
-    {
-      "first_seen": "2026-11-26",
-      "full_name": "xiaobaga281/dsh-rea-restore",
-      "html_url": "https://github.com/xiaobaga281/dsh-rea-restore",
-      "description": "逆向分析 · DSH 插件：把 REA 的 207 个逆向工具延迟加载进 Agent 工具表，自带运行时解包、环境侧栏与 Ghidra/JADX/Apktool 一键准备",
-      "language": "JavaScript",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-11-02T10:57:23Z",
-      "pushed_at": "2026-11-26T16:52:35Z",
-      "topics": [
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "ghidra",
-        "mcp",
-        "reverse-engineering"
       ]
     },
     {
@@ -5709,43 +5417,19 @@
   ],
   "missing": [
     "123123liang/dsh-subagent-model-sync",
-    "1Lany2a/dsh-domain-role",
-    "22-ai-00/dsh-enhanced",
     "AhYi8/dsh-agent-recycle-guard",
     "Asthestarsfalll/dsh-answer-card",
-    "bigricedumpling/deepseek-reader",
-    "chenhz01/dsh-sample-plugin",
-    "david0304git/dsh-appearance-glass",
-    "dinhdev666/dsh-purge-session",
-    "dinhdev666/dsh-vi-pack",
-    "DK-Zhu/dsh-consult",
     "DrWang1/dsh-plugin-mode-cycle",
-    "ethan2737/quant-plugin",
     "fufuf-c/dsh-token",
     "G-TY/dsh-refresh",
     "houyanchao/dsh-quote-ask",
-    "Jason-skd/dsh-session-fork",
     "LANHJUN/dsh-liang-time",
-    "leiming2333/dsh-web-search-lite",
-    "Luca4Don3/dsh-providers-live-models",
-    "monagisa/dsh-plugin-shop-accounts",
-    "nangongwentian-fe/dsh-quadrant-todos",
-    "Prokint/WhaleDraw",
-    "Railan1314/dsh-plugin-ds-console",
-    "ramin-mahmoodi/deepseek-rtl",
-    "sobermh/tokens_DshWebSearch_code",
     "todrinkcho/dsh-task-chime-badge",
-    "Townrain/dsh-fetch-models-unselect-all",
-    "Townrain/dsh-session-title-interval-llm",
-    "xiaobaga281/dsh-rea",
-    "xiaobaga281/dsh-session-manager",
     "xiaobaga281/dsh-token-spend",
     "xiaochouxia11/dsh-hindsight-memory",
     "xiaoge480/dsh-qzone-diary",
     "xuedai-mayi/dsh-wenshan",
-    "Xyanxhu/kilo-zen2dsh",
     "zhuowenzhang288-web/dsh-ai-research-workflow",
-    "ZSF-2026/qq-memory",
     "ZZR-rui-997/dsh-skills-workbench"
   ],
   "star_anomalies": {

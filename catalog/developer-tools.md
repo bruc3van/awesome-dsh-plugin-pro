@@ -4,7 +4,7 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **4931**
+- 本册收录 / Entries in this volume: **4932**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -2320,6 +2320,7 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 | [xgone/dsh-redis](https://github.com/xgone/dsh-redis) | DSH Redis 插件：让 Agent 通过模型工具安全读写 Redis（string/hash/list/set/zset），写操作逐次人工确认，凭据不进对话 \| Redis plugin for DeepSeek Harness: safe agent tools with per-write approval and credentials kept out of chat | JavaScript | 1 | — | 2026-11-04 |
 | [xianfeng1012/dsh-fleet-monitor](https://github.com/xianfeng1012/dsh-fleet-monitor) | Multi-host SSH monitoring for the dsh web GUI: agentless metrics, hardware inventory, service probes, alerts, cron tasks, terminal, SFTP files, and agent tools. No agent to install, loopback-only. | JavaScript | 1 | MIT | 2026-11-11 |
 | [xiangshu2026/dsh-alpha-guard](https://github.com/xiangshu2026/dsh-alpha-guard) | Policy-layer guard for DeepSeek Harness: read whitelist, sensitive-path deny list, dangerous-command blocking, subagent isolation, install approval (2-minute single-use) and malware static audit. A first line of defense, NOT an antivirus. | JavaScript | 1 | MIT | 2026-11-03 |
+| [xiaobaga281/dsh-rea-restore](https://github.com/xiaobaga281/dsh-rea-restore) | 逆向分析 · DSH 插件：把 REA 的 207 个逆向工具延迟加载进 Agent 工具表，自带运行时解包、环境侧栏与 Ghidra/JADX/Apktool 一键准备 | JavaScript | 1 | MIT | 2026-11-26 |
 | [xiaobbl/dsh-mworks-ai](https://github.com/xiaobbl/dsh-mworks-ai) | 将MWORKS AI完整移植到dsh中 | JavaScript | 1 | MIT | 2026-11-22 |
 | [xiaohai-ouyang/deepseek-usage-monitor](https://github.com/xiaohai-ouyang/deepseek-usage-monitor) | DSH 动态 Cordis 插件：DeepSeek API 余额与平台用量监控 | JavaScript | 1 | MIT | 2026-08-15 |
 | [xiaohj233/dsh-credential-handoff](https://github.com/xiaohj233/dsh-credential-handoff) | Conversation-local credential handoff for DSH that writes through the credential service without exposing the secret. | JavaScript | 1 | MIT | 2026-09-12 |

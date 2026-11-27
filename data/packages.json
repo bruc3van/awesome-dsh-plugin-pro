@@ -17024,13 +17024,13 @@
       "verified_date": "2026-11-16",
       "verified_via": "README + npm registry"
     },
-    "monagisa/dsh-plugin-shop-accounts": {
+    "world-geniuses/dsh-plugin-shop-accounts": {
       "packages": [
         {
           "profile": "web",
-          "source": "github:monagisa/dsh-plugin-shop-accounts",
-          "install": "https://github.com/monagisa/dsh-plugin-shop-accounts",
-          "command": "dsh plugin --profile web add github:monagisa/dsh-plugin-shop-accounts"
+          "source": "github:world-geniuses/dsh-plugin-shop-accounts",
+          "install": "https://github.com/world-geniuses/dsh-plugin-shop-accounts",
+          "command": "dsh plugin --profile web add github:world-geniuses/dsh-plugin-shop-accounts"
         }
       ],
       "status": "repo-fallback",
@@ -19223,13 +19223,13 @@
       "verified_via": "README + Git commit",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
-    "1lany2a/dsh-domain-role": {
+    "1lany2a/dsh-post-owner": {
       "packages": [
         {
           "profile": "web",
-          "source": "github:1Lany2a/dsh-domain-role#path:/plugins/dsh-domain-bridge",
-          "install": "https://github.com/1Lany2a/dsh-domain-role#path:/plugins/dsh-domain-bridge",
-          "command": "dsh plugin --profile web add \"github:1Lany2a/dsh-domain-role#path:/plugins/dsh-domain-bridge\""
+          "source": "github:1Lany2a/dsh-post-owner#path:/plugins/dsh-domain-bridge",
+          "install": "https://github.com/1Lany2a/dsh-post-owner#path:/plugins/dsh-domain-bridge",
+          "command": "dsh plugin --profile web add \"github:1Lany2a/dsh-post-owner#path:/plugins/dsh-domain-bridge\""
         }
       ],
       "status": "repo-fallback",
@@ -22677,7 +22677,7 @@
       "verified_date": "2026-11-17",
       "verified_via": "README + npm registry"
     },
-    "jason-skd/dsh-session-fork": {
+    "jh76111/dsh-session-fork": {
       "packages": [
         {
           "profile": "web",
@@ -30636,20 +30636,6 @@
           "source": "npm:dsh-win-pwsh7",
           "command": "dsh plugin --profile desktop add dsh-win-pwsh7",
           "install": "dsh-win-pwsh7"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-18",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
-    "xyanxhu/kilo-zen2dsh": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:@huanx/kilo-zen2dsh",
-          "command": "dsh plugin --profile web add @huanx/kilo-zen2dsh",
-          "install": "@huanx/kilo-zen2dsh"
         }
       ],
       "status": "readme-verified",
@@ -42424,13 +42410,13 @@
       "verified_date": "2026-11-19",
       "verified_via": "README + npm registry"
     },
-    "prokint/whaledraw": {
+    "world-geniuses/whaledraw": {
       "packages": [
         {
           "profile": "web",
-          "source": "github:Prokint/WhaleDraw#path:/plugins/dsh-infinite-canvas",
-          "install": "https://github.com/Prokint/WhaleDraw#path:/plugins/dsh-infinite-canvas",
-          "command": "dsh plugin --profile web add \"github:Prokint/WhaleDraw#path:/plugins/dsh-infinite-canvas\""
+          "source": "github:world-geniuses/WhaleDraw#path:/plugins/dsh-infinite-canvas",
+          "install": "https://github.com/world-geniuses/WhaleDraw#path:/plugins/dsh-infinite-canvas",
+          "command": "dsh plugin --profile web add \"github:world-geniuses/WhaleDraw#path:/plugins/dsh-infinite-canvas\""
         }
       ],
       "status": "repo-fallback",
@@ -100211,19 +100197,6 @@
       "verified_date": "2026-11-21",
       "verified_via": "README@main"
     },
-    "luca4don3/dsh-providers-live-models": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "https://github.com/Luca4Don3/dsh-providers-live-models",
-          "source": "github:Luca4Don3/dsh-providers-live-models",
-          "command": "dsh plugin --profile desktop add github:Luca4Don3/dsh-providers-live-models"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
     "121212165/dsh-plugin-cost-ledger": {
       "packages": [
         {
@@ -114902,19 +114875,6 @@
           "install": "https://github.com/ADkun/dsh-ace",
           "source": "github:ADkun/dsh-ace",
           "command": "dsh plugin add github:ADkun/dsh-ace"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
-    "david0304git/dsh-appearance-glass": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/david0304git/dsh-appearance-glass",
-          "source": "github:david0304git/dsh-appearance-glass",
-          "command": "dsh plugin --profile web add github:david0304git/dsh-appearance-glass"
         }
       ],
       "status": "readme-verified",
@@ -151900,20 +151860,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "dk-zhu/dsh-consult": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-consult",
-          "source": "npm:dsh-consult",
-          "command": "dsh plugin --profile web add dsh-consult"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "chenzhi-clude/dsh-hooks-pack": {
       "packages": [
         {
@@ -169459,20 +169405,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "zsf-2026/qq-memory": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "qq-memory",
-          "source": "npm:qq-memory",
-          "command": "dsh plugin --profile web add qq-memory"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "feely0208/dsh-pptx-batch": {
       "packages": [
         {
@@ -177645,20 +177577,6 @@
           "install": "@tom2012/dsh-jargon-list",
           "source": "npm:@tom2012/dsh-jargon-list",
           "command": "dsh plugin --profile web add @tom2012/dsh-jargon-list"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
-    "leiming2333/dsh-web-search-lite": {
-      "packages": [
-        {
-          "profile": "default",
-          "install": "dsh-web-search-lite",
-          "source": "npm:dsh-web-search-lite",
-          "command": "dsh plugin add dsh-web-search-lite"
         }
       ],
       "status": "readme-verified",

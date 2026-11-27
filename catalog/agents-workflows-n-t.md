@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–T）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1178**
+- 本册收录 / Entries in this volume: **1179**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -253,6 +253,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–T）」分册 / 
 | [qwh15622336051/dsh-prompt-optimizer](https://github.com/qwh15622336051/dsh-prompt-optimizer) | Prompt optimizer for the DeepSeek Harness composer: rewrite a plain-language draft into a precise prompt, using any model you have already configured. | JavaScript | 2 | MIT | 2026-11-26 |
 | [QwQ2333333-QaQ/dsh-search-chat](https://github.com/QwQ2333333-QaQ/dsh-search-chat) | DeepSeek Harness 右侧栏会话搜索：跨全部工作区按字面匹配查找聊天记录，点击跳到原消息（DSH 0.2.2+） | JavaScript | 2 | MIT | 2026-11-25 |
 | [R-LEI2536/dsh-more-agent-presets](https://github.com/R-LEI2536/dsh-more-agent-presets) | More Agent Presets for DSH derived from other coding agents (e.g. qwen code, iflow) | JavaScript | 2 | MIT | 2026-11-05 |
+| [Railan1314/dsh-plugin-ai-hub](https://github.com/Railan1314/dsh-plugin-ai-hub) | DSH left sidebar scheduler: tasks, concurrency, free pool, map/texture/balance tools | JavaScript | 2 | MIT | 2026-11-26 |
 | [RainSnowYY/dsh-second-review](https://github.com/RainSnowYY/dsh-second-review) | 一个为 DeepSeek Harness (DSH) 提供独立副模型二次评审的插件，做到两个模型接入一个对话，在主模型回答后自动检查潜在风险与代价，必要时可选择副模型接管任务。 | JavaScript | 2 | MIT | 2026-11-25 |
 | [rand0wn/dsh-minimal-anchor](https://github.com/rand0wn/dsh-minimal-anchor) | DeepSeek Harness (dsh) plugin: prune the tool schema and inject a structural preamble on a session's first turn only | TypeScript | 2 | MIT | 2026-09-14 |
 | [Ray1270/dsh-restart](https://github.com/Ray1270/dsh-restart) | 刷新 / 重启 —— DeepSeek Harness 桌面版顶栏的两个常驻按钮（refresh + one-click restart） | JavaScript | 2 | MIT | 2026-11-15 |

@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1401**
+- 本册收录 / Entries in this volume: **1402**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -419,6 +419,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 | [20700499ww-byte/dsh-plugin-human-input](https://github.com/20700499ww-byte/dsh-plugin-human-input) | Give agents real Windows input: eased cursor paths with arc and jitter, press/release, drag, per-character typing, and grid-overlay screenshots to verify results. DeepSeek Harness plugin. | JavaScript | 1 | MIT | 2026-11-20 |
 | [20genesis14-sys/dsh-max-compact](https://github.com/20genesis14-sys/dsh-max-compact) | DeepSeek Harness plugin: compact model input via a lazy tool surface (mc_discover), deployment-level prompt layer with persona shadow, and an agent-preset composer. For DSH 0.2.x. | JavaScript | 1 | MIT | 2026-10-23 |
 | [21hbguo/dsh-session-batch-manager](https://github.com/21hbguo/dsh-session-batch-manager) | DeepSeek Harness (DSH) Web GUI 插件：批量选择会话进行归档、恢复与删除的管理面板 | TypeScript | 1 | MIT | 2026-09-18 |
+| [22-ai-00/dsh-ray](https://github.com/22-ai-00/dsh-ray) | 借助dsh实现的一款自助成长的个人助理 | TypeScript | 1 | MIT | 2026-11-26 |
 | [2233heorbrin/fish-body](https://github.com/2233heorbrin/fish-body) | DSH agent 框架的「身体」层：饭→胃→手流程入口、目录查看、身体开关，以及只在开启时挂载的 SHA-256 工具 | JavaScript | 1 | MIT | 2026-11-13 |
 | [2233heorbrin/fish-brain](https://github.com/2233heorbrin/fish-brain) | DSH 全脑组合：人格(SELF)、只读记忆、心情、思考策略卡注入，外加协作门与工程工具门 | JavaScript | 1 | MIT | 2026-11-13 |
 | [240xu/verdict-engine](https://github.com/240xu/verdict-engine) | Verdict Engine — machine-checkable engineering governance: prose skill for any agent + dsh-themis DSH plugin (read-only tools, fail-closed, protocolJson negotiation). 纯文本规范 + 可校验运行时双载体。 | JavaScript | 1 | MIT | 2026-09-21 |

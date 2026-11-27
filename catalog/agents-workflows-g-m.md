@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1599**
+- 本册收录 / Entries in this volume: **1600**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -124,6 +124,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [icanfinish11/dsh-context-mode](https://github.com/icanfinish11/dsh-context-mode) | Context window optimization for DeepSeek Harness agents. Sandboxes tool output in-process (only what you print enters the conversation), persists session memory in an FTS5 knowledge base, and enforces routing via a system-prompt routing section. | JavaScript | 9 | NOASSERTION | 2026-11-14 |
 | [jackxiao17/dsh-session-cleaner](https://github.com/jackxiao17/dsh-session-cleaner) | DSH 会话清理：冷会话直接回收，已打开/最近浏览会话确认后通过官方句柄关闭；支持恢复、定时任务暂停/恢复与彻底删除。要求 DSH &gt;=0.2.3-alpha.2 &lt;0.3.0 \| DSH session cleaner with reversible recycle bin, confirmed force delete for open sessions, and official lifecycle disposal; requires DSH &gt;=0.2.3-alpha.2 &lt;0.3.0 | JavaScript | 9 | MIT | 2026-11-26 |
 | [JasonFreeLab/dsh-superpowers](https://github.com/JasonFreeLab/dsh-superpowers) | DSH (DeepSeek Harness) port of obra/superpowers — 14 native skills for multi-agent software development: brainstorming, planning, TDD, systematic debugging, and code review. | JavaScript | 9 | NOASSERTION | 2026-11-18 |
+| [jh76111/dsh-session-fork](https://github.com/jh76111/dsh-session-fork) | Makes the branch the building block of AI conversation management — parallel workflows, continuous and mergeable conversation memory | TypeScript | 9 | MIT | 2026-11-21 |
 | [justhalfbit/dsh-plugin-jev-effort-selector](https://github.com/justhalfbit/dsh-plugin-jev-effort-selector) | DeepSeek Harness (DSH) 推理等级自动选择插件：由 Jev System One 模型判断每条消息值多少思考量，按模型声明的等级自动推导档位，上下文信封让「继续」这类追问继承话题深度，低置信度向上取，任何失败都静默沿用原等级。 \| Jev-driven reasoning effort per message: per-model ladders derived from what each model advertises, a fixed-size context envelope so follow-ups inherit topic depth, ties break upward, silent fallback on every failure path. | JavaScript | 9 | MIT | 2026-11-11 |
 | [KannaKuron/dsh-ptc-cordis-preset](https://github.com/KannaKuron/dsh-ptc-cordis-preset) | PTC 模式基础上的创造模式:DSH 插件,合成 Code Mode 工具编排 + 自引用 Cordis 工具与 preset 创作指导,物化为 'ptc-cordis' 用户 preset | JavaScript | 9 | MIT | 2026-11-25 |
 | [lonelycrab888/dsh-enhancement-switches](https://github.com/lonelycrab888/dsh-enhancement-switches) | &gt; Per-conversation switches for Ralph Loop and Agent Teams in DeepSeek Harness. Both are off by default in new conversations, and each conversation remembers its own settings. | JavaScript | 9 | MIT | 2026-11-12 |

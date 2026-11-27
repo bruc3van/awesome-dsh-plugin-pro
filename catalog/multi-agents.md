@@ -4,7 +4,7 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **968**
+- 本册收录 / Entries in this volume: **969**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -84,6 +84,7 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 | [openma-ai/backchat](https://github.com/openma-ai/backchat) | Local-first desktop workspace for ACP agents—DeepSeek Harness, Claude Code, Codex, Gemini CLI, OpenCode, Hermes, and OpenClaw—with projects, tools, files, browser, and sessions. | TypeScript | 13 | — | 2026-11-26 |
 | [SShiRkiT/dsh-orchestrator](https://github.com/SShiRkiT/dsh-orchestrator) | Plan-only main agent with a plan-mode toggle; delegated workers on a switchable default route for DeepSeek Harness | JavaScript | 13 | MIT | 2026-11-25 |
 | [Tikzen/dsh-agent-arena](https://github.com/Tikzen/dsh-agent-arena) | Interactive multi-agent collaboration, meetings, group chats, and task execution for DeepSeek Harness. | JavaScript | 13 | MIT | 2026-11-26 |
+| [1Lany2a/dsh-post-owner](https://github.com/1Lany2a/dsh-post-owner) | Domain-identity framework for long-running AI agents: one domain, one long-lived identity, one accountable owner, one audit trail. 域身份体系 —— 域桥插件 dsh-domain-bridge v0.6.4（npm 可装 / 11 个工具 / 282 用例契约测试）+ 协作框架文档 + 角色模板。 | JavaScript | 12 | NOASSERTION | 2026-11-26 |
 | [dpskh/dsh-a2a](https://github.com/dpskh/dsh-a2a) | Agent2Agent mesh for the Harness | TypeScript | 12 | MIT | 2026-11-02 |
 | [dryw/dsh-egm](https://github.com/dryw/dsh-egm) | Elephant-Goldfish Model (EGM) for DeepSeek Harness - npm: dsh-egm (repo dryw/dsh-egm). A context-rich session drafts a design spec, then fresh, read-only Goldfish reviewers stress-test it before implementation. | JavaScript | 12 | Apache-2.0 | 2026-11-25 |
 | [fatwang2/dsh-projects](https://github.com/fatwang2/dsh-projects) | Project board for DeepSeek Harness — one goal, shared memory, parallel worker agents. | JavaScript | 12 | MIT | 2026-11-26 |

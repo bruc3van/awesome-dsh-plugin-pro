@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（U–Z）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1000**
+- 本册收录 / Entries in this volume: **1001**
 - 快照日期 / Snapshot date: **2026-11-26 UTC**
 - 最近人工复核 / Last review merge: **2026-11-26**
 
@@ -670,6 +670,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（U–Z）」分册 / 
 | [xianshu-virtuous/dsh-story-mode](https://github.com/xianshu-virtuous/dsh-story-mode) | Story mode for DeepSeek Harness: a session switch that roleplays in the current persona and loads workspace story/ documents as scene notes | TypeScript | 0 | MIT | 2026-10-10 |
 | [xiao-hans/dsh-session-auto-archive](https://github.com/xiao-hans/dsh-session-auto-archive) | DeepSeek Harness（DSH）插件：按闲置天数自动归档会话，补齐 DSH 只有手动 Archive 的缺口；回到会话自动取消归档，配合「按最近活跃」排序让老会话回到顶部。支持演练模式、置顶保护、排除清单、跟随主题的折叠设置卡片、归档历史与逐条撤销，归档走原生状态，不删任何数据。A DSH plugin that auto-archives idle sessions; returning unarchives. Dry-run, pin protection, exclusions, history and per-item undo; native state, deletes nothing. | JavaScript | 0 | MIT | 2026-11-13 |
 | [xiao0o0/dsh-workflow-execute](https://github.com/xiao0o0/dsh-workflow-execute) | 工作流创建、执行 | JavaScript | 0 | MIT | 2026-11-22 |
+| [xiaobaga281/dsh-archive-sessions](https://github.com/xiaobaga281/dsh-archive-sessions) | 会话管理 · DSH 设置页插件：搜索已归档会话、查看占用体积，多选恢复或永久删除（含残留清理与延迟删除重试） | JavaScript | 0 | MIT | 2026-11-26 |
 | [xiaobaga281/dsh-native-uia](https://github.com/xiaobaga281/dsh-native-uia) | 御屏 · DSH 桌面操控插件：以 Windows UI Automation 控件树为主通道，纯文本模型即可操控桌面，后台投递动作、批量执行、逐步校验与配方回放 | JavaScript | 0 | MIT | 2026-11-26 |
 | [xiaochaZ/dsh-approval-gate](https://github.com/xiaochaZ/dsh-approval-gate) | DeepSeek Harness 自动审批门控（社区接续维护）：Flash 预判不可回补操作，安全自动批准、危险转人工（fail-safe） | JavaScript | 0 | MIT | 2026-11-23 |
 | [xiaofeng-bm/dsh-clarify-mode](https://github.com/xiaofeng-bm/dsh-clarify-mode) | 是给deepseek harness用的插件，主要能力是在让AI干活前，通过多轮问答方式，辅助用户梳理清楚需求 | JavaScript | 0 | MIT | 2026-11-06 |
