@@ -35,6 +35,19 @@ for (const f of readdirSync(`${base}/decisions-r2`).sort()) {
   }
 }
 
+// 2b. top layer: curated.json selection_metadata (daily review increments — final say)
+let curatedInc = 0;
+try {
+  const curated = JSON.parse(readFileSync('data/curated.json', 'utf8'));
+  for (const [key, val] of Object.entries(curated.selection_metadata ?? {})) {
+    if (val && typeof val.s === 'string') {
+      put(key, val.s, val.k);
+      curatedInc++;
+    }
+  }
+} catch { /* curated optional */ }
+console.log('curated selection_metadata increments applied:', curatedInc);
+
 // 3. envelope: source_fetched_at mirrors the crawl snapshot; feed_version/published_at
 //    are stamped by publish-npm-feed.mjs at publish time (same pattern as market-catalog-v4)
 let sourceFetchedAt = null;
@@ -47,4 +60,4 @@ const meta = {};
 for (const [key, val] of [...rows.entries()].sort()) meta[key] = val;
 const out = JSON.stringify({ source_fetched_at: sourceFetchedAt, meta }) + '\n';
 writeFileSync('data/plugin-selection-meta.json', out);
-console.log(`selection-meta: ${rows.size} rows (base ${baseCount}, r2-overlay ${overlay}), ${(out.length / 1024 / 1024).toFixed(2)} MB`);
+console.log(`selection-meta: ${rows.size} rows (base ${baseCount}, r2-overlay ${overlay}, curated +${curatedInc}), ${(out.length / 1024 / 1024).toFixed(2)} MB`);

@@ -68,6 +68,19 @@ for (const [fullName, category] of Object.entries(curated.category_overrides || 
 }
 const overrideCount = referenced.size;
 
+for (const [fullName, entry] of Object.entries(curated.selection_metadata || {})) {
+  if (!/^[^/\s]+\/[^/\s]+$/.test(fullName) || fullName !== fullName.toLowerCase()) {
+    errors.push(`selection_metadata key "${fullName}" is not a valid lowercase owner/repo reference`);
+    continue;
+  }
+  if (!entry || typeof entry.s !== 'string' || entry.s.length < 10 || entry.s.length > 200) {
+    errors.push(`selection_metadata["${fullName}"].s: summary must be a string of 10-200 chars`);
+  }
+  if (!Array.isArray(entry.k) || entry.k.length < 2 || entry.k.length > 15 || entry.k.some((x) => typeof x !== 'string' || x.length === 0 || x.length > 50)) {
+    errors.push(`selection_metadata["${fullName}"].k: keywords must be 2-15 strings of <=50 chars`);
+  }
+}
+
 for (const [fullName, description] of Object.entries(curated.description_overrides || {})) {
   if (!ownerRepoPattern.test(fullName)) {
     errors.push(`description_overrides key "${fullName}" is not a valid owner/repo reference`);
