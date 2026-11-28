@@ -37,17 +37,17 @@ No extra plugin required — add the curated index directly to DSH's built-in Di
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-11-27 the catalog lists **31,593** verified repositories. Here is the shape of it:
+As of 2026-11-27 the catalog lists **31,596** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 31593))
+  root((DSH ecosystem 31596))
     UI and experience · 7862
       Usage and billing panels
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Agents automation workflows · 5272
+    Agents automation workflows · 5275
       Session and context management
       Scheduled loops and event wakeups
       Approval budget and checkpoints
@@ -386,7 +386,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Market data (npm feed):** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) publishes `market-catalog-v4.json` (schema 4 compact catalog with install status and mappings, the subscription, and editorial picks) and `packages.json` (the install-mapping source). It is projected by `scripts/safe-market-catalog.mjs`, packaged by `publish-npm-feed.mjs`, and mirrored through npmmirror. Schema 3 has been retired. See the [consumer specification](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md).
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-11-27, the catalog lists **31,593** repositories across **42** primary languages; **29,072** declare a license and **31,241** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-11-27, the catalog lists **31,596** repositories across **42** primary languages; **29,075** declare a license and **31,244** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

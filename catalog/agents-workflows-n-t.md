@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–T）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1201**
+- 本册收录 / Entries in this volume: **1202**
 - 快照日期 / Snapshot date: **2026-11-27 UTC**
 - 最近人工复核 / Last review merge: **2026-11-28**
 
@@ -152,6 +152,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–T）」分册 / 
 | [sufan721/dsh-evolution](https://github.com/sufan721/dsh-evolution) | 让 DeepSeek Harness（dsh）Agent 自进化的 Cordis 插件——持久记忆、上下文总结落地、会话复盘、夜间梦境蒸馏与可回滚的源码自更新，越用越懂你、越用越少犯错。 | TypeScript | 5 | MIT | 2026-11-11 |
 | [taoshi1999/dsh-workspace-hygiene](https://github.com/taoshi1999/dsh-workspace-hygiene) | DeepSeek Harness plugin for agent workspace hygiene: artifact value assessment, metadata indexing, and auditable cleanup. | JavaScript | 5 | MIT | 2026-10-23 |
 | [TaurenMountain/dsh-llm-as-a-verifier](https://github.com/TaurenMountain/dsh-llm-as-a-verifier) | LLM-as-a-Verifier for DeepSeek Harness: fine-grained reward, Probabilistic Pivot Tournament best-of-N selection, and per-step progress tracking as agent tools. | TypeScript | 5 | NOASSERTION | 2026-09-12 |
+| [Thao6020/dsh-fuck](https://github.com/Thao6020/dsh-fuck) | DSH 插件设置面板：破甲 / 逆向 两套模式，会话内小按钮点开设置；逆向模式动态挂载 9 个逆向技能（IDA / x64dbg / Ghidra）。 | JavaScript | 5 | MIT | 2026-11-27 |
 | [tianji-qingtian/dsh-composer-polish](https://github.com/tianji-qingtian/dsh-composer-polish) | DeepSeek Harness plugin: one-click ✨ polish for composer drafts — flash rewrite, auto fill-back · DeepSeek Harness 插件：输入框草稿一键 ✨ 润色，flash 改写、自动回填 | JavaScript | 5 | MIT | 2026-09-29 |
 | [timefarer/dsh-chat-search](https://github.com/timefarer/dsh-chat-search) | DeepSeek Harness 对话检索插件：支持全局及会话内搜索，覆盖段落与文件级结果；结果按“会话 → 问题 → 段落”三级展开，关键词高亮，点击即可跳转至会话对应位置。 | JavaScript | 5 | MIT | 2026-11-23 |
 | [Tostoevsky/TsienHsueShen](https://github.com/Tostoevsky/TsienHsueShen) | 钱学森《工程控制论》全书蒸馏的 DeepSeek Harness 方法论技能插件 \| A DeepSeek Harness skill plugin distilled from Qian Xuesen's Engineering Cybernetics | JavaScript | 5 | MIT | 2026-11-14 |

@@ -37,17 +37,17 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-11-27 共收录 **31593** 个经核实的仓库。它们长这样：
+截至 2026-11-27 共收录 **31596** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 31593))
+  root((DSH 插件生态 31596))
     界面与体验 · 7862
       用量与计费面板
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    Agent 自动化与工作流 · 5272
+    Agent 自动化与工作流 · 5275
       会话与上下文管理
       定时循环与事件唤醒
       审批、预算与检查点
@@ -386,7 +386,7 @@ mindmap
 - **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog-v4.json`（schema 4 紧凑目录：含安装状态与映射、官方订阅及编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。schema 3 已下线。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-11-27，全量目录收录 **31593** 个仓库、**42** 种主要语言；其中 **29072** 个声明了许可证，**31241** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-11-27，全量目录收录 **31596** 个仓库、**42** 种主要语言；其中 **29075** 个声明了许可证，**31244** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 

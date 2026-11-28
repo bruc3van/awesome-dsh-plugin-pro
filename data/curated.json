@@ -20110,7 +20110,10 @@
     "sweetpoints/dsh-blender-plugin": "media-vision",
     "xingcha-lab/dsh-market-next": "ecosystem-resources",
     "yidasanqian/dsh-mac-intel-desktop": "ecosystem-resources",
-    "RedDD771212/dsh-toolbox": "utilities"
+    "RedDD771212/dsh-toolbox": "utilities",
+    "codesensi/dsh-free-mode": "agents-workflows",
+    "hbx111/dsh-unlock": "agents-workflows",
+    "Thao6020/dsh-fuck": "agents-workflows"
   },
   "description_overrides": {
     "43456-awa/dsh-notepad": "钉在 DeepSeek Harness Web GUI 的常驻记事本插件，可拖动、可固定。",
@@ -21173,7 +21176,7 @@
     "admin6a/dsh-sidebar-extension": "Not a DSH plugin — a Chrome side-panel extension plus a local proxy that embeds the DSH web page in the browser (companion browser extension); no installable DSH plugin.",
     "adogan24050/dsh-crew": "Repost/clone of ZSeven-W/dsh-crew",
     "adrianhu65/dsh-noema": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-noema under a throwaway account; repost-network copy.",
-    "ADWMC/helm-d": "不是常规插件——破甲（jailbreak）插件：README 自述「DeepSeek Harness 的破甲安全分析插件」，四档破甲人格热切换（ds4.1f / stealth / redteam-max / gpt-6x）+ 流式拒绝拦截计数 + 工作台「破甲」页，topics 自带 jailbreak / llm-jailbreak；「安全分析」为委婉包装，与 chs-1108/dsh-purge 同型，2026-08-17 的核准早于家族剔除先例，本轮以 1283★ 冲入 Top 20（#20）触发告警复查；沿 dsh-purge 破甲家族剔除先例",
+    "ADWMC/helm-d": "Claims no DSH engine patching, but writes jailbreak configs into 11 third-party LLM clients (modifies and restores their files) and hooks llm/stream for refusal interception — stays excluded.",
     "agent-mobile/dsh-mobile": "Not a DSH plugin — a Flutter mobile companion app plus Dart wire-protocol SDK for dsh.",
     "agent-plaza/agent-plaza": "Not a DSH plugin — a generic public commons for AI agents.",
     "agentrq/agentrq": "Not a DSH plugin — a human-in-the-loop task-manager platform for 'any harness'; DSH is incidental.",
@@ -21408,7 +21411,6 @@
     "Co-Engram/Co-Engram": "Generic team-memory system for any agent; no DSH-specific install path.",
     "CoaseEdge/AgentNavi": "Generic agent navigation/memory tool for many agents; DSH is only one of several topic tags.",
     "cocofhu/dsh-testsuite": "Not an installable DSH plugin — a Docker test-environment manager for plugin testing",
-    "codesensi/dsh-free-mode": "A prompt-injection (\"armor-breaking\") preset plugin that suppresses the host model's system instructions; kept out of the catalog on safety grounds",
     "codezzzsleep/dsh-local-global": "Not a DSH plugin — a research case-study repository (placeholder README, no plugin artifacts).",
     "coeasy/oh-my-dsh": "Not an installable DSH plugin — an unofficial VS Code/Cursor extension + Electron desktop client",
     "cofy-x/axern": "Not a DSH plugin — agent sandbox infrastructure.",
@@ -22460,7 +22462,6 @@
     "text2future/flowix": "Not a DSH plugin — a generic notes/memory product for Claude Code/Codex/Hermes/OpenCode; rides the dsh-plugin topic.",
     "tgarcia61216/argo": "Repost/clone of taxueseek/argo",
     "TH060419/gatherthread": "Not a DSH plugin — a self-hosted multiplayer collaboration server/platform for local coding agents (server + web apps, hosted alpha); the DSH host package is one connector alongside Codex/MCP.",
-    "Thao6020/dsh-fuck": "Not a DSH plugin in an approvable form — a jailbreak (\"破甲\") settings-panel plugin: one tap re-arms armor-breaking prompt modes and mounts nine RE skills for reverse-engineering sessions; same jailbreak family as dsh-purge / helm-d / feibi-breaker.",
     "thassan0313/dsh-permission-rules": "Not a DSH plugin — a re-upload of PerryLink/dsh-permission-rules.",
     "the-beating-light-of-the-nail/awesome-dsh-plugin-stock": "Not a DSH plugin — a curated plugin list/directory (vertical stock/finance list).",
     "the-beating-light-of-the-nail/awesome-dsh-tavern": "Not a DSH plugin — a curated awesome-list of tavern & roleplay plugins.",
@@ -22637,7 +22638,7 @@
     "woooooooooolf/ser2mcp": "Not a DSH plugin — a generic serial-port MCP server for AI assistants.",
     "wsjwu58-cmd/dsh-session-doctor": "Not a DSH plugin — a full clone of the DeepSeek Harness source tree with a Session Doctor patch.",
     "WTStarMark/dsh-plugin-mesh": "Not a DSH plugin — an interactive web visualization (ecosystem network map) of dsh-tagged GitHub repositories, a directory-style site.",
-    "wufeng0105/dsh-enhance": "Not a DSH plugin — a prompt-injection (破甲) preset suppressing host-model refusals; same author as the excluded dsh-purge-desktop; follows codesensi/dsh-free-mode precedent.",
+    "wufeng0105/dsh-enhance": "Prompt-layer content loosening alone would qualify for the catalog middle tier (2026-11-28 axes), but this package also ships approval auto-pass and sandbox-full-open modes — machine-safety axis, stays excluded.",
     "wufeng0105/dsh-purge-desktop": "Not a DSH plugin — a desktop build of the model-jailbreak kit dsh-purge (\"让所有模型都能破甲\"); separates host-layer policy from model refusal to bypass refusals",
     "wula1223/dsh-plugin-dev": "Not a DSH plugin: a plugin/hook/skill development playbook and reusable development instructions.",
     "wulun811/LiuHe": "Not a DSH plugin — a generic LLM code toolkit.",
@@ -22646,7 +22647,7 @@
     "wuwaka/dsh-rehearsal": "Not a DSH plugin — an external upgrade-rehearsal CLI for DeepSeek Harness (self-described 'External CLI, not a plugin').",
     "wyb587285-dot/git-ai-tracker": "Not a DSH plugin — a GitHub AI-repo tracker / growth leaderboard.",
     "wzwnolook/dsh-safe": "Not a DSH plugin — a zero-config boot-safe CLI wrapper for dsh; rides the dsh-plugin topic.",
-    "X-max0/dsh-override-guard": "Not a DSH plugin — a dsh-purge jailbreak-family overlay: re-cuts the safety clauses out of the assembled system prompt, clears refusal/blocked markers other plugins set, detects forged refusals and self-repairs the purge source when an upgrade restores the gate.",
+    "X-max0/dsh-override-guard": "Counter-dsh-purge sanitizer, but it self-heals by editing host source files (net-scope.js / index.js / core.js) and clears other plugins' blocked markers — host-integrity axis, stays excluded.",
     "xby-skill/xby-audio-tag": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files).",
     "xby-skill/xby-audio-tools": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files).",
     "xby-skill/xby-denoise": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files).",
@@ -22709,7 +22710,7 @@
     "YE-ZINAN/dsh-lan-gate": "Not a DSH plugin — a self-hosted LAN gateway/reverse-proxy script, no installable plugin artifact.",
     "yejiming/MuseAI": "Not a DSH plugin — a standalone AI roleplay/story app; its actual DSH plugin lives in yejiming/dsh-museai-tavern.",
     "YeKui7/dsh-seams": "Not a DSH plugin — field-notes documentation on DeepSeek Harness extension points and silent-failure traps.",
-    "yexi-by/dsh-unrestricted": "A prompt-injection (armor-breaking) plugin that suppresses the host model's refusals; kept out of the catalog on safety grounds; follows codesensi/dsh-free-mode precedent.",
+    "yexi-by/dsh-unrestricted": "Prompt-layer only, but purpose-built to extract refusal-protected operational content (PoC/Exploit/keygen/reverse shells, full chem/pharmacology procedures) — beyond personal content/style preference; stays excluded.",
     "yichuai/deepseek-harness-vscode": "Not an installable DSH plugin — a VS Code extension; owner transfer of the excluded liangwythu/deepseek-harness-vscode (same repository), exclusion inherited.",
     "YichuAI/deepseek-harness-vscode": "Not a DSH plugin — a native VS Code client for DeepSeek Harness (editor extension).",
     "yikart/AiToEarn": "Not a DSH plugin — AiToEarn, an AI content monetization/publishing platform (multi-platform publish/engage with agent skills and MCP for Claude Code / Trae / Cursor); zero DSH content in the repo or README despite the topic tag — riding the topic.",
@@ -22851,10 +22852,9 @@
     "Dreftian/Rea": "不是 DSH 插件：README 无任何 DSH 安装路径，是 morluto/rea 的西语转录副本，经 npx rea-agents setup 为其他编码 agent 注册逆向工程 MCP",
     "SI-sases/sases-control": "Not a plugin: an MCP stdio server plus CLI skill (SKILL.md + mcp_server.py, installed via generic mcpServers config) for operating self-hosted SASES instances — no DSH plugin package and no DSH-targeted install path.",
     "dehong831-arch/dsh-ComboLab": "Standalone Windows x64 offline diagnostic lab: boots sealed DSH Web builds inside its own viewer to reproduce plugin-combination bugs; the dsh-combolab attachment is lab-only and explicitly not for live DSH profiles.",
-    "hbx111/dsh-unlock": "Loosens content policy: swaps strict content_policy blocks in the system prompt for a permissive policy and appends a 用户至上总纲 fallback section — content-policy-loosening family, excluded per precedent.",
     "jqlong17/doublecheck-ios": "非 DSH 插件：通用运维预检/断言/回滚 CLI（python3 ops.py、dc）加 agent-plugins.org 通用 MCP server，无 dsh plugin 安装路径，也无 dsh bundle/cordis manifest",
     "li1378380/dsh-file-search": "仓库已 archived 归档停更；README 曾示 dsh plugin add dsh-file-search 的本地全文搜索插件，按归档仓库规则排除",
-    "seinan27/dsh-armor-suite": "破甲套件：armor-inject/guard 按路由注入并清洗受保护提示，armor-retry 在模型拒答时换形续问以提高服从率",
+    "seinan27/dsh-armor-suite": "Prompt-privacy routing framing, but hooks llm/stream and tools/post-execute, injects a self-protecting armor prompt on all built-in routes by default, and armor-retry resamples refusals to raise compliance — stream-layer interception suite, stays excluded.",
     "slobaloncar/livelaunch-mcp": "仓库自述仅含远程 MCP 端点的连接信息与文档，DSH 用法是安装官方 dsh-mcp-client 再加 cordis.patch 配置片段，本身无可安装插件包",
     "truecih/dsh-live-ops": "GitHub API 对仓库与 README 均返回 404：仓库已删除或改名，无任何可核验内容。",
     "ultrafastmov/ultrafast": "非 DSH 插件：通用 GPU 视频渲染 CLI/MCP（Rust），安装走 `curl ultrafast.mov/install.sh`，面向 Claude Code/Codex/Cursor/Gemini CLI；仓库仅有 plugin.json/.claude-plugin/gemini-extension.json 等他家宿主清单，无 dsh 安装路径或 dsh bundle 字段。",
@@ -23815,7 +23815,10 @@
     "sweetpoints/dsh-blender-plugin": "the market cannot include another market — Blender 工具束之外同仓发布插件市场索引 market.json 供 Discover 加源安装（内置插件市场的插件）",
     "xingcha-lab/dsh-market-next": "the market cannot include another market — 插件市场面板：浏览/搜索/装卸 dsh.so 约 3.3 万条索引并向官方 Discover 写入自定义索引源",
     "yidasanqian/dsh-mac-intel-desktop": "桌面分发信封：非官方 Intel Mac（x86_64）DMG 构建分发 + curl 自更新脚本 + LaunchAgent，应用本体无 dsh plugin 安装路径（仓内 plugin/ 仅为更新渠道 UI 小插件）",
-    "soyoungzsy/soya-workflows": "Broken package: 作者声明文件损坏、安装已停用，当前无可安装内容，不进市场"
+    "soyoungzsy/soya-workflows": "Broken package: 作者声明文件损坏、安装已停用，当前无可安装内容，不进市场",
+    "codesensi/dsh-free-mode": "Middle tier (2026-11-28 re-adjudication): prompt-layer jailbreak preset, purely declarative bundle with zero scripts/installers — no host patching, no stream hooks, no approval changes; kept visible in the catalog for transparency, but the market does not distribute jailbreak tooling.",
+    "hbx111/dsh-unlock": "Middle tier (2026-11-28 re-adjudication): swaps content-policy sections at system-prompt/assemble only — explicitly no host files, no session writes, no model settings, reversible; kept visible in the catalog, excluded from the market (the market does not distribute jailbreak tooling).",
+    "Thao6020/dsh-fuck": "Middle tier (2026-11-28 re-adjudication): prompt-section injection via system-prompt/assemble plus locally-stored toggleable reverse-engineering skills; settings persist in its own dsh-fuck directory, no host file edits, no stream hooks; kept visible in the catalog, excluded from the market (the market does not distribute jailbreak tooling)."
   },
   "updated_at": {
     "0": "2",
@@ -29259,6 +29262,40 @@
         "项目启动",
         "toolbox",
         "扩展名路由"
+      ]
+    },
+    "codesensi/dsh-free-mode": {
+      "s": "纯声明式「自在模式」Agent 预设 bundle：替换默认政策与覆盖层文本，零脚本零安装器，随 npm 更新",
+      "k": [
+        "自在模式",
+        "free-mode",
+        "预设",
+        "prompt preset",
+        "解限",
+        "声明式 bundle"
+      ]
+    },
+    "hbx111/dsh-unlock": {
+      "s": "装配层把严格内容政策换成宽松版并挂兜底段：只改提示词文本，不动宿主文件，关闭即恢复",
+      "k": [
+        "解锁",
+        "内容政策",
+        "宽松政策",
+        "content policy",
+        "提示词",
+        "unlock"
+      ]
+    },
+    "thao6020/dsh-fuck": {
+      "s": "输入框破甲开关面板：注入直接交付契约与逆向人格，动态挂载 9 个逆向技能，开关即时生效",
+      "k": [
+        "破甲",
+        "逆向工程",
+        "IDA",
+        "Ghidra",
+        "技能挂载",
+        "jailbreak",
+        "设置面板"
       ]
     }
   }

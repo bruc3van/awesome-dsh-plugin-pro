@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1631**
+- 本册收录 / Entries in this volume: **1632**
 - 快照日期 / Snapshot date: **2026-11-27 UTC**
 - 最近人工复核 / Last review merge: **2026-11-28**
 
@@ -914,6 +914,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [hasan-aghayev/dsh-session-resilience](https://github.com/hasan-aghayev/dsh-session-resilience) | Safe DSH restarts, token-aware reconnect, and policy-based recovery for DSH 0.2+ | TypeScript | 0 | MIT | 2026-10-22 |
 | [Hashing2030/dsh-bulwark](https://github.com/Hashing2030/dsh-bulwark) | DSH plugin: enforce AI rules and protect tools/paths from accidental modification. | TypeScript | 0 | MIT | 2026-10-11 |
 | [hawkqiang/dsh-tool-slice](https://github.com/hawkqiang/dsh-tool-slice) | DSH plugin: per-conversation tool switches, named scenarios, and a slice workflow that runs one plan step per fresh subagent to keep local small models focused. | JavaScript | 0 | MIT | 2026-11-20 |
+| [hbx111/dsh-unlock](https://github.com/hbx111/dsh-unlock) | DSH 插件：给系统提示词挂上宽松内容政策与末尾兜底段，并把别处带来的严格 content_policy 块就地换掉 | JavaScript | 0 | MIT | 2026-11-26 |
 | [HCQM/dsh-session-merge](https://github.com/HCQM/dsh-session-merge) | Merge or append DSH sessions through DSH's own writer — fork clone, full copy, time-window mix, JSONL range write. Never edits session files on disk. | JavaScript | 0 | MIT | 2026-11-13 |
 | [He2way/dsh-task-console](https://github.com/He2way/dsh-task-console) | DSH client plugin: flip the page over to a glass task console — live jobs, subagents, session and workspace cards, an infinite canvas that unrolls a card into its own controls, embedded web apps, and a conversation box that edits the canvas. | JavaScript | 0 | MIT | 2026-10-23 |
 | [Hector387420489/dsh-session-reaper](https://github.com/Hector387420489/dsh-session-reaper) | DSH plugin: delete a session log from the session list and drop its row immediately. | JavaScript | 0 | MIT | 2026-11-26 |

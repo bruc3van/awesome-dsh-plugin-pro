@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1430**
+- 本册收录 / Entries in this volume: **1431**
 - 快照日期 / Snapshot date: **2026-11-27 UTC**
 - 最近人工复核 / Last review merge: **2026-11-28**
 
@@ -84,6 +84,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 | [everclear077/dsh-progressive-tools](https://github.com/everclear077/dsh-progressive-tools) | Progressive tool discovery for DeepSeek Harness — tiny stable surface, searchable catalog, real pipeline execution, context cache intact. | TypeScript | 13 | MIT | 2026-11-01 |
 | [1Lyn-en/dsh-whale](https://github.com/1Lyn-en/dsh-whale) | DeepSeek Harness 极简回复插件，提供六档精简模式与 CyberUI 主题，可节省 60–75% 输出 Token｜A DSH plugin with six brevity modes and a CyberUI theme. | TypeScript | 12 | MIT | 2026-11-27 |
 | [chipweaver/veripower](https://github.com/chipweaver/veripower) | Give your coding agent a workflow for chip front-end design and verification. | Python | 12 | MIT | 2026-11-19 |
+| [codesensi/dsh-free-mode](https://github.com/codesensi/dsh-free-mode) | 为 DeepSeek Harness 注入「自在模式」的 Agent 预设方案 | Python | 12 | MIT | 2026-11-27 |
 | [DDDMUC/dsh-delete-turn](https://github.com/DDDMUC/dsh-delete-turn) | Per-message delete for DeepSeek Harness: remove a user message, one reply step, or a whole assistant reply from the derived model context via the official surface-replace contract, and hide it from the visible transcript without rewriting the append-only log. | JavaScript | 12 | MIT | 2026-11-27 |
 | [drscrewdriver/dsh-search-index](https://github.com/drscrewdriver/dsh-search-index) | 给 DeepSeek Harness 侧边栏加一个会话内容检索——标题/内容一键切换，还能按用户/回复/工具筛选 | JavaScript | 12 | MIT | 2026-11-26 |
 | [forelsket521-jpg/vvn-deepseek-harness](https://github.com/forelsket521-jpg/vvn-deepseek-harness) | DeepSeek Harness 破甲工具：解锁审批 / 沙箱 / 提权限制，解除身份与拒答约束，注入自定义提示词。82 条补丁，带图形界面，双击即用。基于 dsh-purge 修改。 | JavaScript | 12 | — | 2026-11-23 |

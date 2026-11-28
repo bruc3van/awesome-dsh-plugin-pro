@@ -2,17 +2,17 @@
 
 [返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [Star Top 200](./TOP200.md) · [作者自荐 / Author showcase](./SHOWCASE.md) · [JSON data](./data/repositories.json)
 
-本页自动收录 GitHub [`dsh-plugin` Topic](https://github.com/topics/dsh-plugin) 下已提供项目简介、并经维护者核实（[data/approved.json](./data/approved.json)）的公开仓库。1172 个蹭 Topic 的非插件仓库（平台本体、其他 Agent 工具、同名目录站等）以及经编辑部拉黑的仓库已剔除，清单与理由见 [data/curated.json](./data/curated.json)。新增仓库先进入[待审核队列](./data/review/pending.md)，经人工核实后才会收录。本页是索引，不代表人工推荐、兼容性验证或安全背书。
+本页自动收录 GitHub [`dsh-plugin` Topic](https://github.com/topics/dsh-plugin) 下已提供项目简介、并经维护者核实（[data/approved.json](./data/approved.json)）的公开仓库。1169 个蹭 Topic 的非插件仓库（平台本体、其他 Agent 工具、同名目录站等）以及经编辑部拉黑的仓库已剔除，清单与理由见 [data/curated.json](./data/curated.json)。新增仓库先进入[待审核队列](./data/review/pending.md)，经人工核实后才会收录。本页是索引，不代表人工推荐、兼容性验证或安全背书。
 
 目录按类目分册：条目总量已超过 GitHub 单页 Markdown 的渲染上限，下表每一行都是一册完整名单。
 
-This page automatically lists public repositories under GitHub's [`dsh-plugin` topic](https://github.com/topics/dsh-plugin) that have a description set and have been verified by the maintainer ([data/approved.json](./data/approved.json)). 1172 repositories that ride the topic without being DSH plugins (the platform itself, other agent tools, competing catalogs), plus editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json) for the full list and reasons. New repositories enter the [review queue](./data/review/pending.md) first and appear here only after human verification. It is an index, not a claim of editorial recommendation, compatibility, or security review.
+This page automatically lists public repositories under GitHub's [`dsh-plugin` topic](https://github.com/topics/dsh-plugin) that have a description set and have been verified by the maintainer ([data/approved.json](./data/approved.json)). 1169 repositories that ride the topic without being DSH plugins (the platform itself, other agent tools, competing catalogs), plus editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json) for the full list and reasons. New repositories enter the [review queue](./data/review/pending.md) first and appear here only after human verification. It is an index, not a claim of editorial recommendation, compatibility, or security review.
 
 The catalog is split into one volume per category — the full list outgrew GitHub's single-page Markdown rendering limit. Each row below is a complete volume.
 
-- Repositories: **31593**
+- Repositories: **31596**
 - Primary languages: **42**
-- Declared licenses: **29072**
+- Declared licenses: **29075**
 - Refreshed: **2026-11-27 UTC**
 - 最近人工复核 / Last review merge: **2026-11-28**
 
@@ -32,9 +32,9 @@ The catalog is split into one volume per category — the full list outgrew GitH
 | [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 2164 |
 | [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 4996 |
 | [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 986 |
-| [Agent、自动化与工作流（A–F） / Agents, Automation & Workflows (A–F)](./catalog/agents-workflows.md) | 1430 |
-| [Agent、自动化与工作流（G–M） / Agents, Automation & Workflows (G–M)](./catalog/agents-workflows-g-m.md) | 1631 |
-| [Agent、自动化与工作流（N–T） / Agents, Automation & Workflows (N–T)](./catalog/agents-workflows-n-t.md) | 1201 |
+| [Agent、自动化与工作流（A–F） / Agents, Automation & Workflows (A–F)](./catalog/agents-workflows.md) | 1431 |
+| [Agent、自动化与工作流（G–M） / Agents, Automation & Workflows (G–M)](./catalog/agents-workflows-g-m.md) | 1632 |
+| [Agent、自动化与工作流（N–T） / Agents, Automation & Workflows (N–T)](./catalog/agents-workflows-n-t.md) | 1202 |
 | [Agent、自动化与工作流（U–Z） / Agents, Automation & Workflows (U–Z)](./catalog/agents-workflows-u-z.md) | 1010 |
 | [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 3465 |
 
