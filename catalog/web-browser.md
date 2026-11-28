@@ -4,9 +4,9 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **605**
+- 本册收录 / Entries in this volume: **607**
 - 快照日期 / Snapshot date: **2026-11-27 UTC**
-- 最近人工复核 / Last review merge: **2026-11-27**
+- 最近人工复核 / Last review merge: **2026-11-28**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -323,6 +323,7 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 | [13286793372/dsh-360-browser](https://github.com/13286793372/dsh-360-browser) | DSH plugin: browser tools for 360 Chrome X and 360 Secure Browser over CDP | JavaScript | 0 | MIT | 2026-11-22 |
 | [1578361862-art/dsh-plugin-readlater](https://github.com/1578361862-art/dsh-plugin-readlater) | 稍后阅读：粘贴分享链接，本地解析成图文卡片，按需投影到 Obsidian。 | JavaScript | 0 | MIT | 2026-11-09 |
 | [1710782766/dsh-browser-verify](https://github.com/1710782766/dsh-browser-verify) | Browser verification for DeepSeek Harness — open, mock, assert, screenshot in a few tool calls, screenshots auto-project into the model context | TypeScript | 0 | Apache-2.0 | 2026-09-29 |
+| [2102CHEN/dsh-xhs-insight](https://github.com/2102CHEN/dsh-xhs-insight) | Reads your own Xiaohongshu bookmarks through your logged-in Chrome (titles, bodies, likes, comments), filters by keyword, then analyses them with the DSH model or a tool-using child agent. Data stays on this machine. | JavaScript | 0 | MIT | 2026-11-27 |
 | [2332239652/dsh-bilibili-retrieval](https://github.com/2332239652/dsh-bilibili-retrieval) | DSH plugin: read into Bilibili videos — search, pinned creator comments, full descriptions, subtitles in slices with time anchors, and real frame sampling. Zero runtime dependencies. | JavaScript | 0 | MIT | 2026-11-02 |
 | [3309602454/dsh-edge-pilot](https://github.com/3309602454/dsh-edge-pilot) | Drive the system Microsoft Edge from DeepSeek Harness: observe, click, type, scroll, screenshot, save-as, download, and replay saved skills. | JavaScript | 0 | MIT | 2026-11-18 |
 | [439436269-ctrl/dsh-search](https://github.com/439436269-ctrl/dsh-search) | Structured web search, page fetch and one-call research for DeepSeek Harness, powered by the official DeepSeek Search/Fetch API. | JavaScript | 0 | MIT | 2026-11-07 |
@@ -366,6 +367,7 @@ DSH 插件全量目录的「网页与浏览器（A–M）」分册 / The "Web & 
 | [BaronCyrus/dsh-google-chrome-use](https://github.com/BaronCyrus/dsh-google-chrome-use) | Let DeepSeek Harness use Google Chrome on macOS and Windows | JavaScript | 0 | MIT | 2026-10-31 |
 | [Barry-1212/dsh-webscout](https://github.com/Barry-1212/dsh-webscout) | Tavily-backed web search (Search) and page fetch (Fetch) for DeepSeek Harness. | JavaScript | 0 | MIT | 2026-10-23 |
 | [BaxterL/dsh-xhs-search](https://github.com/BaxterL/dsh-xhs-search) | 给 DeepSeek Harness 的小红书（RED）阅读器：CDP 隔离浏览器、真实输入点击打开、仅从 DOM 抽取正文与评论并落入本地知识库，零运行时依赖。 | TypeScript | 0 | MIT | 2026-11-10 |
+| [BeiningCheng/dsh-plugin-browser-bridge](https://github.com/BeiningCheng/dsh-plugin-browser-bridge) | Chrome page bridge for DeepSeek Harness: read DOM elements and drive tabs through a paired browser extension, no screen capture required. | JavaScript | 0 | MIT | 2026-11-26 |
 | [belowthetree/dsh-openjev-browser](https://github.com/belowthetree/dsh-openjev-browser) | Native DSH (cordis) plugin port of the openjev-browser MCP stdio tool: model-driven browser control with a tiny context footprint. A local OpenJev decision model reads the page and returns only the one element that matters, so the agent never ingests the DOM. | TypeScript | 0 | MIT | 2026-11-13 |
 | [BharathBillawa/dsh-tool-ddgs](https://github.com/BharathBillawa/dsh-tool-ddgs) | DuckDuckGo web search and URL fetch tools for DeepSeek Harness, no API key required. Provides web_search (via ddgs) and   web_fetch (via trafilatura) as a drop-in bundle | JavaScript | 0 | — | 2026-11-11 |
 | [bigfurma-bot/dsh-websearch-mcp](https://github.com/bigfurma-bot/dsh-websearch-mcp) | Local web search for DeepSeek Harness via MCP — Bing/Brave/DuckDuckGo scraping, no API keys, agent-installable | Shell | 0 | NOASSERTION | 2026-08-24 |

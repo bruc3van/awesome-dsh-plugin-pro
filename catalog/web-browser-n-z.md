@@ -4,9 +4,9 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **470**
+- 本册收录 / Entries in this volume: **475**
 - 快照日期 / Snapshot date: **2026-11-27 UTC**
-- 最近人工复核 / Last review merge: **2026-11-27**
+- 最近人工复核 / Last review merge: **2026-11-28**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -250,6 +250,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [Octen-Team/dsh-octen](https://github.com/Octen-Team/dsh-octen) | Octen web search and fetch for DeepSeek Harness: web_search via Octen /search, web_fetch via Octen /extract. | TypeScript | 0 | MIT | 2026-10-08 |
 | [olegedly/dsh-plugin-brave-cdp](https://github.com/olegedly/dsh-plugin-brave-cdp) | DSH tools that drive your running Brave browser over the Chrome DevTools Protocol | JavaScript | 0 | MIT | 2026-10-18 |
 | [ollamadou/dsh-downloader](https://github.com/ollamadou/dsh-downloader) | Resumable multi-connection downloader for DeepSeek Harness with China mirror and proxy presets, plus DeepSeek-assisted resource discovery. | JavaScript | 0 | MIT | 2026-11-05 |
+| [oooO0O0O0O0ooo/dsh-web-annotate](https://github.com/oooO0O0O0O0ooo/dsh-web-annotate) | 在 DSH 自带浏览器里批注网页元素：自动生成带红框整页截图的单文件报告，批注随会话交给 AI | JavaScript | 0 | MIT | 2026-11-27 |
 | [opencamel/dsh-wb-archive](https://github.com/opencamel/dsh-wb-archive) | DSH (DeepSeek Harness) tool plugin: archive and read Weibo posts as permanent Markdown snapshots, powered by 2100laike Weibo Archive (wb.2100laike.com) | TypeScript | 0 | MIT | 2026-10-24 |
 | [opencamel/dsh-x-archive](https://github.com/opencamel/dsh-x-archive) | DSH (DeepSeek Harness) tool plugin: archive and read X (Twitter) posts as permanent Markdown snapshots, powered by 2100laike X Archive (x.2100laike.com) | TypeScript | 0 | MIT | 2026-10-24 |
 | [oTAKUBANG1/bili-follow-doctor](https://github.com/oTAKUBANG1/bili-follow-doctor) | B站关注体检：找出已注销和长期没更新的僵尸UP。油猴脚本 / DSH插件 / 命令行三种形态，纯本地运行。 | JavaScript | 0 | MIT | 2026-11-10 |
@@ -290,6 +291,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [ROY32172310/dsh-ego-webqa](https://github.com/ROY32172310/dsh-ego-webqa) | DSH bundle exposing ego-webqa as a native MCP delivery audit tool | JavaScript | 0 | MIT | 2026-10-31 |
 | [Ruak/dsh-native-shared-browser](https://github.com/Ruak/dsh-native-shared-browser) | Native right-sidebar shared browser tab for DeepSeek Harness (DSH): the user and the agent operate the same live page. | JavaScript | 0 | MIT | 2026-11-19 |
 | [runfali/dsh-web-custom](https://github.com/runfali/dsh-web-custom) | Pluggable web search + fetch for DSH: take over the native web_search / web_fetch seams with AnySearch or any JSON endpoint, and add standalone CDP / Tavily extract tools — one bundle, one settings card. | JavaScript | 0 | MIT | 2026-11-23 |
+| [runzhi214/gui-eyes](https://github.com/runzhi214/gui-eyes) | 通用 web GUI 采集与验证引擎：持久鉴权会话 + 观测 + 断言，CLI 与 MCP 双通道 | JavaScript | 0 | MIT | 2026-11-27 |
 | [RyanShen3/dsh-toutiao-reader](https://github.com/RyanShen3/dsh-toutiao-reader) | 读网页/头条文章全文的 DSH 插件：webfetch 工具 + toutiao-reader 经验技能 | JavaScript | 0 | MIT | 2026-08-30 |
 | [safroigor/dh_picker](https://github.com/safroigor/dh_picker) | Codex-style visual element picker for the DeepSeek Harness Desktop Browser — comment on page elements and send them to the agent as one request. | JavaScript | 0 | MIT | 2026-10-27 |
 | [SakuraMat0u/dsh-douyin-toolkit](https://github.com/SakuraMat0u/dsh-douyin-toolkit) | Douyin tools for DeepSeek Harness: dy-cli reads with an Edge XHR fallback, QR/SMS login state machine, account fingerprint, guarded comment. | JavaScript | 0 | MIT | 2026-10-20 |
@@ -387,6 +389,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [wangtheme-coder/dsh-dragon-control](https://github.com/wangtheme-coder/dsh-dragon-control) | Windows x64 only: self-contained DOM/CDP browser and UI Automation control for DSH Desktop. | JavaScript | 0 | MIT | 2026-10-22 |
 | [wanwujiehuyi-web/dsh-omni-browser](https://github.com/wanwujiehuyi-web/dsh-omni-browser) | Drive a real Chrome and bundle the DOM, accessibility tree, HAR with response bodies, console logs, storage, screenshots, PDF and screencast into one self-contained evidence folder. | JavaScript | 0 | MIT | 2026-11-05 |
 | [Wayne536/dsh-downloads](https://github.com/Wayne536/dsh-downloads) | DSH 下载插件：Web 界面右下角下载卡片，粘贴链接即可下载并实时显示大小、速度与剩余时间，另提供 download_file / watch_download / download_control 三个会话工具。 | JavaScript | 0 | MIT | 2026-11-25 |
+| [weedlu/dsh-browser-element-picker](https://github.com/weedlu/dsh-browser-element-picker) | DSH Desktop plugin: pick an element in the built-in browser toolbar and hand its descriptor to the agent. | JavaScript | 0 | MIT | 2026-11-27 |
 | [weixshaw/dsh-rss](https://github.com/weixshaw/dsh-rss) | DSH（DeepSeek Harness）RSS 阅读器插件：分组订阅、FreshRSS 账号同步、图片本地代理、BYOK AI 摘要/翻译/问答、播客与全文抓取 | JavaScript | 0 | MIT | 2026-10-06 |
 | [wgl2zj/dsh-websearch-zai-codingplan](https://github.com/wgl2zj/dsh-websearch-zai-codingplan) | 将智谱 GLM Coding Plan 的联网搜索 MCP 接入 DSH，让原生 web_search 走智谱搜索，支持设置页手动配置 API Key \| DSH plugin: route web_search through Zhipu GLM Coding Plan web-search MCP, with a manual API key | JavaScript | 0 | MIT | 2026-11-11 |
 | [Where227-arch/dsh-booth-search](https://github.com/Where227-arch/dsh-booth-search) | DSH plugin: search BOOTH for VRChat avatar assets, with a dedicated BOOTH page beside the conversation | JavaScript | 0 | MIT | 2026-10-26 |
@@ -423,6 +426,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [xiaoshuai1024/dsh-brief](https://github.com/xiaoshuai1024/dsh-brief) | DeepSeek Harness plugin: one tool (brief_fetch) that feeds Hacker News + new high-star GitHub entries to your agent — the agent writes your morning digest. Public APIs only, fetch-on-demand, no polling. | JavaScript | 0 | — | 2026-10-05 |
 | [xiaoxiaosrm/dsh-web-qa-preset](https://github.com/xiaoxiaosrm/dsh-web-qa-preset) | Read-only web Q&amp;A agent preset bundle for DeepSeek Harness (DSH): search-first answers, source citations, local read-only context, and next-step suggestions. | JavaScript | 0 | MIT | 2026-11-08 |
 | [xiaoyuqinA/dsh-vercel-agent-browser](https://github.com/xiaoyuqinA/dsh-vercel-agent-browser) | Connect Vercel agent-browser to DeepSeek Harness via MCP | JavaScript | 0 | — | 2026-11-16 |
+| [xiaozou-second/dsh-gateway-web-search](https://github.com/xiaozou-second/dsh-gateway-web-search) | DeepSeek Harness plugin: web search that follows each conversation's model route, key and headers, with DeepSeek official-channel handling and keyless Bing fallbacks | JavaScript | 0 | MIT | 2026-11-27 |
 | [xieyh2002/ego-liveview](https://github.com/xieyh2002/ego-liveview) | Live view of the ego browser inside the DeepSeek Harness sidebar | JavaScript | 0 | MIT | 2026-10-23 |
 | [xingzhen199186/dsh-jev-ultrafast](https://github.com/xingzhen199186/dsh-jev-ultrafast) | jev-ultrafast 的 DeepSeek Harness 插件实现，在dhs对话中用自然语言驱动真实浏览器，利用jev模型实现浏览器操控。 | TypeScript | 0 | NOASSERTION | 2026-11-07 |
 | [xingzoudefengye/dsh-sidebar-cdp](https://github.com/xingzoudefengye/dsh-sidebar-cdp) | Drive the native browser page in the DeepSeek Harness desktop Sidebar: nine tools, pure plugin, no launch flags | JavaScript | 0 | — | 2026-10-29 |
@@ -456,6 +460,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [yunweizhao26/dsh-browser-use-skill](https://github.com/yunweizhao26/dsh-browser-use-skill) | Browser Use agent skill for DeepSeek Harness: drive a real Chrome over CDP from a persistent Python REPL. PowerShell-ready, token-budgeted, safe for parallel agents. | PowerShell | 0 | MIT | 2026-11-18 |
 | [YuZtArt/dsh-plugin-background-browser](https://github.com/YuZtArt/dsh-plugin-background-browser) | DeepSeek Harness 后台浏览器插件：Playwright MCP 自动操作、会话隔离、侧栏共享交互，AI 操作优先。适配 DSH 0.1.5-rc.2，中文文档。 | TypeScript | 0 | MIT | 2026-09-16 |
 | [ywy-cyber/dsh-free-web-search](https://github.com/ywy-cyber/dsh-free-web-search) | Keyless web search provider for DeepSeek Harness (dsh): Bing, Firecrawl and Exa with language-aware failover. No API key, no billing. | JavaScript | 0 | MIT | 2026-11-13 |
+| [Z123M/dsh-chrome-suite](https://github.com/Z123M/dsh-chrome-suite) | Chrome browser tools for DeepSeek Harness: page snapshots, real clicks and typing, screenshots, tab control, downloads and DevTools Console/Network, with a pause gate and configurable action allowlists. | JavaScript | 0 | MIT | 2026-11-27 |
 | [zbc200205-spec/dsh-edge-bridge](https://github.com/zbc200205-spec/dsh-edge-bridge) | Let DeepSeek Harness drive your real Edge browser: 14 edge_* tools for page snapshot, click, type, scroll and screenshot. | JavaScript | 0 | MIT | 2026-10-20 |
 | [Zerin-emm/anysearch-dsh-ev](https://github.com/Zerin-emm/anysearch-dsh-ev) | 为 DeepSeek Harness 接入 AnySearch 搜索/抓取，并在插件页内置 API Key 设置卡片，留空即使用匿名额度。 | TypeScript | 0 | MIT | 2026-11-07 |
 | [zh9411543/dsh-ai-daily-digest](https://github.com/zh9411543/dsh-ai-daily-digest) | DSH 每日 AI 精华插件：自动抓取 + 本地模型撰写，杂志式图文日报。 | JavaScript | 0 | MIT | 2026-11-08 |

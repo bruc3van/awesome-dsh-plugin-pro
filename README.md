@@ -37,48 +37,48 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-11-27 共收录 **31315** 个经核实的仓库。它们长这样：
+截至 2026-11-27 共收录 **31593** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 31315))
-    界面与体验 · 7789
+  root((DSH 插件生态 31593))
+    界面与体验 · 7862
       用量与计费面板
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    Agent 自动化与工作流 · 5217
+    Agent 自动化与工作流 · 5272
       会话与上下文管理
       定时循环与事件唤醒
       审批、预算与检查点
-    开发者工具 · 4970
+    开发者工具 · 4996
       Git 与 diff
       模型网关与密钥
       调试与诊断
-    实用工具与其他 · 3437
+    实用工具与其他 · 3465
       文件与编码
       格式转换
-    知识与研究 · 2146
+    知识与研究 · 2164
       知识库与跨会话记忆
       深度研究
       学术与数学
-    设计媒体与视觉 · 2123
+    设计媒体与视觉 · 2148
       图片理解与 OCR
       设计画布与 UI 还原
       语音合成与识别
-    集成与分享 · 1838
+    集成与分享 · 1857
       会话导入与分享
       远程访问
       IM 与外部集成
-    生态与资源 · 1748
+    生态与资源 · 1761
       插件市场与注册表
       技能库与插件管家
       开发模板与脚手架
-    网页与浏览器 · 1075
+    网页与浏览器 · 1082
       浏览器桥接与页面操作
       网页搜索与引用
       归档与网页取证
-    多 Agent 编排协作 · 972
+    多 Agent 编排协作 · 986
       子代理与编排看板
       舰队与团队协作
       角色分工与任务验收
@@ -348,14 +348,14 @@ mindmap
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
-| [EverMind-AI/EverMe](https://github.com/EverMind-AI/EverMe) | 跨设备跨 Agent 的个人记忆层：CLI + 插件套件为 DSH 等多宿主提供记忆保存、检索与 MCP 记忆资源接入。 | 2026-05-27 |
-| [liyupi/memecub](https://github.com/liyupi/memecub) | 给 agent 接表情包库：按情绪搜索梗图、GIF 与中文表情包，还能对整篇文章自动挑选合适位置插图（MCP + Skill + CLI）。 | 2026-10-13 |
-| [liyupi/vibefather](https://github.com/liyupi/vibefather) | 320+ 原创建站模板库：agent 按需求检索模板，附同款提示词与 DESIGN.md，生成落地页、SaaS、作品集与 3D 站点。 | 2026-10-26 |
-| [qiniu/dsh-agentapi](https://github.com/qiniu/dsh-agentapi) | 七牛官方 AgentAPI 插件：把云端托管智能体、执行环境与持久会话接入 DSH 工作区，支持子代理协作与轨迹查看。 | 2026-11-26 |
-| [yc5991/dsh-wechatbot](https://github.com/yc5991/dsh-wechatbot) | 微信官方 iLink Bot 桥：扫码直连私聊做个人助理与远程遥控，双向加密传文件，记忆驱动提醒。 | 2026-11-25 |
-| [liqiangai/dsh-code-editor](https://github.com/liqiangai/dsh-code-editor) | 右侧栏 VS Code 风格代码编辑器：文件树、多标签、语法高亮、快速打开与带冲突检测的原子保存。 | 2026-11-26 |
-| [Daaaaavid-zhou/dsh-camera](https://github.com/Daaaaavid-zhou/dsh-camera) | macOS 本地拍照插件：输入框上方弹实时预览，快门照片直接作为附件进消息，随包内置相机应用。 | 2026-11-26 |
-| [tanbopiao/jixia-publish](https://github.com/tanbopiao/jixia-publish) | 把 AI 生成内容一键发布到稷下内容生态：强制标注 AI 生成、经玄圭双层审核后分发，面向 agent 的内容发布插件。 | 2026-11-26 |
+| [duduk233/miliastra-beyond-simulator](https://github.com/duduk233/miliastra-beyond-simulator) | 千星沙箱模拟器：Lua 驱动的 2D 奇域外置沙箱，同一份内容接入 DeepSeek Harness、Web 与 MCP 三端。 | 2026-09-23 |
+| [xiazeying/dsh-liang-rheostat](https://github.com/xiazeying/dsh-liang-rheostat) | 8 档滑动变阻器：拖动一刀切全屏交叉淡化壁纸与模型推理等级，装饰与功能二合一。 | 2026-11-27 |
+| [merrily01/dsh-quotacat](https://github.com/merrily01/dsh-quotacat) | LLM 供应商用量配额监控：输入框停靠胶囊、详情弹窗、阈值提醒与配额查询工具，已支持 GLM Coding Plan。 | 2026-11-26 |
+| [Yang-wudi/dsh-video-gen](https://github.com/Yang-wudi/dsh-video-gen) | 文生视频/图生视频插件：接 DashScope Wanx、豆包 Seedance、Google Veo、OpenAI Sora 与兼容中转。 | 2026-08-26 |
+| [kaideng1234/dsh-speech-loop](https://github.com/kaideng1234/dsh-speech-loop) | 实时语音回路：流式本地语音识别、VAD 自动发送、带预滚的抢占打断与 14 个中文音色。 | 2026-11-27 |
+| [polchan/dsh-group-chat](https://github.com/polchan/dsh-group-chat) | 多模型 bot 群聊：真实 DSH Agent 成员、流式对话、文件工具与房间内执行日志。 | 2026-11-27 |
+| [mantou132/dsh-plugin-agentdeck](https://github.com/mantou132/dsh-plugin-agentdeck) | 零配置手机远程控制：自动装 ACP 与 agentdeckd 并自启，配对二维码与保持唤醒控制。 | 2026-11-27 |
+| [linzhong-lin/dsh-qqbot](https://github.com/linzhong-lin/dsh-qqbot) | QQ 频道桥接：基于 OpenQQ（OneBot v11）的一对一/群聊桥接、语音合成发送与侧栏面板。 | 2026-11-27 |
 
 ## 📣 作者自荐
 
@@ -386,7 +386,7 @@ mindmap
 - **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog-v4.json`（schema 4 紧凑目录：含安装状态与映射、官方订阅及编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。schema 3 已下线。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-11-27，全量目录收录 **31315** 个仓库、**42** 种主要语言；其中 **28818** 个声明了许可证，**30964** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-11-27，全量目录收录 **31593** 个仓库、**42** 种主要语言；其中 **29072** 个声明了许可证，**31241** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 

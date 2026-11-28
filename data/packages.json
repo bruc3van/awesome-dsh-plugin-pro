@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27",
+  "updated_at": "2026-11-28",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -281,33 +281,6 @@
       "verified_date": "2026-10-22",
       "verified_via": "manifest@555a9acbc4c2",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
-    "1475505/dsh-plugin-miliastra-toolbox": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/1475505/dsh-plugin-miliastra-toolbox",
-          "source": "github:1475505/dsh-plugin-miliastra-toolbox",
-          "command": "dsh plugin --profile web add github:1475505/dsh-plugin-miliastra-toolbox"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-20",
-      "verified_via": "README@main",
-      "note": "README 的安装目标未提供可用的固定发行版本或 npm 来源；按已核验的默认分支提交固定到 Git 来源，安装命令由标准语法构造。"
-    },
-    "1475505/miliastra-beyond-simulator": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-plugin-beyond-simulator",
-          "source": "npm:dsh-plugin-beyond-simulator",
-          "command": "dsh plugin --profile web add dsh-plugin-beyond-simulator"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-17",
-      "verified_via": "README@master"
     },
     "1624318455/dsh-plugin-tts": {
       "packages": [
@@ -51344,19 +51317,6 @@
       "verified_date": "2026-11-21",
       "verified_via": "README@main"
     },
-    "zriyox/dsh-verify-judge": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/zriyox/dsh-verify-judge",
-          "source": "github:zriyox/dsh-verify-judge",
-          "command": "dsh plugin --profile web add github:zriyox/dsh-verify-judge"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
     "luodeb/dsh-web-auth-gateway": {
       "packages": [
         {
@@ -51786,19 +51746,6 @@
           "install": "https://github.com/wowayou/mydsh#path:/client/ui-notify",
           "source": "github:wowayou/mydsh#path:/client/ui-notify",
           "command": "dsh plugin --profile web add -w \"github:wowayou/mydsh#path:/client/ui-notify\""
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
-    "zriyox/dsh-goal-scaffold": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/zriyox/dsh-goal-scaffold",
-          "source": "github:zriyox/dsh-goal-scaffold",
-          "command": "dsh plugin --profile web add github:zriyox/dsh-goal-scaffold"
         }
       ],
       "status": "readme-verified",
@@ -96133,19 +96080,6 @@
       "verified_date": "2026-11-21",
       "verified_via": "README@main"
     },
-    "yuyuy9527/dsh-plugin-management": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/YUYUY9527/dsh-plugin-management",
-          "source": "github:YUYUY9527/dsh-plugin-management",
-          "command": "dsh plugin --profile web add github:YUYUY9527/dsh-plugin-management"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
     "xbzbing/dsh-openviking-manager": {
       "packages": [
         {
@@ -101852,19 +101786,6 @@
           "install": "https://github.com/wsm000/dsh-sandbox-temp-guard",
           "source": "github:wsm000/dsh-sandbox-temp-guard",
           "command": "npx @deepseek-ai/dsh plugin --profile desktop add github:wsm000/dsh-sandbox-temp-guard"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
-    "zepeng-jin/dsh-completion-notifier": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/zepeng-jin/dsh-completion-notifier",
-          "source": "github:zepeng-jin/dsh-completion-notifier",
-          "command": "dsh plugin --profile web add github:zepeng-jin/dsh-completion-notifier"
         }
       ],
       "status": "readme-verified",
@@ -109556,19 +109477,6 @@
           "install": "https://github.com/LightingHa/dsh-custom-vision",
           "source": "github:LightingHa/dsh-custom-vision",
           "command": "dsh plugin --profile desktop add github:LightingHa/dsh-custom-vision"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
-    "alicesaikawa/cache-sentinel": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/AliceSaikawa/cache-sentinel",
-          "source": "github:AliceSaikawa/cache-sentinel",
-          "command": "dsh plugin --profile web add github:AliceSaikawa/cache-sentinel"
         }
       ],
       "status": "readme-verified",
@@ -133480,25 +133388,6 @@
       "verified_date": "2026-11-21",
       "verified_via": "README@main"
     },
-    "beaver-awa/dsh-model-source-picker": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "https://github.com/BEAVER-awa/dsh-model-source-picker",
-          "source": "github:BEAVER-awa/dsh-model-source-picker",
-          "command": "dsh plugin --profile desktop add github:BEAVER-awa/dsh-model-source-picker"
-        },
-        {
-          "profile": "default",
-          "install": "https://github.com/BEAVER-awa/dsh-model-source-picker",
-          "source": "github:BEAVER-awa/dsh-model-source-picker",
-          "command": "dsh plugin add github:BEAVER-awa/dsh-model-source-picker"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
     "991206772-debug/dsh-notes": {
       "packages": [
         {
@@ -142171,19 +142060,6 @@
           "install": "https://github.com/yuanyuanzhang0815/dsh-prompt-book",
           "source": "github:yuanyuanzhang0815/dsh-prompt-book",
           "command": "dsh plugin --profile web add github:yuanyuanzhang0815/dsh-prompt-book"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "README@main"
-    },
-    "mustarddaddy/dsh-serial-proto": {
-      "packages": [
-        {
-          "profile": "desktop",
-          "install": "https://github.com/mustarddaddy/dsh-serial-proto",
-          "source": "github:mustarddaddy/dsh-serial-proto",
-          "command": "dsh plugin --profile desktop add github:mustarddaddy/dsh-serial-proto"
         }
       ],
       "status": "readme-verified",
@@ -184856,20 +184732,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "mc5lan/dsh-multimodal": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/MC5lan/dsh-multimodal",
-          "source": "url:https://github.com/MC5lan/dsh-multimodal",
-          "command": "dsh plugin --profile web add https://github.com/MC5lan/dsh-multimodal"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "mashedpotato817/dsh-tool-browser": {
       "packages": [],
       "status": "readme-verified",
@@ -199433,15 +199295,6 @@
       "verified_date": "2026-11-21",
       "verified_via": "review",
       "verified_by": "review"
-    },
-    "cheetahbeatbeat/dsh-optimize": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "README 文档化 npm 名 dsh-optimize，registry 404（corpus sweep 2026-11-21 核验）；发布后可恢复 npm 映射。"
     },
     "emck/tirol-dsh-language-set": {
       "packages": [],
@@ -254453,6 +254306,334 @@
       "verified_date": "2026-11-27",
       "verified_via": "manifest@760a463b3b44",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "duduk233/dsh-plugin-miliastra-toolbox": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/duduk233/dsh-plugin-miliastra-toolbox",
+          "source": "github:duduk233/dsh-plugin-miliastra-toolbox",
+          "command": "dsh plugin --profile web add github:duduk233/dsh-plugin-miliastra-toolbox"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-20",
+      "verified_via": "README@main",
+      "note": "README 的安装目标未提供可用的固定发行版本或 npm 来源；按已核验的默认分支提交固定到 Git 来源，安装命令由标准语法构造。"
+    },
+    "duduk233/miliastra-beyond-simulator": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-plugin-beyond-simulator",
+          "source": "npm:dsh-plugin-beyond-simulator",
+          "command": "dsh plugin --profile web add dsh-plugin-beyond-simulator"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@master"
+    },
+    "nvqy/cache-sentinel": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/nvqy/cache-sentinel",
+          "source": "github:nvqy/cache-sentinel",
+          "command": "dsh plugin --profile web add github:nvqy/cache-sentinel"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "README@main"
+    },
+    "beaver-fishcake/dsh-model-source-picker": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/BEAVER-fishcake/dsh-model-source-picker",
+          "source": "github:BEAVER-fishcake/dsh-model-source-picker",
+          "command": "dsh plugin --profile desktop add github:BEAVER-fishcake/dsh-model-source-picker"
+        },
+        {
+          "profile": "default",
+          "install": "https://github.com/BEAVER-fishcake/dsh-model-source-picker",
+          "source": "github:BEAVER-fishcake/dsh-model-source-picker",
+          "command": "dsh plugin add github:BEAVER-fishcake/dsh-model-source-picker"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "README@main"
+    },
+    "can-mrjin/dsh-completion-notifier": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/can-mrjin/dsh-completion-notifier",
+          "source": "github:can-mrjin/dsh-completion-notifier",
+          "command": "dsh plugin --profile web add github:can-mrjin/dsh-completion-notifier"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "README@main"
+    },
+    "barneyzhaoooo/dsh-theme-native": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-theme-native",
+          "command": "dsh plugin --profile web add dsh-theme-native",
+          "install": "dsh-theme-native"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "chicochol/dsh-holopet": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-pet-holocubic",
+          "command": "dsh plugin --profile desktop add dsh-pet-holocubic",
+          "install": "dsh-pet-holocubic"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "genesis-agents/dsh-plugins": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@ai4gensteam/dsh-agents-swarm",
+          "command": "dsh plugin --profile web add @ai4gensteam/dsh-agents-swarm",
+          "install": "@ai4gensteam/dsh-agents-swarm"
+        },
+        {
+          "profile": "web",
+          "source": "npm:@ai4gensteam/dsh-web-search",
+          "command": "dsh plugin --profile web add @ai4gensteam/dsh-web-search",
+          "install": "@ai4gensteam/dsh-web-search"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "deepsleepaquarium/dsh-whale-post": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-whale-post-bus",
+          "command": "dsh plugin add dsh-whale-post-bus",
+          "install": "dsh-whale-post-bus"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-whale-post-roster",
+          "command": "dsh plugin add dsh-whale-post-roster",
+          "install": "dsh-whale-post-roster"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-whale-post-types",
+          "command": "dsh plugin add dsh-whale-post-types",
+          "install": "dsh-whale-post-types"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-whale-post-deliver",
+          "command": "dsh plugin add dsh-whale-post-deliver",
+          "install": "dsh-whale-post-deliver"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-whale-post-gate",
+          "command": "dsh plugin add dsh-whale-post-gate",
+          "install": "dsh-whale-post-gate"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-whale-post-verify",
+          "command": "dsh plugin add dsh-whale-post-verify",
+          "install": "dsh-whale-post-verify"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-whale-post-cli",
+          "command": "dsh plugin add dsh-whale-post-cli",
+          "install": "dsh-whale-post-cli"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "whiteguo233/dsh-cc-connect": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:whiteguo233/dsh-cc-connect",
+          "command": "dsh plugin --profile web add github:whiteguo233/dsh-cc-connect",
+          "install": "https://github.com/whiteguo233/dsh-cc-connect"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "yaemikoreal/bilibiliplayer": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "git clone 后先把 dsh-plugin/cordis.patch.yml 里 command/args/cwd 三处路径改成本机位置，再执行 dsh plugin --profile desktop add link:<项目路径>/dsh-plugin 并重启 DSH。"
+    },
+    "ahn66/dsh-usage-lens": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "本地 bundle 安装：调用 DSH 插件管理器 plugin_manager install_bundle，target 指向本仓 checkout 内的 dsh-usage-lens 目录，装完刷新页面。"
+    },
+    "aik8s/cubesandbox-agent-adapter": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "运行本仓 ./scripts/install.sh dsh --adapter-url http://127.0.0.1:18080 --profile web 一键安装 Cordis 插件并生成 0600 权限 patch，再按安装器输出启动 DSH。"
+    },
+    "azek431/dsh-termux-bridge": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "在 Termux 的 DSH 环境里运行本仓 bash install.sh（自动探测 profile，也可显式传 profile 路径），装完重启 dsh 即多出 6 个 termux_* 工具。"
+    },
+    "bluebagbag/dsh-wordbook": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "git clone 本仓后运行 bash install.sh，脚本把三个插件（dsh-wordbook/dsh-maimemo/dsh-reading）链入 profile 的 node_modules、补 link: 依赖并追加 cordis.patch.yml Loader 行，刷新网页生效。"
+    },
+    "brickhu/dsh-plugins": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "clone 后逐插件运行自带安装脚本 node references|highlights|design|icon-studio/scripts/install.mjs（对应 @local/dsh-links、dsh-highlights、dsh-design-specs、dsh-icon-library 四件，--uninstall 还原 profile）。"
+    },
+    "cangwu-ai/dsh-easyremote": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "运行 npx @hakimedes/dsh-easyremote@latest 打开本机引导页，按向导下载 Android APK 并配置 Cloudflare Tunnel 完成手机互联。"
+    },
+    "casualjim/dsh-plugins": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "clone 后对每个 dsh-* 子目录（cavekit/caveman/codebase-memory/fleet/headroom/heimdall/heimdall-sandbox/pstack/worktrunk）本地安装：dsh plugin --profile web add link:<仓库路径>/<子目录>。"
+    },
+    "cloudbywu/dshchem": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "按 README 清单本地部署：clone 后接好 harness 依赖 junction、写入 chemist 预设与技能包，再 dsh plugin --profile web add link:<仓库路径>/packages/dsh-chem-core，并自备 Python3.10+/RDKit/xtb 环境；作者明确不做 npm 发布。"
+    },
+    "cmukanisa/dsh-remote-ssh": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "curl -fsSL https://raw.githubusercontent.com/cmukanisa/dsh-remote-ssh/main/install.sh | sh，或 clone 后运行 node install.mjs（事务式：检查→拷贝→写 patch→校验，失败自动回滚）。"
+    },
+    "daboge-beach/dsh-skin-studio": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "git clone 后 pnpm setup（首跑下载皮肤资源），再 pnpm install-to-dsh 接入本地 DSH 并重启；README 声明 npm 分发尚未发布，此为唯一支持安装路径。"
+    },
+    "dcsnkj/dsh-agent-sync": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "git clone 后建 Junction $env:USERPROFILE\\.dsh\\profiles\\node_modules\\@local\\dsh-agent-sync 指向本仓，再在 profile 的 cordis.patch.yml 末尾追加 - insert 条目（id: agent-sync，name: @local/dsh-agent-sync）。"
+    },
+    "esper967/dsh-music-insight": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "clone 本仓后执行 dsh plugin --profile <你的 profile> add link:<仓库路径>/dsh-plugin，或用 plugin_manager install_bundle 填 dsh-plugin 绝对路径；再配置 pythonPath 与 repoRoot。"
+    },
+    "francesco149/dsh-deep-research": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "按 README 把本仓交给 coding agent 读 AGENTS.md 部署，或自跑 python3 wizard/setup.py init / check / install（默认创建独立 research profile）；需 Python3.10+、uv、zstd 与 OpenAI 兼容模型服务。"
+    },
+    "nexu-io/opengame": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "在 OpenMotion 源码 checkout 内运行 node integrations/dsh/install.ts --profile PROFILE --data-dir /abs/workspace/data --language en，安装器会构建 integrations/dsh/plugin 并启用工作区与动作卡组件。"
+    },
+    "yestarone/feiyuos-memory-graph": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-28",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "git clone 后运行 node installer/install.mjs 自动给已装的 dsh-onebot-qq 打补丁（--check 预览 / --uninstall 还原），再按 examples/cordis-memory.yml 配 memory: 块并设 MEMORY_GRAPH_* 环境变量后重启。"
     }
   }
 }

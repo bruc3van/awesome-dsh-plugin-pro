@@ -4,9 +4,9 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1838**
+- 本册收录 / Entries in this volume: **1857**
 - 快照日期 / Snapshot date: **2026-11-27 UTC**
-- 最近人工复核 / Last review merge: **2026-11-27**
+- 最近人工复核 / Last review merge: **2026-11-28**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -700,10 +700,13 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Independent, default-off DingTalk Stream relay plugin for DeepSeek Harness: allowlisted sessions, ACK-first replies, and approvals. | JavaScript | 1 | MIT | 2026-08-15 |
 | [firstdreamlh/dsh-feishu-channel](https://github.com/firstdreamlh/dsh-feishu-channel) | DeepSeek Harness 一体化渠道插件（基于 dsh-channel-core 二次开发）：把 Discord 与飞书（Lark）两套渠道合进一个插件统一管理。含扫码创建/连接飞书机器人、扫码添加机器人、主人认领与身份核验、私聊与群聊会话路由、CardKit 流式进度卡片、/model 模型选择卡片、Ask User 交互，以及 channel_send 主动外发文字/图片/文件。本分支优化飞书回答卡片字号，附中英双语文档与回归测试。 | JavaScript | 1 | MIT | 2026-11-10 |
 | [forrestsweet/dsh-agent-replay](https://github.com/forrestsweet/dsh-agent-replay) | DeepSeek Harness 会话回放与脱敏分享插件：将真实 Agent 轨迹导出为独立交互 HTML，用于文档、演示和问题反馈。 | TypeScript | 1 | MIT | 2026-09-18 |
+| [fubai-fenzhi/dsh-bilibili-upload](https://github.com/fubai-fenzhi/dsh-bilibili-upload) | Upload videos to Bilibili from DSH through biliup: title, description, tags, cover, partition, visibility, plus a settings panel. | JavaScript | 1 | MIT | 2026-11-26 |
+| [fubai-fenzhi/dsh-qqmail](https://github.com/fubai-fenzhi/dsh-qqmail) | Manage a QQ mailbox from DSH: read, search, archive by rule, mark read, deduplicate, and send — over IMAP/SMTP with a dependency-free client. | JavaScript | 1 | MIT | 2026-11-27 |
 | [fuilyha56-wq/dsh-for-mofox-ada](https://github.com/fuilyha56-wq/dsh-for-mofox-ada) | DeepSeek Harness integration plugin for Neo-MoFox | Python | 1 | — | 2026-11-01 |
 | [fuqiang-lab/dsh-im-gateway](https://github.com/fuqiang-lab/dsh-im-gateway) | Deepseek harness im gateway | TypeScript | 1 | MIT | 2026-11-05 |
 | [fuyu-technology/dsh-freereply-ui](https://github.com/fuyu-technology/dsh-freereply-ui) | DeepSeek Harness 插件：免token自动回复 —— 命中规则时直接发预设话术，不经过模型、不消耗 token；设置页内分「群号」「个人QQ号」两个选项栏。 \| DSH plugin: token-free canned auto-reply with separate group / private-QQ tabs in the settings page. | JavaScript | 1 | Apache-2.0 | 2026-11-23 |
 | [gameswu/dsh-cross-collaboration](https://github.com/gameswu/dsh-cross-collaboration) | dsh跨设备agent协作插件 | TypeScript | 1 | — | 2026-10-05 |
+| [Gatsby666-jay/dsh-doubaowork-connect](https://github.com/Gatsby666-jay/dsh-doubaowork-connect) | 把本机登录的豆包工作接入 DeepSeek Harness 模型选择器：倍率由上游目录给出，逐模型图片输入开关、账号池自动换号、只读积分胶囊。Doubao Work models for DSH. | JavaScript | 1 | MIT | 2026-11-27 |
 | [GeekRicardo/dsh-better-tool-ui](https://github.com/GeekRicardo/dsh-better-tool-ui) | DeepSeek Harness web 插件：把工具调用（含 MCP）、流式工具行与 thinking 行渲染成紧凑时间线 | JavaScript | 1 | MIT | 2026-10-18 |
 | [GeekRicardo/dsh-cordis-mcp](https://github.com/GeekRicardo/dsh-cordis-mcp) | DeepSeek Harness 插件：把 DSH 的动态 Cordis 工具集（inspect/define/run/stop/undefine）以 MCP 暴露给 Claude Code。端点强制身份认证，token 可在 DSH 设置页配置。 | JavaScript | 1 | MIT | 2026-10-10 |
 | [GenePad/dsh-zot-library](https://github.com/GenePad/dsh-zot-library) | Zotero-compatible literature library plugin for DeepSeek Harness (dsh): browse &amp; edit a real zotero.sqlite, PDF import with metadata lookup, annotations, WebDAV file sync, an agent chat dock, and a full Zotero-compatible Microsoft Word citation plugin. | JavaScript | 1 | MIT | 2026-11-15 |
@@ -786,6 +789,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [liu3734/jira-tasks-dsh-plugin](https://github.com/liu3734/jira-tasks-dsh-plugin) | 在 DSH 会话输入框下方展示当前 JIRA 项目指派给当前用户的「开启 / 重新开启」任务列表。JIRA 地址与令牌从凭据读取；项目 Key 与 JQL 按工作区配置并持久化。 | JavaScript | 1 | MIT | 2026-11-05 |
 | [liudejua27-blip/fitmeet-dsh-plugin](https://github.com/liudejua27-blip/fitmeet-dsh-plugin) | 引力AI（原名 FitMeet）for DeepSeek Harness · AI 原生的人际互联即时通讯网络的中英文插件。 | TypeScript | 1 | MIT | 2026-10-17 |
 | [liufangrui1105/dsh-plugin-github](https://github.com/liufangrui1105/dsh-plugin-github) | For DSH to connect to GitHub  | JavaScript | 1 | MIT | 2026-11-18 |
+| [liushutong123/dsh-choerodon-plugin](https://github.com/liushutong123/dsh-choerodon-plugin) | 适配 DSH 的猪齿鱼插件：账号、项目、任务看板与项目模型接入 | JavaScript | 1 | Apache-2.0 | 2026-11-27 |
 | [liuyong0426/dsh-remote-control](https://github.com/liuyong0426/dsh-remote-control) | Remote control for DeepSeek Harness (DSH): pair a phone by QR code and keep working on the computer from the browser. | TypeScript | 1 | MIT | 2026-11-23 |
 | [liuyuxuan6666/dsh-doorbell](https://github.com/liuyuxuan6666/dsh-doorbell) | Outbound Feishu / DingTalk notifications for DeepSeek Harness: a turn finished, failed, needs approval, or is waiting on a question. | JavaScript | 1 | MIT | 2026-11-19 |
 | [LJH-snow/dsh-tool-slack](https://github.com/LJH-snow/dsh-tool-slack) | Slack tools for DeepSeek Harness | TypeScript | 1 | MIT | 2026-10-30 |
@@ -973,6 +977,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [zengyuxiang0921/RemoteDSH](https://github.com/zengyuxiang0921/RemoteDSH) | 连接世界各地的蓝色大肥鱼！ | JavaScript | 1 | — | 2026-11-06 |
 | [ZengZichao/dsh-wechat-publish](https://github.com/ZengZichao/dsh-wechat-publish) | DeepSeek Harness (DSH) plugin: paper translation (PDF → Chinese Markdown) and WeChat official-account publishing from Markdown, with a preview/publish/settings panel. | Python | 1 | MIT | 2026-11-14 |
 | [zhang0098/dsh-telegram-channel](https://github.com/zhang0098/dsh-telegram-channel) | Telegram mobile remote for DeepSeek Harness sessions (Martty/ACP-compatible fork of hi-wenw/dsh-telegram-channel): bind a chat to a live session, plain text = followup, /model /last /sessions. | TypeScript | 1 | MIT | 2026-10-11 |
+| [zhanghaoyudeyouxiang-sketch/dsbot-antigravity-bridge](https://github.com/zhanghaoyudeyouxiang-sketch/dsbot-antigravity-bridge) | 专为想在 DS Bot 中使用 Google Antigravity、又担心第三方 CLI 封号的用户设计：全原生内置 Sidecar + agentapi，非外部 CLI/OAuth 劫持，零安全风险。 | JavaScript | 1 | NOASSERTION | 2026-11-27 |
 | [zhengjy01/dsh-wechat-clawbot](https://github.com/zhengjy01/dsh-wechat-clawbot) | DSH plugin: WeChat floating-ball bridge (QR login, message relay to agent) — maintained fork of lubaiUwU/DSH-WeChatClawBot with context_token + login-loop fixes | JavaScript | 1 | MIT | 2026-11-09 |
 | [Zhiyi-Zhao/dsh-notion-skill](https://github.com/Zhiyi-Zhao/dsh-notion-skill) | DSH (DeepSeek Harness) skill: read/write Notion workspaces via the official REST API | Python | 1 | MIT | 2026-08-27 |
 | [ZhongYiSS/dsh-onebot-paopao](https://github.com/ZhongYiSS/dsh-onebot-paopao) | PaoPao: a companion layer for DSH - proactive QQ messages by weighted mood, B? video picking, voice/image/video understanding. Based on dsh-onebot. | JavaScript | 1 | MIT | 2026-11-12 |
@@ -1033,6 +1038,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [AlgoVaultLabs/dsh-algovault](https://github.com/AlgoVaultLabs/dsh-algovault) | Preconfigured DeepSeek Harness bundle for the AlgoVault MCP server — composite trade calls, market regime and cross-venue funding arbitrage as mcp__algovault__* tools. | JavaScript | 0 | MIT | 2026-08-30 |
 | [Aliang-code/dsh-fusion-lean](https://github.com/Aliang-code/dsh-fusion-lean) | Fusion 360 for DSH: the MCP tools with their exact schemas, an editable endpoint, and the hf modelling loop — one bundle, two rows. | JavaScript | 0 | MIT | 2026-11-10 |
 | [alitrack/dsh-wechat-article](https://github.com/alitrack/dsh-wechat-article) | Markdown -&gt; WeChat Official Account draft from inside DeepSeek Harness (dsh): inline-style HTML, 900x383 cover, draft push with read-back. Zero dependencies. | JavaScript | 0 | MIT | 2026-11-12 |
+| [Allenyou1126/dsh-donetick-webhook](https://github.com/Allenyou1126/dsh-donetick-webhook) | Receive signed Donetick webhooks and inject them into a DeepSeek Harness conversation as a reminder-style prompt. | JavaScript | 0 | MIT | 2026-11-27 |
 | [Allenyou1126/dsh-mobile-notify](https://github.com/Allenyou1126/dsh-mobile-notify) | Web-first notifications for DeepSeek Harness approvals/questions, with Server酱³ App fallback and scopen deep links. | TypeScript | 0 | — | 2026-11-20 |
 | [Altermoe/dsh-onedev](https://github.com/Altermoe/dsh-onedev) | DeepSeek Harness Plugin for OneDev | TypeScript | 0 | MIT | 2026-10-26 |
 | [altmanWang/dsh-qq-email](https://github.com/altmanWang/dsh-qq-email) | QQ邮箱插件 | JavaScript | 0 | MIT | 2026-10-26 |
@@ -1111,6 +1117,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [chencujinlin/dsh-task-personas](https://github.com/chencujinlin/dsh-task-personas) | DSH 飞书会话人格、表情与自主群聊；内含配套 IM Connect 人格扩展版 1.0.8-personas.6 | JavaScript | 0 | MIT | 2026-10-22 |
 | [ChengqianHuang/dsh-lark](https://github.com/ChengqianHuang/dsh-lark) | Lark/Feishu bridge bundle for DeepSeek Harness: drive local dsh sessions from chat messages and reply in chat | TypeScript | 0 | MIT | 2026-10-11 |
 | [chenhao6682108/dsh-skill-netease-playlist](https://github.com/chenhao6682108/dsh-skill-netease-playlist) | NetEase Cloud Music playlist toolkit as a DeepSeek Harness (DSH) skill plugin | JavaScript | 0 | MIT | 2026-11-21 |
+| [chenlie84/dsh-sync-station](https://github.com/chenlie84/dsh-sync-station) | 跨设备同步 DeepSeek Harness 的会话、工作区与插件配置到私有 GitHub 仓库。Cross-device sync for DeepSeek Harness. | JavaScript | 0 | MIT | 2026-11-27 |
 | [chenvinc/dsh-relay-client](https://github.com/chenvinc/dsh-relay-client) | DeepSeek Harness plugin: cross-session &amp; cross-device messaging via pcpanel relay (npm: dsh-relay-client) | JavaScript | 0 | MIT | 2026-11-17 |
 | [chenxin105/dsh-lark-bridge](https://github.com/chenxin105/dsh-lark-bridge) | 飞书智能体桥接deepseek-harness插件 | JavaScript | 0 | MIT | 2026-10-12 |
 | [ChenXu233/shixu](https://github.com/ChenXu233/shixu) | 时煦：DSH 的渠道内核 + 人格引擎 —— 让一个人格同时活在多个聊天平台里 | TypeScript | 0 | Apache-2.0 | 2026-11-07 |
@@ -1232,6 +1239,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [HNGM-HP/dsh-lan-access](https://github.com/HNGM-HP/dsh-lan-access) | Device-approved LAN access for the native DeepSeek Harness Web UI. | JavaScript | 0 | MIT | 2026-11-20 |
 | [honor-99/dsh-feishu-bridge](https://github.com/honor-99/dsh-feishu-bridge) | 用飞书远程驱动本机 DeepSeek Harness：消息即任务，会话记录在 DSH 与飞书双端一致，无需公网 IP 或内网穿透 | JavaScript | 0 | MIT | 2026-11-09 |
 | [hoogte-oile/gh-gitlab](https://github.com/hoogte-oile/gh-gitlab) | A gh-compatible CLI over the GitLab API, so dsh-superagent's GitHub-only Source can watch a GitLab project. | JavaScript | 0 | MIT | 2026-11-07 |
+| [Houraiji9/dsh-grok-build](https://github.com/Houraiji9/dsh-grok-build) | DeepSeek Harness plugin embedding the official local Grok Build CLI (ACP) into the native model picker with a graphical Settings console. | JavaScript | 0 | MIT | 2026-11-27 |
 | [hoyin-law/dsh-feishu-cli](https://github.com/hoyin-law/dsh-feishu-cli) | Feishu/Lark CLI for DeepSeek Harness: QR sign-in panel, command console, and agent tools (18 domains, 200+ commands, full OpenAPI). | JavaScript | 0 | MIT | 2026-11-03 |
 | [hs666-ai/dsh-tencent-docs-bridge](https://github.com/hs666-ai/dsh-tencent-docs-bridge) | Unofficial DSH plugin bridging Tencent Docs official MCP endpoint (docs.qq.com) · 腾讯文档官方 MCP 桥（社区非官方） | JavaScript | 0 | MIT | 2026-10-21 |
 | [huangxicheng1/blog-manage](https://github.com/huangxicheng1/blog-manage) | A DeepSeek Harness plugin that manages a GitHub Pages blog: browse, write and publish content/*.md without a local clone. | JavaScript | 0 | MIT | 2026-10-21 |
@@ -1260,6 +1268,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [Into-the-Numind/Ding-Wall](https://github.com/Into-the-Numind/Ding-Wall) | Ding Wall · 钉一钉 — a warm paper-style shared pinboard plugin for DeepSeek Harness: ideas, to-dos, anonymous notes, team pulse. | JavaScript | 0 | MIT | 2026-11-10 |
 | [iris-mei614/dsh-wechat-channel](https://github.com/iris-mei614/dsh-wechat-channel) | Bidirectional WeChat (iLink / ClawBot) channel plugin for DeepSeek Harness (DSH) | TypeScript | 0 | MIT | 2026-11-04 |
 | [irislilymoon/dsh-qq-workspace](https://github.com/irislilymoon/dsh-qq-workspace) | DSH plugin: QQ bot working directory, workspace grouping, upload routing and a QQ-session security lock | JavaScript | 0 | MIT | 2026-10-28 |
+| [itr-del/dsh-article-digest](https://github.com/itr-del/dsh-article-digest) | 把「发个文章链接，我按四段式读给你」做成 DSH 插件 —— 技能（主要内容 / 亮点金句 / 关键词 / 联想）+ 微信号 iLink BOT | JavaScript | 0 | MIT | 2026-11-27 |
 | [itsnone-liu/dsh-feishu](https://github.com/itsnone-liu/dsh-feishu) | Feishu/Lark bridge for DeepSeek Harness (dsh) — long-connection, card streaming, slash commands | JavaScript | 0 | — | 2026-10-31 |
 | [itzsu123/dsh-inline-plugin](https://github.com/itzsu123/dsh-inline-plugin) | 给 DeepSeek Harness 加个插件:把信息整理成 Inline 能接入的文章 | JavaScript | 0 | MIT | 2026-10-20 |
 | [ivanant/dsh-simple-remote](https://github.com/ivanant/dsh-simple-remote) | 这是一款 DeepSeek Harness Plugin，安装后无需设置，手机即可访问 | JavaScript | 0 | MIT | 2026-10-16 |
@@ -1292,6 +1301,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [jony5933/codex-dsh-bridge](https://github.com/jony5933/codex-dsh-bridge) | A visible, workspace-aware Codex to DeepSeek Harness Web Host bridge. | TypeScript | 0 | MIT | 2026-09-12 |
 | [journ10/codex-dsh-bridge](https://github.com/journ10/codex-dsh-bridge) | HTTP MCP bridge for Codex to create and continue visible sessions in DeepSeek Harness Web | JavaScript | 0 | MIT | 2026-10-13 |
 | [joymitu/xuyi-memory-release](https://github.com/joymitu/xuyi-memory-release) | 续忆 · 让 DeepSeek Harness 的 QQ 陪伴助手记得你说过的话，并写一本日记 | Python | 0 | MIT | 2026-11-12 |
+| [jsnancy/dsh-shiliu-wechat-assistant](https://github.com/jsnancy/dsh-shiliu-wechat-assistant) | 十六公众号助手：学任意一篇公众号文章的版式，把内容排好存进草稿箱。 | JavaScript | 0 | MIT | 2026-11-27 |
 | [judyding1121-web/dsh-vehicle-watch](https://github.com/judyding1121-web/dsh-vehicle-watch) | DSH 插件：监控西安四款车型（小米SU7/理想i6/问界M7/极氪001）的瓜子二手车新上架与降价，推送到企业微信/飞书并生成 Excel。 | JavaScript | 0 | MIT | 2026-10-27 |
 | [juntaoqian/dsh-remote-v2](https://github.com/juntaoqian/dsh-remote-v2) | DSH Remote v2: isolated sidecar + authenticated gateway + one-time pairing for DeepSeek Harness remote access | JavaScript | 0 | MIT | 2026-11-06 |
 | [juzpost/dsh-juzpost](https://github.com/juzpost/dsh-juzpost) | DeepSeek Harness plugin for JuzPost, a free social media scheduler with low-cost paid plans. Connects dsh to the JuzPost MCP server and registers the posting skill. | JavaScript | 0 | MIT | 2026-11-03 |
@@ -1370,6 +1380,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [lingsheng-master/dsh-eventline](https://github.com/lingsheng-master/dsh-eventline) | 四端共用的一条事件线（DSH / QQ / B站 / 桌宠），只追加不改写，醒来先看它 | JavaScript | 0 | — | 2026-10-31 |
 | [LingSuiYA/deepseek-web-import-f](https://github.com/LingSuiYA/deepseek-web-import-f) | DeepSeek 对话导入的功能补充：在 deepseek-web-import 基础上保留图片与附件。 | JavaScript | 0 | MIT | 2026-10-24 |
 | [LinkADSL/dsh-wechat-clawbot-access](https://github.com/LinkADSL/dsh-wechat-clawbot-access) | Pure-script WeChat ClawBot bridge for DeepSeek Harness: open the DSH Web UI on a phone via IPv6 + SSH tunnel, with QR login, owner approval and access-info pushes. No Agent or LLM tokens. | JavaScript | 0 | MIT | 2026-11-19 |
+| [linzhong-lin/dsh-qqbot](https://github.com/linzhong-lin/dsh-qqbot) | DeepSeek Harness 的 QQ 频道插件：基于 OpenQQ（OneBot v11）的一对一/群聊桥接，自带 QQ 表情、语音合成发送、「主动搭话」计时器，以及首页侧边栏面板。 | JavaScript | 0 | MIT | 2026-11-27 |
 | [lishuaibing521/dsh-hermes-feishu](https://github.com/lishuaibing521/dsh-hermes-feishu) |  DeepSeek Harness 的飞书/Lark 通道：长连接收发消息、Markdown 表格渲染成飞书原生 table 组件、13 个飞书操作工具，带 Web 设置页、语音收发、媒体上传与模型故障转移链。 | JavaScript | 0 | MIT | 2026-11-11 |
 | [liubaicai/dsh-qoder-link](https://github.com/liubaicai/dsh-qoder-link) | 将Qoder CLI 接入 DeepSeek Harness (DSH) 的插件 | TypeScript | 0 | MIT | 2026-11-21 |
 | [LiuHongXuMaritime/dsh-wechat-session](https://github.com/LiuHongXuMaritime/dsh-wechat-session) | DeepSeek Harness plugin: run and manage the local wxsession WeChat auto-reply engine from Settings. | JavaScript | 0 | Apache-2.0 | 2026-11-23 |
@@ -1414,6 +1425,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [MacilyDots/dsh-olivia-bridge](https://github.com/MacilyDots/dsh-olivia-bridge) | 《BSide: Olivia Lin》离线客户端的本地信件桥：复现 /toy/letter/* 契约，由 DSH agent 会话回信并记住每一封信 | JavaScript | 0 | MIT | 2026-10-16 |
 | [Making-acid/dsh-codex-bridge](https://github.com/Making-acid/dsh-codex-bridge) | Run authenticated local DeepSeek Harness batches from Codex on Windows. | — | 0 | MIT | 2026-11-11 |
 | [Manta-Network/lifeclaw](https://github.com/Manta-Network/lifeclaw) | LifeClaw hosted MCP for agent phone calls, message relay, and business inquiries | — | 0 | MIT | 2026-10-16 |
+| [mantou132/dsh-plugin-agentdeck](https://github.com/mantou132/dsh-plugin-agentdeck) | Zero-config mobile remote control plugin for DeepSeek Harness (dsh) via AgentDeck — auto-installs ACP &amp; agentdeckd with autostart, pairing QR code, and keep-awake controls. | JavaScript | 0 | MIT | 2026-11-27 |
 | [mapan0424/deepseek-harness-channels](https://github.com/mapan0424/deepseek-harness-channels) | Community channel plugins for DeepSeek Harness: core, visual config, and Feishu channel. | JavaScript | 0 | MIT | 2026-09-01 |
 | [MaRi23333/dsh-serverchan-watchdog](https://github.com/MaRi23333/dsh-serverchan-watchdog) | DeepSeek Harness 的 Server酱推送插件：审批、计划评审或问答超时未处理时，发送微信/Server酱³ App 提醒。第三方非官方项目。 | TypeScript | 0 | Apache-2.0 | 2026-11-06 |
 | [mariGoIds/dsh-lan-proxy](https://github.com/mariGoIds/dsh-lan-proxy) | DeepSeek Harness 的远程访问插件：让手机/公网能打开 dsh 界面，支持 IP 白名单、密码登录、HTTPS 和IPv6 直连。 | JavaScript | 0 | MIT | 2026-09-10 |
@@ -1443,10 +1455,13 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [MoonightsZ/dsh-qqbot-dispatch](https://github.com/MoonightsZ/dsh-qqbot-dispatch) | 本插件是 @tencent-connect/dsh-qqbot 的社区补充，可向 QQ 机器人建立的群聊或私聊会话下发任务，并在 DSH 侧栏查看会话、管理可自定义的功能模组。 | JavaScript | 0 | MIT | 2026-11-12 |
 | [MrKillerBad/dsh-phone-gateway](https://github.com/MrKillerBad/dsh-phone-gateway) | Control the DeepSeek Harness running on your computer from a phone on the same Wi-Fi: UDP discovery, pairing codes, one control seat, and a native Android app. | JavaScript | 0 | MIT | 2026-11-11 |
 | [MrPunchLeonardo/accurlex-dsh-legal](https://github.com/MrPunchLeonardo/accurlex-dsh-legal) | DeepSeek Harness plugin for accurLex Open Platform legal tools | JavaScript | 0 | MIT | 2026-10-21 |
+| [msp-world/dsh-msp](https://github.com/msp-world/dsh-msp) | MSP node tools and A2A skills for DeepSeek Harness | JavaScript | 0 | MIT | 2026-11-27 |
 | [MSSZSD3925/dsh-msszsd-toolkit](https://github.com/MSSZSD3925/dsh-msszsd-toolkit) | DSH 小功能合集：QQ 远程驾驶、跨会话提问（含上下文守卫）、界面暂停按钮、重启 DSH 后自动续跑、贵时段纪律注入。插件详情页带五个运行期开关。 | JavaScript | 0 | MIT | 2026-11-11 |
 | [mubaid/dsh-linkedin-agent](https://github.com/mubaid/dsh-linkedin-agent) | Eleven LinkedIn agent skills for DeepSeek Harness (port of Jakeschincariol/linkedin-agent-skill), MIT. | Python | 0 | MIT | 2026-10-04 |
 | [muhadif/dsh-atlassian-mcp](https://github.com/muhadif/dsh-atlassian-mcp) | Confluence and Jira connector for DeepSeek Harness (Atlassian remote MCP) | JavaScript | 0 | MIT | 2026-11-20 |
 | [MuQY1818/ds-bot-mobile-bridge](https://github.com/MuQY1818/ds-bot-mobile-bridge) | Device pairing, scoped authorization and message transport for the DS Bot native mobile client. An independent DSH plugin. | JavaScript | 0 | Apache-2.0 | 2026-10-19 |
+| [MUYU46548/dsh-fangcun](https://github.com/MUYU46548/dsh-fangcun) | 方寸（Tegula）的附属项目，专用DSH插件，适用于DeepSeek Harness。 | JavaScript | 0 | MIT | 2026-11-27 |
+| [MUYU46548/dsh-ronghuamofang](https://github.com/MUYU46548/dsh-ronghuamofang) | 绒花墨坊（Ronghua Mofang）附属项目，专用DSH 插件，用于连接绒花墨坊本体与DSH，深度集成DSH工作平台，提供更强大的小说创作能力。 | JavaScript | 0 | MIT | 2026-11-27 |
 | [Myco-Lee/dsh-lan-peers](https://github.com/Myco-Lee/dsh-lan-peers) | DeepSeek Harness plugin: zero-config LAN peer discovery (UDP announce + HTTP channel + agent tools) | JavaScript | 0 | MIT | 2026-11-07 |
 | [Myco-Lee/dsh-wan-peers](https://github.com/Myco-Lee/dsh-wan-peers) | DeepSeek Harness plugin: internet-wide peer discovery with E2E encryption over ntfy-compatible rendezvous | JavaScript | 0 | MIT | 2026-11-07 |
 | [mysterycode-liwen/dsh-email](https://github.com/mysterycode-liwen/dsh-email) | DeepSeek Harness 侧边栏邮件插件：通过 IMAP/SMTP 收发 QQ、163、Gmail 等邮箱邮件，凭据存本地保险箱。 | JavaScript | 0 | MIT | 2026-11-25 |
@@ -1464,6 +1479,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [nineoooo/dsh-qzone-echo](https://github.com/nineoooo/dsh-qzone-echo) | 把你本人发过的 QQ 空间说说收进本地库，自动分成思考/梦记/推荐三栏，可逐条人工纠正；配一个口令锁住的私人网页查看器，补回被接口截断的长文，按年月统计字数，备份配图。Cookie 只存本机。 | JavaScript | 0 | MIT | 2026-10-31 |
 | [nixuejun888/dsh-plugin-wechat](https://github.com/nixuejun888/dsh-plugin-wechat) | Command the DSH agent from WeChat · 左侧栏「微信遥控」：扫一次码，用微信指挥电脑上的 DSH 智能体干活 | JavaScript | 0 | MIT | 2026-11-14 |
 | [NkhszkQAQ/dsh-notify](https://github.com/NkhszkQAQ/dsh-notify) | dsh 插件：任务完成推送手机通知（Bark / Server酱 / webhook） | JavaScript | 0 | — | 2026-09-11 |
+| [noahhqy-star/dsh-weread](https://github.com/noahhqy-star/dsh-weread) | 在 DeepSeek Harness 里打开微信读书书架、分屏阅读和按需找书。 | JavaScript | 0 | — | 2026-11-27 |
 | [Noctfom/Galatea-Link-DSH](https://github.com/Noctfom/Galatea-Link-DSH) | Galatea-Link项目的DeepseekHarness(DSH)对接插件 | JavaScript | 0 | GPL-3.0 | 2026-10-23 |
 | [noir-hedgehog/DeepseekHarnessEmbed](https://github.com/noir-hedgehog/DeepseekHarnessEmbed) | Embed your DeepSeek Harness Web GUI in an Obsidian sidebar — the vault becomes the agent's workspace. | JavaScript | 0 | MIT | 2026-11-26 |
 | [NOirBRight/dsh-mobile-pairing](https://github.com/NOirBRight/dsh-mobile-pairing) | DSH Mobile Remote pairing plugin | JavaScript | 0 | MIT | 2026-09-25 |
@@ -1664,6 +1680,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [Veersion/dsh-mys-checkin](https://github.com/Veersion/dsh-mys-checkin) | 米游社每日自动签到（DSH 侧边栏面板）：扫码登录、窗口内随机签到、失败提示 | JavaScript | 0 | MIT | 2026-10-25 |
 | [Very12345/dsh-lark-link](https://github.com/Very12345/dsh-lark-link) | Fork of amlyczz/dsh-lark-link — Feishu/Lark bridge for DeepSeek Harness, adding card streaming status, per-app isolation, multi-user management, session admin and site preview. | TypeScript | 0 | MIT | 2026-10-02 |
 | [Vesna-Strivozha-cn/dsh-bili-account-bridge](https://github.com/Vesna-Strivozha-cn/dsh-bili-account-bridge) | 一份 B站 登录态给养鱼（dsh-bili-whale）与大肥鱼（dsh-dafeiyu-life）共用：每条消息先按共享词库定归属，再由两侧闸门决定谁动、谁静默，同一句只回一次。 | JavaScript | 0 | NOASSERTION | 2026-11-15 |
+| [VeynAI/dsh-plugin-dshm](https://github.com/VeynAI/dsh-plugin-dshm) | DSHM plugin for DeepSeek Harness: pair your iPhone or iPad over LAN or your own VPN | JavaScript | 0 | MIT | 2026-11-27 |
 | [VictorKozachek/dsh-dispatcher](https://github.com/VictorKozachek/dsh-dispatcher) | Remote control for DSH agent questions: route ask_user_question to Telegram/MAX or a self-hosted Rust relay and answer from your phone. Kanban multi-agent workflow included. | JavaScript | 0 | MIT | 2026-11-12 |
 | [videndi/dsh-collab](https://github.com/videndi/dsh-collab) | DSH 多人协作研究室：邀请链接/二维码把朋友拉进你的项目，各自用自己的 token 跑研究，实时同步每个人的会话进度（局域网 / 跨网段隧道） | JavaScript | 0 | MIT | 2026-11-25 |
 | [viethoang35/dsh-chat-bridge](https://github.com/viethoang35/dsh-chat-bridge) | Chat bridge that connects Telegram (WhatsApp, Zalo, Viber, ... ) to DeepSeek Harness via its headless CLI | JavaScript | 0 | MIT | 2026-09-12 |
@@ -1789,6 +1806,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [Yo1ick/dsh-stuck-reply](https://github.com/Yo1ick/dsh-stuck-reply) | DSH 卡住会话飞书答复代理：会话卡在提问/审批/计划时飞书通知你，回复自动喂回会话。 | JavaScript | 0 | MIT | 2026-10-29 |
 | [yoggu/dsh-qr-phone-login](https://github.com/yoggu/dsh-qr-phone-login) | QR-code phone login for a DeepSeek Harness over its configured public HTTPS origin. | JavaScript | 0 | MIT | 2026-09-29 |
 | [yoggu/dsh-telegram-bridge](https://github.com/yoggu/dsh-telegram-bridge) | Host-only DSH plugin for a pre-authorized private Telegram chat | JavaScript | 0 | MIT | 2026-09-29 |
+| [youkucola/dsh-aurabot-private-notice](https://github.com/youkucola/dsh-aurabot-private-notice) | Aurabot 模块：主人私聊时注入通知，并附带距上次说话的间隔 | JavaScript | 0 | MIT | 2026-11-27 |
 | [youkucola/dsh-aurabot-world-parlor](https://github.com/youkucola/dsh-aurabot-world-parlor) | Aurabot 模块：复用 Coopanion 客厅插件接回 parlor.com.cn（9 工具 + SSE 唤醒 + 通知分项开关 + 游戏中静默） | JavaScript | 0 | NOASSERTION | 2026-11-16 |
 | [Yourtokenkeeper/dsh-deepseek-c](https://github.com/Yourtokenkeeper/dsh-deepseek-c) | DSH plugin that exposes a personal DeepSeek web session as agent tools (chat / sessions / history), with built-in rate limiting. | JavaScript | 0 | MIT | 2026-11-15 |
 | [youxin484/qq-bridge-addons](https://github.com/youxin484/qq-bridge-addons) | qq-bridge 扩展：本地 GPT-SoVITS 动态语音 + B 站视频摘要（附 DSH 端口自愈） | JavaScript | 0 | MIT | 2026-11-04 |
@@ -1806,6 +1824,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [yuyeyubee/dsh-link](https://github.com/yuyeyubee/dsh-link) | DSH Link: connect DeepSeek Harness on several computers and an Android phone through your own TLS relay — native remote Sessions, remote model/preset settings, streaming switch, AI tools, and on-device voice input. | JavaScript | 0 | MIT | 2026-11-15 |
 | [yuzhej523-maker/dsh-hongyi](https://github.com/yuzhej523-maker/dsh-hongyi) | DSH plugin: relay DSH status/tasks/commands/files to your phone via your own mailbox (IMAP/SMTP). No server needed. | JavaScript | 0 | MIT | 2026-11-10 |
 | [Yylx-R/dsh-console](https://github.com/Yylx-R/dsh-console) | 手机远程操作你的 DSH：电脑执行、手机指挥，自托管中继 | Kotlin | 0 | MIT | 2026-11-03 |
+| [YZY131425/dsh-fish-channel](https://github.com/YZY131425/dsh-fish-channel) | School channel plugin for DSH: bind a workspace/session and deliver school messages. | JavaScript | 0 | — | 2026-11-27 |
 | [z8313568/dsh-chat](https://github.com/z8313568/dsh-chat) | 面向 DSH 的去中心化 AI 社交与创作网络：发现 · 好友 · 分享 · 直播 · 节点共建 | JavaScript | 0 | MIT | 2026-10-11 |
 | [Zafer-Liu/dsh-vibe-assistant-bridge](https://github.com/Zafer-Liu/dsh-vibe-assistant-bridge) | DeepSeek Harness bridge plugin for Vibe Assistant: shared-memory injection, MCP observation, token usage, collection triggers, recall/skill tools | TypeScript | 0 | MIT | 2026-10-29 |
 | [zdddrszj985/dsh-Phone-Linking](https://github.com/zdddrszj985/dsh-Phone-Linking) | 在 iPhone 上连接这台电脑的 DeepSeek Harness：自带局域网入口、公网隧道与横屏桌面层。LAN gateway, Cloudflare tunnel and a landscape desktop layer for the DSH web GUI on iPhone. | JavaScript | 0 | MIT | 2026-11-23 |

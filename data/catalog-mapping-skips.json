@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27",
+  "updated_at": "2026-11-28",
   "entries": {
     "daha1216/dsh-adult-tension": {
       "reason": "Agent Skill（原生 SKILL）：`skill/adult-tension/` 含 SKILL.md + references + 运行时，安装方式是把该目录复制进 ~/.dsh/skills/，没有 cordis 插件或 dsh bundle 清单",
@@ -293,6 +293,34 @@
     "leolee9086/sac_search": {
       "reason": "repo no longer ships any plugin: the three plugins (dsh-tool-websearch, dsh-tool-everything, dsh-better-session-query) split into their own repositories and this repo keeps only history/shared assets (\"本仓库不再发布插件包\"); documented install is pnpm add github:<sibling> + manual cordis.patch.yml edit against those sibling repos - maintainer should queue the sibling repos instead",
       "date": "2026-11-27"
+    },
+    "01float01/dsh-remote": {
+      "reason": "独立 Node TLS 反向网关（gateway/，npm start 运行），package.json 无 dsh bundle 且仓库无插件目录，非 dsh plugin 可装目标",
+      "date": "2026-11-28"
+    },
+    "afap/plugin-bastion-bridge-qizhi": {
+      "reason": "install.ps1 装的是 DSH 技能包（写入 .dsh/skills/bastion-qizhi）并替换齐治客户端 putty.exe 桥接器，纯技能包无 dsh 插件安装目标",
+      "date": "2026-11-28"
+    },
+    "anthealaffy/tomato-todo": {
+      "reason": "Tauri 桌面 App（AUR/deb/exe 分发），仓库树无 dsh bundle 或插件目录，非 DSH 插件",
+      "date": "2026-11-28"
+    },
+    "ciceroyang/dsh-doctor": {
+      "reason": "独立健康检查 CLI（npx github:ciceroyang/dsh-doctor 运行），无 dsh bundle，装完不挂载任何插件，非插件包",
+      "date": "2026-11-28"
+    },
+    "devockr/idsh": {
+      "reason": "Docker 化的 DSH 宿主发行版（docker compose 部署，@idsh/* 配套插件随镜像走），安装路径是容器镜像而非 dsh plugin add",
+      "date": "2026-11-28"
+    },
+    "shawnren57/omni-learning-anything": {
+      "reason": "skills.sh 技能包（npx skills add ... --skill，另附 Claude Code 插件市场装法），面向通用 AI 客户端的纯 skill 包，非 DSH 插件",
+      "date": "2026-11-28"
+    },
+    "soyoungzsy/soya-workflows": {
+      "reason": "作者声明仓库文件已损坏并停用安装（README 明示不要运行 install.sh 或当作有效 Skill 安装），当前无可安装插件",
+      "date": "2026-11-28"
     }
   }
 }

@@ -37,48 +37,48 @@ No extra plugin required — add the curated index directly to DSH's built-in Di
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-11-27 the catalog lists **31,315** verified repositories. Here is the shape of it:
+As of 2026-11-27 the catalog lists **31,593** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 31315))
-    UI and experience · 7789
+  root((DSH ecosystem 31593))
+    UI and experience · 7862
       Usage and billing panels
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Agents automation workflows · 5217
+    Agents automation workflows · 5272
       Session and context management
       Scheduled loops and event wakeups
       Approval budget and checkpoints
-    Developer tools · 4970
+    Developer tools · 4996
       Git and diff
       Model gateways and keys
       Debugging and diagnostics
-    Utilities and more · 3437
+    Utilities and more · 3465
       Files and encodings
       Format conversion
-    Knowledge and research · 2146
+    Knowledge and research · 2164
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Design media and vision · 2123
+    Design media and vision · 2148
       Image understanding and OCR
       Design canvas and UI restoration
       Speech synthesis and recognition
-    Integrations and sharing · 1838
+    Integrations and sharing · 1857
       Chat import and sharing
       Remote access
       IM and external integrations
-    Ecosystem and resources · 1748
+    Ecosystem and resources · 1761
       Plugin markets and registries
       Skill libraries and plugin managers
       Templates and scaffolds
-    Web and browser · 1075
+    Web and browser · 1082
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Multi-agent orchestration · 972
+    Multi-agent orchestration · 986
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
@@ -348,14 +348,14 @@ Screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
-| [EverMind-AI/EverMe](https://github.com/EverMind-AI/EverMe) | A cross-device, cross-agent personal memory layer: CLI + plugin suite giving DSH and other hosts memory storage, retrieval and MCP memory resources. | 2026-05-27 |
-| [liyupi/memecub](https://github.com/liyupi/memecub) | A meme library for agents: search reaction memes, GIFs and Chinese 表情包 by feeling, and auto-place them into articles (MCP + Skill + CLI). | 2026-10-13 |
-| [liyupi/vibefather](https://github.com/liyupi/vibefather) | 320+ original website templates: agents search by need and get the exact prompt and DESIGN.md to build landing pages, SaaS sites, portfolios and 3D sites. | 2026-10-26 |
-| [qiniu/dsh-agentapi](https://github.com/qiniu/dsh-agentapi) | The official Qiniu AgentAPI plugin: managed cloud agents, execution environments and persistent sessions inside the DSH workspace, with subagent collaboration and trajectory views. | 2026-11-26 |
-| [yc5991/dsh-wechatbot](https://github.com/yc5991/dsh-wechatbot) | WeChat official iLink Bot bridge: QR-code direct private chat as a personal assistant and remote control, two-way encrypted file transfer, memory-driven reminders. | 2026-11-25 |
-| [liqiangai/dsh-code-editor](https://github.com/liqiangai/dsh-code-editor) | A VS Code-style code editor in the right sidebar: file tree, tabs, syntax highlighting, quick open and atomic saves with conflict detection. | 2026-11-26 |
-| [Daaaaavid-zhou/dsh-camera](https://github.com/Daaaaavid-zhou/dsh-camera) | Local macOS photo capture: live preview above the input box, shots go straight into the message as attachments, with a bundled camera app. | 2026-11-26 |
-| [tanbopiao/jixia-publish](https://github.com/tanbopiao/jixia-publish) | Publish AI-generated content to the Jixia ecosystem in one click: mandatory AI labeling, Xuangui two-layer review, agent-native publishing. | 2026-11-26 |
+| [duduk233/miliastra-beyond-simulator](https://github.com/duduk233/miliastra-beyond-simulator) | A Genshin Miliastra sandbox simulator: a Lua-driven 2D external sandbox wired to DeepSeek Harness, Web and MCP alike. | 2026-09-23 |
+| [xiazeying/dsh-liang-rheostat](https://github.com/xiazeying/dsh-liang-rheostat) | An 8-tier rheostat slider: one drag swaps full-app cross-faded wallpapers and the model's reasoning effort at once. | 2026-11-27 |
+| [merrily01/dsh-quotacat](https://github.com/merrily01/dsh-quotacat) | LLM provider usage & quota monitoring: composer-dock pill, detail dialog, threshold alerts and a quota tool; GLM Coding Plan supported today. | 2026-11-26 |
+| [Yang-wudi/dsh-video-gen](https://github.com/Yang-wudi/dsh-video-gen) | Text/image-to-video generation for DashScope Wanx, Doubao Seedance, Google Veo, OpenAI Sora and compatible relays. | 2026-08-26 |
+| [kaideng1234/dsh-speech-loop](https://github.com/kaideng1234/dsh-speech-loop) | A real-time voice loop: streaming local speech-to-text, VAD auto-send, barge-in with pre-roll and 14 Chinese edge-tts voices. | 2026-11-27 |
+| [polchan/dsh-group-chat](https://github.com/polchan/dsh-group-chat) | Multi-model bot group chats: real DSH Agent members, streaming, file tools and in-room execution logs. | 2026-11-27 |
+| [mantou132/dsh-plugin-agentdeck](https://github.com/mantou132/dsh-plugin-agentdeck) | Zero-config mobile remote control: auto-installs ACP & agentdeckd with autostart, pairing QR code and keep-awake controls. | 2026-11-27 |
+| [linzhong-lin/dsh-qqbot](https://github.com/linzhong-lin/dsh-qqbot) | QQ channel bridge over OpenQQ (OneBot v11): one-to-one and group chat, TTS sends, proactive-chat timers and a sidebar panel. | 2026-11-27 |
 
 ## 📣 Author showcase
 
@@ -386,7 +386,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Market data (npm feed):** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) publishes `market-catalog-v4.json` (schema 4 compact catalog with install status and mappings, the subscription, and editorial picks) and `packages.json` (the install-mapping source). It is projected by `scripts/safe-market-catalog.mjs`, packaged by `publish-npm-feed.mjs`, and mirrored through npmmirror. Schema 3 has been retired. See the [consumer specification](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md).
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-11-27, the catalog lists **31,315** repositories across **42** primary languages; **28,818** declare a license and **30,964** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-11-27, the catalog lists **31,593** repositories across **42** primary languages; **29,072** declare a license and **31,241** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 
