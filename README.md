@@ -106,7 +106,7 @@ mindmap
 ### 🖥️ 桌面与终端
 
 - **想要独立的桌面客户端**，而不是浏览器标签页：[DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) —— DeepSeek Harness 的专业版桌面客户端，主打企业级配置：个人装好就能用，窗口加载原汁原味的官方 Web UI，关闭窗口任务照跑、常驻托盘随点随开；安装包自带官方运行时，双击即用，不用装 Node.js、也不用敲命令，首次启动自动订阅本清单的精选插件列表，在「发现」页浏览和按需安装。放进公司用也合适：IT 部署开源管理服务端（或只放一份配置文件），统一配置模型网关、插件订阅、Skill 和工具权限，员工用公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux 三大平台；安全上逐层加固——窗口沙箱、导航锁定、更新链路校验、权限最小化。
-- **想在终端里用 Claude Code 风格界面**：[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) —— 全屏交互终端：状态行、思考流展开、上下文/TPS 仪表；tianshu 版本还内置 TDD 与证据门工作流。
+- **想在终端里用 Claude Code 风格界面**：[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) —— 全屏交互终端：状态行、思考流展开、上下文/TPS 仪表。
 - **想在 Windows 上少折腾终端**：[dsh-ops](https://github.com/T-Auto/dsh-ops) —— Windows 提效套装：可选自带 Bash 接管反复报错的内置终端，配原生 Rust 低 token 读取工具，提升 token 效率。
 - **想在安卓手机上本地跑 DSH**：[dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) —— 安卓壳 APK：WebView UI + 内嵌 Termux 运行时、SAF 目录桥、保活服务与看门狗。只想用手机遥控电脑上已在跑的 DSH，见下方 [dsh-pocket](https://github.com/shaobeichen/dsh-pocket)。
 - **想让 Agent 查清磁盘占用、预览后再清理**：[Mole](https://github.com/tw93/Mole) —— Tw93 的开源电脑清理工具，通过官方 `dsh-mole` 技能插件接入 DSH，支持 macOS 与 Windows：分析磁盘空间、清理缓存和应用残留、读取系统健康状态。先展示清理预览，征得同意后执行；交互式卸载与管理员操作由用户在终端完成。需本机安装 Mole CLI，尚未安装时由 Agent 先询问再协助安装。
@@ -114,7 +114,7 @@ mindmap
 | | | |
 | :---: | :---: | :---: |
 | <a href="https://github.com/bruc3van/dsh-desktop-pro"><img src="https://github.com/bruc3van/dsh-desktop-pro/raw/main/docs/images/dsh-desktop-home.png" alt="DSH Desktop Pro · 客户端" width="280"></a><br>[DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) | <a href="https://github.com/bruc3van/dsh-desktop-pro"><img src="https://raw.githubusercontent.com/bruc3van/dsh-desktop-pro/main/docs/images/console-overview.png" alt="DSH Desktop Pro · 管理控制台" width="280"></a><br>[DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) | <a href="https://github.com/ccch1mneyyy/dsh-TUI"><img src="https://raw.githubusercontent.com/ccch1mneyyy/dsh-TUI/main/screenshots/social-preview.png" alt="dsh-TUI" width="280"></a><br>[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) |
-| <a href="https://github.com/huiliyi37/dsh-tianshu-tui"><img src="https://raw.githubusercontent.com/huiliyi37/dsh-tianshu-tui/main/docs/tui-screenshot.jpg" alt="dsh-tianshu-tui" width="280"></a><br>[dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | <a href="https://github.com/T-Auto/dsh-ops"><img src="https://raw.githubusercontent.com/T-Auto/dsh-ops/main/docs/assets/462/row-page.jpg" alt="dsh-ops" width="280"></a><br>[dsh-ops](https://github.com/T-Auto/dsh-ops) | <a href="https://github.com/tw93/Mole"><img src="https://raw.githubusercontent.com/tw93/Mole/main/docs/img/big-mole.png" alt="Mole · 电脑清理工具" width="280"></a><br>[Mole](https://github.com/tw93/Mole) |
+| <a href="https://github.com/T-Auto/dsh-ops"><img src="https://raw.githubusercontent.com/T-Auto/dsh-ops/main/docs/assets/462/row-page.jpg" alt="dsh-ops" width="280"></a><br>[dsh-ops](https://github.com/T-Auto/dsh-ops) | <a href="https://github.com/tw93/Mole"><img src="https://raw.githubusercontent.com/tw93/Mole/main/docs/img/big-mole.png" alt="Mole · 电脑清理工具" width="280"></a><br>[Mole](https://github.com/tw93/Mole) | |
 
 ### 🧰 界面与工作台
 
@@ -159,7 +159,6 @@ mindmap
 ### ✍️ 对话体验细节
 
 - **想调节思考强度**：[dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) —— Codex 风格的思考强度滑块，以及大肥鱼跑步滑块。
-- **想像 Codex 一样选中文本批注**：[dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) —— 选中助手文本、可附一句说明后随消息发送，模型按编号逐条回应，回复里内嵌可悬浮的批注标签。
 - **想把对话摊上画布、按分支整理**：[dsh-synapse](https://github.com/liangmianya/dsh-synapse) —— 画布式会话探索与分支工作台，非线性梳理长对话里的多条思路。
 
 | | | |
@@ -197,12 +196,11 @@ mindmap
 - **想给 Agent 团队配一块本地任务板**：[DSH-taskboard](https://github.com/shengsheng90/DSH-taskboard) —— SQLite 原生任务板：项目、认领、评审一体，原生 Web UI、无 iframe、无第二聊天运行时。
 - **想让 Agent 驱动 iOS 模拟器或真机**：[dsh-ios](https://github.com/ZSeven-W/dsh-ios) —— 在对话里运行实时 iOS 模拟器（或 USB 连接的 iPhone），22 个工具按无障碍标识启动、构建、驱动 UI。
 - **想让 Agent 的工作方式可组合、可持续进化**：[dsh-evolve-modes](https://github.com/GraySilver/dsh-evolve-modes) —— 可组合任务控制 + 隔离且经人工复核的自进化，改进先审查再生效。
-- **想让 DSH 直连数据库做分析**：[dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) —— 把 DSH 连上你的数据库：对话式数据分析与可执行的业务洞察。
 
 | | | |
 | :---: | :---: | :---: |
 | <a href="https://github.com/NanmiCoder/dsh-agent-teams"><img src="https://raw.githubusercontent.com/NanmiCoder/dsh-agent-teams/main/assets/ui.png" alt="dsh-agent-teams" width="280"></a><br>[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | <a href="https://github.com/shengsheng90/DSH-taskboard"><img src="https://raw.githubusercontent.com/shengsheng90/DSH-taskboard/main/docs/assets/taskboard-demo.gif" alt="DSH-taskboard" width="280"></a><br>[DSH-taskboard](https://github.com/shengsheng90/DSH-taskboard) | <a href="https://github.com/ZSeven-W/dsh-ios"><img src="https://raw.githubusercontent.com/ZSeven-W/dsh-ios/main/docs/images/dsh-ios-overview.png" alt="dsh-ios" width="280"></a><br>[dsh-ios](https://github.com/ZSeven-W/dsh-ios) |
-| <a href="https://github.com/GraySilver/dsh-evolve-modes"><img src="https://raw.githubusercontent.com/GraySilver/dsh-evolve-modes/main/assets/evolve-modes-review.png" alt="dsh-evolve-modes · 自进化设置" width="280"></a><br>[dsh-evolve-modes](https://github.com/GraySilver/dsh-evolve-modes) | <a href="https://github.com/omdsh-dev/dsh-data-agent"><img src="https://raw.githubusercontent.com/omdsh-dev/dsh-data-agent/main/assets/tables.webp" alt="dsh-data-agent · 查询结果" width="280"></a><br>[dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) | <a href="https://github.com/Fei2411/DS-Bot"><img src="https://raw.githubusercontent.com/Fei2411/DS-Bot/main/docs/images/team.png" alt="DS-Bot · 机器人编队" width="280"></a><br>[DS-Bot](https://github.com/Fei2411/DS-Bot) |
+| <a href="https://github.com/GraySilver/dsh-evolve-modes"><img src="https://raw.githubusercontent.com/GraySilver/dsh-evolve-modes/main/assets/evolve-modes-review.png" alt="dsh-evolve-modes · 自进化设置" width="280"></a><br>[dsh-evolve-modes](https://github.com/GraySilver/dsh-evolve-modes) | <a href="https://github.com/Fei2411/DS-Bot"><img src="https://raw.githubusercontent.com/Fei2411/DS-Bot/main/docs/images/team.png" alt="DS-Bot · 机器人编队" width="280"></a><br>[DS-Bot](https://github.com/Fei2411/DS-Bot) | |
 
 ### 🔀 迁移与集成
 
@@ -245,14 +243,12 @@ mindmap
 
 ### 🛡️ 安全与审计
 
-- **想确认中转 API 有没有被做过手脚**：[api-relay-audit](https://github.com/toby-bridges/api-relay-audit) —— 本地审计 AI API 中继与 LLM 代理：检测提示注入、模型替换、工具调用重写、SSE 异常、错误泄漏与 Web3 钱包风险，单文件 Python 即跑即出脱敏报告（AGPL-3.0）。
 - **想给 DSH 上一道“装坏了能撤销”的安全网**：[dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) —— 配置与插件代码改动可撤销、secret-safe 快照、一键 SAFE MODE；DSH 完全起不来时，还有离线 CLI/GUI 帮你回滚。
 - **想要授权范围内的红队工作台**：[dsh-redteam-model](https://github.com/SeaOf0/dsh-redteam-model) —— 基于 DSH Web 的多模式红队工作台：覆盖渗透测试、红队评估与代码审计，预设与运行时插件在一个设置页管理（仅限授权安全研究）。
 
 | | | |
 | :---: | :---: | :---: |
-| <a href="https://github.com/toby-bridges/api-relay-audit"><img src="https://raw.githubusercontent.com/toby-bridges/api-relay-audit/master/assets/readme-banner.png" alt="api-relay-audit" width="280"></a><br>[api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | <a href="https://github.com/lire1131/dsh-undo-savepoint"><img src="https://raw.githubusercontent.com/lire1131/dsh-undo-savepoint/master/docs/shots/webui-header.png" alt="dsh-undo-savepoint · 会话头部" width="280"></a><br>[dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | <a href="https://github.com/lire1131/dsh-undo-savepoint"><img src="https://raw.githubusercontent.com/lire1131/dsh-undo-savepoint/master/docs/shots/safe-mode-confirm.png" alt="dsh-undo-savepoint · 安全模式确认" width="280"></a><br>[dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) |
-| <a href="https://github.com/lire1131/dsh-undo-savepoint"><img src="https://raw.githubusercontent.com/lire1131/dsh-undo-savepoint/master/docs/shots/message-undo.png" alt="dsh-undo-savepoint · 消息级撤销" width="280"></a><br>[dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | | |
+| <a href="https://github.com/lire1131/dsh-undo-savepoint"><img src="https://raw.githubusercontent.com/lire1131/dsh-undo-savepoint/master/docs/shots/webui-header.png" alt="dsh-undo-savepoint · 会话头部" width="280"></a><br>[dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | <a href="https://github.com/lire1131/dsh-undo-savepoint"><img src="https://raw.githubusercontent.com/lire1131/dsh-undo-savepoint/master/docs/shots/safe-mode-confirm.png" alt="dsh-undo-savepoint · 安全模式确认" width="280"></a><br>[dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | <a href="https://github.com/lire1131/dsh-undo-savepoint"><img src="https://raw.githubusercontent.com/lire1131/dsh-undo-savepoint/master/docs/shots/message-undo.png" alt="dsh-undo-savepoint · 消息级撤销" width="280"></a><br>[dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) |
 
 ### 🌱 生态入口
 
@@ -271,7 +267,7 @@ mindmap
 | --- | --- | --- |
 | 日常体验 | 第一次装插件：先装桌面客户端，再把侧边栏变成工作台 | [DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) · [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
 | 专业插件市场 | 精选、浏览、安装、更新及安装后 AI 审查；按需安装 `dsh-market-pro@1.0.0` | [DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) |
-| 终端控 | 喜欢命令行，想要全屏交互终端（二选一） | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) |
+| 终端控 | 喜欢命令行，想要全屏交互终端 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) |
 | 搜索与生图 | 对话里搜网页、直接出图（官方已能看图，不必再装视觉插件） | [modsearch](https://github.com/liustack/modsearch) · [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
 | 界面美化 | 换皮肤、玻璃质感、桌面宠物 | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) · [DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) · [whale-girl](https://github.com/vlln/whale-girl) |
 | 多 Agent 协作 | 把复杂任务交给一支 Agent 团队 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) · [dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) |
